@@ -39,11 +39,14 @@ body {
   font-family: var(--font-sans);
   background-color: var(--bg-app);
   color: var(--text-main);
-  height: 100vh;
-  overflow: hidden;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
+}
+
+body.app-layout {
+  height: 100vh;
+  overflow: hidden;
 }
 
 code, pre, .font-mono {

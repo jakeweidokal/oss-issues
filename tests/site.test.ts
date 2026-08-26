@@ -22,6 +22,13 @@ describe('Frontend Static Site Integrity & User-First Contract', () => {
     assert.ok(aboutContent.includes('How to Claim'));
   });
 
+  test('styles.css does not block global body scrolling on document pages', () => {
+    const cssPath = path.resolve('src/site/styles.css');
+    const cssContent = fs.readFileSync(cssPath, 'utf8');
+    assert.ok(!cssContent.includes('body {\n  font-family: var(--font-sans);\n  background-color: var(--bg-app);\n  color: var(--text-main);\n  height: 100vh;\n  overflow: hidden;'));
+    assert.ok(cssContent.includes('body.app-layout {'));
+  });
+
   test('index.html contains site explainer banner and link to about.html', () => {
     assert.ok(htmlContent.includes('about.html'), 'index.html must link to about.html');
     assert.ok(htmlContent.includes('What is this?'));
