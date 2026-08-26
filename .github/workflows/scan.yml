@@ -40,7 +40,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Run OSS Issues Scanner
+      - name: Run Test Suite & Type Check
+        run: |
+          pnpm typecheck
+          pnpm test
+
+      - name: Run Quick Issues Scanner
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

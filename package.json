@@ -8,6 +8,7 @@
     "scan": "tsx src/runner/index.ts",
     "scan:dry": "tsx src/runner/index.ts --dry-run",
     "build:site": "node src/runner/build-site.js",
+    "test": "tsx --test tests/**/*.test.ts",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [

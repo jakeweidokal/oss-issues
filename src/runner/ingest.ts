@@ -118,8 +118,8 @@ query SearchCandidateIssues($searchQuery: String!, $cursor: String) {
 }
 `;
 
-async function executeGraphQLWithRetry(
-  graphqlClient: ReturnType<typeof graphql.defaults>,
+export async function executeGraphQLWithRetry(
+  graphqlClient: any,
   query: string,
   variables: Record<string, any>,
   maxRetries = 3
