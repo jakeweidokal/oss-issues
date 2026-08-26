@@ -37,11 +37,27 @@ function getFrictionLabel(friction) {
   return friction;
 }
 
+// Safe Lucide icon initializer
+function safeCreateIcons() {
+  if (window.lucide && typeof window.lucide.createIcons === 'function') {
+    try {
+      window.lucide.createIcons();
+    } catch (err) {
+      console.warn('Lucide icon error:', err);
+    }
+  }
+}
+
 // Load issues
 async function loadIssues() {
   const container = getEl('issues-container');
   try {
-    const candidatePaths = ['data/issues.json', './data/issues.json', '../data/issues.json'];
+    const candidatePaths = [
+      'data/issues.json',
+      './data/issues.json',
+      '../data/issues.json',
+      window.location.pathname.replace(/\/[^/]*$/, '') + '/data/issues.json',
+    ];
     let response;
 
     for (const path of candidatePaths) {
@@ -52,12 +68,12 @@ async function loadIssues() {
           break;
         }
       } catch {
-        // try next
+        // try next candidate path
       }
     }
 
     if (!response) {
-      throw new Error('Failed to load issues dataset from endpoint');
+      throw new Error('Failed to load issues dataset from any candidate path');
     }
 
     allIssues = await response.json();
@@ -66,7 +82,7 @@ async function loadIssues() {
   } catch (err) {
     console.error('Error loading issues:', err);
     if (container) {
-      container.innerHTML = '<div class="p-12 text-center text-xs text-zinc-500">Could not load issues dataset. Please run the scanner to generate data/issues.json.</div>';
+      container.innerHTML = '<div class="p-12 text-center text-xs text-zinc-500">Could not load issues dataset. Please check your network connection or try refreshing.</div>';
     }
   }
 }
@@ -183,7 +199,7 @@ function renderFeed() {
         <p class="text-xs text-zinc-500">Try adjusting your language tab or search query.</p>
       </div>
     `;
-    if (window.lucide) window.lucide.createIcons();
+    safeCreateIcons();
     return;
   }
 
@@ -305,9 +321,7 @@ function renderFeed() {
     });
   });
 
-  if (window.lucide) {
-    window.lucide.createIcons();
-  }
+  safeCreateIcons();
 }
 
 // Toast helper
@@ -394,7 +408,13 @@ function initEventListeners() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function init() {
   initEventListeners();
   loadIssues();
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
