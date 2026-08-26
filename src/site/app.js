@@ -1,14 +1,12 @@
-// Quick Issues — User-First NetNewsWire-style Desktop Layout
+// Route 1: Single-Column Developer Stream with First-Class Language Tabs
 
 let allIssues = [];
 let filteredIssues = [];
-let selectedIndex = 0;
 
 const state = {
+  selectedLanguage: 'all',
   searchQuery: '',
   blastRadius: 'all',
-  setupFriction: 'all',
-  language: 'all',
   sortBy: 'solvability',
 };
 
@@ -24,38 +22,24 @@ function getSolvabilityLabel(score) {
   return `Complex (${score}/10)`;
 }
 
-function getSolvabilityHelper(score) {
-  if (score >= 8) return 'Clear isolated fix with tests (typically ~1–2 hours)';
-  if (score >= 5) return 'Standard multi-file logic change with good testability';
-  return 'Requires deeper architectural context or cross-module refactoring';
+function getBlastRadiusLabel(blast) {
+  if (blast === 'Low') return 'Low Blast (Isolated)';
+  if (blast === 'Medium') return 'Medium Blast';
+  if (blast === 'High') return 'High Blast';
+  return `${blast} Blast`;
 }
 
 function getFrictionLabel(friction) {
-  if (friction === 'Zero-dependency') return 'Zero-dependency (Library)';
-  if (friction === 'Standard') return 'Standard Install (npm/pip/cargo)';
-  if (friction === 'Docker required') return 'Docker Container Required';
-  if (friction === 'Local DB required') return 'Local Database Required';
+  if (friction === 'Zero-dependency') return 'Zero-dep';
+  if (friction === 'Standard') return 'Standard Install';
+  if (friction === 'Docker required') return 'Docker Required';
+  if (friction === 'Local DB required') return 'Local DB';
   return friction;
-}
-
-function getFrictionHelper(friction) {
-  if (friction === 'Zero-dependency') return 'Pure code; no external services or containers needed';
-  if (friction === 'Standard') return 'Standard package installation (e.g. npm install / pip install)';
-  if (friction === 'Docker required') return 'Requires Docker to run local development environment';
-  if (friction === 'Local DB required') return 'Requires local PostgreSQL, Redis, or Mongo database';
-  return 'Requires specific environment setup';
-}
-
-function getBlastRadiusLabel(blast) {
-  if (blast === 'Low') return 'Low (Isolated to Module)';
-  if (blast === 'Medium') return 'Medium (Standard Multi-file)';
-  if (blast === 'High') return 'High (Architectural / Wide)';
-  return `${blast} Blast Radius`;
 }
 
 // Load issues
 async function loadIssues() {
-  const issuesList = getEl('issues-list');
+  const container = getEl('issues-container');
   try {
     const candidatePaths = ['data/issues.json', './data/issues.json', '../data/issues.json'];
     let response;
@@ -77,35 +61,68 @@ async function loadIssues() {
     }
 
     allIssues = await response.json();
-    populateLanguageFilter();
+    renderLanguageTabs();
     applyFiltersAndRender();
   } catch (err) {
     console.error('Error loading issues:', err);
-    if (issuesList) {
-      issuesList.innerHTML = '<div class="p-6 text-center text-xs text-zinc-500">Could not load issues dataset. Please run the scanner to generate data/issues.json.</div>';
+    if (container) {
+      container.innerHTML = '<div class="p-12 text-center text-xs text-zinc-500">Could not load issues dataset. Please run the scanner to generate data/issues.json.</div>';
     }
   }
 }
 
-function populateLanguageFilter() {
-  const langFilter = getEl('language-filter');
-  if (!langFilter) return;
+// Render first-class language filter tabs
+function renderLanguageTabs() {
+  const tabsContainer = getEl('language-tabs');
+  if (!tabsContainer) return;
 
-  const languages = Array.from(
-    new Set(allIssues.map((i) => i.language).filter(Boolean))
-  ).sort();
+  const countsByLang = {};
+  allIssues.forEach((issue) => {
+    const lang = issue.language || 'Other';
+    countsByLang[lang] = (countsByLang[lang] || 0) + 1;
+  });
 
-  langFilter.innerHTML = '<option value="all">All Languages</option>';
-  languages.forEach((lang) => {
-    const opt = document.createElement('option');
-    opt.value = lang;
-    opt.textContent = lang;
-    langFilter.appendChild(opt);
+  const sortedLanguages = Object.keys(countsByLang).sort((a, b) => countsByLang[b] - countsByLang[a]);
+
+  let html = `
+    <button class="lang-pill ${state.selectedLanguage === 'all' ? 'active' : ''}" data-lang="all">
+      All (${allIssues.length})
+    </button>
+  `;
+
+  sortedLanguages.forEach((lang) => {
+    const count = countsByLang[lang];
+    const isActive = state.selectedLanguage === lang;
+    html += `
+      <button class="lang-pill ${isActive ? 'active' : ''}" data-lang="${escapeHtml(lang)}">
+        ${escapeHtml(lang)} (${count})
+      </button>
+    `;
+  });
+
+  tabsContainer.innerHTML = html;
+
+  // Attach click listeners to pills
+  tabsContainer.querySelectorAll('.lang-pill').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      state.selectedLanguage = btn.dataset.lang || 'all';
+      renderLanguageTabs();
+      applyFiltersAndRender();
+    });
   });
 }
 
 function applyFiltersAndRender() {
   filteredIssues = allIssues.filter((issue) => {
+    // Language Tab Filter
+    if (state.selectedLanguage !== 'all') {
+      const issueLang = issue.language || 'Other';
+      if (issueLang !== state.selectedLanguage) {
+        return false;
+      }
+    }
+
+    // Search Query
     if (state.searchQuery) {
       const q = state.searchQuery.toLowerCase();
       const matchTitle = (issue.title || '').toLowerCase().includes(q);
@@ -117,15 +134,8 @@ function applyFiltersAndRender() {
       }
     }
 
+    // Blast Radius Filter
     if (state.blastRadius !== 'all' && issue.blastRadius !== state.blastRadius) {
-      return false;
-    }
-
-    if (state.setupFriction !== 'all' && issue.setupFriction !== state.setupFriction) {
-      return false;
-    }
-
-    if (state.language !== 'all' && issue.language !== state.language) {
       return false;
     }
 
@@ -153,197 +163,151 @@ function applyFiltersAndRender() {
   if (statBadge) statBadge.textContent = `${allIssues.length} issues`;
 
   const countLabel = getEl('list-count-label');
-  if (countLabel) countLabel.textContent = `${filteredIssues.length} matching`;
-
-  renderList();
-
-  if (filteredIssues.length > 0) {
-    if (selectedIndex >= filteredIssues.length) {
-      selectedIndex = 0;
-    }
-    selectIssue(selectedIndex, false);
-  } else {
-    showEmptyDetail();
+  if (countLabel) {
+    const langLabel = state.selectedLanguage === 'all' ? '' : ` ${state.selectedLanguage}`;
+    countLabel.textContent = `${filteredIssues.length}${langLabel} matching`;
   }
+
+  renderFeed();
 }
 
-function renderList() {
-  const issuesList = getEl('issues-list');
-  if (!issuesList) return;
-
-  issuesList.innerHTML = '';
+function renderFeed() {
+  const container = getEl('issues-container');
+  if (!container) return;
 
   if (filteredIssues.length === 0) {
-    issuesList.innerHTML = '<div class="p-8 text-center text-xs text-zinc-500">No matching issues found</div>';
+    container.innerHTML = `
+      <div class="p-16 text-center border border-dashed border-zinc-200 dark:border-zinc-800 rounded-xl space-y-2">
+        <i data-lucide="inbox" class="w-8 h-8 mx-auto text-zinc-400 stroke-1"></i>
+        <div class="text-sm font-semibold text-zinc-800 dark:text-zinc-200">No matching issues found</div>
+        <p class="text-xs text-zinc-500">Try adjusting your language tab or search query.</p>
+      </div>
+    `;
+    if (window.lucide) window.lucide.createIcons();
     return;
   }
 
-  filteredIssues.forEach((issue, idx) => {
-    const row = document.createElement('div');
-    row.className = `issue-row ${idx === selectedIndex ? 'active' : ''}`;
-    row.dataset.index = idx;
+  container.innerHTML = filteredIssues
+    .map((issue) => {
+      const validFiles = (issue.keyFiles || []).filter((f) => f && f !== 'src/index');
+      const filesHtml =
+        validFiles.length > 0
+          ? `<div class="flex flex-wrap gap-1.5 pt-1">
+              ${validFiles
+                .slice(0, 3)
+                .map(
+                  (f) =>
+                    `<span class="font-mono text-[11px] px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">${escapeHtml(
+                      f
+                    )}</span>`
+                )
+                .join('')}
+            </div>`
+          : '';
 
-    const shortSolvability = issue.solvabilityScore >= 8 ? 'Easy' : issue.solvabilityScore >= 5 ? 'Medium' : 'Hard';
-    const shortFriction = issue.setupFriction === 'Zero-dependency' ? 'Zero-dep' : issue.setupFriction;
+      const reproHtml = issue.quickReproCommand
+        ? `<div class="space-y-1 pt-1">
+            <div class="flex items-center justify-between text-[11px] text-zinc-500 font-medium">
+              <span>Quick Test Command</span>
+              <button class="copy-cmd-btn text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 flex items-center gap-1 font-sans" data-cmd="${escapeHtml(
+                issue.quickReproCommand
+              )}">
+                <i data-lucide="copy" class="w-3 h-3"></i> Copy
+              </button>
+            </div>
+            <pre class="font-mono text-xs overflow-x-auto select-all py-2 px-3 rounded-md bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-zinc-800 dark:text-zinc-200">${escapeHtml(
+              issue.quickReproCommand
+            )}</pre>
+          </div>`
+        : '';
 
-    row.innerHTML = `
-      <div class="flex items-center justify-between text-[11px] text-zinc-500 dark:text-zinc-400 mb-1">
-        <span class="font-medium text-zinc-700 dark:text-zinc-300 truncate max-w-[200px]">${escapeHtml(issue.repo)}</span>
-        <span class="font-mono text-[10px] shrink-0 font-medium">${shortSolvability} (${issue.solvabilityScore}/10)</span>
-      </div>
-      <div class="text-xs font-semibold text-zinc-900 dark:text-zinc-100 line-clamp-2 leading-snug mb-1">
-        #${issue.number} ${escapeHtml(issue.title)}
-      </div>
-      <div class="flex items-center gap-2 text-[10px] text-zinc-500 dark:text-zinc-400">
-        <span>${escapeHtml(issue.blastRadius)} Blast</span>
-        <span>&middot;</span>
-        <span>${escapeHtml(shortFriction)}</span>
-        <span>&middot;</span>
-        <span>⚡ ~${issue.maintainerTurnaroundDays}d review</span>
-      </div>
-    `;
+      return `
+        <article class="issue-card space-y-4">
+          <!-- Card Header: Repo & Quick Stats -->
+          <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-zinc-500 dark:text-zinc-400 pb-1 border-b border-zinc-100 dark:border-zinc-800/80">
+            <div class="flex items-center gap-2">
+              <a href="${escapeHtml(
+                issue.repoUrl
+              )}" target="_blank" rel="noopener noreferrer" class="font-bold text-zinc-800 dark:text-zinc-200 hover:underline">
+                ${escapeHtml(issue.repo)}
+              </a>
+              <span>&middot;</span>
+              <span>★ ${formatNumber(issue.stars)}</span>
+              <span>&middot;</span>
+              <span class="font-medium text-zinc-700 dark:text-zinc-300">${escapeHtml(
+                issue.language || 'Multi-language'
+              )}</span>
+            </div>
+            <div class="flex items-center gap-2 text-[11px]">
+              <span>⚡ ~${issue.maintainerTurnaroundDays}d review</span>
+              <span>&middot;</span>
+              <span>${formatRelativeTime(issue.createdAt)}</span>
+            </div>
+          </div>
 
-    row.addEventListener('click', () => {
-      selectIssue(idx, true);
+          <!-- Issue Title -->
+          <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 leading-snug">
+            <a href="${escapeHtml(
+              issue.url
+            )}" target="_blank" rel="noopener noreferrer" class="hover:underline">
+              #${issue.number} ${escapeHtml(issue.title)}
+            </a>
+          </h2>
+
+          <!-- Task Overview -->
+          <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed">
+            ${escapeHtml(issue.summary)}
+          </p>
+
+          <!-- Reproduction Command Snippet -->
+          ${reproHtml}
+
+          <!-- Identified Files -->
+          ${filesHtml}
+
+          <!-- Card Footer: Tags & Claim Action -->
+          <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800/80 flex flex-wrap items-center justify-between gap-3">
+            <div class="flex flex-wrap items-center gap-1.5 text-[11px]">
+              <span class="px-2 py-0.5 rounded font-medium bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 border border-zinc-200 dark:border-zinc-700">
+                ${getSolvabilityLabel(issue.solvabilityScore)}
+              </span>
+              <span class="px-2 py-0.5 rounded font-medium bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-800">
+                ${getBlastRadiusLabel(issue.blastRadius)}
+              </span>
+              <span class="px-2 py-0.5 rounded font-medium bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-800">
+                ${getFrictionLabel(issue.setupFriction)}
+              </span>
+            </div>
+
+            <a href="${escapeHtml(
+              issue.url
+            )}" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-md bg-zinc-900 hover:bg-zinc-800 text-white dark:bg-zinc-100 dark:hover:bg-white dark:text-zinc-900 text-xs font-semibold transition-colors shadow-sm shrink-0">
+              <span>Claim on GitHub</span>
+              <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </article>
+      `;
+    })
+    .join('');
+
+  // Attach copy listeners
+  container.querySelectorAll('.copy-cmd-btn').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const cmd = btn.getAttribute('data-cmd');
+      if (cmd) {
+        navigator.clipboard.writeText(cmd).then(() => {
+          showToast('Copied test command');
+        });
+      }
     });
-
-    issuesList.appendChild(row);
   });
 
   if (window.lucide) {
     window.lucide.createIcons();
   }
-}
-
-function selectIssue(index, isUserClick = true) {
-  if (index < 0 || index >= filteredIssues.length) return;
-
-  selectedIndex = index;
-  const issue = filteredIssues[index];
-
-  const issuesList = getEl('issues-list');
-  if (issuesList) {
-    const rows = issuesList.querySelectorAll('.issue-row');
-    rows.forEach((r, idx) => {
-      if (idx === index) {
-        r.classList.add('active');
-        r.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-      } else {
-        r.classList.remove('active');
-      }
-    });
-  }
-
-  populateDetail(issue);
-
-  // Mobile layout switch
-  if (window.innerWidth < 768 && isUserClick) {
-    const listPane = getEl('list-pane');
-    const detailPane = getEl('detail-pane');
-    if (listPane) listPane.classList.add('hidden');
-    if (detailPane) {
-      detailPane.classList.remove('hidden');
-      detailPane.classList.add('flex');
-    }
-  }
-}
-
-function populateDetail(issue) {
-  const detailEmpty = getEl('detail-empty');
-  const detailContent = getEl('detail-content');
-  if (detailEmpty) detailEmpty.classList.add('hidden');
-  if (detailContent) detailContent.classList.remove('hidden');
-
-  // Breadcrumbs & Header
-  const repoEl = getEl('detail-repo');
-  if (repoEl) {
-    repoEl.textContent = issue.repo;
-    repoEl.href = issue.repoUrl;
-  }
-
-  const starsEl = getEl('detail-stars');
-  if (starsEl) starsEl.textContent = `★ ${formatNumber(issue.stars)} stars`;
-
-  const langEl = getEl('detail-lang');
-  if (langEl) langEl.textContent = issue.language || 'Multi-language';
-
-  const turnaroundEl = getEl('detail-turnaround');
-  if (turnaroundEl) turnaroundEl.textContent = `⚡ ~${issue.maintainerTurnaroundDays} days average review turnaround`;
-
-  // Title
-  const titleEl = getEl('detail-title');
-  if (titleEl) titleEl.textContent = `#${issue.number} ${issue.title}`;
-
-  // Self-Descriptive Meta Cards
-  const scoreBadge = getEl('detail-score-badge');
-  if (scoreBadge) scoreBadge.textContent = getSolvabilityLabel(issue.solvabilityScore);
-
-  const scoreHelper = getEl('detail-score-helper');
-  if (scoreHelper) scoreHelper.textContent = getSolvabilityHelper(issue.solvabilityScore);
-
-  const blastBadge = getEl('detail-blast-badge');
-  if (blastBadge) blastBadge.textContent = getBlastRadiusLabel(issue.blastRadius);
-
-  const frictionBadge = getEl('detail-friction-badge');
-  if (frictionBadge) frictionBadge.textContent = getFrictionLabel(issue.setupFriction);
-
-  const frictionHelper = getEl('detail-friction-helper');
-  if (frictionHelper) frictionHelper.textContent = getFrictionHelper(issue.setupFriction);
-
-  // Summary & Blast Reason
-  const summaryEl = getEl('detail-summary');
-  if (summaryEl) summaryEl.textContent = issue.summary;
-
-  const blastReasonEl = getEl('detail-blast-reason');
-  if (blastReasonEl) blastReasonEl.textContent = `"${issue.blastRadiusReason}"`;
-
-  // Repro Command
-  const reproContainer = getEl('detail-repro-container');
-  const reproCmd = getEl('detail-repro-cmd');
-  if (issue.quickReproCommand) {
-    if (reproContainer) reproContainer.classList.remove('hidden');
-    if (reproCmd) reproCmd.textContent = issue.quickReproCommand;
-  } else {
-    if (reproContainer) reproContainer.classList.add('hidden');
-  }
-
-  // Target Files
-  const filesContainer = getEl('detail-files-container');
-  const filesList = getEl('detail-files-list');
-  const validFiles = (issue.keyFiles || []).filter((f) => f && f !== 'src/index');
-  if (validFiles.length > 0) {
-    if (filesContainer) filesContainer.classList.remove('hidden');
-    if (filesList) {
-      filesList.innerHTML = validFiles
-        .map(
-          (f) =>
-            `<span class="font-mono text-xs px-2.5 py-1 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">${escapeHtml(
-              f
-            )}</span>`
-        )
-        .join('');
-    }
-  } else {
-    if (filesContainer) filesContainer.classList.add('hidden');
-  }
-
-  // Footer & Action
-  const discoveredEl = getEl('detail-discovered');
-  if (discoveredEl) discoveredEl.textContent = formatRelativeTime(issue.createdAt);
-
-  const githubLink = getEl('detail-github-link');
-  if (githubLink) githubLink.href = issue.url;
-
-  if (window.lucide) {
-    window.lucide.createIcons();
-  }
-}
-
-function showEmptyDetail() {
-  const detailContent = getEl('detail-content');
-  const detailEmpty = getEl('detail-empty');
-  if (detailContent) detailContent.classList.add('hidden');
-  if (detailEmpty) detailEmpty.classList.remove('hidden');
 }
 
 // Toast helper
@@ -387,7 +351,7 @@ function formatRelativeTime(dateStr) {
   return `${months}mo ago`;
 }
 
-// Attach listeners
+// Attach filter listeners
 function initEventListeners() {
   const searchInput = getEl('search-input');
   if (searchInput) {
@@ -405,53 +369,11 @@ function initEventListeners() {
     });
   }
 
-  const frictionFilter = getEl('friction-filter');
-  if (frictionFilter) {
-    frictionFilter.addEventListener('change', (e) => {
-      state.setupFriction = e.target.value;
-      applyFiltersAndRender();
-    });
-  }
-
-  const langFilter = getEl('language-filter');
-  if (langFilter) {
-    langFilter.addEventListener('change', (e) => {
-      state.language = e.target.value;
-      applyFiltersAndRender();
-    });
-  }
-
   const sortBy = getEl('sort-by');
   if (sortBy) {
     sortBy.addEventListener('change', (e) => {
       state.sortBy = e.target.value;
       applyFiltersAndRender();
-    });
-  }
-
-  const copyReproBtn = getEl('detail-copy-repro');
-  if (copyReproBtn) {
-    copyReproBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const issue = filteredIssues[selectedIndex];
-      if (issue && issue.quickReproCommand) {
-        navigator.clipboard.writeText(issue.quickReproCommand).then(() => {
-          showToast('Copied reproduction command');
-        });
-      }
-    });
-  }
-
-  const mobileBackBtn = getEl('mobile-back-btn');
-  if (mobileBackBtn) {
-    mobileBackBtn.addEventListener('click', () => {
-      const detailPane = getEl('detail-pane');
-      const listPane = getEl('list-pane');
-      if (detailPane) {
-        detailPane.classList.add('hidden');
-        detailPane.classList.remove('flex');
-      }
-      if (listPane) listPane.classList.remove('hidden');
     });
   }
 
@@ -464,29 +386,7 @@ function initEventListeners() {
       return;
     }
 
-    if (e.key === 'j' || e.key === 'ArrowDown') {
-      e.preventDefault();
-      if (selectedIndex < filteredIssues.length - 1) {
-        selectIssue(selectedIndex + 1, false);
-      }
-    } else if (e.key === 'k' || e.key === 'ArrowUp') {
-      e.preventDefault();
-      if (selectedIndex > 0) {
-        selectIssue(selectedIndex - 1, false);
-      }
-    } else if (e.key === 'o' || e.key === 'Enter') {
-      const issue = filteredIssues[selectedIndex];
-      if (issue && issue.url) {
-        window.open(issue.url, '_blank', 'noopener,noreferrer');
-      }
-    } else if (e.key === 'c') {
-      const issue = filteredIssues[selectedIndex];
-      if (issue && issue.quickReproCommand) {
-        navigator.clipboard.writeText(issue.quickReproCommand).then(() => {
-          showToast('Copied reproduction command');
-        });
-      }
-    } else if (e.key === '/') {
+    if (e.key === '/') {
       e.preventDefault();
       const s = getEl('search-input');
       if (s) s.focus();
