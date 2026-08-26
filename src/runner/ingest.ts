@@ -242,130 +242,159 @@ export async function fetchAndFilterCandidateIssues(
   options: {
     limit?: number;
     customQuery?: string;
+    minStars?: number;
     verbose?: boolean;
+    graphqlClient?: any;
   } = {}
 ): Promise<IngestFilterResult> {
-  const token = getGitHubToken();
-  const graphqlWithAuth = graphql.defaults({
-    headers: {
-      authorization: `token ${token}`,
-    },
-  });
+  let graphqlWithAuth = options.graphqlClient;
+  if (!graphqlWithAuth) {
+    const token = getGitHubToken();
+    graphqlWithAuth = graphql.defaults({
+      headers: {
+        authorization: `token ${token}`,
+      },
+    });
+  }
 
+  const minStars = options.minStars ?? 200;
   const fourteenDaysAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000)
     .toISOString()
     .split('T')[0];
 
-  const defaultQuery = `is:issue is:open no:assignee label:"good first issue","good-first-issue","help wanted","beginner-friendly" stars:>200 pushed:>${fourteenDaysAgo}`;
-  const queryStr = options.customQuery || defaultQuery;
+  // Multiple targeted queries to maximize discovery of verified issues
+  const searchQueries = options.customQuery
+    ? [options.customQuery]
+    : [
+        `is:issue is:open no:assignee label:"good first issue" stars:>=${minStars} pushed:>${fourteenDaysAgo}`,
+        `is:issue is:open no:assignee label:"good-first-issue" stars:>=${minStars} pushed:>${fourteenDaysAgo}`,
+        `is:issue is:open no:assignee label:"help wanted" stars:>=${minStars} pushed:>${fourteenDaysAgo}`,
+      ];
 
   const targetLimit = options.limit || 20;
   const accepted: CandidateIssue[] = [];
+  const seenIds = new Set<string>();
   const skippedReasons: Record<string, number> = {
     'assigned': 0,
     'open-pr-linked': 0,
     'recent-claim-comment': 0,
     'inactive-maintainer': 0,
+    'low-stars': 0,
     'short-description': 0,
     'no-default-branch': 0,
   };
 
-  let cursor: string | null = null;
-  let hasNextPage = true;
-  let pageCount = 0;
+  for (const queryStr of searchQueries) {
+    if (accepted.length >= targetLimit) break;
 
-  if (options.verbose) {
-    console.log(`[Ingest] Querying GitHub GraphQL with: ${queryStr}`);
-  }
+    let cursor: string | null = null;
+    let hasNextPage = true;
+    let pageCount = 0;
 
-  while (hasNextPage && accepted.length < targetLimit && pageCount < 5) {
-    pageCount++;
-    const response: any = await executeGraphQLWithRetry(
-      graphqlWithAuth,
-      SEARCH_QUERY,
-      {
-        searchQuery: queryStr,
-        cursor,
-      }
-    );
-
-    const searchData = response?.search;
-    if (!searchData || !searchData.nodes) {
-      break;
+    if (options.verbose) {
+      console.log(`[Ingest] Querying GitHub GraphQL with: ${queryStr}`);
     }
 
-    hasNextPage = searchData.pageInfo?.hasNextPage ?? false;
-    cursor = searchData.pageInfo?.endCursor ?? null;
-
-    for (const node of searchData.nodes) {
-      if (!node || !node.id || !node.repository) {
-        continue;
-      }
-
-      const issueNode = node as RawGraphQLIssueNode;
-
-      // 1. Assignee Check
-      if (issueNode.assignees.totalCount > 0) {
-        skippedReasons['assigned']++;
-        continue;
-      }
-
-      // 2. Open Linked PR Check
-      if (hasOpenLinkedPR(issueNode.timelineItems)) {
-        skippedReasons['open-pr-linked']++;
-        continue;
-      }
-
-      // 3. Recent Claim Comments Check
-      if (hasRecentClaim(issueNode.comments.nodes)) {
-        skippedReasons['recent-claim-comment']++;
-        continue;
-      }
-
-      // 4. Issue Description Quality Check
-      const body = (issueNode.body || '').trim();
-      if (body.length < 80) {
-        skippedReasons['short-description']++;
-        continue;
-      }
-
-      // 5. Default Branch Check
-      const defaultBranch = issueNode.repository.defaultBranchRef?.name;
-      if (!defaultBranch) {
-        skippedReasons['no-default-branch']++;
-        continue;
-      }
-
-      // 6. Maintainer Turnaround & Responsiveness
-      const turnaroundDays = calculateMaintainerTurnaroundDays(
-        issueNode.repository.pullRequests?.nodes || [],
-        issueNode.repository.pushedAt
+    while (hasNextPage && accepted.length < targetLimit && pageCount < 3) {
+      pageCount++;
+      const response: any = await executeGraphQLWithRetry(
+        graphqlWithAuth,
+        SEARCH_QUERY,
+        {
+          searchQuery: queryStr,
+          cursor,
+        }
       );
 
-      if (turnaroundDays > 7) {
-        skippedReasons['inactive-maintainer']++;
-        continue;
+      const searchData = response?.search;
+      if (!searchData || !searchData.nodes) {
+        break;
       }
 
-      accepted.push({
-        id: issueNode.id,
-        number: issueNode.number,
-        title: issueNode.title,
-        url: issueNode.url,
-        body,
-        repo: issueNode.repository.nameWithOwner,
-        repoUrl: issueNode.repository.url,
-        stars: issueNode.repository.stargazerCount,
-        language: issueNode.repository.primaryLanguage?.name || null,
-        labels: issueNode.labels.nodes.map((l) => l.name),
-        createdAt: issueNode.createdAt,
-        updatedAt: issueNode.updatedAt,
-        defaultBranch,
-        maintainerTurnaroundDays: turnaroundDays,
-      });
+      hasNextPage = searchData.pageInfo?.hasNextPage ?? false;
+      cursor = searchData.pageInfo?.endCursor ?? null;
 
-      if (accepted.length >= targetLimit) {
-        break;
+      for (const node of searchData.nodes) {
+        if (!node || !node.id || !node.repository) {
+          continue;
+        }
+
+        if (seenIds.has(node.id)) {
+          continue;
+        }
+        seenIds.add(node.id);
+
+        const issueNode = node as RawGraphQLIssueNode;
+
+        // 1. Assignee Check
+        if (issueNode.assignees.totalCount > 0) {
+          skippedReasons['assigned']++;
+          continue;
+        }
+
+        // 2. Open Linked PR Check
+        if (hasOpenLinkedPR(issueNode.timelineItems)) {
+          skippedReasons['open-pr-linked']++;
+          continue;
+        }
+
+        // 3. Recent Claim Comments Check
+        if (hasRecentClaim(issueNode.comments.nodes)) {
+          skippedReasons['recent-claim-comment']++;
+          continue;
+        }
+
+        // 4. Minimum Stars Hard Filter (Programmatic check)
+        if (issueNode.repository.stargazerCount < minStars) {
+          skippedReasons['low-stars']++;
+          continue;
+        }
+
+        // 5. Issue Description Quality Check
+        const body = (issueNode.body || '').trim();
+        if (body.length < 80) {
+          skippedReasons['short-description']++;
+          continue;
+        }
+
+        // 6. Default Branch Check
+        const defaultBranch = issueNode.repository.defaultBranchRef?.name;
+        if (!defaultBranch) {
+          skippedReasons['no-default-branch']++;
+          continue;
+        }
+
+        // 7. Maintainer Turnaround & Responsiveness
+        const turnaroundDays = calculateMaintainerTurnaroundDays(
+          issueNode.repository.pullRequests?.nodes || [],
+          issueNode.repository.pushedAt
+        );
+
+        if (turnaroundDays > 7) {
+          skippedReasons['inactive-maintainer']++;
+          continue;
+        }
+
+        accepted.push({
+          id: issueNode.id,
+          number: issueNode.number,
+          title: issueNode.title,
+          url: issueNode.url,
+          body,
+          repo: issueNode.repository.nameWithOwner,
+          repoUrl: issueNode.repository.url,
+          stars: issueNode.repository.stargazerCount,
+          language: issueNode.repository.primaryLanguage?.name || null,
+          labels: issueNode.labels.nodes.map((l) => l.name),
+          createdAt: issueNode.createdAt,
+          updatedAt: issueNode.updatedAt,
+          defaultBranch,
+          maintainerTurnaroundDays: turnaroundDays,
+        });
+
+        if (accepted.length >= targetLimit) {
+          break;
+        }
       }
     }
   }

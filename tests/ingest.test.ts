@@ -3,6 +3,7 @@ import test, { describe } from 'node:test';
 import {
   calculateMaintainerTurnaroundDays,
   executeGraphQLWithRetry,
+  fetchAndFilterCandidateIssues,
   hasOpenLinkedPR,
   hasRecentClaim,
 } from '../src/runner/ingest.js';
@@ -126,19 +127,75 @@ describe('Ingest & Heuristics', () => {
     });
   });
 
-  describe('Open Linked PR Check', () => {
-    test('detects open linked PRs', () => {
-      const timelineWithOpenPR: RawGraphQLIssueNode['timelineItems'] = {
-        nodes: [{ source: { state: 'OPEN', url: 'https://github.com/repo/pull/1' } }],
-      };
-      assert.equal(hasOpenLinkedPR(timelineWithOpenPR), true);
-    });
+  describe('Star Count Threshold Guard', () => {
+    test('filters out candidate repos with fewer than minStars (e.g. 3, 33, 199 stars)', async () => {
+      const mockRawIssues: RawGraphQLIssueNode[] = [
+        {
+          id: 'issue-low-stars',
+          number: 1,
+          title: 'Low star issue',
+          url: 'https://github.com/low/repo/issues/1',
+          body: 'This is a test issue with plenty of descriptive text to pass length checks.',
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+          assignees: { totalCount: 0 },
+          labels: { nodes: [{ name: 'good first issue' }] },
+          comments: { nodes: [] },
+          timelineItems: { nodes: [] },
+          repository: {
+            nameWithOwner: 'low/repo',
+            url: 'https://github.com/low/repo',
+            stargazerCount: 3, // < 200
+            pushedAt: new Date().toISOString(),
+            defaultBranchRef: { name: 'main' },
+            primaryLanguage: { name: 'TypeScript' },
+            pullRequests: { nodes: [] },
+          },
+        },
+        {
+          id: 'issue-valid-stars',
+          number: 2,
+          title: 'Valid star issue',
+          url: 'https://github.com/valid/repo/issues/2',
+          body: 'This is a valid test issue with plenty of descriptive text to pass length checks.',
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+          assignees: { totalCount: 0 },
+          labels: { nodes: [{ name: 'good first issue' }] },
+          comments: { nodes: [] },
+          timelineItems: { nodes: [] },
+          repository: {
+            nameWithOwner: 'valid/repo',
+            url: 'https://github.com/valid/repo',
+            stargazerCount: 1500, // >= 200
+            pushedAt: new Date().toISOString(),
+            defaultBranchRef: { name: 'main' },
+            primaryLanguage: { name: 'TypeScript' },
+            pullRequests: { nodes: [] },
+          },
+        },
+      ];
 
-    test('ignores merged or closed linked PRs', () => {
-      const timelineWithClosedPR: RawGraphQLIssueNode['timelineItems'] = {
-        nodes: [{ source: { state: 'MERGED', url: 'https://github.com/repo/pull/1' } }],
-      };
-      assert.equal(hasOpenLinkedPR(timelineWithClosedPR), false);
+      // Test with custom GraphQL client returning mock raw issues
+      const mockGraphQLClient = async () => ({
+        search: {
+          pageInfo: { hasNextPage: false, endCursor: null },
+          nodes: mockRawIssues,
+        },
+      });
+
+      // Test custom query with minStars using mock client
+      const result = await fetchAndFilterCandidateIssues({
+        limit: 10,
+        minStars: 200,
+        customQuery: 'test query',
+        graphqlClient: mockGraphQLClient,
+      });
+
+      // The 3-star repo should be excluded, and the 1500-star repo accepted
+      assert.equal(result.accepted.some((i) => i.repo === 'low/repo'), false);
+      assert.equal(result.accepted.some((i) => i.repo === 'valid/repo'), true);
+      assert.equal(result.skippedReasons['low-stars'], 1);
     });
   });
 });

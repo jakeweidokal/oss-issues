@@ -87,9 +87,11 @@ export async function runPipeline(options: RunnerOptions = {}): Promise<void> {
     return;
   }
 
-  // 2. Load History & Existing Dataset
+  // 2. Load History & Existing Dataset (enforce min 200 stars)
   const history: Record<string, HistoryItem> = loadJson(HISTORY_PATH, {});
-  const existingIssues: EnrichedIssue[] = loadJson(ISSUES_PATH, []);
+  const existingIssues: EnrichedIssue[] = loadJson<EnrichedIssue[]>(ISSUES_PATH, []).filter(
+    (i: EnrichedIssue) => (i.stars || 0) >= 200
+  );
   const existingMap = new Map<string, EnrichedIssue>(
     existingIssues.map((i) => [i.id, i])
   );
