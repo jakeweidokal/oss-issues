@@ -87,10 +87,10 @@ export async function runPipeline(options: RunnerOptions = {}): Promise<void> {
     return;
   }
 
-  // 2. Load History & Existing Dataset (enforce min 200 stars)
+  // 2. Load History & Existing Dataset (enforce min 200 stars & real repos)
   const history: Record<string, HistoryItem> = loadJson(HISTORY_PATH, {});
   const existingIssues: EnrichedIssue[] = loadJson<EnrichedIssue[]>(ISSUES_PATH, []).filter(
-    (i: EnrichedIssue) => (i.stars || 0) >= 200
+    (i: EnrichedIssue) => (i.stars || 0) >= 200 && !i.repo.startsWith('example/')
   );
   const existingMap = new Map<string, EnrichedIssue>(
     existingIssues.map((i) => [i.id, i])
