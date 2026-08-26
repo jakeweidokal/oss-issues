@@ -8,7 +8,11 @@
     "repoUrl": "https://github.com/example/sample-lib",
     "stars": 1240,
     "language": "TypeScript",
-    "labels": ["good first issue", "bug", "help wanted"],
+    "labels": [
+      "good first issue",
+      "bug",
+      "help wanted"
+    ],
     "createdAt": "2026-08-25T14:20:00Z",
     "updatedAt": "2026-08-26T10:00:00Z",
     "blastRadius": "Low",
@@ -16,7 +20,10 @@
     "setupFriction": "Zero-dependency",
     "quickReproCommand": "pnpm test tests/utils/date-parser.spec.ts",
     "solvabilityScore": 9,
-    "keyFiles": ["src/utils/date-parser.ts", "tests/utils/date-parser.spec.ts"],
+    "keyFiles": [
+      "src/utils/date-parser.ts",
+      "tests/utils/date-parser.spec.ts"
+    ],
     "summary": "Add boundary check in date-parser.ts to gracefully handle malformed ISO strings and return null instead of throwing an unhandled RangeError.",
     "maintainerTurnaroundDays": 1.2,
     "defaultBranch": "main",
@@ -31,7 +38,10 @@
     "repoUrl": "https://github.com/example/fast-client",
     "stars": 3400,
     "language": "Python",
-    "labels": ["help wanted", "enhancement"],
+    "labels": [
+      "help wanted",
+      "enhancement"
+    ],
     "createdAt": "2026-08-24T18:30:00Z",
     "updatedAt": "2026-08-26T09:15:00Z",
     "blastRadius": "Low",
@@ -39,10 +49,446 @@
     "setupFriction": "Standard",
     "quickReproCommand": "pytest tests/test_client_config.py",
     "solvabilityScore": 8,
-    "keyFiles": ["src/fast_client/config.py", "tests/test_client_config.py"],
+    "keyFiles": [
+      "src/fast_client/config.py",
+      "tests/test_client_config.py"
+    ],
     "summary": "Allow passing a custom headers dictionary in ClientConfig and ensure it merges with default session headers during retry attempts.",
-    "maintainerTurnaroundDays": 2.0,
+    "maintainerTurnaroundDays": 2,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-26T12:00:00Z"
+  },
+  {
+    "id": "I_kwDODs7s5s5AmTgf",
+    "number": 200,
+    "title": "Build as a Shared Library",
+    "url": "https://github.com/ssoelvsten/adiar/issues/200",
+    "repo": "ssoelvsten/adiar",
+    "repoUrl": "https://github.com/ssoelvsten/adiar",
+    "stars": 33,
+    "language": "C++",
+    "labels": [
+      "help wanted",
+      "📁 build",
+      "✨ feature"
+    ],
+    "createdAt": "2021-12-18T08:39:35Z",
+    "updatedAt": "2024-11-08T10:06:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in ssoelvsten/adiar: Build as a Shared Library",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:22:23.736Z"
+  },
+  {
+    "id": "I_kwDOK06CIc7a4Ljn",
+    "number": 200,
+    "title": "Redirect from http to https when TLS is enabled",
+    "url": "https://github.com/raffomania/ties/issues/200",
+    "repo": "raffomania/ties",
+    "repoUrl": "https://github.com/raffomania/ties",
+    "stars": 186,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2025-11-27T15:42:22Z",
+    "updatedAt": "2026-07-12T17:03:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in raffomania/ties: Redirect from http to https when TLS is enabled",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:22:23.039Z"
+  },
+  {
+    "id": "I_kwDOLXe0Kc61nPm8",
+    "number": 200,
+    "title": "Allow create issue without comment",
+    "url": "https://github.com/ForNeVeR/Todosaurus/issues/200",
+    "repo": "ForNeVeR/Todosaurus",
+    "repoUrl": "https://github.com/ForNeVeR/Todosaurus",
+    "stars": 22,
+    "language": "Kotlin",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "area:intellij"
+    ],
+    "createdAt": "2025-05-07T19:28:03Z",
+    "updatedAt": "2026-03-01T02:07:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in ForNeVeR/Todosaurus: Allow create issue without comment",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:22:22.523Z"
+  },
+  {
+    "id": "I_kwDOJrYYCc54BJeI",
+    "number": 200,
+    "title": "Add more screenshots to the landing page",
+    "url": "https://github.com/ratatui/ratatui-website/issues/200",
+    "repo": "ratatui/ratatui-website",
+    "repoUrl": "https://github.com/ratatui/ratatui-website",
+    "stars": 186,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2023-11-28T03:54:11Z",
+    "updatedAt": "2023-11-28T03:54:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in ratatui/ratatui-website: Add more screenshots to the landing page",
+    "maintainerTurnaroundDays": 0.9,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:22:21.950Z"
+  },
+  {
+    "id": "I_kwDODJtuYs59s4_x",
+    "number": 200,
+    "title": "AttributeError: 'Proxy' object has no attribute 'add_to_capabilities'",
+    "url": "https://github.com/JarryShaw/darc/issues/200",
+    "repo": "JarryShaw/darc",
+    "repoUrl": "https://github.com/JarryShaw/darc",
+    "stars": 228,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2024-01-30T22:36:23Z",
+    "updatedAt": "2024-06-27T03:13:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in JarryShaw/darc: AttributeError: 'Proxy' object has no attribute 'add_to_capabilities'",
+    "maintainerTurnaroundDays": 7,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-08-26T16:22:18.977Z"
+  },
+  {
+    "id": "I_kwDOIUVIVM5em1pG",
+    "number": 200,
+    "title": "e2e: add testcases for auth annotations",
+    "url": "https://github.com/higress-group/higress/issues/200",
+    "repo": "higress-group/higress",
+    "repoUrl": "https://github.com/higress-group/higress",
+    "stars": 9195,
+    "language": "Go",
+    "labels": [
+      "help wanted",
+      "level/challenge",
+      "area/annotation",
+      "area/e2e",
+      "sig/automation"
+    ],
+    "createdAt": "2023-02-16T08:20:59Z",
+    "updatedAt": "2024-03-06T02:09:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in higress-group/higress: e2e: add testcases for auth annotations",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:22:06.715Z"
+  },
+  {
+    "id": "I_kwDOS203jM8AAAABNgFkDg",
+    "number": 200,
+    "title": "test: add component tests for `frontend/components/WalletConnect.tsx`",
+    "url": "https://github.com/Stellar-MarkeyPay/Stellar-MarketPay/issues/200",
+    "repo": "Stellar-MarkeyPay/Stellar-MarketPay",
+    "repoUrl": "https://github.com/Stellar-MarkeyPay/Stellar-MarketPay",
+    "stars": 3,
+    "language": "JavaScript",
+    "labels": [
+      "help wanted",
+      "Maybe Rewarded",
+      "GrantFox OSS",
+      "area: frontend",
+      "area: testing",
+      "complexity: M",
+      "Third Campaign"
+    ],
+    "createdAt": "2026-08-20T07:49:22Z",
+    "updatedAt": "2026-08-20T08:10:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test frontend/components/WalletConnect.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "frontend/components/WalletConnect.tsx"
+    ],
+    "summary": "Fix issue #200 in Stellar-MarkeyPay/Stellar-MarketPay: test: add component tests for `frontend/components/WalletConnect.tsx`",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:22:04.307Z"
+  },
+  {
+    "id": "I_kwDOM8f1GM6uADyL",
+    "number": 200,
+    "title": "Enatega Customer Application: Ui-Fix--Location text coming out of the boundary on checkout screen",
+    "url": "https://github.com/patriciaperez90/online-food-ordering-system-project-in-php-and-sql/issues/200",
+    "repo": "patriciaperez90/online-food-ordering-system-project-in-php-and-sql",
+    "repoUrl": "https://github.com/patriciaperez90/online-food-ordering-system-project-in-php-and-sql",
+    "stars": 0,
+    "language": "JavaScript",
+    "labels": [
+      "good first issue",
+      "High Priority",
+      "Enatega MultiVendor Customer App"
+    ],
+    "createdAt": "2025-03-14T06:11:40Z",
+    "updatedAt": "2025-03-14T06:11:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in patriciaperez90/online-food-ordering-system-project-in-php-and-sql: Enatega Customer Application: Ui-Fix--Location text coming out of the boundary on checkout screen",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:22:03.413Z"
+  },
+  {
+    "id": "MDU6SXNzdWUzNjcwNjIyNTc=",
+    "number": 200,
+    "title": "Windows - RAM SEARCH:  The ability to edit an address value.",
+    "url": "https://github.com/TASEmulators/desmume/issues/200",
+    "repo": "TASEmulators/desmume",
+    "repoUrl": "https://github.com/TASEmulators/desmume",
+    "stars": 3611,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "winport"
+    ],
+    "createdAt": "2018-10-05T05:12:18Z",
+    "updatedAt": "2021-01-21T16:03:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in TASEmulators/desmume: Windows - RAM SEARCH:  The ability to edit an address value.",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-08-26T16:21:59.830Z"
+  },
+  {
+    "id": "MDU6SXNzdWUzMDcwNDM5NzA=",
+    "number": 200,
+    "title": "Add a CSS preprocessor to the build tooling",
+    "url": "https://github.com/jaegertracing/jaeger-ui/issues/200",
+    "repo": "jaegertracing/jaeger-ui",
+    "repoUrl": "https://github.com/jaegertracing/jaeger-ui",
+    "stars": 1521,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ],
+    "createdAt": "2018-03-20T21:23:31Z",
+    "updatedAt": "2018-09-03T03:29:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in jaegertracing/jaeger-ui: Add a CSS preprocessor to the build tooling",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:21:57.726Z"
+  },
+  {
+    "id": "I_kwDONGASEc8AAAABNLkdlA",
+    "number": 200,
+    "title": "maxxing(*q) on a pointer-to-struct/union parameter still returns 0",
+    "url": "https://github.com/Brainrotlang/brainrot/issues/200",
+    "repo": "Brainrotlang/brainrot",
+    "repoUrl": "https://github.com/Brainrotlang/brainrot",
+    "stars": 626,
+    "language": "C",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-08-18T07:58:17Z",
+    "updatedAt": "2026-08-18T07:58:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "ast.c"
+    ],
+    "summary": "Fix issue #200 in Brainrotlang/brainrot: maxxing(*q) on a pointer-to-struct/union parameter still returns 0",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:21:56.925Z"
+  },
+  {
+    "id": "MDU6SXNzdWU4MDU2NzE1MDI=",
+    "number": 200,
+    "title": "Add MG6250 support",
+    "url": "https://github.com/ParadoxAlarmInterface/pai/issues/200",
+    "repo": "ParadoxAlarmInterface/pai",
+    "repoUrl": "https://github.com/ParadoxAlarmInterface/pai",
+    "stars": 420,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "mg",
+      "protocol"
+    ],
+    "createdAt": "2021-02-10T16:31:22Z",
+    "updatedAt": "2026-08-10T19:04:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in ParadoxAlarmInterface/pai: Add MG6250 support",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-08-26T16:21:56.383Z"
+  },
+  {
+    "id": "I_kwDOMRoHAs6Zv312",
+    "number": 200,
+    "title": "Field width wide as longest option, not current value",
+    "url": "https://github.com/decentraland/creator-hub/issues/200",
+    "repo": "decentraland/creator-hub",
+    "repoUrl": "https://github.com/decentraland/creator-hub",
+    "stars": 6,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue",
+      "editor",
+      "3-low"
+    ],
+    "createdAt": "2024-04-29T20:03:35Z",
+    "updatedAt": "2026-03-16T14:54:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in decentraland/creator-hub: Field width wide as longest option, not current value",
+    "maintainerTurnaroundDays": 2.7,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:21:55.811Z"
+  },
+  {
+    "id": "I_kwDOBkBWo85Ll3uu",
+    "number": 200,
+    "title": "Publish on Debian/Ubuntu repositories",
+    "url": "https://github.com/editorconfig-checker/editorconfig-checker/issues/200",
+    "repo": "editorconfig-checker/editorconfig-checker",
+    "repoUrl": "https://github.com/editorconfig-checker/editorconfig-checker",
+    "stars": 634,
+    "language": "Go",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2022-06-11T09:31:35Z",
+    "updatedAt": "2022-09-23T11:01:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in editorconfig-checker/editorconfig-checker: Publish on Debian/Ubuntu repositories",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-26T16:21:46.607Z"
+  },
+  {
+    "id": "MDU6SXNzdWUzMDU3ODI2MDg=",
+    "number": 200,
+    "title": "electron as screen output for nodejs example",
+    "url": "https://github.com/copy/v86/issues/200",
+    "repo": "copy/v86",
+    "repoUrl": "https://github.com/copy/v86",
+    "stars": 23422,
+    "language": "JavaScript",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2018-03-16T02:33:02Z",
+    "updatedAt": "2021-03-28T18:48:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #200 in copy/v86: electron as screen output for nodejs example",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-08-26T16:21:45.966Z"
   }
 ]
