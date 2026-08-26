@@ -35,7 +35,7 @@ export function getGitHubToken(): string {
 
 const SEARCH_QUERY = `
 query SearchCandidateIssues($searchQuery: String!, $cursor: String) {
-  search(query: $searchQuery, type: ISSUE, first: 25, after: $cursor) {
+  search(query: $searchQuery, type: ISSUE, first: 12, after: $cursor) {
     pageInfo {
       hasNextPage
       endCursor
@@ -52,15 +52,15 @@ query SearchCandidateIssues($searchQuery: String!, $cursor: String) {
         author {
           login
         }
-        assignees(first: 5) {
+        assignees(first: 3) {
           totalCount
         }
-        labels(first: 10) {
+        labels(first: 8) {
           nodes {
             name
           }
         }
-        comments(last: 15) {
+        comments(last: 8) {
           nodes {
             body
             createdAt
@@ -69,7 +69,7 @@ query SearchCandidateIssues($searchQuery: String!, $cursor: String) {
             }
           }
         }
-        timelineItems(last: 10, itemTypes: [CROSS_REFERENCED_EVENT, CONNECTED_EVENT]) {
+        timelineItems(last: 5, itemTypes: [CROSS_REFERENCED_EVENT, CONNECTED_EVENT]) {
           nodes {
             ... on CrossReferencedEvent {
               source {
@@ -100,7 +100,7 @@ query SearchCandidateIssues($searchQuery: String!, $cursor: String) {
           defaultBranchRef {
             name
           }
-          pullRequests(last: 10, states: [MERGED, CLOSED]) {
+          pullRequests(last: 5, states: [MERGED, CLOSED]) {
             nodes {
               createdAt
               closedAt
@@ -117,6 +117,39 @@ query SearchCandidateIssues($searchQuery: String!, $cursor: String) {
   }
 }
 `;
+
+async function executeGraphQLWithRetry(
+  graphqlClient: ReturnType<typeof graphql.defaults>,
+  query: string,
+  variables: Record<string, any>,
+  maxRetries = 3
+): Promise<any> {
+  let attempt = 0;
+  while (attempt < maxRetries) {
+    try {
+      return await graphqlClient(query, variables);
+    } catch (err: any) {
+      attempt++;
+      const isTransient =
+        err?.status === 502 ||
+        err?.status === 503 ||
+        err?.status === 504 ||
+        err?.message?.includes('Bad Gateway') ||
+        err?.message?.includes('ETIMEDOUT') ||
+        err?.message?.includes('ECONNRESET');
+
+      if (isTransient && attempt < maxRetries) {
+        const delayMs = attempt * 2500;
+        console.warn(
+          `[Ingest] Transient error (${err?.status || err?.message}). Retrying query in ${delayMs}ms (attempt ${attempt}/${maxRetries})...`
+        );
+        await new Promise((res) => setTimeout(res, delayMs));
+      } else {
+        throw err;
+      }
+    }
+  }
+}
 
 const CLAIM_REGEX =
   /\b(i('?m| am)\s+(working|taking)|can i\s+(take|work|fix)|working on (this|it)|take this|claiming|claim this|assigned to me|please assign|assign me|i would like to (work|take|fix)|i'll take|ill take|assign to me|may i take)\b/i;
@@ -247,10 +280,14 @@ export async function fetchAndFilterCandidateIssues(
 
   while (hasNextPage && accepted.length < targetLimit && pageCount < 5) {
     pageCount++;
-    const response: any = await graphqlWithAuth(SEARCH_QUERY, {
-      searchQuery: queryStr,
-      cursor,
-    });
+    const response: any = await executeGraphQLWithRetry(
+      graphqlWithAuth,
+      SEARCH_QUERY,
+      {
+        searchQuery: queryStr,
+        cursor,
+      }
+    );
 
     const searchData = response?.search;
     if (!searchData || !searchData.nodes) {
