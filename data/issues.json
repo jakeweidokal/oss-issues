@@ -59,6 +59,36 @@
     "discoveredAt": "2026-08-26T12:00:00Z"
   },
   {
+    "id": "I_kwDOTsVbNM8AAAABOX5a2Q",
+    "number": 200,
+    "title": "[P3] Cover the capture-fixture refusal branches with committed tests",
+    "url": "https://github.com/peasant-labs/peasant/issues/200",
+    "repo": "peasant-labs/peasant",
+    "repoUrl": "https://github.com/peasant-labs/peasant",
+    "stars": 3,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-08-26T17:04:16Z",
+    "updatedAt": "2026-08-26T17:11:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./cmd/peasant-guided-screenshots",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "cmd/peasant-guided-screenshots/fixture.go",
+      "cmd/peasant-guided-screenshots/main_test.go",
+      "cmd/peasant-guided-screenshots/testdata/captures.yaml"
+    ],
+    "summary": "Fix issue #200 in peasant-labs/peasant: [P3] Cover the capture-fixture refusal branches with committed tests",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-08-26T18:12:54.352Z"
+  },
+  {
     "id": "I_kwDODs7s5s5AmTgf",
     "number": 200,
     "title": "Build as a Shared Library",
