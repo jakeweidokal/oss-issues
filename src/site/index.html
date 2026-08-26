@@ -1,33 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OSS Issues Radar - Curated, Solvable Open Source Issues</title>
-  <meta name="description" content="Automated zero-cost scanner streaming verified, beginner and intermediate solvable GitHub issues scored by blast radius, setup friction, and maintainer responsiveness." />
+  <title>Quick Issues — Curated, Solvable Open Source Issues</title>
+  <meta name="description" content="Curated open-source issues with low blast radius, zero setup friction, and fast maintainer reviews." />
   
-  <!-- RSS Feed Link -->
-  <link rel="alternate" type="application/rss+xml" title="OSS Issues Radar RSS Feed" href="data/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Quick Issues RSS Feed" href="data/feed.xml" />
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              50: '#eef2ff',
-              100: '#e0e7ff',
-              400: '#818cf8',
-              500: '#6366f1',
-              600: '#4f46e5',
-              700: '#4338ca',
-            },
-          },
-        },
-      },
+      darkMode: 'media',
     };
   </script>
 
@@ -37,221 +22,126 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen subtle-grid flex flex-col antialiased selection:bg-indigo-500 selection:text-white">
+<body class="min-h-screen flex flex-col antialiased">
 
-  <!-- Navbar -->
-  <header class="sticky top-0 z-40 w-full glass-panel border-b border-slate-800/80">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center shadow-md shadow-indigo-500/20">
-          <i data-lucide="radar" class="w-5 h-5 text-white"></i>
-        </div>
-        <div>
-          <h1 class="text-base font-bold tracking-tight text-white flex items-center gap-2">
-            OSS Issues Radar
-            <span class="inline-flex items-center text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
-              Autonomous
-            </span>
-          </h1>
-          <p class="text-xs text-slate-400">Scored for blast radius, friction & maintainer turnaround</p>
-        </div>
+  <!-- Header -->
+  <header class="border-b border-zinc-200 dark:border-zinc-800">
+    <div class="max-w-3xl mx-auto px-4 py-8 sm:px-6">
+      <div class="flex items-baseline justify-between mb-2">
+        <h1 class="text-2xl font-bold tracking-tight">
+          <a href="./" class="hover:opacity-80 transition-opacity">Quick Issues</a>
+        </h1>
+        <nav class="flex items-center gap-4 text-xs text-zinc-500 dark:text-zinc-400">
+          <a href="data/feed.xml" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors flex items-center gap-1">
+            <i data-lucide="rss" class="w-3.5 h-3.5"></i> RSS
+          </a>
+          <a href="https://github.com/jakeweidokal/oss-issues" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors flex items-center gap-1">
+            <i data-lucide="github" class="w-3.5 h-3.5"></i> GitHub
+          </a>
+        </nav>
       </div>
-
-      <div class="flex items-center gap-3">
-        <a href="data/feed.xml" target="_blank"
-           class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-orange-500/10 hover:bg-orange-500/20 text-orange-400 border border-orange-500/30 transition-all">
-          <i data-lucide="rss" class="w-3.5 h-3.5"></i>
-          <span>RSS Feed</span>
-        </a>
-        <a href="https://github.com/jakeweidokal/oss-issues" target="_blank" rel="noopener noreferrer"
-           class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition-all">
-          <i data-lucide="github" class="w-3.5 h-3.5"></i>
-          <span>Source Code</span>
-        </a>
+      <p class="text-sm text-zinc-600 dark:text-zinc-400">
+        Verified, unclaimed open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.
+      </p>
+      
+      <!-- Minimal Live Summary -->
+      <div class="mt-4 pt-4 border-t border-zinc-100 dark:border-zinc-800/80 flex flex-wrap items-center gap-y-1 gap-x-4 text-xs text-zinc-500 dark:text-zinc-400">
+        <div><span id="stat-total" class="font-semibold text-zinc-900 dark:text-zinc-200">--</span> active issues</div>
+        <span>&middot;</span>
+        <div><span id="stat-low-blast" class="font-semibold text-zinc-900 dark:text-zinc-200">--</span> low blast radius</div>
+        <span>&middot;</span>
+        <div><span id="stat-zero-friction" class="font-semibold text-zinc-900 dark:text-zinc-200">--</span> zero/standard friction</div>
+        <span>&middot;</span>
+        <div><span id="stat-avg-turnaround" class="font-semibold text-zinc-900 dark:text-zinc-200">--</span> avg review turnaround</div>
       </div>
     </div>
   </header>
 
-  <!-- Main Container -->
-  <main class="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
-    
-    <!-- Hero / Stats Section -->
-    <div class="mb-8">
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <!-- Stat 1 -->
-        <div class="glass-card rounded-2xl p-4 border border-slate-800">
-          <div class="flex items-center justify-between text-slate-400 text-xs font-medium mb-1">
-            <span>Active Solvable Issues</span>
-            <i data-lucide="crosshair" class="w-4 h-4 text-indigo-400"></i>
-          </div>
-          <div id="stat-total" class="text-2xl font-extrabold text-white tracking-tight">--</div>
-          <div class="text-[11px] text-slate-400 mt-0.5">Verified unclaimed tickets</div>
-        </div>
+  <!-- Main Content -->
+  <main class="flex-1 max-w-3xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6">
 
-        <!-- Stat 2 -->
-        <div class="glass-card rounded-2xl p-4 border border-slate-800">
-          <div class="flex items-center justify-between text-slate-400 text-xs font-medium mb-1">
-            <span>Low Blast Radius</span>
-            <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
-          </div>
-          <div id="stat-low-blast" class="text-2xl font-extrabold text-emerald-400 tracking-tight">--</div>
-          <div class="text-[11px] text-slate-400 mt-0.5">Isolated module changes</div>
-        </div>
-
-        <!-- Stat 3 -->
-        <div class="glass-card rounded-2xl p-4 border border-slate-800">
-          <div class="flex items-center justify-between text-slate-400 text-xs font-medium mb-1">
-            <span>Zero/Standard Friction</span>
-            <i data-lucide="layers" class="w-4 h-4 text-cyan-400"></i>
-          </div>
-          <div id="stat-zero-friction" class="text-2xl font-extrabold text-cyan-400 tracking-tight">--</div>
-          <div class="text-[11px] text-slate-400 mt-0.5">No heavy docker/DB setups</div>
-        </div>
-
-        <!-- Stat 4 -->
-        <div class="glass-card rounded-2xl p-4 border border-slate-800">
-          <div class="flex items-center justify-between text-slate-400 text-xs font-medium mb-1">
-            <span>Avg Review Turnaround</span>
-            <i data-lucide="clock" class="w-4 h-4 text-amber-400"></i>
-          </div>
-          <div id="stat-avg-turnaround" class="text-2xl font-extrabold text-amber-400 tracking-tight">--</div>
-          <div class="text-[11px] text-slate-400 mt-0.5">Fast maintainer feedback</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Filter & Search Controls Bar -->
-    <div class="glass-panel rounded-2xl p-5 mb-8 border border-slate-800 space-y-4">
-      <!-- Search Input -->
+    <!-- Search & Filter Bar -->
+    <div class="space-y-3">
       <div class="relative">
-        <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+        <i data-lucide="search" class="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
         <input
           id="search-input"
           type="text"
-          placeholder="Search by issue title, repository name, target files, or keywords..."
-          class="w-full bg-slate-900/90 border border-slate-700/80 rounded-xl pl-10 pr-4 py-2.5 text-sm text-slate-100 placeholder-slate-400 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all"
+          placeholder="Filter by title, repo, or keyword..."
+          class="w-full bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg pl-10 pr-4 py-2 text-sm text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 focus:outline-none focus:border-zinc-400 dark:focus:border-zinc-600 transition-colors"
         />
       </div>
 
-      <!-- Filters Row -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 pt-1">
-        <!-- Blast Radius Filter -->
-        <div>
-          <label class="block text-xs font-medium text-slate-400 mb-1">Blast Radius</label>
-          <select id="blast-radius-filter" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-indigo-500">
-            <option value="all">All Blast Radii</option>
-            <option value="Low">Low (Isolated)</option>
-            <option value="Medium">Medium (Multi-file)</option>
-            <option value="High">High (Architectural)</option>
-          </select>
-        </div>
+      <div class="flex flex-wrap items-center gap-2 text-xs">
+        <select id="blast-radius-filter" class="bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md px-2.5 py-1.5 text-zinc-700 dark:text-zinc-300 focus:outline-none">
+          <option value="all">All Blast Radii</option>
+          <option value="Low">Low Blast Radius</option>
+          <option value="Medium">Medium Blast Radius</option>
+          <option value="High">High Blast Radius</option>
+        </select>
 
-        <!-- Setup Friction Filter -->
-        <div>
-          <label class="block text-xs font-medium text-slate-400 mb-1">Setup Friction</label>
-          <select id="friction-filter" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-indigo-500">
-            <option value="all">All Friction Levels</option>
-            <option value="Zero-dependency">Zero-dependency</option>
-            <option value="Standard">Standard</option>
-            <option value="Docker required">Docker required</option>
-            <option value="Local DB required">Local DB required</option>
-          </select>
-        </div>
+        <select id="friction-filter" class="bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md px-2.5 py-1.5 text-zinc-700 dark:text-zinc-300 focus:outline-none">
+          <option value="all">All Friction Levels</option>
+          <option value="Zero-dependency">Zero-dependency</option>
+          <option value="Standard">Standard</option>
+          <option value="Docker required">Docker required</option>
+          <option value="Local DB required">Local DB required</option>
+        </select>
 
-        <!-- Language Filter -->
-        <div>
-          <label class="block text-xs font-medium text-slate-400 mb-1">Language</label>
-          <select id="language-filter" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-indigo-500">
-            <option value="all">All Languages</option>
-          </select>
-        </div>
+        <select id="language-filter" class="bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md px-2.5 py-1.5 text-zinc-700 dark:text-zinc-300 focus:outline-none">
+          <option value="all">All Languages</option>
+        </select>
 
-        <!-- Min Solvability Slider -->
-        <div>
-          <div class="flex items-center justify-between mb-1">
-            <label class="text-xs font-medium text-slate-400">Min Solvability</label>
-            <span id="solvability-value" class="text-xs font-bold text-indigo-400 font-mono">1+</span>
-          </div>
-          <input
-            id="solvability-slider"
-            type="range"
-            min="1"
-            max="10"
-            value="1"
-            class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500"
-          />
-        </div>
-
-        <!-- Sort Order -->
-        <div>
-          <label class="block text-xs font-medium text-slate-400 mb-1">Sort By</label>
-          <select id="sort-by" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-indigo-500">
-            <option value="solvability">Highest Solvability</option>
-            <option value="recent">Most Recent</option>
-            <option value="stars">Most Stars</option>
-            <option value="turnaround">Fastest Review</option>
-          </select>
-        </div>
+        <select id="sort-by" class="ml-auto bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md px-2.5 py-1.5 text-zinc-700 dark:text-zinc-300 focus:outline-none">
+          <option value="solvability">Highest Solvability</option>
+          <option value="recent">Most Recent</option>
+          <option value="stars">Most Stars</option>
+          <option value="turnaround">Fastest Review</option>
+        </select>
       </div>
     </div>
 
-    <!-- Header info with issue count -->
-    <div class="flex items-center justify-between mb-6">
-      <div class="flex items-center gap-2">
-        <h2 class="text-lg font-bold text-white">Curated Issues</h2>
-        <span id="total-count-badge" class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-medium border border-slate-700">
-          Loading...
-        </span>
-      </div>
-      <div class="text-xs text-slate-400 flex items-center gap-1.5">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span>Auto-refreshed via GitHub Actions</span>
-      </div>
+    <!-- Results Header -->
+    <div class="flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-400 pt-2">
+      <span id="total-count-badge">Loading issues...</span>
+      <span>Updated automatically</span>
     </div>
 
     <!-- Loading Skeleton -->
-    <div id="loading-state" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="glass-card rounded-2xl p-6 h-64 animate-pulse bg-slate-900/60 border border-slate-800"></div>
-      <div class="glass-card rounded-2xl p-6 h-64 animate-pulse bg-slate-900/60 border border-slate-800"></div>
+    <div id="loading-state" class="space-y-4">
+      <div class="border border-zinc-200 dark:border-zinc-800 rounded-lg p-5 animate-pulse bg-zinc-50 dark:bg-zinc-900/50 h-32"></div>
+      <div class="border border-zinc-200 dark:border-zinc-800 rounded-lg p-5 animate-pulse bg-zinc-50 dark:bg-zinc-900/50 h-32"></div>
     </div>
 
     <!-- Empty State -->
-    <div id="empty-state" class="hidden glass-card rounded-2xl p-12 text-center border border-slate-800 max-w-lg mx-auto">
-      <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mx-auto mb-4 text-slate-400">
-        <i data-lucide="inbox" class="w-6 h-6"></i>
-      </div>
-      <h3 class="text-base font-bold text-white mb-1">No matching issues found</h3>
-      <p class="text-xs text-slate-400 mb-4">Try relaxing your search terms or filter constraints.</p>
+    <div id="empty-state" class="hidden border border-dashed border-zinc-200 dark:border-zinc-800 rounded-lg p-8 text-center">
+      <p class="text-sm text-zinc-500">No issues match the current filter criteria.</p>
     </div>
 
-    <!-- Issue Cards Grid -->
-    <div id="issues-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+    <!-- Issues List -->
+    <div id="issues-grid" class="space-y-4"></div>
 
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-slate-800/80 bg-slate-950/80 py-8 text-center text-xs text-slate-400">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <div class="flex items-center gap-2">
-        <i data-lucide="cpu" class="w-4 h-4 text-indigo-400"></i>
-        <span>100% Zero-Cost Autonomous Infrastructure &middot; GitHub Actions &amp; Gemini 1.5 Flash</span>
+  <footer class="border-t border-zinc-200 dark:border-zinc-800 mt-12 py-8 text-xs text-zinc-500 dark:text-zinc-400">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        &copy; <span id="year"></span> <a href="https://weidok.al" target="_blank" class="hover:underline">Jake Weidokal</a> &middot; Quick Issues
       </div>
-      <div class="flex items-center gap-4 text-slate-400">
-        <a href="data/feed.xml" class="hover:text-orange-400 transition-colors flex items-center gap-1">
-          <i data-lucide="rss" class="w-3.5 h-3.5"></i> RSS
-        </a>
-        <a href="https://github.com/jakeweidokal/oss-issues" class="hover:text-white transition-colors flex items-center gap-1">
-          <i data-lucide="github" class="w-3.5 h-3.5"></i> GitHub Repo
-        </a>
+      <div class="flex items-center gap-3">
+        <a href="data/feed.xml" class="hover:underline">RSS Feed</a>
+        <span>&middot;</span>
+        <a href="https://github.com/jakeweidokal/oss-issues" target="_blank" rel="noopener noreferrer" class="hover:underline">Source Code</a>
       </div>
     </div>
   </footer>
 
-  <!-- Toast Notification -->
-  <div id="toast" class="hidden fixed bottom-6 right-6 z-50 px-4 py-2.5 rounded-xl bg-indigo-600 text-white text-xs font-semibold shadow-xl border border-indigo-400/30 flex items-center gap-2">
+  <!-- Minimal Toast -->
+  <div id="toast" class="hidden fixed bottom-6 right-6 z-50 px-3.5 py-2 text-xs font-medium minimal-toast">
   </div>
 
-  <!-- Scripts -->
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="app.js"></script>
 </body>
 </html>

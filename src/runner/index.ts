@@ -65,7 +65,7 @@ export async function runPipeline(options: RunnerOptions = {}): Promise<void> {
   const limit = options.limit || 15;
 
   console.log('====================================================');
-  console.log('🚀 OSS Issues Radar Scanner');
+  console.log('⚡ Quick Issues Scanner');
   console.log(`⏰ Timestamp: ${new Date().toISOString()}`);
   console.log(`🔧 Mode: ${isDryRun ? 'DRY-RUN' : 'LIVE PRODUCTION'}`);
   console.log(`🎯 Issue Limit: ${limit}`);

@@ -10,10 +10,10 @@ export function generateRssFeed(
       '@version': '2.0',
       '@xmlns:atom': 'http://www.w3.org/2005/Atom',
       channel: {
-        title: 'OSS Issues Radar - Solvable Open Source Issues',
+        title: 'Quick Issues — Curated, Solvable Open Source Issues',
         link: siteUrl,
         description:
-          'Automated, curated stream of verified, solvable open-source issues with zero friction and low blast radius.',
+          'Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.',
         language: 'en-us',
         lastBuildDate: new Date().toUTCString(),
         'atom:link': {
