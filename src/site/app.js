@@ -1,7 +1,8 @@
-// Quick Issues Client Application
+// Quick Issues — NetNewsWire-style Desktop Layout
 
 let allIssues = [];
 let filteredIssues = [];
+let selectedIndex = 0;
 
 const state = {
   searchQuery: '',
@@ -12,24 +13,43 @@ const state = {
 };
 
 // DOM Elements
-const elements = {
-  issuesGrid: document.getElementById('issues-grid'),
-  emptyState: document.getElementById('empty-state'),
-  loadingState: document.getElementById('loading-state'),
+const el = {
   searchInput: document.getElementById('search-input'),
   blastRadiusFilter: document.getElementById('blast-radius-filter'),
   frictionFilter: document.getElementById('friction-filter'),
   languageFilter: document.getElementById('language-filter'),
   sortBySelect: document.getElementById('sort-by'),
-  totalCountBadge: document.getElementById('total-count-badge'),
-  statTotal: document.getElementById('stat-total'),
-  statZeroFriction: document.getElementById('stat-zero-friction'),
-  statLowBlast: document.getElementById('stat-low-blast'),
-  statAvgTurnaround: document.getElementById('stat-avg-turnaround'),
+  statCountBadge: document.getElementById('stat-count-badge'),
+  listCountLabel: document.getElementById('list-count-label'),
+  issuesList: document.getElementById('issues-list'),
+  listPane: document.getElementById('list-pane'),
+  detailPane: document.getElementById('detail-pane'),
+  detailEmpty: document.getElementById('detail-empty'),
+  detailContent: document.getElementById('detail-content'),
+  mobileBackBtn: document.getElementById('mobile-back-btn'),
+  // Detail Fields
+  detailRepo: document.getElementById('detail-repo'),
+  detailStars: document.getElementById('detail-stars'),
+  detailLang: document.getElementById('detail-lang'),
+  detailTurnaround: document.getElementById('detail-turnaround'),
+  detailScore: document.getElementById('detail-score'),
+  detailTitle: document.getElementById('detail-title'),
+  detailBlastBadge: document.getElementById('detail-blast-badge'),
+  detailFrictionBadge: document.getElementById('detail-friction-badge'),
+  detailTurnaroundBadge: document.getElementById('detail-turnaround-badge'),
+  detailSummary: document.getElementById('detail-summary'),
+  detailBlastReason: document.getElementById('detail-blast-reason'),
+  detailReproContainer: document.getElementById('detail-repro-container'),
+  detailReproCmd: document.getElementById('detail-repro-cmd'),
+  detailCopyRepro: document.getElementById('detail-copy-repro'),
+  detailFilesContainer: document.getElementById('detail-files-container'),
+  detailFilesList: document.getElementById('detail-files-list'),
+  detailDiscovered: document.getElementById('detail-discovered'),
+  detailGithubLink: document.getElementById('detail-github-link'),
   toast: document.getElementById('toast'),
 };
 
-// Data Loading
+// Load issues
 async function loadIssues() {
   try {
     const candidatePaths = ['data/issues.json', './data/issues.json', '../data/issues.json'];
@@ -43,7 +63,7 @@ async function loadIssues() {
           break;
         }
       } catch {
-        // try next candidate
+        // try next
       }
     }
 
@@ -53,35 +73,11 @@ async function loadIssues() {
 
     allIssues = await response.json();
     populateLanguageFilter();
-    updateDashboardStats();
     applyFiltersAndRender();
   } catch (err) {
     console.error('Error loading issues:', err);
-    elements.loadingState.classList.add('hidden');
-    elements.emptyState.classList.remove('hidden');
-    elements.emptyState.querySelector('p').textContent =
-      'Could not load issues dataset. Please run the scanner to generate data/issues.json.';
+    el.issuesList.innerHTML = '<div class="p-6 text-center text-xs text-zinc-500">Could not load issues. Run scanner to generate data/issues.json.</div>';
   }
-}
-
-function updateDashboardStats() {
-  const total = allIssues.length;
-  const zeroFriction = allIssues.filter(
-    (i) => i.setupFriction === 'Zero-dependency' || i.setupFriction === 'Standard'
-  ).length;
-  const lowBlast = allIssues.filter((i) => i.blastRadius === 'Low').length;
-
-  const validTurnarounds = allIssues
-    .map((i) => i.maintainerTurnaroundDays)
-    .filter((d) => typeof d === 'number' && d > 0);
-  const avgTurnaround = validTurnarounds.length
-    ? (validTurnarounds.reduce((a, b) => a + b, 0) / validTurnarounds.length).toFixed(1)
-    : '1.2';
-
-  if (elements.statTotal) elements.statTotal.textContent = total;
-  if (elements.statZeroFriction) elements.statZeroFriction.textContent = zeroFriction;
-  if (elements.statLowBlast) elements.statLowBlast.textContent = lowBlast;
-  if (elements.statAvgTurnaround) elements.statAvgTurnaround.textContent = `~${avgTurnaround}d`;
 }
 
 function populateLanguageFilter() {
@@ -93,15 +89,12 @@ function populateLanguageFilter() {
     const opt = document.createElement('option');
     opt.value = lang;
     opt.textContent = lang;
-    elements.languageFilter.appendChild(opt);
+    el.languageFilter.appendChild(opt);
   });
 }
 
 function applyFiltersAndRender() {
-  elements.loadingState.classList.add('hidden');
-
   filteredIssues = allIssues.filter((issue) => {
-    // 1. Search Query
     if (state.searchQuery) {
       const q = state.searchQuery.toLowerCase();
       const matchTitle = issue.title.toLowerCase().includes(q);
@@ -113,17 +106,14 @@ function applyFiltersAndRender() {
       }
     }
 
-    // 2. Blast Radius
     if (state.blastRadius !== 'all' && issue.blastRadius !== state.blastRadius) {
       return false;
     }
 
-    // 3. Setup Friction
     if (state.setupFriction !== 'all' && issue.setupFriction !== state.setupFriction) {
       return false;
     }
 
-    // 4. Language
     if (state.language !== 'all' && issue.language !== state.language) {
       return false;
     }
@@ -131,7 +121,7 @@ function applyFiltersAndRender() {
     return true;
   });
 
-  // Sorting
+  // Sort
   filteredIssues.sort((a, b) => {
     if (state.sortBy === 'solvability') {
       return b.solvabilityScore - a.solvabilityScore;
@@ -148,23 +138,57 @@ function applyFiltersAndRender() {
     return 0;
   });
 
-  renderCards();
+  el.statCountBadge.textContent = `${allIssues.length} issues`;
+  el.listCountLabel.textContent = `${filteredIssues.length} matching`;
+
+  renderList();
+
+  // Reset or maintain selection
+  if (filteredIssues.length > 0) {
+    if (selectedIndex >= filteredIssues.length) {
+      selectedIndex = 0;
+    }
+    selectIssue(selectedIndex, false);
+  } else {
+    showEmptyDetail();
+  }
 }
 
-function renderCards() {
-  elements.issuesGrid.innerHTML = '';
-  elements.totalCountBadge.textContent = `${filteredIssues.length} issues available`;
+function renderList() {
+  el.issuesList.innerHTML = '';
 
   if (filteredIssues.length === 0) {
-    elements.emptyState.classList.remove('hidden');
+    el.issuesList.innerHTML = '<div class="p-8 text-center text-xs text-zinc-500">No matching issues found</div>';
     return;
   }
 
-  elements.emptyState.classList.add('hidden');
+  filteredIssues.forEach((issue, idx) => {
+    const row = document.createElement('div');
+    row.className = `issue-row ${idx === selectedIndex ? 'active' : ''}`;
+    row.dataset.index = idx;
 
-  filteredIssues.forEach((issue) => {
-    const card = createIssueCard(issue);
-    elements.issuesGrid.appendChild(card);
+    row.innerHTML = `
+      <div class="flex items-center justify-between text-[11px] text-zinc-500 dark:text-zinc-400 mb-1">
+        <span class="font-medium text-zinc-700 dark:text-zinc-300 truncate max-w-[200px]">${escapeHtml(issue.repo)}</span>
+        <span class="font-mono text-[10px] shrink-0">${issue.solvabilityScore}/10</span>
+      </div>
+      <div class="text-xs font-semibold text-zinc-900 dark:text-zinc-100 line-clamp-2 leading-snug mb-1">
+        #${issue.number} ${escapeHtml(issue.title)}
+      </div>
+      <div class="flex items-center gap-2 text-[10px] text-zinc-500 dark:text-zinc-400">
+        <span>${escapeHtml(issue.blastRadius)} Blast</span>
+        <span>&middot;</span>
+        <span>${escapeHtml(issue.setupFriction)}</span>
+        <span>&middot;</span>
+        <span>~${issue.maintainerTurnaroundDays}d review</span>
+      </div>
+    `;
+
+    row.addEventListener('click', () => {
+      selectIssue(idx, true);
+    });
+
+    el.issuesList.appendChild(row);
   });
 
   if (window.lucide) {
@@ -172,102 +196,103 @@ function renderCards() {
   }
 }
 
-function createIssueCard(issue) {
-  const card = document.createElement('article');
-  card.className = 'issue-card space-y-3';
+function selectIssue(index, isUserClick = true) {
+  if (index < 0 || index >= filteredIssues.length) return;
 
-  const reproBlock = issue.quickReproCommand
-    ? `<div class="flex items-center justify-between gap-2 bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded px-3 py-1.5 text-xs font-mono text-zinc-700 dark:text-zinc-300">
-        <span class="truncate"><code>${escapeHtml(issue.quickReproCommand)}</code></span>
-        <button class="copy-btn shrink-0 text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors flex items-center gap-1 font-sans text-[11px]" data-copy="${escapeHtml(
-          issue.quickReproCommand
-        )}">
-          <i data-lucide="copy" class="w-3 h-3"></i> Copy
-        </button>
-      </div>`
-    : '';
+  selectedIndex = index;
+  const issue = filteredIssues[index];
 
-  const targetFile = (issue.keyFiles && issue.keyFiles.length > 0 && issue.keyFiles[0] !== 'src/index')
-    ? `<span class="text-xs text-zinc-500 dark:text-zinc-400 font-mono truncate max-w-[200px]" title="${escapeHtml(issue.keyFiles[0])}">
-        ${escapeHtml(issue.keyFiles[0])}
-       </span>`
-    : '';
+  // Update active row classes
+  const rows = el.issuesList.querySelectorAll('.issue-row');
+  rows.forEach((r, idx) => {
+    if (idx === index) {
+      r.classList.add('active');
+      r.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    } else {
+      r.classList.remove('active');
+    }
+  });
 
-  card.innerHTML = `
-    <!-- Top Meta -->
-    <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-zinc-500 dark:text-zinc-400">
-      <div class="flex items-center gap-2">
-        <a href="${issue.repoUrl}" target="_blank" rel="noopener noreferrer" 
-           class="font-medium text-zinc-800 dark:text-zinc-200 hover:underline">
-          ${escapeHtml(issue.repo)}
-        </a>
-        <span>&middot;</span>
-        <span>★ ${formatNumber(issue.stars)}</span>
-        ${issue.language ? `<span>&middot;</span><span>${escapeHtml(issue.language)}</span>` : ''}
-        <span>&middot;</span>
-        <span>~${issue.maintainerTurnaroundDays}d review</span>
-      </div>
-      <div class="font-medium text-zinc-700 dark:text-zinc-300">
-        Solvability: ${issue.solvabilityScore}/10
-      </div>
-    </div>
+  populateDetail(issue);
 
-    <!-- Issue Title -->
-    <h2 class="text-base font-semibold leading-snug">
-      <a href="${issue.url}" target="_blank" rel="noopener noreferrer" 
-         class="text-zinc-900 dark:text-zinc-100 hover:underline">
-        #${issue.number} ${escapeHtml(issue.title)}
-      </a>
-    </h2>
-
-    <!-- Summary -->
-    <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-normal">
-      ${escapeHtml(issue.summary)}
-    </p>
-
-    <!-- Repro snippet if present -->
-    ${reproBlock}
-
-    <!-- Bottom details & action -->
-    <div class="flex items-center justify-between gap-2 pt-1 text-xs">
-      <div class="flex flex-wrap items-center gap-1.5">
-        <span class="subtle-tag">${escapeHtml(issue.blastRadius)} Blast Radius</span>
-        <span class="subtle-tag">${escapeHtml(issue.setupFriction)}</span>
-        ${targetFile}
-      </div>
-      <a href="${issue.url}" target="_blank" rel="noopener noreferrer" 
-         class="text-zinc-700 dark:text-zinc-300 hover:underline font-medium shrink-0 flex items-center gap-1">
-        <span>View on GitHub</span>
-        <span>&rarr;</span>
-      </a>
-    </div>
-  `;
-
-  // Copy listener
-  const copyBtn = card.querySelector('.copy-btn');
-  if (copyBtn) {
-    copyBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const textToCopy = copyBtn.getAttribute('data-copy');
-      if (textToCopy) {
-        navigator.clipboard.writeText(textToCopy).then(() => {
-          showToast('Copied repro command');
-        });
-      }
-    });
+  // Mobile layout switch
+  if (window.innerWidth < 768 && isUserClick) {
+    el.listPane.classList.add('hidden');
+    el.detailPane.classList.remove('hidden');
+    el.detailPane.classList.add('flex');
   }
-
-  return card;
 }
 
-// Toast
+function populateDetail(issue) {
+  el.detailEmpty.classList.add('hidden');
+  el.detailContent.classList.remove('hidden');
+
+  // Breadcrumbs & Header
+  el.detailRepo.textContent = issue.repo;
+  el.detailRepo.href = issue.repoUrl;
+  el.detailStars.textContent = `★ ${formatNumber(issue.stars)}`;
+  el.detailLang.textContent = issue.language || 'Multi-language';
+  el.detailTurnaround.textContent = `~${issue.maintainerTurnaroundDays}d review turnaround`;
+  el.detailScore.textContent = `Solvability: ${issue.solvabilityScore}/10`;
+
+  // Title
+  el.detailTitle.textContent = `#${issue.number} ${issue.title}`;
+
+  // Meta Cards
+  el.detailBlastBadge.textContent = `${issue.blastRadius} Blast Radius`;
+  el.detailFrictionBadge.textContent = issue.setupFriction;
+  el.detailTurnaroundBadge.textContent = `~${issue.maintainerTurnaroundDays} days`;
+
+  // Summary & Blast Reason
+  el.detailSummary.textContent = issue.summary;
+  el.detailBlastReason.textContent = `"${issue.blastRadiusReason}"`;
+
+  // Repro Command
+  if (issue.quickReproCommand) {
+    el.detailReproContainer.classList.remove('hidden');
+    el.detailReproCmd.textContent = issue.quickReproCommand;
+  } else {
+    el.detailReproContainer.classList.add('hidden');
+  }
+
+  // Target Files
+  const validFiles = (issue.keyFiles || []).filter((f) => f && f !== 'src/index');
+  if (validFiles.length > 0) {
+    el.detailFilesContainer.classList.remove('hidden');
+    el.detailFilesList.innerHTML = validFiles
+      .map(
+        (f) =>
+          `<span class="font-mono text-xs px-2.5 py-1 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">${escapeHtml(
+            f
+          )}</span>`
+      )
+      .join('');
+  } else {
+    el.detailFilesContainer.classList.add('hidden');
+  }
+
+  // Footer & Action
+  el.detailDiscovered.textContent = formatRelativeTime(issue.createdAt);
+  el.detailGithubLink.href = issue.url;
+
+  if (window.lucide) {
+    window.lucide.createIcons();
+  }
+}
+
+function showEmptyDetail() {
+  el.detailContent.classList.add('hidden');
+  el.detailEmpty.classList.remove('hidden');
+}
+
+// Toast helper
 function showToast(message) {
-  if (!elements.toast) return;
-  elements.toast.textContent = message;
-  elements.toast.classList.remove('hidden');
+  if (!el.toast) return;
+  el.toast.textContent = message;
+  el.toast.classList.remove('hidden');
 
   setTimeout(() => {
-    elements.toast.classList.add('hidden');
+    el.toast.classList.add('hidden');
   }, 2000);
 }
 
@@ -283,36 +308,100 @@ function escapeHtml(str) {
 }
 
 function formatNumber(num) {
-  if (num >= 1000) {
-    return (num / 1000).toFixed(1) + 'k';
-  }
+  if (num >= 1000) return (num / 1000).toFixed(1) + 'k';
   return num;
 }
 
+function formatRelativeTime(dateStr) {
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  if (days === 0) return 'today';
+  if (days === 1) return 'yesterday';
+  if (days < 30) return `${days}d ago`;
+  const months = Math.floor(days / 30);
+  return `${months}mo ago`;
+}
+
 // Event Listeners
-elements.searchInput.addEventListener('input', (e) => {
+el.searchInput.addEventListener('input', (e) => {
   state.searchQuery = e.target.value;
   applyFiltersAndRender();
 });
 
-elements.blastRadiusFilter.addEventListener('change', (e) => {
+el.blastRadiusFilter.addEventListener('change', (e) => {
   state.blastRadius = e.target.value;
   applyFiltersAndRender();
 });
 
-elements.frictionFilter.addEventListener('change', (e) => {
+el.frictionFilter.addEventListener('change', (e) => {
   state.setupFriction = e.target.value;
   applyFiltersAndRender();
 });
 
-elements.languageFilter.addEventListener('change', (e) => {
+el.languageFilter.addEventListener('change', (e) => {
   state.language = e.target.value;
   applyFiltersAndRender();
 });
 
-elements.sortBySelect.addEventListener('change', (e) => {
+el.sortBySelect.addEventListener('change', (e) => {
   state.sortBy = e.target.value;
   applyFiltersAndRender();
+});
+
+// Copy Repro Command
+el.detailCopyRepro.addEventListener('click', (e) => {
+  e.preventDefault();
+  const issue = filteredIssues[selectedIndex];
+  if (issue && issue.quickReproCommand) {
+    navigator.clipboard.writeText(issue.quickReproCommand).then(() => {
+      showToast('Copied reproduction command');
+    });
+  }
+});
+
+// Mobile Back Button
+el.mobileBackBtn.addEventListener('click', () => {
+  el.detailPane.classList.add('hidden');
+  el.detailPane.classList.remove('flex');
+  el.listPane.classList.remove('hidden');
+});
+
+// Keyboard Navigation (NetNewsWire style)
+document.addEventListener('keydown', (e) => {
+  // Ignore if typing in input
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') {
+    if (e.key === 'Escape') {
+      e.target.blur();
+    }
+    return;
+  }
+
+  if (e.key === 'j' || e.key === 'ArrowDown') {
+    e.preventDefault();
+    if (selectedIndex < filteredIssues.length - 1) {
+      selectIssue(selectedIndex + 1, false);
+    }
+  } else if (e.key === 'k' || e.key === 'ArrowUp') {
+    e.preventDefault();
+    if (selectedIndex > 0) {
+      selectIssue(selectedIndex - 1, false);
+    }
+  } else if (e.key === 'o' || e.key === 'Enter') {
+    const issue = filteredIssues[selectedIndex];
+    if (issue && issue.url) {
+      window.open(issue.url, '_blank', 'noopener,noreferrer');
+    }
+  } else if (e.key === 'c') {
+    const issue = filteredIssues[selectedIndex];
+    if (issue && issue.quickReproCommand) {
+      navigator.clipboard.writeText(issue.quickReproCommand).then(() => {
+        showToast('Copied reproduction command');
+      });
+    }
+  } else if (e.key === '/') {
+    e.preventDefault();
+    el.searchInput.focus();
+  }
 });
 
 document.addEventListener('DOMContentLoaded', () => {

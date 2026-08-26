@@ -1,108 +1,114 @@
-/* Minimal theme inspired by weidok.al (Mythos aesthetic) */
+/* Minimal NetNewsWire-inspired theme for Quick Issues */
 
 :root {
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, monospace;
 
   /* Light Theme */
-  --bg-color: #ffffff;
-  --bg-alt: #f8f9fa;
-  --text-main: #111827;
-  --text-muted: #6b7280;
-  --text-subtle: #9ca3af;
-  --border-color: #e5e7eb;
-  --border-light: #f3f4f6;
-  --link-color: #374151;
-  --link-hover: #000000;
-  --card-bg: #ffffff;
-  --card-border: #e5e7eb;
-  --card-hover-border: #9ca3af;
-  --code-bg: #f3f4f6;
-  --tag-bg: #f3f4f6;
-  --tag-text: #4b5563;
+  --bg-app: #ffffff;
+  --bg-sidebar: #fafafa;
+  --bg-hover: #f4f4f5;
+  --bg-selected: #f4f4f5;
+  --bg-code: #f4f4f5;
+  --text-main: #09090b;
+  --text-muted: #71717a;
+  --text-subtle: #a1a1aa;
+  --border-color: #e4e4e7;
+  --border-subtle: #f4f4f5;
+  --accent: #18181b;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     /* Dark Theme */
-    --bg-color: #18181b;
-    --bg-alt: #202023;
-    --text-main: #f4f4f5;
+    --bg-app: #09090b;
+    --bg-sidebar: #121215;
+    --bg-hover: #1c1c20;
+    --bg-selected: #222227;
+    --bg-code: #18181b;
+    --text-main: #fafafa;
     --text-muted: #a1a1aa;
     --text-subtle: #71717a;
     --border-color: #27272a;
-    --border-light: #27272a;
-    --link-color: #d4d4d8;
-    --link-hover: #ffffff;
-    --card-bg: #18181b;
-    --card-border: #27272a;
-    --card-hover-border: #52525b;
-    --code-bg: #202023;
-    --tag-bg: #27272a;
-    --tag-text: #d4d4d8;
+    --border-subtle: #1c1c20;
+    --accent: #f4f4f5;
   }
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--bg-color);
+  background-color: var(--bg-app);
   color: var(--text-main);
-  line-height: 1.6;
-  transition: background-color 0.15s ease, color 0.15s ease;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 code, pre, .font-mono {
   font-family: var(--font-mono);
 }
 
-/* Minimal card */
-.issue-card {
-  background-color: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: 8px;
-  padding: 1.25rem 1.5rem;
-  transition: border-color 0.15s ease;
+/* List Row */
+.issue-row {
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.9rem 1.1rem;
+  transition: background-color 0.1s ease;
+  position: relative;
 }
 
-.issue-card:hover {
-  border-color: var(--card-hover-border);
+.issue-row:hover {
+  background-color: var(--bg-hover);
 }
 
-/* Understated tags */
-.subtle-tag {
-  background-color: var(--tag-bg);
-  color: var(--tag-text);
-  font-size: 0.75rem;
-  font-weight: 500;
-  padding: 0.2rem 0.55rem;
-  border-radius: 4px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
+.issue-row.active {
+  background-color: var(--bg-selected);
 }
 
-.code-snippet {
-  background-color: var(--code-bg);
-  color: var(--text-main);
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  font-size: 0.8rem;
-  padding: 0.4rem 0.75rem;
+.issue-row.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: var(--accent);
 }
 
-/* Toast */
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-subtle);
+}
+
+/* Minimal Toast */
 .minimal-toast {
   background-color: var(--text-main);
-  color: var(--bg-color);
+  color: var(--bg-app);
   border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  animation: fadeIn 0.15s ease-out;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  animation: slideUp 0.15s ease-out;
 }
 
-@keyframes fadeIn {
+@keyframes slideUp {
   from {
     opacity: 0;
-    transform: translateY(6px);
+    transform: translateY(8px);
   }
   to {
     opacity: 1;

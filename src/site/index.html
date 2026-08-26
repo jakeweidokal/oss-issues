@@ -22,126 +22,188 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="min-h-screen flex flex-col antialiased">
+<body class="h-screen w-screen flex flex-col overflow-hidden bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
 
-  <!-- Header -->
-  <header class="border-b border-zinc-200 dark:border-zinc-800">
-    <div class="max-w-3xl mx-auto px-4 py-8 sm:px-6">
-      <div class="flex items-baseline justify-between mb-2">
-        <h1 class="text-2xl font-bold tracking-tight">
-          <a href="./" class="hover:opacity-80 transition-opacity">Quick Issues</a>
-        </h1>
-        <nav class="flex items-center gap-4 text-xs text-zinc-500 dark:text-zinc-400">
-          <a href="data/feed.xml" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors flex items-center gap-1">
-            <i data-lucide="rss" class="w-3.5 h-3.5"></i> RSS
-          </a>
-          <a href="https://github.com/jakeweidokal/oss-issues" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors flex items-center gap-1">
-            <i data-lucide="github" class="w-3.5 h-3.5"></i> GitHub
-          </a>
-        </nav>
-      </div>
-      <p class="text-sm text-zinc-600 dark:text-zinc-400">
-        Verified, unclaimed open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.
-      </p>
-      
-      <!-- Minimal Live Summary -->
-      <div class="mt-4 pt-4 border-t border-zinc-100 dark:border-zinc-800/80 flex flex-wrap items-center gap-y-1 gap-x-4 text-xs text-zinc-500 dark:text-zinc-400">
-        <div><span id="stat-total" class="font-semibold text-zinc-900 dark:text-zinc-200">--</span> active issues</div>
-        <span>&middot;</span>
-        <div><span id="stat-low-blast" class="font-semibold text-zinc-900 dark:text-zinc-200">--</span> low blast radius</div>
-        <span>&middot;</span>
-        <div><span id="stat-zero-friction" class="font-semibold text-zinc-900 dark:text-zinc-200">--</span> zero/standard friction</div>
-        <span>&middot;</span>
-        <div><span id="stat-avg-turnaround" class="font-semibold text-zinc-900 dark:text-zinc-200">--</span> avg review turnaround</div>
-      </div>
+  <!-- Top Toolbar -->
+  <header class="h-14 border-b border-zinc-200 dark:border-zinc-800 px-4 flex items-center justify-between gap-4 shrink-0 bg-white dark:bg-zinc-950 z-20">
+    <!-- Brand -->
+    <div class="flex items-center gap-3 shrink-0">
+      <h1 class="text-sm font-bold tracking-tight">
+        <a href="./" class="hover:opacity-80 transition-opacity flex items-center gap-2">
+          <span>Quick Issues</span>
+        </a>
+      </h1>
+      <span id="stat-count-badge" class="text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400">
+        --
+      </span>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="flex-1 max-w-md relative">
+      <i data-lucide="search" class="w-3.5 h-3.5 text-zinc-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Search issues, repos, files (Press /)..."
+        class="w-full bg-zinc-100 dark:bg-zinc-900 border border-transparent focus:border-zinc-300 dark:focus:border-zinc-700 rounded-md pl-8 pr-3 py-1 text-xs text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 focus:outline-none transition-colors"
+      />
+    </div>
+
+    <!-- Filters & Nav -->
+    <div class="flex items-center gap-2 shrink-0 text-xs">
+      <select id="blast-radius-filter" class="hidden sm:block bg-zinc-100 dark:bg-zinc-900 border border-transparent rounded px-2 py-1 text-zinc-700 dark:text-zinc-300 focus:outline-none">
+        <option value="all">All Blast Radii</option>
+        <option value="Low">Low Blast Radius</option>
+        <option value="Medium">Medium Blast Radius</option>
+        <option value="High">High Blast Radius</option>
+      </select>
+
+      <select id="friction-filter" class="hidden md:block bg-zinc-100 dark:bg-zinc-900 border border-transparent rounded px-2 py-1 text-zinc-700 dark:text-zinc-300 focus:outline-none">
+        <option value="all">All Friction</option>
+        <option value="Zero-dependency">Zero-dependency</option>
+        <option value="Standard">Standard</option>
+        <option value="Docker required">Docker</option>
+        <option value="Local DB required">Local DB</option>
+      </select>
+
+      <select id="language-filter" class="hidden lg:block bg-zinc-100 dark:bg-zinc-900 border border-transparent rounded px-2 py-1 text-zinc-700 dark:text-zinc-300 focus:outline-none">
+        <option value="all">All Languages</option>
+      </select>
+
+      <select id="sort-by" class="bg-zinc-100 dark:bg-zinc-900 border border-transparent rounded px-2 py-1 text-zinc-700 dark:text-zinc-300 focus:outline-none">
+        <option value="solvability">Solvability</option>
+        <option value="recent">Recent</option>
+        <option value="stars">Stars</option>
+        <option value="turnaround">Fast Review</option>
+      </select>
+
+      <div class="h-4 w-[1px] bg-zinc-200 dark:border-zinc-800 mx-1"></div>
+
+      <a href="data/feed.xml" class="text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 p-1 transition-colors" title="RSS Feed">
+        <i data-lucide="rss" class="w-4 h-4"></i>
+      </a>
+      <a href="https://github.com/jakeweidokal/oss-issues" target="_blank" rel="noopener noreferrer" class="text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 p-1 transition-colors" title="GitHub Repository">
+        <i data-lucide="github" class="w-4 h-4"></i>
+      </a>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <main class="flex-1 max-w-3xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6">
+  <!-- Split Pane Body -->
+  <div class="flex-1 flex overflow-hidden relative">
 
-    <!-- Search & Filter Bar -->
-    <div class="space-y-3">
-      <div class="relative">
-        <i data-lucide="search" class="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
-        <input
-          id="search-input"
-          type="text"
-          placeholder="Filter by title, repo, or keyword..."
-          class="w-full bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg pl-10 pr-4 py-2 text-sm text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 focus:outline-none focus:border-zinc-400 dark:focus:border-zinc-600 transition-colors"
-        />
+    <!-- Left Pane: Issue List -->
+    <aside id="list-pane" class="w-full md:w-[380px] lg:w-[440px] shrink-0 border-r border-zinc-200 dark:border-zinc-800 flex flex-col h-full bg-zinc-50/50 dark:bg-zinc-950/40 overflow-hidden">
+      <!-- Summary Bar -->
+      <div class="px-4 py-2 border-b border-zinc-200 dark:border-zinc-800/80 text-[11px] text-zinc-500 dark:text-zinc-400 flex items-center justify-between shrink-0">
+        <span id="list-count-label">Loading...</span>
+        <span class="hidden sm:inline">Use <kbd class="font-mono bg-zinc-200 dark:bg-zinc-800 px-1 rounded text-[10px]">↑</kbd> <kbd class="font-mono bg-zinc-200 dark:bg-zinc-800 px-1 rounded text-[10px]">↓</kbd> to navigate</span>
       </div>
 
-      <div class="flex flex-wrap items-center gap-2 text-xs">
-        <select id="blast-radius-filter" class="bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md px-2.5 py-1.5 text-zinc-700 dark:text-zinc-300 focus:outline-none">
-          <option value="all">All Blast Radii</option>
-          <option value="Low">Low Blast Radius</option>
-          <option value="Medium">Medium Blast Radius</option>
-          <option value="High">High Blast Radius</option>
-        </select>
-
-        <select id="friction-filter" class="bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md px-2.5 py-1.5 text-zinc-700 dark:text-zinc-300 focus:outline-none">
-          <option value="all">All Friction Levels</option>
-          <option value="Zero-dependency">Zero-dependency</option>
-          <option value="Standard">Standard</option>
-          <option value="Docker required">Docker required</option>
-          <option value="Local DB required">Local DB required</option>
-        </select>
-
-        <select id="language-filter" class="bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md px-2.5 py-1.5 text-zinc-700 dark:text-zinc-300 focus:outline-none">
-          <option value="all">All Languages</option>
-        </select>
-
-        <select id="sort-by" class="ml-auto bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md px-2.5 py-1.5 text-zinc-700 dark:text-zinc-300 focus:outline-none">
-          <option value="solvability">Highest Solvability</option>
-          <option value="recent">Most Recent</option>
-          <option value="stars">Most Stars</option>
-          <option value="turnaround">Fastest Review</option>
-        </select>
+      <!-- Scrollable Issues List -->
+      <div id="issues-list" class="flex-1 overflow-y-auto divide-y divide-zinc-200 dark:divide-zinc-800/80">
+        <div class="p-6 text-center text-xs text-zinc-400">Loading issues...</div>
       </div>
-    </div>
+    </aside>
 
-    <!-- Results Header -->
-    <div class="flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-400 pt-2">
-      <span id="total-count-badge">Loading issues...</span>
-      <span>Updated automatically</span>
-    </div>
-
-    <!-- Loading Skeleton -->
-    <div id="loading-state" class="space-y-4">
-      <div class="border border-zinc-200 dark:border-zinc-800 rounded-lg p-5 animate-pulse bg-zinc-50 dark:bg-zinc-900/50 h-32"></div>
-      <div class="border border-zinc-200 dark:border-zinc-800 rounded-lg p-5 animate-pulse bg-zinc-50 dark:bg-zinc-900/50 h-32"></div>
-    </div>
-
-    <!-- Empty State -->
-    <div id="empty-state" class="hidden border border-dashed border-zinc-200 dark:border-zinc-800 rounded-lg p-8 text-center">
-      <p class="text-sm text-zinc-500">No issues match the current filter criteria.</p>
-    </div>
-
-    <!-- Issues List -->
-    <div id="issues-grid" class="space-y-4"></div>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="border-t border-zinc-200 dark:border-zinc-800 mt-12 py-8 text-xs text-zinc-500 dark:text-zinc-400">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <div>
-        &copy; <span id="year"></span> <a href="https://weidok.al" target="_blank" class="hover:underline">Jake Weidokal</a> &middot; Quick Issues
+    <!-- Right Pane: Issue Detail -->
+    <main id="detail-pane" class="hidden md:flex flex-1 flex-col h-full overflow-y-auto bg-white dark:bg-zinc-950 p-6 md:p-10 lg:p-12">
+      <div id="detail-empty" class="h-full flex flex-col items-center justify-center text-center text-zinc-400 text-xs">
+        <i data-lucide="inbox" class="w-8 h-8 mb-2 stroke-1"></i>
+        <span>Select an issue from the list to view details</span>
       </div>
-      <div class="flex items-center gap-3">
-        <a href="data/feed.xml" class="hover:underline">RSS Feed</a>
-        <span>&middot;</span>
-        <a href="https://github.com/jakeweidokal/oss-issues" target="_blank" rel="noopener noreferrer" class="hover:underline">Source Code</a>
-      </div>
-    </div>
-  </footer>
 
-  <!-- Minimal Toast -->
+      <div id="detail-content" class="hidden max-w-3xl space-y-6">
+        <!-- Mobile Back Button -->
+        <button id="mobile-back-btn" class="md:hidden inline-flex items-center gap-1 text-xs text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 mb-2">
+          <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> Back to list
+        </button>
+
+        <!-- Top Breadcrumbs -->
+        <div class="flex flex-wrap items-center justify-between gap-3 text-xs text-zinc-500 dark:text-zinc-400 pb-3 border-b border-zinc-100 dark:border-zinc-800">
+          <div class="flex items-center gap-2">
+            <a id="detail-repo" href="#" target="_blank" class="font-semibold text-zinc-800 dark:text-zinc-200 hover:underline"></a>
+            <span>&middot;</span>
+            <span id="detail-stars"></span>
+            <span>&middot;</span>
+            <span id="detail-lang"></span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span id="detail-turnaround"></span>
+            <span>&middot;</span>
+            <span id="detail-score" class="font-medium text-zinc-900 dark:text-zinc-100"></span>
+          </div>
+        </div>
+
+        <!-- Issue Title -->
+        <div>
+          <h2 id="detail-title" class="text-xl md:text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 leading-snug"></h2>
+        </div>
+
+        <!-- Meta Attributes Cards -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <div class="border border-zinc-200 dark:border-zinc-800 rounded-md p-3 bg-zinc-50/50 dark:bg-zinc-900/40">
+            <div class="text-[11px] text-zinc-500 dark:text-zinc-400 uppercase tracking-wider font-medium mb-1">Blast Radius</div>
+            <div id="detail-blast-badge" class="text-sm font-semibold text-zinc-900 dark:text-zinc-100"></div>
+          </div>
+          <div class="border border-zinc-200 dark:border-zinc-800 rounded-md p-3 bg-zinc-50/50 dark:bg-zinc-900/40">
+            <div class="text-[11px] text-zinc-500 dark:text-zinc-400 uppercase tracking-wider font-medium mb-1">Setup Friction</div>
+            <div id="detail-friction-badge" class="text-sm font-semibold text-zinc-900 dark:text-zinc-100"></div>
+          </div>
+          <div class="col-span-2 sm:col-span-1 border border-zinc-200 dark:border-zinc-800 rounded-md p-3 bg-zinc-50/50 dark:bg-zinc-900/40">
+            <div class="text-[11px] text-zinc-500 dark:text-zinc-400 uppercase tracking-wider font-medium mb-1">Review Turnaround</div>
+            <div id="detail-turnaround-badge" class="text-sm font-semibold text-zinc-900 dark:text-zinc-100"></div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="space-y-1.5">
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-400">Task Overview</h3>
+          <p id="detail-summary" class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed"></p>
+        </div>
+
+        <!-- Blast Radius Explanation -->
+        <div class="space-y-1.5">
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-400">Blast Radius Analysis</h3>
+          <p id="detail-blast-reason" class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed italic bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800/80 rounded-md p-3.5"></p>
+        </div>
+
+        <!-- Reproduction Command -->
+        <div id="detail-repro-container" class="space-y-2">
+          <div class="flex items-center justify-between">
+            <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-400">Reproduction Command</h3>
+            <button id="detail-copy-repro" class="text-xs text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors flex items-center gap-1 font-sans">
+              <i data-lucide="copy" class="w-3.5 h-3.5"></i> Copy command
+            </button>
+          </div>
+          <pre id="detail-repro-cmd" class="code-snippet font-mono text-xs overflow-x-auto select-all py-2.5 px-3.5 rounded-md bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-zinc-800 dark:text-zinc-200"></pre>
+        </div>
+
+        <!-- Key Target Files -->
+        <div id="detail-files-container" class="space-y-2">
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-400">Identified Target Files</h3>
+          <div id="detail-files-list" class="flex flex-wrap gap-1.5"></div>
+        </div>
+
+        <!-- Actions Bar -->
+        <div class="pt-6 border-t border-zinc-200 dark:border-zinc-800 flex items-center justify-between gap-4">
+          <div class="text-xs text-zinc-500">
+            Discovered <span id="detail-discovered"></span>
+          </div>
+          <a id="detail-github-link" href="#" target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-1.5 px-4 py-2 rounded-md bg-zinc-900 hover:bg-zinc-800 text-white dark:bg-zinc-100 dark:hover:bg-white dark:text-zinc-900 text-xs font-medium transition-colors shadow-sm">
+            <span>View &amp; Claim on GitHub</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- Toast -->
   <div id="toast" class="hidden fixed bottom-6 right-6 z-50 px-3.5 py-2 text-xs font-medium minimal-toast">
   </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="app.js"></script>
 </body>
 </html>
