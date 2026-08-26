@@ -17,37 +17,54 @@ export function generateRssFeed(
         language: 'en-us',
         lastBuildDate: new Date().toUTCString(),
         'atom:link': {
-          '@href': `${siteUrl}feed.xml`,
+          '@href': `${siteUrl}data/feed.xml`,
           '@rel': 'self',
           '@type': 'application/rss+xml',
         },
-        item: issues.slice(0, 50).map((issue) => ({
-          title: `[${issue.repo}] #${issue.number} ${issue.title} (Solvability: ${issue.solvabilityScore}/10)`,
-          link: issue.url,
-          guid: {
-            '@isPermaLink': 'true',
-            '#': issue.url,
-          },
-          pubDate: new Date(issue.createdAt).toUTCString(),
-          description: `<![CDATA[
-            <p><strong>Repository:</strong> <a href="${issue.repoUrl}">${issue.repo}</a> (${issue.stars} ⭐, ${issue.language || 'Multi-language'})</p>
-            <p><strong>Solvability Score:</strong> ${issue.solvabilityScore}/10 | <strong>Blast Radius:</strong> ${issue.blastRadius} | <strong>Setup Friction:</strong> ${issue.setupFriction}</p>
-            <p><strong>Summary:</strong> ${issue.summary}</p>
-            <p><strong>Blast Radius Analysis:</strong> ${issue.blastRadiusReason}</p>
-            ${issue.quickReproCommand ? `<p><strong>Repro Command:</strong> <code>${issue.quickReproCommand}</code></p>` : ''}
-            <p><a href="${issue.url}">View and Claim Issue on GitHub &rarr;</a></p>
-          ]]>`,
-          category: [
-            issue.language || 'General',
-            `blast-radius-${issue.blastRadius.toLowerCase()}`,
-            `friction-${issue.setupFriction.toLowerCase().replace(/\s+/g, '-')}`,
-            ...issue.labels,
-          ],
-        })),
+        item: issues.slice(0, 50).map((issue) => {
+          const reproHtml = issue.quickReproCommand
+            ? `<p><strong>Repro Command:</strong> <code>${escapeForHtml(issue.quickReproCommand)}</code></p>`
+            : '';
+
+          const htmlDescription = `
+<p><strong>Repository:</strong> <a href="${issue.repoUrl}">${issue.repo}</a> (${issue.stars} ⭐, ${issue.language || 'Multi-language'})</p>
+<p><strong>Solvability Score:</strong> ${issue.solvabilityScore}/10 | <strong>Blast Radius:</strong> ${issue.blastRadius} | <strong>Setup Friction:</strong> ${issue.setupFriction}</p>
+<p><strong>Summary:</strong> ${escapeForHtml(issue.summary)}</p>
+<p><strong>Blast Radius Analysis:</strong> ${escapeForHtml(issue.blastRadiusReason)}</p>
+${reproHtml}
+<p><a href="${issue.url}">View and Claim Issue on GitHub →</a></p>
+`.trim();
+
+          return {
+            title: `[${issue.repo}] #${issue.number} ${issue.title} (Solvability: ${issue.solvabilityScore}/10)`,
+            link: issue.url,
+            guid: {
+              '@isPermaLink': 'true',
+              '#': issue.url,
+            },
+            pubDate: new Date(issue.createdAt).toUTCString(),
+            description: {
+              $: htmlDescription,
+            },
+            category: [
+              issue.language || 'General',
+              `blast-radius-${issue.blastRadius.toLowerCase()}`,
+              `friction-${issue.setupFriction.toLowerCase().replace(/\s+/g, '-')}`,
+              ...issue.labels,
+            ],
+          };
+        }),
       },
     },
   };
 
   const doc = create({ version: '1.0', encoding: 'UTF-8' }, feedObj);
   return doc.end({ prettyPrint: true });
+}
+
+function escapeForHtml(str: string): string {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
 }
