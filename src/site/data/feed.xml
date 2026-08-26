@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>OSS Issues Radar - Solvable Open Source Issues</title>
+    <title>Quick Issues — Curated, Solvable Open Source Issues</title>
     <link>https://jakeweidokal.github.io/oss-issues/</link>
-    <description>Automated, curated stream of verified, solvable open-source issues with zero friction and low blast radius.</description>
+    <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2026 16:31:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 18:23:58 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[example/sample-lib] #142 Fix: parse invalid date strings in utility parser without throwing uncaught RangeError (Solvability: 9/10)</title>
@@ -41,6 +41,23 @@
       <category>friction-standard</category>
       <category>help wanted</category>
       <category>enhancement</category>
+    </item>
+    <item>
+      <title>[peasant-labs/peasant] #200 [P3] Cover the capture-fixture refusal branches with committed tests (Solvability: 6/10)</title>
+      <link>https://github.com/peasant-labs/peasant/issues/200</link>
+      <guid isPermaLink="true">https://github.com/peasant-labs/peasant/issues/200</guid>
+      <pubDate>Wed, 26 Aug 2026 17:04:16 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/peasant-labs/peasant">peasant-labs/peasant</a> (3 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #200 in peasant-labs/peasant: [P3] Cover the capture-fixture refusal branches with committed tests</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./cmd/peasant-guided-screenshots</code></p>
+<p><a href="https://github.com/peasant-labs/peasant/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
     </item>
     <item>
       <title>[ssoelvsten/adiar] #200 Build as a Shared Library (Solvability: 6/10)</title>

@@ -1,4 +1,4 @@
-// Quick Issues — NetNewsWire-style Desktop Layout
+// Quick Issues — User-First NetNewsWire-style Desktop Layout
 
 let allIssues = [];
 let filteredIssues = [];
@@ -15,6 +15,42 @@ const state = {
 // Safe DOM accessor
 function getEl(id) {
   return document.getElementById(id);
+}
+
+// Helpers for user-friendly self-descriptive labels
+function getSolvabilityLabel(score) {
+  if (score >= 8) return `High Solvability (${score}/10)`;
+  if (score >= 5) return `Moderate Solvability (${score}/10)`;
+  return `Complex (${score}/10)`;
+}
+
+function getSolvabilityHelper(score) {
+  if (score >= 8) return 'Clear isolated fix with tests (typically ~1–2 hours)';
+  if (score >= 5) return 'Standard multi-file logic change with good testability';
+  return 'Requires deeper architectural context or cross-module refactoring';
+}
+
+function getFrictionLabel(friction) {
+  if (friction === 'Zero-dependency') return 'Zero-dependency (Library)';
+  if (friction === 'Standard') return 'Standard Install (npm/pip/cargo)';
+  if (friction === 'Docker required') return 'Docker Container Required';
+  if (friction === 'Local DB required') return 'Local Database Required';
+  return friction;
+}
+
+function getFrictionHelper(friction) {
+  if (friction === 'Zero-dependency') return 'Pure code; no external services or containers needed';
+  if (friction === 'Standard') return 'Standard package installation (e.g. npm install / pip install)';
+  if (friction === 'Docker required') return 'Requires Docker to run local development environment';
+  if (friction === 'Local DB required') return 'Requires local PostgreSQL, Redis, or Mongo database';
+  return 'Requires specific environment setup';
+}
+
+function getBlastRadiusLabel(blast) {
+  if (blast === 'Low') return 'Low (Isolated to Module)';
+  if (blast === 'Medium') return 'Medium (Standard Multi-file)';
+  if (blast === 'High') return 'High (Architectural / Wide)';
+  return `${blast} Blast Radius`;
 }
 
 // Load issues
@@ -46,7 +82,7 @@ async function loadIssues() {
   } catch (err) {
     console.error('Error loading issues:', err);
     if (issuesList) {
-      issuesList.innerHTML = '<div class="p-6 text-center text-xs text-zinc-500">Could not load issues. Please run the scanner to generate data/issues.json.</div>';
+      issuesList.innerHTML = '<div class="p-6 text-center text-xs text-zinc-500">Could not load issues dataset. Please run the scanner to generate data/issues.json.</div>';
     }
   }
 }
@@ -147,10 +183,13 @@ function renderList() {
     row.className = `issue-row ${idx === selectedIndex ? 'active' : ''}`;
     row.dataset.index = idx;
 
+    const shortSolvability = issue.solvabilityScore >= 8 ? 'Easy' : issue.solvabilityScore >= 5 ? 'Medium' : 'Hard';
+    const shortFriction = issue.setupFriction === 'Zero-dependency' ? 'Zero-dep' : issue.setupFriction;
+
     row.innerHTML = `
       <div class="flex items-center justify-between text-[11px] text-zinc-500 dark:text-zinc-400 mb-1">
         <span class="font-medium text-zinc-700 dark:text-zinc-300 truncate max-w-[200px]">${escapeHtml(issue.repo)}</span>
-        <span class="font-mono text-[10px] shrink-0">${issue.solvabilityScore}/10</span>
+        <span class="font-mono text-[10px] shrink-0 font-medium">${shortSolvability} (${issue.solvabilityScore}/10)</span>
       </div>
       <div class="text-xs font-semibold text-zinc-900 dark:text-zinc-100 line-clamp-2 leading-snug mb-1">
         #${issue.number} ${escapeHtml(issue.title)}
@@ -158,9 +197,9 @@ function renderList() {
       <div class="flex items-center gap-2 text-[10px] text-zinc-500 dark:text-zinc-400">
         <span>${escapeHtml(issue.blastRadius)} Blast</span>
         <span>&middot;</span>
-        <span>${escapeHtml(issue.setupFriction)}</span>
+        <span>${escapeHtml(shortFriction)}</span>
         <span>&middot;</span>
-        <span>~${issue.maintainerTurnaroundDays}d review</span>
+        <span>⚡ ~${issue.maintainerTurnaroundDays}d review</span>
       </div>
     `;
 
@@ -223,30 +262,33 @@ function populateDetail(issue) {
   }
 
   const starsEl = getEl('detail-stars');
-  if (starsEl) starsEl.textContent = `★ ${formatNumber(issue.stars)}`;
+  if (starsEl) starsEl.textContent = `★ ${formatNumber(issue.stars)} stars`;
 
   const langEl = getEl('detail-lang');
   if (langEl) langEl.textContent = issue.language || 'Multi-language';
 
   const turnaroundEl = getEl('detail-turnaround');
-  if (turnaroundEl) turnaroundEl.textContent = `~${issue.maintainerTurnaroundDays}d review turnaround`;
-
-  const scoreEl = getEl('detail-score');
-  if (scoreEl) scoreEl.textContent = `Solvability: ${issue.solvabilityScore}/10`;
+  if (turnaroundEl) turnaroundEl.textContent = `⚡ ~${issue.maintainerTurnaroundDays} days average review turnaround`;
 
   // Title
   const titleEl = getEl('detail-title');
   if (titleEl) titleEl.textContent = `#${issue.number} ${issue.title}`;
 
-  // Meta Cards
+  // Self-Descriptive Meta Cards
+  const scoreBadge = getEl('detail-score-badge');
+  if (scoreBadge) scoreBadge.textContent = getSolvabilityLabel(issue.solvabilityScore);
+
+  const scoreHelper = getEl('detail-score-helper');
+  if (scoreHelper) scoreHelper.textContent = getSolvabilityHelper(issue.solvabilityScore);
+
   const blastBadge = getEl('detail-blast-badge');
-  if (blastBadge) blastBadge.textContent = `${issue.blastRadius} Blast Radius`;
+  if (blastBadge) blastBadge.textContent = getBlastRadiusLabel(issue.blastRadius);
 
   const frictionBadge = getEl('detail-friction-badge');
-  if (frictionBadge) frictionBadge.textContent = issue.setupFriction;
+  if (frictionBadge) frictionBadge.textContent = getFrictionLabel(issue.setupFriction);
 
-  const turnaroundBadge = getEl('detail-turnaround-badge');
-  if (turnaroundBadge) turnaroundBadge.textContent = `~${issue.maintainerTurnaroundDays} days`;
+  const frictionHelper = getEl('detail-friction-helper');
+  if (frictionHelper) frictionHelper.textContent = getFrictionHelper(issue.setupFriction);
 
   // Summary & Blast Reason
   const summaryEl = getEl('detail-summary');

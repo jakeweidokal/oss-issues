@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Quick Issues — How We Find &amp; Verify Solvable Open Source Issues</title>
+  <meta name="description" content="Learn how Quick Issues continuously scans, filters, and analyzes open-source GitHub issues for low blast radius, active maintainers, and zero setup friction." />
+  
+  <link rel="alternate" type="application/rss+xml" title="Quick Issues RSS Feed" href="data/feed.xml" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'media',
+    };
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="min-h-screen flex flex-col bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 antialiased">
+
+  <!-- Top Toolbar -->
+  <header class="h-14 border-b border-zinc-200 dark:border-zinc-800 px-4 sm:px-8 flex items-center justify-between shrink-0 bg-white dark:bg-zinc-950">
+    <div class="flex items-center gap-3">
+      <a href="./" class="text-sm font-bold tracking-tight hover:opacity-80 transition-opacity flex items-center gap-1.5">
+        <i data-lucide="arrow-left" class="w-4 h-4 text-zinc-400"></i>
+        <span>Quick Issues</span>
+      </a>
+      <span class="text-xs text-zinc-400">&middot;</span>
+      <span class="text-xs text-zinc-500 font-medium">About &amp; FAQ</span>
+    </div>
+
+    <nav class="flex items-center gap-4 text-xs text-zinc-500 dark:text-zinc-400">
+      <a href="./" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">Browse Issues</a>
+      <a href="data/feed.xml" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors flex items-center gap-1">
+        <i data-lucide="rss" class="w-3.5 h-3.5"></i> RSS
+      </a>
+      <a href="https://github.com/jakeweidokal/oss-issues" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors flex items-center gap-1">
+        <i data-lucide="github" class="w-3.5 h-3.5"></i> GitHub
+      </a>
+    </nav>
+  </header>
+
+  <!-- Main Article Container -->
+  <main class="flex-1 max-w-2xl mx-auto w-full px-4 sm:px-6 py-12 space-y-12">
+
+    <!-- Header Section -->
+    <div class="space-y-3">
+      <h1 class="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+        About Quick Issues
+      </h1>
+      <p class="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed">
+        Quick Issues is an automated directory designed to solve the biggest frustration in open source: finding an issue that is <strong>actually ready to be solved</strong> by a new contributor.
+      </p>
+    </div>
+
+    <!-- The Problem Section -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+        The Problem with Traditional "Good First Issues"
+      </h2>
+      <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+        If you have ever tried browsing GitHub for beginner-friendly tickets, you have likely run into these common dead-ends:
+      </p>
+      <ul class="space-y-2 text-sm text-zinc-600 dark:text-zinc-400 list-disc list-inside">
+        <li><strong>Ghost Claims:</strong> You find an issue, spend hours setting up the project, only to discover 5 people already commented "can I take this?" days ago.</li>
+        <li><strong>Abandoned Repositories:</strong> You submit a pull request, but the maintainer hasn't reviewed a PR in 6 months.</li>
+        <li><strong>High Blast Radius:</strong> An issue labeled "beginner" actually requires deep architectural refactoring across dozens of files.</li>
+        <li><strong>Heavy Setup Friction:</strong> Running the project requires 4 Docker containers, multiple paid cloud API keys, and obscure local database configs.</li>
+      </ul>
+    </section>
+
+    <!-- How Quick Issues Works -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+        How Quick Issues Filters &amp; Scores Tickets
+      </h2>
+      <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+        Every 6 hours, our serverless pipeline scans GitHub repositories with active communities (>200 stars, active pushes within 14 days) and runs candidate issues through automated verification stages:
+      </p>
+
+      <div class="space-y-4 pt-2">
+        <!-- Stage 1 -->
+        <div class="border border-zinc-200 dark:border-zinc-800 rounded-lg p-4 bg-zinc-50/50 dark:bg-zinc-900/30 space-y-1.5">
+          <div class="text-xs font-bold text-zinc-900 dark:text-zinc-100 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-[11px]">1</span>
+            <span>Unclaimed &amp; Active Verification</span>
+          </div>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed pl-7">
+            We scan issue comments from the last 14 days with semantic regex patterns to ensure nobody is actively working on the ticket, and verify no open PRs are currently addressing it.
+          </p>
+        </div>
+
+        <!-- Stage 2 -->
+        <div class="border border-zinc-200 dark:border-zinc-800 rounded-lg p-4 bg-zinc-50/50 dark:bg-zinc-900/30 space-y-1.5">
+          <div class="text-xs font-bold text-zinc-900 dark:text-zinc-100 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-[11px]">2</span>
+            <span>Maintainer Turnaround Check</span>
+          </div>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed pl-7">
+            We calculate the repository's median time from PR submission to first maintainer review. Repositories with turnaround times exceeding 7 days are filtered out so your work doesn't sit abandoned.
+          </p>
+        </div>
+
+        <!-- Stage 3 -->
+        <div class="border border-zinc-200 dark:border-zinc-800 rounded-lg p-4 bg-zinc-50/50 dark:bg-zinc-900/30 space-y-1.5">
+          <div class="text-xs font-bold text-zinc-900 dark:text-zinc-100 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-[11px]">3</span>
+            <span>Code Isolation &amp; Test Detection</span>
+          </div>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed pl-7">
+            The runner shallow-clones the candidate repository to inspect the candidate file's import count and check for adjacent unit test files (e.g. <code>*.test.ts</code>, <code>test_*.py</code>).
+          </p>
+        </div>
+
+        <!-- Stage 4 -->
+        <div class="border border-zinc-200 dark:border-zinc-800 rounded-lg p-4 bg-zinc-50/50 dark:bg-zinc-900/30 space-y-1.5">
+          <div class="text-xs font-bold text-zinc-900 dark:text-zinc-100 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-[11px]">4</span>
+            <span>Semantic Blast Radius &amp; Repro Extraction</span>
+          </div>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed pl-7">
+            Gemini 1.5 Flash analyzes the issue body and code snippet in structured JSON mode to extract setup friction, blast radius risk, an exact reproduction test command, and an overall solvability score (1–10).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metrics Glossary -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+        Understanding the Metric Labels
+      </h2>
+      
+      <div class="space-y-3 text-sm">
+        <div class="pb-3 border-b border-zinc-200 dark:border-zinc-800">
+          <h3 class="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Solvability Score (1 to 10)</h3>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            Our assessment of how straightforward the issue is for a newcomer. Scores of <strong>8–10</strong> indicate isolated bug fixes with existing test coverage and clear reproduction steps that can typically be completed in 1–2 hours.
+          </p>
+        </div>
+
+        <div class="pb-3 border-b border-zinc-200 dark:border-zinc-800">
+          <h3 class="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Blast Radius (Low / Medium / High)</h3>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            Measures the architectural impact of the change. <strong>Low</strong> means the change is isolated to a single function or module and won't affect core framework systems. <strong>High</strong> indicates changes touching public APIs or cross-cutting configuration.
+          </p>
+        </div>
+
+        <div class="pb-3 border-b border-zinc-200 dark:border-zinc-800">
+          <h3 class="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Setup Friction</h3>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            What you need on your machine to start working. <strong>Zero-dependency</strong> means pure libraries with no extra services; <strong>Standard</strong> requires normal package installs (<code>npm install</code>, <code>pip install</code>); <strong>Docker required</strong> or <strong>Local DB</strong> indicates container or database dependencies.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Review Turnaround</h3>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            The historical median time for the repository's maintainers to review or merge incoming pull requests.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Claim an Issue -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+        How to Claim &amp; Solve an Issue
+      </h2>
+      <ol class="space-y-3 text-sm text-zinc-600 dark:text-zinc-400 list-decimal list-inside">
+        <li><strong>Pick an issue</strong> with a high solvability score and a setup requirement that matches your local environment.</li>
+        <li><strong>Click "View &amp; Claim on GitHub"</strong> and leave a polite comment on the ticket (e.g. <em>"Hi, I'd like to work on this issue!"</em>).</li>
+        <li><strong>Fork &amp; Clone</strong> the repository to your machine.</li>
+        <li><strong>Run the reproduction command</strong> provided in Quick Issues to verify the test locally.</li>
+        <li><strong>Make your fix</strong>, verify all tests pass, and submit your Pull Request!</li>
+      </ol>
+    </section>
+
+    <!-- CTA -->
+    <div class="pt-6 border-t border-zinc-200 dark:border-zinc-800 text-center">
+      <a href="./" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-zinc-900 hover:bg-zinc-800 text-white dark:bg-zinc-100 dark:hover:bg-white dark:text-zinc-900 text-sm font-medium transition-colors shadow-sm">
+        <span>Browse Available Issues</span>
+        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-zinc-200 dark:border-zinc-800 py-8 text-xs text-zinc-500 text-center">
+    <div class="max-w-2xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>Quick Issues &middot; Open-source issue directory</div>
+      <div class="flex items-center gap-3">
+        <a href="./" class="hover:underline">Home</a>
+        <span>&middot;</span>
+        <a href="data/feed.xml" class="hover:underline">RSS Feed</a>
+        <span>&middot;</span>
+        <a href="https://github.com/jakeweidokal/oss-issues" target="_blank" rel="noopener noreferrer" class="hover:underline">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
