@@ -1,0 +1,344 @@
+import { graphql } from '@octokit/graphql';
+import { execSync } from 'node:child_process';
+import type {
+  CandidateIssue,
+  RawGraphQLComment,
+  RawGraphQLIssueNode,
+  RawGraphQLPR,
+} from './types.js';
+
+export function getGitHubToken(): string {
+  if (process.env.GITHUB_TOKEN && process.env.GITHUB_TOKEN.trim().length > 0) {
+    return process.env.GITHUB_TOKEN.trim();
+  }
+  if (process.env.GH_TOKEN && process.env.GH_TOKEN.trim().length > 0) {
+    return process.env.GH_TOKEN.trim();
+  }
+
+  // Fallback to gh CLI for local development
+  try {
+    const token = execSync('gh auth token', {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    }).trim();
+    if (token) {
+      return token;
+    }
+  } catch {
+    // ignore
+  }
+
+  throw new Error(
+    'GitHub token not found. Please set GITHUB_TOKEN environment variable or log in with `gh auth login`.'
+  );
+}
+
+const SEARCH_QUERY = `
+query SearchCandidateIssues($searchQuery: String!, $cursor: String) {
+  search(query: $searchQuery, type: ISSUE, first: 25, after: $cursor) {
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+    nodes {
+      ... on Issue {
+        id
+        number
+        title
+        url
+        body
+        createdAt
+        updatedAt
+        author {
+          login
+        }
+        assignees(first: 5) {
+          totalCount
+        }
+        labels(first: 10) {
+          nodes {
+            name
+          }
+        }
+        comments(last: 15) {
+          nodes {
+            body
+            createdAt
+            author {
+              login
+            }
+          }
+        }
+        timelineItems(last: 10, itemTypes: [CROSS_REFERENCED_EVENT, CONNECTED_EVENT]) {
+          nodes {
+            ... on CrossReferencedEvent {
+              source {
+                ... on PullRequest {
+                  state
+                  url
+                }
+              }
+            }
+            ... on ConnectedEvent {
+              subject {
+                ... on PullRequest {
+                  state
+                  url
+                }
+              }
+            }
+          }
+        }
+        repository {
+          nameWithOwner
+          url
+          stargazerCount
+          pushedAt
+          primaryLanguage {
+            name
+          }
+          defaultBranchRef {
+            name
+          }
+          pullRequests(last: 10, states: [MERGED, CLOSED]) {
+            nodes {
+              createdAt
+              closedAt
+              reviews(first: 1) {
+                nodes {
+                  createdAt
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+`;
+
+const CLAIM_REGEX =
+  /\b(i('?m| am)\s+(working|taking)|can i\s+(take|work|fix)|working on (this|it)|take this|claiming|claim this|assigned to me|please assign|assign me|i would like to (work|take|fix)|i'll take|ill take|assign to me|may i take)\b/i;
+
+const BOT_LOGINS = [
+  'github-actions[bot]',
+  'dependabot[bot]',
+  'renovate[bot]',
+  'stale[bot]',
+  'codecov[bot]',
+  'snyk-bot',
+];
+
+export function hasRecentClaim(comments: RawGraphQLComment[]): boolean {
+  const now = Date.now();
+  const FOURTEEN_DAYS_MS = 14 * 24 * 60 * 60 * 1000;
+
+  for (const comment of comments) {
+    const author = comment.author?.login || '';
+    if (BOT_LOGINS.includes(author.toLowerCase())) {
+      continue;
+    }
+
+    const commentAge = now - new Date(comment.createdAt).getTime();
+    if (commentAge <= FOURTEEN_DAYS_MS) {
+      if (CLAIM_REGEX.test(comment.body)) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+export function hasOpenLinkedPR(timelineItems: RawGraphQLIssueNode['timelineItems']): boolean {
+  for (const item of timelineItems.nodes) {
+    const prState = item.source?.state || item.subject?.state;
+    if (prState === 'OPEN') {
+      return true;
+    }
+  }
+  return false;
+}
+
+export function calculateMaintainerTurnaroundDays(
+  pullRequests: RawGraphQLPR[],
+  pushedAt: string
+): number {
+  const now = Date.now();
+  const pushAgeDays = (now - new Date(pushedAt).getTime()) / (1000 * 60 * 60 * 24);
+
+  // If repo hasn't been pushed to in 14 days, turnaround is considered high
+  if (pushAgeDays > 14) {
+    return 15;
+  }
+
+  const responseDurations: number[] = [];
+
+  for (const pr of pullRequests) {
+    const prCreated = new Date(pr.createdAt).getTime();
+    let firstResponseTime: number | null = null;
+
+    if (pr.reviews?.nodes?.length > 0) {
+      firstResponseTime = new Date(pr.reviews.nodes[0].createdAt).getTime();
+    } else if (pr.closedAt) {
+      firstResponseTime = new Date(pr.closedAt).getTime();
+    }
+
+    if (firstResponseTime && firstResponseTime >= prCreated) {
+      const days = (firstResponseTime - prCreated) / (1000 * 60 * 60 * 24);
+      responseDurations.push(days);
+    }
+  }
+
+  if (responseDurations.length === 0) {
+    // Default fallback based on push recency
+    return pushAgeDays <= 3 ? 2 : 5;
+  }
+
+  responseDurations.sort((a, b) => a - b);
+  const median = responseDurations[Math.floor(responseDurations.length / 2)];
+  return Math.round(median * 10) / 10;
+}
+
+export interface IngestFilterResult {
+  accepted: CandidateIssue[];
+  skippedReasons: Record<string, number>;
+}
+
+export async function fetchAndFilterCandidateIssues(
+  options: {
+    limit?: number;
+    customQuery?: string;
+    verbose?: boolean;
+  } = {}
+): Promise<IngestFilterResult> {
+  const token = getGitHubToken();
+  const graphqlWithAuth = graphql.defaults({
+    headers: {
+      authorization: `token ${token}`,
+    },
+  });
+
+  const fourteenDaysAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000)
+    .toISOString()
+    .split('T')[0];
+
+  const defaultQuery = `is:issue is:open no:assignee label:"good first issue","good-first-issue","help wanted","beginner-friendly" stars:>200 pushed:>${fourteenDaysAgo}`;
+  const queryStr = options.customQuery || defaultQuery;
+
+  const targetLimit = options.limit || 20;
+  const accepted: CandidateIssue[] = [];
+  const skippedReasons: Record<string, number> = {
+    'assigned': 0,
+    'open-pr-linked': 0,
+    'recent-claim-comment': 0,
+    'inactive-maintainer': 0,
+    'short-description': 0,
+    'no-default-branch': 0,
+  };
+
+  let cursor: string | null = null;
+  let hasNextPage = true;
+  let pageCount = 0;
+
+  if (options.verbose) {
+    console.log(`[Ingest] Querying GitHub GraphQL with: ${queryStr}`);
+  }
+
+  while (hasNextPage && accepted.length < targetLimit && pageCount < 5) {
+    pageCount++;
+    const response: any = await graphqlWithAuth(SEARCH_QUERY, {
+      searchQuery: queryStr,
+      cursor,
+    });
+
+    const searchData = response?.search;
+    if (!searchData || !searchData.nodes) {
+      break;
+    }
+
+    hasNextPage = searchData.pageInfo?.hasNextPage ?? false;
+    cursor = searchData.pageInfo?.endCursor ?? null;
+
+    for (const node of searchData.nodes) {
+      if (!node || !node.id || !node.repository) {
+        continue;
+      }
+
+      const issueNode = node as RawGraphQLIssueNode;
+
+      // 1. Assignee Check
+      if (issueNode.assignees.totalCount > 0) {
+        skippedReasons['assigned']++;
+        continue;
+      }
+
+      // 2. Open Linked PR Check
+      if (hasOpenLinkedPR(issueNode.timelineItems)) {
+        skippedReasons['open-pr-linked']++;
+        continue;
+      }
+
+      // 3. Recent Claim Comments Check
+      if (hasRecentClaim(issueNode.comments.nodes)) {
+        skippedReasons['recent-claim-comment']++;
+        continue;
+      }
+
+      // 4. Issue Description Quality Check
+      const body = (issueNode.body || '').trim();
+      if (body.length < 80) {
+        skippedReasons['short-description']++;
+        continue;
+      }
+
+      // 5. Default Branch Check
+      const defaultBranch = issueNode.repository.defaultBranchRef?.name;
+      if (!defaultBranch) {
+        skippedReasons['no-default-branch']++;
+        continue;
+      }
+
+      // 6. Maintainer Turnaround & Responsiveness
+      const turnaroundDays = calculateMaintainerTurnaroundDays(
+        issueNode.repository.pullRequests?.nodes || [],
+        issueNode.repository.pushedAt
+      );
+
+      if (turnaroundDays > 7) {
+        skippedReasons['inactive-maintainer']++;
+        continue;
+      }
+
+      accepted.push({
+        id: issueNode.id,
+        number: issueNode.number,
+        title: issueNode.title,
+        url: issueNode.url,
+        body,
+        repo: issueNode.repository.nameWithOwner,
+        repoUrl: issueNode.repository.url,
+        stars: issueNode.repository.stargazerCount,
+        language: issueNode.repository.primaryLanguage?.name || null,
+        labels: issueNode.labels.nodes.map((l) => l.name),
+        createdAt: issueNode.createdAt,
+        updatedAt: issueNode.updatedAt,
+        defaultBranch,
+        maintainerTurnaroundDays: turnaroundDays,
+      });
+
+      if (accepted.length >= targetLimit) {
+        break;
+      }
+    }
+  }
+
+  if (options.verbose) {
+    console.log(
+      `[Ingest] Ingestion complete. Accepted ${accepted.length} candidate issues. Filter drop counts:`,
+      skippedReasons
+    );
+  }
+
+  return { accepted, skippedReasons };
+}

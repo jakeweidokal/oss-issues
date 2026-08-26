@@ -1,0 +1,35 @@
+{
+  "name": "oss-issues",
+  "version": "1.0.0",
+  "description": "Automated zero-cost pipeline scanning GitHub for verified, solvable open-source issues with enriched static UI & RSS feed",
+  "main": "src/runner/index.ts",
+  "type": "module",
+  "scripts": {
+    "scan": "tsx src/runner/index.ts",
+    "scan:dry": "tsx src/runner/index.ts --dry-run",
+    "build:site": "node src/runner/build-site.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "github",
+    "good-first-issue",
+    "open-source",
+    "automation",
+    "gemini",
+    "static-site"
+  ],
+  "author": "Jake Weidokal",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "@octokit/graphql": "^8.1.2",
+    "dotenv": "^16.4.7",
+    "xmlbuilder2": "^3.1.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
