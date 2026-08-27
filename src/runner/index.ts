@@ -4,6 +4,7 @@ import 'dotenv/config';
 import { generateRssFeed } from './feed.js';
 import { fetchAndFilterCandidateIssues } from './ingest.js';
 import { inspectCandidateRepo } from './inspect.js';
+import { reconcileExistingIssues } from './reconcile.js';
 import { analyzeIssueSemantics } from './semantic.js';
 import {
   type EnrichedIssue,
@@ -27,6 +28,10 @@ function parseCliArgs(): RunnerOptions {
       options.limit = parseInt(arg.split('=')[1], 10);
     } else if (arg.startsWith('--query=')) {
       options.query = arg.split('=').slice(1).join('=');
+    } else if (arg.startsWith('--max-age=')) {
+      options.maxAgeDays = parseInt(arg.split('=')[1], 10);
+    } else if (arg.startsWith('--min-stars=')) {
+      options.minStars = parseInt(arg.split('=')[1], 10);
     }
   }
 
@@ -63,12 +68,16 @@ export async function runPipeline(options: RunnerOptions = {}): Promise<void> {
   const isVerbose = Boolean(options.verbose);
   const isDryRun = Boolean(options.dryRun);
   const limit = options.limit || 15;
+  const maxAgeDays = options.maxAgeDays ?? 60;
+  const minStars = options.minStars ?? 200;
 
   console.log('====================================================');
   console.log('⚡ Quick Issues Scanner');
   console.log(`⏰ Timestamp: ${new Date().toISOString()}`);
   console.log(`🔧 Mode: ${isDryRun ? 'DRY-RUN' : 'LIVE PRODUCTION'}`);
   console.log(`🎯 Issue Limit: ${limit}`);
+  console.log(`📅 Max Issue Age: ${maxAgeDays} days`);
+  console.log(`⭐ Min Stars: ${minStars}`);
   console.log('====================================================\n');
 
   // 1. Ingest & Filter Candidates
@@ -76,30 +85,76 @@ export async function runPipeline(options: RunnerOptions = {}): Promise<void> {
   const { accepted, skippedReasons } = await fetchAndFilterCandidateIssues({
     limit,
     customQuery: options.query,
+    minStars,
+    maxAgeDays,
     verbose: isVerbose,
   });
 
   console.log(`\n✅ Ingest complete. ${accepted.length} candidates passed initial heuristic filters.`);
   console.log('📊 Filtering Drop Breakdown:', JSON.stringify(skippedReasons, null, 2));
 
-  if (accepted.length === 0) {
-    console.log('ℹ️ No new candidates to process. Exiting.');
-    return;
+  // 2. Load History & Existing Dataset (enforce min stars, max age & real repos)
+  const history: Record<string, HistoryItem> = loadJson(HISTORY_PATH, {});
+  const rawExistingIssues: EnrichedIssue[] = loadJson<EnrichedIssue[]>(ISSUES_PATH, []).filter(
+    (i: EnrichedIssue) => {
+      const hasStars = (i.stars || 0) >= minStars;
+      const isReal = !i.repo.startsWith('example/');
+      const ageDays = (Date.now() - new Date(i.createdAt).getTime()) / (1000 * 60 * 60 * 24);
+      const isFresh = ageDays <= maxAgeDays;
+      return hasStars && isReal && isFresh;
+    }
+  );
+
+  // 3. Reconcile Existing Dataset against Live GitHub Status
+  console.log(`\n🔄 Step 2: Reconciling ${rawExistingIssues.length} existing issues against live GitHub status...`);
+  let existingIssues = rawExistingIssues;
+  let removedCount = 0;
+
+  if (rawExistingIssues.length > 0) {
+    try {
+      const reconcileResult = await reconcileExistingIssues(rawExistingIssues, {
+        verbose: isVerbose,
+        maxAgeDays,
+      });
+      existingIssues = reconcileResult.activeIssues;
+      removedCount = reconcileResult.removedIssues.length;
+
+      for (const { issue, reason } of reconcileResult.removedIssues) {
+        history[issue.id] = {
+          id: issue.id,
+          url: issue.url,
+          repo: issue.repo,
+          title: issue.title,
+          discoveredAt: issue.discoveredAt,
+          status: reason,
+          reason: `Removed during reconciliation (${reason})`,
+        };
+      }
+
+      console.log(
+        `  ✅ Reconciliation complete: ${reconcileResult.activeIssues.length} active, ${reconcileResult.removedIssues.length} removed.`
+      );
+      if (reconcileResult.removedIssues.length > 0) {
+        console.log('  📊 Removal breakdown:', JSON.stringify(reconcileResult.stats, null, 2));
+      }
+    } catch (err: any) {
+      console.warn(`  ⚠️ Issue reconciliation encountered an error, preserving current dataset:`, err?.message || err);
+    }
   }
 
-  // 2. Load History & Existing Dataset (enforce min 200 stars & real repos)
-  const history: Record<string, HistoryItem> = loadJson(HISTORY_PATH, {});
-  const existingIssues: EnrichedIssue[] = loadJson<EnrichedIssue[]>(ISSUES_PATH, []).filter(
-    (i: EnrichedIssue) => (i.stars || 0) >= 200 && !i.repo.startsWith('example/')
-  );
   const existingMap = new Map<string, EnrichedIssue>(
     existingIssues.map((i) => [i.id, i])
   );
 
+  if (accepted.length === 0 && removedCount === 0) {
+    console.log('ℹ️ No new candidates to process and no changes to existing issues. Exiting.');
+    return;
+  }
+
   const enrichedList: EnrichedIssue[] = [];
 
-  // 3. Process Each Candidate
-  console.log('\n🔬 Step 2 & 3: Local Code Inspection & Gemini Semantic Analysis...');
+  // 4. Process Each Candidate
+  console.log('\n🔬 Step 3 & 4: Local Code Inspection & Gemini Semantic Analysis...');
   for (let i = 0; i < accepted.length; i++) {
     const candidate = accepted[i];
     console.log(`\n[${i + 1}/${accepted.length}] Evaluating ${candidate.repo}#${candidate.number} - "${candidate.title.slice(0, 60)}..."`);
@@ -199,12 +254,12 @@ export async function runPipeline(options: RunnerOptions = {}): Promise<void> {
   const finalDataset = allIssues.slice(0, 150);
 
   // 5. Generate RSS Feed
-  console.log('\n📰 Step 4: Generating RSS/Atom feed...');
+  console.log('\n📰 Step 5: Generating RSS/Atom feed...');
   const rssXml = generateRssFeed(finalDataset);
 
   // 6. Save Data Files
   if (!isDryRun) {
-    console.log(`💾 Step 5: Writing ${finalDataset.length} issues to ${ISSUES_PATH}...`);
+    console.log(`💾 Step 6: Writing ${finalDataset.length} issues to ${ISSUES_PATH}...`);
     saveJson(ISSUES_PATH, finalDataset);
     saveJson(HISTORY_PATH, history);
 

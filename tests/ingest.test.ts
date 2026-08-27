@@ -198,4 +198,101 @@ describe('Ingest & Heuristics', () => {
       assert.equal(result.skippedReasons['low-stars'], 1);
     });
   });
+
+  describe('Issue Age & Recency Filter', () => {
+    test('filters out stale issues older than maxAgeDays', async () => {
+      const eightYearsAgoIso = new Date(Date.now() - 8 * 365 * 24 * 60 * 60 * 1000).toISOString();
+      const freshIso = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString();
+
+      const mockIssues: RawGraphQLIssueNode[] = [
+        {
+          id: 'issue-ancient',
+          number: 200,
+          title: 'Ancient 8-year-old issue',
+          url: 'https://github.com/ancient/repo/issues/200',
+          body: 'This is an ancient issue created 8 years ago with plenty of descriptive text to pass length checks.',
+          createdAt: eightYearsAgoIso,
+          updatedAt: new Date().toISOString(),
+          assignees: { totalCount: 0 },
+          labels: { nodes: [{ name: 'good first issue' }] },
+          comments: { nodes: [] },
+          timelineItems: { nodes: [] },
+          repository: {
+            nameWithOwner: 'ancient/repo',
+            url: 'https://github.com/ancient/repo',
+            stargazerCount: 1500,
+            pushedAt: new Date().toISOString(),
+            defaultBranchRef: { name: 'main' },
+            primaryLanguage: { name: 'TypeScript' },
+            pullRequests: { nodes: [] },
+          },
+        },
+        {
+          id: 'issue-fresh',
+          number: 101,
+          title: 'Fresh issue created 5 days ago',
+          url: 'https://github.com/fresh/repo/issues/101',
+          body: 'This is a fresh issue created recently with plenty of descriptive text to pass length checks.',
+          createdAt: freshIso,
+          updatedAt: new Date().toISOString(),
+          assignees: { totalCount: 0 },
+          labels: { nodes: [{ name: 'good first issue' }] },
+          comments: { nodes: [] },
+          timelineItems: { nodes: [] },
+          repository: {
+            nameWithOwner: 'fresh/repo',
+            url: 'https://github.com/fresh/repo',
+            stargazerCount: 1500,
+            pushedAt: new Date().toISOString(),
+            defaultBranchRef: { name: 'main' },
+            primaryLanguage: { name: 'TypeScript' },
+            pullRequests: { nodes: [] },
+          },
+        },
+      ];
+
+      const mockClient = async () => ({
+        search: {
+          pageInfo: { hasNextPage: false, endCursor: null },
+          nodes: mockIssues,
+        },
+      });
+
+      const result = await fetchAndFilterCandidateIssues({
+        limit: 10,
+        maxAgeDays: 60,
+        customQuery: 'test query',
+        graphqlClient: mockClient,
+      });
+
+      assert.equal(result.accepted.some((i) => i.id === 'issue-ancient'), false);
+      assert.equal(result.accepted.some((i) => i.id === 'issue-fresh'), true);
+      assert.equal(result.skippedReasons['too-old'], 1);
+    });
+
+    test('generates queries with created date filter and sort:created-desc without invalid qualifiers', async () => {
+      let executedQuery = '';
+      const mockClient = async (_query: string, vars: { searchQuery: string }) => {
+        executedQuery = vars.searchQuery;
+        return {
+          search: {
+            pageInfo: { hasNextPage: false, endCursor: null },
+            nodes: [],
+          },
+        };
+      };
+
+      await fetchAndFilterCandidateIssues({
+        limit: 5,
+        maxAgeDays: 30,
+        graphqlClient: mockClient,
+      });
+
+      assert.ok(executedQuery.includes('sort:created-desc'), 'Query must sort by created desc');
+      assert.ok(executedQuery.includes('created:>='), 'Query must filter by created date');
+      assert.ok(!executedQuery.includes('stars:>='), 'Query must not include invalid stars qualifier');
+      assert.ok(!executedQuery.includes('pushed:>'), 'Query must not include invalid pushed qualifier');
+    });
+  });
 });
+

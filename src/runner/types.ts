@@ -116,14 +116,44 @@ export interface SemanticAnalysisResult {
   summary: string;
 }
 
+export type InactiveReason =
+  | 'closed'
+  | 'assigned'
+  | 'claimed'
+  | 'pr_opened'
+  | 'archived'
+  | 'deleted'
+  | 'too_old'
+  | 'stale';
+
 export interface HistoryItem {
   id: string;
   url: string;
   repo: string;
   title: string;
   discoveredAt: string;
-  status: 'published' | 'skipped' | 'filtered';
+  status:
+    | 'published'
+    | 'skipped'
+    | 'filtered'
+    | 'closed'
+    | 'assigned'
+    | 'claimed'
+    | 'pr_opened'
+    | 'archived'
+    | 'deleted'
+    | 'too_old'
+    | 'stale';
   reason?: string;
+}
+
+export interface ReconcileResult {
+  activeIssues: EnrichedIssue[];
+  removedIssues: Array<{
+    issue: EnrichedIssue;
+    reason: InactiveReason;
+  }>;
+  stats: Record<InactiveReason, number>;
 }
 
 export interface RunnerOptions {
@@ -132,4 +162,7 @@ export interface RunnerOptions {
   skipClone?: boolean;
   query?: string;
   verbose?: boolean;
+  maxAgeDays?: number;
+  minStars?: number;
 }
+

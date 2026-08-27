@@ -5,239 +5,305 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2026 18:44:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 20:11:52 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>[example/sample-lib] #142 Fix: parse invalid date strings in utility parser without throwing uncaught RangeError (Solvability: 9/10)</title>
-      <link>https://github.com/example/sample-lib/issues/142</link>
-      <guid isPermaLink="true">https://github.com/example/sample-lib/issues/142</guid>
-      <pubDate>Tue, 25 Aug 2026 14:20:00 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/example/sample-lib">example/sample-lib</a> (1240 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 9/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Zero-dependency</p>
-<p><strong>Summary:</strong> Add boundary check in date-parser.ts to gracefully handle malformed ISO strings and return null instead of throwing an unhandled RangeError.</p>
-<p><strong>Blast Radius Analysis:</strong> Changes are isolated to a single pure date parsing utility function with adjacent unit tests.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test tests/utils/date-parser.spec.ts</code></p>
-<p><a href="https://github.com/example/sample-lib/issues/142">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-low</category>
-      <category>friction-zero-dependency</category>
-      <category>good first issue</category>
-      <category>bug</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[example/fast-client] #89 Support custom headers in HTTP retry client configuration (Solvability: 8/10)</title>
-      <link>https://github.com/example/fast-client/issues/89</link>
-      <guid isPermaLink="true">https://github.com/example/fast-client/issues/89</guid>
-      <pubDate>Mon, 24 Aug 2026 18:30:00 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/example/fast-client">example/fast-client</a> (3400 ⭐, Python)</p>
+      <title>[reticlehq/reticle] #604 [agent] reticle_sessions does not say a dev server is already listening (Solvability: 8/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/604</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/604</guid>
+      <pubDate>Thu, 27 Aug 2026 18:37:29 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (367 ⭐, TypeScript)</p>
 <p><strong>Solvability Score:</strong> 8/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Allow passing a custom headers dictionary in ClientConfig and ensure it merges with default session headers during retry attempts.</p>
-<p><strong>Blast Radius Analysis:</strong> Touches only client config dictionary merge logic, existing pytest suite covers client initialization.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/test_client_config.py</code></p>
-<p><a href="https://github.com/example/fast-client/issues/89">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
+<p><strong>Summary:</strong> Fix issue #604 in reticlehq/reticle: [agent] reticle_sessions does not say a dev server is already listening</p>
+<p><strong>Blast Radius Analysis:</strong> Changes appear localized to a single module with existing unit tests.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/server/src/session/dev-server-probe.test.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/604">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
       <category>blast-radius-low</category>
       <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>enhancement</category>
-    </item>
-    <item>
-      <title>[peasant-labs/peasant] #200 [P3] Cover the capture-fixture refusal branches with committed tests (Solvability: 6/10)</title>
-      <link>https://github.com/peasant-labs/peasant/issues/200</link>
-      <guid isPermaLink="true">https://github.com/peasant-labs/peasant/issues/200</guid>
-      <pubDate>Wed, 26 Aug 2026 17:04:16 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/peasant-labs/peasant">peasant-labs/peasant</a> (3 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in peasant-labs/peasant: [P3] Cover the capture-fixture refusal branches with committed tests</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./cmd/peasant-guided-screenshots</code></p>
-<p><a href="https://github.com/peasant-labs/peasant/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
       <category>enhancement</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[ssoelvsten/adiar] #200 Build as a Shared Library (Solvability: 6/10)</title>
-      <link>https://github.com/ssoelvsten/adiar/issues/200</link>
-      <guid isPermaLink="true">https://github.com/ssoelvsten/adiar/issues/200</guid>
-      <pubDate>Sat, 18 Dec 2021 08:39:35 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ssoelvsten/adiar">ssoelvsten/adiar</a> (33 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in ssoelvsten/adiar: Build as a Shared Library</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/ssoelvsten/adiar/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
       <category>help wanted</category>
-      <category>📁 build</category>
-      <category>✨ feature</category>
+      <category>agent-reported</category>
     </item>
     <item>
-      <title>[raffomania/ties] #200 Redirect from http to https when TLS is enabled (Solvability: 6/10)</title>
-      <link>https://github.com/raffomania/ties/issues/200</link>
-      <guid isPermaLink="true">https://github.com/raffomania/ties/issues/200</guid>
-      <pubDate>Thu, 27 Nov 2025 15:42:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/raffomania/ties">raffomania/ties</a> (186 ⭐, Rust)</p>
+      <title>[reticlehq/reticle] #598 [agent] an origin in RETICLE_ALLOWED_ORIGINS without a scheme is silently discarded (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/598</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/598</guid>
+      <pubDate>Thu, 27 Aug 2026 18:36:54 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (367 ⭐, TypeScript)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in raffomania/ties: Redirect from http to https when TLS is enabled</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/raffomania/ties/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[ForNeVeR/Todosaurus] #200 Allow create issue without comment (Solvability: 6/10)</title>
-      <link>https://github.com/ForNeVeR/Todosaurus/issues/200</link>
-      <guid isPermaLink="true">https://github.com/ForNeVeR/Todosaurus/issues/200</guid>
-      <pubDate>Wed, 07 May 2025 19:28:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ForNeVeR/Todosaurus">ForNeVeR/Todosaurus</a> (22 ⭐, Kotlin)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in ForNeVeR/Todosaurus: Allow create issue without comment</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/ForNeVeR/Todosaurus/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Kotlin</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>area:intellij</category>
-    </item>
-    <item>
-      <title>[ratatui/ratatui-website] #200 Add more screenshots to the landing page (Solvability: 6/10)</title>
-      <link>https://github.com/ratatui/ratatui-website/issues/200</link>
-      <guid isPermaLink="true">https://github.com/ratatui/ratatui-website/issues/200</guid>
-      <pubDate>Tue, 28 Nov 2023 03:54:11 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ratatui/ratatui-website">ratatui/ratatui-website</a> (186 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in ratatui/ratatui-website: Add more screenshots to the landing page</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/ratatui/ratatui-website/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[JarryShaw/darc] #200 AttributeError: 'Proxy' object has no attribute 'add_to_capabilities' (Solvability: 6/10)</title>
-      <link>https://github.com/JarryShaw/darc/issues/200</link>
-      <guid isPermaLink="true">https://github.com/JarryShaw/darc/issues/200</guid>
-      <pubDate>Tue, 30 Jan 2024 22:36:23 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/JarryShaw/darc">JarryShaw/darc</a> (228 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in JarryShaw/darc: AttributeError: 'Proxy' object has no attribute 'add_to_capabilities'</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/JarryShaw/darc/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[higress-group/higress] #200 e2e: add testcases for auth annotations (Solvability: 6/10)</title>
-      <link>https://github.com/higress-group/higress/issues/200</link>
-      <guid isPermaLink="true">https://github.com/higress-group/higress/issues/200</guid>
-      <pubDate>Thu, 16 Feb 2023 08:20:59 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/higress-group/higress">higress-group/higress</a> (9195 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in higress-group/higress: e2e: add testcases for auth annotations</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/higress-group/higress/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>level/challenge</category>
-      <category>area/annotation</category>
-      <category>area/e2e</category>
-      <category>sig/automation</category>
-    </item>
-    <item>
-      <title>[Stellar-MarkeyPay/Stellar-MarketPay] #200 test: add component tests for `frontend/components/WalletConnect.tsx` (Solvability: 6/10)</title>
-      <link>https://github.com/Stellar-MarkeyPay/Stellar-MarketPay/issues/200</link>
-      <guid isPermaLink="true">https://github.com/Stellar-MarkeyPay/Stellar-MarketPay/issues/200</guid>
-      <pubDate>Thu, 20 Aug 2026 07:49:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Stellar-MarkeyPay/Stellar-MarketPay">Stellar-MarkeyPay/Stellar-MarketPay</a> (3 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in Stellar-MarkeyPay/Stellar-MarketPay: test: add component tests for `frontend/components/WalletConnect.tsx`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test frontend/components/WalletConnect.tsx</code></p>
-<p><a href="https://github.com/Stellar-MarkeyPay/Stellar-MarketPay/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>Maybe Rewarded</category>
-      <category>GrantFox OSS</category>
-      <category>area: frontend</category>
-      <category>area: testing</category>
-      <category>complexity: M</category>
-      <category>Third Campaign</category>
-    </item>
-    <item>
-      <title>[patriciaperez90/online-food-ordering-system-project-in-php-and-sql] #200 Enatega Customer Application: Ui-Fix--Location text coming out of the boundary on checkout screen (Solvability: 6/10)</title>
-      <link>https://github.com/patriciaperez90/online-food-ordering-system-project-in-php-and-sql/issues/200</link>
-      <guid isPermaLink="true">https://github.com/patriciaperez90/online-food-ordering-system-project-in-php-and-sql/issues/200</guid>
-      <pubDate>Fri, 14 Mar 2025 06:11:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/patriciaperez90/online-food-ordering-system-project-in-php-and-sql">patriciaperez90/online-food-ordering-system-project-in-php-and-sql</a> (0 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in patriciaperez90/online-food-ordering-system-project-in-php-and-sql: Enatega Customer Application: Ui-Fix--Location text coming out of the boundary on checkout screen</p>
+<p><strong>Summary:</strong> Fix issue #598 in reticlehq/reticle: [agent] an origin in RETICLE_ALLOWED_ORIGINS without a scheme is silently discarded</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/patriciaperez90/online-food-ordering-system-project-in-php-and-sql/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
+<p><a href="https://github.com/reticlehq/reticle/issues/598">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
+      <category>bug</category>
       <category>good first issue</category>
-      <category>High Priority</category>
-      <category>Enatega MultiVendor Customer App</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
     </item>
     <item>
-      <title>[TASEmulators/desmume] #200 Windows - RAM SEARCH:  The ability to edit an address value. (Solvability: 6/10)</title>
-      <link>https://github.com/TASEmulators/desmume/issues/200</link>
-      <guid isPermaLink="true">https://github.com/TASEmulators/desmume/issues/200</guid>
-      <pubDate>Fri, 05 Oct 2018 05:12:18 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/TASEmulators/desmume">TASEmulators/desmume</a> (3611 ⭐, C++)</p>
+      <title>[lingdojo/kana-dojo] #29285 [Good First Issue] 🎌 Add new Video Game Quote 96 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29285</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29285</guid>
+      <pubDate>Thu, 27 Aug 2026 18:37:40 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3270 ⭐, Multi-language)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in TASEmulators/desmume: Windows - RAM SEARCH:  The ability to edit an address value.</p>
+<p><strong>Summary:</strong> Fix issue #29285 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Video Game Quote 96 - Beginner-Friendly Open-source Contribution</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 
-<p><a href="https://github.com/TASEmulators/desmume/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29285">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>enhancement</category>
       <category>help wanted</category>
-      <category>winport</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
     </item>
     <item>
-      <title>[jaegertracing/jaeger-ui] #200 Add a CSS preprocessor to the build tooling (Solvability: 6/10)</title>
-      <link>https://github.com/jaegertracing/jaeger-ui/issues/200</link>
-      <guid isPermaLink="true">https://github.com/jaegertracing/jaeger-ui/issues/200</guid>
-      <pubDate>Tue, 20 Mar 2018 21:23:31 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/jaegertracing/jaeger-ui">jaegertracing/jaeger-ui</a> (1521 ⭐, TypeScript)</p>
+      <title>[reticlehq/reticle] #605 [agent] audit instructions reference reticle_crawl, which no longer exists (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/605</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/605</guid>
+      <pubDate>Thu, 27 Aug 2026 18:37:50 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (367 ⭐, TypeScript)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in jaegertracing/jaeger-ui: Add a CSS preprocessor to the build tooling</p>
+<p><strong>Summary:</strong> Fix issue #605 in reticlehq/reticle: [agent] audit instructions reference reticle_crawl, which no longer exists</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/jaegertracing/jaeger-ui/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
+<p><a href="https://github.com/reticlehq/reticle/issues/605">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>enhancement</category>
+      <category>good first issue</category>
       <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #606 [agent] the throttle recommendation does not mention that leasing empties the human's HUD (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/606</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/606</guid>
+      <pubDate>Thu, 27 Aug 2026 18:37:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (367 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #606 in reticlehq/reticle: [agent] the throttle recommendation does not mention that leasing empties the human's HUD</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/606">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[Submitty/Submitty] #13197 Dates panel on Edit Gradeable should allow "no" on due date, but "yes" on grades released date (Solvability: 6/10)</title>
+      <link>https://github.com/Submitty/Submitty/issues/13197</link>
+      <guid isPermaLink="true">https://github.com/Submitty/Submitty/issues/13197</guid>
+      <pubDate>Thu, 27 Aug 2026 18:38:45 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Submitty/Submitty">Submitty/Submitty</a> (785 ⭐, PHP)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13197 in Submitty/Submitty: Dates panel on Edit Gradeable should allow "no" on due date, but "yes" on grades released date</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/Submitty/Submitty/issues/13197">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>PHP</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>Submission / Team Submission</category>
+      <category>Instructor UI</category>
+      <category>Bulk Upload / Scanned PDF Submission</category>
+      <category>Notebook / Notebook Builder</category>
+    </item>
+    <item>
+      <title>[hardwood-hq/hardwood] #1048 Interop gate covers the named encodings at one nullability out of four (Solvability: 6/10)</title>
+      <link>https://github.com/hardwood-hq/hardwood/issues/1048</link>
+      <guid isPermaLink="true">https://github.com/hardwood-hq/hardwood/issues/1048</guid>
+      <pubDate>Thu, 27 Aug 2026 18:50:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/hardwood-hq/hardwood">hardwood-hq/hardwood</a> (366 ⭐, Java)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1048 in hardwood-hq/hardwood: Interop gate covers the named encodings at one nullability out of four</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/hardwood-hq/hardwood/issues/1048">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Java</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29287 [Good First Issue] 🦊 Add new Japanese Idiom 68 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29287</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29287</guid>
+      <pubDate>Thu, 27 Aug 2026 19:01:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3270 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29287 in lingdojo/kana-dojo: [Good First Issue] 🦊 Add new Japanese Idiom 68 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29287">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[Submitty/Submitty] #13198 Clarify minimum score message for prerequisite gradeables (Solvability: 6/10)</title>
+      <link>https://github.com/Submitty/Submitty/issues/13198</link>
+      <guid isPermaLink="true">https://github.com/Submitty/Submitty/issues/13198</guid>
+      <pubDate>Thu, 27 Aug 2026 19:06:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Submitty/Submitty">Submitty/Submitty</a> (785 ⭐, PHP)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13198 in Submitty/Submitty: Clarify minimum score message for prerequisite gradeables</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/Submitty/Submitty/issues/13198">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>PHP</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>Submission / Team Submission</category>
+      <category>Instructor UI</category>
+    </item>
+    <item>
+      <title>[prometheus/client_js] #831 The linters are unhappy with some of our TS declarations (Solvability: 6/10)</title>
+      <link>https://github.com/prometheus/client_js/issues/831</link>
+      <guid isPermaLink="true">https://github.com/prometheus/client_js/issues/831</guid>
+      <pubDate>Thu, 27 Aug 2026 19:11:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/prometheus/client_js">prometheus/client_js</a> (3485 ⭐, JavaScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #831 in prometheus/client_js: The linters are unhappy with some of our TS declarations</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/prometheus/client_js/issues/831">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>JavaScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>documentation</category>
+      <category>typescript</category>
+    </item>
+    <item>
+      <title>[The-PR-Agent/pr-agent] #2841 The workflow_run trigger ignores the workflow's conclusion (Solvability: 6/10)</title>
+      <link>https://github.com/The-PR-Agent/pr-agent/issues/2841</link>
+      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/2841</guid>
+      <pubDate>Thu, 27 Aug 2026 19:27:15 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (12735 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2841 in The-PR-Agent/pr-agent: The workflow_run trigger ignores the workflow's conclusion</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/unittest/test_github_action_runner_core.py</code></p>
+<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/2841">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[activist-org/activist] #2371 Dependency Update Report - August 27, 2026 🤖⬆️ (Solvability: 6/10)</title>
+      <link>https://github.com/activist-org/activist/issues/2371</link>
+      <guid isPermaLink="true">https://github.com/activist-org/activist/issues/2371</guid>
+      <pubDate>Thu, 27 Aug 2026 19:37:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/activist-org/activist">activist-org/activist</a> (739 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2371 in activist-org/activist: Dependency Update Report - August 27, 2026 🤖⬆️</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test frontend/shared/utils/locales.ts</code></p>
+<p><a href="https://github.com/activist-org/activist/issues/2371">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>dependencies</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29288 [Good First Issue] 🦑 Add new Dialect Entry 8 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29288</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29288</guid>
+      <pubDate>Thu, 27 Aug 2026 19:37:39 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3270 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29288 in lingdojo/kana-dojo: [Good First Issue] 🦑 Add new Dialect Entry 8 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29288">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[uswds/uswds] #6844 USWDS - replace deprecated MediaQueryList.addListener()/removeListener() with addEventListener()/removeEventListener() (Solvability: 6/10)</title>
+      <link>https://github.com/uswds/uswds/issues/6844</link>
+      <guid isPermaLink="true">https://github.com/uswds/uswds/issues/6844</guid>
+      <pubDate>Thu, 27 Aug 2026 19:37:59 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/uswds/uswds">uswds/uswds</a> (7162 ⭐, SCSS)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #6844 in uswds/uswds: USWDS - replace deprecated MediaQueryList.addListener()/removeListener() with addEventListener()/removeEventListener()</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/uswds/uswds/issues/6844">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>SCSS</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Context: JavaScript</category>
+      <category>Package: Footer</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29289 [Good First Issue] 🍁 Add new False Friend Pair 79 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29289</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29289</guid>
+      <pubDate>Thu, 27 Aug 2026 20:01:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3270 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29289 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new False Friend Pair 79 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29289">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
     </item>
     <item>
       <title>[Brainrotlang/brainrot] #200 maxxing(*q) on a pointer-to-struct/union parameter still returns 0 (Solvability: 6/10)</title>
@@ -255,76 +321,6 @@
       <category>friction-standard</category>
       <category>bug</category>
       <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[ParadoxAlarmInterface/pai] #200 Add MG6250 support (Solvability: 6/10)</title>
-      <link>https://github.com/ParadoxAlarmInterface/pai/issues/200</link>
-      <guid isPermaLink="true">https://github.com/ParadoxAlarmInterface/pai/issues/200</guid>
-      <pubDate>Wed, 10 Feb 2021 16:31:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ParadoxAlarmInterface/pai">ParadoxAlarmInterface/pai</a> (420 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in ParadoxAlarmInterface/pai: Add MG6250 support</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/ParadoxAlarmInterface/pai/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>mg</category>
-      <category>protocol</category>
-    </item>
-    <item>
-      <title>[decentraland/creator-hub] #200 Field width wide as longest option, not current value (Solvability: 6/10)</title>
-      <link>https://github.com/decentraland/creator-hub/issues/200</link>
-      <guid isPermaLink="true">https://github.com/decentraland/creator-hub/issues/200</guid>
-      <pubDate>Mon, 29 Apr 2024 20:03:35 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/decentraland/creator-hub">decentraland/creator-hub</a> (6 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in decentraland/creator-hub: Field width wide as longest option, not current value</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/decentraland/creator-hub/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>editor</category>
-      <category>3-low</category>
-    </item>
-    <item>
-      <title>[editorconfig-checker/editorconfig-checker] #200 Publish on Debian/Ubuntu repositories (Solvability: 6/10)</title>
-      <link>https://github.com/editorconfig-checker/editorconfig-checker/issues/200</link>
-      <guid isPermaLink="true">https://github.com/editorconfig-checker/editorconfig-checker/issues/200</guid>
-      <pubDate>Sat, 11 Jun 2022 09:31:35 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/editorconfig-checker/editorconfig-checker">editorconfig-checker/editorconfig-checker</a> (634 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in editorconfig-checker/editorconfig-checker: Publish on Debian/Ubuntu repositories</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/editorconfig-checker/editorconfig-checker/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[copy/v86] #200 electron as screen output for nodejs example (Solvability: 6/10)</title>
-      <link>https://github.com/copy/v86/issues/200</link>
-      <guid isPermaLink="true">https://github.com/copy/v86/issues/200</guid>
-      <pubDate>Fri, 16 Mar 2018 02:33:02 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/copy/v86">copy/v86</a> (23422 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in copy/v86: electron as screen output for nodejs example</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/copy/v86/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
       <category>good first issue</category>
     </item>
   </channel>

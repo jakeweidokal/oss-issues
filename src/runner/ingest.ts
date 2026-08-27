@@ -35,7 +35,7 @@ export function getGitHubToken(): string {
 
 const SEARCH_QUERY = `
 query SearchCandidateIssues($searchQuery: String!, $cursor: String) {
-  search(query: $searchQuery, type: ISSUE, first: 12, after: $cursor) {
+  search(query: $searchQuery, type: ISSUE, first: 25, after: $cursor) {
     pageInfo {
       hasNextPage
       endCursor
@@ -163,11 +163,15 @@ const BOT_LOGINS = [
   'snyk-bot',
 ];
 
-export function hasRecentClaim(comments: RawGraphQLComment[]): boolean {
+export function hasRecentClaim(comments?: RawGraphQLComment[]): boolean {
+  if (!comments || !Array.isArray(comments)) {
+    return false;
+  }
   const now = Date.now();
   const FOURTEEN_DAYS_MS = 14 * 24 * 60 * 60 * 1000;
 
   for (const comment of comments) {
+    if (!comment) continue;
     const author = comment.author?.login || '';
     if (BOT_LOGINS.includes(author.toLowerCase())) {
       continue;
@@ -183,8 +187,12 @@ export function hasRecentClaim(comments: RawGraphQLComment[]): boolean {
   return false;
 }
 
-export function hasOpenLinkedPR(timelineItems: RawGraphQLIssueNode['timelineItems']): boolean {
+export function hasOpenLinkedPR(timelineItems?: RawGraphQLIssueNode['timelineItems']): boolean {
+  if (!timelineItems?.nodes || !Array.isArray(timelineItems.nodes)) {
+    return false;
+  }
   for (const item of timelineItems.nodes) {
+    if (!item) continue;
     const prState = item.source?.state || item.subject?.state;
     if (prState === 'OPEN') {
       return true;
@@ -243,6 +251,7 @@ export async function fetchAndFilterCandidateIssues(
     limit?: number;
     customQuery?: string;
     minStars?: number;
+    maxAgeDays?: number;
     verbose?: boolean;
     graphqlClient?: any;
   } = {}
@@ -258,17 +267,18 @@ export async function fetchAndFilterCandidateIssues(
   }
 
   const minStars = options.minStars ?? 200;
-  const fourteenDaysAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000)
+  const maxAgeDays = options.maxAgeDays ?? 60;
+  const minCreatedDate = new Date(Date.now() - maxAgeDays * 24 * 60 * 60 * 1000)
     .toISOString()
     .split('T')[0];
 
-  // Multiple targeted queries to maximize discovery of verified issues
+  // Multiple targeted queries to maximize discovery of verified recent issues
   const searchQueries = options.customQuery
     ? [options.customQuery]
     : [
-        `is:issue is:open no:assignee label:"good first issue" stars:>=${minStars} pushed:>${fourteenDaysAgo}`,
-        `is:issue is:open no:assignee label:"good-first-issue" stars:>=${minStars} pushed:>${fourteenDaysAgo}`,
-        `is:issue is:open no:assignee label:"help wanted" stars:>=${minStars} pushed:>${fourteenDaysAgo}`,
+        `is:issue is:open no:assignee label:"good first issue" created:>=${minCreatedDate} sort:created-desc`,
+        `is:issue is:open no:assignee label:"good-first-issue" created:>=${minCreatedDate} sort:created-desc`,
+        `is:issue is:open no:assignee label:"help wanted" created:>=${minCreatedDate} sort:created-desc`,
       ];
 
   const targetLimit = options.limit || 20;
@@ -280,6 +290,7 @@ export async function fetchAndFilterCandidateIssues(
     'recent-claim-comment': 0,
     'inactive-maintainer': 0,
     'low-stars': 0,
+    'too-old': 0,
     'short-description': 0,
     'no-default-branch': 0,
   };
@@ -295,7 +306,7 @@ export async function fetchAndFilterCandidateIssues(
       console.log(`[Ingest] Querying GitHub GraphQL with: ${queryStr}`);
     }
 
-    while (hasNextPage && accepted.length < targetLimit && pageCount < 3) {
+    while (hasNextPage && accepted.length < targetLimit && pageCount < 8) {
       pageCount++;
       const response: any = await executeGraphQLWithRetry(
         graphqlWithAuth,
@@ -327,7 +338,7 @@ export async function fetchAndFilterCandidateIssues(
         const issueNode = node as RawGraphQLIssueNode;
 
         // 1. Assignee Check
-        if (issueNode.assignees.totalCount > 0) {
+        if (issueNode.assignees?.totalCount > 0) {
           skippedReasons['assigned']++;
           continue;
         }
@@ -339,32 +350,40 @@ export async function fetchAndFilterCandidateIssues(
         }
 
         // 3. Recent Claim Comments Check
-        if (hasRecentClaim(issueNode.comments.nodes)) {
+        if (hasRecentClaim(issueNode.comments?.nodes)) {
           skippedReasons['recent-claim-comment']++;
           continue;
         }
 
         // 4. Minimum Stars Hard Filter (Programmatic check)
-        if (issueNode.repository.stargazerCount < minStars) {
+        if ((issueNode.repository.stargazerCount || 0) < minStars) {
           skippedReasons['low-stars']++;
           continue;
         }
 
-        // 5. Issue Description Quality Check
+        // 5. Issue Age Check (reject issues older than maxAgeDays)
+        const issueAgeDays =
+          (Date.now() - new Date(issueNode.createdAt).getTime()) / (1000 * 60 * 60 * 24);
+        if (issueAgeDays > maxAgeDays) {
+          skippedReasons['too-old']++;
+          continue;
+        }
+
+        // 6. Issue Description Quality Check
         const body = (issueNode.body || '').trim();
-        if (body.length < 80) {
+        if (body.length < 60) {
           skippedReasons['short-description']++;
           continue;
         }
 
-        // 6. Default Branch Check
+        // 7. Default Branch Check
         const defaultBranch = issueNode.repository.defaultBranchRef?.name;
         if (!defaultBranch) {
           skippedReasons['no-default-branch']++;
           continue;
         }
 
-        // 7. Maintainer Turnaround & Responsiveness
+        // 8. Maintainer Turnaround & Responsiveness
         const turnaroundDays = calculateMaintainerTurnaroundDays(
           issueNode.repository.pullRequests?.nodes || [],
           issueNode.repository.pushedAt
@@ -385,7 +404,7 @@ export async function fetchAndFilterCandidateIssues(
           repoUrl: issueNode.repository.url,
           stars: issueNode.repository.stargazerCount,
           language: issueNode.repository.primaryLanguage?.name || null,
-          labels: issueNode.labels.nodes.map((l) => l.name),
+          labels: (issueNode.labels?.nodes || []).map((l) => l.name),
           createdAt: issueNode.createdAt,
           updatedAt: issueNode.updatedAt,
           defaultBranch,
