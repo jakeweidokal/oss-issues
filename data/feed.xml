@@ -5,7 +5,7 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2026 20:11:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 20:20:16 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[reticlehq/reticle] #604 [agent] reticle_sessions does not say a dev server is already listening (Solvability: 8/10)</title>
@@ -22,6 +22,189 @@
       <category>blast-radius-low</category>
       <category>friction-standard</category>
       <category>enhancement</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[caura-ai/caura] #972 chore(ci): Python client CI tests only 3.12 though the package claims 3.9-3.13 (Solvability: 6/10)</title>
+      <link>https://github.com/caura-ai/caura/issues/972</link>
+      <guid isPermaLink="true">https://github.com/caura-ai/caura/issues/972</guid>
+      <pubDate>Tue, 25 Aug 2026 13:59:27 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/caura-ai/caura">caura-ai/caura</a> (463 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #972 in caura-ai/caura: chore(ci): Python client CI tests only 3.12 though the package claims 3.9-3.13</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest .github/workflows/client-python-ci.yml</code></p>
+<p><a href="https://github.com/caura-ai/caura/issues/972">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[modoboa/modoboa] #4145 rq-scheduler crash after a fresh install on debian 13 (Solvability: 6/10)</title>
+      <link>https://github.com/modoboa/modoboa/issues/4145</link>
+      <guid isPermaLink="true">https://github.com/modoboa/modoboa/issues/4145</guid>
+      <pubDate>Tue, 25 Aug 2026 15:20:24 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/modoboa/modoboa">modoboa/modoboa</a> (3531 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #4145 in modoboa/modoboa: rq-scheduler crash after a fresh install on debian 13</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/modoboa/modoboa/issues/4145">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>bug</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[flutter/flutter-intellij] #9093 IDE deadlocks permanently on project open when the Flutter SDK path is invalid (EDT blocked in FlutterModuleUtils.setFlutterModuleWithoutReload) (Solvability: 6/10)</title>
+      <link>https://github.com/flutter/flutter-intellij/issues/9093</link>
+      <guid isPermaLink="true">https://github.com/flutter/flutter-intellij/issues/9093</guid>
+      <pubDate>Wed, 26 Aug 2026 14:54:43 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/flutter/flutter-intellij">flutter/flutter-intellij</a> (2013 ⭐, Java)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #9093 in flutter/flutter-intellij: IDE deadlocks permanently on project open when the Flutter SDK path is invalid (EDT blocked in FlutterModuleUtils.setFlutterModuleWithoutReload)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/flutter/flutter-intellij/issues/9093">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Java</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>P2</category>
+      <category>performance</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[ray-project/kuberay] #5206 [Cleanup] Remove no-op `WorkersToDelete` resets in the RayCluster controller (Solvability: 6/10)</title>
+      <link>https://github.com/ray-project/kuberay/issues/5206</link>
+      <guid isPermaLink="true">https://github.com/ray-project/kuberay/issues/5206</guid>
+      <pubDate>Thu, 27 Aug 2026 19:00:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ray-project/kuberay">ray-project/kuberay</a> (2651 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5206 in ray-project/kuberay: [Cleanup] Remove no-op `WorkersToDelete` resets in the RayCluster controller</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./ray-operator/controllers/ray</code></p>
+<p><a href="https://github.com/ray-project/kuberay/issues/5206">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29281 [Good First Issue] 🎍 Add new Trivia Question 102 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29281</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29281</guid>
+      <pubDate>Thu, 27 Aug 2026 17:01:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3270 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29281 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new Trivia Question 102 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29281">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[armbian/build] #10544 [Bug]: Fails to compile on system if any parent above is shared and has se_linux labels applied for samba. (Solvability: 6/10)</title>
+      <link>https://github.com/armbian/build/issues/10544</link>
+      <guid isPermaLink="true">https://github.com/armbian/build/issues/10544</guid>
+      <pubDate>Thu, 27 Aug 2026 17:37:53 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/armbian/build">armbian/build</a> (5379 ⭐, Shell)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10544 in armbian/build: [Bug]: Fails to compile on system if any parent above is shared and has se_linux labels applied for samba.</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/armbian/build/issues/10544">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Shell</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Bug</category>
+      <category>Good first issue</category>
+    </item>
+    <item>
+      <title>[ai-dynamo/dynamo] #13914 Gemma 4 31B segfaults in Dynamo vLLM with both model runners (Solvability: 6/10)</title>
+      <link>https://github.com/ai-dynamo/dynamo/issues/13914</link>
+      <guid isPermaLink="true">https://github.com/ai-dynamo/dynamo/issues/13914</guid>
+      <pubDate>Thu, 27 Aug 2026 18:13:56 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ai-dynamo/dynamo">ai-dynamo/dynamo</a> (7886 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13914 in ai-dynamo/dynamo: Gemma 4 31B segfaults in Dynamo vLLM with both model runners</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/ai-dynamo/dynamo/issues/13914">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>backend::vllm</category>
+      <category>kv-memory</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #595 [agent] element predicate errors name the rejected field but never the accepted shape (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/595</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/595</guid>
+      <pubDate>Thu, 27 Aug 2026 18:36:13 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (367 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #595 in reticlehq/reticle: [agent] element predicate errors name the rejected field but never the accepted shape</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test apps/atlas/src/custom-elements.d.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/595">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #596 [agent] the destructive-action heuristic blocks "Payment" and "Log out" (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/596</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/596</guid>
+      <pubDate>Thu, 27 Aug 2026 18:36:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (367 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #596 in reticlehq/reticle: [agent] the destructive-action heuristic blocks "Payment" and "Log out"</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/server/src/tools/act-danger.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/596">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #597 [agent] reticle verify tells you to pass sessionId, and has no such flag (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/597</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/597</guid>
+      <pubDate>Thu, 27 Aug 2026 18:36:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (367 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #597 in reticlehq/reticle: [agent] reticle verify tells you to pass sessionId, and has no such flag</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/server/src/session/session-manager.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/597">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
       <category>good first issue</category>
       <category>help wanted</category>
       <category>agent-reported</category>
@@ -304,24 +487,6 @@
       <category>low hanging fruit</category>
       <category>up-for-grabs</category>
       <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[Brainrotlang/brainrot] #200 maxxing(*q) on a pointer-to-struct/union parameter still returns 0 (Solvability: 6/10)</title>
-      <link>https://github.com/Brainrotlang/brainrot/issues/200</link>
-      <guid isPermaLink="true">https://github.com/Brainrotlang/brainrot/issues/200</guid>
-      <pubDate>Tue, 18 Aug 2026 07:58:17 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Brainrotlang/brainrot">Brainrotlang/brainrot</a> (626 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #200 in Brainrotlang/brainrot: maxxing(*q) on a pointer-to-struct/union parameter still returns 0</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Brainrotlang/brainrot/issues/200">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
     </item>
   </channel>
 </rss>
