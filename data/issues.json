@@ -1,5 +1,61 @@
 [
   {
+    "id": "I_kwDOPVYLUM8AAAABOybFMg",
+    "number": 1035,
+    "title": "[Bug] {{args}} template variable is silently empty in parameter-less custom commands",
+    "url": "https://github.com/Nano-Collective/nanocoder/issues/1035",
+    "repo": "Nano-Collective/nanocoder",
+    "repoUrl": "https://github.com/Nano-Collective/nanocoder",
+    "stars": 2398,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-08-29T15:24:19Z",
+    "updatedAt": "2026-08-29T15:24:19Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test source/custom-commands/executor.spec.ts",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "source/custom-commands/executor.ts"
+    ],
+    "summary": "Fix issue #1035 in Nano-Collective/nanocoder: [Bug] {{args}} template variable is silently empty in parameter-less custom commands",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:17.316Z"
+  },
+  {
+    "id": "I_kwDOPVYLUM8AAAABOycs8g",
+    "number": 1041,
+    "title": "[Bug] message-compression.ts aggressively false-positives \"resolved\" errors",
+    "url": "https://github.com/Nano-Collective/nanocoder/issues/1041",
+    "repo": "Nano-Collective/nanocoder",
+    "repoUrl": "https://github.com/Nano-Collective/nanocoder",
+    "stars": 2398,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-08-29T15:30:03Z",
+    "updatedAt": "2026-08-29T15:30:03Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test source/utils/message-compression.spec.ts",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "source/utils/message-compression.ts"
+    ],
+    "summary": "Fix issue #1041 in Nano-Collective/nanocoder: [Bug] message-compression.ts aggressively false-positives \"resolved\" errors",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:15.024Z"
+  },
+  {
     "id": "I_kwDOS3TU6c8AAAABOiwyBw",
     "number": 604,
     "title": "[agent] reticle_sessions does not say a dev server is already listening",
@@ -28,6 +84,383 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-27T20:17:39.158Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOxp6FA",
+    "number": 29393,
+    "title": "[Good First Issue] 🌊 Add new Trivia Question 28 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29393",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3295,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-29T12:37:31Z",
+    "updatedAt": "2026-08-29T12:37:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-trivia-hard.json"
+    ],
+    "summary": "Fix issue #29393 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Trivia Question 28 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:30.907Z"
+  },
+  {
+    "id": "I_kwDOCVKAsc8AAAABOxtPgg",
+    "number": 10954,
+    "title": "[BUG] `ImpulseResponseFunction` singular matrix failures",
+    "url": "https://github.com/sktime/sktime/issues/10954",
+    "repo": "sktime/sktime",
+    "repoUrl": "https://github.com/sktime/sktime",
+    "stars": 9973,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "module:parameter-estimators"
+    ],
+    "createdAt": "2026-08-29T12:51:25Z",
+    "updatedAt": "2026-08-29T13:04:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest sktime/forecasting/arima/_statsmodels.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "sktime/forecasting/arima/_statsmodels.py",
+      "sktime/forecasting/base/adapters/_statsmodels.py",
+      "sktime/param_est/stationarity/_statsmodels.py"
+    ],
+    "summary": "Fix issue #10954 in sktime/sktime: [BUG] `ImpulseResponseFunction` singular matrix failures",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:29.200Z"
+  },
+  {
+    "id": "I_kwDOBq4fT88AAAABOxtPlQ",
+    "number": 675,
+    "title": "Accept standard Rust ranges in `ParameterBuilder::range()`",
+    "url": "https://github.com/ros2-rust/ros2_rust/issues/675",
+    "repo": "ros2-rust/ros2_rust",
+    "repoUrl": "https://github.com/ros2-rust/ros2_rust",
+    "stars": 1522,
+    "language": "Rust",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-08-29T12:51:26Z",
+    "updatedAt": "2026-08-29T12:51:26Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #675 in ros2-rust/ros2_rust: Accept standard Rust ranges in `ParameterBuilder::range()`",
+    "maintainerTurnaroundDays": 1.7,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:26.153Z"
+  },
+  {
+    "id": "I_kwDOBU4bdc8AAAABOx2O6w",
+    "number": 1003,
+    "title": "Missing icon (alias) `adw-entry-edit-symbolic`",
+    "url": "https://github.com/elementary/granite/issues/1003",
+    "repo": "elementary/granite",
+    "repoUrl": "https://github.com/elementary/granite",
+    "stars": 322,
+    "language": "Vala",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-08-29T13:22:57Z",
+    "updatedAt": "2026-08-29T13:29:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1003 in elementary/granite: Missing icon (alias) `adw-entry-edit-symbolic`",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:25.420Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOx6vKA",
+    "number": 29397,
+    "title": "[Good First Issue] 🧧 Add new Anime Quote 69 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29397",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3295,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-29T13:37:39Z",
+    "updatedAt": "2026-08-29T13:37:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #29397 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Anime Quote 69 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:24.559Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOyDKOQ",
+    "number": 29398,
+    "title": "[Good First Issue] 🧧 Add new Video Game Quote 13 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29398",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3295,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-29T14:01:20Z",
+    "updatedAt": "2026-08-29T14:01:25Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #29398 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Video Game Quote 13 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:22.814Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABOyLTHA",
+    "number": 491,
+    "title": "add full feature list to `./README.md`",
+    "url": "https://github.com/servo/rust-smallvec/issues/491",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1698,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-medium",
+      "r-docs"
+    ],
+    "createdAt": "2026-08-29T14:27:41Z",
+    "updatedAt": "2026-08-29T14:28:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test lib",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/lib.rs"
+    ],
+    "summary": "Fix issue #491 in servo/rust-smallvec: add full feature list to `./README.md`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-08-29T15:52:20.675Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOyUgyw",
+    "number": 29401,
+    "title": "[Good First Issue] 🎌 Add new Dialect Entry 57 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29401",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3295,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-29T15:00:58Z",
+    "updatedAt": "2026-08-29T15:01:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #29401 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Dialect Entry 57 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:20.056Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABOyYmNg",
+    "number": 492,
+    "title": "fix documentation build bug (unresolved link)",
+    "url": "https://github.com/servo/rust-smallvec/issues/492",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1698,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-low",
+      "r-docs"
+    ],
+    "createdAt": "2026-08-29T15:15:47Z",
+    "updatedAt": "2026-08-29T15:16:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test smallvec_ops",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "fuzz/fuzz_targets/smallvec_ops.rs",
+      "src/rawsmallvec.rs"
+    ],
+    "summary": "Fix issue #492 in servo/rust-smallvec: fix documentation build bug (unresolved link)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-08-29T15:52:17.899Z"
+  },
+  {
+    "id": "I_kwDOPVYLUM8AAAABOybYKw",
+    "number": 1036,
+    "title": "[Bug] VS Code ACP ask_user rejects 5-6 options while CLI correctly accepts them",
+    "url": "https://github.com/Nano-Collective/nanocoder/issues/1036",
+    "repo": "Nano-Collective/nanocoder",
+    "repoUrl": "https://github.com/Nano-Collective/nanocoder",
+    "stars": 2398,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "extension"
+    ],
+    "createdAt": "2026-08-29T15:25:27Z",
+    "updatedAt": "2026-08-29T15:25:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test source/acp/acp-conversation.spec.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "source/acp/acp-conversation.ts",
+      "source/tools/ask-question.tsx"
+    ],
+    "summary": "Fix issue #1036 in Nano-Collective/nanocoder: [Bug] VS Code ACP ask_user rejects 5-6 options while CLI correctly accepts them",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:16.194Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABOyeE3A",
+    "number": 493,
+    "title": "upgrade MSRV to 1.86 and edition 2024",
+    "url": "https://github.com/servo/rust-smallvec/issues/493",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1698,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-high",
+      "r-policy"
+    ],
+    "createdAt": "2026-08-29T15:34:44Z",
+    "updatedAt": "2026-08-29T15:34:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #493 in servo/rust-smallvec: upgrade MSRV to 1.86 and edition 2024",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-08-29T15:52:13.794Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOye0oA",
+    "number": 29404,
+    "title": "[Good First Issue] 🦑 Add new False Friend Pair 103 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29404",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3295,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-29T15:37:29Z",
+    "updatedAt": "2026-08-29T15:37:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #29404 in lingdojo/kana-dojo: [Good First Issue] 🦑 Add new False Friend Pair 103 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T15:52:13.197Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABOw__Ow",
@@ -91,40 +524,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-29T11:53:45.941Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABOxKeiA",
-    "number": 29387,
-    "title": "[Good First Issue] 🍤 Add new Theme: Dango Sweet - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29387",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3291,
-    "language": null,
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-08-29T10:37:29Z",
-    "updatedAt": "2026-08-29T10:37:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-themes.json"
-    ],
-    "summary": "Fix issue #29387 in lingdojo/kana-dojo: [Good First Issue] 🍤 Add new Theme: Dango Sweet - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T11:53:44.336Z"
   },
   {
     "id": "I_kwDOPxOUZ88AAAABOxQgCw",
@@ -283,40 +682,6 @@
     "discoveredAt": "2026-08-29T11:53:38.200Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABOxQxyg",
-    "number": 29388,
-    "title": "[Good First Issue] 🦑 Add new Japan Fact 123 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29388",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3291,
-    "language": null,
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-08-29T11:00:56Z",
-    "updatedAt": "2026-08-29T11:01:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #29388 in lingdojo/kana-dojo: [Good First Issue] 🦑 Add new Japan Fact 123 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T11:53:37.079Z"
-  },
-  {
     "id": "I_kwDOPxOUZ88AAAABOxQyxA",
     "number": 940,
     "title": "`setup-dev.sh`: install the native toolchain an `--all-features` build needs, not just protoc",
@@ -347,34 +712,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-29T11:53:35.312Z"
-  },
-  {
-    "id": "I_kwDOMCMUkM8AAAABOxbCQg",
-    "number": 302,
-    "title": "Add a phonetic Russian layout (ЯШЕРТЫ), so Cyrillic can be typed from QWERTY muscle memory",
-    "url": "https://github.com/DevEmperor/DictateKeyboard/issues/302",
-    "repo": "DevEmperor/DictateKeyboard",
-    "repoUrl": "https://github.com/DevEmperor/DictateKeyboard",
-    "stars": 270,
-    "language": "Kotlin",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-29T11:37:22Z",
-    "updatedAt": "2026-08-29T11:37:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #302 in DevEmperor/DictateKeyboard: Add a phonetic Russian layout (ЯШЕРТЫ), so Cyrillic can be typed from QWERTY muscle memory",
-    "maintainerTurnaroundDays": 1.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T11:53:34.231Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABOxbESA",
@@ -409,34 +746,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-29T11:53:32.286Z"
-  },
-  {
-    "id": "I_kwDOUEHx5M8AAAABOxcl8A",
-    "number": 14,
-    "title": "Request for i18n support",
-    "url": "https://github.com/jub0t/WolfCut/issues/14",
-    "repo": "jub0t/WolfCut",
-    "repoUrl": "https://github.com/jub0t/WolfCut",
-    "stars": 230,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-29T11:42:27Z",
-    "updatedAt": "2026-08-29T11:44:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #14 in jub0t/WolfCut: Request for i18n support",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T11:53:30.492Z"
   },
   {
     "id": "I_kwDOH2s9Qc8AAAABOxeh2Q",
@@ -496,34 +805,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-29T11:53:27.047Z"
-  },
-  {
-    "id": "I_kwDOR3RR6M8AAAABOsauiA",
-    "number": 1320,
-    "title": "Stargate readiness warmup: promote replicas to ready once backend registration stabilizes",
-    "url": "https://github.com/NVIDIA/nvcf/issues/1320",
-    "repo": "NVIDIA/nvcf",
-    "repoUrl": "https://github.com/NVIDIA/nvcf",
-    "stars": 202,
-    "language": "Go",
-    "labels": [
-      "good-first-issue",
-      "needs-triage"
-    ],
-    "createdAt": "2026-08-28T18:19:01Z",
-    "updatedAt": "2026-08-28T19:21:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./src/libraries/rust/stargate/crates/stargate/src/routing_state",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/libraries/rust/stargate/crates/stargate/src/routing_state/mod.rs"
-    ],
-    "summary": "Fix issue #1320 in NVIDIA/nvcf: Stargate readiness warmup: promote replicas to ready once backend registration stabilizes",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T01:16:07.948Z"
   },
   {
     "id": "I_kwDOJJp4OM8AAAABOuOK4w",
@@ -646,33 +927,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-28T17:49:50.973Z"
-  },
-  {
-    "id": "I_kwDOAQ0TF88AAAABOrZueA",
-    "number": 16736,
-    "title": "Fade the Perform OCR button when the linked file is broken",
-    "url": "https://github.com/JabRef/jabref/issues/16736",
-    "repo": "JabRef/jabref",
-    "repoUrl": "https://github.com/JabRef/jabref",
-    "stars": 4656,
-    "language": "Java",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-08-28T16:02:09Z",
-    "updatedAt": "2026-08-28T16:02:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #16736 in JabRef/jabref: Fade the Perform OCR button when the linked file is broken",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-28T17:49:46.987Z"
   },
   {
     "id": "I_kwDOSOAAX88AAAABOLqzwQ",

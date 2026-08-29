@@ -5,8 +5,42 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Aug 2026 11:53:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 15:52:30 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[Nano-Collective/nanocoder] #1035 [Bug] {{args}} template variable is silently empty in parameter-less custom commands (Solvability: 8/10)</title>
+      <link>https://github.com/Nano-Collective/nanocoder/issues/1035</link>
+      <guid isPermaLink="true">https://github.com/Nano-Collective/nanocoder/issues/1035</guid>
+      <pubDate>Sat, 29 Aug 2026 15:24:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Nano-Collective/nanocoder">Nano-Collective/nanocoder</a> (2398 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 8/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1035 in Nano-Collective/nanocoder: [Bug] {{args}} template variable is silently empty in parameter-less custom commands</p>
+<p><strong>Blast Radius Analysis:</strong> Changes appear localized to a single module with existing unit tests.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test source/custom-commands/executor.spec.ts</code></p>
+<p><a href="https://github.com/Nano-Collective/nanocoder/issues/1035">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-low</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[Nano-Collective/nanocoder] #1041 [Bug] message-compression.ts aggressively false-positives "resolved" errors (Solvability: 8/10)</title>
+      <link>https://github.com/Nano-Collective/nanocoder/issues/1041</link>
+      <guid isPermaLink="true">https://github.com/Nano-Collective/nanocoder/issues/1041</guid>
+      <pubDate>Sat, 29 Aug 2026 15:30:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Nano-Collective/nanocoder">Nano-Collective/nanocoder</a> (2398 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 8/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1041 in Nano-Collective/nanocoder: [Bug] message-compression.ts aggressively false-positives "resolved" errors</p>
+<p><strong>Blast Radius Analysis:</strong> Changes appear localized to a single module with existing unit tests.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test source/utils/message-compression.spec.ts</code></p>
+<p><a href="https://github.com/Nano-Collective/nanocoder/issues/1041">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-low</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
     <item>
       <title>[reticlehq/reticle] #604 [agent] reticle_sessions does not say a dev server is already listening (Solvability: 8/10)</title>
       <link>https://github.com/reticlehq/reticle/issues/604</link>
@@ -25,6 +59,247 @@
       <category>good first issue</category>
       <category>help wanted</category>
       <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29393 [Good First Issue] 🌊 Add new Trivia Question 28 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29393</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29393</guid>
+      <pubDate>Sat, 29 Aug 2026 12:37:31 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3295 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29393 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Trivia Question 28 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29393">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[sktime/sktime] #10954 [BUG] `ImpulseResponseFunction` singular matrix failures (Solvability: 6/10)</title>
+      <link>https://github.com/sktime/sktime/issues/10954</link>
+      <guid isPermaLink="true">https://github.com/sktime/sktime/issues/10954</guid>
+      <pubDate>Sat, 29 Aug 2026 12:51:25 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sktime/sktime">sktime/sktime</a> (9973 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10954 in sktime/sktime: [BUG] `ImpulseResponseFunction` singular matrix failures</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest sktime/forecasting/arima/_statsmodels.py</code></p>
+<p><a href="https://github.com/sktime/sktime/issues/10954">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>module:parameter-estimators</category>
+    </item>
+    <item>
+      <title>[ros2-rust/ros2_rust] #675 Accept standard Rust ranges in `ParameterBuilder::range()` (Solvability: 6/10)</title>
+      <link>https://github.com/ros2-rust/ros2_rust/issues/675</link>
+      <guid isPermaLink="true">https://github.com/ros2-rust/ros2_rust/issues/675</guid>
+      <pubDate>Sat, 29 Aug 2026 12:51:26 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ros2-rust/ros2_rust">ros2-rust/ros2_rust</a> (1522 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #675 in ros2-rust/ros2_rust: Accept standard Rust ranges in `ParameterBuilder::range()`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/ros2-rust/ros2_rust/issues/675">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[elementary/granite] #1003 Missing icon (alias) `adw-entry-edit-symbolic` (Solvability: 6/10)</title>
+      <link>https://github.com/elementary/granite/issues/1003</link>
+      <guid isPermaLink="true">https://github.com/elementary/granite/issues/1003</guid>
+      <pubDate>Sat, 29 Aug 2026 13:22:57 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/elementary/granite">elementary/granite</a> (322 ⭐, Vala)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1003 in elementary/granite: Missing icon (alias) `adw-entry-edit-symbolic`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/elementary/granite/issues/1003">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Vala</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29397 [Good First Issue] 🧧 Add new Anime Quote 69 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29397</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29397</guid>
+      <pubDate>Sat, 29 Aug 2026 13:37:39 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3295 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29397 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Anime Quote 69 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29397">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29398 [Good First Issue] 🧧 Add new Video Game Quote 13 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29398</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29398</guid>
+      <pubDate>Sat, 29 Aug 2026 14:01:20 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3295 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29398 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Video Game Quote 13 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29398">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[servo/rust-smallvec] #491 add full feature list to `./README.md` (Solvability: 6/10)</title>
+      <link>https://github.com/servo/rust-smallvec/issues/491</link>
+      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/491</guid>
+      <pubDate>Sat, 29 Aug 2026 14:27:41 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1698 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #491 in servo/rust-smallvec: add full feature list to `./README.md`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test lib</code></p>
+<p><a href="https://github.com/servo/rust-smallvec/issues/491">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>p-medium</category>
+      <category>r-docs</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29401 [Good First Issue] 🎌 Add new Dialect Entry 57 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29401</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29401</guid>
+      <pubDate>Sat, 29 Aug 2026 15:00:58 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3295 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29401 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Dialect Entry 57 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29401">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[servo/rust-smallvec] #492 fix documentation build bug (unresolved link) (Solvability: 6/10)</title>
+      <link>https://github.com/servo/rust-smallvec/issues/492</link>
+      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/492</guid>
+      <pubDate>Sat, 29 Aug 2026 15:15:47 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1698 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #492 in servo/rust-smallvec: fix documentation build bug (unresolved link)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test smallvec_ops</code></p>
+<p><a href="https://github.com/servo/rust-smallvec/issues/492">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>p-low</category>
+      <category>r-docs</category>
+    </item>
+    <item>
+      <title>[Nano-Collective/nanocoder] #1036 [Bug] VS Code ACP ask_user rejects 5-6 options while CLI correctly accepts them (Solvability: 6/10)</title>
+      <link>https://github.com/Nano-Collective/nanocoder/issues/1036</link>
+      <guid isPermaLink="true">https://github.com/Nano-Collective/nanocoder/issues/1036</guid>
+      <pubDate>Sat, 29 Aug 2026 15:25:27 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Nano-Collective/nanocoder">Nano-Collective/nanocoder</a> (2398 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1036 in Nano-Collective/nanocoder: [Bug] VS Code ACP ask_user rejects 5-6 options while CLI correctly accepts them</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test source/acp/acp-conversation.spec.ts</code></p>
+<p><a href="https://github.com/Nano-Collective/nanocoder/issues/1036">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>extension</category>
+    </item>
+    <item>
+      <title>[servo/rust-smallvec] #493 upgrade MSRV to 1.86 and edition 2024 (Solvability: 6/10)</title>
+      <link>https://github.com/servo/rust-smallvec/issues/493</link>
+      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/493</guid>
+      <pubDate>Sat, 29 Aug 2026 15:34:44 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1698 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #493 in servo/rust-smallvec: upgrade MSRV to 1.86 and edition 2024</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/servo/rust-smallvec/issues/493">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>p-high</category>
+      <category>r-policy</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29404 [Good First Issue] 🦑 Add new False Friend Pair 103 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29404</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29404</guid>
+      <pubDate>Sat, 29 Aug 2026 15:37:29 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3295 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29404 in lingdojo/kana-dojo: [Good First Issue] 🦑 Add new False Friend Pair 103 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29404">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #29386 [Good First Issue] 🎌 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
@@ -66,29 +341,6 @@
       <category>bug</category>
       <category>good first issue</category>
       <category>linux</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #29387 [Good First Issue] 🍤 Add new Theme: Dango Sweet - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29387</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29387</guid>
-      <pubDate>Sat, 29 Aug 2026 10:37:29 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3291 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29387 in lingdojo/kana-dojo: [Good First Issue] 🍤 Add new Theme: Dango Sweet - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29387">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
     </item>
     <item>
       <title>[wingfoil-io/wingfoil] #935 Docs: runnable doctests for the value-transform combinators (Solvability: 6/10)</title>
@@ -191,29 +443,6 @@
       <category>ci</category>
     </item>
     <item>
-      <title>[lingdojo/kana-dojo] #29388 [Good First Issue] 🦑 Add new Japan Fact 123 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29388</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29388</guid>
-      <pubDate>Sat, 29 Aug 2026 11:00:56 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3291 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29388 in lingdojo/kana-dojo: [Good First Issue] 🦑 Add new Japan Fact 123 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29388">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
       <title>[wingfoil-io/wingfoil] #940 `setup-dev.sh`: install the native toolchain an `--all-features` build needs, not just protoc (Solvability: 6/10)</title>
       <link>https://github.com/wingfoil-io/wingfoil/issues/940</link>
       <guid isPermaLink="true">https://github.com/wingfoil-io/wingfoil/issues/940</guid>
@@ -231,23 +460,6 @@
       <category>good first issue</category>
       <category>priority: medium</category>
       <category>size: small</category>
-    </item>
-    <item>
-      <title>[DevEmperor/DictateKeyboard] #302 Add a phonetic Russian layout (ЯШЕРТЫ), so Cyrillic can be typed from QWERTY muscle memory (Solvability: 6/10)</title>
-      <link>https://github.com/DevEmperor/DictateKeyboard/issues/302</link>
-      <guid isPermaLink="true">https://github.com/DevEmperor/DictateKeyboard/issues/302</guid>
-      <pubDate>Sat, 29 Aug 2026 11:37:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DevEmperor/DictateKeyboard">DevEmperor/DictateKeyboard</a> (270 ⭐, Kotlin)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #302 in DevEmperor/DictateKeyboard: Add a phonetic Russian layout (ЯШЕРТЫ), so Cyrillic can be typed from QWERTY muscle memory</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/DevEmperor/DictateKeyboard/issues/302">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Kotlin</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #29390 [Good First Issue] 🍡 Add new Japanese Proverb 57 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
@@ -271,23 +483,6 @@
       <category>low hanging fruit</category>
       <category>up-for-grabs</category>
       <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[jub0t/WolfCut] #14 Request for i18n support (Solvability: 6/10)</title>
-      <link>https://github.com/jub0t/WolfCut/issues/14</link>
-      <guid isPermaLink="true">https://github.com/jub0t/WolfCut/issues/14</guid>
-      <pubDate>Sat, 29 Aug 2026 11:42:27 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/jub0t/WolfCut">jub0t/WolfCut</a> (230 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #14 in jub0t/WolfCut: Request for i18n support</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/jub0t/WolfCut/issues/14">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[Smaug6739/Alexandrie] #738 Fix Kannban assign modal display (Solvability: 6/10)</title>
@@ -325,23 +520,6 @@
       <category>bug</category>
       <category>good first issue</category>
       <category>interface</category>
-    </item>
-    <item>
-      <title>[NVIDIA/nvcf] #1320 Stargate readiness warmup: promote replicas to ready once backend registration stabilizes (Solvability: 6/10)</title>
-      <link>https://github.com/NVIDIA/nvcf/issues/1320</link>
-      <guid isPermaLink="true">https://github.com/NVIDIA/nvcf/issues/1320</guid>
-      <pubDate>Fri, 28 Aug 2026 18:19:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/NVIDIA/nvcf">NVIDIA/nvcf</a> (202 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1320 in NVIDIA/nvcf: Stargate readiness warmup: promote replicas to ready once backend registration stabilizes</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./src/libraries/rust/stargate/crates/stargate/src/routing_state</code></p>
-<p><a href="https://github.com/NVIDIA/nvcf/issues/1320">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good-first-issue</category>
-      <category>needs-triage</category>
     </item>
     <item>
       <title>[OpenMoonRay/openmoonray] #271 Clean up FindTBB.cmake warning during build configuration (Solvability: 6/10)</title>
@@ -420,22 +598,6 @@
       <category>help wanted</category>
       <category>ui</category>
       <category>triage/accepted</category>
-    </item>
-    <item>
-      <title>[JabRef/jabref] #16736 Fade the Perform OCR button when the linked file is broken (Solvability: 6/10)</title>
-      <link>https://github.com/JabRef/jabref/issues/16736</link>
-      <guid isPermaLink="true">https://github.com/JabRef/jabref/issues/16736</guid>
-      <pubDate>Fri, 28 Aug 2026 16:02:09 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/JabRef/jabref">JabRef/jabref</a> (4656 ⭐, Java)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #16736 in JabRef/jabref: Fade the Perform OCR button when the linked file is broken</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/JabRef/jabref/issues/16736">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Java</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[caura-ai/caura] #972 chore(ci): Python client CI tests only 3.12 though the package claims 3.9-3.13 (Solvability: 6/10)</title>
