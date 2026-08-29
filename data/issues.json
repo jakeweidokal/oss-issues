@@ -1,31 +1,60 @@
 [
   {
-    "id": "I_kwDOPVYLUM8AAAABOybFMg",
-    "number": 1035,
-    "title": "[Bug] {{args}} template variable is silently empty in parameter-less custom commands",
-    "url": "https://github.com/Nano-Collective/nanocoder/issues/1035",
-    "repo": "Nano-Collective/nanocoder",
-    "repoUrl": "https://github.com/Nano-Collective/nanocoder",
-    "stars": 2398,
+    "id": "I_kwDOUBNKHM8AAAABOy6s_Q",
+    "number": 28,
+    "title": "Toggle snap to grid with a key",
+    "url": "https://github.com/xevrion/breakscale/issues/28",
+    "repo": "xevrion/breakscale",
+    "repoUrl": "https://github.com/xevrion/breakscale",
+    "stars": 241,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "area:canvas"
+    ],
+    "createdAt": "2026-08-29T17:19:20Z",
+    "updatedAt": "2026-08-29T17:19:20Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/content/preferences.test.ts",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "src/content/preferences.ts"
+    ],
+    "summary": "Fix issue #28 in xevrion/breakscale: Toggle snap to grid with a key",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:19.598Z"
+  },
+  {
+    "id": "I_kwDORpv44M8AAAABOzgV6g",
+    "number": 906,
+    "title": "Reject malformed key chords containing empty segments",
+    "url": "https://github.com/modem-dev/hunk/issues/906",
+    "repo": "modem-dev/hunk",
+    "repoUrl": "https://github.com/modem-dev/hunk",
+    "stars": 8912,
     "language": "TypeScript",
     "labels": [
       "bug",
       "good first issue"
     ],
-    "createdAt": "2026-08-29T15:24:19Z",
-    "updatedAt": "2026-08-29T15:24:19Z",
+    "createdAt": "2026-08-29T19:43:48Z",
+    "updatedAt": "2026-08-29T19:43:48Z",
     "blastRadius": "Low",
     "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
     "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test source/custom-commands/executor.spec.ts",
+    "quickReproCommand": "pnpm test src/extension-api/keys.test.ts",
     "solvabilityScore": 8,
     "keyFiles": [
-      "source/custom-commands/executor.ts"
+      "src/extension-api/keys.ts"
     ],
-    "summary": "Fix issue #1035 in Nano-Collective/nanocoder: [Bug] {{args}} template variable is silently empty in parameter-less custom commands",
+    "summary": "Fix issue #906 in modem-dev/hunk: Reject malformed key chords containing empty segments",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T15:52:17.316Z"
+    "discoveredAt": "2026-08-29T20:06:07.312Z"
   },
   {
     "id": "I_kwDOPVYLUM8AAAABOycs8g",
@@ -86,13 +115,45 @@
     "discoveredAt": "2026-08-27T20:17:39.158Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABOxp6FA",
-    "number": 29393,
-    "title": "[Good First Issue] 🌊 Add new Trivia Question 28 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29393",
+    "id": "I_kwDOAf6AbM8AAAABOyy68g",
+    "number": 494,
+    "title": "implement `arbitrary::Arbitrary` for `SmallVec`",
+    "url": "https://github.com/servo/rust-smallvec/issues/494",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1698,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-medium",
+      "r-feature"
+    ],
+    "createdAt": "2026-08-29T16:50:54Z",
+    "updatedAt": "2026-08-29T16:51:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test smallvec_ops",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "fuzz/fuzz_targets/smallvec_ops.rs",
+      "src/lib.rs",
+      "src/rawsmallvec.rs"
+    ],
+    "summary": "Fix issue #494 in servo/rust-smallvec: implement `arbitrary::Arbitrary` for `SmallVec`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-08-29T20:06:28.391Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOy1t9Q",
+    "number": 29407,
+    "title": "[Good First Issue] 🎏 Add new Learner Mistake 66 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29407",
     "repo": "lingdojo/kana-dojo",
     "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3295,
+    "stars": 3296,
     "language": null,
     "labels": [
       "enhancement",
@@ -104,51 +165,368 @@
       "up-for-grabs",
       "first-timers-only"
     ],
-    "createdAt": "2026-08-29T12:37:31Z",
-    "updatedAt": "2026-08-29T12:37:35Z",
+    "createdAt": "2026-08-29T17:01:01Z",
+    "updatedAt": "2026-08-29T17:01:06Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
     "quickReproCommand": null,
     "solvabilityScore": 6,
     "keyFiles": [
-      "community/content/japan-trivia-hard.json"
+      "community/content/japanese-common-mistakes.json"
     ],
-    "summary": "Fix issue #29393 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Trivia Question 28 - Beginner-Friendly Open-source Contribution",
+    "summary": "Fix issue #29407 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Learner Mistake 66 - Beginner-Friendly Open-source Contribution",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T15:52:30.907Z"
+    "discoveredAt": "2026-08-29T20:06:27.923Z"
   },
   {
-    "id": "I_kwDOCVKAsc8AAAABOxtPgg",
-    "number": 10954,
-    "title": "[BUG] `ImpulseResponseFunction` singular matrix failures",
-    "url": "https://github.com/sktime/sktime/issues/10954",
-    "repo": "sktime/sktime",
-    "repoUrl": "https://github.com/sktime/sktime",
-    "stars": 9973,
-    "language": "Python",
+    "id": "I_kwDORlbFis8AAAABOy4U-g",
+    "number": 5317,
+    "title": "What are the intentions for the RTTY decoder ?",
+    "url": "https://github.com/aethersdr/AetherSDR/issues/5317",
+    "repo": "aethersdr/AetherSDR",
+    "repoUrl": "https://github.com/aethersdr/AetherSDR",
+    "stars": 214,
+    "language": "C++",
     "labels": [
-      "bug",
+      "enhancement",
       "good first issue",
-      "module:parameter-estimators"
+      "GUI",
+      "priority: low",
+      "maintainer-review"
     ],
-    "createdAt": "2026-08-29T12:51:25Z",
-    "updatedAt": "2026-08-29T13:04:55Z",
+    "createdAt": "2026-08-29T17:10:52Z",
+    "updatedAt": "2026-08-29T17:13:55Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "pytest sktime/forecasting/arima/_statsmodels.py",
+    "quickReproCommand": null,
     "solvabilityScore": 6,
     "keyFiles": [
-      "sktime/forecasting/arima/_statsmodels.py",
-      "sktime/forecasting/base/adapters/_statsmodels.py",
-      "sktime/param_est/stationarity/_statsmodels.py"
+      "src/index"
     ],
-    "summary": "Fix issue #10954 in sktime/sktime: [BUG] `ImpulseResponseFunction` singular matrix failures",
+    "summary": "Fix issue #5317 in aethersdr/AetherSDR: What are the intentions for the RTTY decoder ?",
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T15:52:29.200Z"
+    "discoveredAt": "2026-08-29T20:06:26.221Z"
+  },
+  {
+    "id": "I_kwDOTHPsJc8AAAABOy762w",
+    "number": 25,
+    "title": "Verify the Scoop package on Windows",
+    "url": "https://github.com/heymaikol/network-doctor/issues/25",
+    "repo": "heymaikol/network-doctor",
+    "repoUrl": "https://github.com/heymaikol/network-doctor",
+    "stars": 310,
+    "language": "Go",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-08-29T17:23:53Z",
+    "updatedAt": "2026-08-29T17:23:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #25 in heymaikol/network-doctor: Verify the Scoop package on Windows",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:18.929Z"
+  },
+  {
+    "id": "I_kwDOTHPsJc8AAAABOy8C9A",
+    "number": 26,
+    "title": "Verify and document .deb upgrades on Debian or Ubuntu",
+    "url": "https://github.com/heymaikol/network-doctor/issues/26",
+    "repo": "heymaikol/network-doctor",
+    "repoUrl": "https://github.com/heymaikol/network-doctor",
+    "stars": 310,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-08-29T17:24:21Z",
+    "updatedAt": "2026-08-29T17:24:21Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #26 in heymaikol/network-doctor: Verify and document .deb upgrades on Debian or Ubuntu",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:18.069Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOy_kkg",
+    "number": 29408,
+    "title": "[Good First Issue] 🍙 Add new Wallpaper URL #1 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29408",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-08-29T17:37:28Z",
+    "updatedAt": "2026-08-29T17:37:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-wallpaper-urls.json"
+    ],
+    "summary": "Fix issue #29408 in lingdojo/kana-dojo: [Good First Issue] 🍙 Add new Wallpaper URL #1 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:17.187Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOzFhhg",
+    "number": 29409,
+    "title": "[Good First Issue] 🍛 Add new Community Note Line #4 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29409",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-08-29T18:00:57Z",
+    "updatedAt": "2026-08-29T18:01:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #29409 in lingdojo/kana-dojo: [Good First Issue] 🍛 Add new Community Note Line #4 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:15.579Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOzPBOg",
+    "number": 29410,
+    "title": "[Good First Issue] 🗻 Add new Theme: Ginkgo Gold - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29410",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-29T18:37:29Z",
+    "updatedAt": "2026-08-29T18:37:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #29410 in lingdojo/kana-dojo: [Good First Issue] 🗻 Add new Theme: Ginkgo Gold - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:13.978Z"
+  },
+  {
+    "id": "I_kwDOBU4bdc8AAAABOzP5qg",
+    "number": 1007,
+    "title": "Remove Settings.ColorScheme in favor of Gtk.InterfaceColorScheme",
+    "url": "https://github.com/elementary/granite/issues/1007",
+    "repo": "elementary/granite",
+    "repoUrl": "https://github.com/elementary/granite",
+    "stars": 323,
+    "language": "Vala",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-08-29T18:40:59Z",
+    "updatedAt": "2026-08-29T18:42:50Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1007 in elementary/granite: Remove Settings.ColorScheme in favor of Gtk.InterfaceColorScheme",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:12.423Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOzVGKg",
+    "number": 29411,
+    "title": "[Good First Issue] 🎴 Add new Japan Fact 278 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29411",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-29T19:01:01Z",
+    "updatedAt": "2026-08-29T19:01:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #29411 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Japan Fact 278 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:11.751Z"
+  },
+  {
+    "id": "I_kwDOGo9OOM8AAAABOzedwA",
+    "number": 4015,
+    "title": "weightedArrayElement does not mention the possibility to throw in it's docs",
+    "url": "https://github.com/faker-js/faker/issues/4015",
+    "repo": "faker-js/faker",
+    "repoUrl": "https://github.com/faker-js/faker",
+    "stars": 15476,
+    "language": "TypeScript",
+    "labels": [
+      "c: docs",
+      "good first issue",
+      "m: helpers"
+    ],
+    "createdAt": "2026-08-29T19:36:05Z",
+    "updatedAt": "2026-08-29T19:36:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #4015 in faker-js/faker: weightedArrayElement does not mention the possibility to throw in it's docs",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "next",
+    "discoveredAt": "2026-08-29T20:06:10.202Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOzezcA",
+    "number": 29412,
+    "title": "[Good First Issue] 🍁 Add new Japanese Proverb 152 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29412",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-29T19:37:30Z",
+    "updatedAt": "2026-08-29T19:37:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #29412 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new Japanese Proverb 152 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:08.976Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABOzlWGA",
+    "number": 29413,
+    "title": "[Good First Issue] 🍘 Add new Japanese Haiku 3 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29413",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-29T20:00:58Z",
+    "updatedAt": "2026-08-29T20:01:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-haiku.json"
+    ],
+    "summary": "Fix issue #29413 in lingdojo/kana-dojo: [Good First Issue] 🍘 Add new Japanese Haiku 3 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-29T20:06:06.009Z"
   },
   {
     "id": "I_kwDOBq4fT88AAAABOxtPlQ",
@@ -177,33 +555,6 @@
     "maintainerTurnaroundDays": 1.7,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-29T15:52:26.153Z"
-  },
-  {
-    "id": "I_kwDOBU4bdc8AAAABOx2O6w",
-    "number": 1003,
-    "title": "Missing icon (alias) `adw-entry-edit-symbolic`",
-    "url": "https://github.com/elementary/granite/issues/1003",
-    "repo": "elementary/granite",
-    "repoUrl": "https://github.com/elementary/granite",
-    "stars": 322,
-    "language": "Vala",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-08-29T13:22:57Z",
-    "updatedAt": "2026-08-29T13:29:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1003 in elementary/granite: Missing icon (alias) `adw-entry-edit-symbolic`",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T15:52:25.420Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABOx6vKA",
@@ -369,36 +720,6 @@
     "discoveredAt": "2026-08-29T15:52:17.899Z"
   },
   {
-    "id": "I_kwDOPVYLUM8AAAABOybYKw",
-    "number": 1036,
-    "title": "[Bug] VS Code ACP ask_user rejects 5-6 options while CLI correctly accepts them",
-    "url": "https://github.com/Nano-Collective/nanocoder/issues/1036",
-    "repo": "Nano-Collective/nanocoder",
-    "repoUrl": "https://github.com/Nano-Collective/nanocoder",
-    "stars": 2398,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "extension"
-    ],
-    "createdAt": "2026-08-29T15:25:27Z",
-    "updatedAt": "2026-08-29T15:25:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test source/acp/acp-conversation.spec.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "source/acp/acp-conversation.ts",
-      "source/tools/ask-question.tsx"
-    ],
-    "summary": "Fix issue #1036 in Nano-Collective/nanocoder: [Bug] VS Code ACP ask_user rejects 5-6 options while CLI correctly accepts them",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T15:52:16.194Z"
-  },
-  {
     "id": "I_kwDOAf6AbM8AAAABOyeE3A",
     "number": 493,
     "title": "upgrade MSRV to 1.86 and edition 2024",
@@ -461,40 +782,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-29T15:52:13.197Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABOw__Ow",
-    "number": 29386,
-    "title": "[Good First Issue] 🎌 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29386",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3291,
-    "language": null,
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-08-29T10:01:26Z",
-    "updatedAt": "2026-08-29T10:01:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #29386 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T11:53:47.612Z"
   },
   {
     "id": "I_kwDON7wA2c8AAAABOxHhwg",
@@ -712,40 +999,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-29T11:53:35.312Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABOxbESA",
-    "number": 29390,
-    "title": "[Good First Issue] 🍡 Add new Japanese Proverb 57 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29390",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3291,
-    "language": null,
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-08-29T11:37:28Z",
-    "updatedAt": "2026-08-29T11:37:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #29390 in lingdojo/kana-dojo: [Good First Issue] 🍡 Add new Japanese Proverb 57 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T11:53:32.286Z"
   },
   {
     "id": "I_kwDOH2s9Qc8AAAABOxeh2Q",
