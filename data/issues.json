@@ -1,34 +1,5 @@
 [
   {
-    "id": "I_kwDOUBNKHM8AAAABOy6s_Q",
-    "number": 28,
-    "title": "Toggle snap to grid with a key",
-    "url": "https://github.com/xevrion/breakscale/issues/28",
-    "repo": "xevrion/breakscale",
-    "repoUrl": "https://github.com/xevrion/breakscale",
-    "stars": 241,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "area:canvas"
-    ],
-    "createdAt": "2026-08-29T17:19:20Z",
-    "updatedAt": "2026-08-29T17:19:20Z",
-    "blastRadius": "Low",
-    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/content/preferences.test.ts",
-    "solvabilityScore": 8,
-    "keyFiles": [
-      "src/content/preferences.ts"
-    ],
-    "summary": "Fix issue #28 in xevrion/breakscale: Toggle snap to grid with a key",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T20:06:19.598Z"
-  },
-  {
     "id": "I_kwDOS3TU6c8AAAABOiwyBw",
     "number": 604,
     "title": "[agent] reticle_sessions does not say a dev server is already listening",
@@ -57,6 +28,486 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-27T20:17:39.158Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABO2jKWg",
+    "number": 29455,
+    "title": "[Good First Issue] 🎌 Add new Grammar Point 25 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29455",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-30T11:01:01Z",
+    "updatedAt": "2026-08-30T11:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-grammar.json"
+    ],
+    "summary": "Fix issue #29455 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Grammar Point 25 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:40:54.265Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABO2sjag",
+    "number": 29457,
+    "title": "[Good First Issue] 🍵 Add new Anime Quote 35 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29457",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-30T11:37:27Z",
+    "updatedAt": "2026-08-30T11:37:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #29457 in lingdojo/kana-dojo: [Good First Issue] 🍵 Add new Anime Quote 35 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:40:52.025Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABO2yZ_Q",
+    "number": 29458,
+    "title": "[Good First Issue] 🍵 Add new Video Game Quote 59 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29458",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-30T12:00:57Z",
+    "updatedAt": "2026-08-30T12:01:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #29458 in lingdojo/kana-dojo: [Good First Issue] 🍵 Add new Video Game Quote 59 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:40:49.654Z"
+  },
+  {
+    "id": "I_kwDOM35b6M8AAAABO24R1Q",
+    "number": 70,
+    "title": "Remove the important.py star-import shim",
+    "url": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon/issues/70",
+    "repo": "Kiri-Innovation/3dgs-render-blender-addon",
+    "repoUrl": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon",
+    "stars": 1169,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "refactor"
+    ],
+    "createdAt": "2026-08-30T12:23:40Z",
+    "updatedAt": "2026-08-30T12:26:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #70 in Kiri-Innovation/3dgs-render-blender-addon: Remove the important.py star-import shim",
+    "maintainerTurnaroundDays": 0.5,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:40:47.465Z"
+  },
+  {
+    "id": "I_kwDOM35b6M8AAAABO24TAw",
+    "number": 71,
+    "title": "Auto-register classes",
+    "url": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon/issues/71",
+    "repo": "Kiri-Innovation/3dgs-render-blender-addon",
+    "repoUrl": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon",
+    "stars": 1169,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "refactor"
+    ],
+    "createdAt": "2026-08-30T12:23:42Z",
+    "updatedAt": "2026-08-30T12:26:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest __init__.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "__init__.py"
+    ],
+    "summary": "Fix issue #71 in Kiri-Innovation/3dgs-render-blender-addon: Auto-register classes",
+    "maintainerTurnaroundDays": 0.5,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:40:26.654Z"
+  },
+  {
+    "id": "I_kwDOM35b6M8AAAABO24Tmg",
+    "number": 72,
+    "title": "Rename operator bl_idnames to the kiri namespace",
+    "url": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon/issues/72",
+    "repo": "Kiri-Innovation/3dgs-render-blender-addon",
+    "repoUrl": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon",
+    "stars": 1169,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "refactor"
+    ],
+    "createdAt": "2026-08-30T12:23:44Z",
+    "updatedAt": "2026-08-30T12:26:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #72 in Kiri-Innovation/3dgs-render-blender-addon: Rename operator bl_idnames to the kiri namespace",
+    "maintainerTurnaroundDays": 0.5,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:40:06.961Z"
+  },
+  {
+    "id": "I_kwDOM35b6M8AAAABO24UKw",
+    "number": 73,
+    "title": "Drop SNA_/sna_ prefixes and hex suffixes from identifiers",
+    "url": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon/issues/73",
+    "repo": "Kiri-Innovation/3dgs-render-blender-addon",
+    "repoUrl": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon",
+    "stars": 1169,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "refactor"
+    ],
+    "createdAt": "2026-08-30T12:23:46Z",
+    "updatedAt": "2026-08-30T12:26:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #73 in Kiri-Innovation/3dgs-render-blender-addon: Drop SNA_/sna_ prefixes and hex suffixes from identifiers",
+    "maintainerTurnaroundDays": 0.5,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:39:46.242Z"
+  },
+  {
+    "id": "I_kwDOM35b6M8AAAABO24VOg",
+    "number": 75,
+    "title": "Name the geometry-node sockets",
+    "url": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon/issues/75",
+    "repo": "Kiri-Innovation/3dgs-render-blender-addon",
+    "repoUrl": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon",
+    "stars": 1169,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "refactor"
+    ],
+    "createdAt": "2026-08-30T12:23:50Z",
+    "updatedAt": "2026-08-30T12:26:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #75 in Kiri-Innovation/3dgs-render-blender-addon: Name the geometry-node sockets",
+    "maintainerTurnaroundDays": 0.5,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:39:25.242Z"
+  },
+  {
+    "id": "I_kwDOM35b6M8AAAABO24Wfg",
+    "number": 76,
+    "title": "Extract UI layout helpers",
+    "url": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon/issues/76",
+    "repo": "Kiri-Innovation/3dgs-render-blender-addon",
+    "repoUrl": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon",
+    "stars": 1169,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "refactor"
+    ],
+    "createdAt": "2026-08-30T12:23:53Z",
+    "updatedAt": "2026-08-30T12:26:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #76 in Kiri-Innovation/3dgs-render-blender-addon: Extract UI layout helpers",
+    "maintainerTurnaroundDays": 0.5,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:39:03.073Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABO3CDTg",
+    "number": 29461,
+    "title": "[Good First Issue] 🦑 Add new Dialect Entry 94 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29461",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-30T13:01:00Z",
+    "updatedAt": "2026-08-30T13:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #29461 in lingdojo/kana-dojo: [Good First Issue] 🦑 Add new Dialect Entry 94 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:38:40.472Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABO3LlgA",
+    "number": 29462,
+    "title": "[Good First Issue] 🍣 Add new False Friend Pair 28 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29462",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-30T13:37:28Z",
+    "updatedAt": "2026-08-30T13:37:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #29462 in lingdojo/kana-dojo: [Good First Issue] 🍣 Add new False Friend Pair 28 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:38:38.069Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABO3R30A",
+    "number": 29463,
+    "title": "[Good First Issue] 🌊 Add new Example Sentence 104 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29463",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-30T14:01:01Z",
+    "updatedAt": "2026-08-30T14:01:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #29463 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Example Sentence 104 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:38:35.847Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABO3cARw",
+    "number": 29464,
+    "title": "[Good First Issue] 🎌 Add new Learner Mistake 53 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29464",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-30T14:37:28Z",
+    "updatedAt": "2026-08-30T14:37:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #29464 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Learner Mistake 53 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:38:33.395Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABO3ixaQ",
+    "number": 29465,
+    "title": "[Good First Issue] 🗻 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29465",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-08-30T15:01:04Z",
+    "updatedAt": "2026-08-30T15:01:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #29465 in lingdojo/kana-dojo: [Good First Issue] 🗻 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:38:31.144Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABO3tL2w",
+    "number": 29466,
+    "title": "[Good First Issue] 🎏 Add new Theme: Ramen Steam - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29466",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3296,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-30T15:37:27Z",
+    "updatedAt": "2026-08-30T15:37:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #29466 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Theme: Ramen Steam - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-08-30T15:38:28.928Z"
   },
   {
     "id": "I_kwDOSt5Nr88AAAABO1zaQg",
@@ -147,40 +598,6 @@
     "discoveredAt": "2026-08-30T10:51:12.309Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABO16-kA",
-    "number": 29444,
-    "title": "[Good First Issue] 🍘 Add new Example Sentence 95 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29444",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3296,
-    "language": null,
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-08-30T08:01:02Z",
-    "updatedAt": "2026-08-30T08:01:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-example-sentences.json"
-    ],
-    "summary": "Fix issue #29444 in lingdojo/kana-dojo: [Good First Issue] 🍘 Add new Example Sentence 95 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-30T10:51:11.213Z"
-  },
-  {
     "id": "I_kwDOT7D7kc8AAAABO18rYQ",
     "number": 16,
     "title": "[Feature] 画廊支持收藏图片 / Favorites",
@@ -239,40 +656,6 @@
     "discoveredAt": "2026-08-30T10:51:07.664Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABO2C5Vw",
-    "number": 29446,
-    "title": "[Good First Issue] 🀄 Add new Learner Mistake 75 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29446",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3296,
-    "language": null,
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-08-30T08:37:32Z",
-    "updatedAt": "2026-08-30T08:37:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #29446 in lingdojo/kana-dojo: [Good First Issue] 🀄 Add new Learner Mistake 75 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-30T10:51:06.496Z"
-  },
-  {
     "id": "I_kwDOTq8AqM8AAAABO2HcKA",
     "number": 352,
     "title": "[Bug] 亮色模式没有单独进行适配而是直接反转暗色的配置了",
@@ -300,34 +683,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-30T10:51:04.188Z"
-  },
-  {
-    "id": "I_kwDOGo9OOM8AAAABO2J6fw",
-    "number": 4018,
-    "title": "string.numeric does not mention the possibility to throw in it's docs",
-    "url": "https://github.com/faker-js/faker/issues/4018",
-    "repo": "faker-js/faker",
-    "repoUrl": "https://github.com/faker-js/faker",
-    "stars": 15477,
-    "language": "TypeScript",
-    "labels": [
-      "c: docs",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-30T09:09:04Z",
-    "updatedAt": "2026-08-30T09:56:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #4018 in faker-js/faker: string.numeric does not mention the possibility to throw in it's docs",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "next",
-    "discoveredAt": "2026-08-30T10:51:00.500Z"
   },
   {
     "id": "I_kwDOT05Oec8AAAABO2RKIQ",
@@ -390,36 +745,6 @@
     "discoveredAt": "2026-08-30T10:50:57.172Z"
   },
   {
-    "id": "I_kwDOT05Oec8AAAABO2RK9w",
-    "number": 179,
-    "title": "sidebar: add download/update button next to Collapse Sidebar",
-    "url": "https://github.com/hust-open-atom-club/oh-dsh/issues/179",
-    "repo": "hust-open-atom-club/oh-dsh",
-    "repoUrl": "https://github.com/hust-open-atom-club/oh-dsh",
-    "stars": 292,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-30T09:41:38Z",
-    "updatedAt": "2026-08-30T09:41:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/preload.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/preload.ts",
-      "src/contracts.ts",
-      "plugins/desktop-frame/src/client/plugin.tsx"
-    ],
-    "summary": "Fix issue #179 in hust-open-atom-club/oh-dsh: sidebar: add download/update button next to Collapse Sidebar",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-30T10:50:55.183Z"
-  },
-  {
     "id": "I_kwDOT05Oec8AAAABO2RLpg",
     "number": 180,
     "title": "pinned-summary: refine the Pin Summary menu content and interactions",
@@ -478,36 +803,6 @@
     "discoveredAt": "2026-08-30T10:50:51.349Z"
   },
   {
-    "id": "I_kwDOT05Oec8AAAABO2WjZQ",
-    "number": 182,
-    "title": "skins: add more fun DeepSeek Harness / whale mascot themes",
-    "url": "https://github.com/hust-open-atom-club/oh-dsh/issues/182",
-    "repo": "hust-open-atom-club/oh-dsh",
-    "repoUrl": "https://github.com/hust-open-atom-club/oh-dsh",
-    "stars": 292,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-30T10:05:27Z",
-    "updatedAt": "2026-08-30T10:05:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test tests/skins.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "plugins/skins/src/skins.ts",
-      "plugins/skins/src/client/i18n.ts",
-      "plugins/skins/src/client/plugin.tsx"
-    ],
-    "summary": "Fix issue #182 in hust-open-atom-club/oh-dsh: skins: add more fun DeepSeek Harness / whale mascot themes",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-30T10:50:49.382Z"
-  },
-  {
     "id": "I_kwDORlbFis8AAAABOy4U-g",
     "number": 5317,
     "title": "What are the intentions for the RTTY decoder ?",
@@ -537,34 +832,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-29T20:06:26.221Z"
-  },
-  {
-    "id": "I_kwDOTHPsJc8AAAABOy762w",
-    "number": 25,
-    "title": "Verify the Scoop package on Windows",
-    "url": "https://github.com/heymaikol/network-doctor/issues/25",
-    "repo": "heymaikol/network-doctor",
-    "repoUrl": "https://github.com/heymaikol/network-doctor",
-    "stars": 310,
-    "language": "Go",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-29T17:23:53Z",
-    "updatedAt": "2026-08-29T17:23:53Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #25 in heymaikol/network-doctor: Verify the Scoop package on Windows",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T20:06:18.929Z"
   },
   {
     "id": "I_kwDOTHPsJc8AAAABOy8C9A",
