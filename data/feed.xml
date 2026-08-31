@@ -5,19 +5,39 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 12:01:11 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 18:55:38 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>[lingdojo/kana-dojo] #29515 [Good First Issue] 🍶 Add new Dialect Entry 49 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29515</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29515</guid>
-      <pubDate>Mon, 31 Aug 2026 10:01:06 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3296 ⭐, Multi-language)</p>
+      <title>[reticlehq/reticle] #676 The vite plugin injects the connect script at the server root and ignores Vite's `base` (Solvability: 8/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/676</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/676</guid>
+      <pubDate>Mon, 31 Aug 2026 18:32:24 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 8/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #676 in reticlehq/reticle: The vite plugin injects the connect script at the server root and ignores Vite's `base`</p>
+<p><strong>Blast Radius Analysis:</strong> Changes appear localized to a single module with existing unit tests.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/vite-plugin/src/index.test.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/676">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-low</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>v2.13.0</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29536 [Good First Issue] 🍵 Add new False Friend Pair 82 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29536</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29536</guid>
+      <pubDate>Mon, 31 Aug 2026 18:01:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3301 ⭐, Multi-language)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29515 in lingdojo/kana-dojo: [Good First Issue] 🍶 Add new Dialect Entry 49 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Summary:</strong> Fix issue #29536 in lingdojo/kana-dojo: [Good First Issue] 🍵 Add new False Friend Pair 82 - Beginner-Friendly Open-source Contribution</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29515">View and Claim Issue on GitHub →</a></p>]]></description>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29536">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>General</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -29,6 +49,257 @@
       <category>low hanging fruit</category>
       <category>up-for-grabs</category>
       <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[clusterio/clusterio] #985 Add missing config options to configuration.md (Solvability: 6/10)</title>
+      <link>https://github.com/clusterio/clusterio/issues/985</link>
+      <guid isPermaLink="true">https://github.com/clusterio/clusterio/issues/985</guid>
+      <pubDate>Mon, 31 Aug 2026 18:09:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/clusterio/clusterio">clusterio/clusterio</a> (379 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #985 in clusterio/clusterio: Add missing config options to configuration.md</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/clusterio/clusterio/issues/985">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Impact: 4-Internal</category>
+      <category>Good First Issue</category>
+      <category>Scope: Core</category>
+      <category>Scope: Plugin</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #675 init writes a TypeScript connect module into a JavaScript CRA app, and the first compile fails (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/675</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/675</guid>
+      <pubDate>Mon, 31 Aug 2026 18:32:22 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #675 in reticlehq/reticle: init writes a TypeScript connect module into a JavaScript CRA app, and the first compile fails</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test tsconfig.json</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/675">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>v2.13.0</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #677 Astro init breaks `astro check`: the injected defines are never declared (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/677</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/677</guid>
+      <pubDate>Mon, 31 Aug 2026 18:32:26 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #677 in reticlehq/reticle: Astro init breaks `astro check`: the injected defines are never declared</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/vite-plugin/src/define-warning.integration.test.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/677">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #681 The Codex MCP detector does not read an existing [mcp_servers.reticle] table, so a wired machine gets a warning it must not act on (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/681</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/681</guid>
+      <pubDate>Mon, 31 Aug 2026 18:32:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #681 in reticlehq/reticle: The Codex MCP detector does not read an existing [mcp_servers.reticle] table, so a wired machine gets a warning it must not act on</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/server/src/telemetry/init-telemetry.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/681">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #682 init discovery misses nested app directories and a single app under a repo root (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/682</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/682</guid>
+      <pubDate>Mon, 31 Aug 2026 18:32:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #682 in reticlehq/reticle: init discovery misses nested app directories and a single app under a repo root</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test package.json</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/682">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #684 The generated connect module is emitted unformatted, so a clean install fails the project's own lint (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/684</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/684</guid>
+      <pubDate>Mon, 31 Aug 2026 18:32:40 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #684 in reticlehq/reticle: The generated connect module is emitted unformatted, so a clean install fails the project's own lint</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/684">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #686 doctor and status disagree about whether the daemon is running (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/686</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/686</guid>
+      <pubDate>Mon, 31 Aug 2026 18:32:53 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #686 in reticlehq/reticle: doctor and status disagree about whether the daemon is running</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/server/src/cli/cli-doctor.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/686">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #687 `serve --http-port` is accepted and ignored (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/687</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/687</guid>
+      <pubDate>Mon, 31 Aug 2026 18:32:55 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #687 in reticlehq/reticle: `serve --http-port` is accepted and ignored</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/687">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #698 flow_save's flowName is the recording's name, not the name to save as (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/698</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/698</guid>
+      <pubDate>Mon, 31 Aug 2026 18:33:27 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #698 in reticlehq/reticle: flow_save's flowName is the recording's name, not the name to save as</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/698">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #700 The no-store-registered gap fires on apps whose store is registered and readable (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/700</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/700</guid>
+      <pubDate>Mon, 31 Aug 2026 18:33:31 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #700 in reticlehq/reticle: The no-store-registered gap fires on apps whose store is registered and readable</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/700">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>v2.13.0</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #701 A browser session is reported as an Electron renderer with unobserved IPC coverage (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/701</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/701</guid>
+      <pubDate>Mon, 31 Aug 2026 18:33:33 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #701 in reticlehq/reticle: A browser session is reported as an Electron renderer with unobserved IPC coverage</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/701">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29537 [Good First Issue] 🍢 Add new Etiquette Tip 72 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29537</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29537</guid>
+      <pubDate>Mon, 31 Aug 2026 18:37:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3301 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29537 in lingdojo/kana-dojo: [Good First Issue] 🍢 Add new Etiquette Tip 72 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29537">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[jaegertracing/jaeger-ui] #4415 [chore]: Do not switch to GenAI span view if there are no recognized attributes (Solvability: 6/10)</title>
+      <link>https://github.com/jaegertracing/jaeger-ui/issues/4415</link>
+      <guid isPermaLink="true">https://github.com/jaegertracing/jaeger-ui/issues/4415</guid>
+      <pubDate>Mon, 31 Aug 2026 18:37:31 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/jaegertracing/jaeger-ui">jaegertracing/jaeger-ui</a> (1524 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4415 in jaegertracing/jaeger-ui: [chore]: Do not switch to GenAI span view if there are no recognized attributes</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/jaegertracing/jaeger-ui/issues/4415">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
     </item>
     <item>
       <title>[ludo-technologies/pyscn] #724 [ENH][auto] duplication-percentage-clamped-at-scoring-threshold: reported code_duplication_percentage is capped at 30% so heavily-duplicated projects are indistinguishable (Solvability: 6/10)</title>
@@ -47,63 +318,6 @@
       <category>enhancement</category>
       <category>good first issue</category>
       <category>auto-filed</category>
-    </item>
-    <item>
-      <title>[langgenius/dify] #41535 merge dup functions in unit test (Solvability: 6/10)</title>
-      <link>https://github.com/langgenius/dify/issues/41535</link>
-      <guid isPermaLink="true">https://github.com/langgenius/dify/issues/41535</guid>
-      <pubDate>Mon, 31 Aug 2026 10:20:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/langgenius/dify">langgenius/dify</a> (153989 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #41535 in langgenius/dify: merge dup functions in unit test</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/langgenius/dify/issues/41535">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #29516 [Good First Issue] 🎍 Add new False Friend Pair 92 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29516</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29516</guid>
-      <pubDate>Mon, 31 Aug 2026 10:37:32 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3296 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29516 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new False Friend Pair 92 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29516">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[vllm-project/aibrix] #2637 Add missing integration/e2e test coverage for controllers and routing paths (Solvability: 6/10)</title>
-      <link>https://github.com/vllm-project/aibrix/issues/2637</link>
-      <guid isPermaLink="true">https://github.com/vllm-project/aibrix/issues/2637</guid>
-      <pubDate>Mon, 31 Aug 2026 10:47:32 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vllm-project/aibrix">vllm-project/aibrix</a> (5046 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2637 in vllm-project/aibrix: Add missing integration/e2e test coverage for controllers and routing paths</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/vllm-project/aibrix/issues/2637">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>area/testing</category>
     </item>
     <item>
       <title>[Nano-Collective/nanocoder] #1093 [Feature] Improve spacing and remove copy button for user messages in VS Code chat panel (Solvability: 6/10)</title>
@@ -184,93 +398,6 @@
       <category>good first issue</category>
       <category>ui</category>
       <category>extension</category>
-    </item>
-    <item>
-      <title>[Nano-Collective/nanocoder] #1096 [Feature] Add setting to toggle Token/Cost counter visibility (default to off) (Solvability: 6/10)</title>
-      <link>https://github.com/Nano-Collective/nanocoder/issues/1096</link>
-      <guid isPermaLink="true">https://github.com/Nano-Collective/nanocoder/issues/1096</guid>
-      <pubDate>Mon, 31 Aug 2026 11:09:06 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Nano-Collective/nanocoder">Nano-Collective/nanocoder</a> (2412 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1096 in Nano-Collective/nanocoder: [Feature] Add setting to toggle Token/Cost counter visibility (default to off)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test plugins/vscode/package.json</code></p>
-<p><a href="https://github.com/Nano-Collective/nanocoder/issues/1096">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>ui</category>
-      <category>extension</category>
-    </item>
-    <item>
-      <title>[The-PR-Agent/pr-agent] #2932 /review sets labels without the get_labels guard that /describe and /generate_labels both have (Solvability: 6/10)</title>
-      <link>https://github.com/The-PR-Agent/pr-agent/issues/2932</link>
-      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/2932</guid>
-      <pubDate>Mon, 31 Aug 2026 11:18:30 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (12780 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2932 in The-PR-Agent/pr-agent: /review sets labels without the get_labels guard that /describe and /generate_labels both have</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/2932">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>bug</category>
-    </item>
-    <item>
-      <title>[The-PR-Agent/pr-agent] #2933 Bitbucket Server reports every repository as YAML (Solvability: 6/10)</title>
-      <link>https://github.com/The-PR-Agent/pr-agent/issues/2933</link>
-      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/2933</guid>
-      <pubDate>Mon, 31 Aug 2026 11:18:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (12780 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2933 in The-PR-Agent/pr-agent: Bitbucket Server reports every repository as YAML</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest pr_agent/git_providers/bitbucket_server_provider.py</code></p>
-<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/2933">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>bug</category>
-    </item>
-    <item>
-      <title>[The-PR-Agent/pr-agent] #2934 Azure DevOps get_latest_commit_url raises IndexError on a pull request with no commits (Solvability: 6/10)</title>
-      <link>https://github.com/The-PR-Agent/pr-agent/issues/2934</link>
-      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/2934</guid>
-      <pubDate>Mon, 31 Aug 2026 11:18:39 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (12780 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2934 in The-PR-Agent/pr-agent: Azure DevOps get_latest_commit_url raises IndexError on a pull request with no commits</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/2934">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>bug</category>
-    </item>
-    <item>
-      <title>[The-PR-Agent/pr-agent] #2935 GitLab and Gitea emit an inverted line range into the link anchor (Solvability: 6/10)</title>
-      <link>https://github.com/The-PR-Agent/pr-agent/issues/2935</link>
-      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/2935</guid>
-      <pubDate>Mon, 31 Aug 2026 11:18:44 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (12780 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2935 in The-PR-Agent/pr-agent: GitLab and Gitea emit an inverted line range into the link anchor</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest pr_agent/git_providers/gitlab_provider.py</code></p>
-<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/2935">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>bug</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #29518 [Good First Issue] 🗻 Add new Example Sentence 83 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
@@ -365,22 +492,6 @@
       <category>area:cil-interop</category>
       <category>area:compiler</category>
       <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[llmmanorg/llmman] #330 Add "llmman launch pi" (Solvability: 6/10)</title>
-      <link>https://github.com/llmmanorg/llmman/issues/330</link>
-      <guid isPermaLink="true">https://github.com/llmmanorg/llmman/issues/330</guid>
-      <pubDate>Sun, 30 Aug 2026 17:10:14 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/llmmanorg/llmman">llmmanorg/llmman</a> (469 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #330 in llmmanorg/llmman: Add "llmman launch pi"</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/llmmanorg/llmman/issues/330">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[Kiri-Innovation/3dgs-render-blender-addon] #70 Remove the important.py star-import shim (Solvability: 6/10)</title>
@@ -563,23 +674,6 @@
       <category>macos</category>
     </item>
     <item>
-      <title>[hust-open-atom-club/oh-dsh] #177 marketplace: hide or categorize built-in protected plugins and forbid auto-install (Solvability: 6/10)</title>
-      <link>https://github.com/hust-open-atom-club/oh-dsh/issues/177</link>
-      <guid isPermaLink="true">https://github.com/hust-open-atom-club/oh-dsh/issues/177</guid>
-      <pubDate>Sun, 30 Aug 2026 09:41:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/hust-open-atom-club/oh-dsh">hust-open-atom-club/oh-dsh</a> (292 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #177 in hust-open-atom-club/oh-dsh: marketplace: hide or categorize built-in protected plugins and forbid auto-install</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test plugins/plugin-marketplace/src/protocol.ts</code></p>
-<p><a href="https://github.com/hust-open-atom-club/oh-dsh/issues/177">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[hust-open-atom-club/oh-dsh] #178 settings: add About page with versions and self-upgrade (Solvability: 6/10)</title>
       <link>https://github.com/hust-open-atom-club/oh-dsh/issues/178</link>
       <guid isPermaLink="true">https://github.com/hust-open-atom-club/oh-dsh/issues/178</guid>
@@ -610,23 +704,6 @@
       <category>Vala</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[ros2-rust/ros2_rust] #675 Accept standard Rust ranges in `ParameterBuilder::range()` (Solvability: 6/10)</title>
-      <link>https://github.com/ros2-rust/ros2_rust/issues/675</link>
-      <guid isPermaLink="true">https://github.com/ros2-rust/ros2_rust/issues/675</guid>
-      <pubDate>Sat, 29 Aug 2026 12:51:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ros2-rust/ros2_rust">ros2-rust/ros2_rust</a> (1522 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #675 in ros2-rust/ros2_rust: Accept standard Rust ranges in `ParameterBuilder::range()`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/ros2-rust/ros2_rust/issues/675">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
       <category>good first issue</category>
     </item>
     <item>
@@ -877,25 +954,6 @@
       <category>good first issue</category>
       <category>backend::vllm</category>
       <category>kv-memory</category>
-    </item>
-    <item>
-      <title>[reticlehq/reticle] #595 [agent] element predicate errors name the rejected field but never the accepted shape (Solvability: 6/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/595</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/595</guid>
-      <pubDate>Thu, 27 Aug 2026 18:36:13 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (367 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #595 in reticlehq/reticle: [agent] element predicate errors name the rejected field but never the accepted shape</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/atlas/src/custom-elements.d.ts</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/595">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>agent-reported</category>
     </item>
   </channel>
 </rss>
