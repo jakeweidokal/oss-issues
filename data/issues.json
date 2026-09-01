@@ -31,6 +31,469 @@
     "discoveredAt": "2026-08-31T18:55:33.092Z"
   },
   {
+    "id": "I_kwDOJ-mfYs8AAAABPKvFww",
+    "number": 396,
+    "title": "[Parity] Statistics routines missing vs numpy, including nan-aware reductions",
+    "url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo/issues/396",
+    "repo": "Mojo-Numerics-and-Algorithms-group/NuMojo",
+    "repoUrl": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo",
+    "stars": 235,
+    "language": "Mojo",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T14:08:23Z",
+    "updatedAt": "2026-09-01T14:08:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #396 in Mojo-Numerics-and-Algorithms-group/NuMojo: [Parity] Statistics routines missing vs numpy, including nan-aware reductions",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:50.032Z"
+  },
+  {
+    "id": "I_kwDOJ-mfYs8AAAABPKwMwQ",
+    "number": 397,
+    "title": "[Parity] `numojo.random` missing distributions and has no seeding support",
+    "url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo/issues/397",
+    "repo": "Mojo-Numerics-and-Algorithms-group/NuMojo",
+    "repoUrl": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo",
+    "stars": 235,
+    "language": "Mojo",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T14:10:01Z",
+    "updatedAt": "2026-09-01T14:11:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #397 in Mojo-Numerics-and-Algorithms-group/NuMojo: [Parity] `numojo.random` missing distributions and has no seeding support",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:48.660Z"
+  },
+  {
+    "id": "I_kwDOJ-mfYs8AAAABPKyZFQ",
+    "number": 399,
+    "title": "[Testing] Test coverage gaps in existing routines",
+    "url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo/issues/399",
+    "repo": "Mojo-Numerics-and-Algorithms-group/NuMojo",
+    "repoUrl": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo",
+    "stars": 235,
+    "language": "Mojo",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T14:13:17Z",
+    "updatedAt": "2026-09-01T14:13:25Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #399 in Mojo-Numerics-and-Algorithms-group/NuMojo: [Testing] Test coverage gaps in existing routines",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:47.287Z"
+  },
+  {
+    "id": "I_kwDOA7dBp88AAAABPK5wRg",
+    "number": 6260,
+    "title": "Add support for stdout in export package-information and package-interface",
+    "url": "https://github.com/gleam-lang/gleam/issues/6260",
+    "repo": "gleam-lang/gleam",
+    "repoUrl": "https://github.com/gleam-lang/gleam",
+    "stars": 21856,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T14:24:20Z",
+    "updatedAt": "2026-09-01T14:59:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #6260 in gleam-lang/gleam: Add support for stdout in export package-information and package-interface",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:45.229Z"
+  },
+  {
+    "id": "I_kwDOLFM3OM8AAAABPK8ZXQ",
+    "number": 5611,
+    "title": "lower_enabled.sql and upper_enabled.sql set a no-op config and never test the native path",
+    "url": "https://github.com/apache/datafusion-comet/issues/5611",
+    "repo": "apache/datafusion-comet",
+    "repoUrl": "https://github.com/apache/datafusion-comet",
+    "stars": 1261,
+    "language": "Scala",
+    "labels": [
+      "bug",
+      "good first issue",
+      "test",
+      "priority:low",
+      "area:expressions",
+      "requires-triage"
+    ],
+    "createdAt": "2026-09-01T14:28:23Z",
+    "updatedAt": "2026-09-01T14:28:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "native/core/src/execution/memory_pools/config.rs",
+      "native/core/src/execution/spark_config.rs"
+    ],
+    "summary": "Fix issue #5611 in apache/datafusion-comet: lower_enabled.sql and upper_enabled.sql set a no-op config and never test the native path",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:43.455Z"
+  },
+  {
+    "id": "I_kwDOT0xK9c8AAAABPK9KUg",
+    "number": 38,
+    "title": "[feature] Go Client",
+    "url": "https://github.com/PicoMQ/picomq/issues/38",
+    "repo": "PicoMQ/picomq",
+    "repoUrl": "https://github.com/PicoMQ/picomq",
+    "stars": 317,
+    "language": "Rust",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-01T14:29:36Z",
+    "updatedAt": "2026-09-01T14:29:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #38 in PicoMQ/picomq: [feature] Go Client",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:41.694Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPLCXeA",
+    "number": 29591,
+    "title": "[Good First Issue] 🀄 Add new Japanese Haiku 11 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29591",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3303,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T14:37:33Z",
+    "updatedAt": "2026-09-01T14:37:39Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-haiku.json"
+    ],
+    "summary": "Fix issue #29591 in lingdojo/kana-dojo: [Good First Issue] 🀄 Add new Japanese Haiku 11 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:40.845Z"
+  },
+  {
+    "id": "I_kwDOEj0F688AAAABPLItjA",
+    "number": 1876,
+    "title": "Allow configuring `BoundStatement` after it's constructed",
+    "url": "https://github.com/scylladb/scylla-rust-driver/issues/1876",
+    "repo": "scylladb/scylla-rust-driver",
+    "repoUrl": "https://github.com/scylladb/scylla-rust-driver",
+    "stars": 684,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "area/statement-execution"
+    ],
+    "createdAt": "2026-09-01T14:47:27Z",
+    "updatedAt": "2026-09-01T14:47:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1876 in scylladb/scylla-rust-driver: Allow configuring `BoundStatement` after it's constructed",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:39.076Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPLRoJg",
+    "number": 29592,
+    "title": "[Good First Issue] 🎎 Add new Trivia Question 107 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29592",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3303,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T15:01:11Z",
+    "updatedAt": "2026-09-01T15:01:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-trivia-hard.json"
+    ],
+    "summary": "Fix issue #29592 in lingdojo/kana-dojo: [Good First Issue] 🎎 Add new Trivia Question 107 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:38.111Z"
+  },
+  {
+    "id": "I_kwDOPk00YM8AAAABPLUoUA",
+    "number": 3290,
+    "title": "[CI] Unify Kind and disk-space bootstrap for Operator and E2E",
+    "url": "https://github.com/vllm-project/semantic-router/issues/3290",
+    "repo": "vllm-project/semantic-router",
+    "repoUrl": "https://github.com/vllm-project/semantic-router",
+    "stars": 5474,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted",
+      "accepted",
+      "ready-for-dev",
+      "wg/evaluation-quality"
+    ],
+    "createdAt": "2026-09-01T15:05:42Z",
+    "updatedAt": "2026-09-01T15:10:47Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./.github/workflows",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/integration-test-k8s.yml",
+      ".github/workflows/operator-ci.yml"
+    ],
+    "summary": "Fix issue #3290 in vllm-project/semantic-router: [CI] Unify Kind and disk-space bootstrap for Operator and E2E",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:36.280Z"
+  },
+  {
+    "id": "I_kwDOPk00YM8AAAABPLUqOw",
+    "number": 3291,
+    "title": "[CI] Use one image catalog for docker-validate and docker-publish",
+    "url": "https://github.com/vllm-project/semantic-router/issues/3291",
+    "repo": "vllm-project/semantic-router",
+    "repoUrl": "https://github.com/vllm-project/semantic-router",
+    "stars": 5474,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted",
+      "accepted",
+      "ready-for-dev",
+      "wg/evaluation-quality"
+    ],
+    "createdAt": "2026-09-01T15:05:45Z",
+    "updatedAt": "2026-09-01T15:10:50Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./.github/workflows",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/docker-validate.yml",
+      ".github/workflows/docker-publish.yml",
+      "tools/ci/workflow_policy_validation.py"
+    ],
+    "summary": "Fix issue #3291 in vllm-project/semantic-router: [CI] Use one image catalog for docker-validate and docker-publish",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:26.664Z"
+  },
+  {
+    "id": "I_kwDOLA3Si88AAAABPLYa9w",
+    "number": 3105,
+    "title": "Post-login redirect should return to originally requested page",
+    "url": "https://github.com/openeverest/openeverest/issues/3105",
+    "repo": "openeverest/openeverest",
+    "repoUrl": "https://github.com/openeverest/openeverest",
+    "stars": 907,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "ui",
+      "needs-triage",
+      "triage/accepted"
+    ],
+    "createdAt": "2026-09-01T15:11:28Z",
+    "updatedAt": "2026-09-01T15:23:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3105 in openeverest/openeverest: Post-login redirect should return to originally requested page",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:17.188Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABPLcgug",
+    "number": 541,
+    "title": "change CI rustfmt to MSRV toolchain instead of nightly",
+    "url": "https://github.com/servo/rust-smallvec/issues/541",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1704,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-medium",
+      "r-ci"
+    ],
+    "createdAt": "2026-09-01T15:17:35Z",
+    "updatedAt": "2026-09-01T15:31:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test rust",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/rust.yml"
+    ],
+    "summary": "Fix issue #541 in servo/rust-smallvec: change CI rustfmt to MSRV toolchain instead of nightly",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-01T15:41:15.848Z"
+  },
+  {
+    "id": "I_kwDOAAx0Rc8AAAABPLh98A",
+    "number": 3125,
+    "title": "Review potentially unused Errbit code identified by static analysis",
+    "url": "https://github.com/errbit/errbit/issues/3125",
+    "repo": "errbit/errbit",
+    "repoUrl": "https://github.com/errbit/errbit",
+    "stars": 4270,
+    "language": "Ruby",
+    "labels": [
+      "maintenance",
+      "help-wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T15:26:22Z",
+    "updatedAt": "2026-09-01T15:26:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "spec/models/error_report_spec.rb",
+      "app/models/problem.rb",
+      "app/models/user.rb"
+    ],
+    "summary": "Fix issue #3125 in errbit/errbit: Review potentially unused Errbit code identified by static analysis",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:15.203Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPLo75A",
+    "number": 29593,
+    "title": "[Good First Issue] 🌋 Add new Grammar Point 18 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29593",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3303,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T15:37:30Z",
+    "updatedAt": "2026-09-01T15:37:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-grammar.json"
+    ],
+    "summary": "Fix issue #29593 in lingdojo/kana-dojo: [Good First Issue] 🌋 Add new Grammar Point 18 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T15:41:14.379Z"
+  },
+  {
     "id": "I_kwDOKFepnM8AAAABPHdyaA",
     "number": 87,
     "title": "Linux版无法运行",
@@ -2178,36 +2641,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-27T20:19:23.970Z"
-  },
-  {
-    "id": "I_kwDOOCjvss8AAAABOikJYg",
-    "number": 13914,
-    "title": "Gemma 4 31B segfaults in Dynamo vLLM with both model runners",
-    "url": "https://github.com/ai-dynamo/dynamo/issues/13914",
-    "repo": "ai-dynamo/dynamo",
-    "repoUrl": "https://github.com/ai-dynamo/dynamo",
-    "stars": 7886,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue",
-      "backend::vllm",
-      "kv-memory"
-    ],
-    "createdAt": "2026-08-27T18:13:56Z",
-    "updatedAt": "2026-08-27T18:17:43Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #13914 in ai-dynamo/dynamo: Gemma 4 31B segfaults in Dynamo vLLM with both model runners",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-27T20:18:58.946Z"
   },
   {
     "id": "I_kwDOS3TU6c8AAAABOiwK0A",
