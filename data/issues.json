@@ -31,10 +31,10 @@
     "discoveredAt": "2026-08-31T18:55:33.092Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABPBnkqg",
-    "number": 29536,
-    "title": "[Good First Issue] 🍵 Add new False Friend Pair 82 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29536",
+    "id": "I_kwDOOwsln88AAAABPD-iyg",
+    "number": 29554,
+    "title": "[Good First Issue] 🎌 Add new Trivia Question 20 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29554",
     "repo": "lingdojo/kana-dojo",
     "repoUrl": "https://github.com/lingdojo/kana-dojo",
     "stars": 3301,
@@ -49,8 +49,438 @@
       "up-for-grabs",
       "first-timers-only"
     ],
-    "createdAt": "2026-08-31T18:01:02Z",
-    "updatedAt": "2026-08-31T18:01:09Z",
+    "createdAt": "2026-08-31T23:00:59Z",
+    "updatedAt": "2026-08-31T23:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-trivia-medium.json"
+    ],
+    "summary": "Fix issue #29554 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Trivia Question 20 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:53.025Z"
+  },
+  {
+    "id": "I_kwDOBPFFlM8AAAABPELYSg",
+    "number": 4418,
+    "title": "[chore]: Contextual controls in span row in trace timeline view",
+    "url": "https://github.com/jaegertracing/jaeger-ui/issues/4418",
+    "repo": "jaegertracing/jaeger-ui",
+    "repoUrl": "https://github.com/jaegertracing/jaeger-ui",
+    "stars": 1524,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-08-31T23:33:16Z",
+    "updatedAt": "2026-08-31T23:33:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #4418 in jaegertracing/jaeger-ui: [chore]: Contextual controls in span row in trace timeline view",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:50.579Z"
+  },
+  {
+    "id": "I_kwDORtsRpM8AAAABPEL1sQ",
+    "number": 4935,
+    "title": "Adapter contract suite: narrow the five class-level exclusions to the one case that needs them",
+    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/4935",
+    "repo": "sipyourdrink-ltd/bernstein",
+    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
+    "stars": 1043,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "size/m",
+      "testing",
+      "adapters",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-08-31T23:34:19Z",
+    "updatedAt": "2026-08-31T23:34:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/unit/test_adapter_contract.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/test_adapter_contract.py"
+    ],
+    "summary": "Fix issue #4935 in sipyourdrink-ltd/bernstein: Adapter contract suite: narrow the five class-level exclusions to the one case that needs them",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:49.391Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPENLxw",
+    "number": 29556,
+    "title": "[Good First Issue] 🐙 Add new Grammar Point 5 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29556",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3301,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-08-31T23:37:31Z",
+    "updatedAt": "2026-08-31T23:37:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-grammar.json"
+    ],
+    "summary": "Fix issue #29556 in lingdojo/kana-dojo: [Good First Issue] 🐙 Add new Grammar Point 5 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:44.261Z"
+  },
+  {
+    "id": "I_kwDORtUdpc8AAAABPEWeDg",
+    "number": 349,
+    "title": "Add \"llmman launch omp\"",
+    "url": "https://github.com/llmmanorg/llmman/issues/349",
+    "repo": "llmmanorg/llmman",
+    "repoUrl": "https://github.com/llmmanorg/llmman",
+    "stars": 471,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T00:00:24Z",
+    "updatedAt": "2026-09-01T00:00:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #349 in llmmanorg/llmman: Add \"llmman launch omp\"",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:42.391Z"
+  },
+  {
+    "id": "I_kwDORtUdpc8AAAABPEWofg",
+    "number": 350,
+    "title": "Add \"llmman launch pool\"",
+    "url": "https://github.com/llmmanorg/llmman/issues/350",
+    "repo": "llmmanorg/llmman",
+    "repoUrl": "https://github.com/llmmanorg/llmman",
+    "stars": 471,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T00:00:51Z",
+    "updatedAt": "2026-09-01T00:01:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #350 in llmmanorg/llmman: Add \"llmman launch pool\"",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:41.353Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPEWv5w",
+    "number": 29557,
+    "title": "[Good First Issue] 🌸 Add new Anime Quote 77 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29557",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3301,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T00:01:11Z",
+    "updatedAt": "2026-09-01T00:01:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #29557 in lingdojo/kana-dojo: [Good First Issue] 🌸 Add new Anime Quote 77 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:40.285Z"
+  },
+  {
+    "id": "I_kwDORtUdpc8AAAABPEWzpA",
+    "number": 351,
+    "title": "Add \"llmman launch omp\"",
+    "url": "https://github.com/llmmanorg/llmman/issues/351",
+    "repo": "llmmanorg/llmman",
+    "repoUrl": "https://github.com/llmmanorg/llmman",
+    "stars": 471,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T00:01:20Z",
+    "updatedAt": "2026-09-01T00:01:25Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #351 in llmmanorg/llmman: Add \"llmman launch omp\"",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:38.459Z"
+  },
+  {
+    "id": "I_kwDORtUdpc8AAAABPEXAXw",
+    "number": 352,
+    "title": "Add \"llmman launch qwen\"",
+    "url": "https://github.com/llmmanorg/llmman/issues/352",
+    "repo": "llmmanorg/llmman",
+    "repoUrl": "https://github.com/llmmanorg/llmman",
+    "stars": 471,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T00:01:55Z",
+    "updatedAt": "2026-09-01T00:02:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #352 in llmmanorg/llmman: Add \"llmman launch qwen\"",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:37.472Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPEjVfQ",
+    "number": 29558,
+    "title": "[Good First Issue] 🌺 Add new Video Game Quote 10 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29558",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3301,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T00:37:31Z",
+    "updatedAt": "2026-09-01T00:37:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #29558 in lingdojo/kana-dojo: [Good First Issue] 🌺 Add new Video Game Quote 10 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:36.459Z"
+  },
+  {
+    "id": "I_kwDORtsRpM8AAAABPEmoUw",
+    "number": 4937,
+    "title": "Translated READMEs can carry a stale integration count with every check green",
+    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/4937",
+    "repo": "sipyourdrink-ltd/bernstein",
+    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
+    "stars": 1043,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "size/s",
+      "testing",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-01T00:46:38Z",
+    "updatedAt": "2026-09-01T00:46:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/unit/test_readme_adapter_counts.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/test_readme_adapter_counts.py"
+    ],
+    "summary": "Fix issue #4937 in sipyourdrink-ltd/bernstein: Translated READMEs can carry a stale integration count with every check green",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:34.462Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPErnlA",
+    "number": 29559,
+    "title": "[Good First Issue] 🥢 Add new Japanese Idiom 94 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29559",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3301,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T01:01:01Z",
+    "updatedAt": "2026-09-01T01:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #29559 in lingdojo/kana-dojo: [Good First Issue] 🥢 Add new Japanese Idiom 94 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:29.568Z"
+  },
+  {
+    "id": "I_kwDOABpTD88AAAABPEsVKQ",
+    "number": 8160,
+    "title": "LENGUAJE-ES-MX.md",
+    "url": "https://github.com/github-linguist/linguist/issues/8160",
+    "repo": "github-linguist/linguist",
+    "repoUrl": "https://github.com/github-linguist/linguist",
+    "stars": 13670,
+    "language": "Ruby",
+    "labels": [
+      "Add Language",
+      "Good First Issue"
+    ],
+    "createdAt": "2026-09-01T01:03:01Z",
+    "updatedAt": "2026-09-01T01:04:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8160 in github-linguist/linguist: LENGUAJE-ES-MX.md",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:27.664Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPE571Q",
+    "number": 29560,
+    "title": "[Good First Issue] 🌸 Add new Dialect Entry 31 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29560",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3301,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T01:37:33Z",
+    "updatedAt": "2026-09-01T01:37:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #29560 in lingdojo/kana-dojo: [Good First Issue] 🌸 Add new Dialect Entry 31 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T02:22:25.926Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPFDckQ",
+    "number": 29561,
+    "title": "[Good First Issue] 🌊 Add new False Friend Pair 11 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29561",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3301,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T02:01:03Z",
+    "updatedAt": "2026-09-01T02:01:09Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
@@ -59,10 +489,10 @@
     "keyFiles": [
       "community/content/japanese-false-friends.json"
     ],
-    "summary": "Fix issue #29536 in lingdojo/kana-dojo: [Good First Issue] 🍵 Add new False Friend Pair 82 - Beginner-Friendly Open-source Contribution",
+    "summary": "Fix issue #29561 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new False Friend Pair 11 - Beginner-Friendly Open-source Contribution",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:38.463Z"
+    "discoveredAt": "2026-09-01T02:22:23.843Z"
   },
   {
     "id": "I_kwDOA-ie1M8AAAABPBr7Iw",
@@ -246,38 +676,6 @@
     "discoveredAt": "2026-08-31T18:55:23.768Z"
   },
   {
-    "id": "I_kwDOS3TU6c8AAAABPB30Ug",
-    "number": 686,
-    "title": "doctor and status disagree about whether the daemon is running",
-    "url": "https://github.com/reticlehq/reticle/issues/686",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 415,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported"
-    ],
-    "createdAt": "2026-08-31T18:32:53Z",
-    "updatedAt": "2026-08-31T18:32:53Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/server/src/cli/cli-doctor.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/server/src/cli/cli-doctor.ts",
-      "packages/server/src/cli/doctor-daemon-line.test.ts",
-      "packages/server/src/cli/doctor-daemon-line.ts"
-    ],
-    "summary": "Fix issue #686 in reticlehq/reticle: doctor and status disagree about whether the daemon is running",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:21.583Z"
-  },
-  {
     "id": "I_kwDOS3TU6c8AAAABPB31cw",
     "number": 687,
     "title": "`serve --http-port` is accepted and ignored",
@@ -399,68 +797,6 @@
     "discoveredAt": "2026-08-31T18:55:12.171Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABPB6KhQ",
-    "number": 29537,
-    "title": "[Good First Issue] 🍢 Add new Etiquette Tip 72 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29537",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3301,
-    "language": null,
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-08-31T18:37:30Z",
-    "updatedAt": "2026-08-31T18:37:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #29537 in lingdojo/kana-dojo: [Good First Issue] 🍢 Add new Etiquette Tip 72 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:10.260Z"
-  },
-  {
-    "id": "I_kwDOBPFFlM8AAAABPB6K4g",
-    "number": 4415,
-    "title": "[chore]: Do not switch to GenAI span view if there are no recognized attributes",
-    "url": "https://github.com/jaegertracing/jaeger-ui/issues/4415",
-    "repo": "jaegertracing/jaeger-ui",
-    "repoUrl": "https://github.com/jaegertracing/jaeger-ui",
-    "stars": 1524,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-31T18:37:31Z",
-    "updatedAt": "2026-08-31T18:37:47Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #4415 in jaegertracing/jaeger-ui: [chore]: Do not switch to GenAI span view if there are no recognized attributes",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:07.932Z"
-  },
-  {
     "id": "I_kwDOPZYPX88AAAABO9eI9w",
     "number": 724,
     "title": "[ENH][auto] duplication-percentage-clamped-at-scoring-threshold: reported code_duplication_percentage is capped at 30% so heavily-duplicated projects are indistinguishable",
@@ -523,40 +859,6 @@
     "discoveredAt": "2026-08-31T12:00:56.254Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABO943mg",
-    "number": 29517,
-    "title": "[Good First Issue] 🍁 Add new Etiquette Tip 56 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29517",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3296,
-    "language": null,
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-08-31T11:01:01Z",
-    "updatedAt": "2026-08-31T11:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #29517 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new Etiquette Tip 56 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T12:00:54.670Z"
-  },
-  {
     "id": "I_kwDOPVYLUM8AAAABO95GHg",
     "number": 1094,
     "title": "[Feature] Add a \"Retry\" button to AI responses and improve action footer layout in VS Code chat",
@@ -586,70 +888,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-31T12:00:52.441Z"
-  },
-  {
-    "id": "I_kwDOPVYLUM8AAAABO97Emw",
-    "number": 1095,
-    "title": "[Feature] Move Mode selector next to Model dropdown and improve its label/icon",
-    "url": "https://github.com/Nano-Collective/nanocoder/issues/1095",
-    "repo": "Nano-Collective/nanocoder",
-    "repoUrl": "https://github.com/Nano-Collective/nanocoder",
-    "stars": 2412,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "ui",
-      "extension"
-    ],
-    "createdAt": "2026-08-31T11:05:36Z",
-    "updatedAt": "2026-08-31T11:09:56Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1095 in Nano-Collective/nanocoder: [Feature] Move Mode selector next to Model dropdown and improve its label/icon",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T12:00:50.968Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABO-K5RA",
-    "number": 29518,
-    "title": "[Good First Issue] 🗻 Add new Example Sentence 83 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29518",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3296,
-    "language": null,
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-08-31T11:37:27Z",
-    "updatedAt": "2026-08-31T11:37:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-example-sentences.json"
-    ],
-    "summary": "Fix issue #29518 in lingdojo/kana-dojo: [Good First Issue] 🗻 Add new Example Sentence 83 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T12:00:42.863Z"
   },
   {
     "id": "I_kwDOA6VVV88AAAABO5BqUg",
