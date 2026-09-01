@@ -5,7 +5,7 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 15:41:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 20:16:41 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[reticlehq/reticle] #676 The vite plugin injects the connect script at the server root and ignores Vite's `base` (Solvability: 8/10)</title>
@@ -26,6 +26,284 @@
       <category>help wanted</category>
       <category>agent-reported</category>
       <category>v2.13.0</category>
+    </item>
+    <item>
+      <title>[verifywise-ai/verifywise] #4584 Add suspend / emergency-action status values to AI incidents (Solvability: 6/10)</title>
+      <link>https://github.com/verifywise-ai/verifywise/issues/4584</link>
+      <guid isPermaLink="true">https://github.com/verifywise-ai/verifywise/issues/4584</guid>
+      <pubDate>Tue, 01 Sep 2026 18:43:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/verifywise-ai/verifywise">verifywise-ai/verifywise</a> (343 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #4584 in verifywise-ai/verifywise: Add suspend / emergency-action status values to AI incidents</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test Servers/domain.layer/enums/ai-incident-management.enum.ts</code></p>
+<p><a href="https://github.com/verifywise-ai/verifywise/issues/4584">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>frontend</category>
+      <category>backend</category>
+    </item>
+    <item>
+      <title>[verifywise-ai/verifywise] #4585 Add intended use / purpose field to model inventory (Solvability: 6/10)</title>
+      <link>https://github.com/verifywise-ai/verifywise/issues/4585</link>
+      <guid isPermaLink="true">https://github.com/verifywise-ai/verifywise/issues/4585</guid>
+      <pubDate>Tue, 01 Sep 2026 18:43:37 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/verifywise-ai/verifywise">verifywise-ai/verifywise</a> (343 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4585 in verifywise-ai/verifywise: Add intended use / purpose field to model inventory</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test Servers/domain.layer/models/modelInventory/modelInventory.model.ts</code></p>
+<p><a href="https://github.com/verifywise-ai/verifywise/issues/4585">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>frontend</category>
+      <category>backend</category>
+    </item>
+    <item>
+      <title>[bastani-inc/atomic] #2802 workflows: revise provisional execution shape after material clarification (Solvability: 6/10)</title>
+      <link>https://github.com/bastani-inc/atomic/issues/2802</link>
+      <guid isPermaLink="true">https://github.com/bastani-inc/atomic/issues/2802</guid>
+      <pubDate>Tue, 01 Sep 2026 18:52:49 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/bastani-inc/atomic">bastani-inc/atomic</a> (733 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2802 in bastani-inc/atomic: workflows: revise provisional execution shape after material clarification</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/workflows/src/extension/workflow-prompts.ts</code></p>
+<p><a href="https://github.com/bastani-inc/atomic/issues/2802">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29601 [Good First Issue] ⛩️ Add new Example Sentence 26 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29601</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29601</guid>
+      <pubDate>Tue, 01 Sep 2026 19:01:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3304 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29601 in lingdojo/kana-dojo: [Good First Issue] ⛩️ Add new Example Sentence 26 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29601">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[apple/container] #2224 [Bug]: `container clean` fails on read-only named volume mounts. (Solvability: 6/10)</title>
+      <link>https://github.com/apple/container/issues/2224</link>
+      <guid isPermaLink="true">https://github.com/apple/container/issues/2224</guid>
+      <pubDate>Tue, 01 Sep 2026 19:12:08 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/apple/container">apple/container</a> (49580 ⭐, Swift)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2224 in apple/container: [Bug]: `container clean` fails on read-only named volume mounts.</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/apple/container/issues/2224">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Swift</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>storage</category>
+    </item>
+    <item>
+      <title>[stefankueng/grepWin] #608 [FEATURE]: Use monospaced font for Regex and replacment editing (Solvability: 6/10)</title>
+      <link>https://github.com/stefankueng/grepWin/issues/608</link>
+      <guid isPermaLink="true">https://github.com/stefankueng/grepWin/issues/608</guid>
+      <pubDate>Tue, 01 Sep 2026 19:12:42 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/stefankueng/grepWin">stefankueng/grepWin</a> (2064 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #608 in stefankueng/grepWin: [FEATURE]: Use monospaced font for Regex and replacment editing</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/stefankueng/grepWin/issues/608">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[sipyourdrink-ltd/bernstein] #5056 compliance docs mark config-presence lints the same as evidence-verified controls (Solvability: 6/10)</title>
+      <link>https://github.com/sipyourdrink-ltd/bernstein/issues/5056</link>
+      <guid isPermaLink="true">https://github.com/sipyourdrink-ltd/bernstein/issues/5056</guid>
+      <pubDate>Tue, 01 Sep 2026 19:15:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sipyourdrink-ltd/bernstein">sipyourdrink-ltd/bernstein</a> (1057 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5056 in sipyourdrink-ltd/bernstein: compliance docs mark config-presence lints the same as evidence-verified controls</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/bernstein/core/security/article12_bundle.py</code></p>
+<p><a href="https://github.com/sipyourdrink-ltd/bernstein/issues/5056">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>size/s</category>
+      <category>P2</category>
+      <category>up-for-grabs</category>
+      <category>compliance</category>
+    </item>
+    <item>
+      <title>[stefankueng/grepWin] #609 [FEATURE]: Highlight capture groups in matches and show their index (Solvability: 6/10)</title>
+      <link>https://github.com/stefankueng/grepWin/issues/609</link>
+      <guid isPermaLink="true">https://github.com/stefankueng/grepWin/issues/609</guid>
+      <pubDate>Tue, 01 Sep 2026 19:21:57 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/stefankueng/grepWin">stefankueng/grepWin</a> (2064 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #609 in stefankueng/grepWin: [FEATURE]: Highlight capture groups in matches and show their index</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/stefankueng/grepWin/issues/609">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[sipyourdrink-ltd/bernstein] #5058 conformance vectors: attribution — who acted, with which identity, running what (Solvability: 6/10)</title>
+      <link>https://github.com/sipyourdrink-ltd/bernstein/issues/5058</link>
+      <guid isPermaLink="true">https://github.com/sipyourdrink-ltd/bernstein/issues/5058</guid>
+      <pubDate>Tue, 01 Sep 2026 19:23:49 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sipyourdrink-ltd/bernstein">sipyourdrink-ltd/bernstein</a> (1057 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5058 in sipyourdrink-ltd/bernstein: conformance vectors: attribution — who acted, with which identity, running what</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/bernstein/core/lineage/spine.py</code></p>
+<p><a href="https://github.com/sipyourdrink-ltd/bernstein/issues/5058">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>size/s</category>
+      <category>P1</category>
+      <category>testing</category>
+      <category>up-for-grabs</category>
+    </item>
+    <item>
+      <title>[ludo-technologies/pyscn] #728 [BUG][auto] elif-chain-nesting-inflation: each elif arm counted as a nesting level, flat dispatch reported nesting_depth 9 and risk high (Solvability: 6/10)</title>
+      <link>https://github.com/ludo-technologies/pyscn/issues/728</link>
+      <guid isPermaLink="true">https://github.com/ludo-technologies/pyscn/issues/728</guid>
+      <pubDate>Tue, 01 Sep 2026 19:35:14 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ludo-technologies/pyscn">ludo-technologies/pyscn</a> (1039 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #728 in ludo-technologies/pyscn: [BUG][auto] elif-chain-nesting-inflation: each elif arm counted as a nesting level, flat dispatch reported nesting_depth 9 and risk high</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./internal/parser</code></p>
+<p><a href="https://github.com/ludo-technologies/pyscn/issues/728">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>P2</category>
+      <category>auto-filed</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29603 [Good First Issue] 🎐 Add new Learner Mistake 38 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29603</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29603</guid>
+      <pubDate>Tue, 01 Sep 2026 19:37:37 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3304 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29603 in lingdojo/kana-dojo: [Good First Issue] 🎐 Add new Learner Mistake 38 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29603">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[sipyourdrink-ltd/bernstein] #5069 governance screen: the not-covered list, each row linked to the issue that closes it (Solvability: 6/10)</title>
+      <link>https://github.com/sipyourdrink-ltd/bernstein/issues/5069</link>
+      <guid isPermaLink="true">https://github.com/sipyourdrink-ltd/bernstein/issues/5069</guid>
+      <pubDate>Tue, 01 Sep 2026 19:37:53 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sipyourdrink-ltd/bernstein">sipyourdrink-ltd/bernstein</a> (1057 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5069 in sipyourdrink-ltd/bernstein: governance screen: the not-covered list, each row linked to the issue that closes it</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/sipyourdrink-ltd/bernstein/issues/5069">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>size/s</category>
+      <category>P1</category>
+      <category>web-dashboard</category>
+      <category>up-for-grabs</category>
+    </item>
+    <item>
+      <title>[microsoft/STL] #6427 `&lt;yvals_core.h&gt;`: Update `_MSVC_STL_UPDATE` to September 2026 (Solvability: 6/10)</title>
+      <link>https://github.com/microsoft/STL/issues/6427</link>
+      <guid isPermaLink="true">https://github.com/microsoft/STL/issues/6427</guid>
+      <pubDate>Tue, 01 Sep 2026 19:52:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/microsoft/STL">microsoft/STL</a> (11141 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #6427 in microsoft/STL: `&lt;yvals_core.h&gt;`: Update `_MSVC_STL_UPDATE` to September 2026</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/microsoft/STL/issues/6427">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #29604 [Good First Issue] 🍶 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/29604</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29604</guid>
+      <pubDate>Tue, 01 Sep 2026 20:01:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3304 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #29604 in lingdojo/kana-dojo: [Good First Issue] 🍶 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/29604">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
     </item>
     <item>
       <title>[Mojo-Numerics-and-Algorithms-group/NuMojo] #396 [Parity] Statistics routines missing vs numpy, including nan-aware reductions (Solvability: 6/10)</title>
@@ -712,283 +990,6 @@
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[llmmanorg/llmman] #350 Add "llmman launch pool" (Solvability: 6/10)</title>
-      <link>https://github.com/llmmanorg/llmman/issues/350</link>
-      <guid isPermaLink="true">https://github.com/llmmanorg/llmman/issues/350</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:51 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/llmmanorg/llmman">llmmanorg/llmman</a> (471 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #350 in llmmanorg/llmman: Add "llmman launch pool"</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/llmmanorg/llmman/issues/350">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #29557 [Good First Issue] 🌸 Add new Anime Quote 77 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29557</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29557</guid>
-      <pubDate>Tue, 01 Sep 2026 00:01:11 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3301 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29557 in lingdojo/kana-dojo: [Good First Issue] 🌸 Add new Anime Quote 77 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29557">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[llmmanorg/llmman] #351 Add "llmman launch omp" (Solvability: 6/10)</title>
-      <link>https://github.com/llmmanorg/llmman/issues/351</link>
-      <guid isPermaLink="true">https://github.com/llmmanorg/llmman/issues/351</guid>
-      <pubDate>Tue, 01 Sep 2026 00:01:20 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/llmmanorg/llmman">llmmanorg/llmman</a> (471 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #351 in llmmanorg/llmman: Add "llmman launch omp"</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/llmmanorg/llmman/issues/351">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[llmmanorg/llmman] #352 Add "llmman launch qwen" (Solvability: 6/10)</title>
-      <link>https://github.com/llmmanorg/llmman/issues/352</link>
-      <guid isPermaLink="true">https://github.com/llmmanorg/llmman/issues/352</guid>
-      <pubDate>Tue, 01 Sep 2026 00:01:55 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/llmmanorg/llmman">llmmanorg/llmman</a> (471 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #352 in llmmanorg/llmman: Add "llmman launch qwen"</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/llmmanorg/llmman/issues/352">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #29558 [Good First Issue] 🌺 Add new Video Game Quote 10 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29558</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29558</guid>
-      <pubDate>Tue, 01 Sep 2026 00:37:31 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3301 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29558 in lingdojo/kana-dojo: [Good First Issue] 🌺 Add new Video Game Quote 10 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29558">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[sipyourdrink-ltd/bernstein] #4937 Translated READMEs can carry a stale integration count with every check green (Solvability: 6/10)</title>
-      <link>https://github.com/sipyourdrink-ltd/bernstein/issues/4937</link>
-      <guid isPermaLink="true">https://github.com/sipyourdrink-ltd/bernstein/issues/4937</guid>
-      <pubDate>Tue, 01 Sep 2026 00:46:38 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sipyourdrink-ltd/bernstein">sipyourdrink-ltd/bernstein</a> (1043 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4937 in sipyourdrink-ltd/bernstein: Translated READMEs can carry a stale integration count with every check green</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/unit/test_readme_adapter_counts.py</code></p>
-<p><a href="https://github.com/sipyourdrink-ltd/bernstein/issues/4937">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>size/s</category>
-      <category>testing</category>
-      <category>up-for-grabs</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #29559 [Good First Issue] 🥢 Add new Japanese Idiom 94 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29559</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29559</guid>
-      <pubDate>Tue, 01 Sep 2026 01:01:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3301 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29559 in lingdojo/kana-dojo: [Good First Issue] 🥢 Add new Japanese Idiom 94 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29559">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[github-linguist/linguist] #8160 LENGUAJE-ES-MX.md (Solvability: 6/10)</title>
-      <link>https://github.com/github-linguist/linguist/issues/8160</link>
-      <guid isPermaLink="true">https://github.com/github-linguist/linguist/issues/8160</guid>
-      <pubDate>Tue, 01 Sep 2026 01:03:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/github-linguist/linguist">github-linguist/linguist</a> (13670 ⭐, Ruby)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8160 in github-linguist/linguist: LENGUAJE-ES-MX.md</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/github-linguist/linguist/issues/8160">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Ruby</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Add Language</category>
-      <category>Good First Issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #29560 [Good First Issue] 🌸 Add new Dialect Entry 31 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29560</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29560</guid>
-      <pubDate>Tue, 01 Sep 2026 01:37:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3301 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29560 in lingdojo/kana-dojo: [Good First Issue] 🌸 Add new Dialect Entry 31 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29560">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #29561 [Good First Issue] 🌊 Add new False Friend Pair 11 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29561</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29561</guid>
-      <pubDate>Tue, 01 Sep 2026 02:01:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3301 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29561 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new False Friend Pair 11 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29561">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[clusterio/clusterio] #985 Add missing config options to configuration.md (Solvability: 6/10)</title>
-      <link>https://github.com/clusterio/clusterio/issues/985</link>
-      <guid isPermaLink="true">https://github.com/clusterio/clusterio/issues/985</guid>
-      <pubDate>Mon, 31 Aug 2026 18:09:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/clusterio/clusterio">clusterio/clusterio</a> (379 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #985 in clusterio/clusterio: Add missing config options to configuration.md</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/clusterio/clusterio/issues/985">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Impact: 4-Internal</category>
-      <category>Good First Issue</category>
-      <category>Scope: Core</category>
-      <category>Scope: Plugin</category>
-    </item>
-    <item>
-      <title>[reticlehq/reticle] #675 init writes a TypeScript connect module into a JavaScript CRA app, and the first compile fails (Solvability: 6/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/675</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/675</guid>
-      <pubDate>Mon, 31 Aug 2026 18:32:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #675 in reticlehq/reticle: init writes a TypeScript connect module into a JavaScript CRA app, and the first compile fails</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test tsconfig.json</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/675">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>agent-reported</category>
-      <category>v2.13.0</category>
-    </item>
-    <item>
-      <title>[reticlehq/reticle] #677 Astro init breaks `astro check`: the injected defines are never declared (Solvability: 6/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/677</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/677</guid>
-      <pubDate>Mon, 31 Aug 2026 18:32:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #677 in reticlehq/reticle: Astro init breaks `astro check`: the injected defines are never declared</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/vite-plugin/src/define-warning.integration.test.ts</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/677">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>agent-reported</category>
-    </item>
-    <item>
-      <title>[reticlehq/reticle] #681 The Codex MCP detector does not read an existing [mcp_servers.reticle] table, so a wired machine gets a warning it must not act on (Solvability: 6/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/681</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/681</guid>
-      <pubDate>Mon, 31 Aug 2026 18:32:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (415 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #681 in reticlehq/reticle: The Codex MCP detector does not read an existing [mcp_servers.reticle] table, so a wired machine gets a warning it must not act on</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/server/src/telemetry/init-telemetry.ts</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/681">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>agent-reported</category>
     </item>
   </channel>
 </rss>

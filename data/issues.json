@@ -31,6 +31,441 @@
     "discoveredAt": "2026-08-31T18:55:33.092Z"
   },
   {
+    "id": "I_kwDOMlKt8s8AAAABPNRCQg",
+    "number": 4584,
+    "title": "Add suspend / emergency-action status values to AI incidents",
+    "url": "https://github.com/verifywise-ai/verifywise/issues/4584",
+    "repo": "verifywise-ai/verifywise",
+    "repoUrl": "https://github.com/verifywise-ai/verifywise",
+    "stars": 343,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "frontend",
+      "backend"
+    ],
+    "createdAt": "2026-09-01T18:43:36Z",
+    "updatedAt": "2026-09-01T18:43:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test Servers/domain.layer/enums/ai-incident-management.enum.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "Servers/domain.layer/enums/ai-incident-management.enum.ts"
+    ],
+    "summary": "Fix issue #4584 in verifywise-ai/verifywise: Add suspend / emergency-action status values to AI incidents",
+    "maintainerTurnaroundDays": 1.3,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-01T20:16:41.798Z"
+  },
+  {
+    "id": "I_kwDOMlKt8s8AAAABPNRDJQ",
+    "number": 4585,
+    "title": "Add intended use / purpose field to model inventory",
+    "url": "https://github.com/verifywise-ai/verifywise/issues/4585",
+    "repo": "verifywise-ai/verifywise",
+    "repoUrl": "https://github.com/verifywise-ai/verifywise",
+    "stars": 343,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "frontend",
+      "backend"
+    ],
+    "createdAt": "2026-09-01T18:43:37Z",
+    "updatedAt": "2026-09-01T18:43:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test Servers/domain.layer/models/modelInventory/modelInventory.model.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "Servers/domain.layer/models/modelInventory/modelInventory.model.ts"
+    ],
+    "summary": "Fix issue #4585 in verifywise-ai/verifywise: Add intended use / purpose field to model inventory",
+    "maintainerTurnaroundDays": 1.3,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-01T20:16:37.071Z"
+  },
+  {
+    "id": "I_kwDOQHh8ns8AAAABPNWXWA",
+    "number": 2802,
+    "title": "workflows: revise provisional execution shape after material clarification",
+    "url": "https://github.com/bastani-inc/atomic/issues/2802",
+    "repo": "bastani-inc/atomic",
+    "repoUrl": "https://github.com/bastani-inc/atomic",
+    "stars": 733,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T18:52:49Z",
+    "updatedAt": "2026-09-01T18:52:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/workflows/src/extension/workflow-prompts.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/workflows/src/extension/workflow-prompts.ts",
+      "test/unit/execution-routing-guidance.test.ts"
+    ],
+    "summary": "Fix issue #2802 in bastani-inc/atomic: workflows: revise provisional execution shape after material clarification",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:16:31.596Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPNbr5g",
+    "number": 29601,
+    "title": "[Good First Issue] ⛩️ Add new Example Sentence 26 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29601",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3304,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T19:01:07Z",
+    "updatedAt": "2026-09-01T19:01:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #29601 in lingdojo/kana-dojo: [Good First Issue] ⛩️ Add new Example Sentence 26 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:16:21.160Z"
+  },
+  {
+    "id": "I_kwDOOzc9Ss8AAAABPNh1pw",
+    "number": 2224,
+    "title": "[Bug]: `container clean` fails on read-only named volume mounts.",
+    "url": "https://github.com/apple/container/issues/2224",
+    "repo": "apple/container",
+    "repoUrl": "https://github.com/apple/container",
+    "stars": 49580,
+    "language": "Swift",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "storage"
+    ],
+    "createdAt": "2026-09-01T19:12:08Z",
+    "updatedAt": "2026-09-01T19:12:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2224 in apple/container: [Bug]: `container clean` fails on read-only named volume mounts.",
+    "maintainerTurnaroundDays": 0.9,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:16:18.387Z"
+  },
+  {
+    "id": "I_kwDOB5ZECs8AAAABPNiJLw",
+    "number": 608,
+    "title": "[FEATURE]: Use monospaced font for Regex and replacment editing",
+    "url": "https://github.com/stefankueng/grepWin/issues/608",
+    "repo": "stefankueng/grepWin",
+    "repoUrl": "https://github.com/stefankueng/grepWin",
+    "stars": 2064,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T19:12:42Z",
+    "updatedAt": "2026-09-01T19:12:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #608 in stefankueng/grepWin: [FEATURE]: Use monospaced font for Regex and replacment editing",
+    "maintainerTurnaroundDays": 2.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:16:16.822Z"
+  },
+  {
+    "id": "I_kwDORtsRpM8AAAABPNjvbg",
+    "number": 5056,
+    "title": "compliance docs mark config-presence lints the same as evidence-verified controls",
+    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/5056",
+    "repo": "sipyourdrink-ltd/bernstein",
+    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
+    "stars": 1057,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "size/s",
+      "P2",
+      "up-for-grabs",
+      "compliance"
+    ],
+    "createdAt": "2026-09-01T19:15:38Z",
+    "updatedAt": "2026-09-01T19:15:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/bernstein/core/security/article12_bundle.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/bernstein/core/security/article12_bundle.py"
+    ],
+    "summary": "Fix issue #5056 in sipyourdrink-ltd/bernstein: compliance docs mark config-presence lints the same as evidence-verified controls",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:16:15.572Z"
+  },
+  {
+    "id": "I_kwDOB5ZECs8AAAABPNnOsQ",
+    "number": 609,
+    "title": "[FEATURE]: Highlight capture groups in matches and show their index",
+    "url": "https://github.com/stefankueng/grepWin/issues/609",
+    "repo": "stefankueng/grepWin",
+    "repoUrl": "https://github.com/stefankueng/grepWin",
+    "stars": 2064,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T19:21:57Z",
+    "updatedAt": "2026-09-01T19:21:57Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #609 in stefankueng/grepWin: [FEATURE]: Highlight capture groups in matches and show their index",
+    "maintainerTurnaroundDays": 2.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:16:08.101Z"
+  },
+  {
+    "id": "I_kwDORtsRpM8AAAABPNoQPg",
+    "number": 5058,
+    "title": "conformance vectors: attribution — who acted, with which identity, running what",
+    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/5058",
+    "repo": "sipyourdrink-ltd/bernstein",
+    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
+    "stars": 1057,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "size/s",
+      "P1",
+      "testing",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-01T19:23:49Z",
+    "updatedAt": "2026-09-01T19:23:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/bernstein/core/lineage/spine.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/bernstein/core/lineage/spine.py",
+      "src/bernstein/core/replay/journal.py"
+    ],
+    "summary": "Fix issue #5058 in sipyourdrink-ltd/bernstein: conformance vectors: attribution — who acted, with which identity, running what",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:16:06.894Z"
+  },
+  {
+    "id": "I_kwDOPZYPX88AAAABPNu7wQ",
+    "number": 728,
+    "title": "[BUG][auto] elif-chain-nesting-inflation: each elif arm counted as a nesting level, flat dispatch reported nesting_depth 9 and risk high",
+    "url": "https://github.com/ludo-technologies/pyscn/issues/728",
+    "repo": "ludo-technologies/pyscn",
+    "repoUrl": "https://github.com/ludo-technologies/pyscn",
+    "stars": 1039,
+    "language": "Go",
+    "labels": [
+      "bug",
+      "good first issue",
+      "P2",
+      "auto-filed"
+    ],
+    "createdAt": "2026-09-01T19:35:14Z",
+    "updatedAt": "2026-09-01T19:35:14Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./internal/parser",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "internal/parser/ast_builder.go",
+      "internal/analyzer/nesting_depth.go"
+    ],
+    "summary": "Fix issue #728 in ludo-technologies/pyscn: [BUG][auto] elif-chain-nesting-inflation: each elif arm counted as a nesting level, flat dispatch reported nesting_depth 9 and risk high",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:15:54.846Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPNwU5Q",
+    "number": 29603,
+    "title": "[Good First Issue] 🎐 Add new Learner Mistake 38 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29603",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3304,
+    "language": null,
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-01T19:37:37Z",
+    "updatedAt": "2026-09-01T19:37:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #29603 in lingdojo/kana-dojo: [Good First Issue] 🎐 Add new Learner Mistake 38 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:15:53.529Z"
+  },
+  {
+    "id": "I_kwDORtsRpM8AAAABPNwdVw",
+    "number": 5069,
+    "title": "governance screen: the not-covered list, each row linked to the issue that closes it",
+    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/5069",
+    "repo": "sipyourdrink-ltd/bernstein",
+    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
+    "stars": 1057,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "size/s",
+      "P1",
+      "web-dashboard",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-01T19:37:53Z",
+    "updatedAt": "2026-09-01T19:37:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #5069 in sipyourdrink-ltd/bernstein: governance screen: the not-covered list, each row linked to the issue that closes it",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:15:50.659Z"
+  },
+  {
+    "id": "I_kwDODDHaoc8AAAABPN4vtQ",
+    "number": 6427,
+    "title": "`<yvals_core.h>`: Update `_MSVC_STL_UPDATE` to September 2026",
+    "url": "https://github.com/microsoft/STL/issues/6427",
+    "repo": "microsoft/STL",
+    "repoUrl": "https://github.com/microsoft/STL",
+    "stars": 11141,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-01T19:52:03Z",
+    "updatedAt": "2026-09-01T19:52:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #6427 in microsoft/STL: `<yvals_core.h>`: Update `_MSVC_STL_UPDATE` to September 2026",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:15:44.301Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPN9ylw",
+    "number": 29604,
+    "title": "[Good First Issue] 🍶 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29604",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3304,
+    "language": null,
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-01T20:01:02Z",
+    "updatedAt": "2026-09-01T20:01:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-wallpaper-urls.json"
+    ],
+    "summary": "Fix issue #29604 in lingdojo/kana-dojo: [Good First Issue] 🍶 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:15:41.768Z"
+  },
+  {
     "id": "I_kwDOJ-mfYs8AAAABPKvFww",
     "number": 396,
     "title": "[Parity] Statistics routines missing vs numpy, including nan-aware reductions",
@@ -1542,280 +1977,6 @@
     "discoveredAt": "2026-08-31T18:55:28.567Z"
   },
   {
-    "id": "I_kwDOS3TU6c8AAAABPB3rCw",
-    "number": 682,
-    "title": "init discovery misses nested app directories and a single app under a repo root",
-    "url": "https://github.com/reticlehq/reticle/issues/682",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 415,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported"
-    ],
-    "createdAt": "2026-08-31T18:32:36Z",
-    "updatedAt": "2026-08-31T18:32:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test package.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "package.json"
-    ],
-    "summary": "Fix issue #682 in reticlehq/reticle: init discovery misses nested app directories and a single app under a repo root",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:25.904Z"
-  },
-  {
-    "id": "I_kwDOS3TU6c8AAAABPB3tHQ",
-    "number": 684,
-    "title": "The generated connect module is emitted unformatted, so a clean install fails the project's own lint",
-    "url": "https://github.com/reticlehq/reticle/issues/684",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 415,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported"
-    ],
-    "createdAt": "2026-08-31T18:32:40Z",
-    "updatedAt": "2026-08-31T18:32:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #684 in reticlehq/reticle: The generated connect module is emitted unformatted, so a clean install fails the project's own lint",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:23.768Z"
-  },
-  {
-    "id": "I_kwDOS3TU6c8AAAABPB31cw",
-    "number": 687,
-    "title": "`serve --http-port` is accepted and ignored",
-    "url": "https://github.com/reticlehq/reticle/issues/687",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 415,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported"
-    ],
-    "createdAt": "2026-08-31T18:32:55Z",
-    "updatedAt": "2026-08-31T18:32:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #687 in reticlehq/reticle: `serve --http-port` is accepted and ignored",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:19.228Z"
-  },
-  {
-    "id": "I_kwDOS3TU6c8AAAABPB4Ghg",
-    "number": 698,
-    "title": "flow_save's flowName is the recording's name, not the name to save as",
-    "url": "https://github.com/reticlehq/reticle/issues/698",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 415,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported"
-    ],
-    "createdAt": "2026-08-31T18:33:27Z",
-    "updatedAt": "2026-08-31T18:33:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #698 in reticlehq/reticle: flow_save's flowName is the recording's name, not the name to save as",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:16.812Z"
-  },
-  {
-    "id": "I_kwDOS3TU6c8AAAABPB4Irg",
-    "number": 700,
-    "title": "The no-store-registered gap fires on apps whose store is registered and readable",
-    "url": "https://github.com/reticlehq/reticle/issues/700",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 415,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported",
-      "v2.13.0"
-    ],
-    "createdAt": "2026-08-31T18:33:31Z",
-    "updatedAt": "2026-08-31T18:33:31Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #700 in reticlehq/reticle: The no-store-registered gap fires on apps whose store is registered and readable",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:14.223Z"
-  },
-  {
-    "id": "I_kwDOS3TU6c8AAAABPB4Jtw",
-    "number": 701,
-    "title": "A browser session is reported as an Electron renderer with unobserved IPC coverage",
-    "url": "https://github.com/reticlehq/reticle/issues/701",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 415,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported"
-    ],
-    "createdAt": "2026-08-31T18:33:33Z",
-    "updatedAt": "2026-08-31T18:33:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #701 in reticlehq/reticle: A browser session is reported as an Electron renderer with unobserved IPC coverage",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T18:55:12.171Z"
-  },
-  {
-    "id": "I_kwDOPZYPX88AAAABO9eI9w",
-    "number": 724,
-    "title": "[ENH][auto] duplication-percentage-clamped-at-scoring-threshold: reported code_duplication_percentage is capped at 30% so heavily-duplicated projects are indistinguishable",
-    "url": "https://github.com/ludo-technologies/pyscn/issues/724",
-    "repo": "ludo-technologies/pyscn",
-    "repoUrl": "https://github.com/ludo-technologies/pyscn",
-    "stars": 1039,
-    "language": "Go",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "auto-filed"
-    ],
-    "createdAt": "2026-08-31T10:08:10Z",
-    "updatedAt": "2026-08-31T10:08:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./domain",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "domain/analyze.go",
-      "cmd/pyscn/analyze.go",
-      "service/analyze_html.go"
-    ],
-    "summary": "Fix issue #724 in ludo-technologies/pyscn: [ENH][auto] duplication-percentage-clamped-at-scoring-threshold: reported code_duplication_percentage is capped at 30% so heavily-duplicated projects are indistinguishable",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T12:01:09.434Z"
-  },
-  {
-    "id": "I_kwDOPVYLUM8AAAABO9zwJA",
-    "number": 1093,
-    "title": "[Feature] Improve spacing and remove copy button for user messages in VS Code chat panel",
-    "url": "https://github.com/Nano-Collective/nanocoder/issues/1093",
-    "repo": "Nano-Collective/nanocoder",
-    "repoUrl": "https://github.com/Nano-Collective/nanocoder",
-    "stars": 2412,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "ui",
-      "extension"
-    ],
-    "createdAt": "2026-08-31T10:50:31Z",
-    "updatedAt": "2026-08-31T11:10:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test plugins/vscode/media/chat-panel.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "plugins/vscode/media/chat-panel.js",
-      "plugins/vscode/src/styles.css"
-    ],
-    "summary": "Fix issue #1093 in Nano-Collective/nanocoder: [Feature] Improve spacing and remove copy button for user messages in VS Code chat panel",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T12:00:56.254Z"
-  },
-  {
-    "id": "I_kwDOPVYLUM8AAAABO95GHg",
-    "number": 1094,
-    "title": "[Feature] Add a \"Retry\" button to AI responses and improve action footer layout in VS Code chat",
-    "url": "https://github.com/Nano-Collective/nanocoder/issues/1094",
-    "repo": "Nano-Collective/nanocoder",
-    "repoUrl": "https://github.com/Nano-Collective/nanocoder",
-    "stars": 2412,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "ui",
-      "extension"
-    ],
-    "createdAt": "2026-08-31T11:01:26Z",
-    "updatedAt": "2026-08-31T11:10:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test plugins/vscode/media/chat-panel.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "plugins/vscode/media/chat-panel.js",
-      "plugins/vscode/src/styles.css"
-    ],
-    "summary": "Fix issue #1094 in Nano-Collective/nanocoder: [Feature] Add a \"Retry\" button to AI responses and improve action footer layout in VS Code chat",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-31T12:00:52.441Z"
-  },
-  {
     "id": "I_kwDOA6VVV88AAAABO5BqUg",
     "number": 18303,
     "title": "Convert spiders to StructuredDataSpider",
@@ -1898,37 +2059,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-08-31T02:01:17.878Z"
-  },
-  {
-    "id": "I_kwDOGjSgUs8AAAABN7pOfg",
-    "number": 1012,
-    "title": "Enum types should be exported via the assembly metadata",
-    "url": "https://github.com/ForNeVeR/Cesium/issues/1012",
-    "repo": "ForNeVeR/Cesium",
-    "repoUrl": "https://github.com/ForNeVeR/Cesium",
-    "stars": 448,
-    "language": "C#",
-    "labels": [
-      "kind:feature",
-      "status:help-wanted",
-      "area:cil-interop",
-      "area:compiler",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-08-24T00:31:50Z",
-    "updatedAt": "2026-08-24T00:31:50Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1012 in ForNeVeR/Cesium: Enum types should be exported via the assembly metadata",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-30T20:12:57.007Z"
   },
   {
     "id": "I_kwDOM35b6M8AAAABO24R1Q",
@@ -2132,35 +2262,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-30T10:51:13.912Z"
-  },
-  {
-    "id": "I_kwDOT7D7kc8AAAABO18rYQ",
-    "number": 16,
-    "title": "[Feature] 画廊支持收藏图片 / Favorites",
-    "url": "https://github.com/shanliuling/dsh-image-gen/issues/16",
-    "repo": "shanliuling/dsh-image-gen",
-    "repoUrl": "https://github.com/shanliuling/dsh-image-gen",
-    "stars": 279,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-30T08:08:51Z",
-    "updatedAt": "2026-08-30T08:08:51Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #16 in shanliuling/dsh-image-gen: [Feature] 画廊支持收藏图片 / Favorites",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-30T10:51:08.942Z"
   },
   {
     "id": "I_kwDOT7D7kc8AAAABO18xMQ",
@@ -2673,5 +2774,38 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-27T20:18:33.930Z"
+  },
+  {
+    "id": "I_kwDORtsRpM8AAAABPNolag",
+    "number": 5061,
+    "title": "conformance vectors: data and endpoints — what was read, where it went",
+    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/5061",
+    "repo": "sipyourdrink-ltd/bernstein",
+    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
+    "stars": 1057,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "size/s",
+      "P1",
+      "testing",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-01T19:24:26Z",
+    "updatedAt": "2026-09-01T19:24:26Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/bernstein/core/orchestration/orchestrator.py",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "src/bernstein/core/orchestration/orchestrator.py",
+      "src/bernstein/core/lineage/spine.py"
+    ],
+    "summary": "Fix issue #5061 in sipyourdrink-ltd/bernstein: conformance vectors: data and endpoints — what was read, where it went",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-01T20:16:00.713Z"
   }
 ]
