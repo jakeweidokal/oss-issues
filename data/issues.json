@@ -1,5 +1,432 @@
 [
   {
+    "id": "I_kwDOOwsln88AAAABPvgEgQ",
+    "number": 29773,
+    "title": "[Good First Issue] 🏯 Add new Learner Mistake 18 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29773",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3317,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-04T18:01:00Z",
+    "updatedAt": "2026-09-04T18:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #29773 in lingdojo/kana-dojo: [Good First Issue] 🏯 Add new Learner Mistake 18 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:18.841Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPv1Lbw",
+    "number": 29774,
+    "title": "[Good First Issue] 🐡 Add new Wallpaper URL #4 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29774",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3317,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-04T18:37:32Z",
+    "updatedAt": "2026-09-04T18:37:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-wallpaper-urls.json"
+    ],
+    "summary": "Fix issue #29774 in lingdojo/kana-dojo: [Good First Issue] 🐡 Add new Wallpaper URL #4 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:17.568Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABPv1PDg",
+    "number": 407,
+    "title": "Eight of the nine refusals in OpenAICompatibleExecution are untested, including both bool-is-an-int guards",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/407",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 235,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-04T18:37:38Z",
+    "updatedAt": "2026-09-04T18:37:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_build_ai_vlm_checks.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/test_build_ai_vlm_checks.py",
+      "src/hflow/build_ai_vlm_checks.py",
+      "tests/test_catalog_curation.py"
+    ],
+    "summary": "Fix issue #407 in Hebbian-Robotics/hflow: Eight of the nine refusals in OpenAICompatibleExecution are untested, including both bool-is-an-int guards",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:16.252Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABPv2iJw",
+    "number": 408,
+    "title": "The native overlay manifest parse stage refuses four things and none of them are tested",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/408",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 235,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-04T18:40:09Z",
+    "updatedAt": "2026-09-04T18:40:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_packaging.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/test_packaging.py",
+      "src/hflow/packaging.py"
+    ],
+    "summary": "Fix issue #408 in Hebbian-Robotics/hflow: The native overlay manifest parse stage refuses four things and none of them are tested",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:15.037Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABPv21Vw",
+    "number": 409,
+    "title": "FORMAT.md documents five episode/v1 keys; the LeRobot importer writes eleven, and five of the undocumented ones gate import resume",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/409",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 235,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-04T18:40:42Z",
+    "updatedAt": "2026-09-04T18:40:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #409 in Hebbian-Robotics/hflow: FORMAT.md documents five episode/v1 keys; the LeRobot importer writes eleven, and five of the undocumented ones gate import resume",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:13.747Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPwBbBw",
+    "number": 29775,
+    "title": "[Good First Issue] 🎴 Add new Community Note Line #2 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29775",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3317,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-04T19:01:02Z",
+    "updatedAt": "2026-09-04T19:01:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #29775 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Community Note Line #2 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:12.527Z"
+  },
+  {
+    "id": "I_kwDONO81088AAAABPwFJWg",
+    "number": 2386,
+    "title": "Autonomous Agents, Unite!",
+    "url": "https://github.com/microsoft/markitdown/issues/2386",
+    "repo": "microsoft/markitdown",
+    "repoUrl": "https://github.com/microsoft/markitdown",
+    "stars": 178147,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-04T19:08:05Z",
+    "updatedAt": "2026-09-04T19:53:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2386 in microsoft/markitdown: Autonomous Agents, Unite!",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:11.191Z"
+  },
+  {
+    "id": "I_kwDOP0125M8AAAABPwHxLw",
+    "number": 990,
+    "title": "Bug: Mobile game details sheet auto-focuses notes textarea, opening keyboard",
+    "url": "https://github.com/Doezer/Questarr/issues/990",
+    "repo": "Doezer/Questarr",
+    "repoUrl": "https://github.com/Doezer/Questarr",
+    "stars": 608,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "priority:low",
+      "area:ui",
+      "platform:ios"
+    ],
+    "createdAt": "2026-09-04T19:13:03Z",
+    "updatedAt": "2026-09-04T19:14:00Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test client/src/components/GameDetailsModal.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "client/src/components/GameDetailsModal.tsx",
+      "client/src/components/ui/textarea.tsx"
+    ],
+    "summary": "Fix issue #990 in Doezer/Questarr: Bug: Mobile game details sheet auto-focuses notes textarea, opening keyboard",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:10.608Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABPwUQ7A",
+    "number": 29776,
+    "title": "[Good First Issue] 🍤 Add new Theme: Hanabi Festival - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29776",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3317,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-04T19:37:31Z",
+    "updatedAt": "2026-09-04T19:37:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #29776 in lingdojo/kana-dojo: [Good First Issue] 🍤 Add new Theme: Hanabi Festival - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:09.376Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABPwXDeg",
+    "number": 81,
+    "title": "GNSS TF validation checks gnss_link even when the driver publishes a different frame",
+    "url": "https://github.com/manankharwar/fusioncore/issues/81",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 341,
+    "language": "C++",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-04T19:42:38Z",
+    "updatedAt": "2026-09-04T19:42:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #81 in manankharwar/fusioncore: GNSS TF validation checks gnss_link even when the driver publishes a different frame",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:07.968Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABPwbGaw",
+    "number": 82,
+    "title": "Magnetometer has two rejection gates and reports neither",
+    "url": "https://github.com/manankharwar/fusioncore/issues/82",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 341,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-04T19:49:59Z",
+    "updatedAt": "2026-09-04T19:49:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "fusioncore_core/src/fusioncore.cpp"
+    ],
+    "summary": "Fix issue #82 in manankharwar/fusioncore: Magnetometer has two rejection gates and reports neither",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:07.410Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABPwbSKg",
+    "number": 83,
+    "title": "Nothing checks that shipped config YAMLs only use parameters the node declares",
+    "url": "https://github.com/manankharwar/fusioncore/issues/83",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 341,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-04T19:50:21Z",
+    "updatedAt": "2026-09-04T19:50:21Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "fusioncore_gazebo/launch/fusioncore_demo.launch.py",
+      "fusioncore_gazebo/launch/fusioncore_gazebo.launch.py",
+      "fusioncore_ros/launch/fusioncore.launch.py"
+    ],
+    "summary": "Fix issue #83 in manankharwar/fusioncore: Nothing checks that shipped config YAMLs only use parameters the node declares",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:06.874Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABPwbcKg",
+    "number": 84,
+    "title": "tools/nis_from_bag.py: add --json so the numbers can be scripted",
+    "url": "https://github.com/manankharwar/fusioncore/issues/84",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 341,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-04T19:50:41Z",
+    "updatedAt": "2026-09-04T19:50:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tools/nis_from_bag.py"
+    ],
+    "summary": "Fix issue #84 in manankharwar/fusioncore: tools/nis_from_bag.py: add --json so the numbers can be scripted",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:06.159Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABPwbl1g",
+    "number": 85,
+    "title": "CI: set fail-fast false so one flaky distro does not cancel the other",
+    "url": "https://github.com/manankharwar/fusioncore/issues/85",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 341,
+    "language": "C++",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-04T19:51:00Z",
+    "updatedAt": "2026-09-04T19:51:00Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/ci.yml"
+    ],
+    "summary": "Fix issue #85 in manankharwar/fusioncore: CI: set fail-fast false so one flaky distro does not cancel the other",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:05.598Z"
+  },
+  {
     "id": "I_kwDOQhu3s88AAAABPeH_uA",
     "number": 3358,
     "title": "Configurable network when act as Wifi AP",
@@ -154,35 +581,6 @@
     "discoveredAt": "2026-09-04T15:19:59.246Z"
   },
   {
-    "id": "I_kwDOT8qp7s8AAAABPrognw",
-    "number": 398,
-    "title": "Development setup omits the C compiler required by the default test suite",
-    "url": "https://github.com/Hebbian-Robotics/hflow/issues/398",
-    "repo": "Hebbian-Robotics/hflow",
-    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
-    "stars": 232,
-    "language": "Python",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-04T11:09:41Z",
-    "updatedAt": "2026-09-04T14:13:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/test_packaging.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/test_packaging.py"
-    ],
-    "summary": "Fix issue #398 in Hebbian-Robotics/hflow: Development setup omits the C compiler required by the default test suite",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-04T15:19:57.090Z"
-  },
-  {
     "id": "I_kwDOQjabb88AAAABPrzp8w",
     "number": 884,
     "title": "Write down the JSON library policy and fix the drift it already caused",
@@ -210,34 +608,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-04T15:19:55.111Z"
-  },
-  {
-    "id": "I_kwDOAB848M8AAAABPr5PTA",
-    "number": 20262,
-    "title": "Include the request number on the requests table",
-    "url": "https://github.com/openSUSE/open-build-service/issues/20262",
-    "repo": "openSUSE/open-build-service",
-    "repoUrl": "https://github.com/openSUSE/open-build-service",
-    "stars": 1072,
-    "language": "Ruby",
-    "labels": [
-      "Feature",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-04T11:40:35Z",
-    "updatedAt": "2026-09-04T13:01:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #20262 in openSUSE/open-build-service: Include the request number on the requests table",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-04T15:19:52.753Z"
   },
   {
     "id": "I_kwDOIesXwc8AAAABPsVaJQ",
@@ -301,34 +671,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-04T15:19:47.313Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABPs_zWg",
-    "number": 554,
-    "title": "Pin LF for every text file in .gitattributes",
-    "url": "https://github.com/libredb/libredb-studio/issues/554",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 402,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-04T13:39:43Z",
-    "updatedAt": "2026-09-04T15:14:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/lib/distribution/channels.generated.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/lib/distribution/channels.generated.ts"
-    ],
-    "summary": "Fix issue #554 in libredb/libredb-studio: Pin LF for every text file in .gitattributes",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-04T15:19:45.041Z"
   },
   {
     "id": "I_kwDOLyQ2SM8AAAABPtsiWg",
@@ -419,33 +761,6 @@
     "discoveredAt": "2026-09-04T15:19:38.270Z"
   },
   {
-    "id": "I_kwDOSb2ykc8AAAABPt343w",
-    "number": 474,
-    "title": "feat(awg): add awg into idn map in discover tool",
-    "url": "https://github.com/nominal-io/instro/issues/474",
-    "repo": "nominal-io/instro",
-    "repoUrl": "https://github.com/nominal-io/instro",
-    "stars": 665,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-04T15:04:10Z",
-    "updatedAt": "2026-09-04T15:04:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #474 in nominal-io/instro: feat(awg): add awg into idn map in discover tool",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-04T15:19:35.939Z"
-  },
-  {
     "id": "I_kwDOQuAx5c8AAAABPpA9mA",
     "number": 545,
     "title": "Document the bundled Node.js runtime version and provenance the SBOM misses",
@@ -475,40 +790,6 @@
     "discoveredAt": "2026-09-04T10:05:54.349Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABPqkPNg",
-    "number": 29745,
-    "title": "[Good First Issue] 🍚 Add new False Friend Pair 102 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29745",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3313,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-04T09:01:06Z",
-    "updatedAt": "2026-09-04T09:01:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #29745 in lingdojo/kana-dojo: [Good First Issue] 🍚 Add new False Friend Pair 102 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-04T10:05:12.345Z"
-  },
-  {
     "id": "I_kwDOFkvOnM8AAAABPqzlvw",
     "number": 32,
     "title": "[Bug]: 【ARouter】新增路由未构建",
@@ -535,40 +816,6 @@
     "maintainerTurnaroundDays": 2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-04T10:05:10.855Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABPq3KWA",
-    "number": 29747,
-    "title": "[Good First Issue] 🎋 Add new Etiquette Tip 32 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29747",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3313,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-04T09:37:39Z",
-    "updatedAt": "2026-09-04T09:37:44Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #29747 in lingdojo/kana-dojo: [Good First Issue] 🎋 Add new Etiquette Tip 32 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-04T10:05:06.599Z"
   },
   {
     "id": "I_kwDOUIZiGc8AAAABPmeXSQ",
@@ -627,35 +874,6 @@
     "discoveredAt": "2026-09-03T20:16:22.892Z"
   },
   {
-    "id": "I_kwDOEw7g688AAAABPkiP-w",
-    "number": 38213,
-    "title": "[es] Sincronizar Web/HTML/Reference/Elements/pre",
-    "url": "https://github.com/mdn/translated-content/issues/38213",
-    "repo": "mdn/translated-content",
-    "repoUrl": "https://github.com/mdn/translated-content",
-    "stars": 2027,
-    "language": "Markdown",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "l10n-es"
-    ],
-    "createdAt": "2026-09-03T18:09:57Z",
-    "updatedAt": "2026-09-03T18:09:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #38213 in mdn/translated-content: [es] Sincronizar Web/HTML/Reference/Elements/pre",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-03T20:16:01.073Z"
-  },
-  {
     "id": "I_kwDOEw7g688AAAABPkiRIA",
     "number": 38214,
     "title": "[es] Sincronizar Web/CSS/Reference/Values/basic-shape",
@@ -683,64 +901,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-03T20:15:36.537Z"
-  },
-  {
-    "id": "I_kwDOEw7g688AAAABPkiSag",
-    "number": 38215,
-    "title": "[es] Sincronizar Web/CSS/Reference/Properties/-webkit-text-stroke-width",
-    "url": "https://github.com/mdn/translated-content/issues/38215",
-    "repo": "mdn/translated-content",
-    "repoUrl": "https://github.com/mdn/translated-content",
-    "stars": 2027,
-    "language": "Markdown",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "l10n-es"
-    ],
-    "createdAt": "2026-09-03T18:10:00Z",
-    "updatedAt": "2026-09-03T18:10:00Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #38215 in mdn/translated-content: [es] Sincronizar Web/CSS/Reference/Properties/-webkit-text-stroke-width",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-03T20:15:12.751Z"
-  },
-  {
-    "id": "I_kwDOEw7g688AAAABPkiTbA",
-    "number": 38216,
-    "title": "[es] Sincronizar MDN/Community/Our_repositories",
-    "url": "https://github.com/mdn/translated-content/issues/38216",
-    "repo": "mdn/translated-content",
-    "repoUrl": "https://github.com/mdn/translated-content",
-    "stars": 2027,
-    "language": "Markdown",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "l10n-es"
-    ],
-    "createdAt": "2026-09-03T18:10:02Z",
-    "updatedAt": "2026-09-03T18:10:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #38216 in mdn/translated-content: [es] Sincronizar MDN/Community/Our_repositories",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-03T20:14:49.821Z"
   },
   {
     "id": "I_kwDORponss8AAAABPlL3kg",
@@ -3088,6 +3248,35 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-27T20:19:23.970Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABPvbowg",
+    "number": 405,
+    "title": "Eight LeRobot importer metadata refusals have no test, including the pagination loop guards",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/405",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 235,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-04T17:52:57Z",
+    "updatedAt": "2026-09-04T19:46:08Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_lerobot_converter.py",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "tests/test_lerobot_converter.py"
+    ],
+    "summary": "Fix issue #405 in Hebbian-Robotics/hflow: Eight LeRobot importer metadata refusals have no test, including the pagination loop guards",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-04T19:59:19.444Z"
   },
   {
     "id": "I_kwDORponss8AAAABPlMBnQ",
