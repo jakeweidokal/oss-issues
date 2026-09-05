@@ -1,5 +1,34 @@
 [
   {
+    "id": "I_kwDOSSCSZs8AAAABP30eRw",
+    "number": 116,
+    "title": "Tray config rejects flags some sinks require, and --wfd-aosp-pmt-pid is undocumented",
+    "url": "https://github.com/IlyaP358/fluxcast/issues/116",
+    "repo": "IlyaP358/fluxcast",
+    "repoUrl": "https://github.com/IlyaP358/fluxcast",
+    "stars": 346,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-05T18:39:06Z",
+    "updatedAt": "2026-09-05T18:39:06Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_tray_config.py",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "src/ui/tray_config.py"
+    ],
+    "summary": "Fix issue #116 in IlyaP358/fluxcast: Tray config rejects flags some sinks require, and --wfd-aosp-pmt-pid is undocumented",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:39:52.545Z"
+  },
+  {
     "id": "I_kwDOCKucfc8AAAABPzkSMw",
     "number": 8318,
     "title": "Inline code containing a backtick is corrupted by serialize()",
@@ -28,6 +57,461 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-05T09:35:35.628Z"
+  },
+  {
+    "id": "I_kwDOSR1Zd88AAAABP2hM3w",
+    "number": 62,
+    "title": "[Feature/UX] Show in-player notification/toast when fetching Ytdlp videos instead of generic \"Buffering\"",
+    "url": "https://github.com/YusufB5/ASCILINE/issues/62",
+    "repo": "YusufB5/ASCILINE",
+    "repoUrl": "https://github.com/YusufB5/ASCILINE",
+    "stars": 2713,
+    "language": "JavaScript",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-05T14:56:39Z",
+    "updatedAt": "2026-09-05T14:56:48Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test test/test_ytdl.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "ytdl.py",
+      "stream_server.py",
+      "app.js"
+    ],
+    "summary": "Fix issue #62 in YusufB5/ASCILINE: [Feature/UX] Show in-player notification/toast when fetching Ytdlp videos instead of generic \"Buffering\"",
+    "maintainerTurnaroundDays": 0.5,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:40:12.924Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP2i1rA",
+    "number": 29824,
+    "title": "[Good First Issue] 🍵 Add new Etiquette Tip 39 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29824",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-05T15:00:54Z",
+    "updatedAt": "2026-09-05T15:00:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-cultural-etiquette.json"
+    ],
+    "summary": "Fix issue #29824 in lingdojo/kana-dojo: [Good First Issue] 🍵 Add new Etiquette Tip 39 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:40:12.531Z"
+  },
+  {
+    "id": "I_kwDOMOe1_88AAAABP2nHrA",
+    "number": 184,
+    "title": "chore(lint): pay down the size and complexity baseline",
+    "url": "https://github.com/xberg-io/tree-sitter-language-pack/issues/184",
+    "repo": "xberg-io/tree-sitter-language-pack",
+    "repoUrl": "https://github.com/xberg-io/tree-sitter-language-pack",
+    "stars": 463,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-05T15:11:55Z",
+    "updatedAt": "2026-09-05T15:14:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test build",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "crates/ts-pack-core/build.rs",
+      "crates/ts-pack-core/src/text_splitter.rs",
+      "crates/ts-pack-cli/src/main.rs"
+    ],
+    "summary": "Fix issue #184 in xberg-io/tree-sitter-language-pack: chore(lint): pay down the size and complexity baseline",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:40:11.145Z"
+  },
+  {
+    "id": "I_kwDORwMW6c8AAAABP2nKcQ",
+    "number": 201,
+    "title": "chore(lint): pay down the size and complexity baseline",
+    "url": "https://github.com/xberg-io/liter-llm/issues/201",
+    "repo": "xberg-io/liter-llm",
+    "repoUrl": "https://github.com/xberg-io/liter-llm",
+    "stars": 253,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-05T15:12:03Z",
+    "updatedAt": "2026-09-05T15:14:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test bedrock",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "crates/liter-llm/src/provider/bedrock.rs",
+      "crates/liter-llm/src/provider/anthropic.rs",
+      "crates/liter-llm/src/provider/vertex.rs"
+    ],
+    "summary": "Fix issue #201 in xberg-io/liter-llm: chore(lint): pay down the size and complexity baseline",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:40:08.855Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP2vycA",
+    "number": 29825,
+    "title": "[Good First Issue] 🎍 Add new Example Sentence 3 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29825",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-05T15:37:26Z",
+    "updatedAt": "2026-09-05T15:37:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #29825 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new Example Sentence 3 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:40:02.092Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP3FHuw",
+    "number": 29828,
+    "title": "[Good First Issue] 🍁 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29828",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-05T16:37:31Z",
+    "updatedAt": "2026-09-05T16:37:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-wallpaper-urls.json"
+    ],
+    "summary": "Fix issue #29828 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:40:00.642Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP3OgNw",
+    "number": 29829,
+    "title": "[Good First Issue] 🏮 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29829",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-05T17:00:58Z",
+    "updatedAt": "2026-09-05T17:01:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #29829 in lingdojo/kana-dojo: [Good First Issue] 🏮 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:39:59.179Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP3dJxA",
+    "number": 29831,
+    "title": "[Good First Issue] 🎍 Add new Theme: Inkstone - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29831",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-05T17:37:31Z",
+    "updatedAt": "2026-09-05T17:37:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #29831 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new Theme: Inkstone - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:39:57.802Z"
+  },
+  {
+    "id": "I_kwDOD_Qo9M8AAAABP3h12A",
+    "number": 628,
+    "title": "Add Units support for more properties",
+    "url": "https://github.com/ClapeyronThermo/Clapeyron.jl/issues/628",
+    "repo": "ClapeyronThermo/Clapeyron.jl",
+    "repoUrl": "https://github.com/ClapeyronThermo/Clapeyron.jl",
+    "stars": 292,
+    "language": "Julia",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "method improvements"
+    ],
+    "createdAt": "2026-09-05T17:48:22Z",
+    "updatedAt": "2026-09-05T17:48:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #628 in ClapeyronThermo/Clapeyron.jl: Add Units support for more properties",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-05T19:39:56.408Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP3mlrA",
+    "number": 29832,
+    "title": "[Good First Issue] 🎎 Add new Japan Fact 134 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29832",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-05T18:01:01Z",
+    "updatedAt": "2026-09-05T18:01:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #29832 in lingdojo/kana-dojo: [Good First Issue] 🎎 Add new Japan Fact 134 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:39:55.311Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP3z7lA",
+    "number": 29834,
+    "title": "[Good First Issue] 🌸 Add new Trivia Question 18 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29834",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-05T18:37:34Z",
+    "updatedAt": "2026-09-05T18:37:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-trivia-medium.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-trivia-medium.json"
+    ],
+    "summary": "Fix issue #29834 in lingdojo/kana-dojo: [Good First Issue] 🌸 Add new Trivia Question 18 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:39:53.933Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP38Y1Q",
+    "number": 29835,
+    "title": "[Good First Issue] 🏮 Add new Grammar Point 52 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29835",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-05T19:00:59Z",
+    "updatedAt": "2026-09-05T19:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-grammar.json"
+    ],
+    "summary": "Fix issue #29835 in lingdojo/kana-dojo: [Good First Issue] 🏮 Add new Grammar Point 52 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:39:52.128Z"
+  },
+  {
+    "id": "I_kwDOSAKw_c8AAAABP38m6A",
+    "number": 2417,
+    "title": "No way to monitor or unmonitor a book from the book page",
+    "url": "https://github.com/vavallee/bindery/issues/2417",
+    "repo": "vavallee/bindery",
+    "repoUrl": "https://github.com/vavallee/bindery",
+    "stars": 443,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-05T19:01:32Z",
+    "updatedAt": "2026-09-05T19:01:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./web/src/pages",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "web/src/pages/WantedPage.tsx",
+      "internal/api/books.go",
+      "web/src/pages/BookDetailPage.tsx"
+    ],
+    "summary": "Fix issue #2417 in vavallee/bindery: No way to monitor or unmonitor a book from the book page",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:39:50.764Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP4IkDA",
+    "number": 29836,
+    "title": "[Good First Issue] 🍥 Add new Anime Quote 17 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29836",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-05T19:37:36Z",
+    "updatedAt": "2026-09-05T19:37:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #29836 in lingdojo/kana-dojo: [Good First Issue] 🍥 Add new Anime Quote 17 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T19:39:49.630Z"
   },
   {
     "id": "I_kwDOK5M3Is8AAAABP10mVA",
@@ -158,36 +642,6 @@
     "discoveredAt": "2026-09-05T14:08:22.934Z"
   },
   {
-    "id": "I_kwDOH2s9Qc8AAAABP10sUg",
-    "number": 763,
-    "title": "Published resources displayed as documents instead of preview",
-    "url": "https://github.com/Smaug6739/Alexandrie/issues/763",
-    "repo": "Smaug6739/Alexandrie",
-    "repoUrl": "https://github.com/Smaug6739/Alexandrie",
-    "stars": 2710,
-    "language": "Vue",
-    "labels": [
-      "bug",
-      "good first issue",
-      "frontend",
-      "interface"
-    ],
-    "createdAt": "2026-09-05T12:41:35Z",
-    "updatedAt": "2026-09-05T12:41:43Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #763 in Smaug6739/Alexandrie: Published resources displayed as documents instead of preview",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T14:08:17.624Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABP10__w",
     "number": 10069,
     "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-store",
@@ -314,101 +768,6 @@
     "discoveredAt": "2026-09-05T14:07:51.741Z"
   },
   {
-    "id": "I_kwDOQuAx5c8AAAABP13L0w",
-    "number": 570,
-    "title": "CONTRIBUTING prerequisites omit Helm, which 166 tests in bun run test need",
-    "url": "https://github.com/libredb/libredb-studio/issues/570",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 406,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-05T12:49:11Z",
-    "updatedAt": "2026-09-05T12:49:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test .github/workflows/ci.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".github/workflows/ci.yml",
-      "tests/unit/gitattributes.test.ts"
-    ],
-    "summary": "Fix issue #570 in libredb/libredb-studio: CONTRIBUTING prerequisites omit Helm, which 166 tests in bun run test need",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T14:07:50.778Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP2FoEA",
-    "number": 29820,
-    "title": "[Good First Issue] 🍛 Add new Japanese Idiom 88 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29820",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3324,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-05T13:37:29Z",
-    "updatedAt": "2026-09-05T13:37:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #29820 in lingdojo/kana-dojo: [Good First Issue] 🍛 Add new Japanese Idiom 88 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T14:07:49.021Z"
-  },
-  {
-    "id": "I_kwDOOiROKM8AAAABP2L4AQ",
-    "number": 337,
-    "title": "Support a global project config in ~/.gito",
-    "url": "https://github.com/Nayjest/Gito/issues/337",
-    "repo": "Nayjest/Gito",
-    "repoUrl": "https://github.com/Nayjest/Gito",
-    "stars": 432,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "aspect: usability"
-    ],
-    "createdAt": "2026-09-05T13:56:59Z",
-    "updatedAt": "2026-09-05T13:56:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest gito/constants.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "gito/constants.py",
-      "gito/project_config.py"
-    ],
-    "summary": "Fix issue #337 in Nayjest/Gito: Support a global project config in ~/.gito",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T14:07:47.303Z"
-  },
-  {
     "id": "I_kwDOA-ie1M8AAAABP2MR4A",
     "number": 986,
     "title": "Schema validation errors are not logged for IPC event handlers",
@@ -497,74 +856,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-05T09:35:32.608Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP0LTRw",
-    "number": 29801,
-    "title": "[Good First Issue] 🎑 Add new Dialect Entry 33 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29801",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3322,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-05T07:01:02Z",
-    "updatedAt": "2026-09-05T07:01:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #29801 in lingdojo/kana-dojo: [Good First Issue] 🎑 Add new Dialect Entry 33 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T09:35:15.731Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP0bipw",
-    "number": 29803,
-    "title": "[Good First Issue] 🍛 Add new Etiquette Tip 20 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29803",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3322,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-05T08:01:02Z",
-    "updatedAt": "2026-09-05T08:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #29803 in lingdojo/kana-dojo: [Good First Issue] 🍛 Add new Etiquette Tip 20 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T09:35:14.074Z"
   },
   {
     "id": "I_kwDOQuAx5c8AAAABP0iP_Q",
@@ -744,40 +1035,6 @@
     "discoveredAt": "2026-09-05T09:35:00.255Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABP0up1w",
-    "number": 29807,
-    "title": "[Good First Issue] 🗻 Add new Wallpaper URL #1 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29807",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3322,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-05T09:00:58Z",
-    "updatedAt": "2026-09-05T09:01:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-wallpaper-urls.json"
-    ],
-    "summary": "Fix issue #29807 in lingdojo/kana-dojo: [Good First Issue] 🗻 Add new Wallpaper URL #1 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T09:34:57.507Z"
-  },
-  {
     "id": "I_kwDOB11tyM8AAAABPyQ04w",
     "number": 4314,
     "title": "🐞Backups are not working",
@@ -861,34 +1118,6 @@
     "maintainerTurnaroundDays": 0.8,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-04T19:59:07.968Z"
-  },
-  {
-    "id": "I_kwDORponss8AAAABPwbGaw",
-    "number": 82,
-    "title": "Magnetometer has two rejection gates and reports neither",
-    "url": "https://github.com/manankharwar/fusioncore/issues/82",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 341,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-04T19:49:59Z",
-    "updatedAt": "2026-09-04T19:49:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "fusioncore_core/src/fusioncore.cpp"
-    ],
-    "summary": "Fix issue #82 in manankharwar/fusioncore: Magnetometer has two rejection gates and reports neither",
-    "maintainerTurnaroundDays": 0.8,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-04T19:59:07.410Z"
   },
   {
     "id": "I_kwDORponss8AAAABPwbSKg",
@@ -3160,36 +3389,6 @@
     "discoveredAt": "2026-08-29T20:06:12.423Z"
   },
   {
-    "id": "I_kwDOAf6AbM8AAAABOyLTHA",
-    "number": 491,
-    "title": "add full feature list to `./README.md`",
-    "url": "https://github.com/servo/rust-smallvec/issues/491",
-    "repo": "servo/rust-smallvec",
-    "repoUrl": "https://github.com/servo/rust-smallvec",
-    "stars": 1698,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "p-medium",
-      "r-docs"
-    ],
-    "createdAt": "2026-08-29T14:27:41Z",
-    "updatedAt": "2026-08-29T14:28:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test lib",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/lib.rs"
-    ],
-    "summary": "Fix issue #491 in servo/rust-smallvec: add full feature list to `./README.md`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "v2",
-    "discoveredAt": "2026-08-29T15:52:20.675Z"
-  },
-  {
     "id": "I_kwDON7wA2c8AAAABOxHhwg",
     "number": 707,
     "title": "[Bug]: \"Failed to retrieve frontmost application metadata\" error on Linux",
@@ -3399,39 +3598,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-27T20:19:23.970Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABP11EAw",
-    "number": 10072,
-    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-admin-tui",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10072",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1509,
-    "language": "Rust",
-    "labels": [
-      "documentation📝",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-05T12:42:38Z",
-    "updatedAt": "2026-09-05T12:48:18Z",
-    "blastRadius": "High",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test operations",
-    "solvabilityScore": 4,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/admin_facade/operations.rs",
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/admin_facade/tests.rs",
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/commands.rs"
-    ],
-    "summary": "Fix issue #10072 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-admin-tui",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T14:07:57.982Z"
   },
   {
     "id": "I_kwDORponss8AAAABPlMBnQ",
