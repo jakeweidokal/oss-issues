@@ -30,13 +30,327 @@
     "discoveredAt": "2026-09-05T09:35:35.628Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABPzmTDg",
-    "number": 29797,
-    "title": "[Good First Issue] 🍚 Add new Grammar Point 116 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29797",
+    "id": "I_kwDOK5M3Is8AAAABP10mVA",
+    "number": 10057,
+    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-filter",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10057",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1509,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-05T12:41:20Z",
+    "updatedAt": "2026-09-05T12:47:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test sql_filter_benchmark",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-filter/benches/sql_filter_benchmark.rs",
+      "rocketmq-filter/src/expression/empty_evaluation_context.rs"
+    ],
+    "summary": "Fix issue #10057 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-filter",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:08:39.455Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABP10nxA",
+    "number": 10058,
+    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-model",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10058",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1509,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-05T12:41:24Z",
+    "updatedAt": "2026-09-05T12:47:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test subscription_group_attributes",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-model/src/common/attribute/subscription_group_attributes.rs",
+      "rocketmq-model/src/common/attribute/topic_attributes.rs",
+      "rocketmq-model/src/common/boundary_type.rs"
+    ],
+    "summary": "Fix issue #10058 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-model",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:08:34.243Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABP10psg",
+    "number": 10059,
+    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-namesrv",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10059",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1509,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-05T12:41:28Z",
+    "updatedAt": "2026-09-05T12:47:54Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test broker_addr_info",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-namesrv/src/route_info/broker_addr_info.rs"
+    ],
+    "summary": "Fix issue #10059 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-namesrv",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:08:28.998Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABP10roQ",
+    "number": 10060,
+    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-observability",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10060",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1509,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-05T12:41:33Z",
+    "updatedAt": "2026-09-05T12:47:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test broker_metrics",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-observability/examples/broker_metrics.rs",
+      "rocketmq-observability/tests/config_resolution.rs"
+    ],
+    "summary": "Fix issue #10060 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-observability",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:08:22.934Z"
+  },
+  {
+    "id": "I_kwDOH2s9Qc8AAAABP10sUg",
+    "number": 763,
+    "title": "Published resources displayed as documents instead of preview",
+    "url": "https://github.com/Smaug6739/Alexandrie/issues/763",
+    "repo": "Smaug6739/Alexandrie",
+    "repoUrl": "https://github.com/Smaug6739/Alexandrie",
+    "stars": 2710,
+    "language": "Vue",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend",
+      "interface"
+    ],
+    "createdAt": "2026-09-05T12:41:35Z",
+    "updatedAt": "2026-09-05T12:41:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #763 in Smaug6739/Alexandrie: Published resources displayed as documents instead of preview",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:08:17.624Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABP10__w",
+    "number": 10069,
+    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-store",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10069",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1509,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Moderate"
+    ],
+    "createdAt": "2026-09-05T12:42:27Z",
+    "updatedAt": "2026-09-05T12:47:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test root_context_is_rejected",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-store/tests/ui/store_context/root_context_is_rejected.rs"
+    ],
+    "summary": "Fix issue #10069 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-store",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:08:14.164Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABP11BvQ",
+    "number": 10070,
+    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-admin-cli",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10070",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1509,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-05T12:42:31Z",
+    "updatedAt": "2026-09-05T12:48:16Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test update_controller_config_sub_command",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-cli/src/commands/controller/update_controller_config_sub_command.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-cli/tests/cli_help.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-cli/tests/java_parity_inventory.rs"
+    ],
+    "summary": "Fix issue #10070 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-admin-cli",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:08:08.925Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABP11C7Q",
+    "number": 10071,
+    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-admin-core",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10071",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1509,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-05T12:42:35Z",
+    "updatedAt": "2026-09-05T12:48:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test errors",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/client_adapter/services/errors.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/client_adapter/services/export_data.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/client_adapter/services/lite.rs"
+    ],
+    "summary": "Fix issue #10071 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-admin-core",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:08:03.613Z"
+  },
+  {
+    "id": "I_kwDONYSyns8AAAABP13EPA",
+    "number": 57,
+    "title": "feat/Support native addons (.node files) in Node.js SEA binaries",
+    "url": "https://github.com/goatplatform/goatdb/issues/57",
+    "repo": "goatplatform/goatdb",
+    "repoUrl": "https://github.com/goatplatform/goatdb",
+    "stars": 575,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-05T12:48:46Z",
+    "updatedAt": "2026-09-05T12:49:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test cli/compile.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "cli/compile.ts",
+      "cli/templates/node/server/server-sea.ts"
+    ],
+    "summary": "Fix issue #57 in goatplatform/goatdb: feat/Support native addons (.node files) in Node.js SEA binaries",
+    "maintainerTurnaroundDays": 2.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:07:51.741Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABP13L0w",
+    "number": 570,
+    "title": "CONTRIBUTING prerequisites omit Helm, which 166 tests in bun run test need",
+    "url": "https://github.com/libredb/libredb-studio/issues/570",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 406,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-05T12:49:11Z",
+    "updatedAt": "2026-09-05T12:49:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test .github/workflows/ci.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/ci.yml",
+      "tests/unit/gitattributes.test.ts"
+    ],
+    "summary": "Fix issue #570 in libredb/libredb-studio: CONTRIBUTING prerequisites omit Helm, which 166 tests in bun run test need",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:07:50.778Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP2FoEA",
+    "number": 29820,
+    "title": "[Good First Issue] 🍛 Add new Japanese Idiom 88 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29820",
     "repo": "lingdojo/kana-dojo",
     "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3322,
+    "stars": 3324,
     "language": "TypeScript",
     "labels": [
       "enhancement",
@@ -48,20 +362,114 @@
       "up-for-grabs",
       "first-timers-only"
     ],
-    "createdAt": "2026-09-05T05:01:00Z",
-    "updatedAt": "2026-09-05T05:01:05Z",
+    "createdAt": "2026-09-05T13:37:29Z",
+    "updatedAt": "2026-09-05T13:37:33Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
     "solvabilityScore": 6,
     "keyFiles": [
-      "community/content/japanese-grammar.json"
+      "community/content/japanese-idioms.json"
     ],
-    "summary": "Fix issue #29797 in lingdojo/kana-dojo: [Good First Issue] 🍚 Add new Grammar Point 116 - Beginner-Friendly Open-source Contribution",
+    "summary": "Fix issue #29820 in lingdojo/kana-dojo: [Good First Issue] 🍛 Add new Japanese Idiom 88 - Beginner-Friendly Open-source Contribution",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T09:35:34.245Z"
+    "discoveredAt": "2026-09-05T14:07:49.021Z"
+  },
+  {
+    "id": "I_kwDOOiROKM8AAAABP2L4AQ",
+    "number": 337,
+    "title": "Support a global project config in ~/.gito",
+    "url": "https://github.com/Nayjest/Gito/issues/337",
+    "repo": "Nayjest/Gito",
+    "repoUrl": "https://github.com/Nayjest/Gito",
+    "stars": 432,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "aspect: usability"
+    ],
+    "createdAt": "2026-09-05T13:56:59Z",
+    "updatedAt": "2026-09-05T13:56:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest gito/constants.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "gito/constants.py",
+      "gito/project_config.py"
+    ],
+    "summary": "Fix issue #337 in Nayjest/Gito: Support a global project config in ~/.gito",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:07:47.303Z"
+  },
+  {
+    "id": "I_kwDOA-ie1M8AAAABP2MR4A",
+    "number": 986,
+    "title": "Schema validation errors are not logged for IPC event handlers",
+    "url": "https://github.com/clusterio/clusterio/issues/986",
+    "repo": "clusterio/clusterio",
+    "repoUrl": "https://github.com/clusterio/clusterio",
+    "stars": 379,
+    "language": "TypeScript",
+    "labels": [
+      "Good First Issue",
+      "Impact: 3-Minor",
+      "Scope: Core"
+    ],
+    "createdAt": "2026-09-05T13:58:19Z",
+    "updatedAt": "2026-09-05T13:58:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #986 in clusterio/clusterio: Schema validation errors are not logged for IPC event handlers",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-05T14:07:46.507Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP2NKmA",
+    "number": 29822,
+    "title": "[Good First Issue] 🐉 Add new Dialect Entry 65 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29822",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3324,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-05T14:01:00Z",
+    "updatedAt": "2026-09-05T14:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #29822 in lingdojo/kana-dojo: [Good First Issue] 🐉 Add new Dialect Entry 65 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-05T14:07:45.599Z"
   },
   {
     "id": "I_kwDOSJS1hc8AAAABPzvliA",
@@ -89,74 +497,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-05T09:35:32.608Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABPzxmJg",
-    "number": 29798,
-    "title": "[Good First Issue] 🌺 Add new Anime Quote 32 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29798",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3322,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-05T05:37:27Z",
-    "updatedAt": "2026-09-05T05:37:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #29798 in lingdojo/kana-dojo: [Good First Issue] 🌺 Add new Anime Quote 32 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T09:35:19.277Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABPz5Kug",
-    "number": 29799,
-    "title": "[Good First Issue] 🧧 Add new Video Game Quote 20 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29799",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3322,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-05T06:00:59Z",
-    "updatedAt": "2026-09-05T06:01:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #29799 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Video Game Quote 20 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T09:35:17.633Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABP0LTRw",
@@ -319,37 +659,6 @@
     "discoveredAt": "2026-09-05T09:35:08.997Z"
   },
   {
-    "id": "I_kwDOQuAx5c8AAAABP0iW2w",
-    "number": 568,
-    "title": "libSQL overview reports databaseSizeBytes as 0 when the page counters could not be read, while its own test says absent",
-    "url": "https://github.com/libredb/libredb-studio/issues/568",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 405,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-05T08:22:57Z",
-    "updatedAt": "2026-09-05T08:22:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test src/lib/db/providers/sql/libsql/introspect.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/lib/db/providers/sql/libsql/introspect.ts",
-      "src/lib/db/types.ts",
-      "tests/unit/db/libsql/introspect.test.ts"
-    ],
-    "summary": "Fix issue #568 in libredb/libredb-studio: libSQL overview reports databaseSizeBytes as 0 when the page counters could not be read, while its own test says absent",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T09:35:07.137Z"
-  },
-  {
     "id": "I_kwDOEAOWAs8AAAABP0mdoA",
     "number": 6581,
     "title": "Contact Form Submission - Request - Missing Section or Solution (Platinum - Range Queries with Sweep Line)",
@@ -467,36 +776,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-05T09:34:57.507Z"
-  },
-  {
-    "id": "I_kwDOAPe-Vs8AAAABPxZUvw",
-    "number": 13234,
-    "title": "Short Answer cells missing from Edit Notebook configuration",
-    "url": "https://github.com/Submitty/Submitty/issues/13234",
-    "repo": "Submitty/Submitty",
-    "repoUrl": "https://github.com/Submitty/Submitty",
-    "stars": 787,
-    "language": "PHP",
-    "labels": [
-      "bug",
-      "good first issue",
-      "Instructor UI",
-      "Notebook / Notebook Builder"
-    ],
-    "createdAt": "2026-09-04T21:48:26Z",
-    "updatedAt": "2026-09-04T21:56:25Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #13234 in Submitty/Submitty: Short Answer cells missing from Edit Notebook configuration",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T01:44:59.532Z"
   },
   {
     "id": "I_kwDOB11tyM8AAAABPyQ04w",
@@ -783,35 +1062,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-04T15:19:55.111Z"
-  },
-  {
-    "id": "I_kwDOIesXwc8AAAABPsVaJQ",
-    "number": 1308,
-    "title": "config.toml is read and parsed three times per startup",
-    "url": "https://github.com/getfloresta/Floresta/issues/1308",
-    "repo": "getfloresta/Floresta",
-    "repoUrl": "https://github.com/getfloresta/Floresta",
-    "stars": 440,
-    "language": "Rust",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "logging"
-    ],
-    "createdAt": "2026-09-04T12:31:02Z",
-    "updatedAt": "2026-09-04T13:33:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1308 in getfloresta/Floresta: config.toml is read and parsed three times per startup",
-    "maintainerTurnaroundDays": 0.6,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-04T15:19:48.875Z"
   },
   {
     "id": "I_kwDOLyQ2SM8AAAABPtsiWg",
@@ -1119,34 +1369,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-03T15:23:54.353Z"
-  },
-  {
-    "id": "I_kwDORPXC2s8AAAABPeo75w",
-    "number": 10572,
-    "title": "[Task]: Document the WeCom (WeChat Work) channel",
-    "url": "https://github.com/zeroclaw-labs/zeroclaw/issues/10572",
-    "repo": "zeroclaw-labs/zeroclaw",
-    "repoUrl": "https://github.com/zeroclaw-labs/zeroclaw",
-    "stars": 32715,
-    "language": "Rust",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-03T07:36:44Z",
-    "updatedAt": "2026-09-03T07:36:56Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test wecom",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "crates/zeroclaw-channels/src/wecom.rs",
-      "crates/zeroclaw-config/src/schema.rs"
-    ],
-    "summary": "Fix issue #10572 in zeroclaw-labs/zeroclaw: [Task]: Document the WeCom (WeChat Work) channel",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-03T10:16:29.477Z"
   },
   {
     "id": "I_kwDOGF6Cos8AAAABPetHaw",
@@ -3179,33 +3401,37 @@
     "discoveredAt": "2026-08-27T20:19:23.970Z"
   },
   {
-    "id": "I_kwDOT8qp7s8AAAABPvbowg",
-    "number": 405,
-    "title": "Eight LeRobot importer metadata refusals have no test, including the pagination loop guards",
-    "url": "https://github.com/Hebbian-Robotics/hflow/issues/405",
-    "repo": "Hebbian-Robotics/hflow",
-    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
-    "stars": 235,
-    "language": "Python",
+    "id": "I_kwDOK5M3Is8AAAABP11EAw",
+    "number": 10072,
+    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-admin-tui",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10072",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1509,
+    "language": "Rust",
     "labels": [
-      "bug",
+      "documentation📝",
+      "help wanted",
       "good first issue",
-      "help wanted"
+      "rust",
+      "Difficulty level/Easy"
     ],
-    "createdAt": "2026-09-04T17:52:57Z",
-    "updatedAt": "2026-09-04T19:46:08Z",
+    "createdAt": "2026-09-05T12:42:38Z",
+    "updatedAt": "2026-09-05T12:48:18Z",
     "blastRadius": "High",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/test_lerobot_converter.py",
+    "quickReproCommand": "cargo test --test operations",
     "solvabilityScore": 4,
     "keyFiles": [
-      "tests/test_lerobot_converter.py"
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/admin_facade/operations.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/admin_facade/tests.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/commands.rs"
     ],
-    "summary": "Fix issue #405 in Hebbian-Robotics/hflow: Eight LeRobot importer metadata refusals have no test, including the pagination loop guards",
+    "summary": "Fix issue #10072 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-admin-tui",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-09-04T19:59:19.444Z"
+    "discoveredAt": "2026-09-05T14:07:57.982Z"
   },
   {
     "id": "I_kwDORponss8AAAABPlMBnQ",
