@@ -29,6 +29,485 @@
     "discoveredAt": "2026-09-05T19:39:52.545Z"
   },
   {
+    "id": "I_kwDOQuAx5c8AAAABP77omA",
+    "number": 595,
+    "title": "Add a Hindi README (README_hi.md), covered by the localized-README drift guard",
+    "url": "https://github.com/libredb/libredb-studio/issues/595",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 414,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-06T10:37:48Z",
+    "updatedAt": "2026-09-06T10:37:48Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test tests/unit/helm-chart-agent.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/helm-chart-agent.test.ts",
+      "tests/unit/helm-chart-auth-cookie-secure.test.ts",
+      "tests/unit/helm-chart-auth-provider.test.ts"
+    ],
+    "summary": "Fix issue #595 in libredb/libredb-studio: Add a Hindi README (README_hi.md), covered by the localized-README drift guard",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:32:11.211Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABP77pAw",
+    "number": 596,
+    "title": "Add a Korean README (README_ko.md), covered by the localized-README drift guard",
+    "url": "https://github.com/libredb/libredb-studio/issues/596",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 414,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-06T10:37:50Z",
+    "updatedAt": "2026-09-06T10:37:50Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test tests/unit/helm-chart-agent.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/helm-chart-agent.test.ts",
+      "tests/unit/helm-chart-auth-cookie-secure.test.ts",
+      "tests/unit/helm-chart-auth-provider.test.ts"
+    ],
+    "summary": "Fix issue #596 in libredb/libredb-studio: Add a Korean README (README_ko.md), covered by the localized-README drift guard",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:32:09.756Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABP7_D1w",
+    "number": 803,
+    "title": "[agent] The Vite plugin injects the HUD into Vitest browser-mode iframes, where it intercepts pointer events",
+    "url": "https://github.com/reticlehq/reticle/issues/803",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 443,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported"
+    ],
+    "createdAt": "2026-09-06T10:50:30Z",
+    "updatedAt": "2026-09-06T12:20:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/babel-plugin/src/index.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/babel-plugin/src/index.test.ts",
+      "packages/browser/src/actions/actions.auto-anchor.test.ts",
+      "packages/browser/src/actions/actions.check.test.ts"
+    ],
+    "summary": "Fix issue #803 in reticlehq/reticle: [agent] The Vite plugin injects the HUD into Vitest browser-mode iframes, where it intercepts pointer events",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:32:08.274Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABP7_IFw",
+    "number": 809,
+    "title": "[agent] serve hides the daemon's startup cause in the log, and status then blames instrumentation instead",
+    "url": "https://github.com/reticlehq/reticle/issues/809",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 443,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported"
+    ],
+    "createdAt": "2026-09-06T10:50:46Z",
+    "updatedAt": "2026-09-06T10:50:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/browser/src/dom/query.observer.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/browser/src/dom/query.observer.test.ts",
+      "packages/core/src/dev-server-registry.test.ts",
+      "packages/core/src/dev-server-registry.ts"
+    ],
+    "summary": "Fix issue #809 in reticlehq/reticle: [agent] serve hides the daemon's startup cause in the log, and status then blames instrumentation instead",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:32:06.278Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABP7_MEA",
+    "number": 814,
+    "title": "[agent] Streamlit has no served HTML template, so the script-tag setup does not map and nothing says so",
+    "url": "https://github.com/reticlehq/reticle/issues/814",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 443,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted",
+      "agent-reported"
+    ],
+    "createdAt": "2026-09-06T10:51:01Z",
+    "updatedAt": "2026-09-06T10:51:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/server/src/setup/init-runtime.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/server/src/setup/init-runtime.ts",
+      "packages/server/src/telemetry/init-telemetry.ts"
+    ],
+    "summary": "Fix issue #814 in reticlehq/reticle: [agent] Streamlit has no served HTML template, so the script-tag setup does not map and nothing says so",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:32:04.315Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP8BxsA",
+    "number": 29869,
+    "title": "[Good First Issue] 🎋 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29869",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3325,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-06T11:00:57Z",
+    "updatedAt": "2026-09-06T11:01:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-wallpaper-urls.json"
+    ],
+    "summary": "Fix issue #29869 in lingdojo/kana-dojo: [Good First Issue] 🎋 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:32:02.296Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP8LrzQ",
+    "number": 29870,
+    "title": "[Good First Issue] 🐙 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29870",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3325,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-06T11:37:33Z",
+    "updatedAt": "2026-09-06T11:37:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #29870 in lingdojo/kana-dojo: [Good First Issue] 🐙 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:32:00.937Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP8SNdQ",
+    "number": 29871,
+    "title": "[Good First Issue] 🐙 Add new Theme: Robot Anime - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29871",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3325,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-06T12:00:59Z",
+    "updatedAt": "2026-09-06T12:01:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #29871 in lingdojo/kana-dojo: [Good First Issue] 🐙 Add new Theme: Robot Anime - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:31:59.589Z"
+  },
+  {
+    "id": "I_kwDOHArV-c8AAAABP8UReQ",
+    "number": 3196,
+    "title": "e2e: nil map assignment panic and duplicated slo-controller-config setup boilerplate in test/e2e/slocontroller",
+    "url": "https://github.com/koordinator-sh/koordinator/issues/3196",
+    "repo": "koordinator-sh/koordinator",
+    "repoUrl": "https://github.com/koordinator-sh/koordinator",
+    "stars": 1750,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-06T12:08:04Z",
+    "updatedAt": "2026-09-06T12:08:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./test/e2e/slocontroller",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "test/e2e/slocontroller/batchresource.go"
+    ],
+    "summary": "Fix issue #3196 in koordinator-sh/koordinator: e2e: nil map assignment panic and duplicated slo-controller-config setup boilerplate in test/e2e/slocontroller",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:31:58.253Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP8cjdg",
+    "number": 29872,
+    "title": "[Good First Issue] 🌺 Add new Japan Fact 145 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29872",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3325,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-06T12:37:30Z",
+    "updatedAt": "2026-09-06T12:37:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #29872 in lingdojo/kana-dojo: [Good First Issue] 🌺 Add new Japan Fact 145 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:31:56.770Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP8j-tA",
+    "number": 29873,
+    "title": "[Good First Issue] 🍡 Add new Japanese Proverb 180 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29873",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3325,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-06T13:01:14Z",
+    "updatedAt": "2026-09-06T13:01:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #29873 in lingdojo/kana-dojo: [Good First Issue] 🍡 Add new Japanese Proverb 180 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:31:55.429Z"
+  },
+  {
+    "id": "I_kwDOAB0Los8AAAABP8rfOg",
+    "number": 23591,
+    "title": "Code coverage: exclude `zend_gdb.c` file from code coverage.",
+    "url": "https://github.com/php/php-src/issues/23591",
+    "repo": "php/php-src",
+    "repoUrl": "https://github.com/php/php-src",
+    "stars": 40363,
+    "language": "C",
+    "labels": [
+      "CI: Coverage",
+      "Good first issue"
+    ],
+    "createdAt": "2026-09-06T13:26:23Z",
+    "updatedAt": "2026-09-06T13:26:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #23591 in php/php-src: Code coverage: exclude `zend_gdb.c` file from code coverage.",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-06T14:31:54.080Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP8u8og",
+    "number": 29874,
+    "title": "[Good First Issue] 🗾 Add new Japanese Haiku 11 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29874",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3325,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-06T13:37:31Z",
+    "updatedAt": "2026-09-06T13:37:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-haiku.json"
+    ],
+    "summary": "Fix issue #29874 in lingdojo/kana-dojo: [Good First Issue] 🗾 Add new Japanese Haiku 11 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:31:46.595Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABP82ptw",
+    "number": 29875,
+    "title": "[Good First Issue] 🎍 Add new Trivia Question 56 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29875",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3325,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-06T14:00:58Z",
+    "updatedAt": "2026-09-06T14:01:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-trivia-easy.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-trivia-easy.json"
+    ],
+    "summary": "Fix issue #29875 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new Trivia Question 56 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-06T14:31:45.282Z"
+  },
+  {
+    "id": "I_kwDOEAOWAs8AAAABP88vLA",
+    "number": 6586,
+    "title": "Contact Form Submission - Mistake (Solution: CF - Max Median)",
+    "url": "https://github.com/cpinitiative/usaco-guide/issues/6586",
+    "repo": "cpinitiative/usaco-guide",
+    "repoUrl": "https://github.com/cpinitiative/usaco-guide",
+    "stars": 1844,
+    "language": "MDX",
+    "labels": [
+      "good first issue",
+      "content"
+    ],
+    "createdAt": "2026-09-06T14:19:33Z",
+    "updatedAt": "2026-09-06T14:19:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #6586 in cpinitiative/usaco-guide: Contact Form Submission - Mistake (Solution: CF - Max Median)",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-06T14:31:43.929Z"
+  },
+  {
     "id": "I_kwDOA9MwhM8AAAABPddjWA",
     "number": 9107,
     "title": "Fix broken CONTRIBUTING.md link for “INTRODUCTION TO CREATING INTELLIJ IDEA PLUGINS”",
@@ -55,139 +534,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-06T09:49:59.072Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP664Eg",
-    "number": 29858,
-    "title": "[Good First Issue] 🏯 Add new Theme: Morning Dew - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29858",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-06T06:37:28Z",
-    "updatedAt": "2026-09-06T06:37:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-themes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-themes.json"
-    ],
-    "summary": "Fix issue #29858 in lingdojo/kana-dojo: [Good First Issue] 🏯 Add new Theme: Morning Dew - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T09:49:56.697Z"
-  },
-  {
-    "id": "I_kwDOCVKAsc8AAAABP69SZQ",
-    "number": 11051,
-    "title": "[ENH] `BaseDeepClassifierPytorrch._instantiate_optimizer` should also allow arbitrary `str` from `torch.optim`",
-    "url": "https://github.com/sktime/sktime/issues/11051",
-    "repo": "sktime/sktime",
-    "repoUrl": "https://github.com/sktime/sktime",
-    "stars": 9992,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "module:classification",
-      "enhancement",
-      "module:base-framework"
-    ],
-    "createdAt": "2026-09-06T06:47:16Z",
-    "updatedAt": "2026-09-06T07:00:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest sktime/base/tests/test_tagaliaser.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "sktime/base/tests/test_tagaliaser.py",
-      "sktime/registry/_alias.py",
-      "sktime/registry/_alias_str.py"
-    ],
-    "summary": "Fix issue #11051 in sktime/sktime: [ENH] `BaseDeepClassifierPytorrch._instantiate_optimizer` should also allow arbitrary `str` from `torch.optim`",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T09:49:55.396Z"
-  },
-  {
-    "id": "I_kwDOAAEP6c8AAAABP6_aLA",
-    "number": 13568,
-    "title": "Convert BookPageLists partial to Jinja",
-    "url": "https://github.com/internetarchive/openlibrary/issues/13568",
-    "repo": "internetarchive/openlibrary",
-    "repoUrl": "https://github.com/internetarchive/openlibrary",
-    "stars": 6658,
-    "language": "Python",
-    "labels": [
-      "Theme: Lists",
-      "Good First Issue",
-      "Type: Subtask of Epic",
-      "Needs: Help",
-      "Lead: @RayBB"
-    ],
-    "createdAt": "2026-09-06T06:56:19Z",
-    "updatedAt": "2026-09-06T08:35:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest openlibrary/templates/lists/carousel.html",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "openlibrary/templates/lists/carousel.html",
-      "openlibrary/templates/lists/list_follow.html",
-      "openlibrary/templates/follow/follow.html"
-    ],
-    "summary": "Fix issue #13568 in internetarchive/openlibrary: Convert BookPageLists partial to Jinja",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-06T09:49:52.665Z"
-  },
-  {
-    "id": "I_kwDOAAEP6c8AAAABP6_ahw",
-    "number": 13569,
-    "title": "Convert FullTextSuggestions partial to Jinja",
-    "url": "https://github.com/internetarchive/openlibrary/issues/13569",
-    "repo": "internetarchive/openlibrary",
-    "repoUrl": "https://github.com/internetarchive/openlibrary",
-    "stars": 6658,
-    "language": "Python",
-    "labels": [
-      "Theme: Search",
-      "Good First Issue",
-      "Type: Subtask of Epic",
-      "Needs: Help",
-      "Lead: @RayBB",
-      "Needs: Response"
-    ],
-    "createdAt": "2026-09-06T06:56:21Z",
-    "updatedAt": "2026-09-06T08:35:17Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest openlibrary/macros/FulltextSearchSuggestion.html",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "openlibrary/macros/FulltextSearchSuggestion.html",
-      "openlibrary/macros/FulltextSearchSuggestionItem.html",
-      "openlibrary/macros/FulltextSuggestionSnippet.html"
-    ],
-    "summary": "Fix issue #13569 in internetarchive/openlibrary: Convert FullTextSuggestions partial to Jinja",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-06T09:49:51.321Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABP7Ah7w",
@@ -250,35 +596,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-06T09:49:48.792Z"
-  },
-  {
-    "id": "I_kwDOT-o2-c8AAAABP7MDSw",
-    "number": 142,
-    "title": "UX polish batch: countdown semantics, PT timezone, digest language, folded sidebar controls",
-    "url": "https://github.com/1692775560/dsh-Mimir-Academic-research/issues/142",
-    "repo": "1692775560/dsh-Mimir-Academic-research",
-    "repoUrl": "https://github.com/1692775560/dsh-Mimir-Academic-research",
-    "stars": 207,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-06T07:42:09Z",
-    "updatedAt": "2026-09-06T07:42:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/mimir/src/venue-deadlines.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/mimir/src/venue-deadlines.ts",
-      "packages/ui-mimir/src/client/venues-view.ts"
-    ],
-    "summary": "Fix issue #142 in 1692775560/dsh-Mimir-Academic-research: UX polish batch: countdown semantics, PT timezone, digest language, folded sidebar controls",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T09:49:47.979Z"
   },
   {
     "id": "I_kwDODgj3cc8AAAABP7MIAw",
@@ -620,36 +937,6 @@
     "maintainerTurnaroundDays": 0.3,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-05T19:39:56.408Z"
-  },
-  {
-    "id": "I_kwDOSAKw_c8AAAABP38m6A",
-    "number": 2417,
-    "title": "No way to monitor or unmonitor a book from the book page",
-    "url": "https://github.com/vavallee/bindery/issues/2417",
-    "repo": "vavallee/bindery",
-    "repoUrl": "https://github.com/vavallee/bindery",
-    "stars": 443,
-    "language": "Go",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-05T19:01:32Z",
-    "updatedAt": "2026-09-05T19:01:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./web/src/pages",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "web/src/pages/WantedPage.tsx",
-      "internal/api/books.go",
-      "web/src/pages/BookDetailPage.tsx"
-    ],
-    "summary": "Fix issue #2417 in vavallee/bindery: No way to monitor or unmonitor a book from the book page",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T19:39:50.764Z"
   },
   {
     "id": "I_kwDOK5M3Is8AAAABP10mVA",
@@ -1105,35 +1392,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-04T15:19:40.111Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABPpA9mA",
-    "number": 545,
-    "title": "Document the bundled Node.js runtime version and provenance the SBOM misses",
-    "url": "https://github.com/libredb/libredb-studio/issues/545",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 402,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-04T05:34:45Z",
-    "updatedAt": "2026-09-04T05:34:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #545 in libredb/libredb-studio: Document the bundled Node.js runtime version and provenance the SBOM misses",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-04T10:05:54.349Z"
   },
   {
     "id": "I_kwDOFkvOnM8AAAABPqzlvw",
