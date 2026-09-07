@@ -1,32 +1,474 @@
 [
   {
-    "id": "I_kwDOSSCSZs8AAAABP30eRw",
-    "number": 116,
-    "title": "Tray config rejects flags some sinks require, and --wfd-aosp-pmt-pid is undocumented",
-    "url": "https://github.com/IlyaP358/fluxcast/issues/116",
-    "repo": "IlyaP358/fluxcast",
-    "repoUrl": "https://github.com/IlyaP358/fluxcast",
-    "stars": 346,
+    "id": "I_kwDOP8M_rs8AAAABQD4Fjw",
+    "number": 3044,
+    "title": "Add golden fixtures for agent run-summary serialization",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3044",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
     "language": "Python",
     "labels": [
-      "documentation",
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:12Z",
+    "updatedAt": "2026-09-07T09:31:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3044 in maziyarpanahi/openmed: Add golden fixtures for agent run-summary serialization",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:27.901Z"
+  },
+  {
+    "id": "I_kwDOP8M_rs8AAAABQD4GHA",
+    "number": 3046,
+    "title": "Read image dimensions from bounded TIFF headers",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3046",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:12Z",
+    "updatedAt": "2026-09-07T09:31:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3046 in maziyarpanahi/openmed: Read image dimensions from bounded TIFF headers",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:25.505Z"
+  },
+  {
+    "id": "I_kwDOP8M_rs8AAAABQD4GhQ",
+    "number": 3047,
+    "title": "Derive bounded image geometry from asset manifests",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3047",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:13Z",
+    "updatedAt": "2026-09-07T09:31:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3047 in maziyarpanahi/openmed: Derive bounded image geometry from asset manifests",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:23.109Z"
+  },
+  {
+    "id": "I_kwDOP8M_rs8AAAABQD4NPg",
+    "number": 3050,
+    "title": "Validate WAV metadata against ASR input profiles",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3050",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:21Z",
+    "updatedAt": "2026-09-07T09:31:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3050 in maziyarpanahi/openmed: Validate WAV metadata against ASR input profiles",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:20.747Z"
+  },
+  {
+    "id": "I_kwDOP8M_rs8AAAABQD4M-Q",
+    "number": 3049,
+    "title": "Plan deterministic audio resampling metadata",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3049",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:21Z",
+    "updatedAt": "2026-09-07T09:31:21Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3049 in maziyarpanahi/openmed: Plan deterministic audio resampling metadata",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:18.312Z"
+  },
+  {
+    "id": "I_kwDOP8M_rs8AAAABQD4MxA",
+    "number": 3048,
+    "title": "Plan deterministic page batches for document inference",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3048",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:21Z",
+    "updatedAt": "2026-09-07T09:31:21Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3048 in maziyarpanahi/openmed: Plan deterministic page batches for document inference",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:15.901Z"
+  },
+  {
+    "id": "I_kwDOP8M_rs8AAAABQD4Ntg",
+    "number": 3052,
+    "title": "Diff privacy-safe multimodal processing summaries",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3052",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:22Z",
+    "updatedAt": "2026-09-07T09:31:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3052 in maziyarpanahi/openmed: Diff privacy-safe multimodal processing summaries",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:13.503Z"
+  },
+  {
+    "id": "I_kwDOP8M_rs8AAAABQD4NeQ",
+    "number": 3051,
+    "title": "Export JSON Schemas for multimodal preflight artifacts",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3051",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:22Z",
+    "updatedAt": "2026-09-07T09:31:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3051 in maziyarpanahi/openmed: Export JSON Schemas for multimodal preflight artifacts",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:10.587Z"
+  },
+  {
+    "id": "I_kwDOP8M_rs8AAAABQD4OIg",
+    "number": 3054,
+    "title": "Export JSON Schemas for private-training metadata",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3054",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:23Z",
+    "updatedAt": "2026-09-07T09:31:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3054 in maziyarpanahi/openmed: Export JSON Schemas for private-training metadata",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:07.658Z"
+  },
+  {
+    "id": "I_kwDOP8M_rs8AAAABQD4OWA",
+    "number": 3055,
+    "title": "Fingerprint federated update schemas without tensor values",
+    "url": "https://github.com/maziyarpanahi/openmed/issues/3055",
+    "repo": "maziyarpanahi/openmed",
+    "repoUrl": "https://github.com/maziyarpanahi/openmed",
+    "stars": 5254,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "roadmap-v2",
+      "feature",
+      "P2"
+    ],
+    "createdAt": "2026-09-07T09:31:23Z",
+    "updatedAt": "2026-09-07T09:31:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3055 in maziyarpanahi/openmed: Fingerprint federated update schemas without tensor values",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T10:55:04.725Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQD8Q9w",
+    "number": 29926,
+    "title": "[Good First Issue] 🍘 Add new Etiquette Tip 18 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29926",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3327,
+    "language": "TypeScript",
+    "labels": [
       "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-07T09:37:33Z",
+    "updatedAt": "2026-09-07T09:37:39Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-cultural-etiquette.json"
+    ],
+    "summary": "Fix issue #29926 in lingdojo/kana-dojo: [Good First Issue] 🍘 Add new Etiquette Tip 18 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T10:55:01.630Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQELc6g",
+    "number": 29927,
+    "title": "[Good First Issue] 🌊 Add new Example Sentence 59 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29927",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3327,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-07T10:01:02Z",
+    "updatedAt": "2026-09-07T10:01:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #29927 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Example Sentence 59 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T10:55:00.360Z"
+  },
+  {
+    "id": "I_kwDOAXGG0s8AAAABQESr8w",
+    "number": 2966,
+    "title": "Add a command line option to load a JAR library",
+    "url": "https://github.com/logisim-evolution/logisim-evolution/issues/2966",
+    "repo": "logisim-evolution/logisim-evolution",
+    "repoUrl": "https://github.com/logisim-evolution/logisim-evolution",
+    "stars": 7536,
+    "language": "Java",
+    "labels": [
+      "help wanted",
+      "all OS",
+      "good first issue",
+      "triage",
+      "D'n'D required"
+    ],
+    "createdAt": "2026-09-07T10:11:10Z",
+    "updatedAt": "2026-09-07T10:11:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2966 in logisim-evolution/logisim-evolution: Add a command line option to load a JAR library",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T10:54:59.114Z"
+  },
+  {
+    "id": "I_kwDOTqc3Cs8AAAABQEdqNA",
+    "number": 65,
+    "title": "[Bug]: Action popup display mode does not persist after saving",
+    "url": "https://github.com/ganeshmshetty/openclip/issues/65",
+    "repo": "ganeshmshetty/openclip",
+    "repoUrl": "https://github.com/ganeshmshetty/openclip",
+    "stars": 273,
+    "language": "Swift",
+    "labels": [
+      "bug",
       "good first issue"
     ],
-    "createdAt": "2026-09-05T18:39:06Z",
-    "updatedAt": "2026-09-05T18:39:06Z",
-    "blastRadius": "Low",
-    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "createdAt": "2026-09-07T10:27:09Z",
+    "updatedAt": "2026-09-07T10:38:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/test_tray_config.py",
-    "solvabilityScore": 8,
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
     "keyFiles": [
-      "src/ui/tray_config.py"
+      "src/index"
     ],
-    "summary": "Fix issue #116 in IlyaP358/fluxcast: Tray config rejects flags some sinks require, and --wfd-aosp-pmt-pid is undocumented",
-    "maintainerTurnaroundDays": 0.7,
+    "summary": "Fix issue #65 in ganeshmshetty/openclip: [Bug]: Action popup display mode does not persist after saving",
+    "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T19:39:52.545Z"
+    "discoveredAt": "2026-09-07T10:54:57.201Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQEkFyA",
+    "number": 29928,
+    "title": "[Good First Issue] 🎑 Add new Learner Mistake 116 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29928",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3327,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-07T10:37:30Z",
+    "updatedAt": "2026-09-07T10:37:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #29928 in lingdojo/kana-dojo: [Good First Issue] 🎑 Add new Learner Mistake 116 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T10:54:56.418Z"
   },
   {
     "id": "I_kwDOQuAx5c8AAAABP_Egrw",
@@ -60,40 +502,6 @@
     "discoveredAt": "2026-09-07T01:37:07.941Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABP_I9mw",
-    "number": 29896,
-    "title": "[Good First Issue] 🗾 Add new Japanese Haiku 5 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29896",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-06T21:37:32Z",
-    "updatedAt": "2026-09-06T21:37:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-haiku.json"
-    ],
-    "summary": "Fix issue #29896 in lingdojo/kana-dojo: [Good First Issue] 🗾 Add new Japanese Haiku 5 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:37:06.452Z"
-  },
-  {
     "id": "I_kwDOT0xK9c8AAAABP_Oa7g",
     "number": 57,
     "title": "[feature] GCP Terraform harness",
@@ -122,234 +530,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T01:37:04.974Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP_P_cQ",
-    "number": 29897,
-    "title": "[Good First Issue] 🌊 Add new Trivia Question 82 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29897",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-06T22:01:04Z",
-    "updatedAt": "2026-09-06T22:01:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-trivia-easy.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-trivia-easy.json"
-    ],
-    "summary": "Fix issue #29897 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Trivia Question 82 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:37:04.055Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP_aKRQ",
-    "number": 29898,
-    "title": "[Good First Issue] 🗾 Add new Grammar Point 118 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29898",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-06T22:37:31Z",
-    "updatedAt": "2026-09-06T22:37:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-grammar.json"
-    ],
-    "summary": "Fix issue #29898 in lingdojo/kana-dojo: [Good First Issue] 🗾 Add new Grammar Point 118 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:37:02.542Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP_gang",
-    "number": 29899,
-    "title": "[Good First Issue] 🎴 Add new Anime Quote 59 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29899",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-06T23:00:54Z",
-    "updatedAt": "2026-09-06T23:00:58Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #29899 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Anime Quote 59 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:37:00.920Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP_rEgA",
-    "number": 29900,
-    "title": "[Good First Issue] 🥢 Add new Video Game Quote 67 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29900",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-06T23:37:28Z",
-    "updatedAt": "2026-09-06T23:37:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #29900 in lingdojo/kana-dojo: [Good First Issue] 🥢 Add new Video Game Quote 67 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:36:59.433Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP_yckg",
-    "number": 29901,
-    "title": "[Good First Issue] 🦊 Add new Japanese Idiom 85 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29901",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-07T00:01:04Z",
-    "updatedAt": "2026-09-07T00:01:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #29901 in lingdojo/kana-dojo: [Good First Issue] 🦊 Add new Japanese Idiom 85 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:36:57.964Z"
-  },
-  {
-    "id": "I_kwDOTHPsJc8AAAABP_4DdA",
-    "number": 60,
-    "title": "Support --flag=value completion in Bash and Zsh",
-    "url": "https://github.com/heymaikol/network-doctor/issues/60",
-    "repo": "heymaikol/network-doctor",
-    "repoUrl": "https://github.com/heymaikol/network-doctor",
-    "stars": 360,
-    "language": "Go",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-07T00:16:52Z",
-    "updatedAt": "2026-09-07T00:16:52Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./.",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packaging_test.go"
-    ],
-    "summary": "Fix issue #60 in heymaikol/network-doctor: Support --flag=value completion in Bash and Zsh",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:36:56.508Z"
-  },
-  {
-    "id": "I_kwDOT8qp7s8AAAABP_6mFQ",
-    "number": 445,
-    "title": "camera_stability accepts an invalid field of view on an episode with no cameras, because that guard lives inside the per-camera loop",
-    "url": "https://github.com/Hebbian-Robotics/hflow/issues/445",
-    "repo": "Hebbian-Robotics/hflow",
-    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
-    "stars": 236,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-07T00:23:54Z",
-    "updatedAt": "2026-09-07T00:23:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/test_motion.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/test_motion.py"
-    ],
-    "summary": "Fix issue #445 in Hebbian-Robotics/hflow: camera_stability accepts an invalid field of view on an episode with no cameras, because that guard lives inside the per-camera loop",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:36:55.665Z"
   },
   {
     "id": "I_kwDOB11tyM8AAAABP_68pw",
@@ -409,104 +589,6 @@
     "discoveredAt": "2026-09-07T01:36:54.025Z"
   },
   {
-    "id": "I_kwDODf3ZCM8AAAABP_9J2g",
-    "number": 16744,
-    "title": "FulfillmentModuleService.cancelFulfillment calls the shipped/delivered guard via a hardcoded class reference, breaking subclass overrides",
-    "url": "https://github.com/medusajs/medusa/issues/16744",
-    "repo": "medusajs/medusa",
-    "repoUrl": "https://github.com/medusajs/medusa",
-    "stars": 36163,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "type: bug"
-    ],
-    "createdAt": "2026-09-07T00:32:04Z",
-    "updatedAt": "2026-09-07T00:34:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/medusa/src/modules/fulfillment-manual.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/medusa/src/modules/fulfillment-manual.ts",
-      "packages/modules/providers/fulfillment-manual/src/services/manual-fulfillment.ts",
-      "packages/modules/workflow-engine-inmemory/integration-tests/__fixtures__/workflow_1_manual_retry_step.ts"
-    ],
-    "summary": "Fix issue #16744 in medusajs/medusa: FulfillmentModuleService.cancelFulfillment calls the shipped/delivered guard via a hardcoded class reference, breaking subclass overrides",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-07T01:36:51.074Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP_-xvA",
-    "number": 29902,
-    "title": "[Good First Issue] 🍤 Add new Dialect Entry 74 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29902",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-07T00:37:27Z",
-    "updatedAt": "2026-09-07T00:37:31Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #29902 in lingdojo/kana-dojo: [Good First Issue] 🍤 Add new Dialect Entry 74 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:36:42.697Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQAGEcA",
-    "number": 29903,
-    "title": "[Good First Issue] 🎏 Add new False Friend Pair 35 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29903",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-07T01:01:00Z",
-    "updatedAt": "2026-09-07T01:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #29903 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new False Friend Pair 35 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:36:41.064Z"
-  },
-  {
     "id": "I_kwDOHMbISc8AAAABP9SOcQ",
     "number": 2003,
     "title": "App Request:",
@@ -563,40 +645,6 @@
     "discoveredAt": "2026-09-06T19:42:23.823Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABP-YP1A",
-    "number": 29887,
-    "title": "[Good First Issue] 🥟 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29887",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-06T19:01:00Z",
-    "updatedAt": "2026-09-06T19:01:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-wallpaper-urls.json"
-    ],
-    "summary": "Fix issue #29887 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T19:42:23.419Z"
-  },
-  {
     "id": "I_kwDOEUy9GM8AAAABP-cUMA",
     "number": 8284,
     "title": "List LibreSign in beginner-friendly open source directories",
@@ -625,68 +673,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-06T19:42:22.123Z"
-  },
-  {
-    "id": "I_kwDOAXwIqs8AAAABP-eY5w",
-    "number": 10646,
-    "title": "[Bug]: Armbian 26.08 broken on Radxa 12L NIO",
-    "url": "https://github.com/armbian/build/issues/10646",
-    "repo": "armbian/build",
-    "repoUrl": "https://github.com/armbian/build",
-    "stars": 5402,
-    "language": "Shell",
-    "labels": [
-      "Bug",
-      "Good first issue"
-    ],
-    "createdAt": "2026-09-06T19:20:39Z",
-    "updatedAt": "2026-09-06T19:37:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #10646 in armbian/build: [Bug]: Armbian 26.08 broken on Radxa 12L NIO",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T19:42:20.634Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABP-jz2Q",
-    "number": 29888,
-    "title": "[Good First Issue] 🎴 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29888",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3326,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-06T19:37:28Z",
-    "updatedAt": "2026-09-06T19:37:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #29888 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T19:42:16.215Z"
   },
   {
     "id": "I_kwDOQuAx5c8AAAABP77omA",
@@ -749,38 +735,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-06T14:32:09.756Z"
-  },
-  {
-    "id": "I_kwDOS3TU6c8AAAABP7_D1w",
-    "number": 803,
-    "title": "[agent] The Vite plugin injects the HUD into Vitest browser-mode iframes, where it intercepts pointer events",
-    "url": "https://github.com/reticlehq/reticle/issues/803",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 443,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported"
-    ],
-    "createdAt": "2026-09-06T10:50:30Z",
-    "updatedAt": "2026-09-06T12:20:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/babel-plugin/src/index.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/babel-plugin/src/index.test.ts",
-      "packages/browser/src/actions/actions.auto-anchor.test.ts",
-      "packages/browser/src/actions/actions.check.test.ts"
-    ],
-    "summary": "Fix issue #803 in reticlehq/reticle: [agent] The Vite plugin injects the HUD into Vitest browser-mode iframes, where it intercepts pointer events",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T14:32:08.274Z"
   },
   {
     "id": "I_kwDOA9MwhM8AAAABPddjWA",
@@ -1017,38 +971,6 @@
     "discoveredAt": "2026-09-05T19:39:56.408Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABP10mVA",
-    "number": 10057,
-    "title": "[Doc📝] Add Apache 2.0 headers in rocketmq-filter",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10057",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1509,
-    "language": "Rust",
-    "labels": [
-      "documentation📝",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-05T12:41:20Z",
-    "updatedAt": "2026-09-05T12:47:52Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test sql_filter_benchmark",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-filter/benches/sql_filter_benchmark.rs",
-      "rocketmq-filter/src/expression/empty_evaluation_context.rs"
-    ],
-    "summary": "Fix issue #10057 in mxsm/rocketmq-rust: [Doc📝] Add Apache 2.0 headers in rocketmq-filter",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T14:08:39.455Z"
-  },
-  {
     "id": "I_kwDONYSyns8AAAABP13EPA",
     "number": 57,
     "title": "feat/Support native addons (.node files) in Node.js SEA binaries",
@@ -1270,36 +1192,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "develop",
     "discoveredAt": "2026-09-04T15:20:11.818Z"
-  },
-  {
-    "id": "I_kwDODtfaXs8AAAABPoPdGg",
-    "number": 16774,
-    "title": "[daily-playwright] Playwright Test Coverage Tracker",
-    "url": "https://github.com/ohcnetwork/care_fe/issues/16774",
-    "repo": "ohcnetwork/care_fe",
-    "repoUrl": "https://github.com/ohcnetwork/care_fe",
-    "stars": 626,
-    "language": "TypeScript",
-    "labels": [
-      "testing",
-      "playwright",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-04T03:15:49Z",
-    "updatedAt": "2026-09-04T03:15:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test tests/helper/ui.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/helper/ui.ts",
-      "tests/support/facilityId.ts"
-    ],
-    "summary": "Fix issue #16774 in ohcnetwork/care_fe: [daily-playwright] Playwright Test Coverage Tracker",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-04T15:20:08.884Z"
   },
   {
     "id": "I_kwDOFkvOnM8AAAABPrM9pA",
