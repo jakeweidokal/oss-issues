@@ -1,5 +1,465 @@
 [
   {
+    "id": "I_kwDOOwsln88AAAABQIpKsQ",
+    "number": 29948,
+    "title": "[Good First Issue] 🐡 Add new Wallpaper URL #3 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29948",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3329,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-07T18:01:09Z",
+    "updatedAt": "2026-09-07T18:01:16Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-wallpaper-urls.json"
+    ],
+    "summary": "Fix issue #29948 in lingdojo/kana-dojo: [Good First Issue] 🐡 Add new Wallpaper URL #3 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:25.187Z"
+  },
+  {
+    "id": "I_kwDOAHXAE88AAAABQIxwQQ",
+    "number": 21778,
+    "title": "Improve the new/review card limit dialogs",
+    "url": "https://github.com/ankidroid/Anki-Android/issues/21778",
+    "repo": "ankidroid/Anki-Android",
+    "repoUrl": "https://github.com/ankidroid/Anki-Android",
+    "stars": 11741,
+    "language": "Kotlin",
+    "labels": [
+      "Good First Issue"
+    ],
+    "createdAt": "2026-09-07T18:20:16Z",
+    "updatedAt": "2026-09-07T18:38:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #21778 in ankidroid/Anki-Android: Improve the new/review card limit dialogs",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:23.203Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABQI0MmA",
+    "number": 97,
+    "title": "Say when the GNSS outlier gate is too far from firing to reject anything",
+    "url": "https://github.com/manankharwar/fusioncore/issues/97",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 348,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-07T18:25:49Z",
+    "updatedAt": "2026-09-07T18:25:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tools/nis_from_bag.py",
+      "fusioncore_ros/src/fusion_node.cpp",
+      "fusioncore_core/src/fusioncore.cpp"
+    ],
+    "summary": "Fix issue #97 in manankharwar/fusioncore: Say when the GNSS outlier gate is too far from firing to reject anything",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:19.941Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABQI0ZZg",
+    "number": 98,
+    "title": "Separate the magnetometer's mounting rotation from magnetic declination",
+    "url": "https://github.com/manankharwar/fusioncore/issues/98",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 348,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-07T18:26:18Z",
+    "updatedAt": "2026-09-07T18:26:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "fusioncore_ros/config/fusioncore.yaml",
+      "tools/check_config_params.py",
+      "fusioncore_core/tests/test_magnetometer.cpp"
+    ],
+    "summary": "Fix issue #98 in manankharwar/fusioncore: Separate the magnetometer's mounting rotation from magnetic declination",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:18.598Z"
+  },
+  {
+    "id": "I_kwDOEUy9GM8AAAABQI03WA",
+    "number": 8300,
+    "title": "Use the Cooperative Members team as the default CODEOWNER",
+    "url": "https://github.com/LibreSign/libresign/issues/8300",
+    "repo": "LibreSign/libresign",
+    "repoUrl": "https://github.com/LibreSign/libresign",
+    "stars": 804,
+    "language": "PHP",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-07T18:27:27Z",
+    "updatedAt": "2026-09-07T18:48:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8300 in LibreSign/libresign: Use the Cooperative Members team as the default CODEOWNER",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:17.173Z"
+  },
+  {
+    "id": "I_kwDOAHXAE88AAAABQI3rEw",
+    "number": 21779,
+    "title": "Improve the Preview new cards dialog",
+    "url": "https://github.com/ankidroid/Anki-Android/issues/21779",
+    "repo": "ankidroid/Anki-Android",
+    "repoUrl": "https://github.com/ankidroid/Anki-Android",
+    "stars": 11741,
+    "language": "Kotlin",
+    "labels": [
+      "Good First Issue"
+    ],
+    "createdAt": "2026-09-07T18:34:34Z",
+    "updatedAt": "2026-09-07T18:34:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #21779 in ankidroid/Anki-Android: Improve the Preview new cards dialog",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:15.064Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQJAxJg",
+    "number": 29949,
+    "title": "[Good First Issue] 🍢 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29949",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3329,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-07T18:57:31Z",
+    "updatedAt": "2026-09-07T18:57:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #29949 in lingdojo/kana-dojo: [Good First Issue] 🍢 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:11.814Z"
+  },
+  {
+    "id": "I_kwDOB11tyM8AAAABQJBPFg",
+    "number": 4322,
+    "title": "🐞 Disable Auto play not working when using incognito",
+    "url": "https://github.com/code-charity/youtube/issues/4322",
+    "repo": "code-charity/youtube",
+    "repoUrl": "https://github.com/code-charity/youtube",
+    "stars": 4567,
+    "language": "JavaScript",
+    "labels": [
+      "Bug",
+      "help wanted",
+      "good first issue",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-07T18:58:41Z",
+    "updatedAt": "2026-09-07T18:59:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #4322 in code-charity/youtube: 🐞 Disable Auto play not working when using incognito",
+    "maintainerTurnaroundDays": 1.9,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T20:53:10.108Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQJCLRA",
+    "number": 29950,
+    "title": "[Good First Issue] 🀄 Add new Theme: Street Lantern - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29950",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3329,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-07T19:01:06Z",
+    "updatedAt": "2026-09-07T19:01:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #29950 in lingdojo/kana-dojo: [Good First Issue] 🀄 Add new Theme: Street Lantern - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:09.275Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABQJPmNQ",
+    "number": 637,
+    "title": "Add an Urdu README (README_ur.md), covered by the localized-README drift guard",
+    "url": "https://github.com/libredb/libredb-studio/issues/637",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 442,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-07T19:34:53Z",
+    "updatedAt": "2026-09-07T19:34:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Docker required",
+    "quickReproCommand": "pnpm test tests/unit/helm-chart-agent.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/helm-chart-agent.test.ts",
+      "tests/unit/helm-chart-auth-cookie-secure.test.ts",
+      "tests/unit/helm-chart-auth-provider.test.ts"
+    ],
+    "summary": "Fix issue #637 in libredb/libredb-studio: Add an Urdu README (README_ur.md), covered by the localized-README drift guard",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:07.484Z"
+  },
+  {
+    "id": "I_kwDOEH_46s8AAAABQJSclQ",
+    "number": 7363,
+    "title": "[Bug] vela addon upgrade rejects the <registry>/<addon> form that vela addon enable accepts",
+    "url": "https://github.com/kubevela/kubevela/issues/7363",
+    "repo": "kubevela/kubevela",
+    "repoUrl": "https://github.com/kubevela/kubevela",
+    "stars": 7894,
+    "language": "Go",
+    "labels": [
+      "type/bug",
+      "good first issue",
+      "effort/small",
+      "area/addon",
+      "area/cli"
+    ],
+    "createdAt": "2026-09-07T19:41:42Z",
+    "updatedAt": "2026-09-07T19:41:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ././references/cmd/cli",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "./references/cmd/cli/main.go"
+    ],
+    "summary": "Fix issue #7363 in kubevela/kubevela: [Bug] vela addon upgrade rejects the <registry>/<addon> form that vela addon enable accepts",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T20:53:05.811Z"
+  },
+  {
+    "id": "I_kwDOEH_46s8AAAABQJSkWg",
+    "number": 7365,
+    "title": "[Bug] Shared-resource conflict message carries an empty function name and a stray cue/format error",
+    "url": "https://github.com/kubevela/kubevela/issues/7365",
+    "repo": "kubevela/kubevela",
+    "repoUrl": "https://github.com/kubevela/kubevela",
+    "stars": 7894,
+    "language": "Go",
+    "labels": [
+      "type/bug",
+      "good first issue",
+      "area/controller",
+      "effort/small"
+    ],
+    "createdAt": "2026-09-07T19:42:01Z",
+    "updatedAt": "2026-09-07T19:42:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #7365 in kubevela/kubevela: [Bug] Shared-resource conflict message carries an empty function name and a stray cue/format error",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-07T20:53:04.376Z"
+  },
+  {
+    "id": "I_kwDORtUdpc8AAAABQJWUVQ",
+    "number": 446,
+    "title": "Proposal: AI-BOM support (CycloneDX ML-BOM / SPDX 3.0) for model artifacts",
+    "url": "https://github.com/llmmanorg/llmman/issues/446",
+    "repo": "llmmanorg/llmman",
+    "repoUrl": "https://github.com/llmmanorg/llmman",
+    "stars": 483,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-07T19:50:40Z",
+    "updatedAt": "2026-09-07T19:51:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #446 in llmmanorg/llmman: Proposal: AI-BOM support (CycloneDX ML-BOM / SPDX 3.0) for model artifacts",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:02.890Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQJZMRQ",
+    "number": 29951,
+    "title": "[Good First Issue] 🏮 Add new Japan Fact 21 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29951",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3329,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-07T19:57:31Z",
+    "updatedAt": "2026-09-07T19:57:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #29951 in lingdojo/kana-dojo: [Good First Issue] 🏮 Add new Japan Fact 21 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:53:01.798Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQJamzw",
+    "number": 29952,
+    "title": "[Good First Issue] 🧧 Add new Japanese Proverb 85 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29952",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3329,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-07T20:01:07Z",
+    "updatedAt": "2026-09-07T20:01:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #29952 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Japanese Proverb 85 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T20:52:59.845Z"
+  },
+  {
     "id": "I_kwDOEUy9GM8AAAABQHP6Fw",
     "number": 8292,
     "title": "Ask first-time contributors for feedback after their first merged pull request",
@@ -186,40 +646,6 @@
     "discoveredAt": "2026-09-07T16:47:24.211Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABQHXCDQ",
-    "number": 10175,
-    "title": "[Test🧪] Add compression round-trip and factory tests in rocketmq-protocol",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10175",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1511,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "testing🧪",
-      "protocol"
-    ],
-    "createdAt": "2026-09-07T15:13:37Z",
-    "updatedAt": "2026-09-07T15:13:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test supervised_execution",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-ai/rocketmq-sre/crates/rocketmq-sre-control-plane/src/supervised_execution.rs",
-      "rocketmq-ai/rocketmq-sre/crates/rocketmq-sre-control-plane/src/supervised_repository.rs",
-      "rocketmq-ai/rocketmq-sre/crates/rocketmq-sre-execution-agent/src/drivers/logger_level_ttl.rs"
-    ],
-    "summary": "Fix issue #10175 in mxsm/rocketmq-rust: [Test🧪] Add compression round-trip and factory tests in rocketmq-protocol",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T16:47:18.471Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABQHXFsw",
     "number": 10177,
     "title": "[Test🧪] Add TraceType parsing and TraceRecord tests in rocketmq-protocol",
@@ -252,38 +678,6 @@
     "discoveredAt": "2026-09-07T16:47:12.490Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABQHXG4Q",
-    "number": 10178,
-    "title": "[Test🧪] Add tests for data_version_compat version helpers in rocketmq-protocol",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10178",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1511,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "testing🧪",
-      "protocol"
-    ],
-    "createdAt": "2026-09-07T15:13:45Z",
-    "updatedAt": "2026-09-07T15:13:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test data_version_compat",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-protocol/src/protocol/data_version_compat.rs"
-    ],
-    "summary": "Fix issue #10178 in mxsm/rocketmq-rust: [Test🧪] Add tests for data_version_compat version helpers in rocketmq-protocol",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T16:47:06.575Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABQHXILg",
     "number": 10179,
     "title": "[Test🧪] Add unit tests for uncovered TopicQueueMappingUtils helpers in rocketmq-protocol",
@@ -314,66 +708,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T16:46:59.733Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABQHXJXQ",
-    "number": 10180,
-    "title": "[Test🧪] Add tests for RequestType and protocol facade default helpers in rocketmq-protocol",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10180",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1511,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "testing🧪",
-      "protocol"
-    ],
-    "createdAt": "2026-09-07T15:13:49Z",
-    "updatedAt": "2026-09-07T15:13:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test heartbeat_facade",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-protocol/src/protocol/heartbeat_facade.rs"
-    ],
-    "summary": "Fix issue #10180 in mxsm/rocketmq-rust: [Test🧪] Add tests for RequestType and protocol facade default helpers in rocketmq-protocol",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T16:46:53.306Z"
-  },
-  {
-    "id": "I_kwDOAXGG0s8AAAABQHmd0w",
-    "number": 2969,
-    "title": "Tie our dependencies to a commit hash instead of a movable version tag",
-    "url": "https://github.com/logisim-evolution/logisim-evolution/issues/2969",
-    "repo": "logisim-evolution/logisim-evolution",
-    "repoUrl": "https://github.com/logisim-evolution/logisim-evolution",
-    "stars": 7536,
-    "language": "Java",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-07T15:40:50Z",
-    "updatedAt": "2026-09-07T15:43:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2969 in logisim-evolution/logisim-evolution: Tie our dependencies to a commit hash instead of a movable version tag",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T16:46:46.885Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABQHxtUQ",
@@ -438,34 +772,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T16:46:41.509Z"
-  },
-  {
-    "id": "I_kwDOOWSacc8AAAABQH8q1w",
-    "number": 1092,
-    "title": "Add unit tests, type annotations, and docstrings for speculators.train utilities (noise_transforms.py and vocab_mapping.py)",
-    "url": "https://github.com/vllm-project/speculators/issues/1092",
-    "repo": "vllm-project/speculators",
-    "repoUrl": "https://github.com/vllm-project/speculators",
-    "stars": 812,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-07T16:21:59Z",
-    "updatedAt": "2026-09-07T16:21:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest src/speculators/train/noise_transforms.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/speculators/train/noise_transforms.py",
-      "src/speculators/train/vocab_mapping.py"
-    ],
-    "summary": "Fix issue #1092 in vllm-project/speculators: Add unit tests, type annotations, and docstrings for speculators.train utilities (noise_transforms.py and vocab_mapping.py)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T16:46:40.097Z"
   },
   {
     "id": "I_kwDOP8M_rs8AAAABQD4Fjw",
@@ -778,40 +1084,6 @@
     "discoveredAt": "2026-09-07T10:55:04.725Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABQD8Q9w",
-    "number": 29926,
-    "title": "[Good First Issue] 🍘 Add new Etiquette Tip 18 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29926",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3327,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-07T09:37:33Z",
-    "updatedAt": "2026-09-07T09:37:39Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #29926 in lingdojo/kana-dojo: [Good First Issue] 🍘 Add new Etiquette Tip 18 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T10:55:01.630Z"
-  },
-  {
     "id": "I_kwDOAXGG0s8AAAABQESr8w",
     "number": 2966,
     "title": "Add a command line option to load a JAR library",
@@ -841,40 +1113,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T10:54:59.114Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQEkFyA",
-    "number": 29928,
-    "title": "[Good First Issue] 🎑 Add new Learner Mistake 116 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29928",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3327,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-07T10:37:30Z",
-    "updatedAt": "2026-09-07T10:37:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #29928 in lingdojo/kana-dojo: [Good First Issue] 🎑 Add new Learner Mistake 116 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T10:54:56.418Z"
   },
   {
     "id": "I_kwDOQuAx5c8AAAABP_Egrw",
@@ -2162,96 +2400,6 @@
     "discoveredAt": "2026-09-02T15:29:27.160Z"
   },
   {
-    "id": "I_kwDORtsRpM8AAAABPTsVZQ",
-    "number": 5277,
-    "title": "docs(i18n): adopt the Italian README translation",
-    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/5277",
-    "repo": "sipyourdrink-ltd/bernstein",
-    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
-    "stars": 1063,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "size/xs",
-      "docs",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-02T09:36:29Z",
-    "updatedAt": "2026-09-02T09:36:29Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest .github/workflows/ci.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".github/workflows/ci.yml"
-    ],
-    "summary": "Fix issue #5277 in sipyourdrink-ltd/bernstein: docs(i18n): adopt the Italian README translation",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-02T10:06:39.340Z"
-  },
-  {
-    "id": "I_kwDORtsRpM8AAAABPTtG5A",
-    "number": 5278,
-    "title": "docs(i18n): adopt the Dutch README translation",
-    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/5278",
-    "repo": "sipyourdrink-ltd/bernstein",
-    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
-    "stars": 1063,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "size/xs",
-      "docs",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-02T09:37:49Z",
-    "updatedAt": "2026-09-02T09:37:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest .github/workflows/ci.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".github/workflows/ci.yml"
-    ],
-    "summary": "Fix issue #5278 in sipyourdrink-ltd/bernstein: docs(i18n): adopt the Dutch README translation",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-02T10:06:31.739Z"
-  },
-  {
-    "id": "I_kwDORtsRpM8AAAABPTtL7w",
-    "number": 5279,
-    "title": "docs(i18n): adopt the Polish README translation",
-    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/5279",
-    "repo": "sipyourdrink-ltd/bernstein",
-    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
-    "stars": 1063,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "size/xs",
-      "docs",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-02T09:37:57Z",
-    "updatedAt": "2026-09-02T09:37:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest .github/workflows/ci.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".github/workflows/ci.yml"
-    ],
-    "summary": "Fix issue #5279 in sipyourdrink-ltd/bernstein: docs(i18n): adopt the Polish README translation",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-02T10:06:26.069Z"
-  },
-  {
     "id": "I_kwDORtsRpM8AAAABPTtQBQ",
     "number": 5280,
     "title": "docs(i18n): adopt the Swedish README translation",
@@ -2577,34 +2725,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-02T01:44:19.461Z"
-  },
-  {
-    "id": "I_kwDOAXg1J88AAAABPQESbw",
-    "number": 9376,
-    "title": "Remove obsolete PWM motor controllers",
-    "url": "https://github.com/wpilibsuite/allwpilib/issues/9376",
-    "repo": "wpilibsuite/allwpilib",
-    "repoUrl": "https://github.com/wpilibsuite/allwpilib",
-    "stars": 1301,
-    "language": "C++",
-    "labels": [
-      "good first issue",
-      "component: drivers"
-    ],
-    "createdAt": "2026-09-02T00:57:46Z",
-    "updatedAt": "2026-09-02T00:57:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #9376 in wpilibsuite/allwpilib: Remove obsolete PWM motor controllers",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-02T01:44:15.776Z"
   },
   {
     "id": "I_kwDOB5ZECs8AAAABPNnOsQ",
@@ -2950,33 +3070,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-01T02:22:38.459Z"
-  },
-  {
-    "id": "I_kwDORtUdpc8AAAABPEXAXw",
-    "number": 352,
-    "title": "Add \"llmman launch qwen\"",
-    "url": "https://github.com/llmmanorg/llmman/issues/352",
-    "repo": "llmmanorg/llmman",
-    "repoUrl": "https://github.com/llmmanorg/llmman",
-    "stars": 471,
-    "language": "Rust",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-01T00:01:55Z",
-    "updatedAt": "2026-09-01T00:02:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #352 in llmmanorg/llmman: Add \"llmman launch qwen\"",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-01T02:22:37.472Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABPEjVfQ",
