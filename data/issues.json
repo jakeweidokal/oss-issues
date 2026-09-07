@@ -1,5 +1,473 @@
 [
   {
+    "id": "I_kwDOEUy9GM8AAAABQHP6Fw",
+    "number": 8292,
+    "title": "Ask first-time contributors for feedback after their first merged pull request",
+    "url": "https://github.com/LibreSign/libresign/issues/8292",
+    "repo": "LibreSign/libresign",
+    "repoUrl": "https://github.com/LibreSign/libresign",
+    "stars": 804,
+    "language": "PHP",
+    "labels": [
+      "good first issue",
+      "github_actions"
+    ],
+    "createdAt": "2026-09-07T15:01:28Z",
+    "updatedAt": "2026-09-07T15:24:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8292 in LibreSign/libresign: Ask first-time contributors for feedback after their first merged pull request",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:47:41.721Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQHP6AQ",
+    "number": 29940,
+    "title": "[Good First Issue] 🦊 Add new Video Game Quote 109 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29940",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3329,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-07T15:01:28Z",
+    "updatedAt": "2026-09-07T15:01:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #29940 in lingdojo/kana-dojo: [Good First Issue] 🦊 Add new Video Game Quote 109 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:47:39.332Z"
+  },
+  {
+    "id": "I_kwDOKHczTs8AAAABQHRECw",
+    "number": 1142,
+    "title": "[Feature] 希望附件转为链接形式",
+    "url": "https://github.com/dreamhunter2333/cloudflare_temp_email/issues/1142",
+    "repo": "dreamhunter2333/cloudflare_temp_email",
+    "repoUrl": "https://github.com/dreamhunter2333/cloudflare_temp_email",
+    "stars": 11679,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-07T15:03:31Z",
+    "updatedAt": "2026-09-07T15:13:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1142 in dreamhunter2333/cloudflare_temp_email: [Feature] 希望附件转为链接形式",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:47:37.102Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABQHW8Fg",
+    "number": 10172,
+    "title": "[Refactor♻️] Remove derive-trait restatement tests from protocol request and response code enums",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10172",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1511,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "refactor♻️",
+      "rust",
+      "Difficulty level/Easy",
+      "protocol"
+    ],
+    "createdAt": "2026-09-07T15:13:28Z",
+    "updatedAt": "2026-09-07T15:13:28Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test response_code",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-protocol/src/code/response_code.rs"
+    ],
+    "summary": "Fix issue #10172 in mxsm/rocketmq-rust: [Refactor♻️] Remove derive-trait restatement tests from protocol request and response code enums",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:47:35.642Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABQHW-Lg",
+    "number": 10173,
+    "title": "[Refactor♻️] Remove getter and setter restatement tests from protocol body and header structs",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10173",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1511,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "refactor♻️",
+      "rust",
+      "Difficulty level/Easy",
+      "protocol"
+    ],
+    "createdAt": "2026-09-07T15:13:31Z",
+    "updatedAt": "2026-09-07T15:13:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test peek_message_request_header",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-protocol/src/protocol/header/peek_message_request_header.rs"
+    ],
+    "summary": "Fix issue #10173 in mxsm/rocketmq-rust: [Refactor♻️] Remove getter and setter restatement tests from protocol body and header structs",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:47:29.908Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABQHXAuw",
+    "number": 10174,
+    "title": "[Refactor♻️] Remove clone-and-debug and setter restatement tests from namesrv and trace modules",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10174",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1511,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "refactor♻️",
+      "rust",
+      "Difficulty level/Easy",
+      "protocol"
+    ],
+    "createdAt": "2026-09-07T15:13:35Z",
+    "updatedAt": "2026-09-07T15:13:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test trace_transfer_bean",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-protocol/src/trace/trace_transfer_bean.rs"
+    ],
+    "summary": "Fix issue #10174 in mxsm/rocketmq-rust: [Refactor♻️] Remove clone-and-debug and setter restatement tests from namesrv and trace modules",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:47:24.211Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABQHXCDQ",
+    "number": 10175,
+    "title": "[Test🧪] Add compression round-trip and factory tests in rocketmq-protocol",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10175",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1511,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪",
+      "protocol"
+    ],
+    "createdAt": "2026-09-07T15:13:37Z",
+    "updatedAt": "2026-09-07T15:13:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test supervised_execution",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-ai/rocketmq-sre/crates/rocketmq-sre-control-plane/src/supervised_execution.rs",
+      "rocketmq-ai/rocketmq-sre/crates/rocketmq-sre-control-plane/src/supervised_repository.rs",
+      "rocketmq-ai/rocketmq-sre/crates/rocketmq-sre-execution-agent/src/drivers/logger_level_ttl.rs"
+    ],
+    "summary": "Fix issue #10175 in mxsm/rocketmq-rust: [Test🧪] Add compression round-trip and factory tests in rocketmq-protocol",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:47:18.471Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABQHXFsw",
+    "number": 10177,
+    "title": "[Test🧪] Add TraceType parsing and TraceRecord tests in rocketmq-protocol",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10177",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1511,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪",
+      "protocol"
+    ],
+    "createdAt": "2026-09-07T15:13:43Z",
+    "updatedAt": "2026-09-07T15:13:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test trace_record",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-protocol/src/trace/trace_record.rs"
+    ],
+    "summary": "Fix issue #10177 in mxsm/rocketmq-rust: [Test🧪] Add TraceType parsing and TraceRecord tests in rocketmq-protocol",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:47:12.490Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABQHXG4Q",
+    "number": 10178,
+    "title": "[Test🧪] Add tests for data_version_compat version helpers in rocketmq-protocol",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10178",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1511,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪",
+      "protocol"
+    ],
+    "createdAt": "2026-09-07T15:13:45Z",
+    "updatedAt": "2026-09-07T15:13:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test data_version_compat",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-protocol/src/protocol/data_version_compat.rs"
+    ],
+    "summary": "Fix issue #10178 in mxsm/rocketmq-rust: [Test🧪] Add tests for data_version_compat version helpers in rocketmq-protocol",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:47:06.575Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABQHXILg",
+    "number": 10179,
+    "title": "[Test🧪] Add unit tests for uncovered TopicQueueMappingUtils helpers in rocketmq-protocol",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10179",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1511,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪",
+      "protocol"
+    ],
+    "createdAt": "2026-09-07T15:13:47Z",
+    "updatedAt": "2026-09-07T15:13:47Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test topic_queue_mapping_utils",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-protocol/src/protocol/static_topic/topic_queue_mapping_utils.rs"
+    ],
+    "summary": "Fix issue #10179 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for uncovered TopicQueueMappingUtils helpers in rocketmq-protocol",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:46:59.733Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABQHXJXQ",
+    "number": 10180,
+    "title": "[Test🧪] Add tests for RequestType and protocol facade default helpers in rocketmq-protocol",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10180",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1511,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪",
+      "protocol"
+    ],
+    "createdAt": "2026-09-07T15:13:49Z",
+    "updatedAt": "2026-09-07T15:13:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test heartbeat_facade",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-protocol/src/protocol/heartbeat_facade.rs"
+    ],
+    "summary": "Fix issue #10180 in mxsm/rocketmq-rust: [Test🧪] Add tests for RequestType and protocol facade default helpers in rocketmq-protocol",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:46:53.306Z"
+  },
+  {
+    "id": "I_kwDOAXGG0s8AAAABQHmd0w",
+    "number": 2969,
+    "title": "Tie our dependencies to a commit hash instead of a movable version tag",
+    "url": "https://github.com/logisim-evolution/logisim-evolution/issues/2969",
+    "repo": "logisim-evolution/logisim-evolution",
+    "repoUrl": "https://github.com/logisim-evolution/logisim-evolution",
+    "stars": 7536,
+    "language": "Java",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-07T15:40:50Z",
+    "updatedAt": "2026-09-07T15:43:16Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2969 in logisim-evolution/logisim-evolution: Tie our dependencies to a commit hash instead of a movable version tag",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:46:46.885Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQHxtUQ",
+    "number": 29942,
+    "title": "[Good First Issue] 🥟 Add new False Friend Pair 45 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29942",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3329,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-07T16:01:10Z",
+    "updatedAt": "2026-09-07T16:01:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #29942 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new False Friend Pair 45 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:46:43.924Z"
+  },
+  {
+    "id": "I_kwDOOWSacc8AAAABQH5q8w",
+    "number": 1091,
+    "title": "Repository-wide audit: clean up stale docstrings, dead exports, and deprecated script references",
+    "url": "https://github.com/vllm-project/speculators/issues/1091",
+    "repo": "vllm-project/speculators",
+    "repoUrl": "https://github.com/vllm-project/speculators",
+    "stars": 812,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-07T16:15:42Z",
+    "updatedAt": "2026-09-07T16:16:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/speculators/utils/__init__.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/speculators/utils/__init__.py",
+      "src/speculators/utils/registry.py",
+      "src/speculators/models/eagle3/config.py"
+    ],
+    "summary": "Fix issue #1091 in vllm-project/speculators: Repository-wide audit: clean up stale docstrings, dead exports, and deprecated script references",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:46:41.509Z"
+  },
+  {
+    "id": "I_kwDOOWSacc8AAAABQH8q1w",
+    "number": 1092,
+    "title": "Add unit tests, type annotations, and docstrings for speculators.train utilities (noise_transforms.py and vocab_mapping.py)",
+    "url": "https://github.com/vllm-project/speculators/issues/1092",
+    "repo": "vllm-project/speculators",
+    "repoUrl": "https://github.com/vllm-project/speculators",
+    "stars": 812,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-07T16:21:59Z",
+    "updatedAt": "2026-09-07T16:21:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/speculators/train/noise_transforms.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/speculators/train/noise_transforms.py",
+      "src/speculators/train/vocab_mapping.py"
+    ],
+    "summary": "Fix issue #1092 in vllm-project/speculators: Add unit tests, type annotations, and docstrings for speculators.train utilities (noise_transforms.py and vocab_mapping.py)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-07T16:46:40.097Z"
+  },
+  {
     "id": "I_kwDOP8M_rs8AAAABQD4Fjw",
     "number": 3044,
     "title": "Add golden fixtures for agent run-summary serialization",
@@ -344,40 +812,6 @@
     "discoveredAt": "2026-09-07T10:55:01.630Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABQELc6g",
-    "number": 29927,
-    "title": "[Good First Issue] 🌊 Add new Example Sentence 59 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29927",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3327,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-07T10:01:02Z",
-    "updatedAt": "2026-09-07T10:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-example-sentences.json"
-    ],
-    "summary": "Fix issue #29927 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Example Sentence 59 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T10:55:00.360Z"
-  },
-  {
     "id": "I_kwDOAXGG0s8AAAABQESr8w",
     "number": 2966,
     "title": "Add a command line option to load a JAR library",
@@ -407,34 +841,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T10:54:59.114Z"
-  },
-  {
-    "id": "I_kwDOTqc3Cs8AAAABQEdqNA",
-    "number": 65,
-    "title": "[Bug]: Action popup display mode does not persist after saving",
-    "url": "https://github.com/ganeshmshetty/openclip/issues/65",
-    "repo": "ganeshmshetty/openclip",
-    "repoUrl": "https://github.com/ganeshmshetty/openclip",
-    "stars": 273,
-    "language": "Swift",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-07T10:27:09Z",
-    "updatedAt": "2026-09-07T10:38:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #65 in ganeshmshetty/openclip: [Bug]: Action popup display mode does not persist after saving",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T10:54:57.201Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABQEkFyA",
@@ -1109,34 +1515,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-04T19:59:11.191Z"
-  },
-  {
-    "id": "I_kwDORponss8AAAABPwXDeg",
-    "number": 81,
-    "title": "GNSS TF validation checks gnss_link even when the driver publishes a different frame",
-    "url": "https://github.com/manankharwar/fusioncore/issues/81",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 341,
-    "language": "C++",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-04T19:42:38Z",
-    "updatedAt": "2026-09-04T19:42:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #81 in manankharwar/fusioncore: GNSS TF validation checks gnss_link even when the driver publishes a different frame",
-    "maintainerTurnaroundDays": 0.8,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-04T19:59:07.968Z"
   },
   {
     "id": "I_kwDORponss8AAAABPwbcKg",
@@ -3070,35 +3448,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-29T20:06:12.423Z"
-  },
-  {
-    "id": "I_kwDON7wA2c8AAAABOxHhwg",
-    "number": 707,
-    "title": "[Bug]: \"Failed to retrieve frontmost application metadata\" error on Linux",
-    "url": "https://github.com/Xoshbin/asyar/issues/707",
-    "repo": "Xoshbin/asyar",
-    "repoUrl": "https://github.com/Xoshbin/asyar",
-    "stars": 590,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue",
-      "linux"
-    ],
-    "createdAt": "2026-08-29T10:26:47Z",
-    "updatedAt": "2026-08-29T10:53:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #707 in Xoshbin/asyar: [Bug]: \"Failed to retrieve frontmost application metadata\" error on Linux",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T11:53:45.941Z"
   },
   {
     "id": "I_kwDOPxOUZ88AAAABOxQgCw",
