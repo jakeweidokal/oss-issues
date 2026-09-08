@@ -1,5 +1,439 @@
 [
   {
+    "id": "I_kwDOOwsln88AAAABQQ5QzA",
+    "number": 29993,
+    "title": "[Good First Issue] 🧧 Add new Learner Mistake 80 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29993",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3337,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-08T12:01:01Z",
+    "updatedAt": "2026-09-08T12:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #29993 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Learner Mistake 80 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T15:32:55.801Z"
+  },
+  {
+    "id": "I_kwDOEjsJvc8AAAABQQ8e4Q",
+    "number": 592,
+    "title": "JSON-null key lookups use OPENJSON, which requires database compatibility level 130 (fails on down-leveled 2016-2019 databases)",
+    "url": "https://github.com/microsoft/mssql-django/issues/592",
+    "repo": "microsoft/mssql-django",
+    "repoUrl": "https://github.com/microsoft/mssql-django",
+    "stars": 399,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-08T12:06:27Z",
+    "updatedAt": "2026-09-08T12:06:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pytest mssql/features.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "mssql/features.py",
+      "mssql/functions.py",
+      "mssql/compiler.py"
+    ],
+    "summary": "Fix issue #592 in microsoft/mssql-django: JSON-null key lookups use OPENJSON, which requires database compatibility level 130 (fails on down-leveled 2016-2019 databases)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-08T15:32:54.043Z"
+  },
+  {
+    "id": "I_kwDOA9JyWM8AAAABQRAJsA",
+    "number": 19974,
+    "title": "Enhance UnaryAccessingMethodWithoutReturnRule",
+    "url": "https://github.com/pharo-project/pharo/issues/19974",
+    "repo": "pharo-project/pharo",
+    "repoUrl": "https://github.com/pharo-project/pharo",
+    "stars": 1484,
+    "language": "Smalltalk",
+    "labels": [
+      "Type: Enhancement",
+      "Good first issue"
+    ],
+    "createdAt": "2026-09-08T12:12:42Z",
+    "updatedAt": "2026-09-08T12:12:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #19974 in pharo-project/pharo: Enhance UnaryAccessingMethodWithoutReturnRule",
+    "maintainerTurnaroundDays": 0.6,
+    "defaultBranch": "Pharo15",
+    "discoveredAt": "2026-09-08T15:32:53.406Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQRb6LA",
+    "number": 29995,
+    "title": "[Good First Issue] 🪭 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29995",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3337,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-08T12:57:30Z",
+    "updatedAt": "2026-09-08T12:57:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-wallpaper-urls.json"
+    ],
+    "summary": "Fix issue #29995 in lingdojo/kana-dojo: [Good First Issue] 🪭 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T15:32:48.954Z"
+  },
+  {
+    "id": "I_kwDOFdcGL88AAAABQRdXDw",
+    "number": 576,
+    "title": "Баги , баги баги",
+    "url": "https://github.com/0niel/university-app/issues/576",
+    "repo": "0niel/university-app",
+    "repoUrl": "https://github.com/0niel/university-app",
+    "stars": 254,
+    "language": "Dart",
+    "labels": [
+      "bug",
+      "good first issue",
+      "approved 👍"
+    ],
+    "createdAt": "2026-09-08T12:59:42Z",
+    "updatedAt": "2026-09-08T15:25:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #576 in 0niel/university-app: Баги , баги баги",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-08T15:32:47.319Z"
+  },
+  {
+    "id": "I_kwDORSvIXM8AAAABQRkXcQ",
+    "number": 3250,
+    "title": "[BUG] AWS-managed policies always report DefaultVersionId v1, ignoring AWS's real revision history",
+    "url": "https://github.com/floci-io/floci/issues/3250",
+    "repo": "floci-io/floci",
+    "repoUrl": "https://github.com/floci-io/floci",
+    "stars": 23690,
+    "language": "Java",
+    "labels": [
+      "bug",
+      "good first issue",
+      "iam"
+    ],
+    "createdAt": "2026-09-08T13:09:35Z",
+    "updatedAt": "2026-09-08T13:09:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3250 in floci-io/floci: [BUG] AWS-managed policies always report DefaultVersionId v1, ignoring AWS's real revision history",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T15:32:44.533Z"
+  },
+  {
+    "id": "I_kwDOUIh2dc8AAAABQR3Jgg",
+    "number": 58,
+    "title": "Layout: justify/flex distribution for leftover space",
+    "url": "https://github.com/profullstack/hqtui/issues/58",
+    "repo": "profullstack/hqtui",
+    "repoUrl": "https://github.com/profullstack/hqtui",
+    "stars": 235,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-08T13:37:46Z",
+    "updatedAt": "2026-09-08T13:37:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/hqtui/src/layout.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/hqtui/src/layout.ts"
+    ],
+    "summary": "Fix issue #58 in profullstack/hqtui: Layout: justify/flex distribution for leftover space",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T15:32:40.638Z"
+  },
+  {
+    "id": "I_kwDOUIh2dc8AAAABQR3MQQ",
+    "number": 59,
+    "title": "Panels: draw only some border sides",
+    "url": "https://github.com/profullstack/hqtui/issues/59",
+    "repo": "profullstack/hqtui",
+    "repoUrl": "https://github.com/profullstack/hqtui",
+    "stars": 235,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-08T13:37:50Z",
+    "updatedAt": "2026-09-08T13:38:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/hqtui/src/surface.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/hqtui/src/surface.ts"
+    ],
+    "summary": "Fix issue #59 in profullstack/hqtui: Panels: draw only some border sides",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T15:32:38.923Z"
+  },
+  {
+    "id": "I_kwDOQ_KVhM8AAAABQSBY9w",
+    "number": 3940,
+    "title": "RTK.md template ends with \"Refer to CLAUDE.md for full command reference\", which the default install never writes",
+    "url": "https://github.com/rtk-ai/rtk/issues/3940",
+    "repo": "rtk-ai/rtk",
+    "repoUrl": "https://github.com/rtk-ai/rtk",
+    "stars": 79466,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue",
+      "priority:low",
+      "area:docs"
+    ],
+    "createdAt": "2026-09-08T13:53:19Z",
+    "updatedAt": "2026-09-08T13:54:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3940 in rtk-ai/rtk: RTK.md template ends with \"Refer to CLAUDE.md for full command reference\", which the default install never writes",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-08T15:32:37.113Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQSG3TQ",
+    "number": 29999,
+    "title": "[Good First Issue] 🥢 Add new Japan Fact 139 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/29999",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3337,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-08T14:01:17Z",
+    "updatedAt": "2026-09-08T14:01:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #29999 in lingdojo/kana-dojo: [Good First Issue] 🥢 Add new Japan Fact 139 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T15:32:36.124Z"
+  },
+  {
+    "id": "I_kwDOAPe-Vs8AAAABQSRKuQ",
+    "number": 13305,
+    "title": "Checkpoint gradeables does not display graders & show dates graded",
+    "url": "https://github.com/Submitty/Submitty/issues/13305",
+    "repo": "Submitty/Submitty",
+    "repoUrl": "https://github.com/Submitty/Submitty",
+    "stars": 788,
+    "language": "PHP",
+    "labels": [
+      "bug",
+      "TA Grading / TA UI",
+      "good first issue",
+      "Instructor UI"
+    ],
+    "createdAt": "2026-09-08T14:16:32Z",
+    "updatedAt": "2026-09-08T14:16:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #13305 in Submitty/Submitty: Checkpoint gradeables does not display graders & show dates graded",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T15:32:34.497Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQStYGw",
+    "number": 30001,
+    "title": "[Good First Issue] 🍶 Add new Japanese Proverb 81 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30001",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3337,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-08T14:57:28Z",
+    "updatedAt": "2026-09-08T14:57:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30001 in lingdojo/kana-dojo: [Good First Issue] 🍶 Add new Japanese Proverb 81 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T15:32:32.485Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQSv56A",
+    "number": 30002,
+    "title": "[Good First Issue] 🎍 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30002",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3337,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-08T15:01:08Z",
+    "updatedAt": "2026-09-08T15:01:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-haiku.json"
+    ],
+    "summary": "Fix issue #30002 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T15:32:30.692Z"
+  },
+  {
+    "id": "I_kwDOAD-fO88AAAABQS_oHg",
+    "number": 2982,
+    "title": "Needed Automation Commands",
+    "url": "https://github.com/OpenChemistry/avogadrolibs/issues/2982",
+    "repo": "OpenChemistry/avogadrolibs",
+    "repoUrl": "https://github.com/OpenChemistry/avogadrolibs",
+    "stars": 674,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-08T15:23:43Z",
+    "updatedAt": "2026-09-08T15:24:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "avogadro/qtplugins/bonding/bonding.cpp",
+      "avogadro/qtplugins/hydrogens/hydrogens.cpp",
+      "avogadro/qtplugins/select/select.cpp"
+    ],
+    "summary": "Fix issue #2982 in OpenChemistry/avogadrolibs: Needed Automation Commands",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-08T15:32:28.944Z"
+  },
+  {
     "id": "I_kwDOOwsln88AAAABQOfyDw",
     "number": 29980,
     "title": "[Good First Issue] 🍚 Add new Japan Fact 243 - Beginner-Friendly Open-source Contribution",
@@ -34,101 +468,6 @@
     "discoveredAt": "2026-09-08T10:13:54.407Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABQOh9Uw",
-    "number": 29981,
-    "title": "[Good First Issue] 🍣 Add new Japanese Proverb 107 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29981",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3334,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-08T08:01:03Z",
-    "updatedAt": "2026-09-08T08:01:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #29981 in lingdojo/kana-dojo: [Good First Issue] 🍣 Add new Japanese Proverb 107 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T10:13:53.089Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABQPSO7Q",
-    "number": 648,
-    "title": "Create-table form emits PostgreSQL DDL for every engine (dbType prop is unused)",
-    "url": "https://github.com/libredb/libredb-studio/issues/648",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 452,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "help wanted",
-      "security"
-    ],
-    "createdAt": "2026-09-08T09:12:57Z",
-    "updatedAt": "2026-09-08T09:46:21Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test src/components/CreateTableModal.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/components/CreateTableModal.tsx",
-      "src/lib/schema-diff/migration-generator.ts",
-      "tests/components/CreateTableModal.test.tsx"
-    ],
-    "summary": "Fix issue #648 in libredb/libredb-studio: Create-table form emits PostgreSQL DDL for every engine (dbType prop is unused)",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T10:13:51.806Z"
-  },
-  {
-    "id": "I_kwDOBFrB188AAAABQPflAg",
-    "number": 8536,
-    "title": "Consider backing Walk/WkDefault with plexus-utils DirectoryScanner",
-    "url": "https://github.com/objectionary/eo/issues/8536",
-    "repo": "objectionary/eo",
-    "repoUrl": "https://github.com/objectionary/eo",
-    "stars": 1448,
-    "language": "Java",
-    "labels": [
-      "bug",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-08T09:33:23Z",
-    "updatedAt": "2026-09-08T09:34:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "eo-maven-plugin/src/main/java/org/eolang/maven/Walk.java",
-      "eo-maven-plugin/src/main/java/org/eolang/maven/WkDefault.java",
-      "eo-maven-plugin/src/main/java/org/eolang/maven/Globbed.java"
-    ],
-    "summary": "Fix issue #8536 in objectionary/eo: Consider backing Walk/WkDefault with plexus-utils DirectoryScanner",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-08T10:13:49.797Z"
-  },
-  {
     "id": "I_kwDOE9xoSs8AAAABQPhr0w",
     "number": 4425,
     "title": "Search Bar: provide a local a way to customise the search",
@@ -156,36 +495,6 @@
     "maintainerTurnaroundDays": 0.6,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-08T10:13:48.817Z"
-  },
-  {
-    "id": "I_kwDOBFrB188AAAABQPqMyg",
-    "number": 8537,
-    "title": "Lowering: log rewrite counts per pass, not just the total",
-    "url": "https://github.com/objectionary/eo/issues/8537",
-    "repo": "objectionary/eo",
-    "repoUrl": "https://github.com/objectionary/eo",
-    "stars": 1448,
-    "language": "Java",
-    "labels": [
-      "bug",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-08T09:49:43Z",
-    "updatedAt": "2026-09-08T09:52:19Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "eo-maven-plugin/src/main/java/org/eolang/maven/Lowering.java",
-      "eo-lowering/src/main/java/org/eolang/lowering/Rewrite.java",
-      "eo-maven-plugin/src/main/java/org/eolang/maven/Threaded.java"
-    ],
-    "summary": "Fix issue #8537 in objectionary/eo: Lowering: log rewrite counts per pass, not just the total",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-08T10:13:47.444Z"
   },
   {
     "id": "I_kwDOCXx7CM8AAAABQP156g",
@@ -270,74 +579,6 @@
     "maintainerTurnaroundDays": 0.6,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-08T10:13:42.687Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQPHduQ",
-    "number": 29985,
-    "title": "[Good First Issue] 🎏 Add new Trivia Question 118 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29985",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3334,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-08T08:57:30Z",
-    "updatedAt": "2026-09-08T08:57:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-trivia-medium.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-trivia-medium.json"
-    ],
-    "summary": "Fix issue #29985 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Trivia Question 118 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T10:13:42.069Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQPJ2wg",
-    "number": 29986,
-    "title": "[Good First Issue] 🐙 Add new Grammar Point 37 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29986",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3334,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-08T09:01:02Z",
-    "updatedAt": "2026-09-08T09:01:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-grammar.json"
-    ],
-    "summary": "Fix issue #29986 in lingdojo/kana-dojo: [Good First Issue] 🐙 Add new Grammar Point 37 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T10:13:40.779Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABQPvVVg",
@@ -493,33 +734,6 @@
     "maintainerTurnaroundDays": 0.3,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T20:53:18.598Z"
-  },
-  {
-    "id": "I_kwDOAHXAE88AAAABQI3rEw",
-    "number": 21779,
-    "title": "Improve the Preview new cards dialog",
-    "url": "https://github.com/ankidroid/Anki-Android/issues/21779",
-    "repo": "ankidroid/Anki-Android",
-    "repoUrl": "https://github.com/ankidroid/Anki-Android",
-    "stars": 11741,
-    "language": "Kotlin",
-    "labels": [
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-07T18:34:34Z",
-    "updatedAt": "2026-09-07T18:34:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #21779 in ankidroid/Anki-Android: Improve the Preview new cards dialog",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T20:53:15.064Z"
   },
   {
     "id": "I_kwDOB11tyM8AAAABQJBPFg",
@@ -1005,36 +1219,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T01:37:07.941Z"
-  },
-  {
-    "id": "I_kwDOT0xK9c8AAAABP_Oa7g",
-    "number": 57,
-    "title": "[feature] GCP Terraform harness",
-    "url": "https://github.com/PicoMQ/picomq/issues/57",
-    "repo": "PicoMQ/picomq",
-    "repoUrl": "https://github.com/PicoMQ/picomq",
-    "stars": 333,
-    "language": "Rust",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-06T21:55:45Z",
-    "updatedAt": "2026-09-06T21:55:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #57 in PicoMQ/picomq: [feature] GCP Terraform harness",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T01:37:04.974Z"
   },
   {
     "id": "I_kwDOB11tyM8AAAABP_68pw",
@@ -3172,31 +3356,32 @@
     "discoveredAt": "2026-08-27T20:19:23.970Z"
   },
   {
-    "id": "I_kwDORponss8AAAABPlMBnQ",
-    "number": 78,
-    "title": "Warn when a magnetometer parameter looks like microtesla instead of tesla",
-    "url": "https://github.com/manankharwar/fusioncore/issues/78",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 333,
-    "language": "C++",
+    "id": "I_kwDOEGoSHs8AAAABQR1r6w",
+    "number": 3108,
+    "title": "Database auto-update ignores --proxy and leaks the real IP",
+    "url": "https://github.com/soxoj/maigret/issues/3108",
+    "repo": "soxoj/maigret",
+    "repoUrl": "https://github.com/soxoj/maigret",
+    "stars": 37377,
+    "language": "Python",
     "labels": [
-      "enhancement",
       "good first issue"
     ],
-    "createdAt": "2026-09-03T19:24:50Z",
-    "updatedAt": "2026-09-03T19:24:50Z",
+    "createdAt": "2026-09-08T13:35:34Z",
+    "updatedAt": "2026-09-08T13:35:34Z",
     "blastRadius": "High",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pytest tests/test_maigret.py",
     "solvabilityScore": 4,
     "keyFiles": [
-      "fusioncore_ros/src/fusion_node.cpp"
+      "maigret/maigret.py",
+      "maigret/db_updater.py",
+      "maigret/resources/settings.json"
     ],
-    "summary": "Fix issue #78 in manankharwar/fusioncore: Warn when a magnetometer parameter looks like microtesla instead of tesla",
-    "maintainerTurnaroundDays": 0.8,
+    "summary": "Fix issue #3108 in soxoj/maigret: Database auto-update ignores --proxy and leaks the real IP",
+    "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
-    "discoveredAt": "2026-09-03T20:14:21.480Z"
+    "discoveredAt": "2026-09-08T15:32:41.442Z"
   }
 ]
