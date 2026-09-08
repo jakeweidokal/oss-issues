@@ -1,12 +1,265 @@
 [
   {
-    "id": "I_kwDOOwsln88AAAABQQ5QzA",
-    "number": 29993,
-    "title": "[Good First Issue] 🧧 Add new Learner Mistake 80 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29993",
+    "id": "I_kwDOS3TU6c8AAAABQU-hlw",
+    "number": 899,
+    "title": "[agent] A crashed React root returns nodes: 0, which reads exactly like a page that has not rendered yet",
+    "url": "https://github.com/reticlehq/reticle/issues/899",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 451,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "2.14.0"
+    ],
+    "createdAt": "2026-09-08T18:54:16Z",
+    "updatedAt": "2026-09-08T18:54:16Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/browser/src/observers/sdk-failure.test.ts",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "packages/browser/src/observers/sdk-failure.ts"
+    ],
+    "summary": "Fix issue #899 in reticlehq/reticle: [agent] A crashed React root returns nodes: 0, which reads exactly like a page that has not rendered yet",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:25:58.382Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABQUxIyg",
+    "number": 890,
+    "title": "[agent] crawl blames the clicked link for a crash whose own stack names the page that threw",
+    "url": "https://github.com/reticlehq/reticle/issues/890",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 451,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "2.14.0"
+    ],
+    "createdAt": "2026-09-08T18:31:30Z",
+    "updatedAt": "2026-09-08T18:31:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/server/src/dispatch-attribution.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/server/src/dispatch-attribution.test.ts",
+      "packages/browser/src/observers/console.ts"
+    ],
+    "summary": "Fix issue #890 in reticlehq/reticle: [agent] crawl blames the clicked link for a crash whose own stack names the page that threw",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:26:15.150Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABQUxfIQ",
+    "number": 892,
+    "title": "Nothing reaps idle reticle mcp process pairs when an editor session ends",
+    "url": "https://github.com/reticlehq/reticle/issues/892",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 451,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "2.14.0"
+    ],
+    "createdAt": "2026-09-08T18:32:05Z",
+    "updatedAt": "2026-09-08T18:32:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/server/src/daemon/idle-grace.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/server/src/daemon/idle-grace.test.ts",
+      "packages/server/src/daemon/daemon-resilience.ts",
+      "packages/server/src/cli/mcp-command.ts"
+    ],
+    "summary": "Fix issue #892 in reticlehq/reticle: Nothing reaps idle reticle mcp process pairs when an editor session ends",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:26:11.984Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABQU97Hw",
+    "number": 895,
+    "title": "[agent] The no-source-mapping gap cannot tell \"not installed\" from \"deliberately disabled\", so agents learn to skim the gaps block",
+    "url": "https://github.com/reticlehq/reticle/issues/895",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 451,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "2.14.0"
+    ],
+    "createdAt": "2026-09-08T18:53:09Z",
+    "updatedAt": "2026-09-08T18:53:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/server/src/honesty/instrumentation-gaps.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/server/src/honesty/instrumentation-gaps.ts",
+      "packages/vite-plugin/src/index.ts"
+    ],
+    "summary": "Fix issue #895 in reticlehq/reticle: [agent] The no-source-mapping gap cannot tell \"not installed\" from \"deliberately disabled\", so agents learn to skim the gaps block",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:26:08.360Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABQU-MoQ",
+    "number": 896,
+    "title": "[agent] Flow replay reports a request that is still in flight as one that never happened",
+    "url": "https://github.com/reticlehq/reticle/issues/896",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 451,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "2.14.0"
+    ],
+    "createdAt": "2026-09-08T18:53:40Z",
+    "updatedAt": "2026-09-08T18:53:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/server/src/flows/flow-replay.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/server/src/flows/flow-replay.ts",
+      "packages/server/src/tools/act-tools.ts",
+      "packages/core/src/flow-constants.ts"
+    ],
+    "summary": "Fix issue #896 in reticlehq/reticle: [agent] Flow replay reports a request that is still in flight as one that never happened",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:26:05.077Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABQU-N2g",
+    "number": 897,
+    "title": "[agent] A crashed destination and a found-but-forbidden element both return unknown, where the evidence supported a no",
+    "url": "https://github.com/reticlehq/reticle/issues/897",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 451,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "2.14.0"
+    ],
+    "createdAt": "2026-09-08T18:53:42Z",
+    "updatedAt": "2026-09-08T18:53:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/server/src/honesty/verified.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/server/src/honesty/verified.ts",
+      "packages/server/src/events/predicate-route.ts",
+      "packages/server/src/honesty/verified.test.ts"
+    ],
+    "summary": "Fix issue #897 in reticlehq/reticle: [agent] A crashed destination and a found-but-forbidden element both return unknown, where the evidence supported a no",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:26:01.680Z"
+  },
+  {
+    "id": "I_kwDOBZ3L8c8AAAABQU_otQ",
+    "number": 797,
+    "title": "FIRE-05 — Docs: \"Climate Indices for Wildfire Applications\"",
+    "url": "https://github.com/monocongo/climate_indices/issues/797",
+    "repo": "monocongo/climate_indices",
+    "repoUrl": "https://github.com/monocongo/climate_indices",
+    "stars": 411,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "fire-weather",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-08T18:56:16Z",
+    "updatedAt": "2026-09-08T18:56:16Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #797 in monocongo/climate_indices: FIRE-05 — Docs: \"Climate Indices for Wildfire Applications\"",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:25:54.664Z"
+  },
+  {
+    "id": "I_kwDOBZ3L8c8AAAABQU_zMQ",
+    "number": 808,
+    "title": "FIRE-16 — Implement the Fosberg Fire Weather Index",
+    "url": "https://github.com/monocongo/climate_indices/issues/808",
+    "repo": "monocongo/climate_indices",
+    "repoUrl": "https://github.com/monocongo/climate_indices",
+    "stars": 411,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "fire-weather",
+      "numpy-api",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-08T18:56:35Z",
+    "updatedAt": "2026-09-08T18:57:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #808 in monocongo/climate_indices: FIRE-16 — Implement the Fosberg Fire Weather Index",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:25:51.287Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQVAY1w",
+    "number": 30014,
+    "title": "[Good First Issue] 🗾 Add new False Friend Pair 38 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30014",
     "repo": "lingdojo/kana-dojo",
     "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3337,
+    "stars": 3339,
     "language": "TypeScript",
     "labels": [
       "enhancement",
@@ -18,8 +271,195 @@
       "up-for-grabs",
       "first-timers-only"
     ],
-    "createdAt": "2026-09-08T12:01:01Z",
-    "updatedAt": "2026-09-08T12:01:07Z",
+    "createdAt": "2026-09-08T18:57:40Z",
+    "updatedAt": "2026-09-08T18:57:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #30014 in lingdojo/kana-dojo: [Good First Issue] 🗾 Add new False Friend Pair 38 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:25:45.166Z"
+  },
+  {
+    "id": "I_kwDOQFGYIs8AAAABQVB0aA",
+    "number": 635,
+    "title": "[New Module] Add email_scan module for cashapp.py",
+    "url": "https://github.com/kaifcodec/user-scanner/issues/635",
+    "repo": "kaifcodec/user-scanner",
+    "repoUrl": "https://github.com/kaifcodec/user-scanner",
+    "stars": 4724,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "email module addition"
+    ],
+    "createdAt": "2026-09-08T19:00:13Z",
+    "updatedAt": "2026-09-08T19:03:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #635 in kaifcodec/user-scanner: [New Module] Add email_scan module for cashapp.py",
+    "maintainerTurnaroundDays": 1.9,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:25:42.775Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQVCQOQ",
+    "number": 30015,
+    "title": "[Good First Issue] 🏯 Add new Etiquette Tip 95 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30015",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3339,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-08T19:01:01Z",
+    "updatedAt": "2026-09-08T19:01:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-cultural-etiquette.json"
+    ],
+    "summary": "Fix issue #30015 in lingdojo/kana-dojo: [Good First Issue] 🏯 Add new Etiquette Tip 95 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:25:41.770Z"
+  },
+  {
+    "id": "I_kwDOFDR80s8AAAABQVOklQ",
+    "number": 2711,
+    "title": "Change `all` tab in batches to `active`",
+    "url": "https://github.com/frappe/lms/issues/2711",
+    "repo": "frappe/lms",
+    "repoUrl": "https://github.com/frappe/lms",
+    "stars": 3202,
+    "language": "Vue",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-08T19:23:22Z",
+    "updatedAt": "2026-09-08T19:23:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2711 in frappe/lms: Change `all` tab in batches to `active`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-08T20:25:39.228Z"
+  },
+  {
+    "id": "I_kwDONuDK488AAAABQVbHXw",
+    "number": 224,
+    "title": "eoas publish: `--platform all` fails on single-platform projects",
+    "url": "https://github.com/mercuretechnologies/xprem/issues/224",
+    "repo": "mercuretechnologies/xprem",
+    "repoUrl": "https://github.com/mercuretechnologies/xprem",
+    "stars": 524,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "expo-updates"
+    ],
+    "createdAt": "2026-09-08T19:45:00Z",
+    "updatedAt": "2026-09-08T19:45:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./apps/eoas/src/commands/__tests__",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/eoas/src/commands/publish.ts",
+      "apps/eoas/src/lib/assets.ts",
+      "internal/services/deployment_service.go"
+    ],
+    "summary": "Fix issue #224 in mercuretechnologies/xprem: eoas publish: `--platform all` fails on single-platform projects",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:25:36.069Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQViY9Q",
+    "number": 30016,
+    "title": "[Good First Issue] 🍛 Add new Example Sentence 34 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30016",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3339,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-08T19:57:37Z",
+    "updatedAt": "2026-09-08T19:57:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #30016 in lingdojo/kana-dojo: [Good First Issue] 🍛 Add new Example Sentence 34 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-08T20:25:33.849Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQVkfPQ",
+    "number": 30017,
+    "title": "[Good First Issue] 🎑 Add new Learner Mistake 99 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30017",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3339,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-08T20:01:06Z",
+    "updatedAt": "2026-09-08T20:01:12Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
@@ -28,10 +468,10 @@
     "keyFiles": [
       "community/content/japanese-common-mistakes.json"
     ],
-    "summary": "Fix issue #29993 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Learner Mistake 80 - Beginner-Friendly Open-source Contribution",
+    "summary": "Fix issue #30017 in lingdojo/kana-dojo: [Good First Issue] 🎑 Add new Learner Mistake 99 - Beginner-Friendly Open-source Contribution",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T15:32:55.801Z"
+    "discoveredAt": "2026-09-08T20:25:31.431Z"
   },
   {
     "id": "I_kwDOEjsJvc8AAAABQQ8e4Q",
@@ -90,40 +530,6 @@
     "maintainerTurnaroundDays": 0.6,
     "defaultBranch": "Pharo15",
     "discoveredAt": "2026-09-08T15:32:53.406Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQRb6LA",
-    "number": 29995,
-    "title": "[Good First Issue] 🪭 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29995",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3337,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-08T12:57:30Z",
-    "updatedAt": "2026-09-08T12:57:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-wallpaper-urls.json"
-    ],
-    "summary": "Fix issue #29995 in lingdojo/kana-dojo: [Good First Issue] 🪭 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T15:32:48.954Z"
   },
   {
     "id": "I_kwDOFdcGL88AAAABQRdXDw",
@@ -304,70 +710,6 @@
     "discoveredAt": "2026-09-08T15:32:36.124Z"
   },
   {
-    "id": "I_kwDOAPe-Vs8AAAABQSRKuQ",
-    "number": 13305,
-    "title": "Checkpoint gradeables does not display graders & show dates graded",
-    "url": "https://github.com/Submitty/Submitty/issues/13305",
-    "repo": "Submitty/Submitty",
-    "repoUrl": "https://github.com/Submitty/Submitty",
-    "stars": 788,
-    "language": "PHP",
-    "labels": [
-      "bug",
-      "TA Grading / TA UI",
-      "good first issue",
-      "Instructor UI"
-    ],
-    "createdAt": "2026-09-08T14:16:32Z",
-    "updatedAt": "2026-09-08T14:16:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #13305 in Submitty/Submitty: Checkpoint gradeables does not display graders & show dates graded",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T15:32:34.497Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQStYGw",
-    "number": 30001,
-    "title": "[Good First Issue] 🍶 Add new Japanese Proverb 81 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30001",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3337,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-08T14:57:28Z",
-    "updatedAt": "2026-09-08T14:57:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #30001 in lingdojo/kana-dojo: [Good First Issue] 🍶 Add new Japanese Proverb 81 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T15:32:32.485Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABQSv56A",
     "number": 30002,
     "title": "[Good First Issue] 🎍 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution",
@@ -432,40 +774,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-08T15:32:28.944Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQOfyDw",
-    "number": 29980,
-    "title": "[Good First Issue] 🍚 Add new Japan Fact 243 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29980",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3334,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-08T07:57:35Z",
-    "updatedAt": "2026-09-08T07:57:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-facts.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #29980 in lingdojo/kana-dojo: [Good First Issue] 🍚 Add new Japan Fact 243 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T10:13:54.407Z"
   },
   {
     "id": "I_kwDOE9xoSs8AAAABQPhr0w",
@@ -579,101 +887,6 @@
     "maintainerTurnaroundDays": 0.6,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-08T10:13:42.687Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQPvVVg",
-    "number": 29987,
-    "title": "[Good First Issue] 🎴 Add new Video Game Quote 80 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29987",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3334,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-08T09:57:35Z",
-    "updatedAt": "2026-09-08T09:57:41Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #29987 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Video Game Quote 80 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T10:13:39.510Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQPxeWQ",
-    "number": 29988,
-    "title": "[Good First Issue] 🍤 Add new Japanese Idiom 10 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/29988",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3334,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-08T10:01:04Z",
-    "updatedAt": "2026-09-08T10:01:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #29988 in lingdojo/kana-dojo: [Good First Issue] 🍤 Add new Japanese Idiom 10 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T10:13:38.165Z"
-  },
-  {
-    "id": "I_kwDOAHXAE88AAAABQIxwQQ",
-    "number": 21778,
-    "title": "Improve the new/review card limit dialogs",
-    "url": "https://github.com/ankidroid/Anki-Android/issues/21778",
-    "repo": "ankidroid/Anki-Android",
-    "repoUrl": "https://github.com/ankidroid/Anki-Android",
-    "stars": 11741,
-    "language": "Kotlin",
-    "labels": [
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-07T18:20:16Z",
-    "updatedAt": "2026-09-07T18:38:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #21778 in ankidroid/Anki-Android: Improve the new/review card limit dialogs",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T20:53:23.203Z"
   },
   {
     "id": "I_kwDORponss8AAAABQI0MmA",
@@ -1157,37 +1370,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-07T10:55:04.725Z"
-  },
-  {
-    "id": "I_kwDOAXGG0s8AAAABQESr8w",
-    "number": 2966,
-    "title": "Add a command line option to load a JAR library",
-    "url": "https://github.com/logisim-evolution/logisim-evolution/issues/2966",
-    "repo": "logisim-evolution/logisim-evolution",
-    "repoUrl": "https://github.com/logisim-evolution/logisim-evolution",
-    "stars": 7536,
-    "language": "Java",
-    "labels": [
-      "help wanted",
-      "all OS",
-      "good first issue",
-      "triage",
-      "D'n'D required"
-    ],
-    "createdAt": "2026-09-07T10:11:10Z",
-    "updatedAt": "2026-09-07T10:11:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2966 in logisim-evolution/logisim-evolution: Add a command line option to load a JAR library",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T10:54:59.114Z"
   },
   {
     "id": "I_kwDOQuAx5c8AAAABP_Egrw",
@@ -3147,33 +3329,6 @@
     "discoveredAt": "2026-08-30T10:51:13.912Z"
   },
   {
-    "id": "I_kwDOBU4bdc8AAAABOzP5qg",
-    "number": 1007,
-    "title": "Remove Settings.ColorScheme in favor of Gtk.InterfaceColorScheme",
-    "url": "https://github.com/elementary/granite/issues/1007",
-    "repo": "elementary/granite",
-    "repoUrl": "https://github.com/elementary/granite",
-    "stars": 323,
-    "language": "Vala",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-08-29T18:40:59Z",
-    "updatedAt": "2026-08-29T18:42:50Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1007 in elementary/granite: Remove Settings.ColorScheme in favor of Gtk.InterfaceColorScheme",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-29T20:06:12.423Z"
-  },
-  {
     "id": "I_kwDOPxOUZ88AAAABOxQgCw",
     "number": 935,
     "title": "Docs: runnable doctests for the value-transform combinators",
@@ -3354,34 +3509,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-27T20:19:23.970Z"
-  },
-  {
-    "id": "I_kwDOEGoSHs8AAAABQR1r6w",
-    "number": 3108,
-    "title": "Database auto-update ignores --proxy and leaks the real IP",
-    "url": "https://github.com/soxoj/maigret/issues/3108",
-    "repo": "soxoj/maigret",
-    "repoUrl": "https://github.com/soxoj/maigret",
-    "stars": 37377,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-08T13:35:34Z",
-    "updatedAt": "2026-09-08T13:35:34Z",
-    "blastRadius": "High",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pytest tests/test_maigret.py",
-    "solvabilityScore": 4,
-    "keyFiles": [
-      "maigret/maigret.py",
-      "maigret/db_updater.py",
-      "maigret/resources/settings.json"
-    ],
-    "summary": "Fix issue #3108 in soxoj/maigret: Database auto-update ignores --proxy and leaks the real IP",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T15:32:41.442Z"
   }
 ]
