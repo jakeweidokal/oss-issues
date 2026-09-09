@@ -5,7 +5,7 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2026 20:26:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 01:54:27 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[reticlehq/reticle] #899 [agent] A crashed React root returns nodes: 0, which reads exactly like a page that has not rendered yet (Solvability: 8/10)</title>
@@ -28,24 +28,312 @@
       <category>2.14.0</category>
     </item>
     <item>
-      <title>[reticlehq/reticle] #890 [agent] crawl blames the clicked link for a crash whose own stack names the page that threw (Solvability: 6/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/890</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/890</guid>
-      <pubDate>Tue, 08 Sep 2026 18:31:30 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (451 ⭐, TypeScript)</p>
+      <title>[lingdojo/kana-dojo] #30021 [Good First Issue] 🏯 Add new Japan Fact 255 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30021</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30021</guid>
+      <pubDate>Tue, 08 Sep 2026 22:01:04 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3339 ⭐, TypeScript)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #890 in reticlehq/reticle: [agent] crawl blames the clicked link for a crash whose own stack names the page that threw</p>
+<p><strong>Summary:</strong> Fix issue #30021 in lingdojo/kana-dojo: [Good First Issue] 🏯 Add new Japan Fact 255 - Beginner-Friendly Open-source Contribution</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/server/src/dispatch-attribution.test.ts</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/890">View and Claim Issue on GitHub →</a></p>]]></description>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-facts.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30021">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[kairolang/kairo] #79 [bug] f80 literals are not correctly rounded, and long fractions are silently dropped (Solvability: 6/10)</title>
+      <link>https://github.com/kairolang/kairo/issues/79</link>
+      <guid isPermaLink="true">https://github.com/kairolang/kairo/issues/79</guid>
+      <pubDate>Tue, 08 Sep 2026 22:13:45 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/kairolang/kairo">kairolang/kairo</a> (384 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #79 in kairolang/kairo: [bug] f80 literals are not correctly rounded, and long fractions are silently dropped</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/kairolang/kairo/issues/79">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Compiler</category>
+      <category>Cross-Platform</category>
+      <category>Good First Issue</category>
+      <category>Compatibility</category>
+      <category>Lexer</category>
+    </item>
+    <item>
+      <title>[kairolang/kairo] #80 [bug] Integer literal width: IntData::evaluate contradicts the documented i32 default (Solvability: 6/10)</title>
+      <link>https://github.com/kairolang/kairo/issues/80</link>
+      <guid isPermaLink="true">https://github.com/kairolang/kairo/issues/80</guid>
+      <pubDate>Tue, 08 Sep 2026 22:19:16 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/kairolang/kairo">kairolang/kairo</a> (384 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #80 in kairolang/kairo: [bug] Integer literal width: IntData::evaluate contradicts the documented i32 default</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/kairolang/kairo/issues/80">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good First Issue</category>
+      <category>Lexer</category>
+    </item>
+    <item>
+      <title>[bjornbytes/lovr] #1009 Global Node Transforms in ModelData (Solvability: 6/10)</title>
+      <link>https://github.com/bjornbytes/lovr/issues/1009</link>
+      <guid isPermaLink="true">https://github.com/bjornbytes/lovr/issues/1009</guid>
+      <pubDate>Tue, 08 Sep 2026 22:21:09 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/bjornbytes/lovr">bjornbytes/lovr</a> (2592 ⭐, C)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1009 in bjornbytes/lovr: Global Node Transforms in ModelData</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/bjornbytes/lovr/issues/1009">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>improvement</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30022 [Good First Issue] 🗻 Add new Japanese Proverb 78 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30022</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30022</guid>
+      <pubDate>Tue, 08 Sep 2026 22:57:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3339 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30022 in lingdojo/kana-dojo: [Good First Issue] 🗻 Add new Japanese Proverb 78 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-proverbs.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30022">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30023 [Good First Issue] 🎴 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30023</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30023</guid>
+      <pubDate>Tue, 08 Sep 2026 23:01:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3339 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30023 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-haiku.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30023">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[rtk-ai/rtk] #3948 recall: content_hash truncates SHA-256 to 48 bits and ON CONFLICT overwrites on collision (Solvability: 6/10)</title>
+      <link>https://github.com/rtk-ai/rtk/issues/3948</link>
+      <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/3948</guid>
+      <pubDate>Tue, 08 Sep 2026 23:21:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rtk-ai/rtk">rtk-ai/rtk</a> (79541 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3948 in rtk-ai/rtk: recall: content_hash truncates SHA-256 to 48 bits and ON CONFLICT overwrites on collision</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/rtk-ai/rtk/issues/3948">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>bug</category>
       <category>good first issue</category>
+      <category>priority:low</category>
+      <category>area:security</category>
+    </item>
+    <item>
+      <title>[rtk-ai/rtk] #3953 hooks: track_tee_read records a read for Ask outcomes the user may reject (Solvability: 6/10)</title>
+      <link>https://github.com/rtk-ai/rtk/issues/3953</link>
+      <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/3953</guid>
+      <pubDate>Tue, 08 Sep 2026 23:22:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rtk-ai/rtk">rtk-ai/rtk</a> (79541 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3953 in rtk-ai/rtk: hooks: track_tee_read records a read for Ask outcomes the user may reject</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test rewrite_cmd</code></p>
+<p><a href="https://github.com/rtk-ai/rtk/issues/3953">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>area:cli</category>
+      <category>priority:medium</category>
+    </item>
+    <item>
+      <title>[pymc-labs/pymc-marketing] #2977 Time-varying media notebook math is not formatted correctly (Solvability: 6/10)</title>
+      <link>https://github.com/pymc-labs/pymc-marketing/issues/2977</link>
+      <guid isPermaLink="true">https://github.com/pymc-labs/pymc-marketing/issues/2977</guid>
+      <pubDate>Tue, 08 Sep 2026 23:43:51 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/pymc-labs/pymc-marketing">pymc-labs/pymc-marketing</a> (1256 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2977 in pymc-labs/pymc-marketing: Time-varying media notebook math is not formatted correctly</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/pymc-labs/pymc-marketing/issues/2977">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>docs</category>
+      <category>good first issue</category>
+      <category>MMM</category>
+      <category>priority: low</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30024 [Good First Issue] 🌺 Add new Trivia Question 127 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30024</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30024</guid>
+      <pubDate>Tue, 08 Sep 2026 23:57:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3339 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30024 in lingdojo/kana-dojo: [Good First Issue] 🌺 Add new Trivia Question 127 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-trivia-hard.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30024">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
       <category>help wanted</category>
-      <category>agent-reported</category>
-      <category>2.14.0</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30025 [Good First Issue] 🏮 Add new Grammar Point 50 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30025</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30025</guid>
+      <pubDate>Wed, 09 Sep 2026 00:01:10 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3339 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30025 in lingdojo/kana-dojo: [Good First Issue] 🏮 Add new Grammar Point 50 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-grammar.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30025">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30026 [Good First Issue] 🏯 Add new Anime Quote 131 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30026</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30026</guid>
+      <pubDate>Wed, 09 Sep 2026 00:58:08 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3339 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30026 in lingdojo/kana-dojo: [Good First Issue] 🏯 Add new Anime Quote 131 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/anime-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30026">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30027 [Good First Issue] 🎴 Add new Video Game Quote 116 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30027</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30027</guid>
+      <pubDate>Wed, 09 Sep 2026 01:01:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3339 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30027 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Video Game Quote 116 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-videogame-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30027">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[dolthub/go-mysql-server] #3838 Add explicit metadata flag on `Collation` for binary collations (Solvability: 6/10)</title>
+      <link>https://github.com/dolthub/go-mysql-server/issues/3838</link>
+      <guid isPermaLink="true">https://github.com/dolthub/go-mysql-server/issues/3838</guid>
+      <pubDate>Wed, 09 Sep 2026 01:15:10 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/dolthub/go-mysql-server">dolthub/go-mysql-server</a> (2656 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3838 in dolthub/go-mysql-server: Add explicit metadata flag on `Collation` for binary collations</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./enginetest/queries</code></p>
+<p><a href="https://github.com/dolthub/go-mysql-server/issues/3838">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[aethersdr/AetherSDR] #5518 Publish current RF drive power in MQTT radio state (Solvability: 6/10)</title>
+      <link>https://github.com/aethersdr/AetherSDR/issues/5518</link>
+      <guid isPermaLink="true">https://github.com/aethersdr/AetherSDR/issues/5518</guid>
+      <pubDate>Wed, 09 Sep 2026 01:28:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/aethersdr/AetherSDR">aethersdr/AetherSDR</a> (218 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5518 in aethersdr/AetherSDR: Publish current RF drive power in MQTT radio state</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/aethersdr/AetherSDR/issues/5518">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>external devices</category>
+      <category>maintainer-review</category>
     </item>
     <item>
       <title>[reticlehq/reticle] #892 Nothing reaps idle reticle mcp process pairs when an editor session ends (Solvability: 6/10)</title>
@@ -78,26 +366,6 @@
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>pnpm test packages/server/src/honesty/instrumentation-gaps.test.ts</code></p>
 <p><a href="https://github.com/reticlehq/reticle/issues/895">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>agent-reported</category>
-      <category>2.14.0</category>
-    </item>
-    <item>
-      <title>[reticlehq/reticle] #896 [agent] Flow replay reports a request that is still in flight as one that never happened (Solvability: 6/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/896</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/896</guid>
-      <pubDate>Tue, 08 Sep 2026 18:53:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (451 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #896 in reticlehq/reticle: [agent] Flow replay reports a request that is still in flight as one that never happened</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/server/src/flows/flow-replay.test.ts</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/896">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -163,29 +431,6 @@
       <category>fire-weather</category>
       <category>numpy-api</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30014 [Good First Issue] 🗾 Add new False Friend Pair 38 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30014</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30014</guid>
-      <pubDate>Tue, 08 Sep 2026 18:57:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3339 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30014 in lingdojo/kana-dojo: [Good First Issue] 🗾 Add new False Friend Pair 38 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30014">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
     </item>
     <item>
       <title>[kaifcodec/user-scanner] #635 [New Module] Add email_scan module for cashapp.py (Solvability: 6/10)</title>
@@ -359,58 +604,6 @@
       <category>approved 👍</category>
     </item>
     <item>
-      <title>[floci-io/floci] #3250 [BUG] AWS-managed policies always report DefaultVersionId v1, ignoring AWS's real revision history (Solvability: 6/10)</title>
-      <link>https://github.com/floci-io/floci/issues/3250</link>
-      <guid isPermaLink="true">https://github.com/floci-io/floci/issues/3250</guid>
-      <pubDate>Tue, 08 Sep 2026 13:09:35 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/floci-io/floci">floci-io/floci</a> (23690 ⭐, Java)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3250 in floci-io/floci: [BUG] AWS-managed policies always report DefaultVersionId v1, ignoring AWS's real revision history</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/floci-io/floci/issues/3250">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Java</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>iam</category>
-    </item>
-    <item>
-      <title>[profullstack/hqtui] #58 Layout: justify/flex distribution for leftover space (Solvability: 6/10)</title>
-      <link>https://github.com/profullstack/hqtui/issues/58</link>
-      <guid isPermaLink="true">https://github.com/profullstack/hqtui/issues/58</guid>
-      <pubDate>Tue, 08 Sep 2026 13:37:46 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/profullstack/hqtui">profullstack/hqtui</a> (235 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #58 in profullstack/hqtui: Layout: justify/flex distribution for leftover space</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/hqtui/src/layout.ts</code></p>
-<p><a href="https://github.com/profullstack/hqtui/issues/58">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[profullstack/hqtui] #59 Panels: draw only some border sides (Solvability: 6/10)</title>
-      <link>https://github.com/profullstack/hqtui/issues/59</link>
-      <guid isPermaLink="true">https://github.com/profullstack/hqtui/issues/59</guid>
-      <pubDate>Tue, 08 Sep 2026 13:37:50 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/profullstack/hqtui">profullstack/hqtui</a> (235 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #59 in profullstack/hqtui: Panels: draw only some border sides</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/hqtui/src/surface.ts</code></p>
-<p><a href="https://github.com/profullstack/hqtui/issues/59">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[rtk-ai/rtk] #3940 RTK.md template ends with "Refer to CLAUDE.md for full command reference", which the default install never writes (Solvability: 6/10)</title>
       <link>https://github.com/rtk-ai/rtk/issues/3940</link>
       <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/3940</guid>
@@ -428,52 +621,6 @@
       <category>good first issue</category>
       <category>priority:low</category>
       <category>area:docs</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #29999 [Good First Issue] 🥢 Add new Japan Fact 139 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/29999</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/29999</guid>
-      <pubDate>Tue, 08 Sep 2026 14:01:17 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3337 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29999 in lingdojo/kana-dojo: [Good First Issue] 🥢 Add new Japan Fact 139 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-facts.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/29999">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30002 [Good First Issue] 🎍 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30002</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30002</guid>
-      <pubDate>Tue, 08 Sep 2026 15:01:08 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3337 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30002 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-haiku.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30002">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
     </item>
     <item>
       <title>[OpenChemistry/avogadrolibs] #2982 Needed Automation Commands (Solvability: 6/10)</title>
@@ -825,133 +972,6 @@
       <category>roadmap-v2</category>
       <category>feature</category>
       <category>P2</category>
-    </item>
-    <item>
-      <title>[maziyarpanahi/openmed] #3054 Export JSON Schemas for private-training metadata (Solvability: 6/10)</title>
-      <link>https://github.com/maziyarpanahi/openmed/issues/3054</link>
-      <guid isPermaLink="true">https://github.com/maziyarpanahi/openmed/issues/3054</guid>
-      <pubDate>Mon, 07 Sep 2026 09:31:23 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/maziyarpanahi/openmed">maziyarpanahi/openmed</a> (5254 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3054 in maziyarpanahi/openmed: Export JSON Schemas for private-training metadata</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/maziyarpanahi/openmed/issues/3054">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>roadmap-v2</category>
-      <category>feature</category>
-      <category>P2</category>
-    </item>
-    <item>
-      <title>[maziyarpanahi/openmed] #3055 Fingerprint federated update schemas without tensor values (Solvability: 6/10)</title>
-      <link>https://github.com/maziyarpanahi/openmed/issues/3055</link>
-      <guid isPermaLink="true">https://github.com/maziyarpanahi/openmed/issues/3055</guid>
-      <pubDate>Mon, 07 Sep 2026 09:31:23 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/maziyarpanahi/openmed">maziyarpanahi/openmed</a> (5254 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3055 in maziyarpanahi/openmed: Fingerprint federated update schemas without tensor values</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/maziyarpanahi/openmed/issues/3055">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>roadmap-v2</category>
-      <category>feature</category>
-      <category>P2</category>
-    </item>
-    <item>
-      <title>[libredb/libredb-studio] #610 Add a Russian README (README_ru.md), covered by the localized-README drift guard (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/610</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/610</guid>
-      <pubDate>Sun, 06 Sep 2026 21:22:31 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (429 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #610 in libredb/libredb-studio: Add a Russian README (README_ru.md), covered by the localized-README drift guard</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/helm-chart-agent.test.ts</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/610">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[code-charity/youtube] #4321 💡Full video buffer (Solvability: 6/10)</title>
-      <link>https://github.com/code-charity/youtube/issues/4321</link>
-      <guid isPermaLink="true">https://github.com/code-charity/youtube/issues/4321</guid>
-      <pubDate>Mon, 07 Sep 2026 00:24:54 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/code-charity/youtube">code-charity/youtube</a> (4565 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4321 in code-charity/youtube: 💡Full video buffer</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/code-charity/youtube/issues/4321">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Feature request</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>up-for-grabs</category>
-    </item>
-    <item>
-      <title>[SoftBlack42/StarPie] #70 项目UI改用 Windows 11 的 Fluent UI 2 (Solvability: 6/10)</title>
-      <link>https://github.com/SoftBlack42/StarPie/issues/70</link>
-      <guid isPermaLink="true">https://github.com/SoftBlack42/StarPie/issues/70</guid>
-      <pubDate>Mon, 07 Sep 2026 00:25:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/SoftBlack42/StarPie">SoftBlack42/StarPie</a> (546 ⭐, C#)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #70 in SoftBlack42/StarPie: 项目UI改用 Windows 11 的 Fluent UI 2</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/SoftBlack42/StarPie/issues/70">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C#</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[wimpysworld/deb-get] #2003 App Request: (Solvability: 6/10)</title>
-      <link>https://github.com/wimpysworld/deb-get/issues/2003</link>
-      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/2003</guid>
-      <pubDate>Sun, 06 Sep 2026 15:19:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/wimpysworld/deb-get">wimpysworld/deb-get</a> (1746 ⭐, Shell)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2003 in wimpysworld/deb-get: App Request:</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/wimpysworld/deb-get/issues/2003">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Shell</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>new package</category>
-    </item>
-    <item>
-      <title>[wimpysworld/deb-get] #2004 App Request: Cloudflare WARP (Solvability: 6/10)</title>
-      <link>https://github.com/wimpysworld/deb-get/issues/2004</link>
-      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/2004</guid>
-      <pubDate>Sun, 06 Sep 2026 18:54:11 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/wimpysworld/deb-get">wimpysworld/deb-get</a> (1746 ⭐, Shell)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2004 in wimpysworld/deb-get: App Request: Cloudflare WARP</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/wimpysworld/deb-get/issues/2004">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Shell</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>new package</category>
     </item>
   </channel>
 </rss>
