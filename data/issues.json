@@ -31,6 +31,474 @@
     "discoveredAt": "2026-09-08T20:25:58.382Z"
   },
   {
+    "id": "I_kwDOQuAx5c8AAAABQgUdHQ",
+    "number": 745,
+    "title": "No keyboard shortcut opens a new query tab",
+    "url": "https://github.com/libredb/libredb-studio/issues/745",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 474,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-09T17:19:53Z",
+    "updatedAt": "2026-09-09T17:19:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/hooks/use-tab-manager.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/hooks/use-tab-manager.ts"
+    ],
+    "summary": "Fix issue #745 in libredb/libredb-studio: No keyboard shortcut opens a new query tab",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:56.873Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABQgUhtA",
+    "number": 746,
+    "title": "No panel lists the app's keyboard shortcuts",
+    "url": "https://github.com/libredb/libredb-studio/issues/746",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 474,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-09T17:20:00Z",
+    "updatedAt": "2026-09-09T17:20:00Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/components/CommandPalette.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/components/CommandPalette.tsx",
+      "src/components/DataProfiler.tsx",
+      "src/components/QueryEditor.tsx"
+    ],
+    "summary": "Fix issue #746 in libredb/libredb-studio: No panel lists the app's keyboard shortcuts",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:54.320Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABQgUmZw",
+    "number": 747,
+    "title": "Closing a tab loses its query with no way to undo it",
+    "url": "https://github.com/libredb/libredb-studio/issues/747",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 474,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-09T17:20:07Z",
+    "updatedAt": "2026-09-09T17:20:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/hooks/use-tab-manager.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/hooks/use-tab-manager.ts"
+    ],
+    "summary": "Fix issue #747 in libredb/libredb-studio: Closing a tab loses its query with no way to undo it",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:52.557Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABQgUrjg",
+    "number": 748,
+    "title": "No way to reorder saved connections",
+    "url": "https://github.com/libredb/libredb-studio/issues/748",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 474,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-09T17:20:15Z",
+    "updatedAt": "2026-09-09T17:20:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test src/lib/types.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/lib/types.ts"
+    ],
+    "summary": "Fix issue #748 in libredb/libredb-studio: No way to reorder saved connections",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:50.797Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABQgUwxg",
+    "number": 749,
+    "title": "Pivot Table has no export",
+    "url": "https://github.com/libredb/libredb-studio/issues/749",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 474,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-09T17:20:22Z",
+    "updatedAt": "2026-09-09T17:20:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/components/PivotTable.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/components/PivotTable.tsx"
+    ],
+    "summary": "Fix issue #749 in libredb/libredb-studio: Pivot Table has no export",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:48.256Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABQgU02A",
+    "number": 750,
+    "title": "Data Profiler has no export",
+    "url": "https://github.com/libredb/libredb-studio/issues/750",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 474,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-09T17:20:29Z",
+    "updatedAt": "2026-09-09T19:47:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/components/DataProfiler.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/components/DataProfiler.tsx"
+    ],
+    "summary": "Fix issue #750 in libredb/libredb-studio: Data Profiler has no export",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:46.081Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQgqhjA",
+    "number": 30069,
+    "title": "[Good First Issue] 🀄 Add new Example Sentence 54 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30069",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3344,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-09T17:57:34Z",
+    "updatedAt": "2026-09-09T17:57:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #30069 in lingdojo/kana-dojo: [Good First Issue] 🀄 Add new Example Sentence 54 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:42.553Z"
+  },
+  {
+    "id": "I_kwDOQHh8ns8AAAABQg41fQ",
+    "number": 2957,
+    "title": "Add configurable workflow outcome sounds to the Herdr integration",
+    "url": "https://github.com/bastani-inc/atomic/issues/2957",
+    "repo": "bastani-inc/atomic",
+    "repoUrl": "https://github.com/bastani-inc/atomic",
+    "stars": 785,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-09T18:21:48Z",
+    "updatedAt": "2026-09-09T18:21:48Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/coding-agent/src/extensions/herdr/index.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/coding-agent/src/extensions/herdr/index.ts",
+      "packages/coding-agent/src/extensions/herdr/environment.ts",
+      "packages/coding-agent/src/extensions/herdr/transport.ts"
+    ],
+    "summary": "Fix issue #2957 in bastani-inc/atomic: Add configurable workflow outcome sounds to the Herdr integration",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:40.734Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQhNPJA",
+    "number": 30071,
+    "title": "[Good First Issue] 🐡 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30071",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3344,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-09T18:57:29Z",
+    "updatedAt": "2026-09-09T18:57:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-wallpaper-urls.json"
+    ],
+    "summary": "Fix issue #30071 in lingdojo/kana-dojo: [Good First Issue] 🐡 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:31.483Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQhPbyQ",
+    "number": 30072,
+    "title": "[Good First Issue] 🍛 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30072",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3344,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-09T19:01:04Z",
+    "updatedAt": "2026-09-09T19:01:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #30072 in lingdojo/kana-dojo: [Good First Issue] 🍛 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:29.025Z"
+  },
+  {
+    "id": "I_kwDOLk7sDc8AAAABQhnqbQ",
+    "number": 508,
+    "title": "Implement 'Last used' indicator on landing page",
+    "url": "https://github.com/aymericzip/intlayer/issues/508",
+    "repo": "aymericzip/intlayer",
+    "repoUrl": "https://github.com/aymericzip/intlayer",
+    "stars": 822,
+    "language": "TypeScript",
+    "labels": [
+      "javascript",
+      "good first issue",
+      "backend",
+      "app"
+    ],
+    "createdAt": "2026-09-09T19:41:30Z",
+    "updatedAt": "2026-09-09T19:50:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/backend/src/schemas/user.schema.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/backend/src/schemas/user.schema.ts"
+    ],
+    "summary": "Fix issue #508 in aymericzip/intlayer: Implement 'Last used' indicator on landing page",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:27.464Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQhw62w",
+    "number": 30073,
+    "title": "[Good First Issue] 🥟 Add new Theme: Yakuza Tattoo - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30073",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3344,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-09T19:57:32Z",
+    "updatedAt": "2026-09-09T19:57:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #30073 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new Theme: Yakuza Tattoo - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:04.909Z"
+  },
+  {
+    "id": "I_kwDOEUy9GM8AAAABQhxjeg",
+    "number": 8322,
+    "title": "Add user preference for the missing visible signature warning",
+    "url": "https://github.com/LibreSign/libresign/issues/8322",
+    "repo": "LibreSign/libresign",
+    "repoUrl": "https://github.com/LibreSign/libresign",
+    "stars": 806,
+    "language": "PHP",
+    "labels": [
+      "good first issue",
+      "backend",
+      "php",
+      "feature-request"
+    ],
+    "createdAt": "2026-09-09T19:58:39Z",
+    "updatedAt": "2026-09-09T20:03:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8322 in LibreSign/libresign: Add user preference for the missing visible signature warning",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:03.073Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQhy7cA",
+    "number": 30074,
+    "title": "[Good First Issue] 🐉 Add new Japan Fact 241 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30074",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3344,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-09T20:01:06Z",
+    "updatedAt": "2026-09-09T20:01:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #30074 in lingdojo/kana-dojo: [Good First Issue] 🐉 Add new Japan Fact 241 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:09:00.848Z"
+  },
+  {
+    "id": "I_kwDOEUy9GM8AAAABQh1_wA",
+    "number": 8324,
+    "title": "Add the visible signature warning option to user preferences",
+    "url": "https://github.com/LibreSign/libresign/issues/8324",
+    "repo": "LibreSign/libresign",
+    "repoUrl": "https://github.com/LibreSign/libresign",
+    "stars": 806,
+    "language": "PHP",
+    "labels": [
+      "good first issue",
+      "frontend",
+      "javascript",
+      "feature-request"
+    ],
+    "createdAt": "2026-09-09T20:06:22Z",
+    "updatedAt": "2026-09-09T20:06:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/views/Preferences/Preferences.vue",
+      "src/tests/views/Preferences/Preferences.spec.ts"
+    ],
+    "summary": "Fix issue #8324 in LibreSign/libresign: Add the visible signature warning option to user preferences",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-09T20:08:58.783Z"
+  },
+  {
     "id": "I_kwDOAxgDSc8AAAABQeGCfA",
     "number": 51265,
     "title": "[Python][Parquet] Reorganize Parquet reader docstrings",
@@ -89,103 +557,6 @@
     "maintainerTurnaroundDays": 0.6,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-09T15:28:59.788Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQc9g2g",
-    "number": 30054,
-    "title": "[Good First Issue] 🌋 Add new Learner Mistake 87 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30054",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3343,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-09T11:57:32Z",
-    "updatedAt": "2026-09-09T11:57:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30054 in lingdojo/kana-dojo: [Good First Issue] 🌋 Add new Learner Mistake 87 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T15:28:59.145Z"
-  },
-  {
-    "id": "I_kwDOAAe_f88AAAABQc9itQ",
-    "number": 158842,
-    "title": "Classify exceptions while handling caught client http traffic",
-    "url": "https://github.com/elastic/elasticsearch/issues/158842",
-    "repo": "elastic/elasticsearch",
-    "repoUrl": "https://github.com/elastic/elasticsearch",
-    "stars": 77899,
-    "language": "Java",
-    "labels": [
-      "good first issue",
-      ":Distributed/Distributed",
-      "Team:Distributed"
-    ],
-    "createdAt": "2026-09-09T11:57:34Z",
-    "updatedAt": "2026-09-09T11:58:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #158842 in elastic/elasticsearch: Classify exceptions while handling caught client http traffic",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T15:28:57.821Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQc_yNA",
-    "number": 30056,
-    "title": "[Good First Issue] 🐉 Add new Wallpaper URL #3 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30056",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3343,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-09T12:01:11Z",
-    "updatedAt": "2026-09-09T12:01:18Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-wallpaper-urls.json"
-    ],
-    "summary": "Fix issue #30056 in lingdojo/kana-dojo: [Good First Issue] 🐉 Add new Wallpaper URL #3 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T15:28:30.629Z"
   },
   {
     "id": "I_kwDOSKnNa88AAAABQdGFbQ",
@@ -250,70 +621,6 @@
     "discoveredAt": "2026-09-09T15:28:23.345Z"
   },
   {
-    "id": "I_kwDOSKnNa88AAAABQdGMWA",
-    "number": 2665,
-    "title": "Dataset and experiment row runs record only a final value, with no execution trace",
-    "url": "https://github.com/future-agi/future-agi/issues/2665",
-    "repo": "future-agi/future-agi",
-    "repoUrl": "https://github.com/future-agi/future-agi",
-    "stars": 1964,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "backend",
-      "datasets"
-    ],
-    "createdAt": "2026-09-09T12:11:42Z",
-    "updatedAt": "2026-09-09T12:11:42Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2665 in future-agi/future-agi: Dataset and experiment row runs record only a final value, with no execution trace",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T15:28:17.561Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQdj5Hw",
-    "number": 30058,
-    "title": "[Good First Issue] 🍛 Add new Theme: Moss Temple - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30058",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3343,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-09T12:57:32Z",
-    "updatedAt": "2026-09-09T12:57:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-themes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-themes.json"
-    ],
-    "summary": "Fix issue #30058 in lingdojo/kana-dojo: [Good First Issue] 🍛 Add new Theme: Moss Temple - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T15:28:11.297Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABQdmhag",
     "number": 30059,
     "title": "[Good First Issue] 🍜 Add new Japan Fact 148 - Beginner-Friendly Open-source Contribution",
@@ -348,34 +655,6 @@
     "discoveredAt": "2026-09-09T15:28:09.999Z"
   },
   {
-    "id": "I_kwDOEAOWAs8AAAABQeHycw",
-    "number": 6625,
-    "title": "Contact Form Submission - Mistake (Advanced - Persistent Data Structures )",
-    "url": "https://github.com/cpinitiative/usaco-guide/issues/6625",
-    "repo": "cpinitiative/usaco-guide",
-    "repoUrl": "https://github.com/cpinitiative/usaco-guide",
-    "stars": 1850,
-    "language": "MDX",
-    "labels": [
-      "good first issue",
-      "content"
-    ],
-    "createdAt": "2026-09-09T13:47:34Z",
-    "updatedAt": "2026-09-09T14:28:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #6625 in cpinitiative/usaco-guide: Contact Form Submission - Mistake (Advanced - Persistent Data Structures )",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-09T15:28:08.641Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABQeOzGA",
     "number": 30060,
     "title": "[Good First Issue] 🍜 Add new Japanese Proverb 111 - Beginner-Friendly Open-source Contribution",
@@ -408,70 +687,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-09T15:28:04.753Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQeRc5w",
-    "number": 30061,
-    "title": "[Good First Issue] 🌺 Add new Grammar Point 105 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30061",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3343,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-09T14:01:05Z",
-    "updatedAt": "2026-09-09T14:01:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-grammar.json"
-    ],
-    "summary": "Fix issue #30061 in lingdojo/kana-dojo: [Good First Issue] 🌺 Add new Grammar Point 105 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T15:28:03.373Z"
-  },
-  {
-    "id": "I_kwDOFcy_JM8AAAABQeud_g",
-    "number": 10710,
-    "title": "Clean up stale author and HubSpot form leftovers in the docs app",
-    "url": "https://github.com/tldraw/tldraw/issues/10710",
-    "repo": "tldraw/tldraw",
-    "repoUrl": "https://github.com/tldraw/tldraw",
-    "stars": 50224,
-    "language": "TypeScript",
-    "labels": [
-      "docs",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-09T14:40:38Z",
-    "updatedAt": "2026-09-09T15:07:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test apps/dotcom/sync-worker/src/authorizeFileRecord.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "apps/dotcom/sync-worker/src/authorizeFileRecord.test.ts",
-      "apps/dotcom/sync-worker/src/authorizeFileRecord.ts",
-      "packages/mentions/src/comment-author.ts"
-    ],
-    "summary": "Fix issue #10710 in tldraw/tldraw: Clean up stale author and HubSpot form leftovers in the docs app",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T15:28:01.931Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABQe6EqQ",
@@ -624,194 +839,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-09T10:17:53.280Z"
-  },
-  {
-    "id": "I_kwDOPnhAy88AAAABQaerMQ",
-    "number": 1133,
-    "title": "Mine Rust text-processing projects for ideas worth porting into our tokenizers",
-    "url": "https://github.com/serenedb/serenedb/issues/1133",
-    "repo": "serenedb/serenedb",
-    "repoUrl": "https://github.com/serenedb/serenedb",
-    "stars": 719,
-    "language": "C++",
-    "labels": [
-      "good first issue",
-      "feature",
-      "student-task"
-    ],
-    "createdAt": "2026-09-09T07:36:30Z",
-    "updatedAt": "2026-09-09T09:19:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1133 in serenedb/serenedb: Mine Rust text-processing projects for ideas worth porting into our tokenizers",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T10:17:42.030Z"
-  },
-  {
-    "id": "I_kwDOPnhAy88AAAABQasnNQ",
-    "number": 1135,
-    "title": "Snowball stemming is slow: generate a fast implementation from the .sbl grammars instead of using their C",
-    "url": "https://github.com/serenedb/serenedb/issues/1135",
-    "repo": "serenedb/serenedb",
-    "repoUrl": "https://github.com/serenedb/serenedb",
-    "stars": 719,
-    "language": "C++",
-    "labels": [
-      "good first issue",
-      "feature",
-      "perf",
-      "student-task"
-    ],
-    "createdAt": "2026-09-09T07:59:19Z",
-    "updatedAt": "2026-09-09T09:19:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "third_party/snowball/go/among.go",
-      "third_party/snowball/java/org/tartarus/snowball/Among.java",
-      "third_party/snowball/python/snowballstemmer/among.py"
-    ],
-    "summary": "Fix issue #1135 in serenedb/serenedb: Snowball stemming is slow: generate a fast implementation from the .sbl grammars instead of using their C",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T10:17:26.872Z"
-  },
-  {
-    "id": "I_kwDOPnhAy88AAAABQayhog",
-    "number": 1136,
-    "title": "ASCII fast paths for the ICU-backed word segmentation and for sentence segmentation",
-    "url": "https://github.com/serenedb/serenedb/issues/1136",
-    "repo": "serenedb/serenedb",
-    "repoUrl": "https://github.com/serenedb/serenedb",
-    "stars": 719,
-    "language": "C++",
-    "labels": [
-      "good first issue",
-      "feature",
-      "perf",
-      "student-task"
-    ],
-    "createdAt": "2026-09-09T08:08:51Z",
-    "updatedAt": "2026-09-09T09:19:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1136 in serenedb/serenedb: ASCII fast paths for the ICU-backed word segmentation and for sentence segmentation",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T10:17:14.389Z"
-  },
-  {
-    "id": "I_kwDOPnhAy88AAAABQbPtzg",
-    "number": 1137,
-    "title": "Index Euclidean geometry (non-geographic CRS) on multi-dimensional curve terms",
-    "url": "https://github.com/serenedb/serenedb/issues/1137",
-    "repo": "serenedb/serenedb",
-    "repoUrl": "https://github.com/serenedb/serenedb",
-    "stars": 719,
-    "language": "C++",
-    "labels": [
-      "good first issue",
-      "feature",
-      "student-task"
-    ],
-    "createdAt": "2026-09-09T08:55:17Z",
-    "updatedAt": "2026-09-09T09:19:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1137 in serenedb/serenedb: Index Euclidean geometry (non-geographic CRS) on multi-dimensional curve terms",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T10:17:03.067Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQbTEfQ",
-    "number": 30047,
-    "title": "[Good First Issue] 🍡 Add new Video Game Quote 48 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30047",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3342,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-09T09:01:00Z",
-    "updatedAt": "2026-09-09T09:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30047 in lingdojo/kana-dojo: [Good First Issue] 🍡 Add new Video Game Quote 48 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T10:16:50.649Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQb15QA",
-    "number": 30048,
-    "title": "[Good First Issue] 🦊 Add new Japanese Idiom 86 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30048",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3342,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-09T09:57:28Z",
-    "updatedAt": "2026-09-09T09:57:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #30048 in lingdojo/kana-dojo: [Good First Issue] 🦊 Add new Japanese Idiom 86 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T10:16:44.669Z"
   },
   {
     "id": "I_kwDOLFxj-s8AAAABQWozPg",
@@ -1458,36 +1485,6 @@
     "discoveredAt": "2026-09-08T10:13:42.687Z"
   },
   {
-    "id": "I_kwDORponss8AAAABQI0MmA",
-    "number": 97,
-    "title": "Say when the GNSS outlier gate is too far from firing to reject anything",
-    "url": "https://github.com/manankharwar/fusioncore/issues/97",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 348,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-07T18:25:49Z",
-    "updatedAt": "2026-09-07T18:25:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tools/nis_from_bag.py",
-      "fusioncore_ros/src/fusion_node.cpp",
-      "fusioncore_core/src/fusioncore.cpp"
-    ],
-    "summary": "Fix issue #97 in manankharwar/fusioncore: Say when the GNSS outlier gate is too far from firing to reject anything",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T20:53:19.941Z"
-  },
-  {
     "id": "I_kwDORponss8AAAABQI0ZZg",
     "number": 98,
     "title": "Separate the magnetometer's mounting rotation from magnetic declination",
@@ -1601,37 +1598,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T16:47:37.102Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQD4Fjw",
-    "number": 3044,
-    "title": "Add golden fixtures for agent run-summary serialization",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3044",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:12Z",
-    "updatedAt": "2026-09-07T09:31:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3044 in maziyarpanahi/openmed: Add golden fixtures for agent run-summary serialization",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:27.901Z"
   },
   {
     "id": "I_kwDOP8M_rs8AAAABQD4GHA",
@@ -2090,34 +2056,6 @@
     "discoveredAt": "2026-09-06T14:32:09.756Z"
   },
   {
-    "id": "I_kwDOA9MwhM8AAAABPddjWA",
-    "number": 9107,
-    "title": "Fix broken CONTRIBUTING.md link for “INTRODUCTION TO CREATING INTELLIJ IDEA PLUGINS”",
-    "url": "https://github.com/flutter/flutter-intellij/issues/9107",
-    "repo": "flutter/flutter-intellij",
-    "repoUrl": "https://github.com/flutter/flutter-intellij",
-    "stars": 2013,
-    "language": "Java",
-    "labels": [
-      "good-first-issue",
-      "P3"
-    ],
-    "createdAt": "2026-09-03T05:04:28Z",
-    "updatedAt": "2026-09-04T17:26:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #9107 in flutter/flutter-intellij: Fix broken CONTRIBUTING.md link for “INTRODUCTION TO CREATING INTELLIJ IDEA PLUGINS”",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T09:49:59.072Z"
-  },
-  {
     "id": "I_kwDOT-o2-c8AAAABP7L6nA",
     "number": 141,
     "title": "Robustness: recover orphaned subscription file locks; single-flight manual venue refresh",
@@ -2176,36 +2114,6 @@
     "discoveredAt": "2026-09-06T09:49:46.947Z"
   },
   {
-    "id": "I_kwDOSR1Zd88AAAABP2hM3w",
-    "number": 62,
-    "title": "[Feature/UX] Show in-player notification/toast when fetching Ytdlp videos instead of generic \"Buffering\"",
-    "url": "https://github.com/YusufB5/ASCILINE/issues/62",
-    "repo": "YusufB5/ASCILINE",
-    "repoUrl": "https://github.com/YusufB5/ASCILINE",
-    "stars": 2713,
-    "language": "JavaScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-05T14:56:39Z",
-    "updatedAt": "2026-09-05T14:56:48Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test test/test_ytdl.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "ytdl.py",
-      "stream_server.py",
-      "app.js"
-    ],
-    "summary": "Fix issue #62 in YusufB5/ASCILINE: [Feature/UX] Show in-player notification/toast when fetching Ytdlp videos instead of generic \"Buffering\"",
-    "maintainerTurnaroundDays": 0.5,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T19:40:12.924Z"
-  },
-  {
     "id": "I_kwDOMOe1_88AAAABP2nHrA",
     "number": 184,
     "title": "chore(lint): pay down the size and complexity baseline",
@@ -2234,36 +2142,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-05T19:40:11.145Z"
-  },
-  {
-    "id": "I_kwDORwMW6c8AAAABP2nKcQ",
-    "number": 201,
-    "title": "chore(lint): pay down the size and complexity baseline",
-    "url": "https://github.com/xberg-io/liter-llm/issues/201",
-    "repo": "xberg-io/liter-llm",
-    "repoUrl": "https://github.com/xberg-io/liter-llm",
-    "stars": 253,
-    "language": "Rust",
-    "labels": [
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-05T15:12:03Z",
-    "updatedAt": "2026-09-05T15:14:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test bedrock",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "crates/liter-llm/src/provider/bedrock.rs",
-      "crates/liter-llm/src/provider/anthropic.rs",
-      "crates/liter-llm/src/provider/vertex.rs"
-    ],
-    "summary": "Fix issue #201 in xberg-io/liter-llm: chore(lint): pay down the size and complexity baseline",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T19:40:08.855Z"
   },
   {
     "id": "I_kwDOD_Qo9M8AAAABP3h12A",
@@ -2661,34 +2539,6 @@
     "discoveredAt": "2026-09-03T20:14:17.751Z"
   },
   {
-    "id": "I_kwDOSzARls8AAAABPgur-A",
-    "number": 348,
-    "title": "🛡️ NDAA (Section 889) compliance field — dataset-wide rollout",
-    "url": "https://github.com/ch-bas/cctv-camera-database/issues/348",
-    "repo": "ch-bas/cctv-camera-database",
-    "repoUrl": "https://github.com/ch-bas/cctv-camera-database",
-    "stars": 243,
-    "language": "JavaScript",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-03T11:21:57Z",
-    "updatedAt": "2026-09-03T12:37:51Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test schema/camera.schema.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "schema/camera.schema.json"
-    ],
-    "summary": "Fix issue #348 in ch-bas/cctv-camera-database: 🛡️ NDAA (Section 889) compliance field — dataset-wide rollout",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-03T15:24:34.374Z"
-  },
-  {
     "id": "I_kwDOGF6Cos8AAAABPetHaw",
     "number": 200,
     "title": "Publish to Arch User Repository (AUR)",
@@ -2907,63 +2757,6 @@
     "maintainerTurnaroundDays": 0.3,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-02T15:30:07.151Z"
-  },
-  {
-    "id": "I_kwDODCLekM8AAAABPW8K5Q",
-    "number": 18394,
-    "title": "Deserialize OpenFGA `/batch_checks` with errored items properly",
-    "url": "https://github.com/OpenRailAssociation/osrd/issues/18394",
-    "repo": "OpenRailAssociation/osrd",
-    "repoUrl": "https://github.com/OpenRailAssociation/osrd",
-    "stars": 654,
-    "language": "TypeScript",
-    "labels": [
-      "kind:bug",
-      "good first issue",
-      "area:editoast"
-    ],
-    "createdAt": "2026-09-02T15:06:53Z",
-    "updatedAt": "2026-09-02T15:06:53Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #18394 in OpenRailAssociation/osrd: Deserialize OpenFGA `/batch_checks` with errored items properly",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "dev",
-    "discoveredAt": "2026-09-02T15:29:38.364Z"
-  },
-  {
-    "id": "I_kwDOUEHx5M8AAAABPQBtpA",
-    "number": 36,
-    "title": "need more  transitions and effects",
-    "url": "https://github.com/jub0t/Concat/issues/36",
-    "repo": "jub0t/Concat",
-    "repoUrl": "https://github.com/jub0t/Concat",
-    "stars": 1037,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-02T00:50:26Z",
-    "updatedAt": "2026-09-02T01:18:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #36 in jub0t/Concat: need more  transitions and effects",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-02T01:44:19.461Z"
   },
   {
     "id": "I_kwDOB5ZECs8AAAABPNnOsQ",
