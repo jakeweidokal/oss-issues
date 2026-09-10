@@ -5,7 +5,7 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 20:09:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 01:50:08 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[reticlehq/reticle] #899 [agent] A crashed React root returns nodes: 0, which reads exactly like a page that has not rendered yet (Solvability: 8/10)</title>
@@ -28,124 +28,290 @@
       <category>2.14.0</category>
     </item>
     <item>
-      <title>[libredb/libredb-studio] #745 No keyboard shortcut opens a new query tab (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/745</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/745</guid>
-      <pubDate>Wed, 09 Sep 2026 17:19:53 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (474 ⭐, TypeScript)</p>
+      <title>[lingdojo/kana-dojo] #30078 [Good First Issue] 🗻 Add new Trivia Question 79 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30078</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30078</guid>
+      <pubDate>Wed, 09 Sep 2026 21:57:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3350 ⭐, TypeScript)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #745 in libredb/libredb-studio: No keyboard shortcut opens a new query tab</p>
+<p><strong>Summary:</strong> Fix issue #30078 in lingdojo/kana-dojo: [Good First Issue] 🗻 Add new Trivia Question 79 - Beginner-Friendly Open-source Contribution</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/hooks/use-tab-manager.ts</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/745">View and Claim Issue on GitHub →</a></p>]]></description>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-trivia-easy.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30078">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>enhancement</category>
+      <category>help wanted</category>
       <category>good first issue</category>
       <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
     </item>
     <item>
-      <title>[libredb/libredb-studio] #746 No panel lists the app's keyboard shortcuts (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/746</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/746</guid>
-      <pubDate>Wed, 09 Sep 2026 17:20:00 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (474 ⭐, TypeScript)</p>
+      <title>[asimcanyagiz/Swift-Roadmap] #2 Add a small let/var example to the data types page (Solvability: 6/10)</title>
+      <link>https://github.com/asimcanyagiz/Swift-Roadmap/issues/2</link>
+      <guid isPermaLink="true">https://github.com/asimcanyagiz/Swift-Roadmap/issues/2</guid>
+      <pubDate>Wed, 09 Sep 2026 22:05:46 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/asimcanyagiz/Swift-Roadmap">asimcanyagiz/Swift-Roadmap</a> (228 ⭐, Multi-language)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #746 in libredb/libredb-studio: No panel lists the app's keyboard shortcuts</p>
+<p><strong>Summary:</strong> Fix issue #2 in asimcanyagiz/Swift-Roadmap: Add a small let/var example to the data types page</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/components/CommandPalette.tsx</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/746">View and Claim Issue on GitHub →</a></p>]]></description>
+
+<p><a href="https://github.com/asimcanyagiz/Swift-Roadmap/issues/2">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[asimcanyagiz/Swift-Roadmap] #3 Explain a missing dictionary key with a safe lookup example (Solvability: 6/10)</title>
+      <link>https://github.com/asimcanyagiz/Swift-Roadmap/issues/3</link>
+      <guid isPermaLink="true">https://github.com/asimcanyagiz/Swift-Roadmap/issues/3</guid>
+      <pubDate>Wed, 09 Sep 2026 22:05:48 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/asimcanyagiz/Swift-Roadmap">asimcanyagiz/Swift-Roadmap</a> (228 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3 in asimcanyagiz/Swift-Roadmap: Explain a missing dictionary key with a safe lookup example</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/asimcanyagiz/Swift-Roadmap/issues/3">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[asimcanyagiz/Swift-Roadmap] #4 Add an array example that also handles an empty array (Solvability: 6/10)</title>
+      <link>https://github.com/asimcanyagiz/Swift-Roadmap/issues/4</link>
+      <guid isPermaLink="true">https://github.com/asimcanyagiz/Swift-Roadmap/issues/4</guid>
+      <pubDate>Wed, 09 Sep 2026 22:05:49 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/asimcanyagiz/Swift-Roadmap">asimcanyagiz/Swift-Roadmap</a> (228 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4 in asimcanyagiz/Swift-Roadmap: Add an array example that also handles an empty array</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/asimcanyagiz/Swift-Roadmap/issues/4">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[asimcanyagiz/Swift-Roadmap] #5 Show a function with an argument label and a default parameter (Solvability: 6/10)</title>
+      <link>https://github.com/asimcanyagiz/Swift-Roadmap/issues/5</link>
+      <guid isPermaLink="true">https://github.com/asimcanyagiz/Swift-Roadmap/issues/5</guid>
+      <pubDate>Wed, 09 Sep 2026 22:05:51 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/asimcanyagiz/Swift-Roadmap">asimcanyagiz/Swift-Roadmap</a> (228 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5 in asimcanyagiz/Swift-Roadmap: Show a function with an argument label and a default parameter</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/asimcanyagiz/Swift-Roadmap/issues/5">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[asimcanyagiz/Swift-Roadmap] #6 Fix the table-of-contents links on the while loops page (Solvability: 6/10)</title>
+      <link>https://github.com/asimcanyagiz/Swift-Roadmap/issues/6</link>
+      <guid isPermaLink="true">https://github.com/asimcanyagiz/Swift-Roadmap/issues/6</guid>
+      <pubDate>Wed, 09 Sep 2026 22:05:53 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/asimcanyagiz/Swift-Roadmap">asimcanyagiz/Swift-Roadmap</a> (228 ⭐, Multi-language)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #6 in asimcanyagiz/Swift-Roadmap: Fix the table-of-contents links on the while loops page</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/asimcanyagiz/Swift-Roadmap/issues/6">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>General</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30080 [Good First Issue] 🌋 Add new Anime Quote 63 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30080</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30080</guid>
+      <pubDate>Wed, 09 Sep 2026 22:57:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3350 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30080 in lingdojo/kana-dojo: [Good First Issue] 🌋 Add new Anime Quote 63 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/anime-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30080">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>enhancement</category>
+      <category>help wanted</category>
       <category>good first issue</category>
       <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
     </item>
     <item>
-      <title>[libredb/libredb-studio] #747 Closing a tab loses its query with no way to undo it (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/747</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/747</guid>
-      <pubDate>Wed, 09 Sep 2026 17:20:07 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (474 ⭐, TypeScript)</p>
+      <title>[Writeopia/Writeopia] #803 Backend - Endpoint to receive image for header of document (Solvability: 6/10)</title>
+      <link>https://github.com/Writeopia/Writeopia/issues/803</link>
+      <guid isPermaLink="true">https://github.com/Writeopia/Writeopia/issues/803</guid>
+      <pubDate>Wed, 09 Sep 2026 23:14:43 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Writeopia/Writeopia">Writeopia/Writeopia</a> (276 ⭐, Kotlin)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #747 in libredb/libredb-studio: Closing a tab loses its query with no way to undo it</p>
+<p><strong>Summary:</strong> Fix issue #803 in Writeopia/Writeopia: Backend - Endpoint to receive image for header of document</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/hooks/use-tab-manager.ts</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/747">View and Claim Issue on GitHub →</a></p>]]></description>
+
+<p><a href="https://github.com/Writeopia/Writeopia/issues/803">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Kotlin</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>backend</category>
+    </item>
+    <item>
+      <title>[jub0t/Concat] #60 Building an Audio Asset library for Concat. (Solvability: 6/10)</title>
+      <link>https://github.com/jub0t/Concat/issues/60</link>
+      <guid isPermaLink="true">https://github.com/jub0t/Concat/issues/60</guid>
+      <pubDate>Wed, 09 Sep 2026 23:27:35 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/jub0t/Concat">jub0t/Concat</a> (1536 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #60 in jub0t/Concat: Building an Audio Asset library for Concat.</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/jub0t/Concat/issues/60">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[internetarchive/openlibrary] #13594 Explore migrating toVitest (Solvability: 6/10)</title>
+      <link>https://github.com/internetarchive/openlibrary/issues/13594</link>
+      <guid isPermaLink="true">https://github.com/internetarchive/openlibrary/issues/13594</guid>
+      <pubDate>Wed, 09 Sep 2026 23:35:00 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/internetarchive/openlibrary">internetarchive/openlibrary</a> (6666 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13594 in internetarchive/openlibrary: Explore migrating toVitest</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/unit/js/setup.js</code></p>
+<p><a href="https://github.com/internetarchive/openlibrary/issues/13594">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Module: JavaScript</category>
+      <category>Good First Issue</category>
+      <category>Theme: Testing</category>
+      <category>Theme: Development</category>
+      <category>Lead: @RayBB</category>
+      <category>javascript</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30082 [Good First Issue] 🎌 Add new Japanese Idiom 61 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30082</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30082</guid>
+      <pubDate>Wed, 09 Sep 2026 23:57:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3350 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30082 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Japanese Idiom 61 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30082">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>enhancement</category>
+      <category>help wanted</category>
       <category>good first issue</category>
       <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
     </item>
     <item>
-      <title>[libredb/libredb-studio] #748 No way to reorder saved connections (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/748</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/748</guid>
-      <pubDate>Wed, 09 Sep 2026 17:20:15 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (474 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #748 in libredb/libredb-studio: No way to reorder saved connections</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/lib/types.ts</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/748">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[libredb/libredb-studio] #749 Pivot Table has no export (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/749</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/749</guid>
-      <pubDate>Wed, 09 Sep 2026 17:20:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (474 ⭐, TypeScript)</p>
+      <title>[JeanPhilippeKernel/RendererEngine] #775 D3D12 backend: support Intel HD/UHD Windows (VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS blocked) (Solvability: 6/10)</title>
+      <link>https://github.com/JeanPhilippeKernel/RendererEngine/issues/775</link>
+      <guid isPermaLink="true">https://github.com/JeanPhilippeKernel/RendererEngine/issues/775</guid>
+      <pubDate>Wed, 09 Sep 2026 23:57:31 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/JeanPhilippeKernel/RendererEngine">JeanPhilippeKernel/RendererEngine</a> (454 ⭐, C++)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #749 in libredb/libredb-studio: Pivot Table has no export</p>
+<p><strong>Summary:</strong> Fix issue #775 in JeanPhilippeKernel/RendererEngine: D3D12 backend: support Intel HD/UHD Windows (VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS blocked)</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/components/PivotTable.tsx</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/749">View and Claim Issue on GitHub →</a></p>]]></description>
+
+<p><a href="https://github.com/JeanPhilippeKernel/RendererEngine/issues/775">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[p3d-project/persona-3-dual] #575 "Press Any Button" text is not centered (Solvability: 6/10)</title>
+      <link>https://github.com/p3d-project/persona-3-dual/issues/575</link>
+      <guid isPermaLink="true">https://github.com/p3d-project/persona-3-dual/issues/575</guid>
+      <pubDate>Thu, 10 Sep 2026 00:28:10 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/p3d-project/persona-3-dual">p3d-project/persona-3-dual</a> (230 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #575 in p3d-project/persona-3-dual: "Press Any Button" text is not centered</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/p3d-project/persona-3-dual/issues/575">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30085 [Good First Issue] 🍁 Add new False Friend Pair 110 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30085</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30085</guid>
+      <pubDate>Thu, 10 Sep 2026 00:57:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3350 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30085 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new False Friend Pair 110 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30085">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>enhancement</category>
+      <category>help wanted</category>
       <category>good first issue</category>
       <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
     </item>
     <item>
-      <title>[libredb/libredb-studio] #750 Data Profiler has no export (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/750</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/750</guid>
-      <pubDate>Wed, 09 Sep 2026 17:20:29 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (474 ⭐, TypeScript)</p>
+      <title>[lingdojo/kana-dojo] #30086 [Good First Issue] 🗻 Add new Etiquette Tip 109 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30086</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30086</guid>
+      <pubDate>Thu, 10 Sep 2026 01:01:04 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3350 ⭐, TypeScript)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #750 in libredb/libredb-studio: Data Profiler has no export</p>
+<p><strong>Summary:</strong> Fix issue #30086 in lingdojo/kana-dojo: [Good First Issue] 🗻 Add new Etiquette Tip 109 - Beginner-Friendly Open-source Contribution</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/components/DataProfiler.tsx</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/750">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30069 [Good First Issue] 🀄 Add new Example Sentence 54 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30069</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30069</guid>
-      <pubDate>Wed, 09 Sep 2026 17:57:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3344 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30069 in lingdojo/kana-dojo: [Good First Issue] 🀄 Add new Example Sentence 54 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-example-sentences.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30069">View and Claim Issue on GitHub →</a></p>]]></description>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30086">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -175,29 +341,6 @@
       <category>enhancement</category>
       <category>help wanted</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30071 [Good First Issue] 🐡 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30071</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30071</guid>
-      <pubDate>Wed, 09 Sep 2026 18:57:29 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3344 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30071 in lingdojo/kana-dojo: [Good First Issue] 🐡 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/community-wallpaper-urls.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30071">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #30072 [Good First Issue] 🍛 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
@@ -402,75 +545,6 @@
       <category>agent-playground</category>
     </item>
     <item>
-      <title>[lingdojo/kana-dojo] #30059 [Good First Issue] 🍜 Add new Japan Fact 148 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30059</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30059</guid>
-      <pubDate>Wed, 09 Sep 2026 13:01:09 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3343 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30059 in lingdojo/kana-dojo: [Good First Issue] 🍜 Add new Japan Fact 148 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-facts.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30059">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30060 [Good First Issue] 🍜 Add new Japanese Proverb 111 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30060</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30060</guid>
-      <pubDate>Wed, 09 Sep 2026 13:57:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3343 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30060 in lingdojo/kana-dojo: [Good First Issue] 🍜 Add new Japanese Proverb 111 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-proverbs.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30060">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30062 [Good First Issue] 🥟 Add new Anime Quote 139 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30062</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30062</guid>
-      <pubDate>Wed, 09 Sep 2026 14:57:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3343 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30062 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new Anime Quote 139 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/anime-quotes.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30062">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
       <title>[serenedb/serenedb] #1129 read_pdf: text and tables out of PDFs (Solvability: 6/10)</title>
       <link>https://github.com/serenedb/serenedb/issues/1129</link>
       <guid isPermaLink="true">https://github.com/serenedb/serenedb/issues/1129</guid>
@@ -633,22 +707,6 @@
       <category>good first issue</category>
       <category>area:cli</category>
       <category>priority:medium</category>
-    </item>
-    <item>
-      <title>[dolthub/go-mysql-server] #3838 Add explicit metadata flag on `Collation` for binary collations (Solvability: 6/10)</title>
-      <link>https://github.com/dolthub/go-mysql-server/issues/3838</link>
-      <guid isPermaLink="true">https://github.com/dolthub/go-mysql-server/issues/3838</guid>
-      <pubDate>Wed, 09 Sep 2026 01:15:10 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/dolthub/go-mysql-server">dolthub/go-mysql-server</a> (2656 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3838 in dolthub/go-mysql-server: Add explicit metadata flag on `Collation` for binary collations</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./enginetest/queries</code></p>
-<p><a href="https://github.com/dolthub/go-mysql-server/issues/3838">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[aethersdr/AetherSDR] #5518 Publish current RF drive power in MQTT radio state (Solvability: 6/10)</title>
@@ -899,58 +957,6 @@
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>help wanted</category>
-    </item>
-    <item>
-      <title>[apache/arrow-go] #1267 [Flight SQL] Add client-side tests for Substrait prepared statements (Solvability: 6/10)</title>
-      <link>https://github.com/apache/arrow-go/issues/1267</link>
-      <guid isPermaLink="true">https://github.com/apache/arrow-go/issues/1267</guid>
-      <pubDate>Sat, 29 Aug 2026 22:54:37 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/apache/arrow-go">apache/arrow-go</a> (401 ⭐, Assembly)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1267 in apache/arrow-go: [Flight SQL] Add client-side tests for Substrait prepared statements</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/apache/arrow-go/issues/1267">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Assembly</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[code-charity/youtube] #4326 💡Favorites (Solvability: 6/10)</title>
-      <link>https://github.com/code-charity/youtube/issues/4326</link>
-      <guid isPermaLink="true">https://github.com/code-charity/youtube/issues/4326</guid>
-      <pubDate>Tue, 08 Sep 2026 08:48:30 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/code-charity/youtube">code-charity/youtube</a> (4568 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4326 in code-charity/youtube: 💡Favorites</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/code-charity/youtube/issues/4326">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Feature request</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>up-for-grabs</category>
-    </item>
-    <item>
-      <title>[manankharwar/fusioncore] #98 Separate the magnetometer's mounting rotation from magnetic declination (Solvability: 6/10)</title>
-      <link>https://github.com/manankharwar/fusioncore/issues/98</link>
-      <guid isPermaLink="true">https://github.com/manankharwar/fusioncore/issues/98</guid>
-      <pubDate>Mon, 07 Sep 2026 18:26:18 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/manankharwar/fusioncore">manankharwar/fusioncore</a> (348 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #98 in manankharwar/fusioncore: Separate the magnetometer's mounting rotation from magnetic declination</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/manankharwar/fusioncore/issues/98">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
     </item>
   </channel>
 </rss>
