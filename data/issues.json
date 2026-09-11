@@ -1,5 +1,463 @@
 [
   {
+    "id": "I_kwDORf0_Q88AAAABQ5AEAA",
+    "number": 171,
+    "title": "Correct the v3.22 corpus label and weight attribution",
+    "url": "https://github.com/conorbronsdon/avoid-ai-writing/issues/171",
+    "repo": "conorbronsdon/avoid-ai-writing",
+    "repoUrl": "https://github.com/conorbronsdon/avoid-ai-writing",
+    "stars": 4307,
+    "language": "JavaScript",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-11T20:02:25Z",
+    "updatedAt": "2026-09-11T20:02:25Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test detector/patterns.test.js",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "detector/patterns.js"
+    ],
+    "summary": "Fix issue #171 in conorbronsdon/avoid-ai-writing: Correct the v3.22 corpus label and weight attribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:36.387Z"
+  },
+  {
+    "id": "I_kwDORf0_Q88AAAABQ5AHaQ",
+    "number": 172,
+    "title": "List mixed-register bundles in corpus output",
+    "url": "https://github.com/conorbronsdon/avoid-ai-writing/issues/172",
+    "repo": "conorbronsdon/avoid-ai-writing",
+    "repoUrl": "https://github.com/conorbronsdon/avoid-ai-writing",
+    "stars": 4307,
+    "language": "JavaScript",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-11T20:02:32Z",
+    "updatedAt": "2026-09-11T20:02:32Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test scripts/corpus.test.js",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "scripts/corpus.js"
+    ],
+    "summary": "Fix issue #172 in conorbronsdon/avoid-ai-writing: List mixed-register bundles in corpus output",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:35.858Z"
+  },
+  {
+    "id": "I_kwDOTnVpjc8AAAABQ4Xetw",
+    "number": 164,
+    "title": "`--uses` answers a silent `count=\"0\"` for a `::` selector that `--callers` resolves",
+    "url": "https://github.com/redhat-et/ripwire/issues/164",
+    "repo": "redhat-et/ripwire",
+    "repoUrl": "https://github.com/redhat-et/ripwire",
+    "stars": 1897,
+    "language": "C++",
+    "labels": [
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-11T18:39:52Z",
+    "updatedAt": "2026-09-11T18:39:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "bench/h4fixtures/go/main.go",
+      "bench/h4fixtures/java/Main.java",
+      "bench/h4fixtures/js/main.js"
+    ],
+    "summary": "Fix issue #164 in redhat-et/ripwire: `--uses` answers a silent `count=\"0\"` for a `::` selector that `--callers` resolves",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:10:00.044Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ4ghSw",
+    "number": 30194,
+    "title": "[Good First Issue] 🗾 Add new Theme: Peach Mochi - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30194",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3363,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T18:57:51Z",
+    "updatedAt": "2026-09-11T18:57:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #30194 in lingdojo/kana-dojo: [Good First Issue] 🗾 Add new Theme: Peach Mochi - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:52.742Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ4iEJw",
+    "number": 30195,
+    "title": "[Good First Issue] 🦊 Add new Japan Fact 275 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30195",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3363,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T19:01:01Z",
+    "updatedAt": "2026-09-11T19:01:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #30195 in lingdojo/kana-dojo: [Good First Issue] 🦊 Add new Japan Fact 275 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:51.463Z"
+  },
+  {
+    "id": "I_kwDODYLoI88AAAABQ4nRWw",
+    "number": 1155,
+    "title": "configureCACert sets ClientAuth, a server-side field, on the client TLS configuration",
+    "url": "https://github.com/aminueza/terraform-provider-minio/issues/1155",
+    "repo": "aminueza/terraform-provider-minio",
+    "repoUrl": "https://github.com/aminueza/terraform-provider-minio",
+    "stars": 342,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "maintenance"
+    ],
+    "createdAt": "2026-09-11T19:11:40Z",
+    "updatedAt": "2026-09-11T19:11:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./minio",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "minio/new_client.go",
+      "minio/ephemeral_sts_credentials_test.go"
+    ],
+    "summary": "Fix issue #1155 in aminueza/terraform-provider-minio: configureCACert sets ClientAuth, a server-side field, on the client TLS configuration",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:50.095Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABQ43_cw",
+    "number": 507,
+    "title": "contact_sheet hand-rolls require_positive_int three times",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/507",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 261,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-11T19:46:33Z",
+    "updatedAt": "2026-09-11T19:46:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_ffmpeg.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/test_ffmpeg.py"
+    ],
+    "summary": "Fix issue #507 in Hebbian-Robotics/hflow: contact_sheet hand-rolls require_positive_int three times",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:49.501Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABQ44RXA",
+    "number": 508,
+    "title": "VideoImportConfig hand-rolls three numeric guards, and only one of them maps straight onto a helper",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/508",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 261,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-11T19:47:08Z",
+    "updatedAt": "2026-09-11T19:47:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_video_import.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/test_video_import.py"
+    ],
+    "summary": "Fix issue #508 in Hebbian-Robotics/hflow: VideoImportConfig hand-rolls three numeric guards, and only one of them maps straight onto a helper",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:48.287Z"
+  },
+  {
+    "id": "I_kwDOCRwx6M8AAAABQ47qsA",
+    "number": 9712,
+    "title": "VersionedSqliteDb.verifyVersions masks the incompatible-version error with a native \"db not open\" error",
+    "url": "https://github.com/iTwin/itwinjs-core/issues/9712",
+    "repo": "iTwin/itwinjs-core",
+    "repoUrl": "https://github.com/iTwin/itwinjs-core",
+    "stars": 728,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue",
+      "cloud containers"
+    ],
+    "createdAt": "2026-09-11T19:53:43Z",
+    "updatedAt": "2026-09-11T19:56:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #9712 in iTwin/itwinjs-core: VersionedSqliteDb.verifyVersions masks the incompatible-version error with a native \"db not open\" error",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-11T20:09:46.964Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ49oPw",
+    "number": 30198,
+    "title": "[Good First Issue] 🏮 Add new Japanese Proverb 83 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30198",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3363,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T19:57:30Z",
+    "updatedAt": "2026-09-11T19:57:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30198 in lingdojo/kana-dojo: [Good First Issue] 🏮 Add new Japanese Proverb 83 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:41.177Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ4_Z-w",
+    "number": 30199,
+    "title": "[Good First Issue] 🍡 Add new Japanese Haiku 2 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30199",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3363,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T20:01:07Z",
+    "updatedAt": "2026-09-11T20:01:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-haiku.json"
+    ],
+    "summary": "Fix issue #30199 in lingdojo/kana-dojo: [Good First Issue] 🍡 Add new Japanese Haiku 2 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:39.836Z"
+  },
+  {
+    "id": "I_kwDORf0_Q88AAAABQ4_4ng",
+    "number": 167,
+    "title": "Refresh the PROOF self-scan snapshot and file attribution",
+    "url": "https://github.com/conorbronsdon/avoid-ai-writing/issues/167",
+    "repo": "conorbronsdon/avoid-ai-writing",
+    "repoUrl": "https://github.com/conorbronsdon/avoid-ai-writing",
+    "stars": 4307,
+    "language": "JavaScript",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-11T20:02:03Z",
+    "updatedAt": "2026-09-11T20:02:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test scripts/self-scan.js",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "scripts/self-scan.js"
+    ],
+    "summary": "Fix issue #167 in conorbronsdon/avoid-ai-writing: Refresh the PROOF self-scan snapshot and file attribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:38.511Z"
+  },
+  {
+    "id": "I_kwDORf0_Q88AAAABQ4_8Jg",
+    "number": 168,
+    "title": "Correct the plugin version sync instructions",
+    "url": "https://github.com/conorbronsdon/avoid-ai-writing/issues/168",
+    "repo": "conorbronsdon/avoid-ai-writing",
+    "repoUrl": "https://github.com/conorbronsdon/avoid-ai-writing",
+    "stars": 4307,
+    "language": "JavaScript",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-11T20:02:09Z",
+    "updatedAt": "2026-09-11T20:02:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test plugins/avoid-ai-writing/.claude-plugin/plugin.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "plugins/avoid-ai-writing/.claude-plugin/plugin.json",
+      ".codex-plugin/plugin.json"
+    ],
+    "summary": "Fix issue #168 in conorbronsdon/avoid-ai-writing: Correct the plugin version sync instructions",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:37.996Z"
+  },
+  {
+    "id": "I_kwDORf0_Q88AAAABQ4_-xA",
+    "number": 169,
+    "title": "Name references/patterns.md in pattern-count checks",
+    "url": "https://github.com/conorbronsdon/avoid-ai-writing/issues/169",
+    "repo": "conorbronsdon/avoid-ai-writing",
+    "repoUrl": "https://github.com/conorbronsdon/avoid-ai-writing",
+    "stars": 4307,
+    "language": "JavaScript",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-11T20:02:14Z",
+    "updatedAt": "2026-09-11T20:02:14Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test .github/workflows/plugin-skill-sync.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/plugin-skill-sync.yml",
+      ".github/workflows/promo-drift.yml",
+      ".ssot.yaml"
+    ],
+    "summary": "Fix issue #169 in conorbronsdon/avoid-ai-writing: Name references/patterns.md in pattern-count checks",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:37.480Z"
+  },
+  {
+    "id": "I_kwDORf0_Q88AAAABQ5AB5Q",
+    "number": 170,
+    "title": "Document required pattern-count updates for rule changes",
+    "url": "https://github.com/conorbronsdon/avoid-ai-writing/issues/170",
+    "repo": "conorbronsdon/avoid-ai-writing",
+    "repoUrl": "https://github.com/conorbronsdon/avoid-ai-writing",
+    "stars": 4307,
+    "language": "JavaScript",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-11T20:02:20Z",
+    "updatedAt": "2026-09-11T20:02:20Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test .ssot-local.yaml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".ssot-local.yaml"
+    ],
+    "summary": "Fix issue #170 in conorbronsdon/avoid-ai-writing: Document required pattern-count updates for rule changes",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T20:09:36.973Z"
+  },
+  {
     "id": "I_kwDORUqZb88AAAABQ0Ys3A",
     "number": 849,
     "title": "Recipe: minimax-m3-dpo and mistral-large-3-dpo (part of #275)",
@@ -31,39 +489,6 @@
     "discoveredAt": "2026-09-11T15:25:15.126Z"
   },
   {
-    "id": "I_kwDOPk00YM8AAAABQ0goSg",
-    "number": 3742,
-    "title": "[Enhancement]: Improve the field position or orientation while checking the Model Live Status",
-    "url": "https://github.com/vllm-project/semantic-router/issues/3742",
-    "repo": "vllm-project/semantic-router",
-    "repoUrl": "https://github.com/vllm-project/semantic-router",
-    "stars": 5736,
-    "language": "Go",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "accepted",
-      "ready-for-dev",
-      "wg/developer-experience-ecosystem"
-    ],
-    "createdAt": "2026-09-11T11:28:40Z",
-    "updatedAt": "2026-09-11T11:50:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./dashboard/frontend/src/pages",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "dashboard/frontend/src/pages/ConfigPageModelLiveVerification.tsx",
-      "dashboard/frontend/src/pages/ConfigPageModelInventoryPanel.tsx",
-      "dashboard/frontend/src/pages/ConfigPageModelsSection.module.css"
-    ],
-    "summary": "Fix issue #3742 in vllm-project/semantic-router: [Enhancement]: Improve the field position or orientation while checking the Model Live Status",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T15:25:14.082Z"
-  },
-  {
     "id": "I_kwDOQ_KVhM8AAAABQ0ring",
     "number": 3980,
     "title": "contains_unattestable_construct classifies heredocs as file-target redirects, so the /dev/null exemption misfires on << /dev/null",
@@ -92,74 +517,6 @@
     "maintainerTurnaroundDays": 2,
     "defaultBranch": "develop",
     "discoveredAt": "2026-09-11T15:25:07.179Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ0vyBw",
-    "number": 30173,
-    "title": "[Good First Issue] 🥟 Add new Japanese Proverb 10 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30173",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3357,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-11T11:57:32Z",
-    "updatedAt": "2026-09-11T11:57:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #30173 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new Japanese Proverb 10 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T15:25:06.435Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ0xobw",
-    "number": 30174,
-    "title": "[Good First Issue] 🎎 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30174",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3357,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-11T12:01:07Z",
-    "updatedAt": "2026-09-11T12:01:13Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-haiku.json"
-    ],
-    "summary": "Fix issue #30174 in lingdojo/kana-dojo: [Good First Issue] 🎎 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T15:25:05.080Z"
   },
   {
     "id": "I_kwDOHMbISc8AAAABQ02mmQ",
@@ -321,36 +678,6 @@
     "discoveredAt": "2026-09-11T15:24:59.260Z"
   },
   {
-    "id": "I_kwDOB0LueM8AAAABQ2KpMg",
-    "number": 2216,
-    "title": "Update fdc3-workbench dependencies",
-    "url": "https://github.com/finos/FDC3/issues/2216",
-    "repo": "finos/FDC3",
-    "repoUrl": "https://github.com/finos/FDC3",
-    "stars": 269,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "javascript",
-      "toolbox"
-    ],
-    "createdAt": "2026-09-11T14:32:26Z",
-    "updatedAt": "2026-09-11T14:32:26Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2216 in finos/FDC3: Update fdc3-workbench dependencies",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T15:24:57.485Z"
-  },
-  {
     "id": "I_kwDOAf6AbM8AAAABQ2MadQ",
     "number": 599,
     "title": "tracking issue for smallvec enum prototype",
@@ -414,70 +741,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-11T15:24:55.962Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ2cz-Q",
-    "number": 30183,
-    "title": "[Good First Issue] 🎍 Add new Dialect Entry 35 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30183",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3357,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-11T15:01:11Z",
-    "updatedAt": "2026-09-11T15:01:17Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #30183 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new Dialect Entry 35 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T15:24:54.633Z"
-  },
-  {
-    "id": "I_kwDOC2hWJc8AAAABQ2g8gw",
-    "number": 13537,
-    "title": "Page titles, category names, and Site Goals totals show HTML entity codes in the plain text email report",
-    "url": "https://github.com/google/site-kit-wp/issues/13537",
-    "repo": "google/site-kit-wp",
-    "repoUrl": "https://github.com/google/site-kit-wp",
-    "stars": 1393,
-    "language": "JavaScript",
-    "labels": [
-      "Type: Bug",
-      "P2",
-      "Good First Issue",
-      "PHP"
-    ],
-    "createdAt": "2026-09-11T15:08:00Z",
-    "updatedAt": "2026-09-11T15:08:00Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #13537 in google/site-kit-wp: Page titles, category names, and Site Goals totals show HTML entity codes in the plain text email report",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-11T15:24:53.297Z"
   },
   {
     "id": "I_kwDOP8M_rs8AAAABQzNQBw",
@@ -783,40 +1046,6 @@
     "discoveredAt": "2026-09-11T10:08:03.942Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABQzwIsQ",
-    "number": 30168,
-    "title": "[Good First Issue] 🀄 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30168",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3355,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-11T09:57:29Z",
-    "updatedAt": "2026-09-11T09:57:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-wallpaper-urls.json"
-    ],
-    "summary": "Fix issue #30168 in lingdojo/kana-dojo: [Good First Issue] 🀄 Add new Wallpaper URL #5 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T10:08:02.584Z"
-  },
-  {
     "id": "I_kwDOSB2L6s8AAAABQu_Xiw",
     "number": 1908,
     "title": "policy.rs: three more text renderers print through println!, so no test can read them",
@@ -844,35 +1073,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-11T01:49:15.048Z"
-  },
-  {
-    "id": "I_kwDOEUy9GM8AAAABQwE9fQ",
-    "number": 8353,
-    "title": "Migrate simple consumers away from `ValidateHelper`",
-    "url": "https://github.com/LibreSign/libresign/issues/8353",
-    "repo": "LibreSign/libresign",
-    "repoUrl": "https://github.com/LibreSign/libresign",
-    "stars": 810,
-    "language": "PHP",
-    "labels": [
-      "good first issue",
-      "backend",
-      "php"
-    ],
-    "createdAt": "2026-09-11T01:15:02Z",
-    "updatedAt": "2026-09-11T01:16:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8353 in LibreSign/libresign: Migrate simple consumers away from `ValidateHelper`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T01:48:47.331Z"
   },
   {
     "id": "I_kwDOJPu3QM8AAAABQwJQ6w",
@@ -1168,35 +1368,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-10T01:50:06.302Z"
-  },
-  {
-    "id": "I_kwDOJW3Oms8AAAABQjSUKg",
-    "number": 803,
-    "title": "Backend - Endpoint to receive image for header of document",
-    "url": "https://github.com/Writeopia/Writeopia/issues/803",
-    "repo": "Writeopia/Writeopia",
-    "repoUrl": "https://github.com/Writeopia/Writeopia",
-    "stars": 276,
-    "language": "Kotlin",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "backend"
-    ],
-    "createdAt": "2026-09-09T23:14:43Z",
-    "updatedAt": "2026-09-09T23:14:58Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #803 in Writeopia/Writeopia: Backend - Endpoint to receive image for header of document",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-10T01:50:04.633Z"
   },
   {
     "id": "I_kwDOUEHx5M8AAAABQjXmoA",
