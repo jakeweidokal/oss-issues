@@ -1,5 +1,485 @@
 [
   {
+    "id": "I_kwDORUqZb88AAAABQ0Ys3A",
+    "number": 849,
+    "title": "Recipe: minimax-m3-dpo and mistral-large-3-dpo (part of #275)",
+    "url": "https://github.com/MakazhanAlpamys/Soup/issues/849",
+    "repo": "MakazhanAlpamys/Soup",
+    "repoUrl": "https://github.com/MakazhanAlpamys/Soup",
+    "stars": 6104,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-11T11:13:06Z",
+    "updatedAt": "2026-09-11T11:13:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/soup_cli/recipes/catalog.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/soup_cli/recipes/catalog.py",
+      "tests/test_recipes.py",
+      "tests/test_v07130.py"
+    ],
+    "summary": "Fix issue #849 in MakazhanAlpamys/Soup: Recipe: minimax-m3-dpo and mistral-large-3-dpo (part of #275)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:25:15.126Z"
+  },
+  {
+    "id": "I_kwDOPk00YM8AAAABQ0goSg",
+    "number": 3742,
+    "title": "[Enhancement]: Improve the field position or orientation while checking the Model Live Status",
+    "url": "https://github.com/vllm-project/semantic-router/issues/3742",
+    "repo": "vllm-project/semantic-router",
+    "repoUrl": "https://github.com/vllm-project/semantic-router",
+    "stars": 5736,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "accepted",
+      "ready-for-dev",
+      "wg/developer-experience-ecosystem"
+    ],
+    "createdAt": "2026-09-11T11:28:40Z",
+    "updatedAt": "2026-09-11T11:50:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./dashboard/frontend/src/pages",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "dashboard/frontend/src/pages/ConfigPageModelLiveVerification.tsx",
+      "dashboard/frontend/src/pages/ConfigPageModelInventoryPanel.tsx",
+      "dashboard/frontend/src/pages/ConfigPageModelsSection.module.css"
+    ],
+    "summary": "Fix issue #3742 in vllm-project/semantic-router: [Enhancement]: Improve the field position or orientation while checking the Model Live Status",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:25:14.082Z"
+  },
+  {
+    "id": "I_kwDOQ_KVhM8AAAABQ0ring",
+    "number": 3980,
+    "title": "contains_unattestable_construct classifies heredocs as file-target redirects, so the /dev/null exemption misfires on << /dev/null",
+    "url": "https://github.com/rtk-ai/rtk/issues/3980",
+    "repo": "rtk-ai/rtk",
+    "repoUrl": "https://github.com/rtk-ai/rtk",
+    "stars": 79949,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue",
+      "priority:medium",
+      "area:security"
+    ],
+    "createdAt": "2026-09-11T11:49:49Z",
+    "updatedAt": "2026-09-11T12:44:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3980 in rtk-ai/rtk: contains_unattestable_construct classifies heredocs as file-target redirects, so the /dev/null exemption misfires on << /dev/null",
+    "maintainerTurnaroundDays": 2,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-11T15:25:07.179Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ0vyBw",
+    "number": 30173,
+    "title": "[Good First Issue] 🥟 Add new Japanese Proverb 10 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30173",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3357,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T11:57:32Z",
+    "updatedAt": "2026-09-11T11:57:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30173 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new Japanese Proverb 10 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:25:06.435Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ0xobw",
+    "number": 30174,
+    "title": "[Good First Issue] 🎎 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30174",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3357,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T12:01:07Z",
+    "updatedAt": "2026-09-11T12:01:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-haiku.json"
+    ],
+    "summary": "Fix issue #30174 in lingdojo/kana-dojo: [Good First Issue] 🎎 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:25:05.080Z"
+  },
+  {
+    "id": "I_kwDOHMbISc8AAAABQ02mmQ",
+    "number": 2014,
+    "title": "App Request: Nextcloud Talk",
+    "url": "https://github.com/wimpysworld/deb-get/issues/2014",
+    "repo": "wimpysworld/deb-get",
+    "repoUrl": "https://github.com/wimpysworld/deb-get",
+    "stars": 1748,
+    "language": "Shell",
+    "labels": [
+      "good first issue",
+      "new package"
+    ],
+    "createdAt": "2026-09-11T12:10:29Z",
+    "updatedAt": "2026-09-11T12:10:29Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2014 in wimpysworld/deb-get: App Request: Nextcloud Talk",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:25:03.777Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ1TVXg",
+    "number": 30178,
+    "title": "[Good First Issue] 🥢 Add new Grammar Point 136 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30178",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3357,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T13:01:03Z",
+    "updatedAt": "2026-09-11T13:01:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-grammar.json"
+    ],
+    "summary": "Fix issue #30178 in lingdojo/kana-dojo: [Good First Issue] 🥢 Add new Grammar Point 136 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:25:03.288Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ11Qsg",
+    "number": 30180,
+    "title": "[Good First Issue] 🍚 Add new Anime Quote 14 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30180",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3357,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T13:57:32Z",
+    "updatedAt": "2026-09-11T13:57:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #30180 in lingdojo/kana-dojo: [Good First Issue] 🍚 Add new Anime Quote 14 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:25:01.921Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ13vwQ",
+    "number": 30181,
+    "title": "[Good First Issue] 🍱 Add new Video Game Quote 26 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30181",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3357,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T14:01:44Z",
+    "updatedAt": "2026-09-11T14:01:50Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #30181 in lingdojo/kana-dojo: [Good First Issue] 🍱 Add new Video Game Quote 26 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:25:00.596Z"
+  },
+  {
+    "id": "I_kwDOCFeAzc8AAAABQ15Fbw",
+    "number": 10040,
+    "title": "De-bounce full reprocess queue error",
+    "url": "https://github.com/sigp/lighthouse/issues/10040",
+    "repo": "sigp/lighthouse",
+    "repoUrl": "https://github.com/sigp/lighthouse",
+    "stars": 3469,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "low-hanging-fruit",
+      "UX-and-logs"
+    ],
+    "createdAt": "2026-09-11T14:03:57Z",
+    "updatedAt": "2026-09-11T14:04:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #10040 in sigp/lighthouse: De-bounce full reprocess queue error",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "stable",
+    "discoveredAt": "2026-09-11T15:24:59.260Z"
+  },
+  {
+    "id": "I_kwDOB0LueM8AAAABQ2KpMg",
+    "number": 2216,
+    "title": "Update fdc3-workbench dependencies",
+    "url": "https://github.com/finos/FDC3/issues/2216",
+    "repo": "finos/FDC3",
+    "repoUrl": "https://github.com/finos/FDC3",
+    "stars": 269,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "javascript",
+      "toolbox"
+    ],
+    "createdAt": "2026-09-11T14:32:26Z",
+    "updatedAt": "2026-09-11T14:32:26Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2216 in finos/FDC3: Update fdc3-workbench dependencies",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:24:57.485Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABQ2MadQ",
+    "number": 599,
+    "title": "tracking issue for smallvec enum prototype",
+    "url": "https://github.com/servo/rust-smallvec/issues/599",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1723,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "experiment",
+      "p-high",
+      "r-refactor"
+    ],
+    "createdAt": "2026-09-11T14:35:15Z",
+    "updatedAt": "2026-09-11T14:50:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #599 in servo/rust-smallvec: tracking issue for smallvec enum prototype",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-11T15:24:56.344Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ2aoxw",
+    "number": 30182,
+    "title": "[Good First Issue] 🏯 Add new Japanese Idiom 75 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30182",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3357,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T14:57:30Z",
+    "updatedAt": "2026-09-11T14:57:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #30182 in lingdojo/kana-dojo: [Good First Issue] 🏯 Add new Japanese Idiom 75 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:24:55.962Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ2cz-Q",
+    "number": 30183,
+    "title": "[Good First Issue] 🎍 Add new Dialect Entry 35 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30183",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3357,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-11T15:01:11Z",
+    "updatedAt": "2026-09-11T15:01:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #30183 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new Dialect Entry 35 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-11T15:24:54.633Z"
+  },
+  {
+    "id": "I_kwDOC2hWJc8AAAABQ2g8gw",
+    "number": 13537,
+    "title": "Page titles, category names, and Site Goals totals show HTML entity codes in the plain text email report",
+    "url": "https://github.com/google/site-kit-wp/issues/13537",
+    "repo": "google/site-kit-wp",
+    "repoUrl": "https://github.com/google/site-kit-wp",
+    "stars": 1393,
+    "language": "JavaScript",
+    "labels": [
+      "Type: Bug",
+      "P2",
+      "Good First Issue",
+      "PHP"
+    ],
+    "createdAt": "2026-09-11T15:08:00Z",
+    "updatedAt": "2026-09-11T15:08:00Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #13537 in google/site-kit-wp: Page titles, category names, and Site Goals totals show HTML entity codes in the plain text email report",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-11T15:24:53.297Z"
+  },
+  {
     "id": "I_kwDOP8M_rs8AAAABQzNQBw",
     "number": 3094,
     "title": "Add malformed PDF and DICOM headers to multimodal preflight fixtures",
@@ -248,36 +728,6 @@
     "discoveredAt": "2026-09-11T10:08:11.994Z"
   },
   {
-    "id": "I_kwDOTHPsJc8AAAABQzRl2Q",
-    "number": 89,
-    "title": "Parse OpenSSH key=value directives when labeling LAN hosts",
-    "url": "https://github.com/heymaikol/network-doctor/issues/89",
-    "repo": "heymaikol/network-doctor",
-    "repoUrl": "https://github.com/heymaikol/network-doctor",
-    "stars": 369,
-    "language": "Go",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-11T09:05:18Z",
-    "updatedAt": "2026-09-11T09:13:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./.",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "hostdeps_test.go",
-      "internal/peer/hostile_integration_test.go",
-      "internal/simulation/challenge_hostname.go"
-    ],
-    "summary": "Fix issue #89 in heymaikol/network-doctor: Parse OpenSSH key=value directives when labeling LAN hosts",
-    "maintainerTurnaroundDays": 0.5,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T10:08:08.558Z"
-  },
-  {
     "id": "I_kwDOGk2yN88AAAABQzsqcA",
     "number": 1614,
     "title": "Bound and clean up the decompressed block cache on disk",
@@ -304,62 +754,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-11T10:08:07.397Z"
-  },
-  {
-    "id": "I_kwDOC02ug88AAAABQztaTg",
-    "number": 33,
-    "title": "Save service-message text instead of dropping it",
-    "url": "https://github.com/soxoj/telegram-bot-dumper/issues/33",
-    "repo": "soxoj/telegram-bot-dumper",
-    "repoUrl": "https://github.com/soxoj/telegram-bot-dumper",
-    "stars": 340,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-11T09:52:24Z",
-    "updatedAt": "2026-09-11T09:52:24Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest dumper.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "dumper.py",
-      "tests/test_dumper_unit.py"
-    ],
-    "summary": "Fix issue #33 in soxoj/telegram-bot-dumper: Save service-message text instead of dropping it",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:06.326Z"
-  },
-  {
-    "id": "I_kwDOC02ug88AAAABQzta8w",
-    "number": 34,
-    "title": "Describe more media types in the text history (polls, venues, dice, …)",
-    "url": "https://github.com/soxoj/telegram-bot-dumper/issues/34",
-    "repo": "soxoj/telegram-bot-dumper",
-    "repoUrl": "https://github.com/soxoj/telegram-bot-dumper",
-    "stars": 340,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-11T09:52:25Z",
-    "updatedAt": "2026-09-11T09:52:25Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest dumper.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "dumper.py",
-      "tests/test_dumper_unit.py"
-    ],
-    "summary": "Fix issue #34 in soxoj/telegram-bot-dumper: Describe more media types in the text history (polls, venues, dice, …)",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:05.240Z"
   },
   {
     "id": "I_kwDOC02ug88AAAABQztblw",
@@ -421,40 +815,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-11T10:08:02.584Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQzyF5A",
-    "number": 30169,
-    "title": "[Good First Issue] 🦑 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30169",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3355,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-11T10:01:05Z",
-    "updatedAt": "2026-09-11T10:01:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #30169 in lingdojo/kana-dojo: [Good First Issue] 🦑 Add new Community Note Line #5 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T10:08:00.784Z"
   },
   {
     "id": "I_kwDOSB2L6s8AAAABQu_Xiw",
@@ -2089,37 +2449,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-06T19:42:22.123Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABP77pAw",
-    "number": 596,
-    "title": "Add a Korean README (README_ko.md), covered by the localized-README drift guard",
-    "url": "https://github.com/libredb/libredb-studio/issues/596",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 414,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-06T10:37:50Z",
-    "updatedAt": "2026-09-06T10:37:50Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test tests/unit/helm-chart-agent.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/unit/helm-chart-agent.test.ts",
-      "tests/unit/helm-chart-auth-cookie-secure.test.ts",
-      "tests/unit/helm-chart-auth-provider.test.ts"
-    ],
-    "summary": "Fix issue #596 in libredb/libredb-studio: Add a Korean README (README_ko.md), covered by the localized-README drift guard",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T14:32:09.756Z"
   },
   {
     "id": "I_kwDOT-o2-c8AAAABP7L6nA",
