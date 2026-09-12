@@ -1,5 +1,408 @@
 [
   {
+    "id": "I_kwDOP_HjxM8AAAABQ9F66A",
+    "number": 1456,
+    "title": "Pre-compute headers and cookies for `@modify`",
+    "url": "https://github.com/wemake-services/django-modern-rest/issues/1456",
+    "repo": "wemake-services/django-modern-rest",
+    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
+    "stars": 1451,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "performance",
+      "opensource september"
+    ],
+    "createdAt": "2026-09-12T10:35:28Z",
+    "updatedAt": "2026-09-12T10:35:28Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1456 in wemake-services/django-modern-rest: Pre-compute headers and cookies for `@modify`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T14:32:57.453Z"
+  },
+  {
+    "id": "I_kwDOP_HjxM8AAAABQ9IYFg",
+    "number": 1458,
+    "title": "Support explicitly abstract controllers",
+    "url": "https://github.com/wemake-services/django-modern-rest/issues/1458",
+    "repo": "wemake-services/django-modern-rest",
+    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
+    "stars": 1451,
+    "language": "Python",
+    "labels": [
+      "feature",
+      "good first issue",
+      "help wanted",
+      "opensource september"
+    ],
+    "createdAt": "2026-09-12T10:45:06Z",
+    "updatedAt": "2026-09-12T10:45:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1458 in wemake-services/django-modern-rest: Support explicitly abstract controllers",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T14:32:55.607Z"
+  },
+  {
+    "id": "I_kwDOP_HjxM8AAAABQ9LVmQ",
+    "number": 1461,
+    "title": "Make sure that it is possible to customize `operation_id` generation",
+    "url": "https://github.com/wemake-services/django-modern-rest/issues/1461",
+    "repo": "wemake-services/django-modern-rest",
+    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
+    "stars": 1451,
+    "language": "Python",
+    "labels": [
+      "feature",
+      "good first issue",
+      "help wanted",
+      "openapi",
+      "opensource september"
+    ],
+    "createdAt": "2026-09-12T10:55:05Z",
+    "updatedAt": "2026-09-12T10:55:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1461 in wemake-services/django-modern-rest: Make sure that it is possible to customize `operation_id` generation",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T14:32:54.144Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ9MH5A",
+    "number": 30239,
+    "title": "[Good First Issue] 🐙 Add new Anime Quote 80 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30239",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3368,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-12T10:57:25Z",
+    "updatedAt": "2026-09-12T10:57:29Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #30239 in lingdojo/kana-dojo: [Good First Issue] 🐙 Add new Anime Quote 80 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:52.507Z"
+  },
+  {
+    "id": "I_kwDOAmvL-s8AAAABQ9aB5w",
+    "number": 1715,
+    "title": "Language filter does not apply immediatly",
+    "url": "https://github.com/kiwix/kiwix-apple/issues/1715",
+    "repo": "kiwix/kiwix-apple",
+    "repoUrl": "https://github.com/kiwix/kiwix-apple",
+    "stars": 778,
+    "language": "Swift",
+    "labels": [
+      "bug",
+      "iOS",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-12T11:49:01Z",
+    "updatedAt": "2026-09-12T11:49:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1715 in kiwix/kiwix-apple: Language filter does not apply immediatly",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:50.899Z"
+  },
+  {
+    "id": "I_kwDOAmvL-s8AAAABQ9bPkQ",
+    "number": 1716,
+    "title": "Discrepency in language toggle",
+    "url": "https://github.com/kiwix/kiwix-apple/issues/1716",
+    "repo": "kiwix/kiwix-apple",
+    "repoUrl": "https://github.com/kiwix/kiwix-apple",
+    "stars": 778,
+    "language": "Swift",
+    "labels": [
+      "bug",
+      "iOS",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-12T11:53:32Z",
+    "updatedAt": "2026-09-12T11:53:50Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1716 in kiwix/kiwix-apple: Discrepency in language toggle",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:49.805Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ9tb_g",
+    "number": 30246,
+    "title": "[Good First Issue] 🥢 Add new False Friend Pair 68 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30246",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3368,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-12T12:57:28Z",
+    "updatedAt": "2026-09-12T12:57:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #30246 in lingdojo/kana-dojo: [Good First Issue] 🥢 Add new False Friend Pair 68 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:47.891Z"
+  },
+  {
+    "id": "I_kwDOBavIOM8AAAABQ9tm3Q",
+    "number": 2557,
+    "title": "[DISCUSSION] small increase in memory usage after AWS SDK v2",
+    "url": "https://github.com/wal-g/wal-g/issues/2557",
+    "repo": "wal-g/wal-g",
+    "repoUrl": "https://github.com/wal-g/wal-g",
+    "stars": 4247,
+    "language": "Go",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-12T12:57:58Z",
+    "updatedAt": "2026-09-12T13:46:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2557 in wal-g/wal-g: [DISCUSSION] small increase in memory usage after AWS SDK v2",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T14:32:46.185Z"
+  },
+  {
+    "id": "I_kwDOMHq28M8AAAABQ9wd3Q",
+    "number": 2714,
+    "title": "Improve issue and PR label automation",
+    "url": "https://github.com/vllm-project/aibrix/issues/2714",
+    "repo": "vllm-project/aibrix",
+    "repoUrl": "https://github.com/vllm-project/aibrix",
+    "stars": 5084,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "kind/misc",
+      "area/cicd"
+    ],
+    "createdAt": "2026-09-12T13:07:27Z",
+    "updatedAt": "2026-09-12T13:08:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./apps/console/web/src/components/ui",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/console/web/src/components/ui/scroll-area.tsx",
+      "apps/console/web/src/components/ui/textarea.tsx"
+    ],
+    "summary": "Fix issue #2714 in vllm-project/aibrix: Improve issue and PR label automation",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:44.831Z"
+  },
+  {
+    "id": "I_kwDON7wA2c8AAAABQ922NQ",
+    "number": 744,
+    "title": "feat(agents): add \"Copy Last Response\" action in ⌘K action panel",
+    "url": "https://github.com/Xoshbin/asyar/issues/744",
+    "repo": "Xoshbin/asyar",
+    "repoUrl": "https://github.com/Xoshbin/asyar",
+    "stars": 772,
+    "language": "Rust",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "javascript"
+    ],
+    "createdAt": "2026-09-12T13:29:03Z",
+    "updatedAt": "2026-09-12T13:30:25Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test AgentChatView.test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "asyar-launcher/src/built-in-features/agents/AgentChatView.test.ts",
+      "asyar-launcher/src/built-in-features/agents/agentChatView.helpers.test.ts",
+      "asyar-launcher/src/built-in-features/agents/agentChatView.helpers.ts"
+    ],
+    "summary": "Fix issue #744 in Xoshbin/asyar: feat(agents): add \"Copy Last Response\" action in ⌘K action panel",
+    "maintainerTurnaroundDays": 2.6,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:42.726Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ9_WIA",
+    "number": 30249,
+    "title": "[Good First Issue] 🌋 Add new Example Sentence 111 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30249",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3368,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-12T13:57:27Z",
+    "updatedAt": "2026-09-12T13:57:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #30249 in lingdojo/kana-dojo: [Good First Issue] 🌋 Add new Example Sentence 111 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:40.953Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ-AoJw",
+    "number": 30250,
+    "title": "[Good First Issue] 🍱 Add new Learner Mistake 12 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30250",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3368,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-12T14:01:14Z",
+    "updatedAt": "2026-09-12T14:01:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #30250 in lingdojo/kana-dojo: [Good First Issue] 🍱 Add new Learner Mistake 12 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:39.324Z"
+  },
+  {
+    "id": "I_kwDOAFeGkM8AAAABQ-FGGA",
+    "number": 32627,
+    "title": "Core: Clipper2 in About info doesn't show version and has superflous whitespace",
+    "url": "https://github.com/FreeCAD/FreeCAD/issues/32627",
+    "repo": "FreeCAD/FreeCAD",
+    "repoUrl": "https://github.com/FreeCAD/FreeCAD",
+    "stars": 33451,
+    "language": "C++",
+    "labels": [
+      "Mod: Core",
+      "Status: Needs confirmation",
+      "Good first issue"
+    ],
+    "createdAt": "2026-09-12T14:14:57Z",
+    "updatedAt": "2026-09-12T14:15:39Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #32627 in FreeCAD/FreeCAD: Core: Clipper2 in About info doesn't show version and has superflous whitespace",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:37.569Z"
+  },
+  {
     "id": "I_kwDORz_b288AAAABQ7OAuQ",
     "number": 1059,
     "title": "[Bug] Polygonal lasso only closes on double-click, with no hint saying so",
@@ -30,74 +433,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T09:43:39.479Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ7bAPg",
-    "number": 30218,
-    "title": "[Good First Issue] ⛩️ Add new Video Game Quote 32 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30218",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T03:57:30Z",
-    "updatedAt": "2026-09-12T03:57:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30218 in lingdojo/kana-dojo: [Good First Issue] ⛩️ Add new Video Game Quote 32 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:32.771Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ7bxiw",
-    "number": 30219,
-    "title": "[Good First Issue] 🍜 Add new Japanese Idiom 55 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30219",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T04:01:02Z",
-    "updatedAt": "2026-09-12T04:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #30219 in lingdojo/kana-dojo: [Good First Issue] 🍜 Add new Japanese Idiom 55 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:30.618Z"
   },
   {
     "id": "I_kwDORz_b288AAAABQ7meLw",
@@ -162,142 +497,6 @@
     "discoveredAt": "2026-09-12T09:43:21.563Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABQ7pVTA",
-    "number": 30221,
-    "title": "[Good First Issue] 🍁 Add new Dialect Entry 6 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30221",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T04:57:33Z",
-    "updatedAt": "2026-09-12T04:57:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #30221 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new Dialect Entry 6 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:14.942Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ7qI0g",
-    "number": 30222,
-    "title": "[Good First Issue] 🍜 Add new False Friend Pair 46 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30222",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T05:01:02Z",
-    "updatedAt": "2026-09-12T05:01:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #30222 in lingdojo/kana-dojo: [Good First Issue] 🍜 Add new False Friend Pair 46 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:12.705Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ78wnQ",
-    "number": 30223,
-    "title": "[Good First Issue] 🐉 Add new Etiquette Tip 86 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30223",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T05:58:03Z",
-    "updatedAt": "2026-09-12T05:58:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #30223 in lingdojo/kana-dojo: [Good First Issue] 🐉 Add new Etiquette Tip 86 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:10.465Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ79pcA",
-    "number": 30224,
-    "title": "[Good First Issue] 🍱 Add new Learner Mistake 81 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30224",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T06:01:10Z",
-    "updatedAt": "2026-09-12T06:01:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30224 in lingdojo/kana-dojo: [Good First Issue] 🍱 Add new Learner Mistake 81 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:08.167Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABQ8OEQA",
     "number": 30226,
     "title": "[Good First Issue] 🦊 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
@@ -330,40 +529,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T09:43:05.975Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ8b-EA",
-    "number": 30228,
-    "title": "[Good First Issue] 🎌 Add new Theme: Cedar Moss - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30228",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T07:57:28Z",
-    "updatedAt": "2026-09-12T07:57:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-themes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-themes.json"
-    ],
-    "summary": "Fix issue #30228 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Theme: Cedar Moss - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:03.719Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABQ8rAlw",
@@ -432,70 +597,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T09:42:58.860Z"
-  },
-  {
-    "id": "I_kwDOP_HjxM8AAAABQ8woiQ",
-    "number": 1439,
-    "title": "Improve `re_path` default parameter schema",
-    "url": "https://github.com/wemake-services/django-modern-rest/issues/1439",
-    "repo": "wemake-services/django-modern-rest",
-    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
-    "stars": 1449,
-    "language": "Python",
-    "labels": [
-      "feature",
-      "good first issue",
-      "help wanted",
-      "openapi",
-      "opensource september"
-    ],
-    "createdAt": "2026-09-12T09:18:38Z",
-    "updatedAt": "2026-09-12T09:18:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1439 in wemake-services/django-modern-rest: Improve `re_path` default parameter schema",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-12T09:42:56.488Z"
-  },
-  {
-    "id": "I_kwDOP_HjxM8AAAABQ8y-IQ",
-    "number": 1441,
-    "title": "Support `SlugConverter` and `PathConverter` from Django in path parameters",
-    "url": "https://github.com/wemake-services/django-modern-rest/issues/1441",
-    "repo": "wemake-services/django-modern-rest",
-    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
-    "stars": 1449,
-    "language": "Python",
-    "labels": [
-      "feature",
-      "good first issue",
-      "help wanted",
-      "openapi",
-      "opensource september"
-    ],
-    "createdAt": "2026-09-12T09:28:14Z",
-    "updatedAt": "2026-09-12T09:28:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest benchmarks/tests/test_router/test_path.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "benchmarks/tests/test_router/test_path.py",
-      "dmr/openapi/objects/path_item.py",
-      "dmr/openapi/objects/paths.py"
-    ],
-    "summary": "Fix issue #1441 in wemake-services/django-modern-rest: Support `SlugConverter` and `PathConverter` from Django in path parameters",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-12T09:42:54.784Z"
   },
   {
     "id": "I_kwDOA_U_2M8AAAABQ50U3A",
@@ -584,34 +685,6 @@
     "maintainerTurnaroundDays": 3.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T01:54:33.472Z"
-  },
-  {
-    "id": "I_kwDORponss8AAAABQ594Jw",
-    "number": 115,
-    "title": "gnss.min_satellites above 4 rejects every NavSatFix fix forever, because the count is synthesised",
-    "url": "https://github.com/manankharwar/fusioncore/issues/115",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 354,
-    "language": "C++",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-11T22:28:32Z",
-    "updatedAt": "2026-09-11T22:28:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #115 in manankharwar/fusioncore: gnss.min_satellites above 4 rejects every NavSatFix fix forever, because the count is synthesised",
-    "maintainerTurnaroundDays": 0.9,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T01:54:32.235Z"
   },
   {
     "id": "I_kwDOA_U_2M8AAAABQ5-NfQ",
@@ -757,35 +830,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-11T20:09:46.964Z"
-  },
-  {
-    "id": "I_kwDORf0_Q88AAAABQ4_4ng",
-    "number": 167,
-    "title": "Refresh the PROOF self-scan snapshot and file attribution",
-    "url": "https://github.com/conorbronsdon/avoid-ai-writing/issues/167",
-    "repo": "conorbronsdon/avoid-ai-writing",
-    "repoUrl": "https://github.com/conorbronsdon/avoid-ai-writing",
-    "stars": 4307,
-    "language": "JavaScript",
-    "labels": [
-      "documentation",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-11T20:02:03Z",
-    "updatedAt": "2026-09-11T20:02:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test scripts/self-scan.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "scripts/self-scan.js"
-    ],
-    "summary": "Fix issue #167 in conorbronsdon/avoid-ai-writing: Refresh the PROOF self-scan snapshot and file attribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T20:09:38.511Z"
   },
   {
     "id": "I_kwDORUqZb88AAAABQ0Ys3A",
@@ -4186,6 +4230,62 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-08-27T20:19:23.970Z"
+  },
+  {
+    "id": "I_kwDOR0GhLs8AAAABQ9cXyA",
+    "number": 8,
+    "title": "Decode Discord /channels/ links offline",
+    "url": "https://github.com/soxoj/sharetrace/issues/8",
+    "repo": "soxoj/sharetrace",
+    "repoUrl": "https://github.com/soxoj/sharetrace",
+    "stars": 224,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-12T11:57:31Z",
+    "updatedAt": "2026-09-12T13:53:04Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_unit_modules.py",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "tests/test_unit_modules.py",
+      "tests/test_integration.py"
+    ],
+    "summary": "Fix issue #8 in soxoj/sharetrace: Decode Discord /channels/ links offline",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:49.031Z"
+  },
+  {
+    "id": "I_kwDOR0GhLs8AAAABQ9cYLg",
+    "number": 9,
+    "title": "Resolve Reddit share links (/r/<sub>/s/<token>)",
+    "url": "https://github.com/soxoj/sharetrace/issues/9",
+    "repo": "soxoj/sharetrace",
+    "repoUrl": "https://github.com/soxoj/sharetrace",
+    "stars": 224,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-12T11:57:33Z",
+    "updatedAt": "2026-09-12T11:57:33Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_unit_modules.py",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "tests/test_unit_modules.py",
+      "tests/test_integration.py"
+    ],
+    "summary": "Fix issue #9 in soxoj/sharetrace: Resolve Reddit share links (/r/<sub>/s/<token>)",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T14:32:48.470Z"
   },
   {
     "id": "I_kwDOEUy9GM8AAAABQwRaaA",
