@@ -1,5 +1,448 @@
 [
   {
+    "id": "I_kwDOMpyoqs8AAAABQM0F4A",
+    "number": 1298,
+    "title": "[Compute] NewDatumWithoutOwning returns an ordinary Datum, so Release() on it frees the caller's array with no error; its doc comment is also truncated",
+    "url": "https://github.com/apache/arrow-go/issues/1298",
+    "repo": "apache/arrow-go",
+    "repoUrl": "https://github.com/apache/arrow-go",
+    "stars": 402,
+    "language": "Assembly",
+    "labels": [
+      "Type: enhancement",
+      "good-first-issue",
+      "Type: usage"
+    ],
+    "createdAt": "2026-09-08T04:41:47Z",
+    "updatedAt": "2026-09-08T16:40:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "arrow/array/json_reader_release_error_test.go",
+      "arrow/compute/datum.go",
+      "arrow/compute/datumkind_string.go"
+    ],
+    "summary": "Fix issue #1298 in apache/arrow-go: [Compute] NewDatumWithoutOwning returns an ordinary Datum, so Release() on it frees the caller's array with no error; its doc comment is also truncated",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T19:48:47.820Z"
+  },
+  {
+    "id": "I_kwDOSOAAX88AAAABQQihlw",
+    "number": 1399,
+    "title": "chore(ci): pin third-party actions to commit SHAs in the 11 workflows that still float @v7",
+    "url": "https://github.com/caura-ai/caura/issues/1399",
+    "repo": "caura-ai/caura",
+    "repoUrl": "https://github.com/caura-ai/caura",
+    "stars": 501,
+    "language": "Python",
+    "labels": [
+      "good-first-issue",
+      "kind/breaking"
+    ],
+    "createdAt": "2026-09-08T11:21:56Z",
+    "updatedAt": "2026-09-09T11:06:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest .github/dependabot.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/dependabot.yml"
+    ],
+    "summary": "Fix issue #1399 in caura-ai/caura: chore(ci): pin third-party actions to commit SHAs in the 11 workflows that still float @v7",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T19:48:46.241Z"
+  },
+  {
+    "id": "I_kwDOSOAAX88AAAABQQiizw",
+    "number": 1400,
+    "title": "chore(ci): 16 of 24 actions/checkout steps persist the GITHUB_TOKEN into .git/config",
+    "url": "https://github.com/caura-ai/caura/issues/1400",
+    "repo": "caura-ai/caura",
+    "repoUrl": "https://github.com/caura-ai/caura",
+    "stars": 501,
+    "language": "Python",
+    "labels": [
+      "good-first-issue",
+      "kind/breaking"
+    ],
+    "createdAt": "2026-09-08T11:21:58Z",
+    "updatedAt": "2026-09-09T11:06:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1400 in caura-ai/caura: chore(ci): 16 of 24 actions/checkout steps persist the GITHUB_TOKEN into .git/config",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T19:48:44.715Z"
+  },
+  {
+    "id": "I_kwDOSOAAX88AAAABQQiptQ",
+    "number": 1401,
+    "title": "chore(deps): Dependabot watches no published client package under clients/",
+    "url": "https://github.com/caura-ai/caura/issues/1401",
+    "repo": "caura-ai/caura",
+    "repoUrl": "https://github.com/caura-ai/caura",
+    "stars": 501,
+    "language": "Python",
+    "labels": [
+      "good-first-issue",
+      "kind/breaking"
+    ],
+    "createdAt": "2026-09-08T11:22:09Z",
+    "updatedAt": "2026-09-09T11:06:57Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest .github/dependabot.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/dependabot.yml",
+      "package.json",
+      "clients/typescript/package.json"
+    ],
+    "summary": "Fix issue #1401 in caura-ai/caura: chore(deps): Dependabot watches no published client package under clients/",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T19:48:43.198Z"
+  },
+  {
+    "id": "I_kwDOSOAAX88AAAABQQirdw",
+    "number": 1402,
+    "title": "chore(deps): Dependabot's docker entry points at / — the four service Dockerfiles are never scanned",
+    "url": "https://github.com/caura-ai/caura/issues/1402",
+    "repo": "caura-ai/caura",
+    "repoUrl": "https://github.com/caura-ai/caura",
+    "stars": 501,
+    "language": "Python",
+    "labels": [
+      "good-first-issue",
+      "kind/breaking"
+    ],
+    "createdAt": "2026-09-08T11:22:11Z",
+    "updatedAt": "2026-09-09T11:06:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Docker required",
+    "quickReproCommand": "pytest .github/dependabot.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/dependabot.yml",
+      "docker-compose.yml",
+      "docker-compose.dev.yml"
+    ],
+    "summary": "Fix issue #1402 in caura-ai/caura: chore(deps): Dependabot's docker entry points at / — the four service Dockerfiles are never scanned",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T19:48:41.360Z"
+  },
+  {
+    "id": "I_kwDOSOAAX88AAAABQQitIw",
+    "number": 1403,
+    "title": "chore(ci): TypeScript client has no lint gate, while the Python client CI runs ruff",
+    "url": "https://github.com/caura-ai/caura/issues/1403",
+    "repo": "caura-ai/caura",
+    "repoUrl": "https://github.com/caura-ai/caura",
+    "stars": 501,
+    "language": "Python",
+    "labels": [
+      "good-first-issue",
+      "kind/breaking"
+    ],
+    "createdAt": "2026-09-08T11:22:13Z",
+    "updatedAt": "2026-09-09T11:06:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest .github/workflows/client-python-ci.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/client-python-ci.yml",
+      ".github/workflows/client-typescript-ci.yml",
+      "clients/typescript/package.json"
+    ],
+    "summary": "Fix issue #1403 in caura-ai/caura: chore(ci): TypeScript client has no lint gate, while the Python client CI runs ruff",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T19:48:39.740Z"
+  },
+  {
+    "id": "I_kwDOEmJ-8c8AAAABQ85MLw",
+    "number": 5274,
+    "title": "[CI][History Server] Remove the unused lint exclusion for historyserver/test by restoring the /api/cluster_status e2e tests",
+    "url": "https://github.com/ray-project/kuberay/issues/5274",
+    "repo": "ray-project/kuberay",
+    "repoUrl": "https://github.com/ray-project/kuberay",
+    "stars": 2678,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-12T09:49:23Z",
+    "updatedAt": "2026-09-12T09:49:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./.",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".golangci.yml"
+    ],
+    "summary": "Fix issue #5274 in ray-project/kuberay: [CI][History Server] Remove the unused lint exclusion for historyserver/test by restoring the /api/cluster_status e2e tests",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T19:48:38.335Z"
+  },
+  {
+    "id": "I_kwDOEmJ-8c8AAAABQ85acw",
+    "number": 5275,
+    "title": "[CI][History Server] Remove the noctx lint exclusion for historyserver/test by using context-aware HTTP and exec calls",
+    "url": "https://github.com/ray-project/kuberay/issues/5275",
+    "repo": "ray-project/kuberay",
+    "repoUrl": "https://github.com/ray-project/kuberay",
+    "stars": 2678,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-12T09:50:00Z",
+    "updatedAt": "2026-09-12T09:50:00Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./.",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".golangci.yml"
+    ],
+    "summary": "Fix issue #5275 in ray-project/kuberay: [CI][History Server] Remove the noctx lint exclusion for historyserver/test by using context-aware HTTP and exec calls",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T19:48:36.881Z"
+  },
+  {
+    "id": "I_kwDOEmJ-8c8AAAABQ86IMA",
+    "number": 5276,
+    "title": "[CI][History Server] Remove the errcheck lint exclusion by handling go-restful response write errors",
+    "url": "https://github.com/ray-project/kuberay/issues/5276",
+    "repo": "ray-project/kuberay",
+    "repoUrl": "https://github.com/ray-project/kuberay",
+    "stars": 2678,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-12T09:52:13Z",
+    "updatedAt": "2026-09-12T09:52:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./.",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".golangci.yml"
+    ],
+    "summary": "Fix issue #5276 in ray-project/kuberay: [CI][History Server] Remove the errcheck lint exclusion by handling go-restful response write errors",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T19:48:35.586Z"
+  },
+  {
+    "id": "I_kwDOEmJ-8c8AAAABQ8-h5w",
+    "number": 5277,
+    "title": "[CI][History Server] Remove the nilerr lint exclusion by fixing the os.Stat error handling in MoveSessionLogsToPrevLogs",
+    "url": "https://github.com/ray-project/kuberay/issues/5277",
+    "repo": "ray-project/kuberay",
+    "repoUrl": "https://github.com/ray-project/kuberay",
+    "stars": 2678,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-12T10:07:41Z",
+    "updatedAt": "2026-09-12T19:03:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./.",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".golangci.yml"
+    ],
+    "summary": "Fix issue #5277 in ray-project/kuberay: [CI][History Server] Remove the nilerr lint exclusion by fixing the os.Stat error handling in MoveSessionLogsToPrevLogs",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T19:48:33.979Z"
+  },
+  {
+    "id": "I_kwDOEmJ-8c8AAAABQ8-kJA",
+    "number": 5278,
+    "title": "[CI][History Server] Remove the gosec G110 lint exclusion by deleting the unused DecompressStream helper",
+    "url": "https://github.com/ray-project/kuberay/issues/5278",
+    "repo": "ray-project/kuberay",
+    "repoUrl": "https://github.com/ray-project/kuberay",
+    "stars": 2678,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-12T10:07:48Z",
+    "updatedAt": "2026-09-12T10:09:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./.",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".golangci.yml"
+    ],
+    "summary": "Fix issue #5278 in ray-project/kuberay: [CI][History Server] Remove the gosec G110 lint exclusion by deleting the unused DecompressStream helper",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T19:48:32.562Z"
+  },
+  {
+    "id": "I_kwDOEmJ-8c8AAAABQ8-lUA",
+    "number": 5279,
+    "title": "[CI][History Server] Move the remaining historyserver gosec exclusions into the permanent section with a reason",
+    "url": "https://github.com/ray-project/kuberay/issues/5279",
+    "repo": "ray-project/kuberay",
+    "repoUrl": "https://github.com/ray-project/kuberay",
+    "stars": 2678,
+    "language": "Go",
+    "labels": [
+      "enhancement",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-12T10:07:51Z",
+    "updatedAt": "2026-09-12T10:21:16Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./historyserver/pkg/historyserver",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "historyserver/pkg/historyserver/router.go",
+      "historyserver/pkg/utils/auth.go"
+    ],
+    "summary": "Fix issue #5279 in ray-project/kuberay: [CI][History Server] Move the remaining historyserver gosec exclusions into the permanent section with a reason",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-12T19:48:31.230Z"
+  },
+  {
+    "id": "I_kwDODFlWBc8AAAABQ_hTGg",
+    "number": 1255,
+    "title": "Align `DropGuard` API with upstream Rust",
+    "url": "https://github.com/Rust-for-Linux/linux/issues/1255",
+    "repo": "Rust-for-Linux/linux",
+    "repoUrl": "https://github.com/Rust-for-Linux/linux",
+    "stars": 4406,
+    "language": "C",
+    "labels": [
+      "• lib",
+      "good first issue",
+      "medium"
+    ],
+    "createdAt": "2026-09-12T18:47:04Z",
+    "updatedAt": "2026-09-12T18:47:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1255 in Rust-for-Linux/linux: Align `DropGuard` API with upstream Rust",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "rust-next",
+    "discoveredAt": "2026-09-12T19:48:29.529Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ_k5cQ",
+    "number": 30264,
+    "title": "[Good First Issue] 🏯 Add new Anime Quote 90 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30264",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3366,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-12T18:57:24Z",
+    "updatedAt": "2026-09-12T18:57:28Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #30264 in lingdojo/kana-dojo: [Good First Issue] 🏯 Add new Anime Quote 90 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T19:48:03.983Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABQ_mObw",
+    "number": 30265,
+    "title": "[Good First Issue] 🎏 Add new Video Game Quote 60 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30265",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3366,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-12T19:01:02Z",
+    "updatedAt": "2026-09-12T19:01:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #30265 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Video Game Quote 60 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-12T19:48:02.226Z"
+  },
+  {
     "id": "I_kwDOP_HjxM8AAAABQ9F66A",
     "number": 1456,
     "title": "Pre-compute headers and cookies for `@modify`",
@@ -91,132 +534,6 @@
     "discoveredAt": "2026-09-12T14:32:54.144Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABQ9MH5A",
-    "number": 30239,
-    "title": "[Good First Issue] 🐙 Add new Anime Quote 80 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30239",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T10:57:25Z",
-    "updatedAt": "2026-09-12T10:57:29Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #30239 in lingdojo/kana-dojo: [Good First Issue] 🐙 Add new Anime Quote 80 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T14:32:52.507Z"
-  },
-  {
-    "id": "I_kwDOAmvL-s8AAAABQ9aB5w",
-    "number": 1715,
-    "title": "Language filter does not apply immediatly",
-    "url": "https://github.com/kiwix/kiwix-apple/issues/1715",
-    "repo": "kiwix/kiwix-apple",
-    "repoUrl": "https://github.com/kiwix/kiwix-apple",
-    "stars": 778,
-    "language": "Swift",
-    "labels": [
-      "bug",
-      "iOS",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-12T11:49:01Z",
-    "updatedAt": "2026-09-12T11:49:24Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1715 in kiwix/kiwix-apple: Language filter does not apply immediatly",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T14:32:50.899Z"
-  },
-  {
-    "id": "I_kwDOAmvL-s8AAAABQ9bPkQ",
-    "number": 1716,
-    "title": "Discrepency in language toggle",
-    "url": "https://github.com/kiwix/kiwix-apple/issues/1716",
-    "repo": "kiwix/kiwix-apple",
-    "repoUrl": "https://github.com/kiwix/kiwix-apple",
-    "stars": 778,
-    "language": "Swift",
-    "labels": [
-      "bug",
-      "iOS",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-12T11:53:32Z",
-    "updatedAt": "2026-09-12T11:53:50Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1716 in kiwix/kiwix-apple: Discrepency in language toggle",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T14:32:49.805Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ9tb_g",
-    "number": 30246,
-    "title": "[Good First Issue] 🥢 Add new False Friend Pair 68 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30246",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T12:57:28Z",
-    "updatedAt": "2026-09-12T12:57:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #30246 in lingdojo/kana-dojo: [Good First Issue] 🥢 Add new False Friend Pair 68 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T14:32:47.891Z"
-  },
-  {
     "id": "I_kwDOBavIOM8AAAABQ9tm3Q",
     "number": 2557,
     "title": "[DISCUSSION] small increase in memory usage after AWS SDK v2",
@@ -242,68 +559,6 @@
     "maintainerTurnaroundDays": 0.4,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-12T14:32:46.185Z"
-  },
-  {
-    "id": "I_kwDOMHq28M8AAAABQ9wd3Q",
-    "number": 2714,
-    "title": "Improve issue and PR label automation",
-    "url": "https://github.com/vllm-project/aibrix/issues/2714",
-    "repo": "vllm-project/aibrix",
-    "repoUrl": "https://github.com/vllm-project/aibrix",
-    "stars": 5084,
-    "language": "Go",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "kind/misc",
-      "area/cicd"
-    ],
-    "createdAt": "2026-09-12T13:07:27Z",
-    "updatedAt": "2026-09-12T13:08:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./apps/console/web/src/components/ui",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "apps/console/web/src/components/ui/scroll-area.tsx",
-      "apps/console/web/src/components/ui/textarea.tsx"
-    ],
-    "summary": "Fix issue #2714 in vllm-project/aibrix: Improve issue and PR label automation",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T14:32:44.831Z"
-  },
-  {
-    "id": "I_kwDON7wA2c8AAAABQ922NQ",
-    "number": 744,
-    "title": "feat(agents): add \"Copy Last Response\" action in ⌘K action panel",
-    "url": "https://github.com/Xoshbin/asyar/issues/744",
-    "repo": "Xoshbin/asyar",
-    "repoUrl": "https://github.com/Xoshbin/asyar",
-    "stars": 772,
-    "language": "Rust",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "javascript"
-    ],
-    "createdAt": "2026-09-12T13:29:03Z",
-    "updatedAt": "2026-09-12T13:30:25Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test AgentChatView.test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "asyar-launcher/src/built-in-features/agents/AgentChatView.test.ts",
-      "asyar-launcher/src/built-in-features/agents/agentChatView.helpers.test.ts",
-      "asyar-launcher/src/built-in-features/agents/agentChatView.helpers.ts"
-    ],
-    "summary": "Fix issue #744 in Xoshbin/asyar: feat(agents): add \"Copy Last Response\" action in ⌘K action panel",
-    "maintainerTurnaroundDays": 2.6,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T14:32:42.726Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABQ9_WIA",
@@ -338,69 +593,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T14:32:40.953Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ-AoJw",
-    "number": 30250,
-    "title": "[Good First Issue] 🍱 Add new Learner Mistake 12 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30250",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T14:01:14Z",
-    "updatedAt": "2026-09-12T14:01:18Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30250 in lingdojo/kana-dojo: [Good First Issue] 🍱 Add new Learner Mistake 12 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T14:32:39.324Z"
-  },
-  {
-    "id": "I_kwDOAFeGkM8AAAABQ-FGGA",
-    "number": 32627,
-    "title": "Core: Clipper2 in About info doesn't show version and has superflous whitespace",
-    "url": "https://github.com/FreeCAD/FreeCAD/issues/32627",
-    "repo": "FreeCAD/FreeCAD",
-    "repoUrl": "https://github.com/FreeCAD/FreeCAD",
-    "stars": 33451,
-    "language": "C++",
-    "labels": [
-      "Mod: Core",
-      "Status: Needs confirmation",
-      "Good first issue"
-    ],
-    "createdAt": "2026-09-12T14:14:57Z",
-    "updatedAt": "2026-09-12T14:15:39Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #32627 in FreeCAD/FreeCAD: Core: Clipper2 in About info doesn't show version and has superflous whitespace",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T14:32:37.569Z"
   },
   {
     "id": "I_kwDORz_b288AAAABQ7OAuQ",
@@ -467,138 +659,6 @@
     "discoveredAt": "2026-09-12T09:43:28.230Z"
   },
   {
-    "id": "I_kwDORz_b288AAAABQ7miaQ",
-    "number": 1100,
-    "title": "feat: \"jpg to ico\" finds nothing even though the favicon tool makes ICO",
-    "url": "https://github.com/snapotter-hq/SnapOtter/issues/1100",
-    "repo": "snapotter-hq/SnapOtter",
-    "repoUrl": "https://github.com/snapotter-hq/SnapOtter",
-    "stars": 2636,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "area: frontend",
-      "community-request"
-    ],
-    "createdAt": "2026-09-12T04:46:30Z",
-    "updatedAt": "2026-09-12T04:46:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/shared/src/constants.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/shared/src/constants.ts"
-    ],
-    "summary": "Fix issue #1100 in snapotter-hq/SnapOtter: feat: \"jpg to ico\" finds nothing even though the favicon tool makes ICO",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:21.563Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ8OEQA",
-    "number": 30226,
-    "title": "[Good First Issue] 🦊 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30226",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-12T07:01:03Z",
-    "updatedAt": "2026-09-12T07:01:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #30226 in lingdojo/kana-dojo: [Good First Issue] 🦊 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:05.975Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ8rAlw",
-    "number": 30230,
-    "title": "[Good First Issue] 🍥 Add new Japanese Proverb 13 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30230",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T08:57:32Z",
-    "updatedAt": "2026-09-12T08:57:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #30230 in lingdojo/kana-dojo: [Good First Issue] 🍥 Add new Japanese Proverb 13 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:01.439Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ8r7hw",
-    "number": 30231,
-    "title": "[Good First Issue] 🍤 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30231",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3364,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T09:01:06Z",
-    "updatedAt": "2026-09-12T09:01:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-haiku.json"
-    ],
-    "summary": "Fix issue #30231 in lingdojo/kana-dojo: [Good First Issue] 🍤 Add new Japanese Haiku 10 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:42:58.860Z"
-  },
-  {
     "id": "I_kwDOA_U_2M8AAAABQ50U3A",
     "number": 2042,
     "title": "Some documentation is missing",
@@ -627,35 +687,6 @@
     "maintainerTurnaroundDays": 3.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T01:54:36.340Z"
-  },
-  {
-    "id": "I_kwDORponss8AAAABQ58KoA",
-    "number": 114,
-    "title": "gnss.recovery_timeout_s is declared, documented and configurable, and the filter never reads it",
-    "url": "https://github.com/manankharwar/fusioncore/issues/114",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 354,
-    "language": "C++",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-11T22:24:06Z",
-    "updatedAt": "2026-09-11T22:43:25Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "fusioncore_datasets/config/nclt_fusioncore.yaml",
-      "tools/check_config_params.py"
-    ],
-    "summary": "Fix issue #114 in manankharwar/fusioncore: gnss.recovery_timeout_s is declared, documented and configurable, and the filter never reads it",
-    "maintainerTurnaroundDays": 0.9,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T01:54:35.095Z"
   },
   {
     "id": "I_kwDOA_U_2M8AAAABQ58ZFQ",
