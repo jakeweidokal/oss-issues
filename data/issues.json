@@ -1,71 +1,342 @@
 [
   {
-    "id": "I_kwDOOwsln88AAAABQ_2aQQ",
-    "number": 30266,
-    "title": "[Good First Issue] 🎴 Add new Japanese Idiom 98 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30266",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
+    "id": "I_kwDOQHh8ns8AAAABRDHUIA",
+    "number": 3025,
+    "title": "Support background shells in subagents and show them in the parent session's /tasks",
+    "url": "https://github.com/bastani-inc/atomic/issues/3025",
+    "repo": "bastani-inc/atomic",
+    "repoUrl": "https://github.com/bastani-inc/atomic",
+    "stars": 795,
     "language": "TypeScript",
     "labels": [
       "enhancement",
       "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
+      "good first issue"
     ],
-    "createdAt": "2026-09-12T19:57:31Z",
-    "updatedAt": "2026-09-12T19:57:35Z",
+    "createdAt": "2026-09-13T08:32:09Z",
+    "updatedAt": "2026-09-13T08:32:09Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "quickReproCommand": "pnpm test",
     "solvabilityScore": 6,
     "keyFiles": [
-      "community/content/japanese-idioms.json"
+      "src/index"
     ],
-    "summary": "Fix issue #30266 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Japanese Idiom 98 - Beginner-Friendly Open-source Contribution",
+    "summary": "Fix issue #3025 in bastani-inc/atomic: Support background shells in subagents and show them in the parent session's /tasks",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:56.268Z"
+    "discoveredAt": "2026-09-13T10:45:19.376Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABRAJsoQ",
-    "number": 30270,
-    "title": "[Good First Issue] 🥟 Add new False Friend Pair 43 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30270",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
+    "id": "I_kwDOP_HjxM8AAAABRDNx4w",
+    "number": 1486,
+    "title": "`OpenAPI.json_schema_dialect` is never set",
+    "url": "https://github.com/wemake-services/django-modern-rest/issues/1486",
+    "repo": "wemake-services/django-modern-rest",
+    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
+    "stars": 1451,
+    "language": "Python",
     "labels": [
-      "enhancement",
-      "help wanted",
+      "feature",
       "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
+      "help wanted",
+      "openapi",
+      "opensource september"
     ],
-    "createdAt": "2026-09-12T20:57:31Z",
-    "updatedAt": "2026-09-12T20:57:35Z",
+    "createdAt": "2026-09-13T09:05:03Z",
+    "updatedAt": "2026-09-13T09:05:03Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "quickReproCommand": "pytest",
     "solvabilityScore": 6,
     "keyFiles": [
-      "community/content/japanese-false-friends.json"
+      "src/index"
     ],
-    "summary": "Fix issue #30270 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new False Friend Pair 43 - Beginner-Friendly Open-source Contribution",
+    "summary": "Fix issue #1486 in wemake-services/django-modern-rest: `OpenAPI.json_schema_dialect` is never set",
     "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:54.720Z"
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-13T10:45:10.184Z"
+  },
+  {
+    "id": "I_kwDOP_HjxM8AAAABRDOfPQ",
+    "number": 1487,
+    "title": "Make `ConfigMerge` class customizable",
+    "url": "https://github.com/wemake-services/django-modern-rest/issues/1487",
+    "repo": "wemake-services/django-modern-rest",
+    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
+    "stars": 1451,
+    "language": "Python",
+    "labels": [
+      "feature",
+      "good first issue",
+      "help wanted",
+      "openapi",
+      "opensource september"
+    ],
+    "createdAt": "2026-09-13T09:08:22Z",
+    "updatedAt": "2026-09-13T09:08:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1487 in wemake-services/django-modern-rest: Make `ConfigMerge` class customizable",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-13T10:45:08.557Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABRDSe6A",
+    "number": 603,
+    "title": "run `may_dangle` benchmarks on v2",
+    "url": "https://github.com/servo/rust-smallvec/issues/603",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1728,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-high",
+      "r-performance"
+    ],
+    "createdAt": "2026-09-13T09:27:20Z",
+    "updatedAt": "2026-09-13T09:42:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #603 in servo/rust-smallvec: run `may_dangle` benchmarks on v2",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-13T10:45:07.122Z"
+  },
+  {
+    "id": "I_kwDOP_HjxM8AAAABRDSkMA",
+    "number": 1489,
+    "title": "Support custom `format` options, add more pre-defined formats",
+    "url": "https://github.com/wemake-services/django-modern-rest/issues/1489",
+    "repo": "wemake-services/django-modern-rest",
+    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
+    "stars": 1451,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "openapi",
+      "opensource september"
+    ],
+    "createdAt": "2026-09-13T09:27:30Z",
+    "updatedAt": "2026-09-13T09:27:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_unit/test_plugins/test_pydantic/test_pydantic_snapshots.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/test_unit/test_plugins/test_pydantic/test_pydantic_snapshots.py"
+    ],
+    "summary": "Fix issue #1489 in wemake-services/django-modern-rest: Support custom `format` options, add more pre-defined formats",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-13T10:45:06.508Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABRDTXug",
+    "number": 604,
+    "title": "run `specialization` benchmarks on v2",
+    "url": "https://github.com/servo/rust-smallvec/issues/604",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1728,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-medium",
+      "r-performance"
+    ],
+    "createdAt": "2026-09-13T09:31:07Z",
+    "updatedAt": "2026-09-13T09:31:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test specialization",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/specialization.rs"
+    ],
+    "summary": "Fix issue #604 in servo/rust-smallvec: run `specialization` benchmarks on v2",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-13T10:45:05.108Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABRDU6rQ",
+    "number": 605,
+    "title": "add `--no-default-features` steps to CI",
+    "url": "https://github.com/servo/rust-smallvec/issues/605",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1728,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-high",
+      "r-ci"
+    ],
+    "createdAt": "2026-09-13T09:36:43Z",
+    "updatedAt": "2026-09-13T09:36:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test rust",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/rust.yml"
+    ],
+    "summary": "Fix issue #605 in servo/rust-smallvec: add `--no-default-features` steps to CI",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-13T10:45:04.477Z"
+  },
+  {
+    "id": "I_kwDOP_HjxM8AAAABRDW2RQ",
+    "number": 1490,
+    "title": "Fix missing `Schema` attributes in `load_schema`",
+    "url": "https://github.com/wemake-services/django-modern-rest/issues/1490",
+    "repo": "wemake-services/django-modern-rest",
+    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
+    "stars": 1451,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "openapi",
+      "opensource september"
+    ],
+    "createdAt": "2026-09-13T09:44:53Z",
+    "updatedAt": "2026-09-13T09:45:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest django_test_app/server/apps/model_cursor/schema.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "django_test_app/server/apps/model_cursor/schema.py",
+      "dmr/management/commands/dmr_export_schema.py",
+      "dmr/openapi/generators/schema.py"
+    ],
+    "summary": "Fix issue #1490 in wemake-services/django-modern-rest: Fix missing `Schema` attributes in `load_schema`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-13T10:45:03.947Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABRDXSow",
+    "number": 606,
+    "title": "fix doc warning on v1",
+    "url": "https://github.com/servo/rust-smallvec/issues/606",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1728,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-medium",
+      "r-docs"
+    ],
+    "createdAt": "2026-09-13T09:46:44Z",
+    "updatedAt": "2026-09-13T09:46:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test smallvec_ops",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "fuzz/fuzz_targets/smallvec_ops.rs",
+      "src/rawsmallvec.rs"
+    ],
+    "summary": "Fix issue #606 in servo/rust-smallvec: fix doc warning on v1",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-13T10:45:02.572Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABRDXnyg",
+    "number": 607,
+    "title": "bump v1 version to `v1.16.2`",
+    "url": "https://github.com/servo/rust-smallvec/issues/607",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1728,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "p-medium",
+      "r-policy"
+    ],
+    "createdAt": "2026-09-13T09:48:06Z",
+    "updatedAt": "2026-09-13T09:48:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #607 in servo/rust-smallvec: bump v1 version to `v1.16.2`",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-13T10:45:01.962Z"
+  },
+  {
+    "id": "I_kwDOP_HjxM8AAAABRDcWAg",
+    "number": 1491,
+    "title": "Fix `Reference | Schema` conflict in our OpenAPI definitions",
+    "url": "https://github.com/wemake-services/django-modern-rest/issues/1491",
+    "repo": "wemake-services/django-modern-rest",
+    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
+    "stars": 1451,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "openapi",
+      "opensource september"
+    ],
+    "createdAt": "2026-09-13T10:07:57Z",
+    "updatedAt": "2026-09-13T10:14:48Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest django_test_app/server/apps/model_cursor/schema.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "django_test_app/server/apps/model_cursor/schema.py",
+      "dmr/management/commands/dmr_export_schema.py",
+      "dmr/openapi/generators/schema.py"
+    ],
+    "summary": "Fix issue #1491 in wemake-services/django-modern-rest: Fix `Reference | Schema` conflict in our OpenAPI definitions",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-13T10:45:01.459Z"
   },
   {
     "id": "I_kwDOAacoPM8AAAABRAZn2g",
@@ -98,210 +369,6 @@
     "discoveredAt": "2026-09-13T01:46:53.145Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABRAcdNw",
-    "number": 30272,
-    "title": "[Good First Issue] 🐉 Add new Example Sentence 58 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30272",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T21:57:32Z",
-    "updatedAt": "2026-09-12T21:57:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-example-sentences.json"
-    ],
-    "summary": "Fix issue #30272 in lingdojo/kana-dojo: [Good First Issue] 🐉 Add new Example Sentence 58 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:47.932Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRAdWVw",
-    "number": 30274,
-    "title": "[Good First Issue] 🍘 Add new Learner Mistake 112 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30274",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T22:01:05Z",
-    "updatedAt": "2026-09-12T22:01:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30274 in lingdojo/kana-dojo: [Good First Issue] 🍘 Add new Learner Mistake 112 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:46.431Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRAum_g",
-    "number": 30275,
-    "title": "[Good First Issue] 🍜 Add new Wallpaper URL #3 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30275",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-12T22:57:30Z",
-    "updatedAt": "2026-09-12T22:57:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-wallpaper-urls.json"
-    ],
-    "summary": "Fix issue #30275 in lingdojo/kana-dojo: [Good First Issue] 🍜 Add new Wallpaper URL #3 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:44.795Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRAviFw",
-    "number": 30276,
-    "title": "[Good First Issue] 🎌 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30276",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-12T23:01:07Z",
-    "updatedAt": "2026-09-12T23:01:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #30276 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:43.264Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRA_8dQ",
-    "number": 30277,
-    "title": "[Good First Issue] 🍤 Add new Theme: Digital Oni - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30277",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T23:57:32Z",
-    "updatedAt": "2026-09-12T23:57:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-themes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-themes.json"
-    ],
-    "summary": "Fix issue #30277 in lingdojo/kana-dojo: [Good First Issue] 🍤 Add new Theme: Digital Oni - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:41.532Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRBBBxw",
-    "number": 30278,
-    "title": "[Good First Issue] 🐙 Add new Japan Fact 244 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30278",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-13T00:01:11Z",
-    "updatedAt": "2026-09-13T00:01:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-facts.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #30278 in lingdojo/kana-dojo: [Good First Issue] 🐙 Add new Japan Fact 244 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:39.905Z"
-  },
-  {
     "id": "I_kwDOB11tyM8AAAABRBPq3w",
     "number": 4340,
     "title": "\"Show time remaining with reference to playback speed\" -option stopped working🐞",
@@ -330,104 +397,6 @@
     "maintainerTurnaroundDays": 0.6,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-13T01:46:38.389Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRBQvSQ",
-    "number": 30279,
-    "title": "[Good First Issue] 🍤 Add new Japanese Proverb 81 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30279",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-13T00:57:32Z",
-    "updatedAt": "2026-09-13T00:57:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #30279 in lingdojo/kana-dojo: [Good First Issue] 🍤 Add new Japanese Proverb 81 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:37.611Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRBRiLg",
-    "number": 30280,
-    "title": "[Good First Issue] 🌊 Add new Japanese Haiku 2 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30280",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3368,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-13T01:01:02Z",
-    "updatedAt": "2026-09-13T01:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-haiku.json"
-    ],
-    "summary": "Fix issue #30280 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Japanese Haiku 2 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:36.043Z"
-  },
-  {
-    "id": "I_kwDOAWdOu88AAAABRBa0bw",
-    "number": 3633,
-    "title": "Duplicate description meta tags are included in pages that extend `templates/page.html`",
-    "url": "https://github.com/matrix-org/matrix.org/issues/3633",
-    "repo": "matrix-org/matrix.org",
-    "repoUrl": "https://github.com/matrix-org/matrix.org",
-    "stars": 616,
-    "language": "JavaScript",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-13T01:40:58Z",
-    "updatedAt": "2026-09-13T01:40:58Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test templates/page.html",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "templates/page.html",
-      "templates/skel.html"
-    ],
-    "summary": "Fix issue #3633 in matrix-org/matrix.org: Duplicate description meta tags are included in pages that extend `templates/page.html`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T01:46:34.498Z"
   },
   {
     "id": "I_kwDOMpyoqs8AAAABQM0F4A",
@@ -607,34 +576,6 @@
     "discoveredAt": "2026-09-12T19:48:39.740Z"
   },
   {
-    "id": "I_kwDOEmJ-8c8AAAABQ85MLw",
-    "number": 5274,
-    "title": "[CI][History Server] Remove the unused lint exclusion for historyserver/test by restoring the /api/cluster_status e2e tests",
-    "url": "https://github.com/ray-project/kuberay/issues/5274",
-    "repo": "ray-project/kuberay",
-    "repoUrl": "https://github.com/ray-project/kuberay",
-    "stars": 2678,
-    "language": "Go",
-    "labels": [
-      "enhancement",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-12T09:49:23Z",
-    "updatedAt": "2026-09-12T09:49:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./.",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".golangci.yml"
-    ],
-    "summary": "Fix issue #5274 in ray-project/kuberay: [CI][History Server] Remove the unused lint exclusion for historyserver/test by restoring the /api/cluster_status e2e tests",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-12T19:48:38.335Z"
-  },
-  {
     "id": "I_kwDOEmJ-8c8AAAABQ85acw",
     "number": 5275,
     "title": "[CI][History Server] Remove the noctx lint exclusion for historyserver/test by using context-aware HTTP and exec calls",
@@ -691,34 +632,6 @@
     "discoveredAt": "2026-09-12T19:48:35.586Z"
   },
   {
-    "id": "I_kwDOEmJ-8c8AAAABQ8-h5w",
-    "number": 5277,
-    "title": "[CI][History Server] Remove the nilerr lint exclusion by fixing the os.Stat error handling in MoveSessionLogsToPrevLogs",
-    "url": "https://github.com/ray-project/kuberay/issues/5277",
-    "repo": "ray-project/kuberay",
-    "repoUrl": "https://github.com/ray-project/kuberay",
-    "stars": 2678,
-    "language": "Go",
-    "labels": [
-      "enhancement",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-12T10:07:41Z",
-    "updatedAt": "2026-09-12T19:03:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./.",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".golangci.yml"
-    ],
-    "summary": "Fix issue #5277 in ray-project/kuberay: [CI][History Server] Remove the nilerr lint exclusion by fixing the os.Stat error handling in MoveSessionLogsToPrevLogs",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-12T19:48:33.979Z"
-  },
-  {
     "id": "I_kwDOEmJ-8c8AAAABQ8-kJA",
     "number": 5278,
     "title": "[CI][History Server] Remove the gosec G110 lint exclusion by deleting the unused DecompressStream helper",
@@ -745,35 +658,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-12T19:48:32.562Z"
-  },
-  {
-    "id": "I_kwDOEmJ-8c8AAAABQ8-lUA",
-    "number": 5279,
-    "title": "[CI][History Server] Move the remaining historyserver gosec exclusions into the permanent section with a reason",
-    "url": "https://github.com/ray-project/kuberay/issues/5279",
-    "repo": "ray-project/kuberay",
-    "repoUrl": "https://github.com/ray-project/kuberay",
-    "stars": 2678,
-    "language": "Go",
-    "labels": [
-      "enhancement",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-12T10:07:51Z",
-    "updatedAt": "2026-09-12T10:21:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./historyserver/pkg/historyserver",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "historyserver/pkg/historyserver/router.go",
-      "historyserver/pkg/utils/auth.go"
-    ],
-    "summary": "Fix issue #5279 in ray-project/kuberay: [CI][History Server] Move the remaining historyserver gosec exclusions into the permanent section with a reason",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-12T19:48:31.230Z"
   },
   {
     "id": "I_kwDODFlWBc8AAAABQ_hTGg",
@@ -803,40 +687,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "rust-next",
     "discoveredAt": "2026-09-12T19:48:29.529Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABQ_mObw",
-    "number": 30265,
-    "title": "[Good First Issue] 🎏 Add new Video Game Quote 60 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30265",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3366,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-12T19:01:02Z",
-    "updatedAt": "2026-09-12T19:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30265 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Video Game Quote 60 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T19:48:02.226Z"
   },
   {
     "id": "I_kwDOP_HjxM8AAAABQ9F66A",
@@ -1225,37 +1075,6 @@
     "discoveredAt": "2026-09-11T20:09:46.964Z"
   },
   {
-    "id": "I_kwDORUqZb88AAAABQ0Ys3A",
-    "number": 849,
-    "title": "Recipe: minimax-m3-dpo and mistral-large-3-dpo (part of #275)",
-    "url": "https://github.com/MakazhanAlpamys/Soup/issues/849",
-    "repo": "MakazhanAlpamys/Soup",
-    "repoUrl": "https://github.com/MakazhanAlpamys/Soup",
-    "stars": 6104,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-11T11:13:06Z",
-    "updatedAt": "2026-09-11T11:13:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest src/soup_cli/recipes/catalog.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/soup_cli/recipes/catalog.py",
-      "tests/test_recipes.py",
-      "tests/test_v07130.py"
-    ],
-    "summary": "Fix issue #849 in MakazhanAlpamys/Soup: Recipe: minimax-m3-dpo and mistral-large-3-dpo (part of #275)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T15:25:15.126Z"
-  },
-  {
     "id": "I_kwDOQ_KVhM8AAAABQ0ring",
     "number": 3980,
     "title": "contains_unattestable_construct classifies heredocs as file-target redirects, so the /dev/null exemption misfires on << /dev/null",
@@ -1591,34 +1410,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-11T10:08:11.994Z"
-  },
-  {
-    "id": "I_kwDOGk2yN88AAAABQzsqcA",
-    "number": 1614,
-    "title": "Bound and clean up the decompressed block cache on disk",
-    "url": "https://github.com/reductstore/reductstore/issues/1614",
-    "repo": "reductstore/reductstore",
-    "repoUrl": "https://github.com/reductstore/reductstore",
-    "stars": 370,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-11T09:51:04Z",
-    "updatedAt": "2026-09-11T09:52:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1614 in reductstore/reductstore: Bound and clean up the decompressed block cache on disk",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T10:08:07.397Z"
   },
   {
     "id": "I_kwDOC02ug88AAAABQztblw",
