@@ -5,8 +5,193 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 11:08:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 17:10:42 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[backstage/backstage] #35677 Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422] (Solvability: 6/10)</title>
+      <link>https://github.com/backstage/backstage/issues/35677</link>
+      <guid isPermaLink="true">https://github.com/backstage/backstage/issues/35677</guid>
+      <pubDate>Mon, 14 Sep 2026 16:13:06 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/backstage/backstage">backstage/backstage</a> (34410 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #35677 in backstage/backstage: Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/backend/package.json</code></p>
+<p><a href="https://github.com/backstage/backstage/issues/35677">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>snyk-vulnerability</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[ruma/ruma] #2600 bug(events): `m.history_not_shared` should be `history_not_shared` on `m.room_key` (Solvability: 6/10)</title>
+      <link>https://github.com/ruma/ruma/issues/2600</link>
+      <guid isPermaLink="true">https://github.com/ruma/ruma/issues/2600</guid>
+      <pubDate>Mon, 14 Sep 2026 16:23:51 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ruma/ruma">ruma/ruma</a> (734 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2600 in ruma/ruma: bug(events): `m.history_not_shared` should be `history_not_shared` on `m.room_key`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/ruma/ruma/issues/2600">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>effort/easy</category>
+      <category>type/bug</category>
+      <category>area/events</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[PythonOT/POT] #854 Typo in ot.gromov._utils fused_unbalanced_across_spaces_cost regularization cost (Solvability: 6/10)</title>
+      <link>https://github.com/PythonOT/POT/issues/854</link>
+      <guid isPermaLink="true">https://github.com/PythonOT/POT/issues/854</guid>
+      <pubDate>Mon, 14 Sep 2026 16:38:46 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/PythonOT/POT">PythonOT/POT</a> (2844 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #854 in PythonOT/POT: Typo in ot.gromov._utils fused_unbalanced_across_spaces_cost regularization cost</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest ot/gromov/_utils.py</code></p>
+<p><a href="https://github.com/PythonOT/POT/issues/854">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[vektra/mockery] #1182 v2.53.7 release is incorrectly marked as latest (Solvability: 6/10)</title>
+      <link>https://github.com/vektra/mockery/issues/1182</link>
+      <guid isPermaLink="true">https://github.com/vektra/mockery/issues/1182</guid>
+      <pubDate>Fri, 04 Sep 2026 09:35:11 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vektra/mockery">vektra/mockery</a> (7158 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1182 in vektra/mockery: v2.53.7 release is incorrectly marked as latest</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/vektra/mockery/issues/1182">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good-first-issue</category>
+      <category>Needs Investigation</category>
+    </item>
+    <item>
+      <title>[gammapy/gammapy] #6857 Introduce RadMaxPlotter class (Solvability: 6/10)</title>
+      <link>https://github.com/gammapy/gammapy/issues/6857</link>
+      <guid isPermaLink="true">https://github.com/gammapy/gammapy/issues/6857</guid>
+      <pubDate>Mon, 14 Sep 2026 16:34:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/gammapy/gammapy">gammapy/gammapy</a> (291 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #6857 in gammapy/gammapy: Introduce RadMaxPlotter class</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/gammapy/gammapy/issues/6857">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>effort-low</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[collective/icalendar] #1787 Document Component.errors (Solvability: 6/10)</title>
+      <link>https://github.com/collective/icalendar/issues/1787</link>
+      <guid isPermaLink="true">https://github.com/collective/icalendar/issues/1787</guid>
+      <pubDate>Mon, 14 Sep 2026 14:01:42 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/collective/icalendar">collective/icalendar</a> (1172 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1787 in collective/icalendar: Document Component.errors</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/icalendar/__init__.py</code></p>
+<p><a href="https://github.com/collective/icalendar/issues/1787">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>doc</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[llmmanorg/llmman] #503 Add openvino support (Solvability: 6/10)</title>
+      <link>https://github.com/llmmanorg/llmman/issues/503</link>
+      <guid isPermaLink="true">https://github.com/llmmanorg/llmman/issues/503</guid>
+      <pubDate>Mon, 14 Sep 2026 15:36:57 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/llmmanorg/llmman">llmmanorg/llmman</a> (496 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #503 in llmmanorg/llmman: Add openvino support</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/llmmanorg/llmman/issues/503">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30411 [Good First Issue] 🎋 Add new Dialect Entry 53 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30411</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30411</guid>
+      <pubDate>Mon, 14 Sep 2026 16:01:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3388 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30411 in lingdojo/kana-dojo: [Good First Issue] 🎋 Add new Dialect Entry 53 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-regional-dialects.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30411">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[vllm-project/llm-compressor] #3177 Centralize SSOT for module fusion (Solvability: 6/10)</title>
+      <link>https://github.com/vllm-project/llm-compressor/issues/3177</link>
+      <guid isPermaLink="true">https://github.com/vllm-project/llm-compressor/issues/3177</guid>
+      <pubDate>Mon, 14 Sep 2026 16:20:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vllm-project/llm-compressor">vllm-project/llm-compressor</a> (3783 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3177 in vllm-project/llm-compressor: Centralize SSOT for module fusion</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/llmcompressor/entrypoints/oneshot.py</code></p>
+<p><a href="https://github.com/vllm-project/llm-compressor/issues/3177">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>good follow-up issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30413 [Good First Issue] 🍜 Add new Etiquette Tip 102 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30413</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30413</guid>
+      <pubDate>Mon, 14 Sep 2026 17:01:06 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3388 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30413 in lingdojo/kana-dojo: [Good First Issue] 🍜 Add new Etiquette Tip 102 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30413">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
     <item>
       <title>[DataDog/stratus-red-team] #967 New possible AWS attack technique: Share an EBS Volume Clone cross-account (Solvability: 6/10)</title>
       <link>https://github.com/DataDog/stratus-red-team/issues/967</link>
@@ -795,193 +980,6 @@
       <category>bounty</category>
       <category>agent-friendly</category>
       <category>zero-bounty</category>
-    </item>
-    <item>
-      <title>[rtk-ai/rtk] #4021 gh pr checks: skipping and cancelled checks are dropped from the summary, so the totals do not add up (Solvability: 6/10)</title>
-      <link>https://github.com/rtk-ai/rtk/issues/4021</link>
-      <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/4021</guid>
-      <pubDate>Sun, 13 Sep 2026 12:46:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rtk-ai/rtk">rtk-ai/rtk</a> (80146 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4021 in rtk-ai/rtk: gh pr checks: skipping and cancelled checks are dropped from the summary, so the totals do not add up</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test gh_cmd</code></p>
-<p><a href="https://github.com/rtk-ai/rtk/issues/4021">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>resolved-pending-close</category>
-      <category>area:cli</category>
-      <category>priority:medium</category>
-    </item>
-    <item>
-      <title>[wal-g/wal-g] #2559 [FEATURE] reduce memory consumption of github.com/spf13/cobra (Solvability: 6/10)</title>
-      <link>https://github.com/wal-g/wal-g/issues/2559</link>
-      <guid isPermaLink="true">https://github.com/wal-g/wal-g/issues/2559</guid>
-      <pubDate>Sun, 13 Sep 2026 12:54:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/wal-g/wal-g">wal-g/wal-g</a> (4248 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #2559 in wal-g/wal-g: [FEATURE] reduce memory consumption of github.com/spf13/cobra</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/wal-g/wal-g/issues/2559">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[bastani-inc/atomic] #3025 Support background shells in subagents and show them in the parent session's /tasks (Solvability: 6/10)</title>
-      <link>https://github.com/bastani-inc/atomic/issues/3025</link>
-      <guid isPermaLink="true">https://github.com/bastani-inc/atomic/issues/3025</guid>
-      <pubDate>Sun, 13 Sep 2026 08:32:09 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/bastani-inc/atomic">bastani-inc/atomic</a> (795 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3025 in bastani-inc/atomic: Support background shells in subagents and show them in the parent session's /tasks</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/bastani-inc/atomic/issues/3025">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[wemake-services/django-modern-rest] #1487 Make `ConfigMerge` class customizable (Solvability: 6/10)</title>
-      <link>https://github.com/wemake-services/django-modern-rest/issues/1487</link>
-      <guid isPermaLink="true">https://github.com/wemake-services/django-modern-rest/issues/1487</guid>
-      <pubDate>Sun, 13 Sep 2026 09:08:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/wemake-services/django-modern-rest">wemake-services/django-modern-rest</a> (1451 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1487 in wemake-services/django-modern-rest: Make `ConfigMerge` class customizable</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/wemake-services/django-modern-rest/issues/1487">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>feature</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>openapi</category>
-      <category>opensource september</category>
-    </item>
-    <item>
-      <title>[servo/rust-smallvec] #603 run `may_dangle` benchmarks on v2 (Solvability: 6/10)</title>
-      <link>https://github.com/servo/rust-smallvec/issues/603</link>
-      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/603</guid>
-      <pubDate>Sun, 13 Sep 2026 09:27:20 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1728 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #603 in servo/rust-smallvec: run `may_dangle` benchmarks on v2</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/servo/rust-smallvec/issues/603">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>p-high</category>
-      <category>r-performance</category>
-    </item>
-    <item>
-      <title>[servo/rust-smallvec] #604 run `specialization` benchmarks on v2 (Solvability: 6/10)</title>
-      <link>https://github.com/servo/rust-smallvec/issues/604</link>
-      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/604</guid>
-      <pubDate>Sun, 13 Sep 2026 09:31:07 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1728 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #604 in servo/rust-smallvec: run `specialization` benchmarks on v2</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test specialization</code></p>
-<p><a href="https://github.com/servo/rust-smallvec/issues/604">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>p-medium</category>
-      <category>r-performance</category>
-    </item>
-    <item>
-      <title>[wemake-services/django-modern-rest] #1491 Fix `Reference | Schema` conflict in our OpenAPI definitions (Solvability: 6/10)</title>
-      <link>https://github.com/wemake-services/django-modern-rest/issues/1491</link>
-      <guid isPermaLink="true">https://github.com/wemake-services/django-modern-rest/issues/1491</guid>
-      <pubDate>Sun, 13 Sep 2026 10:07:57 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/wemake-services/django-modern-rest">wemake-services/django-modern-rest</a> (1451 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1491 in wemake-services/django-modern-rest: Fix `Reference | Schema` conflict in our OpenAPI definitions</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest django_test_app/server/apps/model_cursor/schema.py</code></p>
-<p><a href="https://github.com/wemake-services/django-modern-rest/issues/1491">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>openapi</category>
-      <category>opensource september</category>
-    </item>
-    <item>
-      <title>[code-charity/youtube] #4340 "Show time remaining with reference to playback speed" -option stopped working🐞 (Solvability: 6/10)</title>
-      <link>https://github.com/code-charity/youtube/issues/4340</link>
-      <guid isPermaLink="true">https://github.com/code-charity/youtube/issues/4340</guid>
-      <pubDate>Sun, 13 Sep 2026 00:52:52 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/code-charity/youtube">code-charity/youtube</a> (4577 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4340 in code-charity/youtube: "Show time remaining with reference to playback speed" -option stopped working🐞</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/code-charity/youtube/issues/4340">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>up-for-grabs</category>
-    </item>
-    <item>
-      <title>[apache/arrow-go] #1298 [Compute] NewDatumWithoutOwning returns an ordinary Datum, so Release() on it frees the caller's array with no error; its doc comment is also truncated (Solvability: 6/10)</title>
-      <link>https://github.com/apache/arrow-go/issues/1298</link>
-      <guid isPermaLink="true">https://github.com/apache/arrow-go/issues/1298</guid>
-      <pubDate>Tue, 08 Sep 2026 04:41:47 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/apache/arrow-go">apache/arrow-go</a> (402 ⭐, Assembly)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1298 in apache/arrow-go: [Compute] NewDatumWithoutOwning returns an ordinary Datum, so Release() on it frees the caller's array with no error; its doc comment is also truncated</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/apache/arrow-go/issues/1298">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Assembly</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Type: enhancement</category>
-      <category>good-first-issue</category>
-      <category>Type: usage</category>
-    </item>
-    <item>
-      <title>[caura-ai/caura] #1399 chore(ci): pin third-party actions to commit SHAs in the 11 workflows that still float @v7 (Solvability: 6/10)</title>
-      <link>https://github.com/caura-ai/caura/issues/1399</link>
-      <guid isPermaLink="true">https://github.com/caura-ai/caura/issues/1399</guid>
-      <pubDate>Tue, 08 Sep 2026 11:21:56 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/caura-ai/caura">caura-ai/caura</a> (501 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1399 in caura-ai/caura: chore(ci): pin third-party actions to commit SHAs in the 11 workflows that still float @v7</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest .github/dependabot.yml</code></p>
-<p><a href="https://github.com/caura-ai/caura/issues/1399">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good-first-issue</category>
-      <category>kind/breaking</category>
     </item>
   </channel>
 </rss>
