@@ -1,31 +1,469 @@
 [
   {
-    "id": "I_kwDOJLUvb88AAAABRFdqPQ",
-    "number": 4164,
-    "title": "Python SDK: expose update_user options",
-    "url": "https://github.com/apache/iggy/issues/4164",
-    "repo": "apache/iggy",
-    "repoUrl": "https://github.com/apache/iggy",
-    "stars": 4866,
-    "language": "Rust",
+    "id": "I_kwDOT1Nsbc8AAAABRG8jnQ",
+    "number": 24,
+    "title": "block: Shipping Label",
+    "url": "https://github.com/shadcn-labs/pdfcn/issues/24",
+    "repo": "shadcn-labs/pdfcn",
+    "repoUrl": "https://github.com/shadcn-labs/pdfcn",
+    "stars": 1733,
+    "language": "TypeScript",
     "labels": [
+      "enhancement",
       "good first issue",
-      "python"
+      "help wanted"
     ],
-    "createdAt": "2026-09-13T17:18:02Z",
-    "updatedAt": "2026-09-13T17:18:13Z",
+    "createdAt": "2026-09-13T22:04:40Z",
+    "updatedAt": "2026-09-13T22:04:40Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test test_user",
+    "quickReproCommand": "pnpm test",
     "solvabilityScore": 6,
     "keyFiles": [
-      "foreign/python/tests/test_user.py"
+      "src/index"
     ],
-    "summary": "Fix issue #4164 in apache/iggy: Python SDK: expose update_user options",
-    "maintainerTurnaroundDays": 0.4,
+    "summary": "Fix issue #24 in shadcn-labs/pdfcn: block: Shipping Label",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:05:21.964Z"
+  },
+  {
+    "id": "I_kwDOT1Nsbc8AAAABRG8jqg",
+    "number": 26,
+    "title": "block: Medical Intake Form",
+    "url": "https://github.com/shadcn-labs/pdfcn/issues/26",
+    "repo": "shadcn-labs/pdfcn",
+    "repoUrl": "https://github.com/shadcn-labs/pdfcn",
+    "stars": 1733,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-13T22:04:40Z",
+    "updatedAt": "2026-09-13T22:04:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #26 in shadcn-labs/pdfcn: block: Medical Intake Form",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:05:20.095Z"
+  },
+  {
+    "id": "I_kwDOSGKjGM8AAAABRHD5IA",
+    "number": 39,
+    "title": "Could CyberVerse make approved persona context portable across sessions?",
+    "url": "https://github.com/Lynpoint/CyberVerse/issues/39",
+    "repo": "Lynpoint/CyberVerse",
+    "repoUrl": "https://github.com/Lynpoint/CyberVerse",
+    "stars": 1641,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "feature"
+    ],
+    "createdAt": "2026-09-13T22:30:24Z",
+    "updatedAt": "2026-09-14T01:55:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #39 in Lynpoint/CyberVerse: Could CyberVerse make approved persona context portable across sessions?",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:05:18.241Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRHFCxw",
+    "number": 30351,
+    "title": "[Good First Issue] 🎏 Add new Japan Fact 147 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30351",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3378,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-13T22:34:31Z",
+    "updatedAt": "2026-09-13T22:34:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #30351 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Japan Fact 147 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:05:15.753Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRHMeoQ",
+    "number": 30353,
+    "title": "[Good First Issue] 🌋 Add new Japanese Proverb 124 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30353",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3378,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-13T23:01:06Z",
+    "updatedAt": "2026-09-13T23:01:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30353 in lingdojo/kana-dojo: [Good First Issue] 🌋 Add new Japanese Proverb 124 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:05:12.465Z"
+  },
+  {
+    "id": "I_kwDOQ_KVhM8AAAABRHTrFw",
+    "number": 4037,
+    "title": "Flaky test: dotnet_trx test_parse_trx_files_in_dir_since_ignores_older_files depends on file mtimes",
+    "url": "https://github.com/rtk-ai/rtk/issues/4037",
+    "repo": "rtk-ai/rtk",
+    "repoUrl": "https://github.com/rtk-ai/rtk",
+    "stars": 80201,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue",
+      "priority:medium",
+      "area:testing"
+    ],
+    "createdAt": "2026-09-13T23:23:30Z",
+    "updatedAt": "2026-09-13T23:24:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #4037 in rtk-ai/rtk: Flaky test: dotnet_trx test_parse_trx_files_in_dir_since_ignores_older_files depends on file mtimes",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-14T02:05:09.048Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRHW4Zw",
+    "number": 30354,
+    "title": "[Good First Issue] 🎴 Add new Trivia Question 31 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30354",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3378,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-13T23:34:36Z",
+    "updatedAt": "2026-09-13T23:34:39Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-trivia-easy.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-trivia-easy.json"
+    ],
+    "summary": "Fix issue #30354 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Trivia Question 31 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:05:07.273Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRHdz2w",
+    "number": 30355,
+    "title": "[Good First Issue] 🎑 Add new Grammar Point 25 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30355",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3378,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-14T00:01:05Z",
+    "updatedAt": "2026-09-14T00:01:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-grammar.json"
+    ],
+    "summary": "Fix issue #30355 in lingdojo/kana-dojo: [Good First Issue] 🎑 Add new Grammar Point 25 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:05:03.215Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRHpFzg",
+    "number": 30356,
+    "title": "[Good First Issue] 🍡 Add new Anime Quote 59 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30356",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3378,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-14T00:34:34Z",
+    "updatedAt": "2026-09-14T00:34:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #30356 in lingdojo/kana-dojo: [Good First Issue] 🍡 Add new Anime Quote 59 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:04:57.865Z"
+  },
+  {
+    "id": "I_kwDOLL5yp88AAAABRHvhWg",
+    "number": 231,
+    "title": "Privacy controls for chat-history avatar training",
+    "url": "https://github.com/xming521/WeClone/issues/231",
+    "repo": "xming521/WeClone",
+    "repoUrl": "https://github.com/xming521/WeClone",
+    "stars": 18216,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-14T00:52:26Z",
+    "updatedAt": "2026-09-14T00:52:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #231 in xming521/WeClone: Privacy controls for chat-history avatar training",
+    "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
-    "discoveredAt": "2026-09-13T19:58:18.474Z"
+    "discoveredAt": "2026-09-14T02:04:54.207Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRHyKpQ",
+    "number": 30357,
+    "title": "[Good First Issue] 🎏 Add new Video Game Quote 16 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30357",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3378,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-14T01:01:05Z",
+    "updatedAt": "2026-09-14T01:01:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #30357 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Video Game Quote 16 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:04:52.883Z"
+  },
+  {
+    "id": "I_kwDOJMhU1c8AAAABRH0Khg",
+    "number": 3630,
+    "title": "[ffigen] Improve API for clang args",
+    "url": "https://github.com/dart-lang/native/issues/3630",
+    "repo": "dart-lang/native",
+    "repoUrl": "https://github.com/dart-lang/native",
+    "stars": 275,
+    "language": "Dart",
+    "labels": [
+      "good first issue",
+      "package:ffigen"
+    ],
+    "createdAt": "2026-09-14T01:07:16Z",
+    "updatedAt": "2026-09-14T01:07:16Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3630 in dart-lang/native: [ffigen] Improve API for clang args",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:04:49.522Z"
+  },
+  {
+    "id": "I_kwDOJMhU1c8AAAABRH09Eg",
+    "number": 3631,
+    "title": "[ffigen] Default clang args for C++",
+    "url": "https://github.com/dart-lang/native/issues/3631",
+    "repo": "dart-lang/native",
+    "repoUrl": "https://github.com/dart-lang/native",
+    "stars": 275,
+    "language": "Dart",
+    "labels": [
+      "good first issue",
+      "package:ffigen",
+      "lang-cpp"
+    ],
+    "createdAt": "2026-09-14T01:09:37Z",
+    "updatedAt": "2026-09-14T01:09:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3631 in dart-lang/native: [ffigen] Default clang args for C++",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:04:46.487Z"
+  },
+  {
+    "id": "I_kwDOEaEoos8AAAABRIEeMg",
+    "number": 45686,
+    "title": "Colour for invalid code sample.",
+    "url": "https://github.com/mdn/content/issues/45686",
+    "repo": "mdn/content",
+    "repoUrl": "https://github.com/mdn/content",
+    "stars": 10983,
+    "language": "Markdown",
+    "labels": [
+      "good first issue",
+      "Content:JS"
+    ],
+    "createdAt": "2026-09-14T01:57:31Z",
+    "updatedAt": "2026-09-14T02:02:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #45686 in mdn/content: Colour for invalid code sample.",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:04:43.866Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRIFkIw",
+    "number": 30360,
+    "title": "[Good First Issue] 🧧 Add new Dialect Entry 65 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30360",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3378,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-14T02:01:04Z",
+    "updatedAt": "2026-09-14T02:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #30360 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Dialect Entry 65 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T02:04:31.287Z"
   },
   {
     "id": "I_kwDOJLUvb88AAAABRFdqlA",
@@ -146,40 +584,6 @@
     "discoveredAt": "2026-09-13T19:58:05.323Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABRFjYRg",
-    "number": 30336,
-    "title": "[Good First Issue] 🀄 Add new Video Game Quote 97 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30336",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3377,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-13T17:34:32Z",
-    "updatedAt": "2026-09-13T17:34:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30336 in lingdojo/kana-dojo: [Good First Issue] 🀄 Add new Video Game Quote 97 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T19:58:04.384Z"
-  },
-  {
     "id": "I_kwDOAFeGkM8AAAABRFmBTw",
     "number": 32651,
     "title": "Part: Datum and origin planes shouldn't be hidden after using them with boolean operations",
@@ -239,40 +643,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-13T19:57:47.268Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRFsXXQ",
-    "number": 30337,
-    "title": "[Good First Issue] 🍚 Add new Japanese Idiom 77 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30337",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3377,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-13T18:01:04Z",
-    "updatedAt": "2026-09-13T18:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #30337 in lingdojo/kana-dojo: [Good First Issue] 🍚 Add new Japanese Idiom 77 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T19:57:45.247Z"
   },
   {
     "id": "I_kwDODgj3cc8AAAABRF2w8g",
@@ -337,35 +707,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-13T19:57:33.931Z"
-  },
-  {
-    "id": "I_kwDOP9-TEs8AAAABRGD1yw",
-    "number": 781,
-    "title": "Two more copies of the DuckDB string-literal escape outside the query layer; the compaction one has already drifted",
-    "url": "https://github.com/Basekick-Labs/arc/issues/781",
-    "repo": "Basekick-Labs/arc",
-    "repoUrl": "https://github.com/Basekick-Labs/arc",
-    "stars": 677,
-    "language": "Go",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-13T19:14:55Z",
-    "updatedAt": "2026-09-13T19:14:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "go test -v ./internal/sql",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "internal/sql/mask.go",
-      "internal/compaction/job.go",
-      "internal/database/duckdb.go"
-    ],
-    "summary": "Fix issue #781 in Basekick-Labs/arc: Two more copies of the DuckDB string-literal escape outside the query layer; the compaction one has already drifted",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T19:57:32.196Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABRGK-NA",
@@ -618,142 +959,6 @@
     "discoveredAt": "2026-09-13T15:12:51.673Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABREK4ZA",
-    "number": 30317,
-    "title": "[Good First Issue] 🎏 Add new Learner Mistake 79 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30317",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3373,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-13T13:01:07Z",
-    "updatedAt": "2026-09-13T13:01:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30317 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Learner Mistake 79 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T15:12:49.538Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABREcvDg",
-    "number": 30319,
-    "title": "[Good First Issue] 🌸 Add new Wallpaper URL #4 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30319",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3373,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-13T13:57:27Z",
-    "updatedAt": "2026-09-13T13:57:29Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-wallpaper-urls.json"
-    ],
-    "summary": "Fix issue #30319 in lingdojo/kana-dojo: [Good First Issue] 🌸 Add new Wallpaper URL #4 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T15:12:48.275Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABREeDgA",
-    "number": 30320,
-    "title": "[Good First Issue] 🥢 Add new Community Note Line #4 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30320",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3373,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-13T14:01:01Z",
-    "updatedAt": "2026-09-13T14:01:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #30320 in lingdojo/kana-dojo: [Good First Issue] 🥢 Add new Community Note Line #4 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T15:12:46.953Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABREwVqA",
-    "number": 30328,
-    "title": "[Good First Issue] 🏮 Add new Japan Fact 72 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30328",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3373,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-13T15:01:07Z",
-    "updatedAt": "2026-09-13T15:01:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-facts.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #30328 in lingdojo/kana-dojo: [Good First Issue] 🏮 Add new Japan Fact 72 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T15:12:45.669Z"
-  },
-  {
     "id": "I_kwDOQHh8ns8AAAABRDHUIA",
     "number": 3025,
     "title": "Support background shells in subagents and show them in the parent session's /tasks",
@@ -844,37 +1049,6 @@
     "discoveredAt": "2026-09-13T10:45:07.122Z"
   },
   {
-    "id": "I_kwDOP_HjxM8AAAABRDSkMA",
-    "number": 1489,
-    "title": "Support custom `format` options, add more pre-defined formats",
-    "url": "https://github.com/wemake-services/django-modern-rest/issues/1489",
-    "repo": "wemake-services/django-modern-rest",
-    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
-    "stars": 1451,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "openapi",
-      "opensource september"
-    ],
-    "createdAt": "2026-09-13T09:27:30Z",
-    "updatedAt": "2026-09-13T09:27:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/test_unit/test_plugins/test_pydantic/test_pydantic_snapshots.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/test_unit/test_plugins/test_pydantic/test_pydantic_snapshots.py"
-    ],
-    "summary": "Fix issue #1489 in wemake-services/django-modern-rest: Support custom `format` options, add more pre-defined formats",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-13T10:45:06.508Z"
-  },
-  {
     "id": "I_kwDOAf6AbM8AAAABRDTXug",
     "number": 604,
     "title": "run `specialization` benchmarks on v2",
@@ -936,36 +1110,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-13T10:45:01.459Z"
-  },
-  {
-    "id": "I_kwDOAacoPM8AAAABRAZn2g",
-    "number": 26778,
-    "title": "Rename Electrum Flux Coil Block to Fluxed Electrum Coil Block",
-    "url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/26778",
-    "repo": "GTNewHorizons/GT-New-Horizons-Modpack",
-    "repoUrl": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack",
-    "stars": 2007,
-    "language": "Python",
-    "labels": [
-      "Suggestion",
-      "Mod: GT",
-      "Status: Ready for Developer",
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-12T21:47:20Z",
-    "updatedAt": "2026-09-13T00:52:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #26778 in GTNewHorizons/GT-New-Horizons-Modpack: Rename Electrum Flux Coil Block to Fluxed Electrum Coil Block",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-13T01:46:53.145Z"
   },
   {
     "id": "I_kwDOB11tyM8AAAABRBPq3w",
@@ -1055,34 +1199,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T19:48:46.241Z"
-  },
-  {
-    "id": "I_kwDOSOAAX88AAAABQQiizw",
-    "number": 1400,
-    "title": "chore(ci): 16 of 24 actions/checkout steps persist the GITHUB_TOKEN into .git/config",
-    "url": "https://github.com/caura-ai/caura/issues/1400",
-    "repo": "caura-ai/caura",
-    "repoUrl": "https://github.com/caura-ai/caura",
-    "stars": 501,
-    "language": "Python",
-    "labels": [
-      "good-first-issue",
-      "kind/breaking"
-    ],
-    "createdAt": "2026-09-08T11:21:58Z",
-    "updatedAt": "2026-09-09T11:06:56Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1400 in caura-ai/caura: chore(ci): 16 of 24 actions/checkout steps persist the GITHUB_TOKEN into .git/config",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T19:48:44.715Z"
   },
   {
     "id": "I_kwDOSOAAX88AAAABQQitIw",
@@ -4360,119 +4476,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-08-31T02:01:22.280Z"
-  },
-  {
-    "id": "I_kwDOA6VVV88AAAABO5BrOg",
-    "number": 18306,
-    "title": "Replace addr_full with street_address in old spiders",
-    "url": "https://github.com/alltheplaces/alltheplaces/issues/18306",
-    "repo": "alltheplaces/alltheplaces",
-    "repoUrl": "https://github.com/alltheplaces/alltheplaces",
-    "stars": 817,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-30T20:46:37Z",
-    "updatedAt": "2026-08-30T22:27:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #18306 in alltheplaces/alltheplaces: Replace addr_full with street_address in old spiders",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-08-31T02:01:20.077Z"
-  },
-  {
-    "id": "I_kwDOA6VVV88AAAABO5C3Bw",
-    "number": 18308,
-    "title": "Ensure all spiders set a category",
-    "url": "https://github.com/alltheplaces/alltheplaces/issues/18308",
-    "repo": "alltheplaces/alltheplaces",
-    "repoUrl": "https://github.com/alltheplaces/alltheplaces",
-    "stars": 817,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-08-30T20:51:10Z",
-    "updatedAt": "2026-08-30T21:42:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #18308 in alltheplaces/alltheplaces: Ensure all spiders set a category",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-08-31T02:01:17.878Z"
-  },
-  {
-    "id": "I_kwDOM35b6M8AAAABO24R1Q",
-    "number": 70,
-    "title": "Remove the important.py star-import shim",
-    "url": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon/issues/70",
-    "repo": "Kiri-Innovation/3dgs-render-blender-addon",
-    "repoUrl": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon",
-    "stars": 1169,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "refactor"
-    ],
-    "createdAt": "2026-08-30T12:23:40Z",
-    "updatedAt": "2026-08-30T12:26:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #70 in Kiri-Innovation/3dgs-render-blender-addon: Remove the important.py star-import shim",
-    "maintainerTurnaroundDays": 0.5,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-30T15:40:47.465Z"
-  },
-  {
-    "id": "I_kwDOM35b6M8AAAABO24TAw",
-    "number": 71,
-    "title": "Auto-register classes",
-    "url": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon/issues/71",
-    "repo": "Kiri-Innovation/3dgs-render-blender-addon",
-    "repoUrl": "https://github.com/Kiri-Innovation/3dgs-render-blender-addon",
-    "stars": 1169,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "refactor"
-    ],
-    "createdAt": "2026-08-30T12:23:42Z",
-    "updatedAt": "2026-08-30T12:26:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest __init__.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "__init__.py"
-    ],
-    "summary": "Fix issue #71 in Kiri-Innovation/3dgs-render-blender-addon: Auto-register classes",
-    "maintainerTurnaroundDays": 0.5,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-08-30T15:40:26.654Z"
   }
 ]
