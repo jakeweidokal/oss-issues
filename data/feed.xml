@@ -5,8 +5,224 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 02:05:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 11:08:21 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[DataDog/stratus-red-team] #967 New possible AWS attack technique: Share an EBS Volume Clone cross-account (Solvability: 6/10)</title>
+      <link>https://github.com/DataDog/stratus-red-team/issues/967</link>
+      <guid isPermaLink="true">https://github.com/DataDog/stratus-red-team/issues/967</guid>
+      <pubDate>Mon, 14 Sep 2026 08:27:20 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DataDog/stratus-red-team">DataDog/stratus-red-team</a> (2395 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #967 in DataDog/stratus-red-team: New possible AWS attack technique: Share an EBS Volume Clone cross-account</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/DataDog/stratus-red-team/issues/967">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>kind/new-technique</category>
+      <category>platform/aws</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30388 [Good First Issue] 🎍 Add new Dialect Entry 44 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30388</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30388</guid>
+      <pubDate>Mon, 14 Sep 2026 09:02:17 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3383 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30388 in lingdojo/kana-dojo: [Good First Issue] 🎍 Add new Dialect Entry 44 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-regional-dialects.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30388">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30389 [Good First Issue] 🍣 Add new False Friend Pair 111 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30389</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30389</guid>
+      <pubDate>Mon, 14 Sep 2026 09:34:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3383 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30389 in lingdojo/kana-dojo: [Good First Issue] 🍣 Add new False Friend Pair 111 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30389">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[devswha/patina] #822 docs: labelled starter path and pattern-of-the-week #1 (Solvability: 6/10)</title>
+      <link>https://github.com/devswha/patina/issues/822</link>
+      <guid isPermaLink="true">https://github.com/devswha/patina/issues/822</guid>
+      <pubDate>Mon, 14 Sep 2026 09:45:42 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/devswha/patina">devswha/patina</a> (355 ⭐, JavaScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #822 in devswha/patina: docs: labelled starter path and pattern-of-the-week #1</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/community-patterns.test.js</code></p>
+<p><a href="https://github.com/devswha/patina/issues/822">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>JavaScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>patterns</category>
+      <category>docs</category>
+    </item>
+    <item>
+      <title>[hiero-ledger/hiero-sdk-java] #2940 [Good First Issue]: Fix Javadoc in Client.forMirrorNetwork (Solvability: 6/10)</title>
+      <link>https://github.com/hiero-ledger/hiero-sdk-java/issues/2940</link>
+      <guid isPermaLink="true">https://github.com/hiero-ledger/hiero-sdk-java/issues/2940</guid>
+      <pubDate>Mon, 14 Sep 2026 09:52:13 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/hiero-ledger/hiero-sdk-java">hiero-ledger/hiero-sdk-java</a> (262 ⭐, Java)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2940 in hiero-ledger/hiero-sdk-java: [Good First Issue]: Fix Javadoc in Client.forMirrorNetwork</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/hiero-ledger/hiero-sdk-java/issues/2940">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Java</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good First Issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30393 [Good First Issue] 🍡 Add new Example Sentence 18 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30393</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30393</guid>
+      <pubDate>Mon, 14 Sep 2026 10:34:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3383 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30393 in lingdojo/kana-dojo: [Good First Issue] 🍡 Add new Example Sentence 18 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-example-sentences.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30393">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[open-telemetry/opentelemetry-collector-contrib] #50959 [receiver/azuremonitor] Resource Groups discovery based on tags (Solvability: 6/10)</title>
+      <link>https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50959</link>
+      <guid isPermaLink="true">https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50959</guid>
+      <pubDate>Mon, 14 Sep 2026 10:41:31 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib">open-telemetry/opentelemetry-collector-contrib</a> (4927 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #50959 in open-telemetry/opentelemetry-collector-contrib: [receiver/azuremonitor] Resource Groups discovery based on tags</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50959">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>receiver/azuremonitor</category>
+    </item>
+    <item>
+      <title>[snapotter-hq/SnapOtter] #1144 auth.mfaEnrollmentHeading is the one string left in English in all 20 non-en locales (Solvability: 6/10)</title>
+      <link>https://github.com/snapotter-hq/SnapOtter/issues/1144</link>
+      <guid isPermaLink="true">https://github.com/snapotter-hq/SnapOtter/issues/1144</guid>
+      <pubDate>Mon, 14 Sep 2026 10:51:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/snapotter-hq/SnapOtter">snapotter-hq/SnapOtter</a> (2656 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1144 in snapotter-hq/SnapOtter: auth.mfaEnrollmentHeading is the one string left in English in all 20 non-en locales</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/web/i18n-parity.test.ts</code></p>
+<p><a href="https://github.com/snapotter-hq/SnapOtter/issues/1144">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>area: i18n</category>
+      <category>priority: low</category>
+    </item>
+    <item>
+      <title>[snapotter-hq/SnapOtter] #1145 features.lessThanMinute, oneMinuteLeft and minutesLeft have never had a caller (Solvability: 6/10)</title>
+      <link>https://github.com/snapotter-hq/SnapOtter/issues/1145</link>
+      <guid isPermaLink="true">https://github.com/snapotter-hq/SnapOtter/issues/1145</guid>
+      <pubDate>Mon, 14 Sep 2026 10:51:14 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/snapotter-hq/SnapOtter">snapotter-hq/SnapOtter</a> (2656 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1145 in snapotter-hq/SnapOtter: features.lessThanMinute, oneMinuteLeft and minutesLeft have never had a caller</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/web/i18n-parity.test.ts</code></p>
+<p><a href="https://github.com/snapotter-hq/SnapOtter/issues/1145">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>area: i18n</category>
+      <category>priority: low</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30394 [Good First Issue] 🌋 Add new Learner Mistake 44 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30394</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30394</guid>
+      <pubDate>Mon, 14 Sep 2026 11:01:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3383 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30394 in lingdojo/kana-dojo: [Good First Issue] 🌋 Add new Learner Mistake 44 - Beginner-Friendly Open-source Contribution</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-common-mistakes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30394">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[wlrfx/scenefx] #219 build: soname (Solvability: 6/10)</title>
+      <link>https://github.com/wlrfx/scenefx/issues/219</link>
+      <guid isPermaLink="true">https://github.com/wlrfx/scenefx/issues/219</guid>
+      <pubDate>Mon, 14 Sep 2026 11:01:15 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/wlrfx/scenefx">wlrfx/scenefx</a> (242 ⭐, C)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #219 in wlrfx/scenefx: build: soname</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/wlrfx/scenefx/issues/219">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
     <item>
       <title>[shadcn-labs/pdfcn] #24 block: Shipping Label (Solvability: 6/10)</title>
       <link>https://github.com/shadcn-labs/pdfcn/issues/24</link>
@@ -766,203 +982,6 @@
       <category>friction-standard</category>
       <category>good-first-issue</category>
       <category>kind/breaking</category>
-    </item>
-    <item>
-      <title>[caura-ai/caura] #1403 chore(ci): TypeScript client has no lint gate, while the Python client CI runs ruff (Solvability: 6/10)</title>
-      <link>https://github.com/caura-ai/caura/issues/1403</link>
-      <guid isPermaLink="true">https://github.com/caura-ai/caura/issues/1403</guid>
-      <pubDate>Tue, 08 Sep 2026 11:22:13 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/caura-ai/caura">caura-ai/caura</a> (501 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1403 in caura-ai/caura: chore(ci): TypeScript client has no lint gate, while the Python client CI runs ruff</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest .github/workflows/client-python-ci.yml</code></p>
-<p><a href="https://github.com/caura-ai/caura/issues/1403">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good-first-issue</category>
-      <category>kind/breaking</category>
-    </item>
-    <item>
-      <title>[ray-project/kuberay] #5275 [CI][History Server] Remove the noctx lint exclusion for historyserver/test by using context-aware HTTP and exec calls (Solvability: 6/10)</title>
-      <link>https://github.com/ray-project/kuberay/issues/5275</link>
-      <guid isPermaLink="true">https://github.com/ray-project/kuberay/issues/5275</guid>
-      <pubDate>Sat, 12 Sep 2026 09:50:00 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ray-project/kuberay">ray-project/kuberay</a> (2678 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #5275 in ray-project/kuberay: [CI][History Server] Remove the noctx lint exclusion for historyserver/test by using context-aware HTTP and exec calls</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./.</code></p>
-<p><a href="https://github.com/ray-project/kuberay/issues/5275">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[ray-project/kuberay] #5276 [CI][History Server] Remove the errcheck lint exclusion by handling go-restful response write errors (Solvability: 6/10)</title>
-      <link>https://github.com/ray-project/kuberay/issues/5276</link>
-      <guid isPermaLink="true">https://github.com/ray-project/kuberay/issues/5276</guid>
-      <pubDate>Sat, 12 Sep 2026 09:52:13 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ray-project/kuberay">ray-project/kuberay</a> (2678 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #5276 in ray-project/kuberay: [CI][History Server] Remove the errcheck lint exclusion by handling go-restful response write errors</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./.</code></p>
-<p><a href="https://github.com/ray-project/kuberay/issues/5276">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[ray-project/kuberay] #5278 [CI][History Server] Remove the gosec G110 lint exclusion by deleting the unused DecompressStream helper (Solvability: 6/10)</title>
-      <link>https://github.com/ray-project/kuberay/issues/5278</link>
-      <guid isPermaLink="true">https://github.com/ray-project/kuberay/issues/5278</guid>
-      <pubDate>Sat, 12 Sep 2026 10:07:48 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ray-project/kuberay">ray-project/kuberay</a> (2678 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #5278 in ray-project/kuberay: [CI][History Server] Remove the gosec G110 lint exclusion by deleting the unused DecompressStream helper</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./.</code></p>
-<p><a href="https://github.com/ray-project/kuberay/issues/5278">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[Rust-for-Linux/linux] #1255 Align `DropGuard` API with upstream Rust (Solvability: 6/10)</title>
-      <link>https://github.com/Rust-for-Linux/linux/issues/1255</link>
-      <guid isPermaLink="true">https://github.com/Rust-for-Linux/linux/issues/1255</guid>
-      <pubDate>Sat, 12 Sep 2026 18:47:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Rust-for-Linux/linux">Rust-for-Linux/linux</a> (4406 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1255 in Rust-for-Linux/linux: Align `DropGuard` API with upstream Rust</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Rust-for-Linux/linux/issues/1255">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>• lib</category>
-      <category>good first issue</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[wemake-services/django-modern-rest] #1456 Pre-compute headers and cookies for `@modify` (Solvability: 6/10)</title>
-      <link>https://github.com/wemake-services/django-modern-rest/issues/1456</link>
-      <guid isPermaLink="true">https://github.com/wemake-services/django-modern-rest/issues/1456</guid>
-      <pubDate>Sat, 12 Sep 2026 10:35:28 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/wemake-services/django-modern-rest">wemake-services/django-modern-rest</a> (1451 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1456 in wemake-services/django-modern-rest: Pre-compute headers and cookies for `@modify`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/wemake-services/django-modern-rest/issues/1456">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>performance</category>
-      <category>opensource september</category>
-    </item>
-    <item>
-      <title>[wemake-services/django-modern-rest] #1458 Support explicitly abstract controllers (Solvability: 6/10)</title>
-      <link>https://github.com/wemake-services/django-modern-rest/issues/1458</link>
-      <guid isPermaLink="true">https://github.com/wemake-services/django-modern-rest/issues/1458</guid>
-      <pubDate>Sat, 12 Sep 2026 10:45:06 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/wemake-services/django-modern-rest">wemake-services/django-modern-rest</a> (1451 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1458 in wemake-services/django-modern-rest: Support explicitly abstract controllers</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/wemake-services/django-modern-rest/issues/1458">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>feature</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>opensource september</category>
-    </item>
-    <item>
-      <title>[wal-g/wal-g] #2557 [DISCUSSION] small increase in memory usage after AWS SDK v2 (Solvability: 6/10)</title>
-      <link>https://github.com/wal-g/wal-g/issues/2557</link>
-      <guid isPermaLink="true">https://github.com/wal-g/wal-g/issues/2557</guid>
-      <pubDate>Sat, 12 Sep 2026 12:57:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/wal-g/wal-g">wal-g/wal-g</a> (4247 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #2557 in wal-g/wal-g: [DISCUSSION] small increase in memory usage after AWS SDK v2</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/wal-g/wal-g/issues/2557">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[snapotter-hq/SnapOtter] #1059 [Bug] Polygonal lasso only closes on double-click, with no hint saying so (Solvability: 6/10)</title>
-      <link>https://github.com/snapotter-hq/SnapOtter/issues/1059</link>
-      <guid isPermaLink="true">https://github.com/snapotter-hq/SnapOtter/issues/1059</guid>
-      <pubDate>Sat, 12 Sep 2026 03:06:14 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/snapotter-hq/SnapOtter">snapotter-hq/SnapOtter</a> (2636 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1059 in snapotter-hq/SnapOtter: [Bug] Polygonal lasso only closes on double-click, with no hint saying so</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/web/src/hooks/use-editor-shortcuts.ts</code></p>
-<p><a href="https://github.com/snapotter-hq/SnapOtter/issues/1059">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>area: frontend</category>
-      <category>community-request</category>
-    </item>
-    <item>
-      <title>[snapotter-hq/SnapOtter] #1099 feat(audio): fill the conversion preset matrix; opus-to-* is missing entirely and mp3 only converts to wav (Solvability: 6/10)</title>
-      <link>https://github.com/snapotter-hq/SnapOtter/issues/1099</link>
-      <guid isPermaLink="true">https://github.com/snapotter-hq/SnapOtter/issues/1099</guid>
-      <pubDate>Sat, 12 Sep 2026 04:46:12 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/snapotter-hq/SnapOtter">snapotter-hq/SnapOtter</a> (2636 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1099 in snapotter-hq/SnapOtter: feat(audio): fill the conversion preset matrix; opus-to-* is missing entirely and mp3 only converts to wav</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/shared/src/modality.ts</code></p>
-<p><a href="https://github.com/snapotter-hq/SnapOtter/issues/1099">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>area: backend</category>
-      <category>community-request</category>
-    </item>
-    <item>
-      <title>[AcademySoftwareFoundation/OpenTimelineIO] #2042 Some documentation is missing (Solvability: 6/10)</title>
-      <link>https://github.com/AcademySoftwareFoundation/OpenTimelineIO/issues/2042</link>
-      <guid isPermaLink="true">https://github.com/AcademySoftwareFoundation/OpenTimelineIO/issues/2042</guid>
-      <pubDate>Fri, 11 Sep 2026 22:02:42 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/AcademySoftwareFoundation/OpenTimelineIO">AcademySoftwareFoundation/OpenTimelineIO</a> (1979 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2042 in AcademySoftwareFoundation/OpenTimelineIO: Some documentation is missing</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/AcademySoftwareFoundation/OpenTimelineIO/issues/2042">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>documentation</category>
-      <category>devdays26</category>
     </item>
   </channel>
 </rss>
