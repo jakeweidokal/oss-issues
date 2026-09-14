@@ -1,5 +1,437 @@
 [
   {
+    "id": "I_kwDORk3IJs8AAAABRQRkmw",
+    "number": 109,
+    "title": "Fix the dead contribution-guidelines link in the issue chooser",
+    "url": "https://github.com/Vaquill-AI/awesome-legaltech/issues/109",
+    "repo": "Vaquill-AI/awesome-legaltech",
+    "repoUrl": "https://github.com/Vaquill-AI/awesome-legaltech",
+    "stars": 218,
+    "language": null,
+    "labels": [
+      "bug",
+      "good first issue",
+      "maintenance"
+    ],
+    "createdAt": "2026-09-14T18:07:25Z",
+    "updatedAt": "2026-09-14T18:07:25Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/ISSUE_TEMPLATE/config.yml",
+      ".github/workflows/link-check.yml"
+    ],
+    "summary": "Fix issue #109 in Vaquill-AI/awesome-legaltech: Fix the dead contribution-guidelines link in the issue chooser",
+    "maintainerTurnaroundDays": 1.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:22.185Z"
+  },
+  {
+    "id": "I_kwDORk3IJs8AAAABRQRlsA",
+    "number": 110,
+    "title": "Remove six malformed list lines and four duplicate or misfiled entries in README.md",
+    "url": "https://github.com/Vaquill-AI/awesome-legaltech/issues/110",
+    "repo": "Vaquill-AI/awesome-legaltech",
+    "repoUrl": "https://github.com/Vaquill-AI/awesome-legaltech",
+    "stars": 218,
+    "language": null,
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-14T18:07:27Z",
+    "updatedAt": "2026-09-14T18:07:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #110 in Vaquill-AI/awesome-legaltech: Remove six malformed list lines and four duplicate or misfiled entries in README.md",
+    "maintainerTurnaroundDays": 1.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:21.753Z"
+  },
+  {
+    "id": "I_kwDORk3IJs8AAAABRQRmsg",
+    "number": 111,
+    "title": "Restore the four sections missing from the Contents list, and add a CI check that keeps it in sync",
+    "url": "https://github.com/Vaquill-AI/awesome-legaltech/issues/111",
+    "repo": "Vaquill-AI/awesome-legaltech",
+    "repoUrl": "https://github.com/Vaquill-AI/awesome-legaltech",
+    "stars": 218,
+    "language": null,
+    "labels": [
+      "documentation",
+      "enhancement",
+      "good first issue",
+      "maintenance"
+    ],
+    "createdAt": "2026-09-14T18:07:29Z",
+    "updatedAt": "2026-09-14T18:07:29Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/link-check.yml"
+    ],
+    "summary": "Fix issue #111 in Vaquill-AI/awesome-legaltech: Restore the four sections missing from the Contents list, and add a CI check that keeps it in sync",
+    "maintainerTurnaroundDays": 1.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:21.300Z"
+  },
+  {
+    "id": "I_kwDORk3IJs8AAAABRQRntA",
+    "number": 112,
+    "title": "Skip github.com reserved paths in staleness_audit.py so the monthly report stops reporting a phantom 404",
+    "url": "https://github.com/Vaquill-AI/awesome-legaltech/issues/112",
+    "repo": "Vaquill-AI/awesome-legaltech",
+    "repoUrl": "https://github.com/Vaquill-AI/awesome-legaltech",
+    "stars": 218,
+    "language": null,
+    "labels": [
+      "bug",
+      "good first issue",
+      "maintenance"
+    ],
+    "createdAt": "2026-09-14T18:07:31Z",
+    "updatedAt": "2026-09-14T18:07:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/scripts/staleness_audit.py"
+    ],
+    "summary": "Fix issue #112 in Vaquill-AI/awesome-legaltech: Skip github.com reserved paths in staleness_audit.py so the monthly report stops reporting a phantom 404",
+    "maintainerTurnaroundDays": 1.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:20.798Z"
+  },
+  {
+    "id": "I_kwDORk3IJs8AAAABRQRo5g",
+    "number": 113,
+    "title": "Document the entry tag vocabulary in CONTRIBUTING.md",
+    "url": "https://github.com/Vaquill-AI/awesome-legaltech/issues/113",
+    "repo": "Vaquill-AI/awesome-legaltech",
+    "repoUrl": "https://github.com/Vaquill-AI/awesome-legaltech",
+    "stars": 218,
+    "language": null,
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-14T18:07:33Z",
+    "updatedAt": "2026-09-14T18:07:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #113 in Vaquill-AI/awesome-legaltech: Document the entry tag vocabulary in CONTRIBUTING.md",
+    "maintainerTurnaroundDays": 1.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:20.333Z"
+  },
+  {
+    "id": "I_kwDONIS0-88AAAABRQktHA",
+    "number": 427,
+    "title": "Feat(linter): add a `sort-imports` rule",
+    "url": "https://github.com/DonIsaac/zlint/issues/427",
+    "repo": "DonIsaac/zlint",
+    "repoUrl": "https://github.com/DonIsaac/zlint",
+    "stars": 311,
+    "language": "Zig",
+    "labels": [
+      "C-enhancement",
+      "good first issue",
+      "A-linter",
+      "C-rule"
+    ],
+    "createdAt": "2026-09-14T18:41:19Z",
+    "updatedAt": "2026-09-14T18:41:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #427 in DonIsaac/zlint: Feat(linter): add a `sort-imports` rule",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:19.801Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRQwOjg",
+    "number": 30418,
+    "title": "[Good First Issue] 🍁 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30418",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3388,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-14T19:01:43Z",
+    "updatedAt": "2026-09-14T19:01:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #30418 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new Community Note Line #3 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:19.128Z"
+  },
+  {
+    "id": "I_kwDOEQbdgc8AAAABRQwuHQ",
+    "number": 323,
+    "title": "fix hook bugs",
+    "url": "https://github.com/mandiant/speakeasy/issues/323",
+    "repo": "mandiant/speakeasy",
+    "repoUrl": "https://github.com/mandiant/speakeasy",
+    "stars": 2046,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-14T19:02:28Z",
+    "updatedAt": "2026-09-14T19:02:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #323 in mandiant/speakeasy: fix hook bugs",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-14T21:08:17.425Z"
+  },
+  {
+    "id": "I_kwDOJW3Oms8AAAABRQ4mMQ",
+    "number": 809,
+    "title": "Add username in the registration endpoint",
+    "url": "https://github.com/Writeopia/Writeopia/issues/809",
+    "repo": "Writeopia/Writeopia",
+    "repoUrl": "https://github.com/Writeopia/Writeopia",
+    "stars": 277,
+    "language": "Kotlin",
+    "labels": [
+      "good first issue",
+      "backend"
+    ],
+    "createdAt": "2026-09-14T19:14:25Z",
+    "updatedAt": "2026-09-14T19:14:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #809 in Writeopia/Writeopia: Add username in the registration endpoint",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:16.825Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRRFcpw",
+    "number": 30419,
+    "title": "[Good First Issue] 🌺 Add new Theme: Noh Mask - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30419",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3388,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-14T19:35:08Z",
+    "updatedAt": "2026-09-14T19:35:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #30419 in lingdojo/kana-dojo: [Good First Issue] 🌺 Add new Theme: Noh Mask - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:15.144Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRRVRVQ",
+    "number": 30420,
+    "title": "[Good First Issue] 🍢 Add new Japan Fact 285 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30420",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3388,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-14T20:01:04Z",
+    "updatedAt": "2026-09-14T20:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #30420 in lingdojo/kana-dojo: [Good First Issue] 🍢 Add new Japan Fact 285 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:13.771Z"
+  },
+  {
+    "id": "I_kwDOSR1Zd88AAAABRRmrow",
+    "number": 68,
+    "title": "feat(ui): Add \"Copy Frame as ASCII Text\" button",
+    "url": "https://github.com/YusufB5/ASCILINE/issues/68",
+    "repo": "YusufB5/ASCILINE",
+    "repoUrl": "https://github.com/YusufB5/ASCILINE",
+    "stars": 2730,
+    "language": "JavaScript",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-14T20:29:10Z",
+    "updatedAt": "2026-09-14T20:29:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test app.js",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ],
+    "summary": "Fix issue #68 in YusufB5/ASCILINE: feat(ui): Add \"Copy Frame as ASCII Text\" button",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:12.211Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRRp1TA",
+    "number": 30421,
+    "title": "[Good First Issue] 🍥 Add new Japanese Proverb 16 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30421",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3388,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-14T20:34:34Z",
+    "updatedAt": "2026-09-14T20:34:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30421 in lingdojo/kana-dojo: [Good First Issue] 🍥 Add new Japanese Proverb 16 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:11.684Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRR4EXA",
+    "number": 30422,
+    "title": "[Good First Issue] 🍢 Add new Japanese Haiku 11 - Beginner-Friendly Open-source Contribution",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30422",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3388,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-14T21:01:01Z",
+    "updatedAt": "2026-09-14T21:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-haiku.json"
+    ],
+    "summary": "Fix issue #30422 in lingdojo/kana-dojo: [Good First Issue] 🍢 Add new Japanese Haiku 11 - Beginner-Friendly Open-source Contribution",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-14T21:08:09.239Z"
+  },
+  {
     "id": "I_kwDODhKIWM8AAAABRPOX0Q",
     "number": 35677,
     "title": "Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]",
@@ -1627,37 +2059,6 @@
     "discoveredAt": "2026-09-13T10:45:19.376Z"
   },
   {
-    "id": "I_kwDOP_HjxM8AAAABRDOfPQ",
-    "number": 1487,
-    "title": "Make `ConfigMerge` class customizable",
-    "url": "https://github.com/wemake-services/django-modern-rest/issues/1487",
-    "repo": "wemake-services/django-modern-rest",
-    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
-    "stars": 1451,
-    "language": "Python",
-    "labels": [
-      "feature",
-      "good first issue",
-      "help wanted",
-      "openapi",
-      "opensource september"
-    ],
-    "createdAt": "2026-09-13T09:08:22Z",
-    "updatedAt": "2026-09-13T09:08:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1487 in wemake-services/django-modern-rest: Make `ConfigMerge` class customizable",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-13T10:45:08.557Z"
-  },
-  {
     "id": "I_kwDOAf6AbM8AAAABRDSe6A",
     "number": 603,
     "title": "run `may_dangle` benchmarks on v2",
@@ -1686,69 +2087,6 @@
     "maintainerTurnaroundDays": 0.7,
     "defaultBranch": "v2",
     "discoveredAt": "2026-09-13T10:45:07.122Z"
-  },
-  {
-    "id": "I_kwDOAf6AbM8AAAABRDTXug",
-    "number": 604,
-    "title": "run `specialization` benchmarks on v2",
-    "url": "https://github.com/servo/rust-smallvec/issues/604",
-    "repo": "servo/rust-smallvec",
-    "repoUrl": "https://github.com/servo/rust-smallvec",
-    "stars": 1728,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "p-medium",
-      "r-performance"
-    ],
-    "createdAt": "2026-09-13T09:31:07Z",
-    "updatedAt": "2026-09-13T09:31:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test specialization",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/specialization.rs"
-    ],
-    "summary": "Fix issue #604 in servo/rust-smallvec: run `specialization` benchmarks on v2",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "v2",
-    "discoveredAt": "2026-09-13T10:45:05.108Z"
-  },
-  {
-    "id": "I_kwDOP_HjxM8AAAABRDcWAg",
-    "number": 1491,
-    "title": "Fix `Reference | Schema` conflict in our OpenAPI definitions",
-    "url": "https://github.com/wemake-services/django-modern-rest/issues/1491",
-    "repo": "wemake-services/django-modern-rest",
-    "repoUrl": "https://github.com/wemake-services/django-modern-rest",
-    "stars": 1451,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "openapi",
-      "opensource september"
-    ],
-    "createdAt": "2026-09-13T10:07:57Z",
-    "updatedAt": "2026-09-13T10:14:48Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest django_test_app/server/apps/model_cursor/schema.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "django_test_app/server/apps/model_cursor/schema.py",
-      "dmr/management/commands/dmr_export_schema.py",
-      "dmr/openapi/generators/schema.py"
-    ],
-    "summary": "Fix issue #1491 in wemake-services/django-modern-rest: Fix `Reference | Schema` conflict in our OpenAPI definitions",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-13T10:45:01.459Z"
   },
   {
     "id": "I_kwDOB11tyM8AAAABRBPq3w",
@@ -1868,34 +2206,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T19:48:39.740Z"
-  },
-  {
-    "id": "I_kwDOEmJ-8c8AAAABQ85acw",
-    "number": 5275,
-    "title": "[CI][History Server] Remove the noctx lint exclusion for historyserver/test by using context-aware HTTP and exec calls",
-    "url": "https://github.com/ray-project/kuberay/issues/5275",
-    "repo": "ray-project/kuberay",
-    "repoUrl": "https://github.com/ray-project/kuberay",
-    "stars": 2678,
-    "language": "Go",
-    "labels": [
-      "enhancement",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-12T09:50:00Z",
-    "updatedAt": "2026-09-12T09:50:00Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./.",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".golangci.yml"
-    ],
-    "summary": "Fix issue #5275 in ray-project/kuberay: [CI][History Server] Remove the noctx lint exclusion for historyserver/test by using context-aware HTTP and exec calls",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-12T19:48:36.881Z"
   },
   {
     "id": "I_kwDODFlWBc8AAAABQ_hTGg",
@@ -2221,37 +2531,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-11T10:08:34.286Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQzNPmA",
-    "number": 3093,
-    "title": "Summarize audio format distributions without content",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3093",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5298,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "feature",
-      "P2",
-      "roadmap-v3"
-    ],
-    "createdAt": "2026-09-11T08:58:12Z",
-    "updatedAt": "2026-09-11T08:58:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3093 in maziyarpanahi/openmed: Summarize audio format distributions without content",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:31.296Z"
   },
   {
     "id": "I_kwDOP8M_rs8AAAABQzNQeQ",
@@ -3559,37 +3838,6 @@
     "discoveredAt": "2026-09-07T10:55:25.505Z"
   },
   {
-    "id": "I_kwDOP8M_rs8AAAABQD4GhQ",
-    "number": 3047,
-    "title": "Derive bounded image geometry from asset manifests",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3047",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:13Z",
-    "updatedAt": "2026-09-07T09:31:13Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3047 in maziyarpanahi/openmed: Derive bounded image geometry from asset manifests",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:23.109Z"
-  },
-  {
     "id": "I_kwDOP8M_rs8AAAABQD4NPg",
     "number": 3050,
     "title": "Validate WAV metadata against ASR input profiles",
@@ -3619,37 +3867,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-07T10:55:20.747Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQD4M-Q",
-    "number": 3049,
-    "title": "Plan deterministic audio resampling metadata",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3049",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:21Z",
-    "updatedAt": "2026-09-07T09:31:21Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3049 in maziyarpanahi/openmed: Plan deterministic audio resampling metadata",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:18.312Z"
   },
   {
     "id": "I_kwDOP8M_rs8AAAABQD4MxA",
@@ -4292,226 +4509,5 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-03T20:16:22.892Z"
-  },
-  {
-    "id": "I_kwDOHz3Rkc8AAAABPlW6bw",
-    "number": 1243,
-    "title": "ItemizedResource should be a fixed SBS grid",
-    "url": "https://github.com/PyLabRobot/pylabrobot/issues/1243",
-    "repo": "PyLabRobot/pylabrobot",
-    "repoUrl": "https://github.com/PyLabRobot/pylabrobot",
-    "stars": 525,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "resources"
-    ],
-    "createdAt": "2026-09-03T19:44:50Z",
-    "updatedAt": "2026-09-03T19:44:50Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1243 in PyLabRobot/pylabrobot: ItemizedResource should be a fixed SBS grid",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-03T20:14:17.751Z"
-  },
-  {
-    "id": "I_kwDOB7-mp88AAAABPbJibw",
-    "number": 8771,
-    "title": "Update Project Profile: Hackforla.org Website Remove Santiago Vidal",
-    "url": "https://github.com/hackforla/website/issues/8771",
-    "repo": "hackforla/website",
-    "repoUrl": "https://github.com/hackforla/website",
-    "stars": 364,
-    "language": "JavaScript",
-    "labels": [
-      "good first issue",
-      "role: front end",
-      "role: back end/devOps",
-      "P-Feature: Project Info and Page",
-      "time sensitive",
-      "size: 0.25pt",
-      "ready for merge team"
-    ],
-    "createdAt": "2026-09-02T22:48:31Z",
-    "updatedAt": "2026-09-02T22:50:28Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8771 in hackforla/website: Update Project Profile: Hackforla.org Website Remove Santiago Vidal",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "gh-pages",
-    "discoveredAt": "2026-09-03T01:50:08.158Z"
-  },
-  {
-    "id": "I_kwDOB7-mp88AAAABPbKCyA",
-    "number": 8772,
-    "title": "Update Project Profile: Hackforla.org Website Remove Kerstin Carson",
-    "url": "https://github.com/hackforla/website/issues/8772",
-    "repo": "hackforla/website",
-    "repoUrl": "https://github.com/hackforla/website",
-    "stars": 364,
-    "language": "JavaScript",
-    "labels": [
-      "good first issue",
-      "role: front end",
-      "role: back end/devOps",
-      "P-Feature: Project Info and Page",
-      "time sensitive",
-      "size: 0.25pt",
-      "ready for merge team"
-    ],
-    "createdAt": "2026-09-02T22:49:47Z",
-    "updatedAt": "2026-09-02T22:52:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8772 in hackforla/website: Update Project Profile: Hackforla.org Website Remove Kerstin Carson",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "gh-pages",
-    "discoveredAt": "2026-09-03T01:50:06.151Z"
-  },
-  {
-    "id": "I_kwDOB7-mp88AAAABPbK0rA",
-    "number": 8773,
-    "title": "Update Project Profile: Hackforla.org Website Remove Xavier Neal-Carson",
-    "url": "https://github.com/hackforla/website/issues/8773",
-    "repo": "hackforla/website",
-    "repoUrl": "https://github.com/hackforla/website",
-    "stars": 364,
-    "language": "JavaScript",
-    "labels": [
-      "good first issue",
-      "role: front end",
-      "role: back end/devOps",
-      "P-Feature: Project Info and Page",
-      "time sensitive",
-      "size: 0.25pt",
-      "ready for merge team"
-    ],
-    "createdAt": "2026-09-02T22:51:45Z",
-    "updatedAt": "2026-09-02T22:57:21Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8773 in hackforla/website: Update Project Profile: Hackforla.org Website Remove Xavier Neal-Carson",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "gh-pages",
-    "discoveredAt": "2026-09-03T01:50:04.370Z"
-  },
-  {
-    "id": "I_kwDOB7-mp88AAAABPbL9iA",
-    "number": 8774,
-    "title": "Update Project Profile: Hackforla.org Website Remove Will Gillis",
-    "url": "https://github.com/hackforla/website/issues/8774",
-    "repo": "hackforla/website",
-    "repoUrl": "https://github.com/hackforla/website",
-    "stars": 364,
-    "language": "JavaScript",
-    "labels": [
-      "good first issue",
-      "role: front end",
-      "role: back end/devOps",
-      "P-Feature: Project Info and Page",
-      "time sensitive",
-      "size: 0.25pt",
-      "ready for merge team"
-    ],
-    "createdAt": "2026-09-02T22:54:45Z",
-    "updatedAt": "2026-09-02T22:55:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8774 in hackforla/website: Update Project Profile: Hackforla.org Website Remove Will Gillis",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "gh-pages",
-    "discoveredAt": "2026-09-03T01:50:02.555Z"
-  },
-  {
-    "id": "I_kwDOHg5Khs8AAAABPcBbVw",
-    "number": 1893,
-    "title": "Default non-agent healthchecks use root credentials — switch to the `.my-healthcheck.cnf` healthcheck user so root password rotation doesn't restart Pods (follow-up to #1357)",
-    "url": "https://github.com/mariadb-operator/mariadb-operator/issues/1893",
-    "repo": "mariadb-operator/mariadb-operator",
-    "repoUrl": "https://github.com/mariadb-operator/mariadb-operator",
-    "stars": 1002,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "replication"
-    ],
-    "createdAt": "2026-09-03T01:13:29Z",
-    "updatedAt": "2026-09-03T01:13:29Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./pkg/builder",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "pkg/builder/container_builder.go",
-      "pkg/builder/statefulset_builder.go"
-    ],
-    "summary": "Fix issue #1893 in mariadb-operator/mariadb-operator: Default non-agent healthchecks use root credentials — switch to the `.my-healthcheck.cnf` healthcheck user so root password rotation doesn't restart Pods (follow-up to #1357)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-03T01:49:41.718Z"
-  },
-  {
-    "id": "I_kwDOB5ZECs8AAAABPNnOsQ",
-    "number": 609,
-    "title": "[FEATURE]: Highlight capture groups in matches and show their index",
-    "url": "https://github.com/stefankueng/grepWin/issues/609",
-    "repo": "stefankueng/grepWin",
-    "repoUrl": "https://github.com/stefankueng/grepWin",
-    "stars": 2064,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-01T19:21:57Z",
-    "updatedAt": "2026-09-01T19:21:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #609 in stefankueng/grepWin: [FEATURE]: Highlight capture groups in matches and show their index",
-    "maintainerTurnaroundDays": 2.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-01T20:16:08.101Z"
   }
 ]
