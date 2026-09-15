@@ -5,8 +5,168 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2026 15:51:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 20:35:36 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[TheAlgorithms/Python] #15351 TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026 (Solvability: 6/10)</title>
+      <link>https://github.com/TheAlgorithms/Python/issues/15351</link>
+      <guid isPermaLink="true">https://github.com/TheAlgorithms/Python/issues/15351</guid>
+      <pubDate>Tue, 15 Sep 2026 15:34:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/TheAlgorithms/Python">TheAlgorithms/Python</a> (224610 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #15351 in TheAlgorithms/Python: TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest scripts/pr_file_map.py</code></p>
+<p><a href="https://github.com/TheAlgorithms/Python/issues/15351">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[nexu-io/open-design] #8176 [Bug]: Global button height reset clips multi-line button content in several components (Solvability: 6/10)</title>
+      <link>https://github.com/nexu-io/open-design/issues/8176</link>
+      <guid isPermaLink="true">https://github.com/nexu-io/open-design/issues/8176</guid>
+      <pubDate>Tue, 15 Sep 2026 19:00:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/nexu-io/open-design">nexu-io/open-design</a> (96366 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #8176 in nexu-io/open-design: [Bug]: Global button height reset clips multi-line button content in several components</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test apps/web/src/styles/primitives.css</code></p>
+<p><a href="https://github.com/nexu-io/open-design/issues/8176">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[Doezer/Questarr] #1035 Indexer categories outside 40xx/10xx are silently dropped from searches (Solvability: 6/10)</title>
+      <link>https://github.com/Doezer/Questarr/issues/1035</link>
+      <guid isPermaLink="true">https://github.com/Doezer/Questarr/issues/1035</guid>
+      <pubDate>Tue, 15 Sep 2026 20:04:24 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Doezer/Questarr">Doezer/Questarr</a> (642 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1035 in Doezer/Questarr: Indexer categories outside 40xx/10xx are silently dropped from searches</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test server/indexer-caps.ts</code></p>
+<p><a href="https://github.com/Doezer/Questarr/issues/1035">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+      <category>priority:medium</category>
+      <category>area:api</category>
+    </item>
+    <item>
+      <title>[pioarduino/platform-espressif32] #531 Build fails with SCons 4.11.1 with verbose mode (SCons 4.11.1 is used in branch develop) (Solvability: 6/10)</title>
+      <link>https://github.com/pioarduino/platform-espressif32/issues/531</link>
+      <guid isPermaLink="true">https://github.com/pioarduino/platform-espressif32/issues/531</guid>
+      <pubDate>Tue, 15 Sep 2026 20:24:46 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/pioarduino/platform-espressif32">pioarduino/platform-espressif32</a> (794 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #531 in pioarduino/platform-espressif32: Build fails with SCons 4.11.1 with verbose mode (SCons 4.11.1 is used in branch develop)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/pioarduino/platform-espressif32/issues/531">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+      <category>Community PR welcome</category>
+    </item>
+    <item>
+      <title>[NVIDIA/nvcf] #1871 Add table-backed BDD step for Helm function creation (Solvability: 6/10)</title>
+      <link>https://github.com/NVIDIA/nvcf/issues/1871</link>
+      <guid isPermaLink="true">https://github.com/NVIDIA/nvcf/issues/1871</guid>
+      <pubDate>Mon, 14 Sep 2026 18:29:13 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/NVIDIA/nvcf">NVIDIA/nvcf</a> (214 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1871 in NVIDIA/nvcf: Add table-backed BDD step for Helm function creation</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/NVIDIA/nvcf/issues/1871">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[Basekick-Labs/arc] #834 delete API: WHERE keyword scan runs on raw text, so a string literal containing drop/delete/update is refused (Solvability: 6/10)</title>
+      <link>https://github.com/Basekick-Labs/arc/issues/834</link>
+      <guid isPermaLink="true">https://github.com/Basekick-Labs/arc/issues/834</guid>
+      <pubDate>Tue, 15 Sep 2026 17:07:16 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Basekick-Labs/arc">Basekick-Labs/arc</a> (677 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #834 in Basekick-Labs/arc: delete API: WHERE keyword scan runs on raw text, so a string literal containing drop/delete/update is refused</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./internal/api</code></p>
+<p><a href="https://github.com/Basekick-Labs/arc/issues/834">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[stjude-rust-labs/sprocket] #1209 wdl-lint: always check struct doc comments in `MetaSections` (Solvability: 6/10)</title>
+      <link>https://github.com/stjude-rust-labs/sprocket/issues/1209</link>
+      <guid isPermaLink="true">https://github.com/stjude-rust-labs/sprocket/issues/1209</guid>
+      <pubDate>Tue, 15 Sep 2026 17:47:57 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/stjude-rust-labs/sprocket">stjude-rust-labs/sprocket</a> (207 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1209 in stjude-rust-labs/sprocket: wdl-lint: always check struct doc comments in `MetaSections`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test meta</code></p>
+<p><a href="https://github.com/stjude-rust-labs/sprocket/issues/1209">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>s-blocked</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30467 [Good First Issue] 🪭 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30467</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30467</guid>
+      <pubDate>Tue, 15 Sep 2026 19:01:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3394 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30467 in lingdojo/kana-dojo: [Good First Issue] 🪭 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30467">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+    </item>
+    <item>
+      <title>[vllm-project/agentic-api] #312 code clean up / refactor (Solvability: 6/10)</title>
+      <link>https://github.com/vllm-project/agentic-api/issues/312</link>
+      <guid isPermaLink="true">https://github.com/vllm-project/agentic-api/issues/312</guid>
+      <pubDate>Tue, 15 Sep 2026 19:56:55 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vllm-project/agentic-api">vllm-project/agentic-api</a> (275 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #312 in vllm-project/agentic-api: code clean up / refactor</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test tool_search</code></p>
+<p><a href="https://github.com/vllm-project/agentic-api/issues/312">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
     <item>
       <title>[mxsm/rocketmq-rust] #10649 [Doc📝] Document the public fields of BrokerConfig (Solvability: 6/10)</title>
       <link>https://github.com/mxsm/rocketmq-rust/issues/10649</link>
@@ -200,23 +360,6 @@
       <category>rocketmq-broker crate</category>
     </item>
     <item>
-      <title>[CopilotKit/CopilotKit] #7158 🐛 Bug: input and header slots reject plain FCs (same defect as #7126) (Solvability: 6/10)</title>
-      <link>https://github.com/CopilotKit/CopilotKit/issues/7158</link>
-      <guid isPermaLink="true">https://github.com/CopilotKit/CopilotKit/issues/7158</guid>
-      <pubDate>Tue, 15 Sep 2026 15:11:10 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/CopilotKit/CopilotKit">CopilotKit/CopilotKit</a> (37373 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #7158 in CopilotKit/CopilotKit: 🐛 Bug: input and header slots reject plain FCs (same defect as #7126)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/react-core/src/v2/lib/slots.tsx</code></p>
-<p><a href="https://github.com/CopilotKit/CopilotKit/issues/7158">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[gzxx-2025/aid-server] #7 补充英文部署指南：Docker 与手动部署 (Solvability: 6/10)</title>
       <link>https://github.com/gzxx-2025/aid-server/issues/7</link>
       <guid isPermaLink="true">https://github.com/gzxx-2025/aid-server/issues/7</guid>
@@ -231,24 +374,6 @@
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>documentation</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[gzxx-2025/aid-server] #11 为 Web 用户端增加 GitHub Actions 静态生成检查 (Solvability: 6/10)</title>
-      <link>https://github.com/gzxx-2025/aid-server/issues/11</link>
-      <guid isPermaLink="true">https://github.com/gzxx-2025/aid-server/issues/11</guid>
-      <pubDate>Tue, 15 Sep 2026 15:16:02 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/gzxx-2025/aid-server">gzxx-2025/aid-server</a> (252 ⭐, Java)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #11 in gzxx-2025/aid-server: 为 Web 用户端增加 GitHub Actions 静态生成检查</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/gzxx-2025/aid-server/issues/11">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Java</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
       <category>good first issue</category>
       <category>help wanted</category>
     </item>
@@ -272,47 +397,6 @@
       <category>Difficulty level/Easy</category>
       <category>rocketmq-client crate</category>
       <category>enhancement✨</category>
-    </item>
-    <item>
-      <title>[agentscope-ai/agentscope-java] #3154 [Bug]:deepseekv4.1使用dashscope调用百炼平台报错 (Solvability: 6/10)</title>
-      <link>https://github.com/agentscope-ai/agentscope-java/issues/3154</link>
-      <guid isPermaLink="true">https://github.com/agentscope-ai/agentscope-java/issues/3154</guid>
-      <pubDate>Tue, 15 Sep 2026 08:15:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/agentscope-ai/agentscope-java">agentscope-ai/agentscope-java</a> (5617 ⭐, Java)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3154 in agentscope-ai/agentscope-java: [Bug]:deepseekv4.1使用dashscope调用百炼平台报错</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/agentscope-ai/agentscope-java/issues/3154">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Java</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>area/core/model</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30447 [Good First Issue] 🍙 Add new Learner Mistake 77 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30447</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30447</guid>
-      <pubDate>Tue, 15 Sep 2026 08:34:37 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3390 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30447 in lingdojo/kana-dojo: [Good First Issue] 🍙 Add new Learner Mistake 77 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-common-mistakes.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30447">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
     </item>
     <item>
       <title>[owncast/owncast] #5180 Reminder: Update Hacktoberfest branding for this year (Solvability: 6/10)</title>
@@ -429,42 +513,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[Brainrotlang/brainrot] #375 [Bug]: deadass (const) not enforced for array-element / member assignment targets (Solvability: 6/10)</title>
-      <link>https://github.com/Brainrotlang/brainrot/issues/375</link>
-      <guid isPermaLink="true">https://github.com/Brainrotlang/brainrot/issues/375</guid>
-      <pubDate>Tue, 15 Sep 2026 09:30:31 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Brainrotlang/brainrot">Brainrotlang/brainrot</a> (629 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #375 in Brainrotlang/brainrot: [Bug]: deadass (const) not enforced for array-element / member assignment targets</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Brainrotlang/brainrot/issues/375">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[Brainrotlang/brainrot] #376 [Bug]: yapping/baka format parser reads past end of buffer on a bare/incomplete % specifier (Solvability: 6/10)</title>
-      <link>https://github.com/Brainrotlang/brainrot/issues/376</link>
-      <guid isPermaLink="true">https://github.com/Brainrotlang/brainrot/issues/376</guid>
-      <pubDate>Tue, 15 Sep 2026 09:30:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Brainrotlang/brainrot">Brainrotlang/brainrot</a> (629 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #376 in Brainrotlang/brainrot: [Bug]: yapping/baka format parser reads past end of buffer on a bare/incomplete % specifier</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Brainrotlang/brainrot/issues/376">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[Brainrotlang/brainrot] #377 [Bug]: slorp into an empty rant heap-overflows (fabricated 1024-byte capacity) (Solvability: 6/10)</title>
       <link>https://github.com/Brainrotlang/brainrot/issues/377</link>
       <guid isPermaLink="true">https://github.com/Brainrotlang/brainrot/issues/377</guid>
@@ -481,29 +529,6 @@
       <category>bug</category>
       <category>help wanted</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30449 [Good First Issue] 🏮 Add new Community Note Line #2 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30449</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30449</guid>
-      <pubDate>Tue, 15 Sep 2026 09:34:52 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3390 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30449 in lingdojo/kana-dojo: [Good First Issue] 🏮 Add new Community Note Line #2 - Beginner-Friendly Open-source Contribution</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30449">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
     </item>
     <item>
       <title>[django-guardian/django-guardian] #1026 Implement comprehensive bulk permission assignment API with documentation and benchmarks (Solvability: 6/10)</title>
@@ -525,24 +550,6 @@
       <category>performance</category>
       <category>good first issue</category>
       <category>needs documentation</category>
-    </item>
-    <item>
-      <title>[GreedyBear-Project/GreedyBear] #1599 Allow GreedyBear to run without an Elasticsearch attached (Solvability: 6/10)</title>
-      <link>https://github.com/GreedyBear-Project/GreedyBear/issues/1599</link>
-      <guid isPermaLink="true">https://github.com/GreedyBear-Project/GreedyBear/issues/1599</guid>
-      <pubDate>Tue, 15 Sep 2026 09:53:43 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/GreedyBear-Project/GreedyBear">GreedyBear-Project/GreedyBear</a> (202 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1599 in GreedyBear-Project/GreedyBear: Allow GreedyBear to run without an Elasticsearch attached</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest greedybear/settings.py</code></p>
-<p><a href="https://github.com/GreedyBear-Project/GreedyBear/issues/1599">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>python</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #30452 [Good First Issue] 🎌 Add new Japan Fact 92 - Beginner-Friendly Open-source Contribution (Solvability: 6/10)</title>
@@ -599,22 +606,6 @@
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[Basekick-Labs/arc] #825 docs(compaction): hourly MinFiles comment claims a ~6 minute flush cadence; the default is 5 seconds (Solvability: 6/10)</title>
-      <link>https://github.com/Basekick-Labs/arc/issues/825</link>
-      <guid isPermaLink="true">https://github.com/Basekick-Labs/arc/issues/825</guid>
-      <pubDate>Mon, 14 Sep 2026 23:08:47 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Basekick-Labs/arc">Basekick-Labs/arc</a> (677 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #825 in Basekick-Labs/arc: docs(compaction): hourly MinFiles comment claims a ~6 minute flush cadence; the default is 5 seconds</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./internal/compaction</code></p>
-<p><a href="https://github.com/Basekick-Labs/arc/issues/825">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
       <category>good first issue</category>
     </item>
     <item>

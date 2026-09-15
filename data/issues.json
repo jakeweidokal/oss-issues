@@ -1,5 +1,269 @@
 [
   {
+    "id": "I_kwDOA8iScc8AAAABRa6s1A",
+    "number": 15351,
+    "title": "TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026",
+    "url": "https://github.com/TheAlgorithms/Python/issues/15351",
+    "repo": "TheAlgorithms/Python",
+    "repoUrl": "https://github.com/TheAlgorithms/Python",
+    "stars": 224610,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-15T15:34:19Z",
+    "updatedAt": "2026-09-15T16:03:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest scripts/pr_file_map.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "scripts/pr_file_map.py"
+    ],
+    "summary": "Fix issue #15351 in TheAlgorithms/Python: TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-15T20:35:36.348Z"
+  },
+  {
+    "id": "I_kwDOSOgY8s8AAAABRc_X-A",
+    "number": 8176,
+    "title": "[Bug]: Global button height reset clips multi-line button content in several components",
+    "url": "https://github.com/nexu-io/open-design/issues/8176",
+    "repo": "nexu-io/open-design",
+    "repoUrl": "https://github.com/nexu-io/open-design",
+    "stars": 96366,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-15T19:00:02Z",
+    "updatedAt": "2026-09-15T19:04:25Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/web/src/styles/primitives.css",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/web/src/styles/primitives.css",
+      "packages/components/src/styles.css"
+    ],
+    "summary": "Fix issue #8176 in nexu-io/open-design: [Bug]: Global button height reset clips multi-line button content in several components",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T20:35:35.439Z"
+  },
+  {
+    "id": "I_kwDOP0125M8AAAABRdkRcw",
+    "number": 1035,
+    "title": "Indexer categories outside 40xx/10xx are silently dropped from searches",
+    "url": "https://github.com/Doezer/Questarr/issues/1035",
+    "repo": "Doezer/Questarr",
+    "repoUrl": "https://github.com/Doezer/Questarr",
+    "stars": 642,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "help wanted",
+      "priority:medium",
+      "area:api"
+    ],
+    "createdAt": "2026-09-15T20:04:24Z",
+    "updatedAt": "2026-09-15T20:05:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test server/indexer-caps.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "server/indexer-caps.ts"
+    ],
+    "summary": "Fix issue #1035 in Doezer/Questarr: Indexer categories outside 40xx/10xx are silently dropped from searches",
+    "maintainerTurnaroundDays": 1.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T20:35:28.479Z"
+  },
+  {
+    "id": "I_kwDOMWhU7s8AAAABRdvS8w",
+    "number": 531,
+    "title": "Build fails with SCons 4.11.1 with verbose mode (SCons 4.11.1 is used in branch develop)",
+    "url": "https://github.com/pioarduino/platform-espressif32/issues/531",
+    "repo": "pioarduino/platform-espressif32",
+    "repoUrl": "https://github.com/pioarduino/platform-espressif32",
+    "stars": 794,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "help wanted",
+      "Community PR welcome"
+    ],
+    "createdAt": "2026-09-15T20:24:46Z",
+    "updatedAt": "2026-09-15T20:27:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #531 in pioarduino/platform-espressif32: Build fails with SCons 4.11.1 with verbose mode (SCons 4.11.1 is used in branch develop)",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T20:35:27.741Z"
+  },
+  {
+    "id": "I_kwDOR3RR6M8AAAABRQduUg",
+    "number": 1871,
+    "title": "Add table-backed BDD step for Helm function creation",
+    "url": "https://github.com/NVIDIA/nvcf/issues/1871",
+    "repo": "NVIDIA/nvcf",
+    "repoUrl": "https://github.com/NVIDIA/nvcf",
+    "stars": 214,
+    "language": "Go",
+    "labels": [
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-14T18:29:13Z",
+    "updatedAt": "2026-09-14T20:55:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1871 in NVIDIA/nvcf: Add table-backed BDD step for Helm function creation",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T20:35:26.905Z"
+  },
+  {
+    "id": "I_kwDOP9-TEs8AAAABRb5A8g",
+    "number": 834,
+    "title": "delete API: WHERE keyword scan runs on raw text, so a string literal containing drop/delete/update is refused",
+    "url": "https://github.com/Basekick-Labs/arc/issues/834",
+    "repo": "Basekick-Labs/arc",
+    "repoUrl": "https://github.com/Basekick-Labs/arc",
+    "stars": 677,
+    "language": "Go",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-15T17:07:16Z",
+    "updatedAt": "2026-09-15T17:18:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "go test -v ./internal/api",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "internal/api/delete.go"
+    ],
+    "summary": "Fix issue #834 in Basekick-Labs/arc: delete API: WHERE keyword scan runs on raw text, so a string literal containing drop/delete/update is refused",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T20:35:19.764Z"
+  },
+  {
+    "id": "I_kwDOK63vj88AAAABRcSSdg",
+    "number": 1209,
+    "title": "wdl-lint: always check struct doc comments in `MetaSections`",
+    "url": "https://github.com/stjude-rust-labs/sprocket/issues/1209",
+    "repo": "stjude-rust-labs/sprocket",
+    "repoUrl": "https://github.com/stjude-rust-labs/sprocket",
+    "stars": 207,
+    "language": "Rust",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "s-blocked"
+    ],
+    "createdAt": "2026-09-15T17:47:57Z",
+    "updatedAt": "2026-09-15T17:47:57Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test meta",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "crates/wdl-doc/src/meta.rs",
+      "crates/wdl-format/src/v1/meta.rs",
+      "crates/wdl-lint/src/rules/doc_meta_strings.rs"
+    ],
+    "summary": "Fix issue #1209 in stjude-rust-labs/sprocket: wdl-lint: always check struct doc comments in `MetaSections`",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T20:35:18.355Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRc_86A",
+    "number": 30467,
+    "title": "[Good First Issue] 🪭 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30467",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3394,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-15T19:01:01Z",
+    "updatedAt": "2026-09-15T19:01:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #30467 in lingdojo/kana-dojo: [Good First Issue] 🪭 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T20:35:17.073Z"
+  },
+  {
+    "id": "I_kwDORucxkc8AAAABRdgN0A",
+    "number": 312,
+    "title": "code clean up / refactor",
+    "url": "https://github.com/vllm-project/agentic-api/issues/312",
+    "repo": "vllm-project/agentic-api",
+    "repoUrl": "https://github.com/vllm-project/agentic-api",
+    "stars": 275,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-15T19:56:55Z",
+    "updatedAt": "2026-09-15T20:22:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test tool_search",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "crates/agentic-server-core/src/tool/tool_search.rs",
+      "crates/agentic-server-core/src/types/io/output.rs",
+      "crates/agentic-server/src/handler/websocket/responses.rs"
+    ],
+    "summary": "Fix issue #312 in vllm-project/agentic-api: code clean up / refactor",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T20:35:15.796Z"
+  },
+  {
     "id": "I_kwDOK5M3Is8AAAABRaq8Yw",
     "number": 10649,
     "title": "[Doc📝] Document the public fields of BrokerConfig",
@@ -300,34 +564,6 @@
     "discoveredAt": "2026-09-15T15:50:34.212Z"
   },
   {
-    "id": "I_kwDOJxJfAc8AAAABRarN0A",
-    "number": 7158,
-    "title": "🐛 Bug: input and header slots reject plain FCs (same defect as #7126)",
-    "url": "https://github.com/CopilotKit/CopilotKit/issues/7158",
-    "repo": "CopilotKit/CopilotKit",
-    "repoUrl": "https://github.com/CopilotKit/CopilotKit",
-    "stars": 37373,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T15:11:10Z",
-    "updatedAt": "2026-09-15T15:11:19Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/react-core/src/v2/lib/slots.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/react-core/src/v2/lib/slots.tsx"
-    ],
-    "summary": "Fix issue #7158 in CopilotKit/CopilotKit: 🐛 Bug: input and header slots reject plain FCs (same defect as #7126)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T15:50:23.987Z"
-  },
-  {
     "id": "I_kwDOTdU0C88AAAABRauW4g",
     "number": 7,
     "title": "补充英文部署指南：Docker 与手动部署",
@@ -355,35 +591,6 @@
     "maintainerTurnaroundDays": 2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T15:50:10.895Z"
-  },
-  {
-    "id": "I_kwDOTdU0C88AAAABRauaxQ",
-    "number": 11,
-    "title": "为 Web 用户端增加 GitHub Actions 静态生成检查",
-    "url": "https://github.com/gzxx-2025/aid-server/issues/11",
-    "repo": "gzxx-2025/aid-server",
-    "repoUrl": "https://github.com/gzxx-2025/aid-server",
-    "stars": 252,
-    "language": "Java",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-15T15:16:02Z",
-    "updatedAt": "2026-09-15T15:16:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "frontend/web/package.json"
-    ],
-    "summary": "Fix issue #11 in gzxx-2025/aid-server: 为 Web 用户端增加 GitHub Actions 静态生成检查",
-    "maintainerTurnaroundDays": 2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T15:50:06.303Z"
   },
   {
     "id": "I_kwDOK5M3Is8AAAABRa1hIA",
@@ -417,69 +624,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T15:50:02.413Z"
-  },
-  {
-    "id": "I_kwDOP1FeW88AAAABRWfq0A",
-    "number": 3154,
-    "title": "[Bug]:deepseekv4.1使用dashscope调用百炼平台报错",
-    "url": "https://github.com/agentscope-ai/agentscope-java/issues/3154",
-    "repo": "agentscope-ai/agentscope-java",
-    "repoUrl": "https://github.com/agentscope-ai/agentscope-java",
-    "stars": 5617,
-    "language": "Java",
-    "labels": [
-      "bug",
-      "good first issue",
-      "area/core/model"
-    ],
-    "createdAt": "2026-09-15T08:15:41Z",
-    "updatedAt": "2026-09-15T09:14:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3154 in agentscope-ai/agentscope-java: [Bug]:deepseekv4.1使用dashscope调用百炼平台报错",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:37:17.376Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRWriTg",
-    "number": 30447,
-    "title": "[Good First Issue] 🍙 Add new Learner Mistake 77 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30447",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3390,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-15T08:34:37Z",
-    "updatedAt": "2026-09-15T08:34:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30447 in lingdojo/kana-dojo: [Good First Issue] 🍙 Add new Learner Mistake 77 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:37:14.112Z"
   },
   {
     "id": "I_kwDOD-GjqM8AAAABRW7BnQ",
@@ -662,65 +806,6 @@
     "discoveredAt": "2026-09-15T10:36:45.066Z"
   },
   {
-    "id": "I_kwDONGASEc8AAAABRXNCbA",
-    "number": 375,
-    "title": "[Bug]: deadass (const) not enforced for array-element / member assignment targets",
-    "url": "https://github.com/Brainrotlang/brainrot/issues/375",
-    "repo": "Brainrotlang/brainrot",
-    "repoUrl": "https://github.com/Brainrotlang/brainrot",
-    "stars": 629,
-    "language": "C",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T09:30:31Z",
-    "updatedAt": "2026-09-15T09:30:31Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "ast.c"
-    ],
-    "summary": "Fix issue #375 in Brainrotlang/brainrot: [Bug]: deadass (const) not enforced for array-element / member assignment targets",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:44.374Z"
-  },
-  {
-    "id": "I_kwDONGASEc8AAAABRXNEkQ",
-    "number": 376,
-    "title": "[Bug]: yapping/baka format parser reads past end of buffer on a bare/incomplete % specifier",
-    "url": "https://github.com/Brainrotlang/brainrot/issues/376",
-    "repo": "Brainrotlang/brainrot",
-    "repoUrl": "https://github.com/Brainrotlang/brainrot",
-    "stars": 629,
-    "language": "C",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T09:30:34Z",
-    "updatedAt": "2026-09-15T09:30:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "stdrot/yapping.c",
-      "stdrot/baka.c"
-    ],
-    "summary": "Fix issue #376 in Brainrotlang/brainrot: [Bug]: yapping/baka format parser reads past end of buffer on a bare/incomplete % specifier",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:43.755Z"
-  },
-  {
     "id": "I_kwDONGASEc8AAAABRXNGKw",
     "number": 377,
     "title": "[Bug]: slorp into an empty rant heap-overflows (fabricated 1024-byte capacity)",
@@ -750,40 +835,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T10:36:43.031Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRXPtaA",
-    "number": 30449,
-    "title": "[Good First Issue] 🏮 Add new Community Note Line #2 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30449",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3390,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-15T09:34:52Z",
-    "updatedAt": "2026-09-15T09:34:56Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #30449 in lingdojo/kana-dojo: [Good First Issue] 🏮 Add new Community Note Line #2 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:42.377Z"
   },
   {
     "id": "I_kwDOAAq-cs8AAAABRXWV3g",
@@ -816,36 +867,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T10:36:40.782Z"
-  },
-  {
-    "id": "I_kwDOGk1wB88AAAABRXagmw",
-    "number": 1599,
-    "title": "Allow GreedyBear to run without an Elasticsearch attached",
-    "url": "https://github.com/GreedyBear-Project/GreedyBear/issues/1599",
-    "repo": "GreedyBear-Project/GreedyBear",
-    "repoUrl": "https://github.com/GreedyBear-Project/GreedyBear",
-    "stars": 202,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "python"
-    ],
-    "createdAt": "2026-09-15T09:53:43Z",
-    "updatedAt": "2026-09-15T09:53:43Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest greedybear/settings.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "greedybear/settings.py",
-      "tests/greedybear/test_security_settings.py"
-    ],
-    "summary": "Fix issue #1599 in GreedyBear-Project/GreedyBear: Allow GreedyBear to run without an Elasticsearch attached",
-    "maintainerTurnaroundDays": 2.8,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:40.230Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABRXyqng",
@@ -937,35 +958,6 @@
     "maintainerTurnaroundDays": 1.4,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T02:12:25.697Z"
-  },
-  {
-    "id": "I_kwDOP9-TEs8AAAABRSx-QA",
-    "number": 825,
-    "title": "docs(compaction): hourly MinFiles comment claims a ~6 minute flush cadence; the default is 5 seconds",
-    "url": "https://github.com/Basekick-Labs/arc/issues/825",
-    "repo": "Basekick-Labs/arc",
-    "repoUrl": "https://github.com/Basekick-Labs/arc",
-    "stars": 677,
-    "language": "Go",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-14T23:08:47Z",
-    "updatedAt": "2026-09-14T23:08:47Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./internal/compaction",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "internal/compaction/hourly.go",
-      "internal/config/config.go",
-      "internal/ingest/arrow_writer.go"
-    ],
-    "summary": "Fix issue #825 in Basekick-Labs/arc: docs(compaction): hourly MinFiles comment claims a ~6 minute flush cadence; the default is 5 seconds",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T02:12:18.010Z"
   },
   {
     "id": "I_kwDORj5l3c8AAAABRTKHag",
