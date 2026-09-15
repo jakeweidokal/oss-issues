@@ -1,5 +1,424 @@
 [
   {
+    "id": "I_kwDOK5M3Is8AAAABRaq8Yw",
+    "number": 10649,
+    "title": "[Doc📝] Document the public fields of BrokerConfig",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10649",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate"
+    ],
+    "createdAt": "2026-09-15T15:10:46Z",
+    "updatedAt": "2026-09-15T15:10:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test broker_config",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-broker/src/config/broker_config.rs"
+    ],
+    "summary": "Fix issue #10649 in mxsm/rocketmq-rust: [Doc📝] Document the public fields of BrokerConfig",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:51:21.221Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRaq9MQ",
+    "number": 10650,
+    "title": "[Test🧪] Add unit tests for LiteConsumerLagCalculator",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10650",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-15T15:10:47Z",
+    "updatedAt": "2026-09-15T15:10:47Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test lite_consumer_lag_calculator",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-broker/src/lite/lite_consumer_lag_calculator.rs"
+    ],
+    "summary": "Fix issue #10650 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for LiteConsumerLagCalculator",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:51:14.400Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRaq-0A",
+    "number": 10652,
+    "title": "[Test🧪] Add unit tests for consumer filter data and the retry message filter",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10652",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-15T15:10:50Z",
+    "updatedAt": "2026-09-15T15:10:50Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test consumer_filter_data",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-broker/src/filter/consumer_filter_data.rs",
+      "rocketmq-broker/src/filter/manager/consumer_filter_wrapper.rs",
+      "rocketmq-broker/src/filter/expression_for_retry_message_filter.rs"
+    ],
+    "summary": "Fix issue #10652 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for consumer filter data and the retry message filter",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:51:03.724Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRaq_kg",
+    "number": 10653,
+    "title": "[Test🧪] Add unit tests for PopLiteRequestData memory accounting",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10653",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-15T15:10:51Z",
+    "updatedAt": "2026-09-15T15:10:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test data",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-broker/src/long_polling/pop_lite_deferred/data.rs"
+    ],
+    "summary": "Fix issue #10653 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for PopLiteRequestData memory accounting",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:58.567Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRarAfA",
+    "number": 10654,
+    "title": "[Test🧪] Add unit tests for the message pre-put hooks",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10654",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-15T15:10:52Z",
+    "updatedAt": "2026-09-15T15:10:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test check_before_put_message",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-broker/src/hook/check_before_put_message.rs",
+      "rocketmq-broker/src/hook/batch_check_before_put_message.rs",
+      "rocketmq-broker/src/util/hook_utils.rs"
+    ],
+    "summary": "Fix issue #10654 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for the message pre-put hooks",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:53.721Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRarBPQ",
+    "number": 10655,
+    "title": "[Enhancement✨] Hoist loop-invariant work out of the bit-map dispatch loop",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10655",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate",
+      "performance",
+      "enhancement✨"
+    ],
+    "createdAt": "2026-09-15T15:10:53Z",
+    "updatedAt": "2026-09-15T15:10:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test commit_log_dispatcher_calc_bit_map",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-broker/src/filter/commit_log_dispatcher_calc_bit_map.rs",
+      "rocketmq-broker/benches/consumer_filter_benchmark.rs"
+    ],
+    "summary": "Fix issue #10655 in mxsm/rocketmq-rust: [Enhancement✨] Hoist loop-invariant work out of the bit-map dispatch loop",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:49.016Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRarCOw",
+    "number": 10656,
+    "title": "[Enhancement✨] Replace the per-queue broker rescan with a set lookup in topic route building",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10656",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate",
+      "performance",
+      "enhancement✨"
+    ],
+    "createdAt": "2026-09-15T15:10:55Z",
+    "updatedAt": "2026-09-15T15:10:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test route",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-broker/src/topic/route.rs",
+      "rocketmq-broker/benches/topic_config_lookup_benchmark.rs"
+    ],
+    "summary": "Fix issue #10656 in mxsm/rocketmq-rust: [Enhancement✨] Replace the per-queue broker rescan with a set lookup in topic route building",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:44.061Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRarDKQ",
+    "number": 10657,
+    "title": "[Enhancement✨] Avoid re-parsing the full message properties map to classify the message type",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10657",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate",
+      "performance",
+      "enhancement✨"
+    ],
+    "createdAt": "2026-09-15T15:10:56Z",
+    "updatedAt": "2026-09-15T15:10:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test broker_metrics_manager",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-broker/src/metrics/broker_metrics_manager.rs",
+      "rocketmq-broker/src/processor/send_message_processor.rs"
+    ],
+    "summary": "Fix issue #10657 in mxsm/rocketmq-rust: [Enhancement✨] Avoid re-parsing the full message properties map to classify the message type",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:39.093Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRarEyQ",
+    "number": 10658,
+    "title": "[Bug🐛] Malformed batch-lock request bodies panic the Broker",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10658",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "bug🐛",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate"
+    ],
+    "createdAt": "2026-09-15T15:10:58Z",
+    "updatedAt": "2026-09-15T15:10:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test batch_mq_handler",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-broker/src/processor/admin_broker_processor/batch_mq_handler.rs",
+      "rocketmq-broker/src/processor/admin_broker_processor.rs",
+      "rocketmq-broker/src/broker_error.rs"
+    ],
+    "summary": "Fix issue #10658 in mxsm/rocketmq-rust: [Bug🐛] Malformed batch-lock request bodies panic the Broker",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:34.212Z"
+  },
+  {
+    "id": "I_kwDOJxJfAc8AAAABRarN0A",
+    "number": 7158,
+    "title": "🐛 Bug: input and header slots reject plain FCs (same defect as #7126)",
+    "url": "https://github.com/CopilotKit/CopilotKit/issues/7158",
+    "repo": "CopilotKit/CopilotKit",
+    "repoUrl": "https://github.com/CopilotKit/CopilotKit",
+    "stars": 37373,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-15T15:11:10Z",
+    "updatedAt": "2026-09-15T15:11:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/react-core/src/v2/lib/slots.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/react-core/src/v2/lib/slots.tsx"
+    ],
+    "summary": "Fix issue #7158 in CopilotKit/CopilotKit: 🐛 Bug: input and header slots reject plain FCs (same defect as #7126)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:23.987Z"
+  },
+  {
+    "id": "I_kwDOTdU0C88AAAABRauW4g",
+    "number": 7,
+    "title": "补充英文部署指南：Docker 与手动部署",
+    "url": "https://github.com/gzxx-2025/aid-server/issues/7",
+    "repo": "gzxx-2025/aid-server",
+    "repoUrl": "https://github.com/gzxx-2025/aid-server",
+    "stars": 252,
+    "language": "Java",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-15T15:15:56Z",
+    "updatedAt": "2026-09-15T15:15:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #7 in gzxx-2025/aid-server: 补充英文部署指南：Docker 与手动部署",
+    "maintainerTurnaroundDays": 2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:10.895Z"
+  },
+  {
+    "id": "I_kwDOTdU0C88AAAABRauaxQ",
+    "number": 11,
+    "title": "为 Web 用户端增加 GitHub Actions 静态生成检查",
+    "url": "https://github.com/gzxx-2025/aid-server/issues/11",
+    "repo": "gzxx-2025/aid-server",
+    "repoUrl": "https://github.com/gzxx-2025/aid-server",
+    "stars": 252,
+    "language": "Java",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-15T15:16:02Z",
+    "updatedAt": "2026-09-15T15:16:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "frontend/web/package.json"
+    ],
+    "summary": "Fix issue #11 in gzxx-2025/aid-server: 为 Web 用户端增加 GitHub Actions 静态生成检查",
+    "maintainerTurnaroundDays": 2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:06.303Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRa1hIA",
+    "number": 10660,
+    "title": "[Enhancement✨] Include the error detail in the pull request exception log",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10660",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-client crate",
+      "enhancement✨"
+    ],
+    "createdAt": "2026-09-15T15:26:49Z",
+    "updatedAt": "2026-09-15T15:26:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test pull_callback",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-client/src/consumer/pull_callback.rs",
+      "rocketmq-client/src/consumer/consumer_impl/pull_message_service.rs"
+    ],
+    "summary": "Fix issue #10660 in mxsm/rocketmq-rust: [Enhancement✨] Include the error detail in the pull request exception log",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:02.413Z"
+  },
+  {
     "id": "I_kwDOP1FeW88AAAABRWfq0A",
     "number": 3154,
     "title": "[Bug]:deepseekv4.1使用dashscope调用百炼平台报错",
@@ -1510,156 +1929,6 @@
     "discoveredAt": "2026-09-14T02:04:52.883Z"
   },
   {
-    "id": "I_kwDOJMhU1c8AAAABRH0Khg",
-    "number": 3630,
-    "title": "[ffigen] Improve API for clang args",
-    "url": "https://github.com/dart-lang/native/issues/3630",
-    "repo": "dart-lang/native",
-    "repoUrl": "https://github.com/dart-lang/native",
-    "stars": 275,
-    "language": "Dart",
-    "labels": [
-      "good first issue",
-      "package:ffigen"
-    ],
-    "createdAt": "2026-09-14T01:07:16Z",
-    "updatedAt": "2026-09-14T01:07:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3630 in dart-lang/native: [ffigen] Improve API for clang args",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:04:49.522Z"
-  },
-  {
-    "id": "I_kwDOJMhU1c8AAAABRH09Eg",
-    "number": 3631,
-    "title": "[ffigen] Default clang args for C++",
-    "url": "https://github.com/dart-lang/native/issues/3631",
-    "repo": "dart-lang/native",
-    "repoUrl": "https://github.com/dart-lang/native",
-    "stars": 275,
-    "language": "Dart",
-    "labels": [
-      "good first issue",
-      "package:ffigen",
-      "lang-cpp"
-    ],
-    "createdAt": "2026-09-14T01:09:37Z",
-    "updatedAt": "2026-09-14T01:09:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3631 in dart-lang/native: [ffigen] Default clang args for C++",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:04:46.487Z"
-  },
-  {
-    "id": "I_kwDOEaEoos8AAAABRIEeMg",
-    "number": 45686,
-    "title": "Colour for invalid code sample.",
-    "url": "https://github.com/mdn/content/issues/45686",
-    "repo": "mdn/content",
-    "repoUrl": "https://github.com/mdn/content",
-    "stars": 10983,
-    "language": "Markdown",
-    "labels": [
-      "good first issue",
-      "Content:JS"
-    ],
-    "createdAt": "2026-09-14T01:57:31Z",
-    "updatedAt": "2026-09-14T02:02:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #45686 in mdn/content: Colour for invalid code sample.",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:04:43.866Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRIFkIw",
-    "number": 30360,
-    "title": "[Good First Issue] 🧧 Add new Dialect Entry 65 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30360",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3378,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-14T02:01:04Z",
-    "updatedAt": "2026-09-14T02:01:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #30360 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Dialect Entry 65 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:04:31.287Z"
-  },
-  {
-    "id": "I_kwDOAacoPM8AAAABRFdwkQ",
-    "number": 26799,
-    "title": "Crops NH Knightly Oreberry Seed breeding chart in the NEI shows Twilight Forest Armor Shard Cluster as placeable",
-    "url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/26799",
-    "repo": "GTNewHorizons/GT-New-Horizons-Modpack",
-    "repoUrl": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack",
-    "stars": 2009,
-    "language": "Python",
-    "labels": [
-      "Type: Recipe",
-      "Bug: Minor",
-      "Status: Ready for Developer",
-      "Good First Issue",
-      "Mod: CropsNH"
-    ],
-    "createdAt": "2026-09-13T17:18:18Z",
-    "updatedAt": "2026-09-13T18:36:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #26799 in GTNewHorizons/GT-New-Horizons-Modpack: Crops NH Knightly Oreberry Seed breeding chart in the NEI shows Twilight Forest Armor Shard Cluster as placeable",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-13T19:58:10.500Z"
-  },
-  {
     "id": "I_kwDORponss8AAAABRFhg0w",
     "number": 125,
     "title": "Post-blackout recovery state is invisible, so a locked-out filter looks identical to a recovering one",
@@ -1686,37 +1955,6 @@
     "maintainerTurnaroundDays": 0.9,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-13T19:58:05.323Z"
-  },
-  {
-    "id": "I_kwDOO_fYBc8AAAABRFsEGA",
-    "number": 957,
-    "title": "Add unit tests for the useFormErrors hook",
-    "url": "https://github.com/OpsiMate/OpsiMate/issues/957",
-    "repo": "OpsiMate/OpsiMate",
-    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
-    "stars": 213,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "UI",
-      "Test"
-    ],
-    "createdAt": "2026-09-13T18:00:05Z",
-    "updatedAt": "2026-09-13T18:00:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test apps/client/src/hooks/useFormErrors.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "apps/client/src/hooks/useFormErrors.ts",
-      "apps/client/src/test/useCopyToClipboard.test.ts"
-    ],
-    "summary": "Fix issue #957 in OpsiMate/OpsiMate: Add unit tests for the useFormErrors hook",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T19:57:47.268Z"
   },
   {
     "id": "I_kwDODgj3cc8AAAABRF2w8g",
@@ -1747,70 +1985,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-13T19:57:43.349Z"
-  },
-  {
-    "id": "I_kwDOSP_2Ts8AAAABRD4YpQ",
-    "number": 1651,
-    "title": "[Bounty][$0][Lessons] 把 intake #1555（nano-gpt.com SSE 流式调用失败）转成课程",
-    "url": "https://github.com/Ikalus1988/MisakaNet/issues/1651",
-    "repo": "Ikalus1988/MisakaNet",
-    "repoUrl": "https://github.com/Ikalus1988/MisakaNet",
-    "stars": 491,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "ready",
-      "area:core",
-      "bounty",
-      "agent-friendly",
-      "zero-bounty"
-    ],
-    "createdAt": "2026-09-13T11:55:56Z",
-    "updatedAt": "2026-09-13T12:50:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest data/lessons.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "data/lessons.json"
-    ],
-    "summary": "Fix issue #1651 in Ikalus1988/MisakaNet: [Bounty][$0][Lessons] 把 intake #1555（nano-gpt.com SSE 流式调用失败）转成课程",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T15:12:54.700Z"
-  },
-  {
-    "id": "I_kwDOSP_2Ts8AAAABRD4Y4A",
-    "number": 1652,
-    "title": "[Bounty][$0][Lessons] 把 intake #1553（alembic upgrade 失败）转成课程",
-    "url": "https://github.com/Ikalus1988/MisakaNet/issues/1652",
-    "repo": "Ikalus1988/MisakaNet",
-    "repoUrl": "https://github.com/Ikalus1988/MisakaNet",
-    "stars": 491,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "ready",
-      "area:core",
-      "bounty",
-      "agent-friendly",
-      "zero-bounty"
-    ],
-    "createdAt": "2026-09-13T11:55:57Z",
-    "updatedAt": "2026-09-13T12:50:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest data/lessons.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "data/lessons.json"
-    ],
-    "summary": "Fix issue #1652 in Ikalus1988/MisakaNet: [Bounty][$0][Lessons] 把 intake #1553（alembic upgrade 失败）转成课程",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-13T15:12:53.571Z"
   },
   {
     "id": "I_kwDOQ_KVhM8AAAABREGPNg",
@@ -3089,93 +3263,6 @@
     "discoveredAt": "2026-09-09T10:18:27.414Z"
   },
   {
-    "id": "I_kwDOPnhAy88AAAABQaeo-w",
-    "number": 1130,
-    "title": "Rust in the build: one mechanism for first-party crates and for Rust inside vendored extensions",
-    "url": "https://github.com/serenedb/serenedb/issues/1130",
-    "repo": "serenedb/serenedb",
-    "repoUrl": "https://github.com/serenedb/serenedb",
-    "stars": 719,
-    "language": "C++",
-    "labels": [
-      "good first issue",
-      "feature",
-      "student-task"
-    ],
-    "createdAt": "2026-09-09T07:36:25Z",
-    "updatedAt": "2026-09-09T09:19:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1130 in serenedb/serenedb: Rust in the build: one mechanism for first-party crates and for Rust inside vendored extensions",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T10:18:16.052Z"
-  },
-  {
-    "id": "I_kwDOPnhAy88AAAABQaep1g",
-    "number": 1131,
-    "title": "Vortex: read path and a measured verdict against Parquet",
-    "url": "https://github.com/serenedb/serenedb/issues/1131",
-    "repo": "serenedb/serenedb",
-    "repoUrl": "https://github.com/serenedb/serenedb",
-    "stars": 719,
-    "language": "C++",
-    "labels": [
-      "good first issue",
-      "feature",
-      "student-task"
-    ],
-    "createdAt": "2026-09-09T07:36:27Z",
-    "updatedAt": "2026-09-09T09:19:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1131 in serenedb/serenedb: Vortex: read path and a measured verdict against Parquet",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T10:18:04.585Z"
-  },
-  {
-    "id": "I_kwDOPnhAy88AAAABQaeqhA",
-    "number": 1132,
-    "title": "delta-rs: read Delta Lake tables through the transaction log",
-    "url": "https://github.com/serenedb/serenedb/issues/1132",
-    "repo": "serenedb/serenedb",
-    "repoUrl": "https://github.com/serenedb/serenedb",
-    "stars": 719,
-    "language": "C++",
-    "labels": [
-      "good first issue",
-      "feature",
-      "student-task"
-    ],
-    "createdAt": "2026-09-09T07:36:28Z",
-    "updatedAt": "2026-09-09T09:19:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "scripts/gen_iceberg_fixture.py"
-    ],
-    "summary": "Fix issue #1132 in serenedb/serenedb: delta-rs: read Delta Lake tables through the transaction log",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T10:17:53.280Z"
-  },
-  {
     "id": "I_kwDOLFxj-s8AAAABQWozPg",
     "number": 79,
     "title": "[bug] f80 literals are not correctly rounded, and long fractions are silently dropped",
@@ -3355,35 +3442,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-08T20:26:08.360Z"
-  },
-  {
-    "id": "I_kwDOBZ3L8c8AAAABQU_otQ",
-    "number": 797,
-    "title": "FIRE-05 — Docs: \"Climate Indices for Wildfire Applications\"",
-    "url": "https://github.com/monocongo/climate_indices/issues/797",
-    "repo": "monocongo/climate_indices",
-    "repoUrl": "https://github.com/monocongo/climate_indices",
-    "stars": 411,
-    "language": "Python",
-    "labels": [
-      "documentation",
-      "fire-weather",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-08T18:56:16Z",
-    "updatedAt": "2026-09-08T18:56:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #797 in monocongo/climate_indices: FIRE-05 — Docs: \"Climate Indices for Wildfire Applications\"",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T20:25:54.664Z"
   },
   {
     "id": "I_kwDONuDK488AAAABQVbHXw",
@@ -3954,34 +4012,6 @@
     "discoveredAt": "2026-09-06T19:42:22.123Z"
   },
   {
-    "id": "I_kwDOT-o2-c8AAAABP7L6nA",
-    "number": 141,
-    "title": "Robustness: recover orphaned subscription file locks; single-flight manual venue refresh",
-    "url": "https://github.com/1692775560/dsh-Mimir-Academic-research/issues/141",
-    "repo": "1692775560/dsh-Mimir-Academic-research",
-    "repoUrl": "https://github.com/1692775560/dsh-Mimir-Academic-research",
-    "stars": 207,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "quality"
-    ],
-    "createdAt": "2026-09-06T07:41:42Z",
-    "updatedAt": "2026-09-06T09:00:53Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/mimir/src/arxiv-subscriptions.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/mimir/src/arxiv-subscriptions.ts"
-    ],
-    "summary": "Fix issue #141 in 1692775560/dsh-Mimir-Academic-research: Robustness: recover orphaned subscription file locks; single-flight manual venue refresh",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T09:49:48.792Z"
-  },
-  {
     "id": "I_kwDODgj3cc8AAAABP7MIAw",
     "number": 21912,
     "title": "Open new source to check Webhook [TRIGGER]",
@@ -4153,5 +4183,69 @@
     "maintainerTurnaroundDays": 0.7,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-05T09:35:05.422Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRaq9-Q",
+    "number": 10651,
+    "title": "[Test🧪] Add unit tests for broker error constructors and response-code mapping",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10651",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-15T15:10:49Z",
+    "updatedAt": "2026-09-15T15:10:49Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test broker_error",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "rocketmq-broker/src/broker_error.rs"
+    ],
+    "summary": "Fix issue #10651 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for broker error constructors and response-code mapping",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:51:08.809Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABRarHDg",
+    "number": 10659,
+    "title": "[Bug🐛] PopReviveService writes a skip-commit diagnostic to stdout",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10659",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1516,
+    "language": "Rust",
+    "labels": [
+      "bug🐛",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-broker crate"
+    ],
+    "createdAt": "2026-09-15T15:11:01Z",
+    "updatedAt": "2026-09-15T15:11:01Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test pop_revive_service",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "rocketmq-broker/src/processor/processor_service/pop_revive_service.rs"
+    ],
+    "summary": "Fix issue #10659 in mxsm/rocketmq-rust: [Bug🐛] PopReviveService writes a skip-commit diagnostic to stdout",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-15T15:50:29.281Z"
   }
 ]
