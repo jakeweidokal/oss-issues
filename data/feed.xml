@@ -5,8 +5,268 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2026 20:35:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 02:04:33 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[libredb/libredb-studio] #864 docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/864</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/864</guid>
+      <pubDate>Tue, 15 Sep 2026 21:51:58 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (755 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #864 in libredb/libredb-studio: docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/864">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #865 docs/SECURITY.md's rate-limiting row doesn't name the tunable RATE_LIMIT_* env vars (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/865</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/865</guid>
+      <pubDate>Tue, 15 Sep 2026 21:52:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (755 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #865 in libredb/libredb-studio: docs/SECURITY.md's rate-limiting row doesn't name the tunable RATE_LIMIT_* env vars</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test src/lib/api/rate-limit.ts</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/865">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #866 LIBREDB_NO_BANNER is undocumented anywhere outside .env.example (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/866</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/866</guid>
+      <pubDate>Tue, 15 Sep 2026 21:52:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (755 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #866 in libredb/libredb-studio: LIBREDB_NO_BANNER is undocumented anywhere outside .env.example</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/866">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #867 docs/SECURITY.md doesn't mention the HSTS_INCLUDE_SUBDOMAINS opt-in or its sibling-domain risk (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/867</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/867</guid>
+      <pubDate>Tue, 15 Sep 2026 21:52:35 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (755 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #867 in libredb/libredb-studio: docs/SECURITY.md doesn't mention the HSTS_INCLUDE_SUBDOMAINS opt-in or its sibling-domain risk</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/867">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #868 docs/FLY.md links to a README.md anchor that does not exist (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/868</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/868</guid>
+      <pubDate>Tue, 15 Sep 2026 21:52:51 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (755 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #868 in libredb/libredb-studio: docs/FLY.md links to a README.md anchor that does not exist</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/868">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #869 fly.toml's default image tag is several releases behind the latest tag (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/869</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/869</guid>
+      <pubDate>Tue, 15 Sep 2026 21:53:21 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (755 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #869 in libredb/libredb-studio: fly.toml's default image tag is several releases behind the latest tag</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/869">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[melgarafael/DeskcommCRM] #951 agente: o motivo do "Publicar" desabilitado só aparece ao passar o mouse (Solvability: 6/10)</title>
+      <link>https://github.com/melgarafael/DeskcommCRM/issues/951</link>
+      <guid isPermaLink="true">https://github.com/melgarafael/DeskcommCRM/issues/951</guid>
+      <pubDate>Tue, 15 Sep 2026 22:19:47 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/melgarafael/DeskcommCRM">melgarafael/DeskcommCRM</a> (2865 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #951 in melgarafael/DeskcommCRM: agente: o motivo do "Publicar" desabilitado só aparece ao passar o mouse</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/melgarafael/DeskcommCRM/issues/951">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>area/ui</category>
+      <category>triagem:confirmado</category>
+    </item>
+    <item>
+      <title>[rocky-data/rocky] #2001 Browser UI: the product-plan review card says apply checks the digest, but apply checks the digest you pass (Solvability: 6/10)</title>
+      <link>https://github.com/rocky-data/rocky/issues/2001</link>
+      <guid isPermaLink="true">https://github.com/rocky-data/rocky/issues/2001</guid>
+      <pubDate>Tue, 15 Sep 2026 22:25:55 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rocky-data/rocky">rocky-data/rocky</a> (298 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2001 in rocky-data/rocky: Browser UI: the product-plan review card says apply checks the digest, but apply checks the digest you pass</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test PlanDetail.test</code></p>
+<p><a href="https://github.com/rocky-data/rocky/issues/2001">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>engine</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30469 [Good First Issue] 🎐 Add new Japan Fact 213 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30469</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30469</guid>
+      <pubDate>Tue, 15 Sep 2026 23:01:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3395 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30469 in lingdojo/kana-dojo: [Good First Issue] 🎐 Add new Japan Fact 213 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-facts.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30469">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[LibreSign/libresign] #8411 Update jsignpdf-php in LibreSign 3rdparty (Solvability: 6/10)</title>
+      <link>https://github.com/LibreSign/libresign/issues/8411</link>
+      <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/8411</guid>
+      <pubDate>Tue, 15 Sep 2026 23:24:33 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LibreSign/libresign">LibreSign/libresign</a> (811 ⭐, PHP)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #8411 in LibreSign/libresign: Update jsignpdf-php in LibreSign 3rdparty</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/LibreSign/libresign/issues/8411">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>PHP</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>backend</category>
+      <category>php</category>
+    </item>
+    <item>
+      <title>[ash-project/ash] #2937 filter_input crashes on `and` / `or` with a value that is not a non-empty list or map (Solvability: 6/10)</title>
+      <link>https://github.com/ash-project/ash/issues/2937</link>
+      <guid isPermaLink="true">https://github.com/ash-project/ash/issues/2937</guid>
+      <pubDate>Wed, 16 Sep 2026 00:36:57 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ash-project/ash">ash-project/ash</a> (2492 ⭐, Elixir)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2937 in ash-project/ash: filter_input crashes on `and` / `or` with a value that is not a non-empty list or map</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/ash-project/ash/issues/2937">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Elixir</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[ash-project/ash] #2939 Input filters do not check a predicate's argument types against the referenced attribute (Solvability: 6/10)</title>
+      <link>https://github.com/ash-project/ash/issues/2939</link>
+      <guid isPermaLink="true">https://github.com/ash-project/ash/issues/2939</guid>
+      <pubDate>Wed, 16 Sep 2026 00:39:35 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ash-project/ash">ash-project/ash</a> (2492 ⭐, Elixir)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #2939 in ash-project/ash: Input filters do not check a predicate's argument types against the referenced attribute</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/ash-project/ash/issues/2939">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Elixir</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[ash-project/ash] #2940 Invalid `page` options are an unrendered Spark.Options.ValidationError, and a non-list `page` raises (Solvability: 6/10)</title>
+      <link>https://github.com/ash-project/ash/issues/2940</link>
+      <guid isPermaLink="true">https://github.com/ash-project/ash/issues/2940</guid>
+      <pubDate>Wed, 16 Sep 2026 00:39:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ash-project/ash">ash-project/ash</a> (2492 ⭐, Elixir)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2940 in ash-project/ash: Invalid `page` options are an unrendered Spark.Options.ValidationError, and a non-list `page` raises</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/ash-project/ash/issues/2940">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Elixir</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[ash-project/ash] #2941 sort_input crashes on a value that is neither a string nor a list (Solvability: 6/10)</title>
+      <link>https://github.com/ash-project/ash/issues/2941</link>
+      <guid isPermaLink="true">https://github.com/ash-project/ash/issues/2941</guid>
+      <pubDate>Wed, 16 Sep 2026 00:39:40 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ash-project/ash">ash-project/ash</a> (2492 ⭐, Elixir)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2941 in ash-project/ash: sort_input crashes on a value that is neither a string nor a list</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/ash-project/ash/issues/2941">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Elixir</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[leanprover-community/mathlib4] #43855 Notation for multilinear maps (Solvability: 6/10)</title>
+      <link>https://github.com/leanprover-community/mathlib4/issues/43855</link>
+      <guid isPermaLink="true">https://github.com/leanprover-community/mathlib4/issues/43855</guid>
+      <pubDate>Wed, 16 Sep 2026 00:40:55 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/leanprover-community/mathlib4">leanprover-community/mathlib4</a> (4133 ⭐, Lean)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #43855 in leanprover-community/mathlib4: Notation for multilinear maps</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/leanprover-community/mathlib4/issues/43855">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Lean</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
     <item>
       <title>[TheAlgorithms/Python] #15351 TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026 (Solvability: 6/10)</title>
       <link>https://github.com/TheAlgorithms/Python/issues/15351</link>
@@ -94,23 +354,6 @@
       <category>good-first-issue</category>
     </item>
     <item>
-      <title>[Basekick-Labs/arc] #834 delete API: WHERE keyword scan runs on raw text, so a string literal containing drop/delete/update is refused (Solvability: 6/10)</title>
-      <link>https://github.com/Basekick-Labs/arc/issues/834</link>
-      <guid isPermaLink="true">https://github.com/Basekick-Labs/arc/issues/834</guid>
-      <pubDate>Tue, 15 Sep 2026 17:07:16 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Basekick-Labs/arc">Basekick-Labs/arc</a> (677 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #834 in Basekick-Labs/arc: delete API: WHERE keyword scan runs on raw text, so a string literal containing drop/delete/update is refused</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./internal/api</code></p>
-<p><a href="https://github.com/Basekick-Labs/arc/issues/834">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[stjude-rust-labs/sprocket] #1209 wdl-lint: always check struct doc comments in `MetaSections` (Solvability: 6/10)</title>
       <link>https://github.com/stjude-rust-labs/sprocket/issues/1209</link>
       <guid isPermaLink="true">https://github.com/stjude-rust-labs/sprocket/issues/1209</guid>
@@ -127,45 +370,6 @@
       <category>enhancement</category>
       <category>good first issue</category>
       <category>s-blocked</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30467 [Good First Issue] 🪭 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30467</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30467</guid>
-      <pubDate>Tue, 15 Sep 2026 19:01:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3394 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30467 in lingdojo/kana-dojo: [Good First Issue] 🪭 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30467">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-    </item>
-    <item>
-      <title>[vllm-project/agentic-api] #312 code clean up / refactor (Solvability: 6/10)</title>
-      <link>https://github.com/vllm-project/agentic-api/issues/312</link>
-      <guid isPermaLink="true">https://github.com/vllm-project/agentic-api/issues/312</guid>
-      <pubDate>Tue, 15 Sep 2026 19:56:55 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vllm-project/agentic-api">vllm-project/agentic-api</a> (275 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #312 in vllm-project/agentic-api: code clean up / refactor</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test tool_search</code></p>
-<p><a href="https://github.com/vllm-project/agentic-api/issues/312">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[mxsm/rocketmq-rust] #10649 [Doc📝] Document the public fields of BrokerConfig (Solvability: 6/10)</title>
@@ -737,218 +941,6 @@
       <category>enhancement</category>
       <category>good first issue</category>
       <category>maintenance</category>
-    </item>
-    <item>
-      <title>[Vaquill-AI/awesome-legaltech] #113 Document the entry tag vocabulary in CONTRIBUTING.md (Solvability: 6/10)</title>
-      <link>https://github.com/Vaquill-AI/awesome-legaltech/issues/113</link>
-      <guid isPermaLink="true">https://github.com/Vaquill-AI/awesome-legaltech/issues/113</guid>
-      <pubDate>Mon, 14 Sep 2026 18:07:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Vaquill-AI/awesome-legaltech">Vaquill-AI/awesome-legaltech</a> (218 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #113 in Vaquill-AI/awesome-legaltech: Document the entry tag vocabulary in CONTRIBUTING.md</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Vaquill-AI/awesome-legaltech/issues/113">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[DonIsaac/zlint] #427 Feat(linter): add a `sort-imports` rule (Solvability: 6/10)</title>
-      <link>https://github.com/DonIsaac/zlint/issues/427</link>
-      <guid isPermaLink="true">https://github.com/DonIsaac/zlint/issues/427</guid>
-      <pubDate>Mon, 14 Sep 2026 18:41:19 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DonIsaac/zlint">DonIsaac/zlint</a> (311 ⭐, Zig)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #427 in DonIsaac/zlint: Feat(linter): add a `sort-imports` rule</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/DonIsaac/zlint/issues/427">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Zig</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>C-enhancement</category>
-      <category>good first issue</category>
-      <category>A-linter</category>
-      <category>C-rule</category>
-    </item>
-    <item>
-      <title>[mandiant/speakeasy] #323 fix hook bugs (Solvability: 6/10)</title>
-      <link>https://github.com/mandiant/speakeasy/issues/323</link>
-      <guid isPermaLink="true">https://github.com/mandiant/speakeasy/issues/323</guid>
-      <pubDate>Mon, 14 Sep 2026 19:02:28 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mandiant/speakeasy">mandiant/speakeasy</a> (2046 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #323 in mandiant/speakeasy: fix hook bugs</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/mandiant/speakeasy/issues/323">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[Writeopia/Writeopia] #809 Add username in the registration endpoint (Solvability: 6/10)</title>
-      <link>https://github.com/Writeopia/Writeopia/issues/809</link>
-      <guid isPermaLink="true">https://github.com/Writeopia/Writeopia/issues/809</guid>
-      <pubDate>Mon, 14 Sep 2026 19:14:25 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Writeopia/Writeopia">Writeopia/Writeopia</a> (277 ⭐, Kotlin)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #809 in Writeopia/Writeopia: Add username in the registration endpoint</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Writeopia/Writeopia/issues/809">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Kotlin</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>good first issue</category>
-      <category>backend</category>
-    </item>
-    <item>
-      <title>[YusufB5/ASCILINE] #68 feat(ui): Add "Copy Frame as ASCII Text" button (Solvability: 6/10)</title>
-      <link>https://github.com/YusufB5/ASCILINE/issues/68</link>
-      <guid isPermaLink="true">https://github.com/YusufB5/ASCILINE/issues/68</guid>
-      <pubDate>Mon, 14 Sep 2026 20:29:10 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/YusufB5/ASCILINE">YusufB5/ASCILINE</a> (2730 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #68 in YusufB5/ASCILINE: feat(ui): Add "Copy Frame as ASCII Text" button</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test app.js</code></p>
-<p><a href="https://github.com/YusufB5/ASCILINE/issues/68">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[backstage/backstage] #35677 Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422] (Solvability: 6/10)</title>
-      <link>https://github.com/backstage/backstage/issues/35677</link>
-      <guid isPermaLink="true">https://github.com/backstage/backstage/issues/35677</guid>
-      <pubDate>Mon, 14 Sep 2026 16:13:06 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/backstage/backstage">backstage/backstage</a> (34410 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #35677 in backstage/backstage: Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/backend/package.json</code></p>
-<p><a href="https://github.com/backstage/backstage/issues/35677">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>snyk-vulnerability</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[ruma/ruma] #2600 bug(events): `m.history_not_shared` should be `history_not_shared` on `m.room_key` (Solvability: 6/10)</title>
-      <link>https://github.com/ruma/ruma/issues/2600</link>
-      <guid isPermaLink="true">https://github.com/ruma/ruma/issues/2600</guid>
-      <pubDate>Mon, 14 Sep 2026 16:23:51 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ruma/ruma">ruma/ruma</a> (734 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2600 in ruma/ruma: bug(events): `m.history_not_shared` should be `history_not_shared` on `m.room_key`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/ruma/ruma/issues/2600">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>effort/easy</category>
-      <category>type/bug</category>
-      <category>area/events</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[vektra/mockery] #1182 v2.53.7 release is incorrectly marked as latest (Solvability: 6/10)</title>
-      <link>https://github.com/vektra/mockery/issues/1182</link>
-      <guid isPermaLink="true">https://github.com/vektra/mockery/issues/1182</guid>
-      <pubDate>Fri, 04 Sep 2026 09:35:11 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vektra/mockery">vektra/mockery</a> (7158 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1182 in vektra/mockery: v2.53.7 release is incorrectly marked as latest</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/vektra/mockery/issues/1182">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good-first-issue</category>
-      <category>Needs Investigation</category>
-    </item>
-    <item>
-      <title>[llmmanorg/llmman] #503 Add openvino support (Solvability: 6/10)</title>
-      <link>https://github.com/llmmanorg/llmman/issues/503</link>
-      <guid isPermaLink="true">https://github.com/llmmanorg/llmman/issues/503</guid>
-      <pubDate>Mon, 14 Sep 2026 15:36:57 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/llmmanorg/llmman">llmmanorg/llmman</a> (496 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #503 in llmmanorg/llmman: Add openvino support</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/llmmanorg/llmman/issues/503">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[DataDog/stratus-red-team] #967 New possible AWS attack technique: Share an EBS Volume Clone cross-account (Solvability: 6/10)</title>
-      <link>https://github.com/DataDog/stratus-red-team/issues/967</link>
-      <guid isPermaLink="true">https://github.com/DataDog/stratus-red-team/issues/967</guid>
-      <pubDate>Mon, 14 Sep 2026 08:27:20 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DataDog/stratus-red-team">DataDog/stratus-red-team</a> (2395 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #967 in DataDog/stratus-red-team: New possible AWS attack technique: Share an EBS Volume Clone cross-account</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/DataDog/stratus-red-team/issues/967">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>kind/new-technique</category>
-      <category>platform/aws</category>
-    </item>
-    <item>
-      <title>[devswha/patina] #822 docs: labelled starter path and pattern-of-the-week #1 (Solvability: 6/10)</title>
-      <link>https://github.com/devswha/patina/issues/822</link>
-      <guid isPermaLink="true">https://github.com/devswha/patina/issues/822</guid>
-      <pubDate>Mon, 14 Sep 2026 09:45:42 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/devswha/patina">devswha/patina</a> (355 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #822 in devswha/patina: docs: labelled starter path and pattern-of-the-week #1</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/community-patterns.test.js</code></p>
-<p><a href="https://github.com/devswha/patina/issues/822">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>patterns</category>
-      <category>docs</category>
-    </item>
-    <item>
-      <title>[snapotter-hq/SnapOtter] #1144 auth.mfaEnrollmentHeading is the one string left in English in all 20 non-en locales (Solvability: 6/10)</title>
-      <link>https://github.com/snapotter-hq/SnapOtter/issues/1144</link>
-      <guid isPermaLink="true">https://github.com/snapotter-hq/SnapOtter/issues/1144</guid>
-      <pubDate>Mon, 14 Sep 2026 10:51:07 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/snapotter-hq/SnapOtter">snapotter-hq/SnapOtter</a> (2656 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1144 in snapotter-hq/SnapOtter: auth.mfaEnrollmentHeading is the one string left in English in all 20 non-en locales</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/web/i18n-parity.test.ts</code></p>
-<p><a href="https://github.com/snapotter-hq/SnapOtter/issues/1144">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>area: i18n</category>
-      <category>priority: low</category>
     </item>
   </channel>
 </rss>

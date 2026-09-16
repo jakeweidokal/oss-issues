@@ -1,5 +1,431 @@
 [
   {
+    "id": "I_kwDOQuAx5c8AAAABRecxyA",
+    "number": 864,
+    "title": "docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying",
+    "url": "https://github.com/libredb/libredb-studio/issues/864",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 755,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-15T21:51:58Z",
+    "updatedAt": "2026-09-15T21:51:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #864 in libredb/libredb-studio: docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:33.975Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABRec1qA",
+    "number": 865,
+    "title": "docs/SECURITY.md's rate-limiting row doesn't name the tunable RATE_LIMIT_* env vars",
+    "url": "https://github.com/libredb/libredb-studio/issues/865",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 755,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-15T21:52:05Z",
+    "updatedAt": "2026-09-15T21:52:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test src/lib/api/rate-limit.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/lib/api/rate-limit.ts"
+    ],
+    "summary": "Fix issue #865 in libredb/libredb-studio: docs/SECURITY.md's rate-limiting row doesn't name the tunable RATE_LIMIT_* env vars",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:31.514Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABRec96Q",
+    "number": 866,
+    "title": "LIBREDB_NO_BANNER is undocumented anywhere outside .env.example",
+    "url": "https://github.com/libredb/libredb-studio/issues/866",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 755,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-15T21:52:19Z",
+    "updatedAt": "2026-09-15T21:52:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #866 in libredb/libredb-studio: LIBREDB_NO_BANNER is undocumented anywhere outside .env.example",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:29.078Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABRedGrg",
+    "number": 867,
+    "title": "docs/SECURITY.md doesn't mention the HSTS_INCLUDE_SUBDOMAINS opt-in or its sibling-domain risk",
+    "url": "https://github.com/libredb/libredb-studio/issues/867",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 755,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-15T21:52:35Z",
+    "updatedAt": "2026-09-15T21:52:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #867 in libredb/libredb-studio: docs/SECURITY.md doesn't mention the HSTS_INCLUDE_SUBDOMAINS opt-in or its sibling-domain risk",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:26.508Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABRedPwA",
+    "number": 868,
+    "title": "docs/FLY.md links to a README.md anchor that does not exist",
+    "url": "https://github.com/libredb/libredb-studio/issues/868",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 755,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-15T21:52:51Z",
+    "updatedAt": "2026-09-15T21:52:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #868 in libredb/libredb-studio: docs/FLY.md links to a README.md anchor that does not exist",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:24.425Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABRedfIw",
+    "number": 869,
+    "title": "fly.toml's default image tag is several releases behind the latest tag",
+    "url": "https://github.com/libredb/libredb-studio/issues/869",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 755,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-15T21:53:21Z",
+    "updatedAt": "2026-09-15T21:53:21Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #869 in libredb/libredb-studio: fly.toml's default image tag is several releases behind the latest tag",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:22.249Z"
+  },
+  {
+    "id": "I_kwDOSPPUP88AAAABRep43A",
+    "number": 951,
+    "title": "agente: o motivo do \"Publicar\" desabilitado só aparece ao passar o mouse",
+    "url": "https://github.com/melgarafael/DeskcommCRM/issues/951",
+    "repo": "melgarafael/DeskcommCRM",
+    "repoUrl": "https://github.com/melgarafael/DeskcommCRM",
+    "stars": 2865,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "area/ui",
+      "triagem:confirmado"
+    ],
+    "createdAt": "2026-09-15T22:19:47Z",
+    "updatedAt": "2026-09-15T22:19:47Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #951 in melgarafael/DeskcommCRM: agente: o motivo do \"Publicar\" desabilitado só aparece ao passar o mouse",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:19.985Z"
+  },
+  {
+    "id": "I_kwDOSB2L6s8AAAABResU_g",
+    "number": 2001,
+    "title": "Browser UI: the product-plan review card says apply checks the digest, but apply checks the digest you pass",
+    "url": "https://github.com/rocky-data/rocky/issues/2001",
+    "repo": "rocky-data/rocky",
+    "repoUrl": "https://github.com/rocky-data/rocky",
+    "stars": 298,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue",
+      "engine"
+    ],
+    "createdAt": "2026-09-15T22:25:55Z",
+    "updatedAt": "2026-09-15T22:25:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test PlanDetail.test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "engine/ui/src/review/PlanDetail.tsx",
+      "engine/crates/rocky-cli/src/commands/apply.rs"
+    ],
+    "summary": "Fix issue #2001 in rocky-data/rocky: Browser UI: the product-plan review card says apply checks the digest, but apply checks the digest you pass",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:15.129Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRe6tVQ",
+    "number": 30469,
+    "title": "[Good First Issue] 🎐 Add new Japan Fact 213 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30469",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3395,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-15T23:01:02Z",
+    "updatedAt": "2026-09-15T23:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #30469 in lingdojo/kana-dojo: [Good First Issue] 🎐 Add new Japan Fact 213 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:12.491Z"
+  },
+  {
+    "id": "I_kwDOEUy9GM8AAAABRfEjsQ",
+    "number": 8411,
+    "title": "Update jsignpdf-php in LibreSign 3rdparty",
+    "url": "https://github.com/LibreSign/libresign/issues/8411",
+    "repo": "LibreSign/libresign",
+    "repoUrl": "https://github.com/LibreSign/libresign",
+    "stars": 811,
+    "language": "PHP",
+    "labels": [
+      "good first issue",
+      "backend",
+      "php"
+    ],
+    "createdAt": "2026-09-15T23:24:33Z",
+    "updatedAt": "2026-09-15T23:35:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8411 in LibreSign/libresign: Update jsignpdf-php in LibreSign 3rdparty",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:11.166Z"
+  },
+  {
+    "id": "I_kwDODKpNd88AAAABRffBOw",
+    "number": 2937,
+    "title": "filter_input crashes on `and` / `or` with a value that is not a non-empty list or map",
+    "url": "https://github.com/ash-project/ash/issues/2937",
+    "repo": "ash-project/ash",
+    "repoUrl": "https://github.com/ash-project/ash",
+    "stars": 2492,
+    "language": "Elixir",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-16T00:36:57Z",
+    "updatedAt": "2026-09-16T00:58:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2937 in ash-project/ash: filter_input crashes on `and` / `or` with a value that is not a non-empty list or map",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:09.535Z"
+  },
+  {
+    "id": "I_kwDODKpNd88AAAABRff7ew",
+    "number": 2939,
+    "title": "Input filters do not check a predicate's argument types against the referenced attribute",
+    "url": "https://github.com/ash-project/ash/issues/2939",
+    "repo": "ash-project/ash",
+    "repoUrl": "https://github.com/ash-project/ash",
+    "stars": 2492,
+    "language": "Elixir",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-16T00:39:35Z",
+    "updatedAt": "2026-09-16T01:00:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2939 in ash-project/ash: Input filters do not check a predicate's argument types against the referenced attribute",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:08.622Z"
+  },
+  {
+    "id": "I_kwDODKpNd88AAAABRff9HA",
+    "number": 2940,
+    "title": "Invalid `page` options are an unrendered Spark.Options.ValidationError, and a non-list `page` raises",
+    "url": "https://github.com/ash-project/ash/issues/2940",
+    "repo": "ash-project/ash",
+    "repoUrl": "https://github.com/ash-project/ash",
+    "stars": 2492,
+    "language": "Elixir",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-16T00:39:38Z",
+    "updatedAt": "2026-09-16T01:00:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2940 in ash-project/ash: Invalid `page` options are an unrendered Spark.Options.ValidationError, and a non-list `page` raises",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:07.763Z"
+  },
+  {
+    "id": "I_kwDODKpNd88AAAABRff-bA",
+    "number": 2941,
+    "title": "sort_input crashes on a value that is neither a string nor a list",
+    "url": "https://github.com/ash-project/ash/issues/2941",
+    "repo": "ash-project/ash",
+    "repoUrl": "https://github.com/ash-project/ash",
+    "stars": 2492,
+    "language": "Elixir",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-16T00:39:40Z",
+    "updatedAt": "2026-09-16T01:00:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2941 in ash-project/ash: sort_input crashes on a value that is neither a string nor a list",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T02:04:06.836Z"
+  },
+  {
+    "id": "I_kwDOFcwZ1c8AAAABRfge8A",
+    "number": 43855,
+    "title": "Notation for multilinear maps",
+    "url": "https://github.com/leanprover-community/mathlib4/issues/43855",
+    "repo": "leanprover-community/mathlib4",
+    "repoUrl": "https://github.com/leanprover-community/mathlib4",
+    "stars": 4133,
+    "language": "Lean",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-16T00:40:55Z",
+    "updatedAt": "2026-09-16T00:40:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #43855 in leanprover-community/mathlib4: Notation for multilinear maps",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-16T02:04:05.893Z"
+  },
+  {
     "id": "I_kwDOA8iScc8AAAABRa6s1A",
     "number": 15351,
     "title": "TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026",
@@ -142,34 +568,6 @@
     "discoveredAt": "2026-09-15T20:35:26.905Z"
   },
   {
-    "id": "I_kwDOP9-TEs8AAAABRb5A8g",
-    "number": 834,
-    "title": "delete API: WHERE keyword scan runs on raw text, so a string literal containing drop/delete/update is refused",
-    "url": "https://github.com/Basekick-Labs/arc/issues/834",
-    "repo": "Basekick-Labs/arc",
-    "repoUrl": "https://github.com/Basekick-Labs/arc",
-    "stars": 677,
-    "language": "Go",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T17:07:16Z",
-    "updatedAt": "2026-09-15T17:18:42Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "go test -v ./internal/api",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "internal/api/delete.go"
-    ],
-    "summary": "Fix issue #834 in Basekick-Labs/arc: delete API: WHERE keyword scan runs on raw text, so a string literal containing drop/delete/update is refused",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T20:35:19.764Z"
-  },
-  {
     "id": "I_kwDOK63vj88AAAABRcSSdg",
     "number": 1209,
     "title": "wdl-lint: always check struct doc comments in `MetaSections`",
@@ -199,69 +597,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T20:35:18.355Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRc_86A",
-    "number": 30467,
-    "title": "[Good First Issue] 🪭 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30467",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3394,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-15T19:01:01Z",
-    "updatedAt": "2026-09-15T19:01:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #30467 in lingdojo/kana-dojo: [Good First Issue] 🪭 Add new Community Note Line #1 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T20:35:17.073Z"
-  },
-  {
-    "id": "I_kwDORucxkc8AAAABRdgN0A",
-    "number": 312,
-    "title": "code clean up / refactor",
-    "url": "https://github.com/vllm-project/agentic-api/issues/312",
-    "repo": "vllm-project/agentic-api",
-    "repoUrl": "https://github.com/vllm-project/agentic-api",
-    "stars": 275,
-    "language": "Rust",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T19:56:55Z",
-    "updatedAt": "2026-09-15T20:22:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test tool_search",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "crates/agentic-server-core/src/tool/tool_search.rs",
-      "crates/agentic-server-core/src/types/io/output.rs",
-      "crates/agentic-server/src/handler/websocket/responses.rs"
-    ],
-    "summary": "Fix issue #312 in vllm-project/agentic-api: code clean up / refactor",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T20:35:15.796Z"
   },
   {
     "id": "I_kwDOK5M3Is8AAAABRaq8Yw",
@@ -1252,34 +1587,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-14T21:08:17.425Z"
-  },
-  {
-    "id": "I_kwDOJW3Oms8AAAABRQ4mMQ",
-    "number": 809,
-    "title": "Add username in the registration endpoint",
-    "url": "https://github.com/Writeopia/Writeopia/issues/809",
-    "repo": "Writeopia/Writeopia",
-    "repoUrl": "https://github.com/Writeopia/Writeopia",
-    "stars": 277,
-    "language": "Kotlin",
-    "labels": [
-      "good first issue",
-      "backend"
-    ],
-    "createdAt": "2026-09-14T19:14:25Z",
-    "updatedAt": "2026-09-14T19:14:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #809 in Writeopia/Writeopia: Add username in the registration endpoint",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T21:08:16.825Z"
   },
   {
     "id": "I_kwDOSR1Zd88AAAABRRmrow",
@@ -3374,36 +3681,6 @@
     "discoveredAt": "2026-09-09T01:54:20.884Z"
   },
   {
-    "id": "I_kwDORlbFis8AAAABQX57vA",
-    "number": 5518,
-    "title": "Publish current RF drive power in MQTT radio state",
-    "url": "https://github.com/aethersdr/AetherSDR/issues/5518",
-    "repo": "aethersdr/AetherSDR",
-    "repoUrl": "https://github.com/aethersdr/AetherSDR",
-    "stars": 218,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "external devices",
-      "maintainer-review"
-    ],
-    "createdAt": "2026-09-09T01:28:32Z",
-    "updatedAt": "2026-09-09T01:32:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #5518 in aethersdr/AetherSDR: Publish current RF drive power in MQTT radio state",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-09T01:53:48.870Z"
-  },
-  {
     "id": "I_kwDOS3TU6c8AAAABQU97Hw",
     "number": 895,
     "title": "[agent] The no-source-mapping gap cannot tell \"not installed\" from \"deliberately disabled\", so agents learn to skim the gaps block",
@@ -3728,37 +4005,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-07T10:55:25.505Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQD4NPg",
-    "number": 3050,
-    "title": "Validate WAV metadata against ASR input profiles",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3050",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:21Z",
-    "updatedAt": "2026-09-07T09:31:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3050 in maziyarpanahi/openmed: Validate WAV metadata against ASR input profiles",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:20.747Z"
   },
   {
     "id": "I_kwDOP8M_rs8AAAABQD4MxA",
