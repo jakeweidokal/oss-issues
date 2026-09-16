@@ -1,5 +1,266 @@
 [
   {
+    "id": "I_kwDOJ4EDks8AAAABRjF5UQ",
+    "number": 3411,
+    "title": "/generate_labels raises on providers without label support instead of falling back to a comment",
+    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3411",
+    "repo": "The-PR-Agent/pr-agent",
+    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
+    "stars": 13015,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "bug"
+    ],
+    "createdAt": "2026-09-16T09:20:41Z",
+    "updatedAt": "2026-09-16T09:20:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest pr_agent/tools/pr_generate_labels.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "pr_agent/tools/pr_generate_labels.py"
+    ],
+    "summary": "Fix issue #3411 in The-PR-Agent/pr-agent: /generate_labels raises on providers without label support instead of falling back to a comment",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T10:26:00.863Z"
+  },
+  {
+    "id": "I_kwDOJ4EDks8AAAABRjF9XQ",
+    "number": 3412,
+    "title": "Azure DevOps renders /improve suggestions as a raw suggestion fence",
+    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3412",
+    "repo": "The-PR-Agent/pr-agent",
+    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
+    "stars": 13015,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "bug"
+    ],
+    "createdAt": "2026-09-16T09:20:48Z",
+    "updatedAt": "2026-09-16T09:20:48Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest pr_agent/git_providers/azuredevops_provider.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "pr_agent/git_providers/azuredevops_provider.py"
+    ],
+    "summary": "Fix issue #3412 in The-PR-Agent/pr-agent: Azure DevOps renders /improve suggestions as a raw suggestion fence",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T10:25:59.890Z"
+  },
+  {
+    "id": "I_kwDOJ4EDks8AAAABRjGBww",
+    "number": 3413,
+    "title": "Register Grok 4.3 for reasoning_effort",
+    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3413",
+    "repo": "The-PR-Agent/pr-agent",
+    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
+    "stars": 13015,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "feature"
+    ],
+    "createdAt": "2026-09-16T09:20:56Z",
+    "updatedAt": "2026-09-16T09:20:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest pr_agent/algo/__init__.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "pr_agent/algo/__init__.py"
+    ],
+    "summary": "Fix issue #3413 in The-PR-Agent/pr-agent: Register Grok 4.3 for reasoning_effort",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T10:25:58.668Z"
+  },
+  {
+    "id": "I_kwDOJ4EDks8AAAABRjGGAQ",
+    "number": 3414,
+    "title": "Branch names containing # truncate the links every git provider builds",
+    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3414",
+    "repo": "The-PR-Agent/pr-agent",
+    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
+    "stars": 13015,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "bug"
+    ],
+    "createdAt": "2026-09-16T09:21:02Z",
+    "updatedAt": "2026-09-16T09:46:54Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest pr_agent/git_providers/bitbucket_server_provider.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "pr_agent/git_providers/bitbucket_server_provider.py"
+    ],
+    "summary": "Fix issue #3414 in The-PR-Agent/pr-agent: Branch names containing # truncate the links every git provider builds",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T10:25:57.680Z"
+  },
+  {
+    "id": "I_kwDOAbI7X88AAAABRjJlgw",
+    "number": 70082,
+    "title": "Employee Profile Generator step 17 rejects a combined print call",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues/70082",
+    "repo": "freeCodeCamp/freeCodeCamp",
+    "repoUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "stars": 455572,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "scope: curriculum",
+      "python v9 cert"
+    ],
+    "createdAt": "2026-09-16T09:26:58Z",
+    "updatedAt": "2026-09-16T09:26:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #70082 in freeCodeCamp/freeCodeCamp: Employee Profile Generator step 17 rejects a combined print call",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T10:25:56.429Z"
+  },
+  {
+    "id": "I_kwDOQcN2uM8AAAABRjn0aA",
+    "number": 331,
+    "title": "[bug] Islands only works with calls",
+    "url": "https://github.com/D4vidDf/HyperBridge/issues/331",
+    "repo": "D4vidDf/HyperBridge",
+    "repoUrl": "https://github.com/D4vidDf/HyperBridge",
+    "stars": 376,
+    "language": "Kotlin",
+    "labels": [
+      "help wanted",
+      "Investigation",
+      "needs-discussion"
+    ],
+    "createdAt": "2026-09-16T10:14:34Z",
+    "updatedAt": "2026-09-16T10:18:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #331 in D4vidDf/HyperBridge: [bug] Islands only works with calls",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-16T10:25:52.957Z"
+  },
+  {
+    "id": "I_kwDOHJ-IRM8AAAABRifIEQ",
+    "number": 9185,
+    "title": "Auto-created tables can miss required columns when insert schemas differ",
+    "url": "https://github.com/GreptimeTeam/greptimedb/issues/9185",
+    "repo": "GreptimeTeam/greptimedb",
+    "repoUrl": "https://github.com/GreptimeTeam/greptimedb",
+    "stars": 6674,
+    "language": "Rust",
+    "labels": [
+      "C-bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-16T08:12:34Z",
+    "updatedAt": "2026-09-16T08:12:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test region",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/api/src/region.rs",
+      "src/catalog/src/system_schema/information_schema/region_info.rs",
+      "src/catalog/src/system_schema/information_schema/region_peers.rs"
+    ],
+    "summary": "Fix issue #9185 in GreptimeTeam/greptimedb: Auto-created tables can miss required columns when insert schemas differ",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T10:25:52.037Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRi6crA",
+    "number": 30480,
+    "title": "[Good First Issue] 🐙 Add new Video Game Quote 47 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30480",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3398,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-16T09:01:03Z",
+    "updatedAt": "2026-09-16T09:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #30480 in lingdojo/kana-dojo: [Good First Issue] 🐙 Add new Video Game Quote 47 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T10:25:49.042Z"
+  },
+  {
+    "id": "I_kwDOBmr-FM8AAAABRjmiNA",
+    "number": 401,
+    "title": "Replace aragorn par pyaragorn",
+    "url": "https://github.com/labgem/PPanGGOLiN/issues/401",
+    "repo": "labgem/PPanGGOLiN",
+    "repoUrl": "https://github.com/labgem/PPanGGOLiN",
+    "stars": 313,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-16T10:12:29Z",
+    "updatedAt": "2026-09-16T10:16:50Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #401 in labgem/PPanGGOLiN: Replace aragorn par pyaragorn",
+    "maintainerTurnaroundDays": 1.9,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-16T10:25:47.267Z"
+  },
+  {
     "id": "I_kwDOQuAx5c8AAAABRecxyA",
     "number": 864,
     "title": "docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying",
@@ -112,34 +373,6 @@
     "discoveredAt": "2026-09-16T02:04:26.508Z"
   },
   {
-    "id": "I_kwDOQuAx5c8AAAABRedPwA",
-    "number": 868,
-    "title": "docs/FLY.md links to a README.md anchor that does not exist",
-    "url": "https://github.com/libredb/libredb-studio/issues/868",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 755,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T21:52:51Z",
-    "updatedAt": "2026-09-15T21:52:51Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #868 in libredb/libredb-studio: docs/FLY.md links to a README.md anchor that does not exist",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:24.425Z"
-  },
-  {
     "id": "I_kwDOQuAx5c8AAAABRedfIw",
     "number": 869,
     "title": "fly.toml's default image tag is several releases behind the latest tag",
@@ -166,66 +399,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-16T02:04:22.249Z"
-  },
-  {
-    "id": "I_kwDOSPPUP88AAAABRep43A",
-    "number": 951,
-    "title": "agente: o motivo do \"Publicar\" desabilitado só aparece ao passar o mouse",
-    "url": "https://github.com/melgarafael/DeskcommCRM/issues/951",
-    "repo": "melgarafael/DeskcommCRM",
-    "repoUrl": "https://github.com/melgarafael/DeskcommCRM",
-    "stars": 2865,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "area/ui",
-      "triagem:confirmado"
-    ],
-    "createdAt": "2026-09-15T22:19:47Z",
-    "updatedAt": "2026-09-15T22:19:47Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #951 in melgarafael/DeskcommCRM: agente: o motivo do \"Publicar\" desabilitado só aparece ao passar o mouse",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:19.985Z"
-  },
-  {
-    "id": "I_kwDOSB2L6s8AAAABResU_g",
-    "number": 2001,
-    "title": "Browser UI: the product-plan review card says apply checks the digest, but apply checks the digest you pass",
-    "url": "https://github.com/rocky-data/rocky/issues/2001",
-    "repo": "rocky-data/rocky",
-    "repoUrl": "https://github.com/rocky-data/rocky",
-    "stars": 298,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue",
-      "engine"
-    ],
-    "createdAt": "2026-09-15T22:25:55Z",
-    "updatedAt": "2026-09-15T22:25:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test PlanDetail.test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "engine/ui/src/review/PlanDetail.tsx",
-      "engine/crates/rocky-cli/src/commands/apply.rs"
-    ],
-    "summary": "Fix issue #2001 in rocky-data/rocky: Browser UI: the product-plan review card says apply checks the digest, but apply checks the digest you pass",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:15.129Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABRe6tVQ",
@@ -316,33 +489,6 @@
     "maintainerTurnaroundDays": 1.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-16T02:04:09.535Z"
-  },
-  {
-    "id": "I_kwDODKpNd88AAAABRff7ew",
-    "number": 2939,
-    "title": "Input filters do not check a predicate's argument types against the referenced attribute",
-    "url": "https://github.com/ash-project/ash/issues/2939",
-    "repo": "ash-project/ash",
-    "repoUrl": "https://github.com/ash-project/ash",
-    "stars": 2492,
-    "language": "Elixir",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-16T00:39:35Z",
-    "updatedAt": "2026-09-16T01:00:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2939 in ash-project/ash: Input filters do not check a predicate's argument types against the referenced attribute",
-    "maintainerTurnaroundDays": 1.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:08.622Z"
   },
   {
     "id": "I_kwDODKpNd88AAAABRff9HA",
@@ -899,35 +1045,6 @@
     "discoveredAt": "2026-09-15T15:50:34.212Z"
   },
   {
-    "id": "I_kwDOTdU0C88AAAABRauW4g",
-    "number": 7,
-    "title": "补充英文部署指南：Docker 与手动部署",
-    "url": "https://github.com/gzxx-2025/aid-server/issues/7",
-    "repo": "gzxx-2025/aid-server",
-    "repoUrl": "https://github.com/gzxx-2025/aid-server",
-    "stars": 252,
-    "language": "Java",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-15T15:15:56Z",
-    "updatedAt": "2026-09-15T15:15:56Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #7 in gzxx-2025/aid-server: 补充英文部署指南：Docker 与手动部署",
-    "maintainerTurnaroundDays": 2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T15:50:10.895Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABRa1hIA",
     "number": 10660,
     "title": "[Enhancement✨] Include the error detail in the pull request exception log",
@@ -1052,124 +1169,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T10:36:48.040Z"
-  },
-  {
-    "id": "I_kwDONGASEc8AAAABRXM09g",
-    "number": 371,
-    "title": "[Bug]: nonut (unsigned) comparison, division, +, -, * are computed as signed int",
-    "url": "https://github.com/Brainrotlang/brainrot/issues/371",
-    "repo": "Brainrotlang/brainrot",
-    "repoUrl": "https://github.com/Brainrotlang/brainrot",
-    "stars": 629,
-    "language": "C",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T09:30:12Z",
-    "updatedAt": "2026-09-15T09:30:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "ast.c"
-    ],
-    "summary": "Fix issue #371 in Brainrotlang/brainrot: [Bug]: nonut (unsigned) comparison, division, +, -, * are computed as signed int",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:46.438Z"
-  },
-  {
-    "id": "I_kwDONGASEc8AAAABRXM2Zw",
-    "number": 372,
-    "title": "[Bug]: giga/thicc truncate to 32 bits when converted to chad/gigachad (float/double)",
-    "url": "https://github.com/Brainrotlang/brainrot/issues/372",
-    "repo": "Brainrotlang/brainrot",
-    "repoUrl": "https://github.com/Brainrotlang/brainrot",
-    "stars": 629,
-    "language": "C",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T09:30:15Z",
-    "updatedAt": "2026-09-15T09:30:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "ast.c"
-    ],
-    "summary": "Fix issue #372 in Brainrotlang/brainrot: [Bug]: giga/thicc truncate to 32 bits when converted to chad/gigachad (float/double)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:45.681Z"
-  },
-  {
-    "id": "I_kwDONGASEc8AAAABRXNA5A",
-    "number": 374,
-    "title": "[Bug]: chained/nested assignment as an expression (a = b = 5) is broken",
-    "url": "https://github.com/Brainrotlang/brainrot/issues/374",
-    "repo": "Brainrotlang/brainrot",
-    "repoUrl": "https://github.com/Brainrotlang/brainrot",
-    "stars": 629,
-    "language": "C",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T09:30:29Z",
-    "updatedAt": "2026-09-15T09:30:29Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "ast.c"
-    ],
-    "summary": "Fix issue #374 in Brainrotlang/brainrot: [Bug]: chained/nested assignment as an expression (a = b = 5) is broken",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:45.066Z"
-  },
-  {
-    "id": "I_kwDONGASEc8AAAABRXNGKw",
-    "number": 377,
-    "title": "[Bug]: slorp into an empty rant heap-overflows (fabricated 1024-byte capacity)",
-    "url": "https://github.com/Brainrotlang/brainrot/issues/377",
-    "repo": "Brainrotlang/brainrot",
-    "repoUrl": "https://github.com/Brainrotlang/brainrot",
-    "stars": 629,
-    "language": "C",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T09:30:36Z",
-    "updatedAt": "2026-09-15T09:30:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "stdrot.c",
-      "stdrot/slorp.c",
-      "lib/input.c"
-    ],
-    "summary": "Fix issue #377 in Brainrotlang/brainrot: [Bug]: slorp into an empty rant heap-overflows (fabricated 1024-byte capacity)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:43.031Z"
   },
   {
     "id": "I_kwDOAAq-cs8AAAABRXWV3g",
@@ -3974,68 +3973,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T20:53:02.890Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQD4GHA",
-    "number": 3046,
-    "title": "Read image dimensions from bounded TIFF headers",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3046",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:12Z",
-    "updatedAt": "2026-09-07T09:31:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3046 in maziyarpanahi/openmed: Read image dimensions from bounded TIFF headers",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:25.505Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQD4MxA",
-    "number": 3048,
-    "title": "Plan deterministic page batches for document inference",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3048",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:21Z",
-    "updatedAt": "2026-09-07T09:31:21Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3048 in maziyarpanahi/openmed: Plan deterministic page batches for document inference",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:15.901Z"
   },
   {
     "id": "I_kwDOP8M_rs8AAAABQD4Ntg",

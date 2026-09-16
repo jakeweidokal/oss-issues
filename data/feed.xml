@@ -5,8 +5,168 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Sep 2026 02:04:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 10:26:00 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[The-PR-Agent/pr-agent] #3411 /generate_labels raises on providers without label support instead of falling back to a comment (Solvability: 6/10)</title>
+      <link>https://github.com/The-PR-Agent/pr-agent/issues/3411</link>
+      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/3411</guid>
+      <pubDate>Wed, 16 Sep 2026 09:20:41 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (13015 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3411 in The-PR-Agent/pr-agent: /generate_labels raises on providers without label support instead of falling back to a comment</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest pr_agent/tools/pr_generate_labels.py</code></p>
+<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/3411">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>bug</category>
+    </item>
+    <item>
+      <title>[The-PR-Agent/pr-agent] #3412 Azure DevOps renders /improve suggestions as a raw suggestion fence (Solvability: 6/10)</title>
+      <link>https://github.com/The-PR-Agent/pr-agent/issues/3412</link>
+      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/3412</guid>
+      <pubDate>Wed, 16 Sep 2026 09:20:48 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (13015 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3412 in The-PR-Agent/pr-agent: Azure DevOps renders /improve suggestions as a raw suggestion fence</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest pr_agent/git_providers/azuredevops_provider.py</code></p>
+<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/3412">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>bug</category>
+    </item>
+    <item>
+      <title>[The-PR-Agent/pr-agent] #3413 Register Grok 4.3 for reasoning_effort (Solvability: 6/10)</title>
+      <link>https://github.com/The-PR-Agent/pr-agent/issues/3413</link>
+      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/3413</guid>
+      <pubDate>Wed, 16 Sep 2026 09:20:56 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (13015 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3413 in The-PR-Agent/pr-agent: Register Grok 4.3 for reasoning_effort</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest pr_agent/algo/__init__.py</code></p>
+<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/3413">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>feature</category>
+    </item>
+    <item>
+      <title>[The-PR-Agent/pr-agent] #3414 Branch names containing # truncate the links every git provider builds (Solvability: 6/10)</title>
+      <link>https://github.com/The-PR-Agent/pr-agent/issues/3414</link>
+      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/3414</guid>
+      <pubDate>Wed, 16 Sep 2026 09:21:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (13015 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3414 in The-PR-Agent/pr-agent: Branch names containing # truncate the links every git provider builds</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest pr_agent/git_providers/bitbucket_server_provider.py</code></p>
+<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/3414">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>bug</category>
+    </item>
+    <item>
+      <title>[freeCodeCamp/freeCodeCamp] #70082 Employee Profile Generator step 17 rejects a combined print call (Solvability: 6/10)</title>
+      <link>https://github.com/freeCodeCamp/freeCodeCamp/issues/70082</link>
+      <guid isPermaLink="true">https://github.com/freeCodeCamp/freeCodeCamp/issues/70082</guid>
+      <pubDate>Wed, 16 Sep 2026 09:26:58 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/freeCodeCamp/freeCodeCamp">freeCodeCamp/freeCodeCamp</a> (455572 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #70082 in freeCodeCamp/freeCodeCamp: Employee Profile Generator step 17 rejects a combined print call</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/freeCodeCamp/freeCodeCamp/issues/70082">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>scope: curriculum</category>
+      <category>python v9 cert</category>
+    </item>
+    <item>
+      <title>[D4vidDf/HyperBridge] #331 [bug] Islands only works with calls (Solvability: 6/10)</title>
+      <link>https://github.com/D4vidDf/HyperBridge/issues/331</link>
+      <guid isPermaLink="true">https://github.com/D4vidDf/HyperBridge/issues/331</guid>
+      <pubDate>Wed, 16 Sep 2026 10:14:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/D4vidDf/HyperBridge">D4vidDf/HyperBridge</a> (376 ⭐, Kotlin)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #331 in D4vidDf/HyperBridge: [bug] Islands only works with calls</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/D4vidDf/HyperBridge/issues/331">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Kotlin</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>Investigation</category>
+      <category>needs-discussion</category>
+    </item>
+    <item>
+      <title>[GreptimeTeam/greptimedb] #9185 Auto-created tables can miss required columns when insert schemas differ (Solvability: 6/10)</title>
+      <link>https://github.com/GreptimeTeam/greptimedb/issues/9185</link>
+      <guid isPermaLink="true">https://github.com/GreptimeTeam/greptimedb/issues/9185</guid>
+      <pubDate>Wed, 16 Sep 2026 08:12:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/GreptimeTeam/greptimedb">GreptimeTeam/greptimedb</a> (6674 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #9185 in GreptimeTeam/greptimedb: Auto-created tables can miss required columns when insert schemas differ</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test region</code></p>
+<p><a href="https://github.com/GreptimeTeam/greptimedb/issues/9185">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>C-bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30480 [Good First Issue] 🐙 Add new Video Game Quote 47 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30480</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30480</guid>
+      <pubDate>Wed, 16 Sep 2026 09:01:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3398 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30480 in lingdojo/kana-dojo: [Good First Issue] 🐙 Add new Video Game Quote 47 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-videogame-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30480">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[labgem/PPanGGOLiN] #401 Replace aragorn par pyaragorn (Solvability: 6/10)</title>
+      <link>https://github.com/labgem/PPanGGOLiN/issues/401</link>
+      <guid isPermaLink="true">https://github.com/labgem/PPanGGOLiN/issues/401</guid>
+      <pubDate>Wed, 16 Sep 2026 10:12:29 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/labgem/PPanGGOLiN">labgem/PPanGGOLiN</a> (313 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #401 in labgem/PPanGGOLiN: Replace aragorn par pyaragorn</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/labgem/PPanGGOLiN/issues/401">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
     <item>
       <title>[libredb/libredb-studio] #864 docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying (Solvability: 6/10)</title>
       <link>https://github.com/libredb/libredb-studio/issues/864</link>
@@ -76,23 +236,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[libredb/libredb-studio] #868 docs/FLY.md links to a README.md anchor that does not exist (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/868</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/868</guid>
-      <pubDate>Tue, 15 Sep 2026 21:52:51 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (755 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #868 in libredb/libredb-studio: docs/FLY.md links to a README.md anchor that does not exist</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/868">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[libredb/libredb-studio] #869 fly.toml's default image tag is several releases behind the latest tag (Solvability: 6/10)</title>
       <link>https://github.com/libredb/libredb-studio/issues/869</link>
       <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/869</guid>
@@ -108,43 +251,6 @@
       <category>friction-standard</category>
       <category>documentation</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[melgarafael/DeskcommCRM] #951 agente: o motivo do "Publicar" desabilitado só aparece ao passar o mouse (Solvability: 6/10)</title>
-      <link>https://github.com/melgarafael/DeskcommCRM/issues/951</link>
-      <guid isPermaLink="true">https://github.com/melgarafael/DeskcommCRM/issues/951</guid>
-      <pubDate>Tue, 15 Sep 2026 22:19:47 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/melgarafael/DeskcommCRM">melgarafael/DeskcommCRM</a> (2865 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #951 in melgarafael/DeskcommCRM: agente: o motivo do "Publicar" desabilitado só aparece ao passar o mouse</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/melgarafael/DeskcommCRM/issues/951">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>area/ui</category>
-      <category>triagem:confirmado</category>
-    </item>
-    <item>
-      <title>[rocky-data/rocky] #2001 Browser UI: the product-plan review card says apply checks the digest, but apply checks the digest you pass (Solvability: 6/10)</title>
-      <link>https://github.com/rocky-data/rocky/issues/2001</link>
-      <guid isPermaLink="true">https://github.com/rocky-data/rocky/issues/2001</guid>
-      <pubDate>Tue, 15 Sep 2026 22:25:55 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rocky-data/rocky">rocky-data/rocky</a> (298 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2001 in rocky-data/rocky: Browser UI: the product-plan review card says apply checks the digest, but apply checks the digest you pass</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test PlanDetail.test</code></p>
-<p><a href="https://github.com/rocky-data/rocky/issues/2001">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>engine</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #30469 [Good First Issue] 🎐 Add new Japan Fact 213 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
@@ -201,22 +307,6 @@
       <category>Elixir</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[ash-project/ash] #2939 Input filters do not check a predicate's argument types against the referenced attribute (Solvability: 6/10)</title>
-      <link>https://github.com/ash-project/ash/issues/2939</link>
-      <guid isPermaLink="true">https://github.com/ash-project/ash/issues/2939</guid>
-      <pubDate>Wed, 16 Sep 2026 00:39:35 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ash-project/ash">ash-project/ash</a> (2492 ⭐, Elixir)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #2939 in ash-project/ash: Input filters do not check a predicate's argument types against the referenced attribute</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/ash-project/ash/issues/2939">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Elixir</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
       <category>good first issue</category>
     </item>
     <item>
@@ -564,24 +654,6 @@
       <category>rocketmq-broker crate</category>
     </item>
     <item>
-      <title>[gzxx-2025/aid-server] #7 补充英文部署指南：Docker 与手动部署 (Solvability: 6/10)</title>
-      <link>https://github.com/gzxx-2025/aid-server/issues/7</link>
-      <guid isPermaLink="true">https://github.com/gzxx-2025/aid-server/issues/7</guid>
-      <pubDate>Tue, 15 Sep 2026 15:15:56 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/gzxx-2025/aid-server">gzxx-2025/aid-server</a> (252 ⭐, Java)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #7 in gzxx-2025/aid-server: 补充英文部署指南：Docker 与手动部署</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/gzxx-2025/aid-server/issues/7">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Java</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-    </item>
-    <item>
       <title>[mxsm/rocketmq-rust] #10660 [Enhancement✨] Include the error detail in the pull request exception log (Solvability: 6/10)</title>
       <link>https://github.com/mxsm/rocketmq-rust/issues/10660</link>
       <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10660</guid>
@@ -661,78 +733,6 @@
       <category>community</category>
       <category>low hanging fruit</category>
       <category>up-for-grabs</category>
-    </item>
-    <item>
-      <title>[Brainrotlang/brainrot] #371 [Bug]: nonut (unsigned) comparison, division, +, -, * are computed as signed int (Solvability: 6/10)</title>
-      <link>https://github.com/Brainrotlang/brainrot/issues/371</link>
-      <guid isPermaLink="true">https://github.com/Brainrotlang/brainrot/issues/371</guid>
-      <pubDate>Tue, 15 Sep 2026 09:30:12 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Brainrotlang/brainrot">Brainrotlang/brainrot</a> (629 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #371 in Brainrotlang/brainrot: [Bug]: nonut (unsigned) comparison, division, +, -, * are computed as signed int</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Brainrotlang/brainrot/issues/371">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[Brainrotlang/brainrot] #372 [Bug]: giga/thicc truncate to 32 bits when converted to chad/gigachad (float/double) (Solvability: 6/10)</title>
-      <link>https://github.com/Brainrotlang/brainrot/issues/372</link>
-      <guid isPermaLink="true">https://github.com/Brainrotlang/brainrot/issues/372</guid>
-      <pubDate>Tue, 15 Sep 2026 09:30:15 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Brainrotlang/brainrot">Brainrotlang/brainrot</a> (629 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #372 in Brainrotlang/brainrot: [Bug]: giga/thicc truncate to 32 bits when converted to chad/gigachad (float/double)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Brainrotlang/brainrot/issues/372">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[Brainrotlang/brainrot] #374 [Bug]: chained/nested assignment as an expression (a = b = 5) is broken (Solvability: 6/10)</title>
-      <link>https://github.com/Brainrotlang/brainrot/issues/374</link>
-      <guid isPermaLink="true">https://github.com/Brainrotlang/brainrot/issues/374</guid>
-      <pubDate>Tue, 15 Sep 2026 09:30:29 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Brainrotlang/brainrot">Brainrotlang/brainrot</a> (629 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #374 in Brainrotlang/brainrot: [Bug]: chained/nested assignment as an expression (a = b = 5) is broken</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Brainrotlang/brainrot/issues/374">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[Brainrotlang/brainrot] #377 [Bug]: slorp into an empty rant heap-overflows (fabricated 1024-byte capacity) (Solvability: 6/10)</title>
-      <link>https://github.com/Brainrotlang/brainrot/issues/377</link>
-      <guid isPermaLink="true">https://github.com/Brainrotlang/brainrot/issues/377</guid>
-      <pubDate>Tue, 15 Sep 2026 09:30:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Brainrotlang/brainrot">Brainrotlang/brainrot</a> (629 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #377 in Brainrotlang/brainrot: [Bug]: slorp into an empty rant heap-overflows (fabricated 1024-byte capacity)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Brainrotlang/brainrot/issues/377">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[django-guardian/django-guardian] #1026 Implement comprehensive bulk permission assignment API with documentation and benchmarks (Solvability: 6/10)</title>
