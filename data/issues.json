@@ -1,161 +1,18 @@
 [
   {
-    "id": "I_kwDOJ4EDks8AAAABRjF5UQ",
-    "number": 3411,
-    "title": "/generate_labels raises on providers without label support instead of falling back to a comment",
-    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3411",
-    "repo": "The-PR-Agent/pr-agent",
-    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
-    "stars": 13015,
-    "language": "Python",
+    "id": "I_kwDOADXqJM8AAAABRnau5w",
+    "number": 2643,
+    "title": "website: format all equations with .. math::",
+    "url": "https://github.com/AcademySoftwareFoundation/openexr/issues/2643",
+    "repo": "AcademySoftwareFoundation/openexr",
+    "repoUrl": "https://github.com/AcademySoftwareFoundation/openexr",
+    "stars": 1847,
+    "language": "C",
     "labels": [
-      "help wanted",
-      "bug"
+      "help wanted"
     ],
-    "createdAt": "2026-09-16T09:20:41Z",
-    "updatedAt": "2026-09-16T09:20:41Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest pr_agent/tools/pr_generate_labels.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "pr_agent/tools/pr_generate_labels.py"
-    ],
-    "summary": "Fix issue #3411 in The-PR-Agent/pr-agent: /generate_labels raises on providers without label support instead of falling back to a comment",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T10:26:00.863Z"
-  },
-  {
-    "id": "I_kwDOJ4EDks8AAAABRjF9XQ",
-    "number": 3412,
-    "title": "Azure DevOps renders /improve suggestions as a raw suggestion fence",
-    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3412",
-    "repo": "The-PR-Agent/pr-agent",
-    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
-    "stars": 13015,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "bug"
-    ],
-    "createdAt": "2026-09-16T09:20:48Z",
-    "updatedAt": "2026-09-16T09:20:48Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest pr_agent/git_providers/azuredevops_provider.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "pr_agent/git_providers/azuredevops_provider.py"
-    ],
-    "summary": "Fix issue #3412 in The-PR-Agent/pr-agent: Azure DevOps renders /improve suggestions as a raw suggestion fence",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T10:25:59.890Z"
-  },
-  {
-    "id": "I_kwDOJ4EDks8AAAABRjGBww",
-    "number": 3413,
-    "title": "Register Grok 4.3 for reasoning_effort",
-    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3413",
-    "repo": "The-PR-Agent/pr-agent",
-    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
-    "stars": 13015,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "feature"
-    ],
-    "createdAt": "2026-09-16T09:20:56Z",
-    "updatedAt": "2026-09-16T09:20:56Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest pr_agent/algo/__init__.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "pr_agent/algo/__init__.py"
-    ],
-    "summary": "Fix issue #3413 in The-PR-Agent/pr-agent: Register Grok 4.3 for reasoning_effort",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T10:25:58.668Z"
-  },
-  {
-    "id": "I_kwDOJ4EDks8AAAABRjGGAQ",
-    "number": 3414,
-    "title": "Branch names containing # truncate the links every git provider builds",
-    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3414",
-    "repo": "The-PR-Agent/pr-agent",
-    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
-    "stars": 13015,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "bug"
-    ],
-    "createdAt": "2026-09-16T09:21:02Z",
-    "updatedAt": "2026-09-16T09:46:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest pr_agent/git_providers/bitbucket_server_provider.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "pr_agent/git_providers/bitbucket_server_provider.py"
-    ],
-    "summary": "Fix issue #3414 in The-PR-Agent/pr-agent: Branch names containing # truncate the links every git provider builds",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T10:25:57.680Z"
-  },
-  {
-    "id": "I_kwDOAbI7X88AAAABRjJlgw",
-    "number": 70082,
-    "title": "Employee Profile Generator step 17 rejects a combined print call",
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues/70082",
-    "repo": "freeCodeCamp/freeCodeCamp",
-    "repoUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-    "stars": 455572,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "scope: curriculum",
-      "python v9 cert"
-    ],
-    "createdAt": "2026-09-16T09:26:58Z",
-    "updatedAt": "2026-09-16T09:26:58Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #70082 in freeCodeCamp/freeCodeCamp: Employee Profile Generator step 17 rejects a combined print call",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T10:25:56.429Z"
-  },
-  {
-    "id": "I_kwDOQcN2uM8AAAABRjn0aA",
-    "number": 331,
-    "title": "[bug] Islands only works with calls",
-    "url": "https://github.com/D4vidDf/HyperBridge/issues/331",
-    "repo": "D4vidDf/HyperBridge",
-    "repoUrl": "https://github.com/D4vidDf/HyperBridge",
-    "stars": 376,
-    "language": "Kotlin",
-    "labels": [
-      "help wanted",
-      "Investigation",
-      "needs-discussion"
-    ],
-    "createdAt": "2026-09-16T10:14:34Z",
-    "updatedAt": "2026-09-16T10:18:24Z",
+    "createdAt": "2026-09-16T16:25:45Z",
+    "updatedAt": "2026-09-16T16:25:45Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
@@ -164,40 +21,264 @@
     "keyFiles": [
       "src/index"
     ],
-    "summary": "Fix issue #331 in D4vidDf/HyperBridge: [bug] Islands only works with calls",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-16T10:25:52.957Z"
+    "summary": "Fix issue #2643 in AcademySoftwareFoundation/openexr: website: format all equations with .. math::",
+    "maintainerTurnaroundDays": 0.6,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T20:35:02.950Z"
   },
   {
-    "id": "I_kwDOHJ-IRM8AAAABRifIEQ",
-    "number": 9185,
-    "title": "Auto-created tables can miss required columns when insert schemas differ",
-    "url": "https://github.com/GreptimeTeam/greptimedb/issues/9185",
-    "repo": "GreptimeTeam/greptimedb",
-    "repoUrl": "https://github.com/GreptimeTeam/greptimedb",
-    "stars": 6674,
-    "language": "Rust",
+    "id": "I_kwDOADXqJM8AAAABRncGhg",
+    "number": 2644,
+    "title": "website: fix unformatted code/list blocks",
+    "url": "https://github.com/AcademySoftwareFoundation/openexr/issues/2644",
+    "repo": "AcademySoftwareFoundation/openexr",
+    "repoUrl": "https://github.com/AcademySoftwareFoundation/openexr",
+    "stars": 1847,
+    "language": "C",
     "labels": [
-      "C-bug",
-      "good first issue"
+      "help wanted"
     ],
-    "createdAt": "2026-09-16T08:12:34Z",
-    "updatedAt": "2026-09-16T08:12:51Z",
+    "createdAt": "2026-09-16T16:28:04Z",
+    "updatedAt": "2026-09-16T16:28:04Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test region",
+    "quickReproCommand": null,
     "solvabilityScore": 6,
     "keyFiles": [
-      "src/api/src/region.rs",
-      "src/catalog/src/system_schema/information_schema/region_info.rs",
-      "src/catalog/src/system_schema/information_schema/region_peers.rs"
+      "src/index"
     ],
-    "summary": "Fix issue #9185 in GreptimeTeam/greptimedb: Auto-created tables can miss required columns when insert schemas differ",
+    "summary": "Fix issue #2644 in AcademySoftwareFoundation/openexr: website: fix unformatted code/list blocks",
+    "maintainerTurnaroundDays": 0.6,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T20:35:01.196Z"
+  },
+  {
+    "id": "I_kwDOADXqJM8AAAABRncrvw",
+    "number": 2645,
+    "title": "website: fix table formatting",
+    "url": "https://github.com/AcademySoftwareFoundation/openexr/issues/2645",
+    "repo": "AcademySoftwareFoundation/openexr",
+    "repoUrl": "https://github.com/AcademySoftwareFoundation/openexr",
+    "stars": 1847,
+    "language": "C",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-16T16:29:02Z",
+    "updatedAt": "2026-09-16T16:29:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2645 in AcademySoftwareFoundation/openexr: website: fix table formatting",
+    "maintainerTurnaroundDays": 0.6,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T20:34:59.519Z"
+  },
+  {
+    "id": "I_kwDOADXqJM8AAAABRnd_9g",
+    "number": 2646,
+    "title": "website: investigate replacement for \"press\" theme",
+    "url": "https://github.com/AcademySoftwareFoundation/openexr/issues/2646",
+    "repo": "AcademySoftwareFoundation/openexr",
+    "repoUrl": "https://github.com/AcademySoftwareFoundation/openexr",
+    "stars": 1847,
+    "language": "C",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-16T16:31:11Z",
+    "updatedAt": "2026-09-16T16:31:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2646 in AcademySoftwareFoundation/openexr: website: investigate replacement for \"press\" theme",
+    "maintainerTurnaroundDays": 0.6,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T20:34:57.679Z"
+  },
+  {
+    "id": "I_kwDOAbI7X88AAAABRnjABA",
+    "number": 70101,
+    "title": "Correct A1 Professional Chinese intro ordering and remove unused module intros",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues/70101",
+    "repo": "freeCodeCamp/freeCodeCamp",
+    "repoUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "stars": 455603,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "scope: curriculum",
+      "professional chinese"
+    ],
+    "createdAt": "2026-09-16T16:39:01Z",
+    "updatedAt": "2026-09-16T16:39:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test client/i18n/locales/english/intro.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "client/i18n/locales/english/intro.json",
+      "curriculum/structure/superblocks/a1-professional-chinese.json"
+    ],
+    "summary": "Fix issue #70101 in freeCodeCamp/freeCodeCamp: Correct A1 Professional Chinese intro ordering and remove unused module intros",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T20:34:55.954Z"
+  },
+  {
+    "id": "I_kwDOAbI7X88AAAABRnjCxA",
+    "number": 70102,
+    "title": "Correct A1 Professional Spanish intro ordering and remove unused module intros",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues/70102",
+    "repo": "freeCodeCamp/freeCodeCamp",
+    "repoUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "stars": 455603,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "scope: curriculum",
+      "professional spanish"
+    ],
+    "createdAt": "2026-09-16T16:39:04Z",
+    "updatedAt": "2026-09-16T16:39:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test client/i18n/locales/english/intro.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "client/i18n/locales/english/intro.json",
+      "curriculum/structure/superblocks/a1-professional-spanish.json"
+    ],
+    "summary": "Fix issue #70102 in freeCodeCamp/freeCodeCamp: Correct A1 Professional Spanish intro ordering and remove unused module intros",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T20:34:45.357Z"
+  },
+  {
+    "id": "I_kwDOAJbtsc8AAAABRn78hA",
+    "number": 3632,
+    "title": "Add analyzer to detect illegal and/or duplicate cultures",
+    "url": "https://github.com/xunit/xunit/issues/3632",
+    "repo": "xunit/xunit",
+    "repoUrl": "https://github.com/xunit/xunit",
+    "stars": 4604,
+    "language": "C#",
+    "labels": [
+      "Feature",
+      "help wanted",
+      "Analyzers"
+    ],
+    "createdAt": "2026-09-16T17:18:29Z",
+    "updatedAt": "2026-09-16T17:18:29Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3632 in xunit/xunit: Add analyzer to detect illegal and/or duplicate cultures",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T20:34:41.410Z"
+  },
+  {
+    "id": "I_kwDOABpTD88AAAABRo1LYQ",
+    "number": 8201,
+    "title": "Add language: WESL",
+    "url": "https://github.com/github-linguist/linguist/issues/8201",
+    "repo": "github-linguist/linguist",
+    "repoUrl": "https://github.com/github-linguist/linguist",
+    "stars": 13689,
+    "language": "Ruby",
+    "labels": [
+      "Add Language",
+      "Good First Issue"
+    ],
+    "createdAt": "2026-09-16T18:47:12Z",
+    "updatedAt": "2026-09-16T18:47:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8201 in github-linguist/linguist: Add language: WESL",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T20:34:40.515Z"
+  },
+  {
+    "id": "I_kwDOACHoOs8AAAABRpDarw",
+    "number": 1802,
+    "title": "[TYPING] TZP.localize and TZP.localize_utc",
+    "url": "https://github.com/collective/icalendar/issues/1802",
+    "repo": "collective/icalendar",
+    "repoUrl": "https://github.com/collective/icalendar",
+    "stars": 1171,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-16T19:11:14Z",
+    "updatedAt": "2026-09-16T19:11:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1802 in collective/icalendar: [TYPING] TZP.localize and TZP.localize_utc",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-16T20:34:39.160Z"
+  },
+  {
+    "id": "I_kwDOCVKAsc8AAAABRpLEIw",
+    "number": 11173,
+    "title": "[ENH] make `TimeSeriesForestClassifier` compatible with `scikit-learn 1.9.X`",
+    "url": "https://github.com/sktime/sktime/issues/11173",
+    "repo": "sktime/sktime",
+    "repoUrl": "https://github.com/sktime/sktime",
+    "stars": 10018,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "module:classification",
+      "enhancement"
+    ],
+    "createdAt": "2026-09-16T19:25:11Z",
+    "updatedAt": "2026-09-16T19:25:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #11173 in sktime/sktime: [ENH] make `TimeSeriesForestClassifier` compatible with `scikit-learn 1.9.X`",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T10:25:52.037Z"
+    "discoveredAt": "2026-09-16T20:34:38.389Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABRi6crA",
@@ -234,33 +315,6 @@
     "discoveredAt": "2026-09-16T10:25:49.042Z"
   },
   {
-    "id": "I_kwDOBmr-FM8AAAABRjmiNA",
-    "number": 401,
-    "title": "Replace aragorn par pyaragorn",
-    "url": "https://github.com/labgem/PPanGGOLiN/issues/401",
-    "repo": "labgem/PPanGGOLiN",
-    "repoUrl": "https://github.com/labgem/PPanGGOLiN",
-    "stars": 313,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-16T10:12:29Z",
-    "updatedAt": "2026-09-16T10:16:50Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #401 in labgem/PPanGGOLiN: Replace aragorn par pyaragorn",
-    "maintainerTurnaroundDays": 1.9,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-16T10:25:47.267Z"
-  },
-  {
     "id": "I_kwDOQuAx5c8AAAABRecxyA",
     "number": 864,
     "title": "docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying",
@@ -287,90 +341,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-16T02:04:33.975Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABRec1qA",
-    "number": 865,
-    "title": "docs/SECURITY.md's rate-limiting row doesn't name the tunable RATE_LIMIT_* env vars",
-    "url": "https://github.com/libredb/libredb-studio/issues/865",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 755,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T21:52:05Z",
-    "updatedAt": "2026-09-15T21:52:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test src/lib/api/rate-limit.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/lib/api/rate-limit.ts"
-    ],
-    "summary": "Fix issue #865 in libredb/libredb-studio: docs/SECURITY.md's rate-limiting row doesn't name the tunable RATE_LIMIT_* env vars",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:31.514Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABRec96Q",
-    "number": 866,
-    "title": "LIBREDB_NO_BANNER is undocumented anywhere outside .env.example",
-    "url": "https://github.com/libredb/libredb-studio/issues/866",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 755,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T21:52:19Z",
-    "updatedAt": "2026-09-15T21:52:19Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #866 in libredb/libredb-studio: LIBREDB_NO_BANNER is undocumented anywhere outside .env.example",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:29.078Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABRedGrg",
-    "number": 867,
-    "title": "docs/SECURITY.md doesn't mention the HSTS_INCLUDE_SUBDOMAINS opt-in or its sibling-domain risk",
-    "url": "https://github.com/libredb/libredb-studio/issues/867",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 755,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T21:52:35Z",
-    "updatedAt": "2026-09-15T21:52:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #867 in libredb/libredb-studio: docs/SECURITY.md doesn't mention the HSTS_INCLUDE_SUBDOMAINS opt-in or its sibling-domain risk",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:26.508Z"
   },
   {
     "id": "I_kwDOQuAx5c8AAAABRedfIw",
@@ -516,60 +486,6 @@
     "maintainerTurnaroundDays": 1.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-16T02:04:07.763Z"
-  },
-  {
-    "id": "I_kwDODKpNd88AAAABRff-bA",
-    "number": 2941,
-    "title": "sort_input crashes on a value that is neither a string nor a list",
-    "url": "https://github.com/ash-project/ash/issues/2941",
-    "repo": "ash-project/ash",
-    "repoUrl": "https://github.com/ash-project/ash",
-    "stars": 2492,
-    "language": "Elixir",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-16T00:39:40Z",
-    "updatedAt": "2026-09-16T01:00:31Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2941 in ash-project/ash: sort_input crashes on a value that is neither a string nor a list",
-    "maintainerTurnaroundDays": 1.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:06.836Z"
-  },
-  {
-    "id": "I_kwDOFcwZ1c8AAAABRfge8A",
-    "number": 43855,
-    "title": "Notation for multilinear maps",
-    "url": "https://github.com/leanprover-community/mathlib4/issues/43855",
-    "repo": "leanprover-community/mathlib4",
-    "repoUrl": "https://github.com/leanprover-community/mathlib4",
-    "stars": 4133,
-    "language": "Lean",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-16T00:40:55Z",
-    "updatedAt": "2026-09-16T00:40:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #43855 in leanprover-community/mathlib4: Notation for multilinear maps",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-16T02:04:05.893Z"
   },
   {
     "id": "I_kwDOA8iScc8AAAABRa6s1A",
@@ -809,40 +725,6 @@
     "discoveredAt": "2026-09-15T15:51:14.400Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABRaq-0A",
-    "number": 10652,
-    "title": "[Test🧪] Add unit tests for consumer filter data and the retry message filter",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10652",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1516,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-broker crate",
-      "testing🧪"
-    ],
-    "createdAt": "2026-09-15T15:10:50Z",
-    "updatedAt": "2026-09-15T15:10:50Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test consumer_filter_data",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-broker/src/filter/consumer_filter_data.rs",
-      "rocketmq-broker/src/filter/manager/consumer_filter_wrapper.rs",
-      "rocketmq-broker/src/filter/expression_for_retry_message_filter.rs"
-    ],
-    "summary": "Fix issue #10652 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for consumer filter data and the retry message filter",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T15:51:03.724Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABRaq_kg",
     "number": 10653,
     "title": "[Test🧪] Add unit tests for PopLiteRequestData memory accounting",
@@ -1043,39 +925,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T15:50:34.212Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABRa1hIA",
-    "number": 10660,
-    "title": "[Enhancement✨] Include the error detail in the pull request exception log",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10660",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1516,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-client crate",
-      "enhancement✨"
-    ],
-    "createdAt": "2026-09-15T15:26:49Z",
-    "updatedAt": "2026-09-15T15:26:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test pull_callback",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-client/src/consumer/pull_callback.rs",
-      "rocketmq-client/src/consumer/consumer_impl/pull_message_service.rs"
-    ],
-    "summary": "Fix issue #10660 in mxsm/rocketmq-rust: [Enhancement✨] Include the error detail in the pull request exception log",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T15:50:02.413Z"
   },
   {
     "id": "I_kwDOD-GjqM8AAAABRW7BnQ",
@@ -4390,37 +4239,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T15:51:08.809Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABRarHDg",
-    "number": 10659,
-    "title": "[Bug🐛] PopReviveService writes a skip-commit diagnostic to stdout",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10659",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1516,
-    "language": "Rust",
-    "labels": [
-      "bug🐛",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-broker crate"
-    ],
-    "createdAt": "2026-09-15T15:11:01Z",
-    "updatedAt": "2026-09-15T15:11:01Z",
-    "blastRadius": "High",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test pop_revive_service",
-    "solvabilityScore": 4,
-    "keyFiles": [
-      "rocketmq-broker/src/processor/processor_service/pop_revive_service.rs"
-    ],
-    "summary": "Fix issue #10659 in mxsm/rocketmq-rust: [Bug🐛] PopReviveService writes a skip-commit diagnostic to stdout",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T15:50:29.281Z"
   }
 ]
