@@ -5,8 +5,252 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2026 10:34:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 15:49:13 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[containers/kubernetes-mcp-server] #1445 Build on macos-15-intel is flaky (Solvability: 6/10)</title>
+      <link>https://github.com/containers/kubernetes-mcp-server/issues/1445</link>
+      <guid isPermaLink="true">https://github.com/containers/kubernetes-mcp-server/issues/1445</guid>
+      <pubDate>Thu, 17 Sep 2026 14:29:43 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/containers/kubernetes-mcp-server">containers/kubernetes-mcp-server</a> (2103 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1445 in containers/kubernetes-mcp-server: Build on macos-15-intel is flaky</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/containers/kubernetes-mcp-server/issues/1445">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[code-charity/youtube] #4346 🐞Infinite freezing loop when livestream playback speed is &gt; 1x (Distinct from #4043) (Solvability: 6/10)</title>
+      <link>https://github.com/code-charity/youtube/issues/4346</link>
+      <guid isPermaLink="true">https://github.com/code-charity/youtube/issues/4346</guid>
+      <pubDate>Thu, 17 Sep 2026 14:31:25 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/code-charity/youtube">code-charity/youtube</a> (4588 ⭐, JavaScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4346 in code-charity/youtube: 🐞Infinite freezing loop when livestream playback speed is &gt; 1x (Distinct from #4043)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/code-charity/youtube/issues/4346">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>JavaScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Bug</category>
+      <category>Feature request</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>up-for-grabs</category>
+    </item>
+    <item>
+      <title>[Submitty/Submitty] #13365 include name of original author &amp; editor in notification of edited post (Solvability: 6/10)</title>
+      <link>https://github.com/Submitty/Submitty/issues/13365</link>
+      <guid isPermaLink="true">https://github.com/Submitty/Submitty/issues/13365</guid>
+      <pubDate>Thu, 17 Sep 2026 14:42:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Submitty/Submitty">Submitty/Submitty</a> (791 ⭐, PHP)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13365 in Submitty/Submitty: include name of original author &amp; editor in notification of edited post</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/Submitty/Submitty/issues/13365">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>PHP</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>Discussion Forum / Live Chat</category>
+      <category>Notifications / Email</category>
+    </item>
+    <item>
+      <title>[Submitty/Submitty] #13366 editing forum thread to update category (Solvability: 6/10)</title>
+      <link>https://github.com/Submitty/Submitty/issues/13366</link>
+      <guid isPermaLink="true">https://github.com/Submitty/Submitty/issues/13366</guid>
+      <pubDate>Thu, 17 Sep 2026 14:46:45 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Submitty/Submitty">Submitty/Submitty</a> (791 ⭐, PHP)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13366 in Submitty/Submitty: editing forum thread to update category</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/Submitty/Submitty/issues/13366">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>PHP</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>Discussion Forum / Live Chat</category>
+      <category>Notifications / Email</category>
+    </item>
+    <item>
+      <title>[mozilla/pontoon] #4538 Do-no-translate terms should not have a `TRANSLATE` link (Solvability: 6/10)</title>
+      <link>https://github.com/mozilla/pontoon/issues/4538</link>
+      <guid isPermaLink="true">https://github.com/mozilla/pontoon/issues/4538</guid>
+      <pubDate>Thu, 17 Sep 2026 15:00:39 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mozilla/pontoon">mozilla/pontoon</a> (1667 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4538 in mozilla/pontoon: Do-no-translate terms should not have a `TRANSLATE` link</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest pontoon/base/migrations/0024_fuzzy_to_pretranslated_strings.py</code></p>
+<p><a href="https://github.com/mozilla/pontoon/issues/4538">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>P3</category>
+      <category>good first issue</category>
+      <category>hours</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30516 [Good First Issue] 🍵 Add new Japanese Idiom 108 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30516</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30516</guid>
+      <pubDate>Thu, 17 Sep 2026 15:01:13 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3408 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30516 in lingdojo/kana-dojo: [Good First Issue] 🍵 Add new Japanese Idiom 108 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30516">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[fossasia/WPFAevent] #306 [Enhancement] : Edit Event Modal Overflows Viewport and Lacks Internal Scrolling (Solvability: 6/10)</title>
+      <link>https://github.com/fossasia/WPFAevent/issues/306</link>
+      <guid isPermaLink="true">https://github.com/fossasia/WPFAevent/issues/306</guid>
+      <pubDate>Thu, 17 Sep 2026 15:15:11 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/fossasia/WPFAevent">fossasia/WPFAevent</a> (816 ⭐, PHP)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #306 in fossasia/WPFAevent: [Enhancement] : Edit Event Modal Overflows Viewport and Lacks Internal Scrolling</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/fossasia/WPFAevent/issues/306">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>PHP</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[fivetran/great_expectations] #12217 [BUG] Regex Expectations on ClickHouse call regexp_like(), which the server does not have — the dialect's predicate is match() (Solvability: 6/10)</title>
+      <link>https://github.com/fivetran/great_expectations/issues/12217</link>
+      <guid isPermaLink="true">https://github.com/fivetran/great_expectations/issues/12217</guid>
+      <pubDate>Thu, 17 Sep 2026 15:18:49 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/fivetran/great_expectations">fivetran/great_expectations</a> (11796 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #12217 in fivetran/great_expectations: [BUG] Regex Expectations on ClickHouse call regexp_like(), which the server does not have — the dialect's predicate is match()</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/integration/test_utils/data_source_config/clickhouse.py</code></p>
+<p><a href="https://github.com/fivetran/great_expectations/issues/12217">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>bug</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>ready-for-work</category>
+    </item>
+    <item>
+      <title>[diegosouzapw/OmniRoute] #13997 docs(cli): README and CLI-TOOLS document two commands that do not exist (`config show`, `models list`) (Solvability: 6/10)</title>
+      <link>https://github.com/diegosouzapw/OmniRoute/issues/13997</link>
+      <guid isPermaLink="true">https://github.com/diegosouzapw/OmniRoute/issues/13997</guid>
+      <pubDate>Thu, 17 Sep 2026 15:24:26 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/diegosouzapw/OmniRoute">diegosouzapw/OmniRoute</a> (67321 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13997 in diegosouzapw/OmniRoute: docs(cli): README and CLI-TOOLS document two commands that do not exist (`config show`, `models list`)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test @omniroute/opencode-plugin/tests/config-shim.test.ts</code></p>
+<p><a href="https://github.com/diegosouzapw/OmniRoute/issues/13997">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[fivetran/great_expectations] #12218 [BUG] ExpectColumnValuesToBeOfType cannot pass on any Nullable(...) ClickHouse column — observed_value is 'Nullable' and no type name matches (Solvability: 6/10)</title>
+      <link>https://github.com/fivetran/great_expectations/issues/12218</link>
+      <guid isPermaLink="true">https://github.com/fivetran/great_expectations/issues/12218</guid>
+      <pubDate>Thu, 17 Sep 2026 15:27:20 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/fivetran/great_expectations">fivetran/great_expectations</a> (11796 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #12218 in fivetran/great_expectations: [BUG] ExpectColumnValuesToBeOfType cannot pass on any Nullable(...) ClickHouse column — observed_value is 'Nullable' and no type name matches</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/integration/data_sources_and_expectations/expectations/test_expect_column_values_to_be_of_type.py</code></p>
+<p><a href="https://github.com/fivetran/great_expectations/issues/12218">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>ready-for-work</category>
+    </item>
+    <item>
+      <title>[supabase/realtime] #2223 Consolidate extension tests into one canonical location mirroring lib/ (Solvability: 6/10)</title>
+      <link>https://github.com/supabase/realtime/issues/2223</link>
+      <guid isPermaLink="true">https://github.com/supabase/realtime/issues/2223</guid>
+      <pubDate>Thu, 17 Sep 2026 15:38:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/supabase/realtime">supabase/realtime</a> (7634 ⭐, Elixir)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #2223 in supabase/realtime: Consolidate extension tests into one canonical location mirroring lib/</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/supabase/realtime/issues/2223">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Elixir</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[supabase/realtime] #2224 Don't log SubscriptionDeletionFailed when realtime.subscription doesn't exist yet (Solvability: 6/10)</title>
+      <link>https://github.com/supabase/realtime/issues/2224</link>
+      <guid isPermaLink="true">https://github.com/supabase/realtime/issues/2224</guid>
+      <pubDate>Thu, 17 Sep 2026 15:38:50 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/supabase/realtime">supabase/realtime</a> (7634 ⭐, Elixir)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #2224 in supabase/realtime: Don't log SubscriptionDeletionFailed when realtime.subscription doesn't exist yet</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/supabase/realtime/issues/2224">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Elixir</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>bug</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[supabase/supabase] #50532 Docs: conflicting descriptions of the private flag for realtime.send / realtime.send_binary (Solvability: 6/10)</title>
+      <link>https://github.com/supabase/supabase/issues/50532</link>
+      <guid isPermaLink="true">https://github.com/supabase/supabase/issues/50532</guid>
+      <pubDate>Thu, 17 Sep 2026 15:39:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/supabase/supabase">supabase/supabase</a> (110016 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #50532 in supabase/supabase: Docs: conflicting descriptions of the private flag for realtime.send / realtime.send_binary</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test apps/studio/components/interfaces/Database/Replication/useIsETLPrivateAlpha.ts</code></p>
+<p><a href="https://github.com/supabase/supabase/issues/50532">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>documentation</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>internal-issue</category>
+      <category>to-triage</category>
+    </item>
     <item>
       <title>[CyberSunil/LLMVault] #27 Verify the player name is escaped before it reaches the SVG card (Solvability: 6/10)</title>
       <link>https://github.com/CyberSunil/LLMVault/issues/27</link>
@@ -24,23 +268,6 @@
       <category>help wanted</category>
       <category>good first issue</category>
       <category>priority</category>
-    </item>
-    <item>
-      <title>[CyberSunil/LLMVault] #29 save_progress() rewrites the whole file on every request (Solvability: 6/10)</title>
-      <link>https://github.com/CyberSunil/LLMVault/issues/29</link>
-      <guid isPermaLink="true">https://github.com/CyberSunil/LLMVault/issues/29</guid>
-      <pubDate>Thu, 17 Sep 2026 08:10:28 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/CyberSunil/LLMVault">CyberSunil/LLMVault</a> (316 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #29 in CyberSunil/LLMVault: save_progress() rewrites the whole file on every request</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest app.py</code></p>
-<p><a href="https://github.com/CyberSunil/LLMVault/issues/29">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[repowise-dev/repowise] #2296 [Bug] A C# null-conditional call (a?.Foo()) produces no call site at all (Solvability: 6/10)</title>
@@ -111,134 +338,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[repowise-dev/repowise] #2304 [Bug] C# builtin_parents is missing ten BCL types that VB.NET's list already carries (Solvability: 6/10)</title>
-      <link>https://github.com/repowise-dev/repowise/issues/2304</link>
-      <guid isPermaLink="true">https://github.com/repowise-dev/repowise/issues/2304</guid>
-      <pubDate>Thu, 17 Sep 2026 08:22:32 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/repowise-dev/repowise">repowise-dev/repowise</a> (6687 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2304 in repowise-dev/repowise: [Bug] C# builtin_parents is missing ten BCL types that VB.NET's list already carries</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest packages/api-client/src/pages.test.ts</code></p>
-<p><a href="https://github.com/repowise-dev/repowise/issues/2304">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[ozeranskii/httptap] #269 [Bug]: `--metrics-only` output is hard-wrapped at 80 columns when piped (Solvability: 6/10)</title>
-      <link>https://github.com/ozeranskii/httptap/issues/269</link>
-      <guid isPermaLink="true">https://github.com/ozeranskii/httptap/issues/269</guid>
-      <pubDate>Thu, 17 Sep 2026 09:52:27 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ozeranskii/httptap">ozeranskii/httptap</a> (812 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #269 in ozeranskii/httptap: [Bug]: `--metrics-only` output is hard-wrapped at 80 columns when piped</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/ozeranskii/httptap/issues/269">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>triage</category>
-    </item>
-    <item>
-      <title>[ozeranskii/httptap] #279 [Bug]: pre-commit workflow does not run any hooks (Solvability: 6/10)</title>
-      <link>https://github.com/ozeranskii/httptap/issues/279</link>
-      <guid isPermaLink="true">https://github.com/ozeranskii/httptap/issues/279</guid>
-      <pubDate>Thu, 17 Sep 2026 09:53:14 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ozeranskii/httptap">ozeranskii/httptap</a> (812 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #279 in ozeranskii/httptap: [Bug]: pre-commit workflow does not run any hooks</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest .github/workflows/pre-commit.yml</code></p>
-<p><a href="https://github.com/ozeranskii/httptap/issues/279">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>github-actions</category>
-      <category>triage</category>
-    </item>
-    <item>
-      <title>[ozeranskii/httptap] #280 [Bug]: Docs workflow is not triggered by docstring or docs dependency changes (Solvability: 6/10)</title>
-      <link>https://github.com/ozeranskii/httptap/issues/280</link>
-      <guid isPermaLink="true">https://github.com/ozeranskii/httptap/issues/280</guid>
-      <pubDate>Thu, 17 Sep 2026 09:53:16 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ozeranskii/httptap">ozeranskii/httptap</a> (812 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #280 in ozeranskii/httptap: [Bug]: Docs workflow is not triggered by docstring or docs dependency changes</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest mkdocs.yml</code></p>
-<p><a href="https://github.com/ozeranskii/httptap/issues/280">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>github-actions</category>
-      <category>triage</category>
-    </item>
-    <item>
-      <title>[ozeranskii/httptap] #281 [Bug]: CodSpeed benchmarks run under coverage instrumentation (Solvability: 6/10)</title>
-      <link>https://github.com/ozeranskii/httptap/issues/281</link>
-      <guid isPermaLink="true">https://github.com/ozeranskii/httptap/issues/281</guid>
-      <pubDate>Thu, 17 Sep 2026 09:53:17 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ozeranskii/httptap">ozeranskii/httptap</a> (812 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #281 in ozeranskii/httptap: [Bug]: CodSpeed benchmarks run under coverage instrumentation</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest .github/workflows/codspeed.yml</code></p>
-<p><a href="https://github.com/ozeranskii/httptap/issues/281">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>github-actions</category>
-      <category>triage</category>
-    </item>
-    <item>
-      <title>[ozeranskii/httptap] #285 [Docs]: SECURITY.md lists only 0.4.x as supported (Solvability: 6/10)</title>
-      <link>https://github.com/ozeranskii/httptap/issues/285</link>
-      <guid isPermaLink="true">https://github.com/ozeranskii/httptap/issues/285</guid>
-      <pubDate>Thu, 17 Sep 2026 09:53:24 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ozeranskii/httptap">ozeranskii/httptap</a> (812 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #285 in ozeranskii/httptap: [Docs]: SECURITY.md lists only 0.4.x as supported</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/ozeranskii/httptap/issues/285">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>triage</category>
-    </item>
-    <item>
-      <title>[ozeranskii/httptap] #286 [Docs]: CONTRIBUTING.md and release docs describe a manual release process and outdated details (Solvability: 6/10)</title>
-      <link>https://github.com/ozeranskii/httptap/issues/286</link>
-      <guid isPermaLink="true">https://github.com/ozeranskii/httptap/issues/286</guid>
-      <pubDate>Thu, 17 Sep 2026 09:53:25 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ozeranskii/httptap">ozeranskii/httptap</a> (812 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #286 in ozeranskii/httptap: [Docs]: CONTRIBUTING.md and release docs describe a manual release process and outdated details</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest .github/workflows/release.yml</code></p>
-<p><a href="https://github.com/ozeranskii/httptap/issues/286">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>triage</category>
-    </item>
-    <item>
       <title>[ganeshmshetty/openclip] #101 [Bug]: “Hold Mouse to Trigger” is blocked when “Appear Automatically” is disabled (Solvability: 6/10)</title>
       <link>https://github.com/ganeshmshetty/openclip/issues/101</link>
       <guid isPermaLink="true">https://github.com/ganeshmshetty/openclip/issues/101</guid>
@@ -254,24 +353,6 @@
       <category>friction-standard</category>
       <category>enhancement</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[nextcloud/appstore] #1896 GET on /api/v1/apps/&lt;id&gt; returns 500 instead of 405 (Solvability: 6/10)</title>
-      <link>https://github.com/nextcloud/appstore/issues/1896</link>
-      <guid isPermaLink="true">https://github.com/nextcloud/appstore/issues/1896</guid>
-      <pubDate>Thu, 17 Sep 2026 10:26:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/nextcloud/appstore">nextcloud/appstore</a> (392 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1896 in nextcloud/appstore: GET on /api/v1/apps/&lt;id&gt; returns 500 instead of 405</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest nextcloudappstore/core/migrations/0003_appreleasedeletelog.py</code></p>
-<p><a href="https://github.com/nextcloud/appstore/issues/1896">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>feature: api</category>
     </item>
     <item>
       <title>[OpenMoonRay/openmoonray] #283 Add new "unclamped" behavior to DirectionalMap (Solvability: 6/10)</title>
@@ -442,29 +523,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[lingdojo/kana-dojo] #30469 [Good First Issue] 🎐 Add new Japan Fact 213 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30469</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30469</guid>
-      <pubDate>Tue, 15 Sep 2026 23:01:02 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3395 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30469 in lingdojo/kana-dojo: [Good First Issue] 🎐 Add new Japan Fact 213 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-facts.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30469">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
       <title>[LibreSign/libresign] #8411 Update jsignpdf-php in LibreSign 3rdparty (Solvability: 6/10)</title>
       <link>https://github.com/LibreSign/libresign/issues/8411</link>
       <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/8411</guid>
@@ -513,22 +571,6 @@
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[TheAlgorithms/Python] #15351 TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026 (Solvability: 6/10)</title>
-      <link>https://github.com/TheAlgorithms/Python/issues/15351</link>
-      <guid isPermaLink="true">https://github.com/TheAlgorithms/Python/issues/15351</guid>
-      <pubDate>Tue, 15 Sep 2026 15:34:19 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/TheAlgorithms/Python">TheAlgorithms/Python</a> (224610 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #15351 in TheAlgorithms/Python: TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest scripts/pr_file_map.py</code></p>
-<p><a href="https://github.com/TheAlgorithms/Python/issues/15351">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
     </item>
     <item>
       <title>[nexu-io/open-design] #8176 [Bug]: Global button height reset clips multi-line button content in several components (Solvability: 6/10)</title>
@@ -869,41 +911,6 @@
       <category>documentation</category>
       <category>good first issue</category>
       <category>help wanted</category>
-    </item>
-    <item>
-      <title>[DonIsaac/zlint] #427 Feat(linter): add a `sort-imports` rule (Solvability: 6/10)</title>
-      <link>https://github.com/DonIsaac/zlint/issues/427</link>
-      <guid isPermaLink="true">https://github.com/DonIsaac/zlint/issues/427</guid>
-      <pubDate>Mon, 14 Sep 2026 18:41:19 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DonIsaac/zlint">DonIsaac/zlint</a> (311 ⭐, Zig)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #427 in DonIsaac/zlint: Feat(linter): add a `sort-imports` rule</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/DonIsaac/zlint/issues/427">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Zig</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>C-enhancement</category>
-      <category>good first issue</category>
-      <category>A-linter</category>
-      <category>C-rule</category>
-    </item>
-    <item>
-      <title>[mandiant/speakeasy] #323 fix hook bugs (Solvability: 6/10)</title>
-      <link>https://github.com/mandiant/speakeasy/issues/323</link>
-      <guid isPermaLink="true">https://github.com/mandiant/speakeasy/issues/323</guid>
-      <pubDate>Mon, 14 Sep 2026 19:02:28 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mandiant/speakeasy">mandiant/speakeasy</a> (2046 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #323 in mandiant/speakeasy: fix hook bugs</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/mandiant/speakeasy/issues/323">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
     </item>
   </channel>
 </rss>
