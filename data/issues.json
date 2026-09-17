@@ -1,5 +1,430 @@
 [
   {
+    "id": "I_kwDOD5-7oc8AAAABR0M7VQ",
+    "number": 5299,
+    "title": "github-actions cataloger emits an invalid PURL for docker:// use statements",
+    "url": "https://github.com/anchore/syft/issues/5299",
+    "repo": "anchore/syft",
+    "repoUrl": "https://github.com/anchore/syft",
+    "stars": 9574,
+    "language": "Go",
+    "labels": [
+      "bug",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-17T17:18:07Z",
+    "updatedAt": "2026-09-17T17:21:39Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./syft/pkg/cataloger/githubactions",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "syft/pkg/cataloger/githubactions/package.go"
+    ],
+    "summary": "Fix issue #5299 in anchore/syft: github-actions cataloger emits an invalid PURL for docker:// use statements",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:27.611Z"
+  },
+  {
+    "id": "I_kwDOEmJ-8c8AAAABR0eA5Q",
+    "number": 5309,
+    "title": "[Bug] logStdoutEncoder and logFileEncoder setting from `--config` are ignored",
+    "url": "https://github.com/ray-project/kuberay/issues/5309",
+    "repo": "ray-project/kuberay",
+    "repoUrl": "https://github.com/ray-project/kuberay",
+    "stars": 2687,
+    "language": "Go",
+    "labels": [
+      "bug",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-17T17:47:40Z",
+    "updatedAt": "2026-09-17T19:12:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./apiserver/cmd",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apiserver/cmd/main.go",
+      "historyserver/cmd/collector/main.go",
+      "historyserver/cmd/historyserver/main.go"
+    ],
+    "summary": "Fix issue #5309 in ray-project/kuberay: [Bug] logStdoutEncoder and logFileEncoder setting from `--config` are ignored",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-17T20:41:25.843Z"
+  },
+  {
+    "id": "I_kwDOCgmItM8AAAABRznbQA",
+    "number": 166,
+    "title": "Update langserver feature list in README",
+    "url": "https://github.com/Eugleo/magic-racket/issues/166",
+    "repo": "Eugleo/magic-racket",
+    "repoUrl": "https://github.com/Eugleo/magic-racket",
+    "stars": 220,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "langserver"
+    ],
+    "createdAt": "2026-09-17T16:15:02Z",
+    "updatedAt": "2026-09-17T16:15:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #166 in Eugleo/magic-racket: Update langserver feature list in README",
+    "maintainerTurnaroundDays": 1.3,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-17T20:41:24.266Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABR0AM0w",
+    "number": 30517,
+    "title": "[Good First Issue] 🦊 Add new Dialect Entry 120 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30517",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3409,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-17T16:57:31Z",
+    "updatedAt": "2026-09-17T16:57:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #30517 in lingdojo/kana-dojo: [Good First Issue] 🦊 Add new Dialect Entry 120 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:23.532Z"
+  },
+  {
+    "id": "I_kwDOBGHmcs8AAAABR0c93g",
+    "number": 579,
+    "title": "The audio record button does not work",
+    "url": "https://github.com/BlitzKraft/saythanks.io/issues/579",
+    "repo": "BlitzKraft/saythanks.io",
+    "repoUrl": "https://github.com/BlitzKraft/saythanks.io",
+    "stars": 1306,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-17T17:45:52Z",
+    "updatedAt": "2026-09-17T17:47:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #579 in BlitzKraft/saythanks.io: The audio record button does not work",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-17T20:41:21.842Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABR0j4Uw",
+    "number": 30520,
+    "title": "[Good First Issue] 🍁 Add new Etiquette Tip 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30520",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3409,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-17T17:57:30Z",
+    "updatedAt": "2026-09-17T17:57:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-cultural-etiquette.json"
+    ],
+    "summary": "Fix issue #30520 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new Etiquette Tip 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:20.500Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABR0l5NQ",
+    "number": 30521,
+    "title": "[Good First Issue] 🎌 Add new Example Sentence 70 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30521",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3409,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-17T18:01:07Z",
+    "updatedAt": "2026-09-17T18:01:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #30521 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Example Sentence 70 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:18.414Z"
+  },
+  {
+    "id": "I_kwDOSzbDbM8AAAABR0njeg",
+    "number": 703,
+    "title": "tune: the friction report counts ambient-monitor rows as decisions",
+    "url": "https://github.com/DobermanCore/Doberman-Core/issues/703",
+    "repo": "DobermanCore/Doberman-Core",
+    "repoUrl": "https://github.com/DobermanCore/Doberman-Core",
+    "stars": 296,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "level-3"
+    ],
+    "createdAt": "2026-09-17T18:04:05Z",
+    "updatedAt": "2026-09-17T18:04:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/doberman/policy/friction.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/doberman/policy/friction.py"
+    ],
+    "summary": "Fix issue #703 in DobermanCore/Doberman-Core: tune: the friction report counts ambient-monitor rows as decisions",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:16.335Z"
+  },
+  {
+    "id": "I_kwDOQy5Vl88AAAABR0_b9g",
+    "number": 255,
+    "title": "init-session.ps1 reports success after a denied file write because Out-File errors are non-terminating",
+    "url": "https://github.com/OthmanAdi/planning-with-files/issues/255",
+    "repo": "OthmanAdi/planning-with-files",
+    "repoUrl": "https://github.com/OthmanAdi/planning-with-files",
+    "stars": 26966,
+    "language": "Shell",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-17T18:44:53Z",
+    "updatedAt": "2026-09-17T18:44:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "scripts/session-catchup.py",
+      "skills/i18n/planning-with-files-ar/scripts/session-catchup.py",
+      "skills/i18n/planning-with-files-de/scripts/session-catchup.py"
+    ],
+    "summary": "Fix issue #255 in OthmanAdi/planning-with-files: init-session.ps1 reports success after a denied file write because Out-File errors are non-terminating",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-17T20:41:15.259Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABR1HF8A",
+    "number": 30523,
+    "title": "[Good First Issue] 🥟 Add new Learner Mistake 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30523",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3409,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-17T18:57:28Z",
+    "updatedAt": "2026-09-17T18:57:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #30523 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new Learner Mistake 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:14.108Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABR1VK3g",
+    "number": 135,
+    "title": "check_config_params.py ignores paths given on the command line, so a config outside its globs cannot be checked",
+    "url": "https://github.com/manankharwar/fusioncore/issues/135",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 363,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-17T19:20:34Z",
+    "updatedAt": "2026-09-17T19:20:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tools/check_config_params.py",
+      "fusioncore_gazebo/config/fusioncore_gazebo.yaml",
+      "fusioncore_datasets/config/nclt_fusioncore.yaml"
+    ],
+    "summary": "Fix issue #135 in manankharwar/fusioncore: check_config_params.py ignores paths given on the command line, so a config outside its globs cannot be checked",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:12.394Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABR1VXIg",
+    "number": 136,
+    "title": "Docs claim 114 and 64 tests, the suite now reports 265, so the quickstart's expected output is wrong",
+    "url": "https://github.com/manankharwar/fusioncore/issues/136",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 363,
+    "language": "C++",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-17T19:20:52Z",
+    "updatedAt": "2026-09-17T19:20:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #136 in manankharwar/fusioncore: Docs claim 114 and 64 tests, the suite now reports 265, so the quickstart's expected output is wrong",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:11.496Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABR1dMhg",
+    "number": 138,
+    "title": "Gates that stand down on purpose are indistinguishable from gates that never ran: add NOT_EVALUATED",
+    "url": "https://github.com/manankharwar/fusioncore/issues/138",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 363,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-17T19:34:01Z",
+    "updatedAt": "2026-09-17T19:34:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #138 in manankharwar/fusioncore: Gates that stand down on purpose are indistinguishable from gates that never ran: add NOT_EVALUATED",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:09.509Z"
+  },
+  {
+    "id": "I_kwDORllOrs8AAAABR2CAcg",
+    "number": 2672,
+    "title": "Audiobook duration only lists time of first audio file",
+    "url": "https://github.com/grimmory-tools/grimmory/issues/2672",
+    "repo": "grimmory-tools/grimmory",
+    "repoUrl": "https://github.com/grimmory-tools/grimmory",
+    "stars": 4377,
+    "language": "Java",
+    "labels": [
+      "good first issue",
+      "frontend",
+      "priority: low"
+    ],
+    "createdAt": "2026-09-17T20:39:52Z",
+    "updatedAt": "2026-09-17T20:39:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2672 in grimmory-tools/grimmory: Audiobook duration only lists time of first audio file",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-17T20:41:08.564Z"
+  },
+  {
     "id": "I_kwDON3kF8s8AAAABRyfVJQ",
     "number": 1445,
     "title": "Build on macos-15-intel is flaky",
@@ -212,37 +637,6 @@
     "discoveredAt": "2026-09-17T15:49:01.665Z"
   },
   {
-    "id": "I_kwDOBiS_IM8AAAABRzChjA",
-    "number": 12217,
-    "title": "[BUG] Regex Expectations on ClickHouse call regexp_like(), which the server does not have — the dialect's predicate is match()",
-    "url": "https://github.com/fivetran/great_expectations/issues/12217",
-    "repo": "fivetran/great_expectations",
-    "repoUrl": "https://github.com/fivetran/great_expectations",
-    "stars": 11796,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue",
-      "ready-for-work"
-    ],
-    "createdAt": "2026-09-17T15:18:49Z",
-    "updatedAt": "2026-09-17T15:18:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pytest tests/integration/test_utils/data_source_config/clickhouse.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/integration/test_utils/data_source_config/clickhouse.py",
-      "tests/integration/data_sources_and_expectations/expectations/test_expect_column_values_to_match_regex.py"
-    ],
-    "summary": "Fix issue #12217 in fivetran/great_expectations: [BUG] Regex Expectations on ClickHouse call regexp_like(), which the server does not have — the dialect's predicate is match()",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-17T15:49:00.843Z"
-  },
-  {
     "id": "I_kwDORPf6ys8AAAABRzGXmg",
     "number": 13997,
     "title": "docs(cli): README and CLI-TOOLS document two commands that do not exist (`config show`, `models list`)",
@@ -274,126 +668,6 @@
     "discoveredAt": "2026-09-17T15:48:54.591Z"
   },
   {
-    "id": "I_kwDOBiS_IM8AAAABRzIPAw",
-    "number": 12218,
-    "title": "[BUG] ExpectColumnValuesToBeOfType cannot pass on any Nullable(...) ClickHouse column — observed_value is 'Nullable' and no type name matches",
-    "url": "https://github.com/fivetran/great_expectations/issues/12218",
-    "repo": "fivetran/great_expectations",
-    "repoUrl": "https://github.com/fivetran/great_expectations",
-    "stars": 11796,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue",
-      "ready-for-work"
-    ],
-    "createdAt": "2026-09-17T15:27:20Z",
-    "updatedAt": "2026-09-17T15:27:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/integration/data_sources_and_expectations/expectations/test_expect_column_values_to_be_of_type.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/integration/data_sources_and_expectations/expectations/test_expect_column_values_to_be_of_type.py"
-    ],
-    "summary": "Fix issue #12218 in fivetran/great_expectations: [BUG] ExpectColumnValuesToBeOfType cannot pass on any Nullable(...) ClickHouse column — observed_value is 'Nullable' and no type name matches",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-17T15:48:43.795Z"
-  },
-  {
-    "id": "I_kwDODImkh88AAAABRzP44A",
-    "number": 2223,
-    "title": "Consolidate extension tests into one canonical location mirroring lib/",
-    "url": "https://github.com/supabase/realtime/issues/2223",
-    "repo": "supabase/realtime",
-    "repoUrl": "https://github.com/supabase/realtime",
-    "stars": 7634,
-    "language": "Elixir",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T15:38:36Z",
-    "updatedAt": "2026-09-17T15:41:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2223 in supabase/realtime: Consolidate extension tests into one canonical location mirroring lib/",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T15:48:37.515Z"
-  },
-  {
-    "id": "I_kwDODImkh88AAAABRzQB1Q",
-    "number": 2224,
-    "title": "Don't log SubscriptionDeletionFailed when realtime.subscription doesn't exist yet",
-    "url": "https://github.com/supabase/realtime/issues/2224",
-    "repo": "supabase/realtime",
-    "repoUrl": "https://github.com/supabase/realtime",
-    "stars": 7634,
-    "language": "Elixir",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T15:38:50Z",
-    "updatedAt": "2026-09-17T15:41:39Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2224 in supabase/realtime: Don't log SubscriptionDeletionFailed when realtime.subscription doesn't exist yet",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T15:48:36.594Z"
-  },
-  {
-    "id": "I_kwDODMpXOc8AAAABRzQMIA",
-    "number": 50532,
-    "title": "Docs: conflicting descriptions of the private flag for realtime.send / realtime.send_binary",
-    "url": "https://github.com/supabase/supabase/issues/50532",
-    "repo": "supabase/supabase",
-    "repoUrl": "https://github.com/supabase/supabase",
-    "stars": 110016,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "help wanted",
-      "good first issue",
-      "internal-issue",
-      "to-triage"
-    ],
-    "createdAt": "2026-09-17T15:39:05Z",
-    "updatedAt": "2026-09-17T15:41:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test apps/studio/components/interfaces/Database/Replication/useIsETLPrivateAlpha.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "apps/studio/components/interfaces/Database/Replication/useIsETLPrivateAlpha.ts",
-      "apps/studio/components/interfaces/Organization/PrivateApps/PrivateApps.types.ts",
-      "apps/studio/components/interfaces/Organization/PrivateApps/PrivateAppsContext.tsx"
-    ],
-    "summary": "Fix issue #50532 in supabase/supabase: Docs: conflicting descriptions of the private flag for realtime.send / realtime.send_binary",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-17T15:48:35.539Z"
-  },
-  {
     "id": "I_kwDOTZFfiM8AAAABRuon8A",
     "number": 27,
     "title": "Verify the player name is escaped before it reaches the SVG card",
@@ -421,93 +695,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-17T10:34:57.728Z"
-  },
-  {
-    "id": "I_kwDORuSRRM8AAAABRuvhkQ",
-    "number": 2296,
-    "title": "[Bug] A C# null-conditional call (a?.Foo()) produces no call site at all",
-    "url": "https://github.com/repowise-dev/repowise/issues/2296",
-    "repo": "repowise-dev/repowise",
-    "repoUrl": "https://github.com/repowise-dev/repowise",
-    "stars": 6687,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T08:20:46Z",
-    "updatedAt": "2026-09-17T08:20:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest packages/core/alembic/versions/0029_git_function_blame.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/core/alembic/versions/0029_git_function_blame.py",
-      "packages/core/alembic/versions/0064_widen_git_function_blame_symbol_id.py",
-      "packages/ui/src/health/hot-functions-panel.tsx"
-    ],
-    "summary": "Fix issue #2296 in repowise-dev/repowise: [Bug] A C# null-conditional call (a?.Foo()) produces no call site at all",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T10:34:55.618Z"
-  },
-  {
-    "id": "I_kwDORuSRRM8AAAABRuvjIw",
-    "number": 2297,
-    "title": "[Bug] extension Ns.Type: P records the namespace as conforming to the protocol",
-    "url": "https://github.com/repowise-dev/repowise/issues/2297",
-    "repo": "repowise-dev/repowise",
-    "repoUrl": "https://github.com/repowise-dev/repowise",
-    "stars": 6687,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T08:20:49Z",
-    "updatedAt": "2026-09-17T08:20:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/unit/ingestion/test_swift_extractors.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/unit/ingestion/test_swift_extractors.py"
-    ],
-    "summary": "Fix issue #2297 in repowise-dev/repowise: [Bug] extension Ns.Type: P records the namespace as conforming to the protocol",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T10:34:52.861Z"
-  },
-  {
-    "id": "I_kwDORuSRRM8AAAABRuv4nw",
-    "number": 2300,
-    "title": "[Bug] Objective-C .h/.m files never pair, so header consumers never reach the implementation",
-    "url": "https://github.com/repowise-dev/repowise/issues/2300",
-    "repo": "repowise-dev/repowise",
-    "repoUrl": "https://github.com/repowise-dev/repowise",
-    "stars": 6687,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T08:21:26Z",
-    "updatedAt": "2026-09-17T08:21:26Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest packages/core/src/repowise/core/ingestion/graph/_resolvers.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/core/src/repowise/core/ingestion/graph/_resolvers.py",
-      "tests/unit/ingestion/test_cpp_header_pairs.py"
-    ],
-    "summary": "Fix issue #2300 in repowise-dev/repowise: [Bug] Objective-C .h/.m files never pair, so header consumers never reach the implementation",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T10:34:50.082Z"
   },
   {
     "id": "I_kwDORuSRRM8AAAABRuwMGw",
@@ -788,34 +975,6 @@
     "discoveredAt": "2026-09-16T20:34:41.410Z"
   },
   {
-    "id": "I_kwDOABpTD88AAAABRo1LYQ",
-    "number": 8201,
-    "title": "Add language: WESL",
-    "url": "https://github.com/github-linguist/linguist/issues/8201",
-    "repo": "github-linguist/linguist",
-    "repoUrl": "https://github.com/github-linguist/linguist",
-    "stars": 13689,
-    "language": "Ruby",
-    "labels": [
-      "Add Language",
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-16T18:47:12Z",
-    "updatedAt": "2026-09-16T18:47:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8201 in github-linguist/linguist: Add language: WESL",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T20:34:40.515Z"
-  },
-  {
     "id": "I_kwDOQuAx5c8AAAABRedfIw",
     "number": 869,
     "title": "fly.toml's default image tag is several releases behind the latest tag",
@@ -871,60 +1030,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-16T02:04:11.166Z"
-  },
-  {
-    "id": "I_kwDODKpNd88AAAABRffBOw",
-    "number": 2937,
-    "title": "filter_input crashes on `and` / `or` with a value that is not a non-empty list or map",
-    "url": "https://github.com/ash-project/ash/issues/2937",
-    "repo": "ash-project/ash",
-    "repoUrl": "https://github.com/ash-project/ash",
-    "stars": 2492,
-    "language": "Elixir",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-16T00:36:57Z",
-    "updatedAt": "2026-09-16T00:58:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2937 in ash-project/ash: filter_input crashes on `and` / `or` with a value that is not a non-empty list or map",
-    "maintainerTurnaroundDays": 1.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:09.535Z"
-  },
-  {
-    "id": "I_kwDODKpNd88AAAABRff9HA",
-    "number": 2940,
-    "title": "Invalid `page` options are an unrendered Spark.Options.ValidationError, and a non-list `page` raises",
-    "url": "https://github.com/ash-project/ash/issues/2940",
-    "repo": "ash-project/ash",
-    "repoUrl": "https://github.com/ash-project/ash",
-    "stars": 2492,
-    "language": "Elixir",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-16T00:39:38Z",
-    "updatedAt": "2026-09-16T01:00:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2940 in ash-project/ash: Invalid `page` options are an unrendered Spark.Options.ValidationError, and a non-list `page` raises",
-    "maintainerTurnaroundDays": 1.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:07.763Z"
   },
   {
     "id": "I_kwDOSOgY8s8AAAABRc_X-A",
@@ -3026,35 +3131,6 @@
     "discoveredAt": "2026-09-11T01:48:44.783Z"
   },
   {
-    "id": "I_kwDOEUy9GM8AAAABQwNMfg",
-    "number": 8354,
-    "title": "Implement the external PDF signing lifecycle",
-    "url": "https://github.com/LibreSign/libresign/issues/8354",
-    "repo": "LibreSign/libresign",
-    "repoUrl": "https://github.com/LibreSign/libresign",
-    "stars": 810,
-    "language": "PHP",
-    "labels": [
-      "good first issue",
-      "backend",
-      "php"
-    ],
-    "createdAt": "2026-09-11T01:35:03Z",
-    "updatedAt": "2026-09-11T01:43:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8354 in LibreSign/libresign: Implement the external PDF signing lifecycle",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T01:48:43.032Z"
-  },
-  {
     "id": "I_kwDOQn2lnM8AAAABQq5SeQ",
     "number": 229,
     "title": "Tamcpp 的下一步",
@@ -4236,5 +4312,33 @@
     "maintainerTurnaroundDays": 0.7,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-05T09:35:05.422Z"
+  },
+  {
+    "id": "I_kwDORponss8AAAABR1VnQg",
+    "number": 137,
+    "title": "Startup race: the filter reports \"All 0 configured sensors ready\" and begins the bias window before the sensor list is populated",
+    "url": "https://github.com/manankharwar/fusioncore/issues/137",
+    "repo": "manankharwar/fusioncore",
+    "repoUrl": "https://github.com/manankharwar/fusioncore",
+    "stars": 363,
+    "language": "C++",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-17T19:21:15Z",
+    "updatedAt": "2026-09-17T19:21:15Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "fusioncore_ros/src/fusion_node.cpp"
+    ],
+    "summary": "Fix issue #137 in manankharwar/fusioncore: Startup race: the filter reports \"All 0 configured sensors ready\" and begins the bias window before the sensor list is populated",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T20:41:10.582Z"
   }
 ]

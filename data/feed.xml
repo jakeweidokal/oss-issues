@@ -5,8 +5,273 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2026 15:49:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 20:41:27 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[anchore/syft] #5299 github-actions cataloger emits an invalid PURL for docker:// use statements (Solvability: 6/10)</title>
+      <link>https://github.com/anchore/syft/issues/5299</link>
+      <guid isPermaLink="true">https://github.com/anchore/syft/issues/5299</guid>
+      <pubDate>Thu, 17 Sep 2026 17:18:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/anchore/syft">anchore/syft</a> (9574 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5299 in anchore/syft: github-actions cataloger emits an invalid PURL for docker:// use statements</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./syft/pkg/cataloger/githubactions</code></p>
+<p><a href="https://github.com/anchore/syft/issues/5299">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[ray-project/kuberay] #5309 [Bug] logStdoutEncoder and logFileEncoder setting from `--config` are ignored (Solvability: 6/10)</title>
+      <link>https://github.com/ray-project/kuberay/issues/5309</link>
+      <guid isPermaLink="true">https://github.com/ray-project/kuberay/issues/5309</guid>
+      <pubDate>Thu, 17 Sep 2026 17:47:40 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ray-project/kuberay">ray-project/kuberay</a> (2687 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5309 in ray-project/kuberay: [Bug] logStdoutEncoder and logFileEncoder setting from `--config` are ignored</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./apiserver/cmd</code></p>
+<p><a href="https://github.com/ray-project/kuberay/issues/5309">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[Eugleo/magic-racket] #166 Update langserver feature list in README (Solvability: 6/10)</title>
+      <link>https://github.com/Eugleo/magic-racket/issues/166</link>
+      <guid isPermaLink="true">https://github.com/Eugleo/magic-racket/issues/166</guid>
+      <pubDate>Thu, 17 Sep 2026 16:15:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Eugleo/magic-racket">Eugleo/magic-racket</a> (220 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #166 in Eugleo/magic-racket: Update langserver feature list in README</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/Eugleo/magic-racket/issues/166">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>langserver</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30517 [Good First Issue] 🦊 Add new Dialect Entry 120 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30517</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30517</guid>
+      <pubDate>Thu, 17 Sep 2026 16:57:31 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3409 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30517 in lingdojo/kana-dojo: [Good First Issue] 🦊 Add new Dialect Entry 120 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-regional-dialects.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30517">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[BlitzKraft/saythanks.io] #579 The audio record button does not work (Solvability: 6/10)</title>
+      <link>https://github.com/BlitzKraft/saythanks.io/issues/579</link>
+      <guid isPermaLink="true">https://github.com/BlitzKraft/saythanks.io/issues/579</guid>
+      <pubDate>Thu, 17 Sep 2026 17:45:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/BlitzKraft/saythanks.io">BlitzKraft/saythanks.io</a> (1306 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #579 in BlitzKraft/saythanks.io: The audio record button does not work</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/BlitzKraft/saythanks.io/issues/579">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30520 [Good First Issue] 🍁 Add new Etiquette Tip 13 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30520</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30520</guid>
+      <pubDate>Thu, 17 Sep 2026 17:57:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3409 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30520 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new Etiquette Tip 13 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30520">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30521 [Good First Issue] 🎌 Add new Example Sentence 70 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30521</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30521</guid>
+      <pubDate>Thu, 17 Sep 2026 18:01:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3409 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30521 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Example Sentence 70 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-example-sentences.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30521">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[DobermanCore/Doberman-Core] #703 tune: the friction report counts ambient-monitor rows as decisions (Solvability: 6/10)</title>
+      <link>https://github.com/DobermanCore/Doberman-Core/issues/703</link>
+      <guid isPermaLink="true">https://github.com/DobermanCore/Doberman-Core/issues/703</guid>
+      <pubDate>Thu, 17 Sep 2026 18:04:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DobermanCore/Doberman-Core">DobermanCore/Doberman-Core</a> (296 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #703 in DobermanCore/Doberman-Core: tune: the friction report counts ambient-monitor rows as decisions</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/doberman/policy/friction.py</code></p>
+<p><a href="https://github.com/DobermanCore/Doberman-Core/issues/703">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>level-3</category>
+    </item>
+    <item>
+      <title>[OthmanAdi/planning-with-files] #255 init-session.ps1 reports success after a denied file write because Out-File errors are non-terminating (Solvability: 6/10)</title>
+      <link>https://github.com/OthmanAdi/planning-with-files/issues/255</link>
+      <guid isPermaLink="true">https://github.com/OthmanAdi/planning-with-files/issues/255</guid>
+      <pubDate>Thu, 17 Sep 2026 18:44:53 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OthmanAdi/planning-with-files">OthmanAdi/planning-with-files</a> (26966 ⭐, Shell)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #255 in OthmanAdi/planning-with-files: init-session.ps1 reports success after a denied file write because Out-File errors are non-terminating</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/OthmanAdi/planning-with-files/issues/255">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Shell</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30523 [Good First Issue] 🥟 Add new Learner Mistake 13 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30523</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30523</guid>
+      <pubDate>Thu, 17 Sep 2026 18:57:28 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3409 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30523 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new Learner Mistake 13 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-common-mistakes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30523">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[manankharwar/fusioncore] #135 check_config_params.py ignores paths given on the command line, so a config outside its globs cannot be checked (Solvability: 6/10)</title>
+      <link>https://github.com/manankharwar/fusioncore/issues/135</link>
+      <guid isPermaLink="true">https://github.com/manankharwar/fusioncore/issues/135</guid>
+      <pubDate>Thu, 17 Sep 2026 19:20:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/manankharwar/fusioncore">manankharwar/fusioncore</a> (363 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #135 in manankharwar/fusioncore: check_config_params.py ignores paths given on the command line, so a config outside its globs cannot be checked</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/manankharwar/fusioncore/issues/135">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[manankharwar/fusioncore] #136 Docs claim 114 and 64 tests, the suite now reports 265, so the quickstart's expected output is wrong (Solvability: 6/10)</title>
+      <link>https://github.com/manankharwar/fusioncore/issues/136</link>
+      <guid isPermaLink="true">https://github.com/manankharwar/fusioncore/issues/136</guid>
+      <pubDate>Thu, 17 Sep 2026 19:20:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/manankharwar/fusioncore">manankharwar/fusioncore</a> (363 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #136 in manankharwar/fusioncore: Docs claim 114 and 64 tests, the suite now reports 265, so the quickstart's expected output is wrong</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/manankharwar/fusioncore/issues/136">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[manankharwar/fusioncore] #138 Gates that stand down on purpose are indistinguishable from gates that never ran: add NOT_EVALUATED (Solvability: 6/10)</title>
+      <link>https://github.com/manankharwar/fusioncore/issues/138</link>
+      <guid isPermaLink="true">https://github.com/manankharwar/fusioncore/issues/138</guid>
+      <pubDate>Thu, 17 Sep 2026 19:34:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/manankharwar/fusioncore">manankharwar/fusioncore</a> (363 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #138 in manankharwar/fusioncore: Gates that stand down on purpose are indistinguishable from gates that never ran: add NOT_EVALUATED</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/manankharwar/fusioncore/issues/138">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[grimmory-tools/grimmory] #2672 Audiobook duration only lists time of first audio file (Solvability: 6/10)</title>
+      <link>https://github.com/grimmory-tools/grimmory/issues/2672</link>
+      <guid isPermaLink="true">https://github.com/grimmory-tools/grimmory/issues/2672</guid>
+      <pubDate>Thu, 17 Sep 2026 20:39:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/grimmory-tools/grimmory">grimmory-tools/grimmory</a> (4377 ⭐, Java)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2672 in grimmory-tools/grimmory: Audiobook duration only lists time of first audio file</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/grimmory-tools/grimmory/issues/2672">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Java</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>frontend</category>
+      <category>priority: low</category>
+    </item>
     <item>
       <title>[containers/kubernetes-mcp-server] #1445 Build on macos-15-intel is flaky (Solvability: 6/10)</title>
       <link>https://github.com/containers/kubernetes-mcp-server/issues/1445</link>
@@ -141,25 +406,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[fivetran/great_expectations] #12217 [BUG] Regex Expectations on ClickHouse call regexp_like(), which the server does not have — the dialect's predicate is match() (Solvability: 6/10)</title>
-      <link>https://github.com/fivetran/great_expectations/issues/12217</link>
-      <guid isPermaLink="true">https://github.com/fivetran/great_expectations/issues/12217</guid>
-      <pubDate>Thu, 17 Sep 2026 15:18:49 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/fivetran/great_expectations">fivetran/great_expectations</a> (11796 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #12217 in fivetran/great_expectations: [BUG] Regex Expectations on ClickHouse call regexp_like(), which the server does not have — the dialect's predicate is match()</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/integration/test_utils/data_source_config/clickhouse.py</code></p>
-<p><a href="https://github.com/fivetran/great_expectations/issues/12217">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>ready-for-work</category>
-    </item>
-    <item>
       <title>[diegosouzapw/OmniRoute] #13997 docs(cli): README and CLI-TOOLS document two commands that do not exist (`config show`, `models list`) (Solvability: 6/10)</title>
       <link>https://github.com/diegosouzapw/OmniRoute/issues/13997</link>
       <guid isPermaLink="true">https://github.com/diegosouzapw/OmniRoute/issues/13997</guid>
@@ -178,80 +424,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[fivetran/great_expectations] #12218 [BUG] ExpectColumnValuesToBeOfType cannot pass on any Nullable(...) ClickHouse column — observed_value is 'Nullable' and no type name matches (Solvability: 6/10)</title>
-      <link>https://github.com/fivetran/great_expectations/issues/12218</link>
-      <guid isPermaLink="true">https://github.com/fivetran/great_expectations/issues/12218</guid>
-      <pubDate>Thu, 17 Sep 2026 15:27:20 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/fivetran/great_expectations">fivetran/great_expectations</a> (11796 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #12218 in fivetran/great_expectations: [BUG] ExpectColumnValuesToBeOfType cannot pass on any Nullable(...) ClickHouse column — observed_value is 'Nullable' and no type name matches</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/integration/data_sources_and_expectations/expectations/test_expect_column_values_to_be_of_type.py</code></p>
-<p><a href="https://github.com/fivetran/great_expectations/issues/12218">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>ready-for-work</category>
-    </item>
-    <item>
-      <title>[supabase/realtime] #2223 Consolidate extension tests into one canonical location mirroring lib/ (Solvability: 6/10)</title>
-      <link>https://github.com/supabase/realtime/issues/2223</link>
-      <guid isPermaLink="true">https://github.com/supabase/realtime/issues/2223</guid>
-      <pubDate>Thu, 17 Sep 2026 15:38:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/supabase/realtime">supabase/realtime</a> (7634 ⭐, Elixir)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #2223 in supabase/realtime: Consolidate extension tests into one canonical location mirroring lib/</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/supabase/realtime/issues/2223">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Elixir</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[supabase/realtime] #2224 Don't log SubscriptionDeletionFailed when realtime.subscription doesn't exist yet (Solvability: 6/10)</title>
-      <link>https://github.com/supabase/realtime/issues/2224</link>
-      <guid isPermaLink="true">https://github.com/supabase/realtime/issues/2224</guid>
-      <pubDate>Thu, 17 Sep 2026 15:38:50 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/supabase/realtime">supabase/realtime</a> (7634 ⭐, Elixir)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #2224 in supabase/realtime: Don't log SubscriptionDeletionFailed when realtime.subscription doesn't exist yet</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/supabase/realtime/issues/2224">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Elixir</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[supabase/supabase] #50532 Docs: conflicting descriptions of the private flag for realtime.send / realtime.send_binary (Solvability: 6/10)</title>
-      <link>https://github.com/supabase/supabase/issues/50532</link>
-      <guid isPermaLink="true">https://github.com/supabase/supabase/issues/50532</guid>
-      <pubDate>Thu, 17 Sep 2026 15:39:05 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/supabase/supabase">supabase/supabase</a> (110016 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #50532 in supabase/supabase: Docs: conflicting descriptions of the private flag for realtime.send / realtime.send_binary</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/studio/components/interfaces/Database/Replication/useIsETLPrivateAlpha.ts</code></p>
-<p><a href="https://github.com/supabase/supabase/issues/50532">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>documentation</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>internal-issue</category>
-      <category>to-triage</category>
-    </item>
-    <item>
       <title>[CyberSunil/LLMVault] #27 Verify the player name is escaped before it reaches the SVG card (Solvability: 6/10)</title>
       <link>https://github.com/CyberSunil/LLMVault/issues/27</link>
       <guid isPermaLink="true">https://github.com/CyberSunil/LLMVault/issues/27</guid>
@@ -268,57 +440,6 @@
       <category>help wanted</category>
       <category>good first issue</category>
       <category>priority</category>
-    </item>
-    <item>
-      <title>[repowise-dev/repowise] #2296 [Bug] A C# null-conditional call (a?.Foo()) produces no call site at all (Solvability: 6/10)</title>
-      <link>https://github.com/repowise-dev/repowise/issues/2296</link>
-      <guid isPermaLink="true">https://github.com/repowise-dev/repowise/issues/2296</guid>
-      <pubDate>Thu, 17 Sep 2026 08:20:46 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/repowise-dev/repowise">repowise-dev/repowise</a> (6687 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2296 in repowise-dev/repowise: [Bug] A C# null-conditional call (a?.Foo()) produces no call site at all</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest packages/core/alembic/versions/0029_git_function_blame.py</code></p>
-<p><a href="https://github.com/repowise-dev/repowise/issues/2296">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[repowise-dev/repowise] #2297 [Bug] extension Ns.Type: P records the namespace as conforming to the protocol (Solvability: 6/10)</title>
-      <link>https://github.com/repowise-dev/repowise/issues/2297</link>
-      <guid isPermaLink="true">https://github.com/repowise-dev/repowise/issues/2297</guid>
-      <pubDate>Thu, 17 Sep 2026 08:20:49 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/repowise-dev/repowise">repowise-dev/repowise</a> (6687 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2297 in repowise-dev/repowise: [Bug] extension Ns.Type: P records the namespace as conforming to the protocol</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/unit/ingestion/test_swift_extractors.py</code></p>
-<p><a href="https://github.com/repowise-dev/repowise/issues/2297">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[repowise-dev/repowise] #2300 [Bug] Objective-C .h/.m files never pair, so header consumers never reach the implementation (Solvability: 6/10)</title>
-      <link>https://github.com/repowise-dev/repowise/issues/2300</link>
-      <guid isPermaLink="true">https://github.com/repowise-dev/repowise/issues/2300</guid>
-      <pubDate>Thu, 17 Sep 2026 08:21:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/repowise-dev/repowise">repowise-dev/repowise</a> (6687 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2300 in repowise-dev/repowise: [Bug] Objective-C .h/.m files never pair, so header consumers never reach the implementation</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest packages/core/src/repowise/core/ingestion/graph/_resolvers.py</code></p>
-<p><a href="https://github.com/repowise-dev/repowise/issues/2300">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[repowise-dev/repowise] #2302 [Bug] static create = (...) =&gt; {} is invisible: class fields are captured for their type only (Solvability: 6/10)</title>
@@ -489,23 +610,6 @@
       <category>Analyzers</category>
     </item>
     <item>
-      <title>[github-linguist/linguist] #8201 Add language: WESL (Solvability: 6/10)</title>
-      <link>https://github.com/github-linguist/linguist/issues/8201</link>
-      <guid isPermaLink="true">https://github.com/github-linguist/linguist/issues/8201</guid>
-      <pubDate>Wed, 16 Sep 2026 18:47:12 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/github-linguist/linguist">github-linguist/linguist</a> (13689 ⭐, Ruby)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8201 in github-linguist/linguist: Add language: WESL</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/github-linguist/linguist/issues/8201">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Ruby</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Add Language</category>
-      <category>Good First Issue</category>
-    </item>
-    <item>
       <title>[libredb/libredb-studio] #869 fly.toml's default image tag is several releases behind the latest tag (Solvability: 6/10)</title>
       <link>https://github.com/libredb/libredb-studio/issues/869</link>
       <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/869</guid>
@@ -539,38 +643,6 @@
       <category>good first issue</category>
       <category>backend</category>
       <category>php</category>
-    </item>
-    <item>
-      <title>[ash-project/ash] #2937 filter_input crashes on `and` / `or` with a value that is not a non-empty list or map (Solvability: 6/10)</title>
-      <link>https://github.com/ash-project/ash/issues/2937</link>
-      <guid isPermaLink="true">https://github.com/ash-project/ash/issues/2937</guid>
-      <pubDate>Wed, 16 Sep 2026 00:36:57 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ash-project/ash">ash-project/ash</a> (2492 ⭐, Elixir)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2937 in ash-project/ash: filter_input crashes on `and` / `or` with a value that is not a non-empty list or map</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/ash-project/ash/issues/2937">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Elixir</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[ash-project/ash] #2940 Invalid `page` options are an unrendered Spark.Options.ValidationError, and a non-list `page` raises (Solvability: 6/10)</title>
-      <link>https://github.com/ash-project/ash/issues/2940</link>
-      <guid isPermaLink="true">https://github.com/ash-project/ash/issues/2940</guid>
-      <pubDate>Wed, 16 Sep 2026 00:39:38 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ash-project/ash">ash-project/ash</a> (2492 ⭐, Elixir)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2940 in ash-project/ash: Invalid `page` options are an unrendered Spark.Options.ValidationError, and a non-list `page` raises</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/ash-project/ash/issues/2940">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Elixir</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[nexu-io/open-design] #8176 [Bug]: Global button height reset clips multi-line button content in several components (Solvability: 6/10)</title>
@@ -856,61 +928,6 @@
       <category>bug</category>
       <category>good first issue</category>
       <category>maintenance</category>
-    </item>
-    <item>
-      <title>[Vaquill-AI/awesome-legaltech] #110 Remove six malformed list lines and four duplicate or misfiled entries in README.md (Solvability: 6/10)</title>
-      <link>https://github.com/Vaquill-AI/awesome-legaltech/issues/110</link>
-      <guid isPermaLink="true">https://github.com/Vaquill-AI/awesome-legaltech/issues/110</guid>
-      <pubDate>Mon, 14 Sep 2026 18:07:27 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Vaquill-AI/awesome-legaltech">Vaquill-AI/awesome-legaltech</a> (218 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #110 in Vaquill-AI/awesome-legaltech: Remove six malformed list lines and four duplicate or misfiled entries in README.md</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Vaquill-AI/awesome-legaltech/issues/110">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[Vaquill-AI/awesome-legaltech] #111 Restore the four sections missing from the Contents list, and add a CI check that keeps it in sync (Solvability: 6/10)</title>
-      <link>https://github.com/Vaquill-AI/awesome-legaltech/issues/111</link>
-      <guid isPermaLink="true">https://github.com/Vaquill-AI/awesome-legaltech/issues/111</guid>
-      <pubDate>Mon, 14 Sep 2026 18:07:29 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Vaquill-AI/awesome-legaltech">Vaquill-AI/awesome-legaltech</a> (218 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #111 in Vaquill-AI/awesome-legaltech: Restore the four sections missing from the Contents list, and add a CI check that keeps it in sync</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Vaquill-AI/awesome-legaltech/issues/111">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>maintenance</category>
-    </item>
-    <item>
-      <title>[Vaquill-AI/awesome-legaltech] #113 Document the entry tag vocabulary in CONTRIBUTING.md (Solvability: 6/10)</title>
-      <link>https://github.com/Vaquill-AI/awesome-legaltech/issues/113</link>
-      <guid isPermaLink="true">https://github.com/Vaquill-AI/awesome-legaltech/issues/113</guid>
-      <pubDate>Mon, 14 Sep 2026 18:07:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Vaquill-AI/awesome-legaltech">Vaquill-AI/awesome-legaltech</a> (218 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #113 in Vaquill-AI/awesome-legaltech: Document the entry tag vocabulary in CONTRIBUTING.md</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Vaquill-AI/awesome-legaltech/issues/113">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
     </item>
   </channel>
 </rss>

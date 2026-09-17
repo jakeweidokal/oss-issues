@@ -6493,7 +6493,8 @@
     "repo": "LibreSign/libresign",
     "title": "Implement the external PDF signing lifecycle",
     "discoveredAt": "2026-09-11T01:48:43.032Z",
-    "status": "published"
+    "status": "claimed",
+    "reason": "Removed during reconciliation (claimed)"
   },
   "I_kwDOJPu3QM8AAAABQwJQ6w": {
     "id": "I_kwDOJPu3QM8AAAABQwJQ6w",
@@ -8920,7 +8921,8 @@
     "repo": "ash-project/ash",
     "title": "Invalid `page` options are an unrendered Spark.Options.ValidationError, and a non-list `page` raises",
     "discoveredAt": "2026-09-16T02:04:07.763Z",
-    "status": "published"
+    "status": "claimed",
+    "reason": "Removed during reconciliation (claimed)"
   },
   "I_kwDODKpNd88AAAABRff7ew": {
     "id": "I_kwDODKpNd88AAAABRff7ew",
@@ -8937,7 +8939,8 @@
     "repo": "ash-project/ash",
     "title": "filter_input crashes on `and` / `or` with a value that is not a non-empty list or map",
     "discoveredAt": "2026-09-16T02:04:09.535Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOEUy9GM8AAAABRfEjsQ": {
     "id": "I_kwDOEUy9GM8AAAABRfEjsQ",
@@ -9132,7 +9135,8 @@
     "repo": "github-linguist/linguist",
     "title": "Add language: WESL",
     "discoveredAt": "2026-09-16T20:34:40.515Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOAJbtsc8AAAABRn78hA": {
     "id": "I_kwDOAJbtsc8AAAABRn78hA",
@@ -9382,7 +9386,8 @@
     "repo": "repowise-dev/repowise",
     "title": "[Bug] Objective-C .h/.m files never pair, so header consumers never reach the implementation",
     "discoveredAt": "2026-09-17T10:34:50.082Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDORuSRRM8AAAABRuvjIw": {
     "id": "I_kwDORuSRRM8AAAABRuvjIw",
@@ -9390,7 +9395,8 @@
     "repo": "repowise-dev/repowise",
     "title": "[Bug] extension Ns.Type: P records the namespace as conforming to the protocol",
     "discoveredAt": "2026-09-17T10:34:52.861Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDORuSRRM8AAAABRuvhkQ": {
     "id": "I_kwDORuSRRM8AAAABRuvhkQ",
@@ -9398,7 +9404,8 @@
     "repo": "repowise-dev/repowise",
     "title": "[Bug] A C# null-conditional call (a?.Foo()) produces no call site at all",
     "discoveredAt": "2026-09-17T10:34:55.618Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOTZFfiM8AAAABRupvJw": {
     "id": "I_kwDOTZFfiM8AAAABRupvJw",
@@ -9423,7 +9430,8 @@
     "repo": "supabase/supabase",
     "title": "Docs: conflicting descriptions of the private flag for realtime.send / realtime.send_binary",
     "discoveredAt": "2026-09-17T15:48:35.539Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDODImkh88AAAABRzQB1Q": {
     "id": "I_kwDODImkh88AAAABRzQB1Q",
@@ -9431,7 +9439,8 @@
     "repo": "supabase/realtime",
     "title": "Don't log SubscriptionDeletionFailed when realtime.subscription doesn't exist yet",
     "discoveredAt": "2026-09-17T15:48:36.594Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDODImkh88AAAABRzP44A": {
     "id": "I_kwDODImkh88AAAABRzP44A",
@@ -9439,7 +9448,8 @@
     "repo": "supabase/realtime",
     "title": "Consolidate extension tests into one canonical location mirroring lib/",
     "discoveredAt": "2026-09-17T15:48:37.515Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOBiS_IM8AAAABRzIPAw": {
     "id": "I_kwDOBiS_IM8AAAABRzIPAw",
@@ -9447,7 +9457,8 @@
     "repo": "fivetran/great_expectations",
     "title": "[BUG] ExpectColumnValuesToBeOfType cannot pass on any Nullable(...) ClickHouse column — observed_value is 'Nullable' and no type name matches",
     "discoveredAt": "2026-09-17T15:48:43.795Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDORPf6ys8AAAABRzGXmg": {
     "id": "I_kwDORPf6ys8AAAABRzGXmg",
@@ -9463,7 +9474,8 @@
     "repo": "fivetran/great_expectations",
     "title": "[BUG] Regex Expectations on ClickHouse call regexp_like(), which the server does not have — the dialect's predicate is match()",
     "discoveredAt": "2026-09-17T15:49:00.843Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOC3-hZ88AAAABRzAAtg": {
     "id": "I_kwDOC3-hZ88AAAABRzAAtg",
@@ -9519,6 +9531,126 @@
     "repo": "containers/kubernetes-mcp-server",
     "title": "Build on macos-15-intel is flaky",
     "discoveredAt": "2026-09-17T15:49:13.138Z",
+    "status": "published"
+  },
+  "I_kwDORllOrs8AAAABR2CAcg": {
+    "id": "I_kwDORllOrs8AAAABR2CAcg",
+    "url": "https://github.com/grimmory-tools/grimmory/issues/2672",
+    "repo": "grimmory-tools/grimmory",
+    "title": "Audiobook duration only lists time of first audio file",
+    "discoveredAt": "2026-09-17T20:41:08.564Z",
+    "status": "published"
+  },
+  "I_kwDORponss8AAAABR1dMhg": {
+    "id": "I_kwDORponss8AAAABR1dMhg",
+    "url": "https://github.com/manankharwar/fusioncore/issues/138",
+    "repo": "manankharwar/fusioncore",
+    "title": "Gates that stand down on purpose are indistinguishable from gates that never ran: add NOT_EVALUATED",
+    "discoveredAt": "2026-09-17T20:41:09.509Z",
+    "status": "published"
+  },
+  "I_kwDORponss8AAAABR1VnQg": {
+    "id": "I_kwDORponss8AAAABR1VnQg",
+    "url": "https://github.com/manankharwar/fusioncore/issues/137",
+    "repo": "manankharwar/fusioncore",
+    "title": "Startup race: the filter reports \"All 0 configured sensors ready\" and begins the bias window before the sensor list is populated",
+    "discoveredAt": "2026-09-17T20:41:10.582Z",
+    "status": "published"
+  },
+  "I_kwDORponss8AAAABR1VXIg": {
+    "id": "I_kwDORponss8AAAABR1VXIg",
+    "url": "https://github.com/manankharwar/fusioncore/issues/136",
+    "repo": "manankharwar/fusioncore",
+    "title": "Docs claim 114 and 64 tests, the suite now reports 265, so the quickstart's expected output is wrong",
+    "discoveredAt": "2026-09-17T20:41:11.496Z",
+    "status": "published"
+  },
+  "I_kwDORponss8AAAABR1VK3g": {
+    "id": "I_kwDORponss8AAAABR1VK3g",
+    "url": "https://github.com/manankharwar/fusioncore/issues/135",
+    "repo": "manankharwar/fusioncore",
+    "title": "check_config_params.py ignores paths given on the command line, so a config outside its globs cannot be checked",
+    "discoveredAt": "2026-09-17T20:41:12.394Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABR1HF8A": {
+    "id": "I_kwDOOwsln88AAAABR1HF8A",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30523",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[Good First Issue] 🥟 Add new Learner Mistake 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "discoveredAt": "2026-09-17T20:41:14.108Z",
+    "status": "published"
+  },
+  "I_kwDOQy5Vl88AAAABR0_b9g": {
+    "id": "I_kwDOQy5Vl88AAAABR0_b9g",
+    "url": "https://github.com/OthmanAdi/planning-with-files/issues/255",
+    "repo": "OthmanAdi/planning-with-files",
+    "title": "init-session.ps1 reports success after a denied file write because Out-File errors are non-terminating",
+    "discoveredAt": "2026-09-17T20:41:15.259Z",
+    "status": "published"
+  },
+  "I_kwDOSzbDbM8AAAABR0njeg": {
+    "id": "I_kwDOSzbDbM8AAAABR0njeg",
+    "url": "https://github.com/DobermanCore/Doberman-Core/issues/703",
+    "repo": "DobermanCore/Doberman-Core",
+    "title": "tune: the friction report counts ambient-monitor rows as decisions",
+    "discoveredAt": "2026-09-17T20:41:16.335Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABR0l5NQ": {
+    "id": "I_kwDOOwsln88AAAABR0l5NQ",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30521",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[Good First Issue] 🎌 Add new Example Sentence 70 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "discoveredAt": "2026-09-17T20:41:18.414Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABR0j4Uw": {
+    "id": "I_kwDOOwsln88AAAABR0j4Uw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30520",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[Good First Issue] 🍁 Add new Etiquette Tip 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "discoveredAt": "2026-09-17T20:41:20.500Z",
+    "status": "published"
+  },
+  "I_kwDOBGHmcs8AAAABR0c93g": {
+    "id": "I_kwDOBGHmcs8AAAABR0c93g",
+    "url": "https://github.com/BlitzKraft/saythanks.io/issues/579",
+    "repo": "BlitzKraft/saythanks.io",
+    "title": "The audio record button does not work",
+    "discoveredAt": "2026-09-17T20:41:21.842Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABR0AM0w": {
+    "id": "I_kwDOOwsln88AAAABR0AM0w",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30517",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[Good First Issue] 🦊 Add new Dialect Entry 120 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "discoveredAt": "2026-09-17T20:41:23.532Z",
+    "status": "published"
+  },
+  "I_kwDOCgmItM8AAAABRznbQA": {
+    "id": "I_kwDOCgmItM8AAAABRznbQA",
+    "url": "https://github.com/Eugleo/magic-racket/issues/166",
+    "repo": "Eugleo/magic-racket",
+    "title": "Update langserver feature list in README",
+    "discoveredAt": "2026-09-17T20:41:24.266Z",
+    "status": "published"
+  },
+  "I_kwDOEmJ-8c8AAAABR0eA5Q": {
+    "id": "I_kwDOEmJ-8c8AAAABR0eA5Q",
+    "url": "https://github.com/ray-project/kuberay/issues/5309",
+    "repo": "ray-project/kuberay",
+    "title": "[Bug] logStdoutEncoder and logFileEncoder setting from `--config` are ignored",
+    "discoveredAt": "2026-09-17T20:41:25.843Z",
+    "status": "published"
+  },
+  "I_kwDOD5-7oc8AAAABR0M7VQ": {
+    "id": "I_kwDOD5-7oc8AAAABR0M7VQ",
+    "url": "https://github.com/anchore/syft/issues/5299",
+    "repo": "anchore/syft",
+    "title": "github-actions cataloger emits an invalid PURL for docker:// use statements",
+    "discoveredAt": "2026-09-17T20:41:27.611Z",
     "status": "published"
   }
 }
