@@ -8293,7 +8293,8 @@
     "repo": "backstage/backstage",
     "title": "Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]",
     "discoveredAt": "2026-09-14T17:10:42.108Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOOwsln88AAAABRR4EXA": {
     "id": "I_kwDOOwsln88AAAABRR4EXA",
@@ -8732,7 +8733,8 @@
     "repo": "mxsm/rocketmq-rust",
     "title": "[Bug🐛] Malformed batch-lock request bodies panic the Broker",
     "discoveredAt": "2026-09-15T15:50:34.212Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOK5M3Is8AAAABRarDKQ": {
     "id": "I_kwDOK5M3Is8AAAABRarDKQ",
@@ -8805,7 +8807,8 @@
     "repo": "mxsm/rocketmq-rust",
     "title": "[Doc📝] Document the public fields of BrokerConfig",
     "discoveredAt": "2026-09-15T15:51:21.221Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDORucxkc8AAAABRdgN0A": {
     "id": "I_kwDORucxkc8AAAABRdgN0A",
@@ -9009,7 +9012,8 @@
     "repo": "libredb/libredb-studio",
     "title": "docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying",
     "discoveredAt": "2026-09-16T02:04:33.975Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOBmr-FM8AAAABRjmiNA": {
     "id": "I_kwDOBmr-FM8AAAABRjmiNA",
@@ -9097,7 +9101,8 @@
     "repo": "sktime/sktime",
     "title": "[ENH] make `TimeSeriesForestClassifier` compatible with `scikit-learn 1.9.X`",
     "discoveredAt": "2026-09-16T20:34:38.389Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOACHoOs8AAAABRpDarw": {
     "id": "I_kwDOACHoOs8AAAABRpDarw",
@@ -9105,7 +9110,8 @@
     "repo": "collective/icalendar",
     "title": "[TYPING] TZP.localize and TZP.localize_utc",
     "discoveredAt": "2026-09-16T20:34:39.160Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOABpTD88AAAABRo1LYQ": {
     "id": "I_kwDOABpTD88AAAABRo1LYQ",
@@ -9129,7 +9135,8 @@
     "repo": "freeCodeCamp/freeCodeCamp",
     "title": "Correct A1 Professional Spanish intro ordering and remove unused module intros",
     "discoveredAt": "2026-09-16T20:34:45.357Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOAbI7X88AAAABRnjABA": {
     "id": "I_kwDOAbI7X88AAAABRnjABA",
@@ -9137,7 +9144,8 @@
     "repo": "freeCodeCamp/freeCodeCamp",
     "title": "Correct A1 Professional Chinese intro ordering and remove unused module intros",
     "discoveredAt": "2026-09-16T20:34:55.954Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOADXqJM8AAAABRnd_9g": {
     "id": "I_kwDOADXqJM8AAAABRnd_9g",
@@ -9169,6 +9177,94 @@
     "repo": "AcademySoftwareFoundation/openexr",
     "title": "website: format all equations with .. math::",
     "discoveredAt": "2026-09-16T20:35:02.950Z",
+    "status": "published"
+  },
+  "I_kwDOJLUvb88AAAABRrxymg": {
+    "id": "I_kwDOJLUvb88AAAABRrxymg",
+    "url": "https://github.com/apache/iggy/issues/4211",
+    "repo": "apache/iggy",
+    "title": "Say how to reset the root password in the generated password log message",
+    "discoveredAt": "2026-09-17T02:08:07.436Z",
+    "status": "published"
+  },
+  "I_kwDOMCWwoM8AAAABRrmrVg": {
+    "id": "I_kwDOMCWwoM8AAAABRrmrVg",
+    "url": "https://github.com/apache/polaris/issues/5531",
+    "repo": "apache/polaris",
+    "title": "Migrate to AWS SDK's Apache5HttpClient",
+    "discoveredAt": "2026-09-17T02:08:08.987Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABRrmqaw": {
+    "id": "I_kwDOOwsln88AAAABRrmqaw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30496",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[Good First Issue] 🎏 Add new Theme: Tea Ceramic - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "discoveredAt": "2026-09-17T02:08:10.338Z",
+    "status": "published"
+  },
+  "I_kwDOBb5sT88AAAABRrDarQ": {
+    "id": "I_kwDOBb5sT88AAAABRrDarQ",
+    "url": "https://github.com/AcademySoftwareFoundation/MaterialX/issues/3076",
+    "repo": "AcademySoftwareFoundation/MaterialX",
+    "title": "MaterialX Graph Editor: Add a save command line option",
+    "discoveredAt": "2026-09-17T02:08:13.903Z",
+    "status": "published"
+  },
+  "I_kwDOAqwwJc8AAAABRrAdbQ": {
+    "id": "I_kwDOAqwwJc8AAAABRrAdbQ",
+    "url": "https://github.com/swiftlang/swift/issues/92370",
+    "repo": "swiftlang/swift",
+    "title": "Compiler shouldn't suggest isolated conformance to SendableMetatype refining protocol",
+    "discoveredAt": "2026-09-17T02:08:25.158Z",
+    "status": "published"
+  },
+  "I_kwDOJJp4OM8AAAABRq8WrA": {
+    "id": "I_kwDOJJp4OM8AAAABRq8WrA",
+    "url": "https://github.com/OpenMoonRay/openmoonray/issues/285",
+    "repo": "OpenMoonRay/openmoonray",
+    "title": "Add snapshot to clipboard feature for moonray_gui_v2",
+    "discoveredAt": "2026-09-17T02:08:26.245Z",
+    "status": "published"
+  },
+  "I_kwDOJJp4OM8AAAABRq5Gkg": {
+    "id": "I_kwDOJJp4OM8AAAABRq5Gkg",
+    "url": "https://github.com/OpenMoonRay/openmoonray/issues/283",
+    "repo": "OpenMoonRay/openmoonray",
+    "title": "Add new \"unclamped\" behavior to DirectionalMap",
+    "discoveredAt": "2026-09-17T02:08:27.319Z",
+    "status": "published"
+  },
+  "I_kwDOAAEP6c8AAAABRq1WaA": {
+    "id": "I_kwDOAAEP6c8AAAABRq1WaA",
+    "url": "https://github.com/internetarchive/openlibrary/issues/13653",
+    "repo": "internetarchive/openlibrary",
+    "title": "Replace the My Book Notes modal with ol-dialog",
+    "discoveredAt": "2026-09-17T02:08:28.729Z",
+    "status": "published"
+  },
+  "I_kwDOGwFFNM8AAAABRqzzmQ": {
+    "id": "I_kwDOGwFFNM8AAAABRqzzmQ",
+    "url": "https://github.com/risingwavelabs/risingwave/issues/27126",
+    "repo": "risingwavelabs/risingwave",
+    "title": "`IndexCost::le` is a strict `<` despite its name, and the cost-matrix doc drifted from the code",
+    "discoveredAt": "2026-09-17T02:08:32.883Z",
+    "status": "published"
+  },
+  "I_kwDOAAEP6c8AAAABRqyD_w": {
+    "id": "I_kwDOAAEP6c8AAAABRqyD_w",
+    "url": "https://github.com/internetarchive/openlibrary/issues/13652",
+    "repo": "internetarchive/openlibrary",
+    "title": "Replace the Share modal with an ol-popover menu",
+    "discoveredAt": "2026-09-17T02:08:34.274Z",
+    "status": "published"
+  },
+  "I_kwDOAAEP6c8AAAABRqvAlQ": {
+    "id": "I_kwDOAAEP6c8AAAABRqvAlQ",
+    "url": "https://github.com/internetarchive/openlibrary/issues/13651",
+    "repo": "internetarchive/openlibrary",
+    "title": "Replace the Wikipedia citation dialog with an ol-popover",
+    "discoveredAt": "2026-09-17T02:08:35.662Z",
     "status": "published"
   }
 }

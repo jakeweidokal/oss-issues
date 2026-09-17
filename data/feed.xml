@@ -5,8 +5,213 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Sep 2026 20:35:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 02:08:35 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[internetarchive/openlibrary] #13651 Replace the Wikipedia citation dialog with an ol-popover (Solvability: 6/10)</title>
+      <link>https://github.com/internetarchive/openlibrary/issues/13651</link>
+      <guid isPermaLink="true">https://github.com/internetarchive/openlibrary/issues/13651</guid>
+      <pubDate>Wed, 16 Sep 2026 22:33:50 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/internetarchive/openlibrary">internetarchive/openlibrary</a> (6679 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13651 in internetarchive/openlibrary: Replace the Wikipedia citation dialog with an ol-popover</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest openlibrary/templates/lib/exports.html</code></p>
+<p><a href="https://github.com/internetarchive/openlibrary/issues/13651">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good First Issue</category>
+      <category>Type: Refactor/Clean-up</category>
+      <category>Theme: Design</category>
+      <category>Team: Front-end</category>
+      <category>Lead: @lokesh</category>
+    </item>
+    <item>
+      <title>[internetarchive/openlibrary] #13652 Replace the Share modal with an ol-popover menu (Solvability: 6/10)</title>
+      <link>https://github.com/internetarchive/openlibrary/issues/13652</link>
+      <guid isPermaLink="true">https://github.com/internetarchive/openlibrary/issues/13652</guid>
+      <pubDate>Wed, 16 Sep 2026 22:41:41 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/internetarchive/openlibrary">internetarchive/openlibrary</a> (6679 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13652 in internetarchive/openlibrary: Replace the Share modal with an ol-popover menu</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest openlibrary/templates/type/edition/title_and_author.html</code></p>
+<p><a href="https://github.com/internetarchive/openlibrary/issues/13652">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good First Issue</category>
+      <category>Type: Refactor/Clean-up</category>
+      <category>Lead: @lokesh</category>
+    </item>
+    <item>
+      <title>[risingwavelabs/risingwave] #27126 `IndexCost::le` is a strict `&lt;` despite its name, and the cost-matrix doc drifted from the code (Solvability: 6/10)</title>
+      <link>https://github.com/risingwavelabs/risingwave/issues/27126</link>
+      <guid isPermaLink="true">https://github.com/risingwavelabs/risingwave/issues/27126</guid>
+      <pubDate>Wed, 16 Sep 2026 22:45:50 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/risingwavelabs/risingwave">risingwavelabs/risingwave</a> (9329 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #27126 in risingwavelabs/risingwave: `IndexCost::le` is a strict `&lt;` despite its name, and the cost-matrix doc drifted from the code</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test index_selection_rule</code></p>
+<p><a href="https://github.com/risingwavelabs/risingwave/issues/27126">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>type/refactor</category>
+      <category>A-optimizer</category>
+    </item>
+    <item>
+      <title>[internetarchive/openlibrary] #13653 Replace the My Book Notes modal with ol-dialog (Solvability: 6/10)</title>
+      <link>https://github.com/internetarchive/openlibrary/issues/13653</link>
+      <guid isPermaLink="true">https://github.com/internetarchive/openlibrary/issues/13653</guid>
+      <pubDate>Wed, 16 Sep 2026 22:49:44 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/internetarchive/openlibrary">internetarchive/openlibrary</a> (6679 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #13653 in internetarchive/openlibrary: Replace the My Book Notes modal with ol-dialog</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest openlibrary/macros/NotesModal.html</code></p>
+<p><a href="https://github.com/internetarchive/openlibrary/issues/13653">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good First Issue</category>
+      <category>Type: Refactor/Clean-up</category>
+      <category>Lead: @lokesh</category>
+    </item>
+    <item>
+      <title>[OpenMoonRay/openmoonray] #283 Add new "unclamped" behavior to DirectionalMap (Solvability: 6/10)</title>
+      <link>https://github.com/OpenMoonRay/openmoonray/issues/283</link>
+      <guid isPermaLink="true">https://github.com/OpenMoonRay/openmoonray/issues/283</guid>
+      <pubDate>Wed, 16 Sep 2026 22:59:15 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpenMoonRay/openmoonray">OpenMoonRay/openmoonray</a> (4725 ⭐, CMake)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #283 in OpenMoonRay/openmoonray: Add new "unclamped" behavior to DirectionalMap</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/OpenMoonRay/openmoonray/issues/283">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>CMake</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[OpenMoonRay/openmoonray] #285 Add snapshot to clipboard feature for moonray_gui_v2 (Solvability: 6/10)</title>
+      <link>https://github.com/OpenMoonRay/openmoonray/issues/285</link>
+      <guid isPermaLink="true">https://github.com/OpenMoonRay/openmoonray/issues/285</guid>
+      <pubDate>Wed, 16 Sep 2026 23:07:49 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpenMoonRay/openmoonray">OpenMoonRay/openmoonray</a> (4725 ⭐, CMake)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #285 in OpenMoonRay/openmoonray: Add snapshot to clipboard feature for moonray_gui_v2</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/OpenMoonRay/openmoonray/issues/285">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>CMake</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[swiftlang/swift] #92370 Compiler shouldn't suggest isolated conformance to SendableMetatype refining protocol (Solvability: 6/10)</title>
+      <link>https://github.com/swiftlang/swift/issues/92370</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/swift/issues/92370</guid>
+      <pubDate>Wed, 16 Sep 2026 23:17:59 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/swiftlang/swift">swiftlang/swift</a> (70344 ⭐, Swift)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #92370 in swiftlang/swift: Compiler shouldn't suggest isolated conformance to SendableMetatype refining protocol</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/swiftlang/swift/issues/92370">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Swift</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>concurrency</category>
+      <category>good first issue</category>
+      <category>diagnostics quality</category>
+      <category>conformances</category>
+      <category>fix-its</category>
+      <category>swift 6.5-dev</category>
+    </item>
+    <item>
+      <title>[AcademySoftwareFoundation/MaterialX] #3076 MaterialX Graph Editor: Add a save command line option (Solvability: 6/10)</title>
+      <link>https://github.com/AcademySoftwareFoundation/MaterialX/issues/3076</link>
+      <guid isPermaLink="true">https://github.com/AcademySoftwareFoundation/MaterialX/issues/3076</guid>
+      <pubDate>Wed, 16 Sep 2026 23:25:25 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/AcademySoftwareFoundation/MaterialX">AcademySoftwareFoundation/MaterialX</a> (2260 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3076 in AcademySoftwareFoundation/MaterialX: MaterialX Graph Editor: Add a save command line option</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/AcademySoftwareFoundation/MaterialX/issues/3076">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30496 [Good First Issue] 🎏 Add new Theme: Tea Ceramic - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30496</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30496</guid>
+      <pubDate>Thu, 17 Sep 2026 01:01:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3403 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30496 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Theme: Tea Ceramic - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/community-themes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30496">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[apache/polaris] #5531 Migrate to AWS SDK's Apache5HttpClient (Solvability: 6/10)</title>
+      <link>https://github.com/apache/polaris/issues/5531</link>
+      <guid isPermaLink="true">https://github.com/apache/polaris/issues/5531</guid>
+      <pubDate>Thu, 17 Sep 2026 01:01:04 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/apache/polaris">apache/polaris</a> (2057 ⭐, Java)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5531 in apache/polaris: Migrate to AWS SDK's Apache5HttpClient</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/apache/polaris/issues/5531">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Java</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[apache/iggy] #4211 Say how to reset the root password in the generated password log message (Solvability: 6/10)</title>
+      <link>https://github.com/apache/iggy/issues/4211</link>
+      <guid isPermaLink="true">https://github.com/apache/iggy/issues/4211</guid>
+      <pubDate>Thu, 17 Sep 2026 01:31:25 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/apache/iggy">apache/iggy</a> (4891 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4211 in apache/iggy: Say how to reset the root password in the generated password log message</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test credentials</code></p>
+<p><a href="https://github.com/apache/iggy/issues/4211">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>enhancement</category>
+      <category>server</category>
+    </item>
     <item>
       <title>[AcademySoftwareFoundation/openexr] #2643 website: format all equations with .. math:: (Solvability: 6/10)</title>
       <link>https://github.com/AcademySoftwareFoundation/openexr/issues/2643</link>
@@ -72,42 +277,6 @@
       <category>help wanted</category>
     </item>
     <item>
-      <title>[freeCodeCamp/freeCodeCamp] #70101 Correct A1 Professional Chinese intro ordering and remove unused module intros (Solvability: 6/10)</title>
-      <link>https://github.com/freeCodeCamp/freeCodeCamp/issues/70101</link>
-      <guid isPermaLink="true">https://github.com/freeCodeCamp/freeCodeCamp/issues/70101</guid>
-      <pubDate>Wed, 16 Sep 2026 16:39:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/freeCodeCamp/freeCodeCamp">freeCodeCamp/freeCodeCamp</a> (455603 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #70101 in freeCodeCamp/freeCodeCamp: Correct A1 Professional Chinese intro ordering and remove unused module intros</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test client/i18n/locales/english/intro.json</code></p>
-<p><a href="https://github.com/freeCodeCamp/freeCodeCamp/issues/70101">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>scope: curriculum</category>
-      <category>professional chinese</category>
-    </item>
-    <item>
-      <title>[freeCodeCamp/freeCodeCamp] #70102 Correct A1 Professional Spanish intro ordering and remove unused module intros (Solvability: 6/10)</title>
-      <link>https://github.com/freeCodeCamp/freeCodeCamp/issues/70102</link>
-      <guid isPermaLink="true">https://github.com/freeCodeCamp/freeCodeCamp/issues/70102</guid>
-      <pubDate>Wed, 16 Sep 2026 16:39:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/freeCodeCamp/freeCodeCamp">freeCodeCamp/freeCodeCamp</a> (455603 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #70102 in freeCodeCamp/freeCodeCamp: Correct A1 Professional Spanish intro ordering and remove unused module intros</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test client/i18n/locales/english/intro.json</code></p>
-<p><a href="https://github.com/freeCodeCamp/freeCodeCamp/issues/70102">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>scope: curriculum</category>
-      <category>professional spanish</category>
-    </item>
-    <item>
       <title>[xunit/xunit] #3632 Add analyzer to detect illegal and/or duplicate cultures (Solvability: 6/10)</title>
       <link>https://github.com/xunit/xunit/issues/3632</link>
       <guid isPermaLink="true">https://github.com/xunit/xunit/issues/3632</guid>
@@ -143,40 +312,6 @@
       <category>Good First Issue</category>
     </item>
     <item>
-      <title>[collective/icalendar] #1802 [TYPING] TZP.localize and TZP.localize_utc (Solvability: 6/10)</title>
-      <link>https://github.com/collective/icalendar/issues/1802</link>
-      <guid isPermaLink="true">https://github.com/collective/icalendar/issues/1802</guid>
-      <pubDate>Wed, 16 Sep 2026 19:11:14 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/collective/icalendar">collective/icalendar</a> (1171 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1802 in collective/icalendar: [TYPING] TZP.localize and TZP.localize_utc</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/collective/icalendar/issues/1802">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[sktime/sktime] #11173 [ENH] make `TimeSeriesForestClassifier` compatible with `scikit-learn 1.9.X` (Solvability: 6/10)</title>
-      <link>https://github.com/sktime/sktime/issues/11173</link>
-      <guid isPermaLink="true">https://github.com/sktime/sktime/issues/11173</guid>
-      <pubDate>Wed, 16 Sep 2026 19:25:11 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sktime/sktime">sktime/sktime</a> (10018 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #11173 in sktime/sktime: [ENH] make `TimeSeriesForestClassifier` compatible with `scikit-learn 1.9.X`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/sktime/sktime/issues/11173">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>module:classification</category>
-      <category>enhancement</category>
-    </item>
-    <item>
       <title>[lingdojo/kana-dojo] #30480 [Good First Issue] 🐙 Add new Video Game Quote 47 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
       <link>https://github.com/lingdojo/kana-dojo/issues/30480</link>
       <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30480</guid>
@@ -198,23 +333,6 @@
       <category>low hanging fruit</category>
       <category>up-for-grabs</category>
       <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[libredb/libredb-studio] #864 docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/864</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/864</guid>
-      <pubDate>Tue, 15 Sep 2026 21:51:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (755 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #864 in libredb/libredb-studio: docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/864">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[libredb/libredb-studio] #869 fly.toml's default image tag is several releases behind the latest tag (Solvability: 6/10)</title>
@@ -411,27 +529,6 @@
       <category>s-blocked</category>
     </item>
     <item>
-      <title>[mxsm/rocketmq-rust] #10649 [Doc📝] Document the public fields of BrokerConfig (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10649</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10649</guid>
-      <pubDate>Tue, 15 Sep 2026 15:10:46 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1516 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10649 in mxsm/rocketmq-rust: [Doc📝] Document the public fields of BrokerConfig</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test broker_config</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10649">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation📝</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-      <category>rocketmq-broker crate</category>
-    </item>
-    <item>
       <title>[mxsm/rocketmq-rust] #10650 [Test🧪] Add unit tests for LiteConsumerLagCalculator (Solvability: 6/10)</title>
       <link>https://github.com/mxsm/rocketmq-rust/issues/10650</link>
       <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10650</guid>
@@ -559,27 +656,6 @@
       <category>rocketmq-broker crate</category>
       <category>performance</category>
       <category>enhancement✨</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10658 [Bug🐛] Malformed batch-lock request bodies panic the Broker (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10658</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10658</guid>
-      <pubDate>Tue, 15 Sep 2026 15:10:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1516 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10658 in mxsm/rocketmq-rust: [Bug🐛] Malformed batch-lock request bodies panic the Broker</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test batch_mq_handler</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10658">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug🐛</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-      <category>rocketmq-broker crate</category>
     </item>
     <item>
       <title>[owncast/owncast] #5180 Reminder: Update Hacktoberfest branding for this year (Solvability: 6/10)</title>
@@ -865,75 +941,6 @@
       <category>friction-standard</category>
       <category>documentation</category>
       <category>good first issue</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[DonIsaac/zlint] #427 Feat(linter): add a `sort-imports` rule (Solvability: 6/10)</title>
-      <link>https://github.com/DonIsaac/zlint/issues/427</link>
-      <guid isPermaLink="true">https://github.com/DonIsaac/zlint/issues/427</guid>
-      <pubDate>Mon, 14 Sep 2026 18:41:19 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DonIsaac/zlint">DonIsaac/zlint</a> (311 ⭐, Zig)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #427 in DonIsaac/zlint: Feat(linter): add a `sort-imports` rule</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/DonIsaac/zlint/issues/427">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Zig</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>C-enhancement</category>
-      <category>good first issue</category>
-      <category>A-linter</category>
-      <category>C-rule</category>
-    </item>
-    <item>
-      <title>[mandiant/speakeasy] #323 fix hook bugs (Solvability: 6/10)</title>
-      <link>https://github.com/mandiant/speakeasy/issues/323</link>
-      <guid isPermaLink="true">https://github.com/mandiant/speakeasy/issues/323</guid>
-      <pubDate>Mon, 14 Sep 2026 19:02:28 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mandiant/speakeasy">mandiant/speakeasy</a> (2046 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #323 in mandiant/speakeasy: fix hook bugs</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/mandiant/speakeasy/issues/323">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[YusufB5/ASCILINE] #68 feat(ui): Add "Copy Frame as ASCII Text" button (Solvability: 6/10)</title>
-      <link>https://github.com/YusufB5/ASCILINE/issues/68</link>
-      <guid isPermaLink="true">https://github.com/YusufB5/ASCILINE/issues/68</guid>
-      <pubDate>Mon, 14 Sep 2026 20:29:10 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/YusufB5/ASCILINE">YusufB5/ASCILINE</a> (2730 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #68 in YusufB5/ASCILINE: feat(ui): Add "Copy Frame as ASCII Text" button</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test app.js</code></p>
-<p><a href="https://github.com/YusufB5/ASCILINE/issues/68">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[backstage/backstage] #35677 Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422] (Solvability: 6/10)</title>
-      <link>https://github.com/backstage/backstage/issues/35677</link>
-      <guid isPermaLink="true">https://github.com/backstage/backstage/issues/35677</guid>
-      <pubDate>Mon, 14 Sep 2026 16:13:06 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/backstage/backstage">backstage/backstage</a> (34410 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #35677 in backstage/backstage: Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/backend/package.json</code></p>
-<p><a href="https://github.com/backstage/backstage/issues/35677">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>snyk-vulnerability</category>
       <category>help wanted</category>
     </item>
   </channel>

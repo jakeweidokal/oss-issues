@@ -1,5 +1,339 @@
 [
   {
+    "id": "I_kwDOAAEP6c8AAAABRqvAlQ",
+    "number": 13651,
+    "title": "Replace the Wikipedia citation dialog with an ol-popover",
+    "url": "https://github.com/internetarchive/openlibrary/issues/13651",
+    "repo": "internetarchive/openlibrary",
+    "repoUrl": "https://github.com/internetarchive/openlibrary",
+    "stars": 6679,
+    "language": "Python",
+    "labels": [
+      "Good First Issue",
+      "Type: Refactor/Clean-up",
+      "Theme: Design",
+      "Team: Front-end",
+      "Lead: @lokesh"
+    ],
+    "createdAt": "2026-09-16T22:33:50Z",
+    "updatedAt": "2026-09-16T23:15:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest openlibrary/templates/lib/exports.html",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "openlibrary/templates/lib/exports.html",
+      "openlibrary/plugins/openlibrary/js/dialog.js",
+      "openlibrary/plugins/upstream/models.py"
+    ],
+    "summary": "Fix issue #13651 in internetarchive/openlibrary: Replace the Wikipedia citation dialog with an ol-popover",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-17T02:08:35.662Z"
+  },
+  {
+    "id": "I_kwDOAAEP6c8AAAABRqyD_w",
+    "number": 13652,
+    "title": "Replace the Share modal with an ol-popover menu",
+    "url": "https://github.com/internetarchive/openlibrary/issues/13652",
+    "repo": "internetarchive/openlibrary",
+    "repoUrl": "https://github.com/internetarchive/openlibrary",
+    "stars": 6679,
+    "language": "Python",
+    "labels": [
+      "Good First Issue",
+      "Type: Refactor/Clean-up",
+      "Lead: @lokesh"
+    ],
+    "createdAt": "2026-09-16T22:41:41Z",
+    "updatedAt": "2026-09-16T23:15:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest openlibrary/templates/type/edition/title_and_author.html",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "openlibrary/templates/type/edition/title_and_author.html",
+      "openlibrary/templates/account/view.html",
+      "openlibrary/macros/ShareModal.html"
+    ],
+    "summary": "Fix issue #13652 in internetarchive/openlibrary: Replace the Share modal with an ol-popover menu",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-17T02:08:34.274Z"
+  },
+  {
+    "id": "I_kwDOGwFFNM8AAAABRqzzmQ",
+    "number": 27126,
+    "title": "`IndexCost::le` is a strict `<` despite its name, and the cost-matrix doc drifted from the code",
+    "url": "https://github.com/risingwavelabs/risingwave/issues/27126",
+    "repo": "risingwavelabs/risingwave",
+    "repoUrl": "https://github.com/risingwavelabs/risingwave",
+    "stars": 9329,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "type/refactor",
+      "A-optimizer"
+    ],
+    "createdAt": "2026-09-16T22:45:50Z",
+    "updatedAt": "2026-09-16T22:46:00Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test index_selection_rule",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/frontend/src/optimizer/rule/index_selection_rule.rs",
+      "src/frontend/src/optimizer/rule/streaming_index_selection_rule.rs",
+      "src/meta/model/migration/src/m20250603_084830_default_privilege.rs"
+    ],
+    "summary": "Fix issue #27126 in risingwavelabs/risingwave: `IndexCost::le` is a strict `<` despite its name, and the cost-matrix doc drifted from the code",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T02:08:32.883Z"
+  },
+  {
+    "id": "I_kwDOAAEP6c8AAAABRq1WaA",
+    "number": 13653,
+    "title": "Replace the My Book Notes modal with ol-dialog",
+    "url": "https://github.com/internetarchive/openlibrary/issues/13653",
+    "repo": "internetarchive/openlibrary",
+    "repoUrl": "https://github.com/internetarchive/openlibrary",
+    "stars": 6679,
+    "language": "Python",
+    "labels": [
+      "Good First Issue",
+      "Type: Refactor/Clean-up",
+      "Lead: @lokesh"
+    ],
+    "createdAt": "2026-09-16T22:49:44Z",
+    "updatedAt": "2026-09-16T23:15:48Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest openlibrary/macros/NotesModal.html",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "openlibrary/macros/NotesModal.html",
+      "openlibrary/templates/type/edition/modal_links.html",
+      "openlibrary/plugins/openlibrary/js/modals/index.js"
+    ],
+    "summary": "Fix issue #13653 in internetarchive/openlibrary: Replace the My Book Notes modal with ol-dialog",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-17T02:08:28.729Z"
+  },
+  {
+    "id": "I_kwDOJJp4OM8AAAABRq5Gkg",
+    "number": 283,
+    "title": "Add new \"unclamped\" behavior to DirectionalMap",
+    "url": "https://github.com/OpenMoonRay/openmoonray/issues/283",
+    "repo": "OpenMoonRay/openmoonray",
+    "repoUrl": "https://github.com/OpenMoonRay/openmoonray",
+    "stars": 4725,
+    "language": "CMake",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-16T22:59:15Z",
+    "updatedAt": "2026-09-16T22:59:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #283 in OpenMoonRay/openmoonray: Add new \"unclamped\" behavior to DirectionalMap",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T02:08:27.319Z"
+  },
+  {
+    "id": "I_kwDOJJp4OM8AAAABRq8WrA",
+    "number": 285,
+    "title": "Add snapshot to clipboard feature for moonray_gui_v2",
+    "url": "https://github.com/OpenMoonRay/openmoonray/issues/285",
+    "repo": "OpenMoonRay/openmoonray",
+    "repoUrl": "https://github.com/OpenMoonRay/openmoonray",
+    "stars": 4725,
+    "language": "CMake",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-16T23:07:49Z",
+    "updatedAt": "2026-09-16T23:07:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #285 in OpenMoonRay/openmoonray: Add snapshot to clipboard feature for moonray_gui_v2",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T02:08:26.245Z"
+  },
+  {
+    "id": "I_kwDOAqwwJc8AAAABRrAdbQ",
+    "number": 92370,
+    "title": "Compiler shouldn't suggest isolated conformance to SendableMetatype refining protocol",
+    "url": "https://github.com/swiftlang/swift/issues/92370",
+    "repo": "swiftlang/swift",
+    "repoUrl": "https://github.com/swiftlang/swift",
+    "stars": 70344,
+    "language": "Swift",
+    "labels": [
+      "concurrency",
+      "good first issue",
+      "diagnostics quality",
+      "conformances",
+      "fix-its",
+      "swift 6.5-dev"
+    ],
+    "createdAt": "2026-09-16T23:17:59Z",
+    "updatedAt": "2026-09-16T23:51:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #92370 in swiftlang/swift: Compiler shouldn't suggest isolated conformance to SendableMetatype refining protocol",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T02:08:25.158Z"
+  },
+  {
+    "id": "I_kwDOBb5sT88AAAABRrDarQ",
+    "number": 3076,
+    "title": "MaterialX Graph Editor: Add a save command line option",
+    "url": "https://github.com/AcademySoftwareFoundation/MaterialX/issues/3076",
+    "repo": "AcademySoftwareFoundation/MaterialX",
+    "repoUrl": "https://github.com/AcademySoftwareFoundation/MaterialX",
+    "stars": 2260,
+    "language": "C++",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-16T23:25:25Z",
+    "updatedAt": "2026-09-16T23:46:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3076 in AcademySoftwareFoundation/MaterialX: MaterialX Graph Editor: Add a save command line option",
+    "maintainerTurnaroundDays": 1.5,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T02:08:13.903Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABRrmqaw",
+    "number": 30496,
+    "title": "[Good First Issue] 🎏 Add new Theme: Tea Ceramic - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30496",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3403,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-17T01:01:01Z",
+    "updatedAt": "2026-09-17T01:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #30496 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Theme: Tea Ceramic - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T02:08:10.338Z"
+  },
+  {
+    "id": "I_kwDOMCWwoM8AAAABRrmrVg",
+    "number": 5531,
+    "title": "Migrate to AWS SDK's Apache5HttpClient",
+    "url": "https://github.com/apache/polaris/issues/5531",
+    "repo": "apache/polaris",
+    "repoUrl": "https://github.com/apache/polaris",
+    "stars": 2057,
+    "language": "Java",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-17T01:01:04Z",
+    "updatedAt": "2026-09-17T01:01:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #5531 in apache/polaris: Migrate to AWS SDK's Apache5HttpClient",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-17T02:08:08.987Z"
+  },
+  {
+    "id": "I_kwDOJLUvb88AAAABRrxymg",
+    "number": 4211,
+    "title": "Say how to reset the root password in the generated password log message",
+    "url": "https://github.com/apache/iggy/issues/4211",
+    "repo": "apache/iggy",
+    "repoUrl": "https://github.com/apache/iggy",
+    "stars": 4891,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "enhancement",
+      "server"
+    ],
+    "createdAt": "2026-09-17T01:31:25Z",
+    "updatedAt": "2026-09-17T01:31:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test credentials",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "core/server/src/boot/credentials.rs"
+    ],
+    "summary": "Fix issue #4211 in apache/iggy: Say how to reset the root password in the generated password log message",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-17T02:08:07.436Z"
+  },
+  {
     "id": "I_kwDOADXqJM8AAAABRnau5w",
     "number": 2643,
     "title": "website: format all equations with .. math::",
@@ -108,66 +442,6 @@
     "discoveredAt": "2026-09-16T20:34:57.679Z"
   },
   {
-    "id": "I_kwDOAbI7X88AAAABRnjABA",
-    "number": 70101,
-    "title": "Correct A1 Professional Chinese intro ordering and remove unused module intros",
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues/70101",
-    "repo": "freeCodeCamp/freeCodeCamp",
-    "repoUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-    "stars": 455603,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "scope: curriculum",
-      "professional chinese"
-    ],
-    "createdAt": "2026-09-16T16:39:01Z",
-    "updatedAt": "2026-09-16T16:39:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test client/i18n/locales/english/intro.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "client/i18n/locales/english/intro.json",
-      "curriculum/structure/superblocks/a1-professional-chinese.json"
-    ],
-    "summary": "Fix issue #70101 in freeCodeCamp/freeCodeCamp: Correct A1 Professional Chinese intro ordering and remove unused module intros",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T20:34:55.954Z"
-  },
-  {
-    "id": "I_kwDOAbI7X88AAAABRnjCxA",
-    "number": 70102,
-    "title": "Correct A1 Professional Spanish intro ordering and remove unused module intros",
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues/70102",
-    "repo": "freeCodeCamp/freeCodeCamp",
-    "repoUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-    "stars": 455603,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "scope: curriculum",
-      "professional spanish"
-    ],
-    "createdAt": "2026-09-16T16:39:04Z",
-    "updatedAt": "2026-09-16T16:39:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test client/i18n/locales/english/intro.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "client/i18n/locales/english/intro.json",
-      "curriculum/structure/superblocks/a1-professional-spanish.json"
-    ],
-    "summary": "Fix issue #70102 in freeCodeCamp/freeCodeCamp: Correct A1 Professional Spanish intro ordering and remove unused module intros",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T20:34:45.357Z"
-  },
-  {
     "id": "I_kwDOAJbtsc8AAAABRn78hA",
     "number": 3632,
     "title": "Add analyzer to detect illegal and/or duplicate cultures",
@@ -225,62 +499,6 @@
     "discoveredAt": "2026-09-16T20:34:40.515Z"
   },
   {
-    "id": "I_kwDOACHoOs8AAAABRpDarw",
-    "number": 1802,
-    "title": "[TYPING] TZP.localize and TZP.localize_utc",
-    "url": "https://github.com/collective/icalendar/issues/1802",
-    "repo": "collective/icalendar",
-    "repoUrl": "https://github.com/collective/icalendar",
-    "stars": 1171,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-16T19:11:14Z",
-    "updatedAt": "2026-09-16T19:11:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1802 in collective/icalendar: [TYPING] TZP.localize and TZP.localize_utc",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T20:34:39.160Z"
-  },
-  {
-    "id": "I_kwDOCVKAsc8AAAABRpLEIw",
-    "number": 11173,
-    "title": "[ENH] make `TimeSeriesForestClassifier` compatible with `scikit-learn 1.9.X`",
-    "url": "https://github.com/sktime/sktime/issues/11173",
-    "repo": "sktime/sktime",
-    "repoUrl": "https://github.com/sktime/sktime",
-    "stars": 10018,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "module:classification",
-      "enhancement"
-    ],
-    "createdAt": "2026-09-16T19:25:11Z",
-    "updatedAt": "2026-09-16T19:25:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #11173 in sktime/sktime: [ENH] make `TimeSeriesForestClassifier` compatible with `scikit-learn 1.9.X`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T20:34:38.389Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABRi6crA",
     "number": 30480,
     "title": "[Good First Issue] 🐙 Add new Video Game Quote 47 - Beginner-Friendly Open-source Contribution (good-first-issue)",
@@ -313,34 +531,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-16T10:25:49.042Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABRecxyA",
-    "number": 864,
-    "title": "docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying",
-    "url": "https://github.com/libredb/libredb-studio/issues/864",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 755,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T21:51:58Z",
-    "updatedAt": "2026-09-15T21:51:58Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #864 in libredb/libredb-studio: docs/SECURITY.md doesn't name TRUST_PROXY_HEADERS or TRUSTED_PROXY_HOPS, the two env vars that control rate-limit bucket keying",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:33.975Z"
   },
   {
     "id": "I_kwDOQuAx5c8AAAABRedfIw",
@@ -661,38 +851,6 @@
     "discoveredAt": "2026-09-15T20:35:18.355Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABRaq8Yw",
-    "number": 10649,
-    "title": "[Doc📝] Document the public fields of BrokerConfig",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10649",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1516,
-    "language": "Rust",
-    "labels": [
-      "documentation📝",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-broker crate"
-    ],
-    "createdAt": "2026-09-15T15:10:46Z",
-    "updatedAt": "2026-09-15T15:10:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test broker_config",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-broker/src/config/broker_config.rs"
-    ],
-    "summary": "Fix issue #10649 in mxsm/rocketmq-rust: [Doc📝] Document the public fields of BrokerConfig",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T15:51:21.221Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABRaq9MQ",
     "number": 10650,
     "title": "[Test🧪] Add unit tests for LiteConsumerLagCalculator",
@@ -891,40 +1049,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T15:50:39.093Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABRarEyQ",
-    "number": 10658,
-    "title": "[Bug🐛] Malformed batch-lock request bodies panic the Broker",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10658",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1516,
-    "language": "Rust",
-    "labels": [
-      "bug🐛",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-broker crate"
-    ],
-    "createdAt": "2026-09-15T15:10:58Z",
-    "updatedAt": "2026-09-15T15:10:58Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test batch_mq_handler",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-broker/src/processor/admin_broker_processor/batch_mq_handler.rs",
-      "rocketmq-broker/src/processor/admin_broker_processor.rs",
-      "rocketmq-broker/src/broker_error.rs"
-    ],
-    "summary": "Fix issue #10658 in mxsm/rocketmq-rust: [Bug🐛] Malformed batch-lock request bodies panic the Broker",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T15:50:34.212Z"
   },
   {
     "id": "I_kwDOD-GjqM8AAAABRW7BnQ",
@@ -1465,36 +1589,6 @@
     "maintainerTurnaroundDays": 0.3,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-14T21:08:12.211Z"
-  },
-  {
-    "id": "I_kwDODhKIWM8AAAABRPOX0Q",
-    "number": 35677,
-    "title": "Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]",
-    "url": "https://github.com/backstage/backstage/issues/35677",
-    "repo": "backstage/backstage",
-    "repoUrl": "https://github.com/backstage/backstage",
-    "stars": 34410,
-    "language": "TypeScript",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-14T16:13:06Z",
-    "updatedAt": "2026-09-14T16:13:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test packages/backend/package.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/backend/package.json",
-      "packages/backend-dynamic-feature-service/package.json",
-      "plugins/scaffolder-backend/package.json"
-    ],
-    "summary": "Fix issue #35677 in backstage/backstage: Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-14T17:10:42.108Z"
   },
   {
     "id": "I_kwDOEAnMCs8AAAABRPVP8g",
