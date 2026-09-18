@@ -1,5 +1,442 @@
 [
   {
+    "id": "I_kwDOFNYjbs8AAAABSAPdVQ",
+    "number": 3579,
+    "title": "Module/Provider Version Deprecation & Removal",
+    "url": "https://github.com/terrakube-io/terrakube/issues/3579",
+    "repo": "terrakube-io/terrakube",
+    "repoUrl": "https://github.com/terrakube-io/terrakube",
+    "stars": 961,
+    "language": "Java",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T18:23:00Z",
+    "updatedAt": "2026-09-18T19:19:14Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3579 in terrakube-io/terrakube: Module/Provider Version Deprecation & Removal",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:07:42.545Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABSAdPvw",
+    "number": 981,
+    "title": "Every `area/*` label still describes a directory 3.1.0 deleted",
+    "url": "https://github.com/reticlehq/reticle/issues/981",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 725,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T18:44:11Z",
+    "updatedAt": "2026-09-18T18:44:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #981 in reticlehq/reticle: Every `area/*` label still describes a directory 3.1.0 deleted",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:07:41.254Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABSAlehQ",
+    "number": 565,
+    "title": "Migrate the hflow CLI from argparse to typed Typer commands",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/565",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 272,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "advanced"
+    ],
+    "createdAt": "2026-09-18T18:57:03Z",
+    "updatedAt": "2026-09-18T18:57:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_cli.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/test_cli.py",
+      "tests/test_runtime_cli.py"
+    ],
+    "summary": "Fix issue #565 in Hebbian-Robotics/hflow: Migrate the hflow CLI from argparse to typed Typer commands",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:07:38.846Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABSAlgmQ",
+    "number": 566,
+    "title": "Migrate the Build AI evaluation CLI to Typer",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/566",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 272,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T18:57:05Z",
+    "updatedAt": "2026-09-18T18:57:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest examples/build_ai_evaluation/evaluate.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "examples/build_ai_evaluation/evaluate.py"
+    ],
+    "summary": "Fix issue #566 in Hebbian-Robotics/hflow: Migrate the Build AI evaluation CLI to Typer",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:07:37.778Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABSAlhWw",
+    "number": 567,
+    "title": "Migrate the EgoSuite evaluation CLI to Typer",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/567",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 272,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T18:57:06Z",
+    "updatedAt": "2026-09-18T18:57:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest examples/egosuite_evaluation/evaluate.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "examples/egosuite_evaluation/evaluate.py"
+    ],
+    "summary": "Fix issue #567 in Hebbian-Robotics/hflow: Migrate the EgoSuite evaluation CLI to Typer",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:07:35.962Z"
+  },
+  {
+    "id": "I_kwDOT8qp7s8AAAABSAnRsQ",
+    "number": 568,
+    "title": "Migrate the Airflow HTTP transport from urllib to httpx2",
+    "url": "https://github.com/Hebbian-Robotics/hflow/issues/568",
+    "repo": "Hebbian-Robotics/hflow",
+    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
+    "stars": 272,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T18:59:51Z",
+    "updatedAt": "2026-09-18T18:59:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_runtime_integration.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/test_runtime_integration.py"
+    ],
+    "summary": "Fix issue #568 in Hebbian-Robotics/hflow: Migrate the Airflow HTTP transport from urllib to httpx2",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:07:34.438Z"
+  },
+  {
+    "id": "I_kwDOCWQXL88AAAABSBJICQ",
+    "number": 22027,
+    "title": "[Docs] Fix non-existent Makefile targets in UI testing contributor guide",
+    "url": "https://github.com/meshery/meshery/issues/22027",
+    "repo": "meshery/meshery",
+    "repoUrl": "https://github.com/meshery/meshery",
+    "stars": 11820,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "area/docs",
+      "language/markdown",
+      "framework/hugo"
+    ],
+    "createdAt": "2026-09-18T19:55:34Z",
+    "updatedAt": "2026-09-18T19:58:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #22027 in meshery/meshery: [Docs] Fix non-existent Makefile targets in UI testing contributor guide",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-18T20:07:32.479Z"
+  },
+  {
+    "id": "I_kwDOBKnnxc8AAAABSBJTWQ",
+    "number": 10152,
+    "title": "Hybrid devices: UI shifts when switching between touch and mouse input (repro needed)",
+    "url": "https://github.com/super-productivity/super-productivity/issues/10152",
+    "repo": "super-productivity/super-productivity",
+    "repoUrl": "https://github.com/super-productivity/super-productivity",
+    "stars": 22117,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T19:55:55Z",
+    "updatedAt": "2026-09-18T19:55:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test e2e/tests/planner/planner-subtask-scheduled-visibility.spec.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "e2e/tests/planner/planner-subtask-scheduled-visibility.spec.ts",
+      "e2e/tests/planner/planner-task-visibility.spec.ts",
+      "e2e/tests/plugins/test-plugin-visibility.spec.ts"
+    ],
+    "summary": "Fix issue #10152 in super-productivity/super-productivity: Hybrid devices: UI shifts when switching between touch and mouse input (repro needed)",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-18T20:07:00.716Z"
+  },
+  {
+    "id": "I_kwDOBKnnxc8AAAABSBJUtg",
+    "number": 10153,
+    "title": "The two markdown renderers have diverged (=WxH spacing, Jira hN. headings)",
+    "url": "https://github.com/super-productivity/super-productivity/issues/10153",
+    "repo": "super-productivity/super-productivity",
+    "repoUrl": "https://github.com/super-productivity/super-productivity",
+    "stars": 22117,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T19:55:57Z",
+    "updatedAt": "2026-09-18T19:55:57Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/app/ui/marked-options-factory.spec.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/app/ui/marked-options-factory.spec.ts",
+      "src/app/ui/marked-options-factory.ts"
+    ],
+    "summary": "Fix issue #10153 in super-productivity/super-productivity: The two markdown renderers have diverged (=WxH spacing, Jira hN. headings)",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-18T20:06:56.970Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSAoI9w",
+    "number": 30559,
+    "title": "[good first issue] 🗾 Add new False Friend Pair 913 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30559",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3412,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-18T19:01:10Z",
+    "updatedAt": "2026-09-18T19:01:14Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #30559 in lingdojo/kana-dojo: [good first issue] 🗾 Add new False Friend Pair 913 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:06:53.333Z"
+  },
+  {
+    "id": "I_kwDOA1vjzM8AAAABSA4o2A",
+    "number": 23723,
+    "title": "functional test: Add more podman driver variants",
+    "url": "https://github.com/kubernetes/minikube/issues/23723",
+    "repo": "kubernetes/minikube",
+    "repoUrl": "https://github.com/kubernetes/minikube",
+    "stars": 32138,
+    "language": "Go",
+    "labels": [
+      "area/testing",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-18T19:26:45Z",
+    "updatedAt": "2026-09-18T19:40:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #23723 in kubernetes/minikube: functional test: Add more podman driver variants",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-18T20:06:50.914Z"
+  },
+  {
+    "id": "I_kwDOIkWXq88AAAABSA7IAQ",
+    "number": 682,
+    "title": "Allow empty-but-active integration balances to close",
+    "url": "https://github.com/0dotxyz/marginfi-v2/issues/682",
+    "repo": "0dotxyz/marginfi-v2",
+    "repoUrl": "https://github.com/0dotxyz/marginfi-v2",
+    "stars": 300,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-18T19:30:44Z",
+    "updatedAt": "2026-09-18T19:30:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #682 in 0dotxyz/marginfi-v2: Allow empty-but-active integration balances to close",
+    "maintainerTurnaroundDays": 1.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:06:47.100Z"
+  },
+  {
+    "id": "I_kwDOA1vjzM8AAAABSA-kXw",
+    "number": 23724,
+    "title": "Document how to configure host for podman --rootless driver",
+    "url": "https://github.com/kubernetes/minikube/issues/23724",
+    "repo": "kubernetes/minikube",
+    "repoUrl": "https://github.com/kubernetes/minikube",
+    "stars": 32138,
+    "language": "Go",
+    "labels": [
+      "kind/documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-18T19:36:09Z",
+    "updatedAt": "2026-09-18T19:36:54Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #23724 in kubernetes/minikube: Document how to configure host for podman --rootless driver",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-18T20:06:44.946Z"
+  },
+  {
+    "id": "I_kwDORlbFis8AAAABSBA7bw",
+    "number": 5815,
+    "title": "docs: audio-pipeline.md states m_rxBufferCapMs default 200 ms; code default is 100 ms",
+    "url": "https://github.com/aethersdr/AetherSDR/issues/5815",
+    "repo": "aethersdr/AetherSDR",
+    "repoUrl": "https://github.com/aethersdr/AetherSDR",
+    "stars": 221,
+    "language": "C++",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "audio",
+      "maintainer-review"
+    ],
+    "createdAt": "2026-09-18T19:40:37Z",
+    "updatedAt": "2026-09-18T19:43:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #5815 in aethersdr/AetherSDR: docs: audio-pipeline.md states m_rxBufferCapMs default 200 ms; code default is 100 ms",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:06:41.650Z"
+  },
+  {
+    "id": "I_kwDOQHh8ns8AAAABSBBNFw",
+    "number": 3109,
+    "title": "feat(workflows): bind nested workflows to explicit repositories and worktrees",
+    "url": "https://github.com/bastani-inc/atomic/issues/3109",
+    "repo": "bastani-inc/atomic",
+    "repoUrl": "https://github.com/bastani-inc/atomic",
+    "stars": 805,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-18T19:41:12Z",
+    "updatedAt": "2026-09-18T19:41:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/ai/test/openai-completions-thinking-token-budget.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/ai/test/openai-completions-thinking-token-budget.test.ts",
+      "packages/workflows/src/engine/run-budget.ts",
+      "packages/workflows/src/extension/workflow-budget-schema.ts"
+    ],
+    "summary": "Fix issue #3109 in bastani-inc/atomic: feat(workflows): bind nested workflows to explicit repositories and worktrees",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T20:06:34.485Z"
+  },
+  {
     "id": "I_kwDOK45rdc8AAAABR93W7w",
     "number": 2701,
     "title": "BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors",
@@ -26,34 +463,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T15:22:06.442Z"
-  },
-  {
-    "id": "I_kwDOK45rdc8AAAABR93W_g",
-    "number": 2702,
-    "title": "BUG Legacy /targets links redirect to Home instead of Target Registry",
-    "url": "https://github.com/microsoft/PyRIT/issues/2702",
-    "repo": "microsoft/PyRIT",
-    "repoUrl": "https://github.com/microsoft/PyRIT",
-    "stars": 4505,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "Bug: triage"
-    ],
-    "createdAt": "2026-09-18T14:22:03Z",
-    "updatedAt": "2026-09-18T14:44:17Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2702 in microsoft/PyRIT: BUG Legacy /targets links redirect to Home instead of Target Registry",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:22:00.848Z"
   },
   {
     "id": "I_kwDORUqZb88AAAABR-JUbg",
@@ -171,98 +580,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T15:21:36.408Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABR9Em3A",
-    "number": 30554,
-    "title": "[good first issue] 🐉 Add new Video Game Quote 208 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30554",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3411,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-18T13:00:59Z",
-    "updatedAt": "2026-09-18T13:01:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30554 in lingdojo/kana-dojo: [good first issue] 🐉 Add new Video Game Quote 208 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:35.146Z"
-  },
-  {
-    "id": "I_kwDODCtNAc8AAAABR9Wz_g",
-    "number": 19601,
-    "title": "Add icons for Kestra Assets plugin tasks",
-    "url": "https://github.com/kestra-io/kestra/issues/19601",
-    "repo": "kestra-io/kestra",
-    "repoUrl": "https://github.com/kestra-io/kestra",
-    "stars": 28160,
-    "language": "Java",
-    "labels": [
-      "area/plugin",
-      "kind/quick-win",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-18T13:30:37Z",
-    "updatedAt": "2026-09-18T13:31:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #19601 in kestra-io/kestra: Add icons for Kestra Assets plugin tasks",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-18T15:21:33.698Z"
-  },
-  {
-    "id": "I_kwDOHg5Khs8AAAABR9bUJg",
-    "number": 1915,
-    "title": "[Bug] PITR silently skips binlog replay: nil pointer panic when s3.tls.enabled is true and caSecretKeyRef is omitted",
-    "url": "https://github.com/mariadb-operator/mariadb-operator/issues/1915",
-    "repo": "mariadb-operator/mariadb-operator",
-    "repoUrl": "https://github.com/mariadb-operator/mariadb-operator",
-    "stars": 1008,
-    "language": "Go",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-18T13:38:03Z",
-    "updatedAt": "2026-09-18T13:40:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./cmd/backup",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "cmd/backup/main.go",
-      "internal/controller/mariadb_controller_pitr.go"
-    ],
-    "summary": "Fix issue #1915 in mariadb-operator/mariadb-operator: [Bug] PITR silently skips binlog replay: nil pointer panic when s3.tls.enabled is true and caSecretKeyRef is omitted",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:31.214Z"
   },
   {
     "id": "I_kwDOOHn12s8AAAABR9wDrA",
@@ -387,40 +704,6 @@
     "discoveredAt": "2026-09-18T15:21:25.565Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABR-QGIA",
-    "number": 30555,
-    "title": "[good first issue] ⛩️ Add new Japanese Idiom 260 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30555",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3411,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-18T15:01:00Z",
-    "updatedAt": "2026-09-18T15:01:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #30555 in lingdojo/kana-dojo: [good first issue] ⛩️ Add new Japanese Idiom 260 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:24.048Z"
-  },
-  {
     "id": "I_kwDOTq8AqM8AAAABR-Z3Iw",
     "number": 732,
     "title": "[Bug] 编辑器可编辑区域色差问题",
@@ -452,40 +735,6 @@
     "discoveredAt": "2026-09-18T15:21:22.776Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABR5QOQg",
-    "number": 30546,
-    "title": "[Good First Issue] 🧧 Add new Japanese Proverb 157 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30546",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3411,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-18T05:01:01Z",
-    "updatedAt": "2026-09-18T05:01:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #30546 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Japanese Proverb 157 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:34.557Z"
-  },
-  {
     "id": "I_kwDOR0lbo88AAAABR5b4Ig",
     "number": 387,
     "title": "Keep CodeQL out of tests/ so the check means something again",
@@ -513,34 +762,6 @@
     "maintainerTurnaroundDays": 0.9,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T10:11:32.561Z"
-  },
-  {
-    "id": "I_kwDOIkWXq88AAAABR5p13w",
-    "number": 679,
-    "title": "Configurable Confidence for Scope",
-    "url": "https://github.com/0dotxyz/marginfi-v2/issues/679",
-    "repo": "0dotxyz/marginfi-v2",
-    "repoUrl": "https://github.com/0dotxyz/marginfi-v2",
-    "stars": 300,
-    "language": "Rust",
-    "labels": [
-      "good first issue",
-      "low priority"
-    ],
-    "createdAt": "2026-09-18T06:08:34Z",
-    "updatedAt": "2026-09-18T06:08:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #679 in 0dotxyz/marginfi-v2: Configurable Confidence for Scope",
-    "maintainerTurnaroundDays": 1.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:29.882Z"
   },
   {
     "id": "I_kwDOCMD8J88AAAABR6OdBw",
@@ -657,37 +878,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T10:11:21.095Z"
-  },
-  {
-    "id": "I_kwDOR30V3c8AAAABR7RoTw",
-    "number": 1344,
-    "title": "One deprecated component has a single call site left, and another has none at all",
-    "url": "https://github.com/mozilla-ai/otari/issues/1344",
-    "repo": "mozilla-ai/otari",
-    "repoUrl": "https://github.com/mozilla-ai/otari",
-    "stars": 475,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "type/tech-debt",
-      "area/dashboard"
-    ],
-    "createdAt": "2026-09-18T09:27:46Z",
-    "updatedAt": "2026-09-18T09:27:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest web/src/design-system/actions/ConfirmRowAction.stories.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "web/src/design-system/actions/ConfirmRowAction.stories.tsx",
-      "web/src/design-system/actions/ConfirmRowAction.test.tsx",
-      "web/src/design-system/actions/ConfirmRowAction.tsx"
-    ],
-    "summary": "Fix issue #1344 in mozilla-ai/otari: One deprecated component has a single call site left, and another has none at all",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:11.855Z"
   },
   {
     "id": "I_kwDOAL_Y588AAAABR7d4cA",
@@ -1420,60 +1610,6 @@
     "maintainerTurnaroundDays": 1.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-17T02:08:26.245Z"
-  },
-  {
-    "id": "I_kwDOADXqJM8AAAABRnau5w",
-    "number": 2643,
-    "title": "website: format all equations with .. math::",
-    "url": "https://github.com/AcademySoftwareFoundation/openexr/issues/2643",
-    "repo": "AcademySoftwareFoundation/openexr",
-    "repoUrl": "https://github.com/AcademySoftwareFoundation/openexr",
-    "stars": 1847,
-    "language": "C",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-16T16:25:45Z",
-    "updatedAt": "2026-09-16T16:25:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2643 in AcademySoftwareFoundation/openexr: website: format all equations with .. math::",
-    "maintainerTurnaroundDays": 0.6,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T20:35:02.950Z"
-  },
-  {
-    "id": "I_kwDOADXqJM8AAAABRncGhg",
-    "number": 2644,
-    "title": "website: fix unformatted code/list blocks",
-    "url": "https://github.com/AcademySoftwareFoundation/openexr/issues/2644",
-    "repo": "AcademySoftwareFoundation/openexr",
-    "repoUrl": "https://github.com/AcademySoftwareFoundation/openexr",
-    "stars": 1847,
-    "language": "C",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-16T16:28:04Z",
-    "updatedAt": "2026-09-16T16:28:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2644 in AcademySoftwareFoundation/openexr: website: fix unformatted code/list blocks",
-    "maintainerTurnaroundDays": 0.6,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T20:35:01.196Z"
   },
   {
     "id": "I_kwDOADXqJM8AAAABRnd_9g",
@@ -3145,36 +3281,6 @@
     "discoveredAt": "2026-09-12T09:43:28.230Z"
   },
   {
-    "id": "I_kwDOA_U_2M8AAAABQ50U3A",
-    "number": 2042,
-    "title": "Some documentation is missing",
-    "url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/issues/2042",
-    "repo": "AcademySoftwareFoundation/OpenTimelineIO",
-    "repoUrl": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO",
-    "stars": 1979,
-    "language": "C++",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "documentation",
-      "devdays26"
-    ],
-    "createdAt": "2026-09-11T22:02:42Z",
-    "updatedAt": "2026-09-11T22:07:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2042 in AcademySoftwareFoundation/OpenTimelineIO: Some documentation is missing",
-    "maintainerTurnaroundDays": 3.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T01:54:36.340Z"
-  },
-  {
     "id": "I_kwDOA_U_2M8AAAABQ5-rgA",
     "number": 2045,
     "title": "Crash in available_image_bounds error code path",
@@ -3202,35 +3308,6 @@
     "maintainerTurnaroundDays": 3.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T01:54:29.205Z"
-  },
-  {
-    "id": "I_kwDOBGHmcs8AAAABQ658IQ",
-    "number": 572,
-    "title": "Improve the test case for word counting in the editor",
-    "url": "https://github.com/BlitzKraft/saythanks.io/issues/572",
-    "repo": "BlitzKraft/saythanks.io",
-    "repoUrl": "https://github.com/BlitzKraft/saythanks.io",
-    "stars": 1306,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "testing"
-    ],
-    "createdAt": "2026-09-12T01:51:48Z",
-    "updatedAt": "2026-09-12T01:53:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #572 in BlitzKraft/saythanks.io: Improve the test case for word counting in the editor",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-12T01:54:14.047Z"
   },
   {
     "id": "I_kwDOCRwx6M8AAAABQ47qsA",
@@ -4388,98 +4465,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-07T20:53:02.890Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQD4Ntg",
-    "number": 3052,
-    "title": "Diff privacy-safe multimodal processing summaries",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3052",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:22Z",
-    "updatedAt": "2026-09-07T09:31:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3052 in maziyarpanahi/openmed: Diff privacy-safe multimodal processing summaries",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:13.503Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQD4NeQ",
-    "number": 3051,
-    "title": "Export JSON Schemas for multimodal preflight artifacts",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3051",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:22Z",
-    "updatedAt": "2026-09-07T09:31:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3051 in maziyarpanahi/openmed: Export JSON Schemas for multimodal preflight artifacts",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:10.587Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQD4OIg",
-    "number": 3054,
-    "title": "Export JSON Schemas for private-training metadata",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3054",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:23Z",
-    "updatedAt": "2026-09-07T09:31:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3054 in maziyarpanahi/openmed: Export JSON Schemas for private-training metadata",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:07.658Z"
   }
 ]
