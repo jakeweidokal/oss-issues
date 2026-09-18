@@ -5,41 +5,257 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2026 20:41:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 01:56:25 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>[anchore/syft] #5299 github-actions cataloger emits an invalid PURL for docker:// use statements (Solvability: 6/10)</title>
-      <link>https://github.com/anchore/syft/issues/5299</link>
-      <guid isPermaLink="true">https://github.com/anchore/syft/issues/5299</guid>
-      <pubDate>Thu, 17 Sep 2026 17:18:07 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/anchore/syft">anchore/syft</a> (9574 ⭐, Go)</p>
+      <title>[mxsm/rocketmq-rust] #10719 [Doc📝] Document ClusterConfig and ClusterExecutionDiagnostics fields (Solvability: 6/10)</title>
+      <link>https://github.com/mxsm/rocketmq-rust/issues/10719</link>
+      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10719</guid>
+      <pubDate>Thu, 17 Sep 2026 23:39:48 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #5299 in anchore/syft: github-actions cataloger emits an invalid PURL for docker:// use statements</p>
+<p><strong>Summary:</strong> Fix issue #10719 in mxsm/rocketmq-rust: [Doc📝] Document ClusterConfig and ClusterExecutionDiagnostics fields</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./syft/pkg/cataloger/githubactions</code></p>
-<p><a href="https://github.com/anchore/syft/issues/5299">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
+<p><strong>Repro Command:</strong> <code>cargo test --test config</code></p>
+<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10719">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
-      <category>bug</category>
-      <category>good-first-issue</category>
+      <category>documentation📝</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>rust</category>
+      <category>Difficulty level/Easy</category>
     </item>
     <item>
-      <title>[ray-project/kuberay] #5309 [Bug] logStdoutEncoder and logFileEncoder setting from `--config` are ignored (Solvability: 6/10)</title>
-      <link>https://github.com/ray-project/kuberay/issues/5309</link>
-      <guid isPermaLink="true">https://github.com/ray-project/kuberay/issues/5309</guid>
-      <pubDate>Thu, 17 Sep 2026 17:47:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ray-project/kuberay">ray-project/kuberay</a> (2687 ⭐, Go)</p>
+      <title>[mxsm/rocketmq-rust] #10721 [Doc📝] Document the BloomFilterData struct (Solvability: 6/10)</title>
+      <link>https://github.com/mxsm/rocketmq-rust/issues/10721</link>
+      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10721</guid>
+      <pubDate>Thu, 17 Sep 2026 23:39:53 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #5309 in ray-project/kuberay: [Bug] logStdoutEncoder and logFileEncoder setting from `--config` are ignored</p>
+<p><strong>Summary:</strong> Fix issue #10721 in mxsm/rocketmq-rust: [Doc📝] Document the BloomFilterData struct</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./apiserver/cmd</code></p>
-<p><a href="https://github.com/ray-project/kuberay/issues/5309">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
+<p><strong>Repro Command:</strong> <code>cargo test --test bloom_filter_data</code></p>
+<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10721">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
-      <category>bug</category>
-      <category>good-first-issue</category>
+      <category>documentation📝</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>rust</category>
+      <category>Difficulty level/Easy</category>
+    </item>
+    <item>
+      <title>[mxsm/rocketmq-rust] #10722 [Bug🐛] LongRangeAttribute::new doc comment describes the wrong constructor (Solvability: 6/10)</title>
+      <link>https://github.com/mxsm/rocketmq-rust/issues/10722</link>
+      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10722</guid>
+      <pubDate>Thu, 17 Sep 2026 23:40:04 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10722 in mxsm/rocketmq-rust: [Bug🐛] LongRangeAttribute::new doc comment describes the wrong constructor</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test enum_attribute</code></p>
+<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10722">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug🐛</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>rust</category>
+      <category>Difficulty level/Easy</category>
+    </item>
+    <item>
+      <title>[mxsm/rocketmq-rust] #10723 [Enhancement✨] Remove the unneeded Vec allocation in parse_host_from_address (Solvability: 6/10)</title>
+      <link>https://github.com/mxsm/rocketmq-rust/issues/10723</link>
+      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10723</guid>
+      <pubDate>Thu, 17 Sep 2026 23:40:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10723 in mxsm/rocketmq-rust: [Enhancement✨] Remove the unneeded Vec allocation in parse_host_from_address</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test update_global_white_addrs_config_request_handler</code></p>
+<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10723">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>rust</category>
+      <category>Difficulty level/Easy</category>
+      <category>performance</category>
+      <category>enhancement✨</category>
+    </item>
+    <item>
+      <title>[mxsm/rocketmq-rust] #10724 [Doc📝] Document the ForbiddenType constants (Solvability: 6/10)</title>
+      <link>https://github.com/mxsm/rocketmq-rust/issues/10724</link>
+      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10724</guid>
+      <pubDate>Thu, 17 Sep 2026 23:40:10 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10724 in mxsm/rocketmq-rust: [Doc📝] Document the ForbiddenType constants</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test forbidden_type</code></p>
+<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10724">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation📝</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>rust</category>
+      <category>Difficulty level/Easy</category>
+    </item>
+    <item>
+      <title>[mxsm/rocketmq-rust] #10725 [Bug🐛] normalize_nameserver_address accepts hosts with embedded whitespace (Solvability: 6/10)</title>
+      <link>https://github.com/mxsm/rocketmq-rust/issues/10725</link>
+      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10725</guid>
+      <pubDate>Thu, 17 Sep 2026 23:40:14 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10725 in mxsm/rocketmq-rust: [Bug🐛] normalize_nameserver_address accepts hosts with embedded whitespace</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test nameserver</code></p>
+<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10725">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug🐛</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>rust</category>
+      <category>Difficulty level/Easy</category>
+    </item>
+    <item>
+      <title>[mxsm/rocketmq-rust] #10726 [Test🧪] Add unit tests for OutputFormat string parsing (Solvability: 6/10)</title>
+      <link>https://github.com/mxsm/rocketmq-rust/issues/10726</link>
+      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10726</guid>
+      <pubDate>Thu, 17 Sep 2026 23:40:16 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10726 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for OutputFormat string parsing</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test formatters</code></p>
+<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10726">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>rust</category>
+      <category>Difficulty level/Easy</category>
+      <category>testing🧪</category>
+      <category>rocketmq-tools crate</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30536 [Good First Issue] 🍡 Add new Japanese Idiom 77 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30536</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30536</guid>
+      <pubDate>Thu, 17 Sep 2026 23:57:28 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3411 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30536 in lingdojo/kana-dojo: [Good First Issue] 🍡 Add new Japanese Idiom 77 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30536">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30537 [Good First Issue] 🍣 Add new Dialect Entry 68 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30537</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30537</guid>
+      <pubDate>Fri, 18 Sep 2026 00:01:06 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3411 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30537 in lingdojo/kana-dojo: [Good First Issue] 🍣 Add new Dialect Entry 68 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-regional-dialects.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30537">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[python/typeshed] #16411 Daily tests failed on Fri Sep 18 2026 (Solvability: 6/10)</title>
+      <link>https://github.com/python/typeshed/issues/16411</link>
+      <guid isPermaLink="true">https://github.com/python/typeshed/issues/16411</guid>
+      <pubDate>Fri, 18 Sep 2026 00:30:09 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/python/typeshed">python/typeshed</a> (5121 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #16411 in python/typeshed: Daily tests failed on Fri Sep 18 2026</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/python/typeshed/issues/16411">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30538 [Good First Issue] 🍶 Add new False Friend Pair 97 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30538</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30538</guid>
+      <pubDate>Fri, 18 Sep 2026 00:57:28 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3411 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30538 in lingdojo/kana-dojo: [Good First Issue] 🍶 Add new False Friend Pair 97 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30538">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30539 [Good First Issue] 🌊 Add new Etiquette Tip 23 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30539</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30539</guid>
+      <pubDate>Fri, 18 Sep 2026 01:01:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3411 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30539 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Etiquette Tip 23 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30539">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
     </item>
     <item>
       <title>[Eugleo/magic-racket] #166 Update langserver feature list in README (Solvability: 6/10)</title>
@@ -329,25 +545,6 @@
       <category>Notifications / Email</category>
     </item>
     <item>
-      <title>[Submitty/Submitty] #13366 editing forum thread to update category (Solvability: 6/10)</title>
-      <link>https://github.com/Submitty/Submitty/issues/13366</link>
-      <guid isPermaLink="true">https://github.com/Submitty/Submitty/issues/13366</guid>
-      <pubDate>Thu, 17 Sep 2026 14:46:45 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Submitty/Submitty">Submitty/Submitty</a> (791 ⭐, PHP)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #13366 in Submitty/Submitty: editing forum thread to update category</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Submitty/Submitty/issues/13366">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>PHP</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>Discussion Forum / Live Chat</category>
-      <category>Notifications / Email</category>
-    </item>
-    <item>
       <title>[mozilla/pontoon] #4538 Do-no-translate terms should not have a `TRANSLATE` link (Solvability: 6/10)</title>
       <link>https://github.com/mozilla/pontoon/issues/4538</link>
       <guid isPermaLink="true">https://github.com/mozilla/pontoon/issues/4538</guid>
@@ -440,23 +637,6 @@
       <category>help wanted</category>
       <category>good first issue</category>
       <category>priority</category>
-    </item>
-    <item>
-      <title>[repowise-dev/repowise] #2302 [Bug] static create = (...) =&gt; {} is invisible: class fields are captured for their type only (Solvability: 6/10)</title>
-      <link>https://github.com/repowise-dev/repowise/issues/2302</link>
-      <guid isPermaLink="true">https://github.com/repowise-dev/repowise/issues/2302</guid>
-      <pubDate>Thu, 17 Sep 2026 08:22:00 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/repowise-dev/repowise">repowise-dev/repowise</a> (6687 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2302 in repowise-dev/repowise: [Bug] static create = (...) =&gt; {} is invisible: class fields are captured for their type only</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/repowise-dev/repowise/issues/2302">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
     </item>
     <item>
       <title>[ganeshmshetty/openclip] #101 [Bug]: “Hold Mouse to Trigger” is blocked when “Appear Automatically” is disabled (Solvability: 6/10)</title>
@@ -554,22 +734,6 @@
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 
 <p><a href="https://github.com/AcademySoftwareFoundation/openexr/issues/2644">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[AcademySoftwareFoundation/openexr] #2645 website: fix table formatting (Solvability: 6/10)</title>
-      <link>https://github.com/AcademySoftwareFoundation/openexr/issues/2645</link>
-      <guid isPermaLink="true">https://github.com/AcademySoftwareFoundation/openexr/issues/2645</guid>
-      <pubDate>Wed, 16 Sep 2026 16:29:02 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/AcademySoftwareFoundation/openexr">AcademySoftwareFoundation/openexr</a> (1847 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2645 in AcademySoftwareFoundation/openexr: website: fix table formatting</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/AcademySoftwareFoundation/openexr/issues/2645">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>C</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -801,133 +965,6 @@
       <category>low hanging fruit</category>
       <category>up-for-grabs</category>
       <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[owncast/owncast] #5172 Feature Request: Social Handle Platforms for RSS and Tumblr (Solvability: 6/10)</title>
-      <link>https://github.com/owncast/owncast/issues/5172</link>
-      <guid isPermaLink="true">https://github.com/owncast/owncast/issues/5172</guid>
-      <pubDate>Mon, 14 Sep 2026 21:44:18 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/owncast/owncast">owncast/owncast</a> (11527 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #5172 in owncast/owncast: Feature Request: Social Handle Platforms for RSS and Tumblr</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/owncast/owncast/issues/5172">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[manankharwar/fusioncore] #131 Parameters that land in a node member are unchecked, and vslam.frame_id is already dead (Solvability: 6/10)</title>
-      <link>https://github.com/manankharwar/fusioncore/issues/131</link>
-      <guid isPermaLink="true">https://github.com/manankharwar/fusioncore/issues/131</guid>
-      <pubDate>Mon, 14 Sep 2026 22:00:47 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/manankharwar/fusioncore">manankharwar/fusioncore</a> (358 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #131 in manankharwar/fusioncore: Parameters that land in a node member are unchecked, and vslam.frame_id is already dead</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/manankharwar/fusioncore/issues/131">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[h5i-dev/h5i] #639 h5i-idor-ci-demo: a repository whose CI goes red on a real bug and green on the fix (Solvability: 6/10)</title>
-      <link>https://github.com/h5i-dev/h5i/issues/639</link>
-      <guid isPermaLink="true">https://github.com/h5i-dev/h5i/issues/639</guid>
-      <pubDate>Tue, 15 Sep 2026 00:09:39 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/h5i-dev/h5i">h5i-dev/h5i</a> (641 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #639 in h5i-dev/h5i: h5i-idor-ci-demo: a repository whose CI goes red on a real bug and green on the fix</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/h5i-dev/h5i/issues/639">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>ecosystem</category>
-    </item>
-    <item>
-      <title>[h5i-dev/h5i] #640 h5i-test-pr-report: post an h5i test run as a pull request comment (Solvability: 6/10)</title>
-      <link>https://github.com/h5i-dev/h5i/issues/640</link>
-      <guid isPermaLink="true">https://github.com/h5i-dev/h5i/issues/640</guid>
-      <pubDate>Tue, 15 Sep 2026 00:09:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/h5i-dev/h5i">h5i-dev/h5i</a> (641 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #640 in h5i-dev/h5i: h5i-test-pr-report: post an h5i test run as a pull request comment</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/h5i-dev/h5i/issues/640">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>ecosystem</category>
-    </item>
-    <item>
-      <title>[h5i-dev/h5i] #641 h5i-test-ci-templates: run h5i test on GitLab CI, CircleCI and Jenkins (Solvability: 6/10)</title>
-      <link>https://github.com/h5i-dev/h5i/issues/641</link>
-      <guid isPermaLink="true">https://github.com/h5i-dev/h5i/issues/641</guid>
-      <pubDate>Tue, 15 Sep 2026 00:09:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/h5i-dev/h5i">h5i-dev/h5i</a> (641 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #641 in h5i-dev/h5i: h5i-test-ci-templates: run h5i test on GitLab CI, CircleCI and Jenkins</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test action</code></p>
-<p><a href="https://github.com/h5i-dev/h5i/issues/641">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>ecosystem</category>
-    </item>
-    <item>
-      <title>[aethersdr/AetherSDR] #5718 CW Phone/CW panel — Breakin/Iambic/Hold Dly/Pitch row is compressed when docked (Solvability: 6/10)</title>
-      <link>https://github.com/aethersdr/AetherSDR/issues/5718</link>
-      <guid isPermaLink="true">https://github.com/aethersdr/AetherSDR/issues/5718</guid>
-      <pubDate>Tue, 15 Sep 2026 01:09:56 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/aethersdr/AetherSDR">aethersdr/AetherSDR</a> (220 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #5718 in aethersdr/AetherSDR: CW Phone/CW panel — Breakin/Iambic/Hold Dly/Pitch row is compressed when docked</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/aethersdr/AetherSDR/issues/5718">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>GUI</category>
-      <category>priority: low</category>
-      <category>CW</category>
-      <category>maintainer-review</category>
-    </item>
-    <item>
-      <title>[Vaquill-AI/awesome-legaltech] #109 Fix the dead contribution-guidelines link in the issue chooser (Solvability: 6/10)</title>
-      <link>https://github.com/Vaquill-AI/awesome-legaltech/issues/109</link>
-      <guid isPermaLink="true">https://github.com/Vaquill-AI/awesome-legaltech/issues/109</guid>
-      <pubDate>Mon, 14 Sep 2026 18:07:25 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Vaquill-AI/awesome-legaltech">Vaquill-AI/awesome-legaltech</a> (218 ⭐, Multi-language)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #109 in Vaquill-AI/awesome-legaltech: Fix the dead contribution-guidelines link in the issue chooser</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/Vaquill-AI/awesome-legaltech/issues/109">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>General</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>maintenance</category>
     </item>
   </channel>
 </rss>
