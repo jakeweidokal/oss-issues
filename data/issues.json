@@ -1,5 +1,387 @@
 [
   {
+    "id": "I_kwDOOwsln88AAAABR5QOQg",
+    "number": 30546,
+    "title": "[Good First Issue] 🧧 Add new Japanese Proverb 157 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30546",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3411,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-18T05:01:01Z",
+    "updatedAt": "2026-09-18T05:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30546 in lingdojo/kana-dojo: [Good First Issue] 🧧 Add new Japanese Proverb 157 - Beginner-Friendly Open-source Contribution (good-first-issue)",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:34.557Z"
+  },
+  {
+    "id": "I_kwDOR0lbo88AAAABR5b4Ig",
+    "number": 387,
+    "title": "Keep CodeQL out of tests/ so the check means something again",
+    "url": "https://github.com/NovaCode37/Prism-platform/issues/387",
+    "repo": "NovaCode37/Prism-platform",
+    "repoUrl": "https://github.com/NovaCode37/Prism-platform",
+    "stars": 232,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "github_actions"
+    ],
+    "createdAt": "2026-09-18T05:33:19Z",
+    "updatedAt": "2026-09-18T05:33:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest .github/workflows/codeql.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/codeql.yml",
+      "modules/extra_tools.py"
+    ],
+    "summary": "Fix issue #387 in NovaCode37/Prism-platform: Keep CodeQL out of tests/ so the check means something again",
+    "maintainerTurnaroundDays": 0.9,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:32.561Z"
+  },
+  {
+    "id": "I_kwDOIkWXq88AAAABR5p13w",
+    "number": 679,
+    "title": "Configurable Confidence for Scope",
+    "url": "https://github.com/0dotxyz/marginfi-v2/issues/679",
+    "repo": "0dotxyz/marginfi-v2",
+    "repoUrl": "https://github.com/0dotxyz/marginfi-v2",
+    "stars": 300,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "low priority"
+    ],
+    "createdAt": "2026-09-18T06:08:34Z",
+    "updatedAt": "2026-09-18T06:08:34Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #679 in 0dotxyz/marginfi-v2: Configurable Confidence for Scope",
+    "maintainerTurnaroundDays": 1.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:29.882Z"
+  },
+  {
+    "id": "I_kwDOCMD8J88AAAABR6OdBw",
+    "number": 6828,
+    "title": "Drop support for deprecated Synthetic Integrations",
+    "url": "https://github.com/apache/camel-k/issues/6828",
+    "repo": "apache/camel-k",
+    "repoUrl": "https://github.com/apache/camel-k",
+    "stars": 929,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "kind/task"
+    ],
+    "createdAt": "2026-09-18T07:23:10Z",
+    "updatedAt": "2026-09-18T07:23:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #6828 in apache/camel-k: Drop support for deprecated Synthetic Integrations",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:27.899Z"
+  },
+  {
+    "id": "I_kwDOQGQhSc8AAAABR6Uksw",
+    "number": 2414,
+    "title": "[BUG] Distribution view: `Values` input uses a larger font than other inputs",
+    "url": "https://github.com/lightly-ai/lightly-studio/issues/2414",
+    "repo": "lightly-ai/lightly-studio",
+    "repoUrl": "https://github.com/lightly-ai/lightly-studio",
+    "stars": 889,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T07:34:44Z",
+    "updatedAt": "2026-09-18T08:44:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest lightly_studio/src/lightly_studio/resolvers/metadata_resolver/sample/get_metadata_values_for_key.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "lightly_studio/src/lightly_studio/resolvers/metadata_resolver/sample/get_metadata_values_for_key.py",
+      "lightly_studio/tests/metadata/test_get_metadata_values_for_key.py"
+    ],
+    "summary": "Fix issue #2414 in lightly-ai/lightly-studio: [BUG] Distribution view: `Values` input uses a larger font than other inputs",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:26.082Z"
+  },
+  {
+    "id": "I_kwDOQGQhSc8AAAABR6e8Ag",
+    "number": 2415,
+    "title": "[BUG] Undoing an annotation deletion does not restore the original annotation source",
+    "url": "https://github.com/lightly-ai/lightly-studio/issues/2415",
+    "repo": "lightly-ai/lightly-studio",
+    "repoUrl": "https://github.com/lightly-ai/lightly-studio",
+    "stars": 889,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T07:55:26Z",
+    "updatedAt": "2026-09-18T09:40:47Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2415 in lightly-ai/lightly-studio: [BUG] Undoing an annotation deletion does not restore the original annotation source",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:23.550Z"
+  },
+  {
+    "id": "I_kwDOQGQhSc8AAAABR6lO6A",
+    "number": 2416,
+    "title": "[BUG] Bounding boxes not shown when clicking an image in Annotation view",
+    "url": "https://github.com/lightly-ai/lightly-studio/issues/2416",
+    "repo": "lightly-ai/lightly-studio",
+    "repoUrl": "https://github.com/lightly-ai/lightly-studio",
+    "stars": 889,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T08:07:02Z",
+    "updatedAt": "2026-09-18T09:47:20Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2416 in lightly-ai/lightly-studio: [BUG] Bounding boxes not shown when clicking an image in Annotation view",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:21.095Z"
+  },
+  {
+    "id": "I_kwDOR30V3c8AAAABR7Rl9w",
+    "number": 1342,
+    "title": "Eight arbitrary values are written in px where the rule is rem",
+    "url": "https://github.com/mozilla-ai/otari/issues/1342",
+    "repo": "mozilla-ai/otari",
+    "repoUrl": "https://github.com/mozilla-ai/otari",
+    "stars": 475,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "type/tech-debt",
+      "area/dashboard"
+    ],
+    "createdAt": "2026-09-18T09:27:42Z",
+    "updatedAt": "2026-09-18T09:27:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1342 in mozilla-ai/otari: Eight arbitrary values are written in px where the rule is rem",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:16.746Z"
+  },
+  {
+    "id": "I_kwDOR30V3c8AAAABR7RnLw",
+    "number": 1343,
+    "title": "Three design-system primitives have no story, so their states are outside the published catalog",
+    "url": "https://github.com/mozilla-ai/otari/issues/1343",
+    "repo": "mozilla-ai/otari",
+    "repoUrl": "https://github.com/mozilla-ai/otari",
+    "stars": 475,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "area/tests",
+      "area/dashboard"
+    ],
+    "createdAt": "2026-09-18T09:27:44Z",
+    "updatedAt": "2026-09-18T09:27:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest .github/workflows/otari-design-system.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/otari-design-system.yml"
+    ],
+    "summary": "Fix issue #1343 in mozilla-ai/otari: Three design-system primitives have no story, so their states are outside the published catalog",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:13.738Z"
+  },
+  {
+    "id": "I_kwDOR30V3c8AAAABR7RoTw",
+    "number": 1344,
+    "title": "One deprecated component has a single call site left, and another has none at all",
+    "url": "https://github.com/mozilla-ai/otari/issues/1344",
+    "repo": "mozilla-ai/otari",
+    "repoUrl": "https://github.com/mozilla-ai/otari",
+    "stars": 475,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "type/tech-debt",
+      "area/dashboard"
+    ],
+    "createdAt": "2026-09-18T09:27:46Z",
+    "updatedAt": "2026-09-18T09:27:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest web/src/design-system/actions/ConfirmRowAction.stories.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "web/src/design-system/actions/ConfirmRowAction.stories.tsx",
+      "web/src/design-system/actions/ConfirmRowAction.test.tsx",
+      "web/src/design-system/actions/ConfirmRowAction.tsx"
+    ],
+    "summary": "Fix issue #1344 in mozilla-ai/otari: One deprecated component has a single call site left, and another has none at all",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:11.855Z"
+  },
+  {
+    "id": "I_kwDOR30V3c8AAAABR7RzuA",
+    "number": 1348,
+    "title": "Four components bake an outside margin into their own root, two of them reusable parts",
+    "url": "https://github.com/mozilla-ai/otari/issues/1348",
+    "repo": "mozilla-ai/otari",
+    "repoUrl": "https://github.com/mozilla-ai/otari",
+    "stars": 475,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "type/tech-debt",
+      "area/dashboard"
+    ],
+    "createdAt": "2026-09-18T09:28:04Z",
+    "updatedAt": "2026-09-18T10:05:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest web/src/features/onboarding/SetupSuccessMark.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "web/src/features/onboarding/SetupSuccessMark.tsx",
+      "web/src/features/playground/MessageBubble.tsx"
+    ],
+    "summary": "Fix issue #1348 in mozilla-ai/otari: Four components bake an outside margin into their own root, two of them reusable parts",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:09.915Z"
+  },
+  {
+    "id": "I_kwDOAL_Y588AAAABR7d4cA",
+    "number": 3752,
+    "title": "Contest problemset PDF not viewable in jury interface",
+    "url": "https://github.com/DOMjudge/domjudge/issues/3752",
+    "repo": "DOMjudge/domjudge",
+    "repoUrl": "https://github.com/DOMjudge/domjudge",
+    "stars": 913,
+    "language": "PHP",
+    "labels": [
+      "web interface",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-18T09:49:27Z",
+    "updatedAt": "2026-09-18T09:49:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3752 in DOMjudge/domjudge: Contest problemset PDF not viewable in jury interface",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:07.992Z"
+  },
+  {
+    "id": "I_kwDOK46AYc8AAAABR7lZ8g",
+    "number": 2001,
+    "title": "Missing PortName APIs",
+    "url": "https://github.com/eclipse-iceoryx/iceoryx2/issues/2001",
+    "repo": "eclipse-iceoryx/iceoryx2",
+    "repoUrl": "https://github.com/eclipse-iceoryx/iceoryx2",
+    "stars": 2544,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "technical debt"
+    ],
+    "createdAt": "2026-09-18T10:03:37Z",
+    "updatedAt": "2026-09-18T10:07:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2001 in eclipse-iceoryx/iceoryx2: Missing PortName APIs",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T10:11:05.930Z"
+  },
+  {
     "id": "I_kwDOK5M3Is8AAAABR3SYFw",
     "number": 10719,
     "title": "[Doc📝] Document ClusterConfig and ClusterExecutionDiagnostics fields",
@@ -292,33 +674,6 @@
     "discoveredAt": "2026-09-18T01:55:39.376Z"
   },
   {
-    "id": "I_kwDOAeOl_88AAAABR3mBww",
-    "number": 16411,
-    "title": "Daily tests failed on Fri Sep 18 2026",
-    "url": "https://github.com/python/typeshed/issues/16411",
-    "repo": "python/typeshed",
-    "repoUrl": "https://github.com/python/typeshed",
-    "stars": 5121,
-    "language": "Python",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T00:30:09Z",
-    "updatedAt": "2026-09-18T00:30:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #16411 in python/typeshed: Daily tests failed on Fri Sep 18 2026",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:55:37.294Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABR3xHrQ",
     "number": 30538,
     "title": "[Good First Issue] 🍶 Add new False Friend Pair 97 - Beginner-Friendly Open-source Contribution (good-first-issue)",
@@ -416,40 +771,6 @@
     "discoveredAt": "2026-09-17T20:41:24.266Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABR0AM0w",
-    "number": 30517,
-    "title": "[Good First Issue] 🦊 Add new Dialect Entry 120 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30517",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3409,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-17T16:57:31Z",
-    "updatedAt": "2026-09-17T16:57:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #30517 in lingdojo/kana-dojo: [Good First Issue] 🦊 Add new Dialect Entry 120 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T20:41:23.532Z"
-  },
-  {
     "id": "I_kwDOBGHmcs8AAAABR0c93g",
     "number": 579,
     "title": "The audio record button does not work",
@@ -476,40 +797,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-17T20:41:21.842Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABR0j4Uw",
-    "number": 30520,
-    "title": "[Good First Issue] 🍁 Add new Etiquette Tip 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30520",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3409,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-17T17:57:30Z",
-    "updatedAt": "2026-09-17T17:57:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #30520 in lingdojo/kana-dojo: [Good First Issue] 🍁 Add new Etiquette Tip 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T20:41:20.500Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABR0l5NQ",
@@ -725,35 +1012,6 @@
     "discoveredAt": "2026-09-17T20:41:09.509Z"
   },
   {
-    "id": "I_kwDORllOrs8AAAABR2CAcg",
-    "number": 2672,
-    "title": "Audiobook duration only lists time of first audio file",
-    "url": "https://github.com/grimmory-tools/grimmory/issues/2672",
-    "repo": "grimmory-tools/grimmory",
-    "repoUrl": "https://github.com/grimmory-tools/grimmory",
-    "stars": 4377,
-    "language": "Java",
-    "labels": [
-      "good first issue",
-      "frontend",
-      "priority: low"
-    ],
-    "createdAt": "2026-09-17T20:39:52Z",
-    "updatedAt": "2026-09-17T20:39:52Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2672 in grimmory-tools/grimmory: Audiobook duration only lists time of first audio file",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-17T20:41:08.564Z"
-  },
-  {
     "id": "I_kwDON3kF8s8AAAABRyfVJQ",
     "number": 1445,
     "title": "Build on macos-15-intel is flaky",
@@ -780,67 +1038,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-17T15:49:13.138Z"
-  },
-  {
-    "id": "I_kwDOB11tyM8AAAABRygjSQ",
-    "number": 4346,
-    "title": "🐞Infinite freezing loop when livestream playback speed is > 1x (Distinct from #4043)",
-    "url": "https://github.com/code-charity/youtube/issues/4346",
-    "repo": "code-charity/youtube",
-    "repoUrl": "https://github.com/code-charity/youtube",
-    "stars": 4588,
-    "language": "JavaScript",
-    "labels": [
-      "Bug",
-      "Feature request",
-      "help wanted",
-      "good first issue",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-17T14:31:25Z",
-    "updatedAt": "2026-09-17T14:31:25Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #4346 in code-charity/youtube: 🐞Infinite freezing loop when livestream playback speed is > 1x (Distinct from #4043)",
-    "maintainerTurnaroundDays": 1.9,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-17T15:49:11.286Z"
-  },
-  {
-    "id": "I_kwDOAPe-Vs8AAAABRyoypw",
-    "number": 13365,
-    "title": "include name of original author & editor in notification of edited post",
-    "url": "https://github.com/Submitty/Submitty/issues/13365",
-    "repo": "Submitty/Submitty",
-    "repoUrl": "https://github.com/Submitty/Submitty",
-    "stars": 791,
-    "language": "PHP",
-    "labels": [
-      "bug",
-      "good first issue",
-      "Discussion Forum / Live Chat",
-      "Notifications / Email"
-    ],
-    "createdAt": "2026-09-17T14:42:32Z",
-    "updatedAt": "2026-09-17T14:42:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #13365 in Submitty/Submitty: include name of original author & editor in notification of edited post",
-    "maintainerTurnaroundDays": 0.8,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T15:49:10.474Z"
   },
   {
     "id": "I_kwDOABUlos8AAAABRy14aQ",
@@ -874,40 +1071,6 @@
     "discoveredAt": "2026-09-17T15:49:05.141Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABRy2PcA",
-    "number": 30516,
-    "title": "[Good First Issue] 🍵 Add new Japanese Idiom 108 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30516",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3408,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-17T15:01:13Z",
-    "updatedAt": "2026-09-17T15:01:17Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #30516 in lingdojo/kana-dojo: [Good First Issue] 🍵 Add new Japanese Idiom 108 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T15:49:03.617Z"
-  },
-  {
     "id": "I_kwDOC3-hZ88AAAABRzAAtg",
     "number": 306,
     "title": "[Enhancement] : Edit Event Modal Overflows Viewport and Lacks Internal Scrolling",
@@ -934,37 +1097,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-17T15:49:01.665Z"
-  },
-  {
-    "id": "I_kwDORPf6ys8AAAABRzGXmg",
-    "number": 13997,
-    "title": "docs(cli): README and CLI-TOOLS document two commands that do not exist (`config show`, `models list`)",
-    "url": "https://github.com/diegosouzapw/OmniRoute/issues/13997",
-    "repo": "diegosouzapw/OmniRoute",
-    "repoUrl": "https://github.com/diegosouzapw/OmniRoute",
-    "stars": 67321,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T15:24:26Z",
-    "updatedAt": "2026-09-17T15:24:26Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test @omniroute/opencode-plugin/tests/config-shim.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "@omniroute/opencode-plugin/tests/config-shim.test.ts",
-      "@omniroute/opencode-plugin/tests/model-allowlist.test.ts",
-      "@omniroute/opencode-plugin/tsup.config.ts"
-    ],
-    "summary": "Fix issue #13997 in diegosouzapw/OmniRoute: docs(cli): README and CLI-TOOLS document two commands that do not exist (`config show`, `models list`)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "release/v3.8.51",
-    "discoveredAt": "2026-09-17T15:48:54.591Z"
   },
   {
     "id": "I_kwDOTZFfiM8AAAABRuon8A",
@@ -994,34 +1126,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-17T10:34:57.728Z"
-  },
-  {
-    "id": "I_kwDOTqc3Cs8AAAABRvqe4g",
-    "number": 101,
-    "title": "[Bug]: “Hold Mouse to Trigger” is blocked when “Appear Automatically” is disabled",
-    "url": "https://github.com/ganeshmshetty/openclip/issues/101",
-    "repo": "ganeshmshetty/openclip",
-    "repoUrl": "https://github.com/ganeshmshetty/openclip",
-    "stars": 406,
-    "language": "Swift",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T09:57:39Z",
-    "updatedAt": "2026-09-17T10:21:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #101 in ganeshmshetty/openclip: [Bug]: “Hold Mouse to Trigger” is blocked when “Appear Automatically” is disabled",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T10:34:37.648Z"
   },
   {
     "id": "I_kwDOJJp4OM8AAAABRq5Gkg",
@@ -1080,33 +1184,6 @@
     "maintainerTurnaroundDays": 1.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-17T02:08:26.245Z"
-  },
-  {
-    "id": "I_kwDOMCWwoM8AAAABRrmrVg",
-    "number": 5531,
-    "title": "Migrate to AWS SDK's Apache5HttpClient",
-    "url": "https://github.com/apache/polaris/issues/5531",
-    "repo": "apache/polaris",
-    "repoUrl": "https://github.com/apache/polaris",
-    "stars": 2057,
-    "language": "Java",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T01:01:04Z",
-    "updatedAt": "2026-09-17T01:01:31Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #5531 in apache/polaris: Migrate to AWS SDK's Apache5HttpClient",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T02:08:08.987Z"
   },
   {
     "id": "I_kwDOADXqJM8AAAABRnau5w",
@@ -1425,40 +1502,6 @@
     "discoveredAt": "2026-09-15T10:37:09.305Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABRW7aKQ",
-    "number": 30448,
-    "title": "[Good First Issue] 🎎 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30448",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3390,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-15T09:01:01Z",
-    "updatedAt": "2026-09-15T09:01:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-wallpaper-urls.json"
-    ],
-    "summary": "Fix issue #30448 in lingdojo/kana-dojo: [Good First Issue] 🎎 Add new Wallpaper URL #2 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:48.040Z"
-  },
-  {
     "id": "I_kwDOAAq-cs8AAAABRXWV3g",
     "number": 1026,
     "title": "Implement comprehensive bulk permission assignment API with documentation and benchmarks",
@@ -1489,40 +1532,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T10:36:40.782Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRXyqng",
-    "number": 30452,
-    "title": "[Good First Issue] 🎌 Add new Japan Fact 92 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30452",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3390,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-15T10:34:32Z",
-    "updatedAt": "2026-09-15T10:34:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-facts.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #30452 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Japan Fact 92 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:39.422Z"
   },
   {
     "id": "I_kwDOD-GjqM8AAAABRSOdjg",
@@ -3044,34 +3053,6 @@
     "maintainerTurnaroundDays": 2,
     "defaultBranch": "develop",
     "discoveredAt": "2026-09-11T15:25:07.179Z"
-  },
-  {
-    "id": "I_kwDOHMbISc8AAAABQ02mmQ",
-    "number": 2014,
-    "title": "App Request: Nextcloud Talk",
-    "url": "https://github.com/wimpysworld/deb-get/issues/2014",
-    "repo": "wimpysworld/deb-get",
-    "repoUrl": "https://github.com/wimpysworld/deb-get",
-    "stars": 1748,
-    "language": "Shell",
-    "labels": [
-      "good first issue",
-      "new package"
-    ],
-    "createdAt": "2026-09-11T12:10:29Z",
-    "updatedAt": "2026-09-11T12:10:29Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2014 in wimpysworld/deb-get: App Request: Nextcloud Talk",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-11T15:25:03.777Z"
   },
   {
     "id": "I_kwDOP8M_rs8AAAABQzNQBw",
