@@ -5,8 +5,291 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2026 10:11:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 15:22:06 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[microsoft/PyRIT] #2701 BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors (Solvability: 6/10)</title>
+      <link>https://github.com/microsoft/PyRIT/issues/2701</link>
+      <guid isPermaLink="true">https://github.com/microsoft/PyRIT/issues/2701</guid>
+      <pubDate>Fri, 18 Sep 2026 14:22:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/microsoft/PyRIT">microsoft/PyRIT</a> (4505 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2701 in microsoft/PyRIT: BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/microsoft/PyRIT/issues/2701">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>Bug: triage</category>
+    </item>
+    <item>
+      <title>[microsoft/PyRIT] #2702 BUG Legacy /targets links redirect to Home instead of Target Registry (Solvability: 6/10)</title>
+      <link>https://github.com/microsoft/PyRIT/issues/2702</link>
+      <guid isPermaLink="true">https://github.com/microsoft/PyRIT/issues/2702</guid>
+      <pubDate>Fri, 18 Sep 2026 14:22:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/microsoft/PyRIT">microsoft/PyRIT</a> (4505 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2702 in microsoft/PyRIT: BUG Legacy /targets links redirect to Home instead of Target Registry</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/microsoft/PyRIT/issues/2702">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>Bug: triage</category>
+    </item>
+    <item>
+      <title>[MakazhanAlpamys/Soup] #1069 loss_watchdog, loss_spike_recovery and grad_accum_auto_tune are read by nothing on backend: mlx (Solvability: 6/10)</title>
+      <link>https://github.com/MakazhanAlpamys/Soup/issues/1069</link>
+      <guid isPermaLink="true">https://github.com/MakazhanAlpamys/Soup/issues/1069</guid>
+      <pubDate>Fri, 18 Sep 2026 14:50:23 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MakazhanAlpamys/Soup">MakazhanAlpamys/Soup</a> (6794 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1069 in MakazhanAlpamys/Soup: loss_watchdog, loss_spike_recovery and grad_accum_auto_tune are read by nothing on backend: mlx</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/soup_cli/trainer/mlx_sft.py</code></p>
+<p><a href="https://github.com/MakazhanAlpamys/Soup/issues/1069">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[f3d-app/f3d] #3492 Support for cursors change (Solvability: 6/10)</title>
+      <link>https://github.com/f3d-app/f3d/issues/3492</link>
+      <guid isPermaLink="true">https://github.com/f3d-app/f3d/issues/3492</guid>
+      <pubDate>Fri, 18 Sep 2026 15:13:28 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/f3d-app/f3d">f3d-app/f3d</a> (4699 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3492 in f3d-app/f3d: Support for cursors change</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/f3d-app/f3d/issues/3492">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>source:VTK</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[mxsm/rocketmq-rust] #10735 [Refactor♻️] Remove the unused mut binding in the request-reply responder example (Solvability: 6/10)</title>
+      <link>https://github.com/mxsm/rocketmq-rust/issues/10735</link>
+      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10735</guid>
+      <pubDate>Fri, 18 Sep 2026 12:47:24 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1518 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10735 in mxsm/rocketmq-rust: [Refactor♻️] Remove the unused mut binding in the request-reply responder example</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test request_reply_responder</code></p>
+<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10735">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>refactor♻️</category>
+      <category>rust</category>
+      <category>Difficulty level/Easy</category>
+      <category>rocketmq-example crate</category>
+    </item>
+    <item>
+      <title>[apache/camel-k] #6829 Drop support for  `kamel run --dev/--sync` (Solvability: 6/10)</title>
+      <link>https://github.com/apache/camel-k/issues/6829</link>
+      <guid isPermaLink="true">https://github.com/apache/camel-k/issues/6829</guid>
+      <pubDate>Fri, 18 Sep 2026 12:59:11 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/apache/camel-k">apache/camel-k</a> (929 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #6829 in apache/camel-k: Drop support for  `kamel run --dev/--sync`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/apache/camel-k/issues/6829">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>kind/task</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30554 [good first issue] 🐉 Add new Video Game Quote 208 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30554</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30554</guid>
+      <pubDate>Fri, 18 Sep 2026 13:00:59 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3411 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30554 in lingdojo/kana-dojo: [good first issue] 🐉 Add new Video Game Quote 208 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-videogame-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30554">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[kestra-io/kestra] #19601 Add icons for Kestra Assets plugin tasks (Solvability: 6/10)</title>
+      <link>https://github.com/kestra-io/kestra/issues/19601</link>
+      <guid isPermaLink="true">https://github.com/kestra-io/kestra/issues/19601</guid>
+      <pubDate>Fri, 18 Sep 2026 13:30:37 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/kestra-io/kestra">kestra-io/kestra</a> (28160 ⭐, Java)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #19601 in kestra-io/kestra: Add icons for Kestra Assets plugin tasks</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/kestra-io/kestra/issues/19601">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Java</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>area/plugin</category>
+      <category>kind/quick-win</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[mariadb-operator/mariadb-operator] #1915 [Bug] PITR silently skips binlog replay: nil pointer panic when s3.tls.enabled is true and caSecretKeyRef is omitted (Solvability: 6/10)</title>
+      <link>https://github.com/mariadb-operator/mariadb-operator/issues/1915</link>
+      <guid isPermaLink="true">https://github.com/mariadb-operator/mariadb-operator/issues/1915</guid>
+      <pubDate>Fri, 18 Sep 2026 13:38:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mariadb-operator/mariadb-operator">mariadb-operator/mariadb-operator</a> (1008 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1915 in mariadb-operator/mariadb-operator: [Bug] PITR silently skips binlog replay: nil pointer panic when s3.tls.enabled is true and caSecretKeyRef is omitted</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./cmd/backup</code></p>
+<p><a href="https://github.com/mariadb-operator/mariadb-operator/issues/1915">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[dbt-labs/dbt-mcp] #889 Rename "fusion" to "v2" in toolset and tool names (Solvability: 6/10)</title>
+      <link>https://github.com/dbt-labs/dbt-mcp/issues/889</link>
+      <guid isPermaLink="true">https://github.com/dbt-labs/dbt-mcp/issues/889</guid>
+      <pubDate>Fri, 18 Sep 2026 14:11:21 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/dbt-labs/dbt-mcp">dbt-labs/dbt-mcp</a> (606 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #889 in dbt-labs/dbt-mcp: Rename "fusion" to "v2" in toolset and tool names</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/dbt_mcp/tools/toolsets.py</code></p>
+<p><a href="https://github.com/dbt-labs/dbt-mcp/issues/889">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[ag2ai/faststream] #3143 📣 Using FastStream in production? Add your organization to ADOPTERS.md (Solvability: 6/10)</title>
+      <link>https://github.com/ag2ai/faststream/issues/3143</link>
+      <guid isPermaLink="true">https://github.com/ag2ai/faststream/issues/3143</guid>
+      <pubDate>Fri, 18 Sep 2026 14:37:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ag2ai/faststream">ag2ai/faststream</a> (5343 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3143 in ag2ai/faststream: 📣 Using FastStream in production? Add your organization to ADOPTERS.md</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/ag2ai/faststream/issues/3143">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[1lck/Lithe-IDEA] #730 [Bug] 顶部图标显示没有对齐左侧栏的图标逻辑 (Solvability: 6/10)</title>
+      <link>https://github.com/1lck/Lithe-IDEA/issues/730</link>
+      <guid isPermaLink="true">https://github.com/1lck/Lithe-IDEA/issues/730</guid>
+      <pubDate>Fri, 18 Sep 2026 14:39:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/1lck/Lithe-IDEA">1lck/Lithe-IDEA</a> (1383 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #730 in 1lck/Lithe-IDEA: [Bug] 顶部图标显示没有对齐左侧栏的图标逻辑</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/1lck/Lithe-IDEA/issues/730">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>P2</category>
+      <category>platform:macos</category>
+      <category>area:editor</category>
+    </item>
+    <item>
+      <title>[hackforla/website] #8791 Update Project Profile: Hackforla.org Website Add Sushma Ramachandra Hegde (Solvability: 6/10)</title>
+      <link>https://github.com/hackforla/website/issues/8791</link>
+      <guid isPermaLink="true">https://github.com/hackforla/website/issues/8791</guid>
+      <pubDate>Fri, 18 Sep 2026 14:43:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/hackforla/website">hackforla/website</a> (364 ⭐, JavaScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #8791 in hackforla/website: Update Project Profile: Hackforla.org Website Add Sushma Ramachandra Hegde</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/hackforla/website/issues/8791">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>JavaScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>role: front end</category>
+      <category>role: back end/devOps</category>
+      <category>P-Feature: Project Info and Page</category>
+      <category>time sensitive</category>
+      <category>size: 0.25pt</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30555 [good first issue] ⛩️ Add new Japanese Idiom 260 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30555</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30555</guid>
+      <pubDate>Fri, 18 Sep 2026 15:01:00 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3411 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30555 in lingdojo/kana-dojo: [good first issue] ⛩️ Add new Japanese Idiom 260 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30555">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[1lck/Lithe-IDEA] #732 [Bug] 编辑器可编辑区域色差问题 (Solvability: 6/10)</title>
+      <link>https://github.com/1lck/Lithe-IDEA/issues/732</link>
+      <guid isPermaLink="true">https://github.com/1lck/Lithe-IDEA/issues/732</guid>
+      <pubDate>Fri, 18 Sep 2026 15:15:35 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/1lck/Lithe-IDEA">1lck/Lithe-IDEA</a> (1383 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #732 in 1lck/Lithe-IDEA: [Bug] 编辑器可编辑区域色差问题</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/1lck/Lithe-IDEA/issues/732">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>P0</category>
+      <category>platform:macos</category>
+      <category>area:editor</category>
+    </item>
     <item>
       <title>[lingdojo/kana-dojo] #30546 [Good First Issue] 🧧 Add new Japanese Proverb 157 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
       <link>https://github.com/lingdojo/kana-dojo/issues/30546</link>
@@ -136,42 +419,6 @@
       <category>help wanted</category>
     </item>
     <item>
-      <title>[mozilla-ai/otari] #1342 Eight arbitrary values are written in px where the rule is rem (Solvability: 6/10)</title>
-      <link>https://github.com/mozilla-ai/otari/issues/1342</link>
-      <guid isPermaLink="true">https://github.com/mozilla-ai/otari/issues/1342</guid>
-      <pubDate>Fri, 18 Sep 2026 09:27:42 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mozilla-ai/otari">mozilla-ai/otari</a> (475 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1342 in mozilla-ai/otari: Eight arbitrary values are written in px where the rule is rem</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/mozilla-ai/otari/issues/1342">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>type/tech-debt</category>
-      <category>area/dashboard</category>
-    </item>
-    <item>
-      <title>[mozilla-ai/otari] #1343 Three design-system primitives have no story, so their states are outside the published catalog (Solvability: 6/10)</title>
-      <link>https://github.com/mozilla-ai/otari/issues/1343</link>
-      <guid isPermaLink="true">https://github.com/mozilla-ai/otari/issues/1343</guid>
-      <pubDate>Fri, 18 Sep 2026 09:27:44 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mozilla-ai/otari">mozilla-ai/otari</a> (475 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1343 in mozilla-ai/otari: Three design-system primitives have no story, so their states are outside the published catalog</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest .github/workflows/otari-design-system.yml</code></p>
-<p><a href="https://github.com/mozilla-ai/otari/issues/1343">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>area/tests</category>
-      <category>area/dashboard</category>
-    </item>
-    <item>
       <title>[mozilla-ai/otari] #1344 One deprecated component has a single call site left, and another has none at all (Solvability: 6/10)</title>
       <link>https://github.com/mozilla-ai/otari/issues/1344</link>
       <guid isPermaLink="true">https://github.com/mozilla-ai/otari/issues/1344</guid>
@@ -182,24 +429,6 @@
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>pytest web/src/design-system/actions/ConfirmRowAction.stories.tsx</code></p>
 <p><a href="https://github.com/mozilla-ai/otari/issues/1344">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>type/tech-debt</category>
-      <category>area/dashboard</category>
-    </item>
-    <item>
-      <title>[mozilla-ai/otari] #1348 Four components bake an outside margin into their own root, two of them reusable parts (Solvability: 6/10)</title>
-      <link>https://github.com/mozilla-ai/otari/issues/1348</link>
-      <guid isPermaLink="true">https://github.com/mozilla-ai/otari/issues/1348</guid>
-      <pubDate>Fri, 18 Sep 2026 09:28:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mozilla-ai/otari">mozilla-ai/otari</a> (475 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1348 in mozilla-ai/otari: Four components bake an outside margin into their own root, two of them reusable parts</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest web/src/features/onboarding/SetupSuccessMark.tsx</code></p>
-<p><a href="https://github.com/mozilla-ai/otari/issues/1348">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>Python</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -252,87 +481,6 @@
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>cargo test --test config</code></p>
 <p><a href="https://github.com/mxsm/rocketmq-rust/issues/10719">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation📝</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10721 [Doc📝] Document the BloomFilterData struct (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10721</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10721</guid>
-      <pubDate>Thu, 17 Sep 2026 23:39:53 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10721 in mxsm/rocketmq-rust: [Doc📝] Document the BloomFilterData struct</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test bloom_filter_data</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10721">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation📝</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10722 [Bug🐛] LongRangeAttribute::new doc comment describes the wrong constructor (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10722</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10722</guid>
-      <pubDate>Thu, 17 Sep 2026 23:40:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10722 in mxsm/rocketmq-rust: [Bug🐛] LongRangeAttribute::new doc comment describes the wrong constructor</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test enum_attribute</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10722">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug🐛</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10723 [Enhancement✨] Remove the unneeded Vec allocation in parse_host_from_address (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10723</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10723</guid>
-      <pubDate>Thu, 17 Sep 2026 23:40:07 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10723 in mxsm/rocketmq-rust: [Enhancement✨] Remove the unneeded Vec allocation in parse_host_from_address</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test update_global_white_addrs_config_request_handler</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10723">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-      <category>performance</category>
-      <category>enhancement✨</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10724 [Doc📝] Document the ForbiddenType constants (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10724</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10724</guid>
-      <pubDate>Thu, 17 Sep 2026 23:40:10 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10724 in mxsm/rocketmq-rust: [Doc📝] Document the ForbiddenType constants</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test forbidden_type</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10724">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>Rust</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -795,150 +943,6 @@
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>help wanted</category>
-    </item>
-    <item>
-      <title>[xunit/xunit] #3632 Add analyzer to detect illegal and/or duplicate cultures (Solvability: 6/10)</title>
-      <link>https://github.com/xunit/xunit/issues/3632</link>
-      <guid isPermaLink="true">https://github.com/xunit/xunit/issues/3632</guid>
-      <pubDate>Wed, 16 Sep 2026 17:18:29 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/xunit/xunit">xunit/xunit</a> (4604 ⭐, C#)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3632 in xunit/xunit: Add analyzer to detect illegal and/or duplicate cultures</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/xunit/xunit/issues/3632">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C#</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Feature</category>
-      <category>help wanted</category>
-      <category>Analyzers</category>
-    </item>
-    <item>
-      <title>[libredb/libredb-studio] #869 fly.toml's default image tag is several releases behind the latest tag (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/869</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/869</guid>
-      <pubDate>Tue, 15 Sep 2026 21:53:21 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (755 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #869 in libredb/libredb-studio: fly.toml's default image tag is several releases behind the latest tag</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/869">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[LibreSign/libresign] #8411 Update jsignpdf-php in LibreSign 3rdparty (Solvability: 6/10)</title>
-      <link>https://github.com/LibreSign/libresign/issues/8411</link>
-      <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/8411</guid>
-      <pubDate>Tue, 15 Sep 2026 23:24:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LibreSign/libresign">LibreSign/libresign</a> (811 ⭐, PHP)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8411 in LibreSign/libresign: Update jsignpdf-php in LibreSign 3rdparty</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/LibreSign/libresign/issues/8411">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>PHP</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>backend</category>
-      <category>php</category>
-    </item>
-    <item>
-      <title>[nexu-io/open-design] #8176 [Bug]: Global button height reset clips multi-line button content in several components (Solvability: 6/10)</title>
-      <link>https://github.com/nexu-io/open-design/issues/8176</link>
-      <guid isPermaLink="true">https://github.com/nexu-io/open-design/issues/8176</guid>
-      <pubDate>Tue, 15 Sep 2026 19:00:02 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/nexu-io/open-design">nexu-io/open-design</a> (96366 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8176 in nexu-io/open-design: [Bug]: Global button height reset clips multi-line button content in several components</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/web/src/styles/primitives.css</code></p>
-<p><a href="https://github.com/nexu-io/open-design/issues/8176">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[Doezer/Questarr] #1035 Indexer categories outside 40xx/10xx are silently dropped from searches (Solvability: 6/10)</title>
-      <link>https://github.com/Doezer/Questarr/issues/1035</link>
-      <guid isPermaLink="true">https://github.com/Doezer/Questarr/issues/1035</guid>
-      <pubDate>Tue, 15 Sep 2026 20:04:24 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Doezer/Questarr">Doezer/Questarr</a> (642 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1035 in Doezer/Questarr: Indexer categories outside 40xx/10xx are silently dropped from searches</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test server/indexer-caps.ts</code></p>
-<p><a href="https://github.com/Doezer/Questarr/issues/1035">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>priority:medium</category>
-      <category>area:api</category>
-    </item>
-    <item>
-      <title>[stjude-rust-labs/sprocket] #1209 wdl-lint: always check struct doc comments in `MetaSections` (Solvability: 6/10)</title>
-      <link>https://github.com/stjude-rust-labs/sprocket/issues/1209</link>
-      <guid isPermaLink="true">https://github.com/stjude-rust-labs/sprocket/issues/1209</guid>
-      <pubDate>Tue, 15 Sep 2026 17:47:57 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/stjude-rust-labs/sprocket">stjude-rust-labs/sprocket</a> (207 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1209 in stjude-rust-labs/sprocket: wdl-lint: always check struct doc comments in `MetaSections`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test meta</code></p>
-<p><a href="https://github.com/stjude-rust-labs/sprocket/issues/1209">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>s-blocked</category>
-    </item>
-    <item>
-      <title>[owncast/owncast] #5180 Reminder: Update Hacktoberfest branding for this year (Solvability: 6/10)</title>
-      <link>https://github.com/owncast/owncast/issues/5180</link>
-      <guid isPermaLink="true">https://github.com/owncast/owncast/issues/5180</guid>
-      <pubDate>Tue, 15 Sep 2026 09:00:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/owncast/owncast">owncast/owncast</a> (11527 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #5180 in owncast/owncast: Reminder: Update Hacktoberfest branding for this year</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/owncast/owncast/issues/5180">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[qgis/QGIS] #67443 We need to remove voting from the plugin manager (Solvability: 6/10)</title>
-      <link>https://github.com/qgis/QGIS/issues/67443</link>
-      <guid isPermaLink="true">https://github.com/qgis/QGIS/issues/67443</guid>
-      <pubDate>Tue, 15 Sep 2026 09:00:27 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/qgis/QGIS">qgis/QGIS</a> (14380 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #67443 in qgis/QGIS: We need to remove voting from the plugin manager</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/qgis/QGIS/issues/67443">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Feature Request</category>
-      <category>Plugin manager</category>
-      <category>Good First Issue</category>
     </item>
   </channel>
 </rss>

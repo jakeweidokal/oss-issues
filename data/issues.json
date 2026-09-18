@@ -1,5 +1,457 @@
 [
   {
+    "id": "I_kwDOK45rdc8AAAABR93W7w",
+    "number": 2701,
+    "title": "BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors",
+    "url": "https://github.com/microsoft/PyRIT/issues/2701",
+    "repo": "microsoft/PyRIT",
+    "repoUrl": "https://github.com/microsoft/PyRIT",
+    "stars": 4505,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "Bug: triage"
+    ],
+    "createdAt": "2026-09-18T14:22:03Z",
+    "updatedAt": "2026-09-18T14:44:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2701 in microsoft/PyRIT: BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:22:06.442Z"
+  },
+  {
+    "id": "I_kwDOK45rdc8AAAABR93W_g",
+    "number": 2702,
+    "title": "BUG Legacy /targets links redirect to Home instead of Target Registry",
+    "url": "https://github.com/microsoft/PyRIT/issues/2702",
+    "repo": "microsoft/PyRIT",
+    "repoUrl": "https://github.com/microsoft/PyRIT",
+    "stars": 4505,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "Bug: triage"
+    ],
+    "createdAt": "2026-09-18T14:22:03Z",
+    "updatedAt": "2026-09-18T14:44:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2702 in microsoft/PyRIT: BUG Legacy /targets links redirect to Home instead of Target Registry",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:22:00.848Z"
+  },
+  {
+    "id": "I_kwDORUqZb88AAAABR-JUbg",
+    "number": 1069,
+    "title": "loss_watchdog, loss_spike_recovery and grad_accum_auto_tune are read by nothing on backend: mlx",
+    "url": "https://github.com/MakazhanAlpamys/Soup/issues/1069",
+    "repo": "MakazhanAlpamys/Soup",
+    "repoUrl": "https://github.com/MakazhanAlpamys/Soup",
+    "stars": 6794,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T14:50:23Z",
+    "updatedAt": "2026-09-18T14:50:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/soup_cli/trainer/mlx_sft.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/soup_cli/trainer/mlx_sft.py"
+    ],
+    "summary": "Fix issue #1069 in MakazhanAlpamys/Soup: loss_watchdog, loss_spike_recovery and grad_accum_auto_tune are read by nothing on backend: mlx",
+    "maintainerTurnaroundDays": 0.9,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:56.061Z"
+  },
+  {
+    "id": "I_kwDODmAYMc8AAAABR-YdAQ",
+    "number": 3492,
+    "title": "Support for cursors change",
+    "url": "https://github.com/f3d-app/f3d/issues/3492",
+    "repo": "f3d-app/f3d",
+    "repoUrl": "https://github.com/f3d-app/f3d",
+    "stars": 4699,
+    "language": "C++",
+    "labels": [
+      "source:VTK",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T15:13:28Z",
+    "updatedAt": "2026-09-18T15:13:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3492 in f3d-app/f3d: Support for cursors change",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-18T15:21:54.928Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABR88-TQ",
+    "number": 10735,
+    "title": "[Refactor♻️] Remove the unused mut binding in the request-reply responder example",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10735",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "refactor♻️",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-example crate"
+    ],
+    "createdAt": "2026-09-18T12:47:24Z",
+    "updatedAt": "2026-09-18T12:47:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test request_reply_responder",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-example/examples/consumer/request_reply_responder.rs",
+      "rocketmq-client/src/producer/default_mq_producer.rs"
+    ],
+    "summary": "Fix issue #10735 in mxsm/rocketmq-rust: [Refactor♻️] Remove the unused mut binding in the request-reply responder example",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:41.185Z"
+  },
+  {
+    "id": "I_kwDOCMD8J88AAAABR9DiyA",
+    "number": 6829,
+    "title": "Drop support for  `kamel run --dev/--sync`",
+    "url": "https://github.com/apache/camel-k/issues/6829",
+    "repo": "apache/camel-k",
+    "repoUrl": "https://github.com/apache/camel-k",
+    "stars": 929,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "kind/task"
+    ],
+    "createdAt": "2026-09-18T12:59:11Z",
+    "updatedAt": "2026-09-18T12:59:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #6829 in apache/camel-k: Drop support for  `kamel run --dev/--sync`",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:36.408Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABR9Em3A",
+    "number": 30554,
+    "title": "[good first issue] 🐉 Add new Video Game Quote 208 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30554",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3411,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-18T13:00:59Z",
+    "updatedAt": "2026-09-18T13:01:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #30554 in lingdojo/kana-dojo: [good first issue] 🐉 Add new Video Game Quote 208 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:35.146Z"
+  },
+  {
+    "id": "I_kwDODCtNAc8AAAABR9Wz_g",
+    "number": 19601,
+    "title": "Add icons for Kestra Assets plugin tasks",
+    "url": "https://github.com/kestra-io/kestra/issues/19601",
+    "repo": "kestra-io/kestra",
+    "repoUrl": "https://github.com/kestra-io/kestra",
+    "stars": 28160,
+    "language": "Java",
+    "labels": [
+      "area/plugin",
+      "kind/quick-win",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-18T13:30:37Z",
+    "updatedAt": "2026-09-18T13:31:20Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #19601 in kestra-io/kestra: Add icons for Kestra Assets plugin tasks",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-18T15:21:33.698Z"
+  },
+  {
+    "id": "I_kwDOHg5Khs8AAAABR9bUJg",
+    "number": 1915,
+    "title": "[Bug] PITR silently skips binlog replay: nil pointer panic when s3.tls.enabled is true and caSecretKeyRef is omitted",
+    "url": "https://github.com/mariadb-operator/mariadb-operator/issues/1915",
+    "repo": "mariadb-operator/mariadb-operator",
+    "repoUrl": "https://github.com/mariadb-operator/mariadb-operator",
+    "stars": 1008,
+    "language": "Go",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-18T13:38:03Z",
+    "updatedAt": "2026-09-18T13:40:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./cmd/backup",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "cmd/backup/main.go",
+      "internal/controller/mariadb_controller_pitr.go"
+    ],
+    "summary": "Fix issue #1915 in mariadb-operator/mariadb-operator: [Bug] PITR silently skips binlog replay: nil pointer panic when s3.tls.enabled is true and caSecretKeyRef is omitted",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:31.214Z"
+  },
+  {
+    "id": "I_kwDOOHn12s8AAAABR9wDrA",
+    "number": 889,
+    "title": "Rename \"fusion\" to \"v2\" in toolset and tool names",
+    "url": "https://github.com/dbt-labs/dbt-mcp/issues/889",
+    "repo": "dbt-labs/dbt-mcp",
+    "repoUrl": "https://github.com/dbt-labs/dbt-mcp",
+    "stars": 606,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-18T14:11:21Z",
+    "updatedAt": "2026-09-18T14:46:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/dbt_mcp/tools/toolsets.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/dbt_mcp/tools/toolsets.py",
+      "src/dbt_mcp/tools/tool_names.py",
+      "src/dbt_mcp/tools/readme_mappings.py"
+    ],
+    "summary": "Fix issue #889 in dbt-labs/dbt-mcp: Rename \"fusion\" to \"v2\" in toolset and tool names",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:30.310Z"
+  },
+  {
+    "id": "I_kwDOIiXuds8AAAABR-BNUw",
+    "number": 3143,
+    "title": "📣 Using FastStream in production? Add your organization to ADOPTERS.md",
+    "url": "https://github.com/ag2ai/faststream/issues/3143",
+    "repo": "ag2ai/faststream",
+    "repoUrl": "https://github.com/ag2ai/faststream",
+    "stars": 5343,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-18T14:37:30Z",
+    "updatedAt": "2026-09-18T14:37:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3143 in ag2ai/faststream: 📣 Using FastStream in production? Add your organization to ADOPTERS.md",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:29.765Z"
+  },
+  {
+    "id": "I_kwDOTq8AqM8AAAABR-CKSQ",
+    "number": 730,
+    "title": "[Bug] 顶部图标显示没有对齐左侧栏的图标逻辑",
+    "url": "https://github.com/1lck/Lithe-IDEA/issues/730",
+    "repo": "1lck/Lithe-IDEA",
+    "repoUrl": "https://github.com/1lck/Lithe-IDEA",
+    "stars": 1383,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "P2",
+      "platform:macos",
+      "area:editor"
+    ],
+    "createdAt": "2026-09-18T14:39:05Z",
+    "updatedAt": "2026-09-18T14:39:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #730 in 1lck/Lithe-IDEA: [Bug] 顶部图标显示没有对齐左侧栏的图标逻辑",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:28.927Z"
+  },
+  {
+    "id": "I_kwDOB7-mp88AAAABR-EjBQ",
+    "number": 8791,
+    "title": "Update Project Profile: Hackforla.org Website Add Sushma Ramachandra Hegde",
+    "url": "https://github.com/hackforla/website/issues/8791",
+    "repo": "hackforla/website",
+    "repoUrl": "https://github.com/hackforla/website",
+    "stars": 364,
+    "language": "JavaScript",
+    "labels": [
+      "good first issue",
+      "role: front end",
+      "role: back end/devOps",
+      "P-Feature: Project Info and Page",
+      "time sensitive",
+      "size: 0.25pt"
+    ],
+    "createdAt": "2026-09-18T14:43:03Z",
+    "updatedAt": "2026-09-18T14:43:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8791 in hackforla/website: Update Project Profile: Hackforla.org Website Add Sushma Ramachandra Hegde",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "gh-pages",
+    "discoveredAt": "2026-09-18T15:21:25.565Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABR-QGIA",
+    "number": 30555,
+    "title": "[good first issue] ⛩️ Add new Japanese Idiom 260 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30555",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3411,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-18T15:01:00Z",
+    "updatedAt": "2026-09-18T15:01:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #30555 in lingdojo/kana-dojo: [good first issue] ⛩️ Add new Japanese Idiom 260 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:24.048Z"
+  },
+  {
+    "id": "I_kwDOTq8AqM8AAAABR-Z3Iw",
+    "number": 732,
+    "title": "[Bug] 编辑器可编辑区域色差问题",
+    "url": "https://github.com/1lck/Lithe-IDEA/issues/732",
+    "repo": "1lck/Lithe-IDEA",
+    "repoUrl": "https://github.com/1lck/Lithe-IDEA",
+    "stars": 1383,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "P0",
+      "platform:macos",
+      "area:editor"
+    ],
+    "createdAt": "2026-09-18T15:15:35Z",
+    "updatedAt": "2026-09-18T15:15:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #732 in 1lck/Lithe-IDEA: [Bug] 编辑器可编辑区域色差问题",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-18T15:21:22.776Z"
+  },
+  {
     "id": "I_kwDOOwsln88AAAABR5QOQg",
     "number": 30546,
     "title": "[Good First Issue] 🧧 Add new Japanese Proverb 157 - Beginner-Friendly Open-source Contribution (good-first-issue)",
@@ -207,64 +659,6 @@
     "discoveredAt": "2026-09-18T10:11:21.095Z"
   },
   {
-    "id": "I_kwDOR30V3c8AAAABR7Rl9w",
-    "number": 1342,
-    "title": "Eight arbitrary values are written in px where the rule is rem",
-    "url": "https://github.com/mozilla-ai/otari/issues/1342",
-    "repo": "mozilla-ai/otari",
-    "repoUrl": "https://github.com/mozilla-ai/otari",
-    "stars": 475,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "type/tech-debt",
-      "area/dashboard"
-    ],
-    "createdAt": "2026-09-18T09:27:42Z",
-    "updatedAt": "2026-09-18T09:27:42Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1342 in mozilla-ai/otari: Eight arbitrary values are written in px where the rule is rem",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:16.746Z"
-  },
-  {
-    "id": "I_kwDOR30V3c8AAAABR7RnLw",
-    "number": 1343,
-    "title": "Three design-system primitives have no story, so their states are outside the published catalog",
-    "url": "https://github.com/mozilla-ai/otari/issues/1343",
-    "repo": "mozilla-ai/otari",
-    "repoUrl": "https://github.com/mozilla-ai/otari",
-    "stars": 475,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "area/tests",
-      "area/dashboard"
-    ],
-    "createdAt": "2026-09-18T09:27:44Z",
-    "updatedAt": "2026-09-18T09:27:44Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest .github/workflows/otari-design-system.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".github/workflows/otari-design-system.yml"
-    ],
-    "summary": "Fix issue #1343 in mozilla-ai/otari: Three design-system primitives have no story, so their states are outside the published catalog",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:13.738Z"
-  },
-  {
     "id": "I_kwDOR30V3c8AAAABR7RoTw",
     "number": 1344,
     "title": "One deprecated component has a single call site left, and another has none at all",
@@ -294,36 +688,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T10:11:11.855Z"
-  },
-  {
-    "id": "I_kwDOR30V3c8AAAABR7RzuA",
-    "number": 1348,
-    "title": "Four components bake an outside margin into their own root, two of them reusable parts",
-    "url": "https://github.com/mozilla-ai/otari/issues/1348",
-    "repo": "mozilla-ai/otari",
-    "repoUrl": "https://github.com/mozilla-ai/otari",
-    "stars": 475,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "type/tech-debt",
-      "area/dashboard"
-    ],
-    "createdAt": "2026-09-18T09:28:04Z",
-    "updatedAt": "2026-09-18T10:05:17Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest web/src/features/onboarding/SetupSuccessMark.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "web/src/features/onboarding/SetupSuccessMark.tsx",
-      "web/src/features/playground/MessageBubble.tsx"
-    ],
-    "summary": "Fix issue #1348 in mozilla-ai/otari: Four components bake an outside margin into their own root, two of them reusable parts",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:09.915Z"
   },
   {
     "id": "I_kwDOAL_Y588AAAABR7d4cA",
@@ -411,134 +775,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T01:56:25.472Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABR3SZ9A",
-    "number": 10721,
-    "title": "[Doc📝] Document the BloomFilterData struct",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10721",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1517,
-    "language": "Rust",
-    "labels": [
-      "documentation📝",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-17T23:39:53Z",
-    "updatedAt": "2026-09-17T23:39:53Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test bloom_filter_data",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-filter/src/utils/bloom_filter_data.rs"
-    ],
-    "summary": "Fix issue #10721 in mxsm/rocketmq-rust: [Doc📝] Document the BloomFilterData struct",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:56:14.581Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABR3Sd0A",
-    "number": 10722,
-    "title": "[Bug🐛] LongRangeAttribute::new doc comment describes the wrong constructor",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10722",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1517,
-    "language": "Rust",
-    "labels": [
-      "bug🐛",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-17T23:40:04Z",
-    "updatedAt": "2026-09-17T23:40:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test enum_attribute",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-model/src/common/attribute/enum_attribute.rs",
-      "rocketmq-model/src/common/attribute/long_range_attribute.rs"
-    ],
-    "summary": "Fix issue #10722 in mxsm/rocketmq-rust: [Bug🐛] LongRangeAttribute::new doc comment describes the wrong constructor",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:56:09.031Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABR3Seyg",
-    "number": 10723,
-    "title": "[Enhancement✨] Remove the unneeded Vec allocation in parse_host_from_address",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10723",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1517,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "performance",
-      "enhancement✨"
-    ],
-    "createdAt": "2026-09-17T23:40:07Z",
-    "updatedAt": "2026-09-17T23:40:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test update_global_white_addrs_config_request_handler",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-broker/src/processor/admin_broker_processor/update_global_white_addrs_config_request_handler.rs",
-      "rocketmq-client/src/config_support/name_server_address_utils.rs",
-      "rocketmq-controller/src/event/update_broker_address_event.rs"
-    ],
-    "summary": "Fix issue #10723 in mxsm/rocketmq-rust: [Enhancement✨] Remove the unneeded Vec allocation in parse_host_from_address",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:56:03.567Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABR3SgJw",
-    "number": 10724,
-    "title": "[Doc📝] Document the ForbiddenType constants",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10724",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1517,
-    "language": "Rust",
-    "labels": [
-      "documentation📝",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-17T23:40:10Z",
-    "updatedAt": "2026-09-17T23:40:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test forbidden_type",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-protocol/src/protocol/forbidden_type.rs"
-    ],
-    "summary": "Fix issue #10724 in mxsm/rocketmq-rust: [Doc📝] Document the ForbiddenType constants",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:55:58.125Z"
   },
   {
     "id": "I_kwDOK5M3Is8AAAABR3ShbA",
@@ -4245,242 +4481,5 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-07T10:55:07.658Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQD4OWA",
-    "number": 3055,
-    "title": "Fingerprint federated update schemas without tensor values",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3055",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5254,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "roadmap-v2",
-      "feature",
-      "P2"
-    ],
-    "createdAt": "2026-09-07T09:31:23Z",
-    "updatedAt": "2026-09-07T09:31:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3055 in maziyarpanahi/openmed: Fingerprint federated update schemas without tensor values",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T10:55:04.725Z"
-  },
-  {
-    "id": "I_kwDOB11tyM8AAAABP_68pw",
-    "number": 4321,
-    "title": "💡Full video buffer",
-    "url": "https://github.com/code-charity/youtube/issues/4321",
-    "repo": "code-charity/youtube",
-    "repoUrl": "https://github.com/code-charity/youtube",
-    "stars": 4565,
-    "language": "JavaScript",
-    "labels": [
-      "Feature request",
-      "help wanted",
-      "good first issue",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-07T00:24:54Z",
-    "updatedAt": "2026-09-07T00:24:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #4321 in code-charity/youtube: 💡Full video buffer",
-    "maintainerTurnaroundDays": 1.9,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T01:36:54.768Z"
-  },
-  {
-    "id": "I_kwDOHMbISc8AAAABP9SOcQ",
-    "number": 2003,
-    "title": "App Request:",
-    "url": "https://github.com/wimpysworld/deb-get/issues/2003",
-    "repo": "wimpysworld/deb-get",
-    "repoUrl": "https://github.com/wimpysworld/deb-get",
-    "stars": 1746,
-    "language": "Shell",
-    "labels": [
-      "good first issue",
-      "new package"
-    ],
-    "createdAt": "2026-09-06T15:19:33Z",
-    "updatedAt": "2026-09-06T15:20:17Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2003 in wimpysworld/deb-get: App Request:",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T19:42:31.964Z"
-  },
-  {
-    "id": "I_kwDOEUy9GM8AAAABP-cUMA",
-    "number": 8284,
-    "title": "List LibreSign in beginner-friendly open source directories",
-    "url": "https://github.com/LibreSign/libresign/issues/8284",
-    "repo": "LibreSign/libresign",
-    "repoUrl": "https://github.com/LibreSign/libresign",
-    "stars": 804,
-    "language": "PHP",
-    "labels": [
-      "good first issue",
-      "community"
-    ],
-    "createdAt": "2026-09-06T19:13:55Z",
-    "updatedAt": "2026-09-06T19:13:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "playwright/e2e/files-new-signature-request.spec.ts",
-      "playwright/e2e/policy-api-signature-flow-negative.spec.ts",
-      "playwright/e2e/policy-workbench-signature-hash-algorithm-rule-management.spec.ts"
-    ],
-    "summary": "Fix issue #8284 in LibreSign/libresign: List LibreSign in beginner-friendly open source directories",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-06T19:42:22.123Z"
-  },
-  {
-    "id": "I_kwDODgj3cc8AAAABP7MIAw",
-    "number": 21912,
-    "title": "Open new source to check Webhook [TRIGGER]",
-    "url": "https://github.com/PipedreamHQ/pipedream/issues/21912",
-    "repo": "PipedreamHQ/pipedream",
-    "repoUrl": "https://github.com/PipedreamHQ/pipedream",
-    "stars": 11674,
-    "language": "JavaScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "trigger / source"
-    ],
-    "createdAt": "2026-09-06T07:42:24Z",
-    "updatedAt": "2026-09-06T07:42:24Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #21912 in PipedreamHQ/pipedream: Open new source to check Webhook [TRIGGER]",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-06T09:49:46.947Z"
-  },
-  {
-    "id": "I_kwDOMOe1_88AAAABP2nHrA",
-    "number": 184,
-    "title": "chore(lint): pay down the size and complexity baseline",
-    "url": "https://github.com/xberg-io/tree-sitter-language-pack/issues/184",
-    "repo": "xberg-io/tree-sitter-language-pack",
-    "repoUrl": "https://github.com/xberg-io/tree-sitter-language-pack",
-    "stars": 463,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-05T15:11:55Z",
-    "updatedAt": "2026-09-05T15:14:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test build",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "crates/ts-pack-core/build.rs",
-      "crates/ts-pack-core/src/text_splitter.rs",
-      "crates/ts-pack-cli/src/main.rs"
-    ],
-    "summary": "Fix issue #184 in xberg-io/tree-sitter-language-pack: chore(lint): pay down the size and complexity baseline",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T19:40:11.145Z"
-  },
-  {
-    "id": "I_kwDOD_Qo9M8AAAABP3h12A",
-    "number": 628,
-    "title": "Add Units support for more properties",
-    "url": "https://github.com/ClapeyronThermo/Clapeyron.jl/issues/628",
-    "repo": "ClapeyronThermo/Clapeyron.jl",
-    "repoUrl": "https://github.com/ClapeyronThermo/Clapeyron.jl",
-    "stars": 292,
-    "language": "Julia",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "method improvements"
-    ],
-    "createdAt": "2026-09-05T17:48:22Z",
-    "updatedAt": "2026-09-05T17:48:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #628 in ClapeyronThermo/Clapeyron.jl: Add Units support for more properties",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-05T19:39:56.408Z"
-  },
-  {
-    "id": "I_kwDONYSyns8AAAABP13EPA",
-    "number": 57,
-    "title": "feat/Support native addons (.node files) in Node.js SEA binaries",
-    "url": "https://github.com/goatplatform/goatdb/issues/57",
-    "repo": "goatplatform/goatdb",
-    "repoUrl": "https://github.com/goatplatform/goatdb",
-    "stars": 575,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-05T12:48:46Z",
-    "updatedAt": "2026-09-05T12:49:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test cli/compile.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "cli/compile.ts",
-      "cli/templates/node/server/server-sea.ts"
-    ],
-    "summary": "Fix issue #57 in goatplatform/goatdb: feat/Support native addons (.node files) in Node.js SEA binaries",
-    "maintainerTurnaroundDays": 2.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-05T14:07:51.741Z"
   }
 ]
