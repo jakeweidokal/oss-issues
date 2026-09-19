@@ -5,8 +5,272 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Sep 2026 02:00:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 09:52:19 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[aegra/aegra] #616 [BUG] Changing POSTGRES_PORT in .env breaks Docker Compose startup (Solvability: 6/10)</title>
+      <link>https://github.com/aegra/aegra/issues/616</link>
+      <guid isPermaLink="true">https://github.com/aegra/aegra/issues/616</guid>
+      <pubDate>Sat, 19 Sep 2026 06:56:48 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/aegra/aegra">aegra/aegra</a> (1206 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Docker required</p>
+<p><strong>Summary:</strong> Fix issue #616 in aegra/aegra: [BUG] Changing POSTGRES_PORT in .env breaks Docker Compose startup</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest docker-compose.yml</code></p>
+<p><a href="https://github.com/aegra/aegra/issues/616">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-docker-required</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[sktime/sktime] #11201 [BUG] fix `SameLocSplitter` contract failures and/or adapt tests (Solvability: 6/10)</title>
+      <link>https://github.com/sktime/sktime/issues/11201</link>
+      <guid isPermaLink="true">https://github.com/sktime/sktime/issues/11201</guid>
+      <pubDate>Sat, 19 Sep 2026 07:33:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sktime/sktime">sktime/sktime</a> (10022 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #11201 in sktime/sktime: [BUG] fix `SameLocSplitter` contract failures and/or adapt tests</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest sktime/transformations/tests/test_check_estimator.py</code></p>
+<p><a href="https://github.com/sktime/sktime/issues/11201">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>module:splitters&amp;resamplers</category>
+    </item>
+    <item>
+      <title>[sktime/sktime] #11202 [BUG] fix `CutoffFhSplitter` failures and/or adapt splitter tests (Solvability: 6/10)</title>
+      <link>https://github.com/sktime/sktime/issues/11202</link>
+      <guid isPermaLink="true">https://github.com/sktime/sktime/issues/11202</guid>
+      <pubDate>Sat, 19 Sep 2026 07:34:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sktime/sktime">sktime/sktime</a> (10022 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #11202 in sktime/sktime: [BUG] fix `CutoffFhSplitter` failures and/or adapt splitter tests</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest sktime/transformations/tests/test_check_estimator.py</code></p>
+<p><a href="https://github.com/sktime/sktime/issues/11202">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>module:splitters&amp;resamplers</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3752 deja sources should say when a store holds transcripts the index never read (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3752</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3752</guid>
+      <pubDate>Sat, 19 Sep 2026 07:38:45 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3752 in vshulcz/deja-vu: deja sources should say when a store holds transcripts the index never read</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3752">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3753 deja forget --list should mark a tombstone whose session no longer exists (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3753</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3753</guid>
+      <pubDate>Sat, 19 Sep 2026 07:38:58 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3753 in vshulcz/deja-vu: deja forget --list should mark a tombstone whose session no longer exists</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3753">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3754 a guide page for deleting Kiro session history (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3754</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3754</guid>
+      <pubDate>Sat, 19 Sep 2026 07:39:13 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3754 in vshulcz/deja-vu: a guide page for deleting Kiro session history</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./docs/guide</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3754">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[nicedreamzapp/claude-code-local] #58 Good first issue: add your model's tool-call output as a parser test case (Solvability: 6/10)</title>
+      <link>https://github.com/nicedreamzapp/claude-code-local/issues/58</link>
+      <guid isPermaLink="true">https://github.com/nicedreamzapp/claude-code-local/issues/58</guid>
+      <pubDate>Sat, 19 Sep 2026 08:54:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/nicedreamzapp/claude-code-local">nicedreamzapp/claude-code-local</a> (3320 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #58 in nicedreamzapp/claude-code-local: Good first issue: add your model's tool-call output as a parser test case</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest scripts/test_parse_tool_calls.py</code></p>
+<p><a href="https://github.com/nicedreamzapp/claude-code-local/issues/58">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30573 [good first issue] 🎍 Add new Trivia Question 695 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30573</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30573</guid>
+      <pubDate>Sat, 19 Sep 2026 09:01:00 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3416 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30573 in lingdojo/kana-dojo: [good first issue] 🎍 Add new Trivia Question 695 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-trivia-medium.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30573">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[leaperone/MultiPost-Extension] #233 feat: bonjour! 平台支持 (Solvability: 6/10)</title>
+      <link>https://github.com/leaperone/MultiPost-Extension/issues/233</link>
+      <guid isPermaLink="true">https://github.com/leaperone/MultiPost-Extension/issues/233</guid>
+      <pubDate>Sat, 19 Sep 2026 09:05:55 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/leaperone/MultiPost-Extension">leaperone/MultiPost-Extension</a> (3500 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #233 in leaperone/MultiPost-Extension: feat: bonjour! 平台支持</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/leaperone/MultiPost-Extension/issues/233">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>customer</category>
+      <category>needs-info</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3762 a page for adding memory to Senpi (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3762</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3762</guid>
+      <pubDate>Sat, 19 Sep 2026 09:28:24 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3762 in vshulcz/deja-vu: a page for adding memory to Senpi</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./docs/guide</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3762">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3763 a page for adding memory to ZCode, whose two stores do not know about each other (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3763</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3763</guid>
+      <pubDate>Sat, 19 Sep 2026 09:28:35 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #3763 in vshulcz/deja-vu: a page for adding memory to ZCode, whose two stores do not know about each other</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./docs/registry</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3763">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3764 pages for Kimchi Coding and Command Code, which landed without one (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3764</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3764</guid>
+      <pubDate>Sat, 19 Sep 2026 09:28:45 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3764 in vshulcz/deja-vu: pages for Kimchi Coding and Command Code, which landed without one</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./docs/registry</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3764">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3765 find-a-session in Chinese (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3765</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3765</guid>
+      <pubDate>Sat, 19 Sep 2026 09:28:59 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3765 in vshulcz/deja-vu: find-a-session in Chinese</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./docs/zh/guide</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3765">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3766 a guide page for deleting Cline task history (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3766</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3766</guid>
+      <pubDate>Sat, 19 Sep 2026 09:29:11 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3766 in vshulcz/deja-vu: a guide page for deleting Cline task history</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./docs/registry</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3766">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3767 pages for aider and Antigravity, the two extremes (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3767</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3767</guid>
+      <pubDate>Sat, 19 Sep 2026 09:36:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3767 in vshulcz/deja-vu: pages for aider and Antigravity, the two extremes</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./docs/registry</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3767">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
     <item>
       <title>[libredb/libredb-studio] #970 Package LibreDB Studio for nixpkgs (Solvability: 6/10)</title>
       <link>https://github.com/libredb/libredb-studio/issues/970</link>
@@ -123,42 +387,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[libredb/libredb-studio] #979 A committed .only makes a test file report PASS with the rest of its tests never run (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/979</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/979</guid>
-      <pubDate>Sat, 19 Sep 2026 00:23:39 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #979 in libredb/libredb-studio: A committed .only makes a test file report PASS with the rest of its tests never run</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/979">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[libredb/libredb-studio] #980 Backlog citation scan reads untracked files, so a local draft fails a gate CI cannot (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/980</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/980</guid>
-      <pubDate>Sat, 19 Sep 2026 00:23:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #980 in libredb/libredb-studio: Backlog citation scan reads untracked files, so a local draft fails a gate CI cannot</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/backlog-structure.test.ts</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/980">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
       <title>[mldsveda/PyScrappy] #186 Noise-removal regex over-matches, silently deleting real article content (Solvability: 6/10)</title>
       <link>https://github.com/mldsveda/PyScrappy/issues/186</link>
       <guid isPermaLink="true">https://github.com/mldsveda/PyScrappy/issues/186</guid>
@@ -233,26 +461,6 @@
       <category>good-first-issue</category>
     </item>
     <item>
-      <title>[reticlehq/reticle] #999 Three small ones from the field: `impact.json` dirties the repo, `login --help` burns a device code, and `mkdir '/.reticle'` (Solvability: 6/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/999</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/999</guid>
-      <pubDate>Sat, 19 Sep 2026 01:35:20 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (728 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #999 in reticlehq/reticle: Three small ones from the field: `impact.json` dirties the repo, `login --help` burns a device code, and `mkdir '/.reticle'`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/bench-app/src/components/Login.tsx</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/999">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>agent-reported</category>
-      <category>area/server</category>
-    </item>
-    <item>
       <title>[reticlehq/reticle] #1001 [agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name (Solvability: 6/10)</title>
       <link>https://github.com/reticlehq/reticle/issues/1001</link>
       <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1001</guid>
@@ -284,41 +492,6 @@
 
 <p><a href="https://github.com/terrakube-io/terrakube/issues/3579">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>Java</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[reticlehq/reticle] #981 Every `area/*` label still describes a directory 3.1.0 deleted (Solvability: 6/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/981</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/981</guid>
-      <pubDate>Fri, 18 Sep 2026 18:44:11 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (725 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #981 in reticlehq/reticle: Every `area/*` label still describes a directory 3.1.0 deleted</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/981">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[Hebbian-Robotics/hflow] #566 Migrate the Build AI evaluation CLI to Typer (Solvability: 6/10)</title>
-      <link>https://github.com/Hebbian-Robotics/hflow/issues/566</link>
-      <guid isPermaLink="true">https://github.com/Hebbian-Robotics/hflow/issues/566</guid>
-      <pubDate>Fri, 18 Sep 2026 18:57:05 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Hebbian-Robotics/hflow">Hebbian-Robotics/hflow</a> (272 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #566 in Hebbian-Robotics/hflow: Migrate the Build AI evaluation CLI to Typer</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest examples/build_ai_evaluation/evaluate.py</code></p>
-<p><a href="https://github.com/Hebbian-Robotics/hflow/issues/566">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>enhancement</category>
@@ -433,23 +606,6 @@
       <category>enhancement</category>
       <category>help wanted</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[MakazhanAlpamys/Soup] #1069 loss_watchdog, loss_spike_recovery and grad_accum_auto_tune are read by nothing on backend: mlx (Solvability: 6/10)</title>
-      <link>https://github.com/MakazhanAlpamys/Soup/issues/1069</link>
-      <guid isPermaLink="true">https://github.com/MakazhanAlpamys/Soup/issues/1069</guid>
-      <pubDate>Fri, 18 Sep 2026 14:50:23 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MakazhanAlpamys/Soup">MakazhanAlpamys/Soup</a> (6794 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1069 in MakazhanAlpamys/Soup: loss_watchdog, loss_spike_recovery and grad_accum_auto_tune are read by nothing on backend: mlx</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest src/soup_cli/trainer/mlx_sft.py</code></p>
-<p><a href="https://github.com/MakazhanAlpamys/Soup/issues/1069">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
     </item>
     <item>
       <title>[f3d-app/f3d] #3492 Support for cursors change (Solvability: 6/10)</title>
@@ -725,67 +881,6 @@
       <category>technical debt</category>
     </item>
     <item>
-      <title>[mxsm/rocketmq-rust] #10719 [Doc📝] Document ClusterConfig and ClusterExecutionDiagnostics fields (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10719</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10719</guid>
-      <pubDate>Thu, 17 Sep 2026 23:39:48 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10719 in mxsm/rocketmq-rust: [Doc📝] Document ClusterConfig and ClusterExecutionDiagnostics fields</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test config</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10719">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation📝</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10725 [Bug🐛] normalize_nameserver_address accepts hosts with embedded whitespace (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10725</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10725</guid>
-      <pubDate>Thu, 17 Sep 2026 23:40:14 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10725 in mxsm/rocketmq-rust: [Bug🐛] normalize_nameserver_address accepts hosts with embedded whitespace</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test nameserver</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10725">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug🐛</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10726 [Test🧪] Add unit tests for OutputFormat string parsing (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10726</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10726</guid>
-      <pubDate>Thu, 17 Sep 2026 23:40:16 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1517 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10726 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for OutputFormat string parsing</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test formatters</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10726">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-      <category>testing🧪</category>
-      <category>rocketmq-tools crate</category>
-    </item>
-    <item>
       <title>[lingdojo/kana-dojo] #30536 [Good First Issue] 🍡 Add new Japanese Idiom 77 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
       <link>https://github.com/lingdojo/kana-dojo/issues/30536</link>
       <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30536</guid>
@@ -830,127 +925,6 @@
       <category>low hanging fruit</category>
       <category>up-for-grabs</category>
       <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30538 [Good First Issue] 🍶 Add new False Friend Pair 97 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30538</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30538</guid>
-      <pubDate>Fri, 18 Sep 2026 00:57:28 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3411 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30538 in lingdojo/kana-dojo: [Good First Issue] 🍶 Add new False Friend Pair 97 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30538">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30539 [Good First Issue] 🌊 Add new Etiquette Tip 23 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30539</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30539</guid>
-      <pubDate>Fri, 18 Sep 2026 01:01:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3411 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30539 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Etiquette Tip 23 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30539">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[Eugleo/magic-racket] #166 Update langserver feature list in README (Solvability: 6/10)</title>
-      <link>https://github.com/Eugleo/magic-racket/issues/166</link>
-      <guid isPermaLink="true">https://github.com/Eugleo/magic-racket/issues/166</guid>
-      <pubDate>Thu, 17 Sep 2026 16:15:02 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Eugleo/magic-racket">Eugleo/magic-racket</a> (220 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #166 in Eugleo/magic-racket: Update langserver feature list in README</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/Eugleo/magic-racket/issues/166">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>langserver</category>
-    </item>
-    <item>
-      <title>[BlitzKraft/saythanks.io] #579 The audio record button does not work (Solvability: 6/10)</title>
-      <link>https://github.com/BlitzKraft/saythanks.io/issues/579</link>
-      <guid isPermaLink="true">https://github.com/BlitzKraft/saythanks.io/issues/579</guid>
-      <pubDate>Thu, 17 Sep 2026 17:45:52 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/BlitzKraft/saythanks.io">BlitzKraft/saythanks.io</a> (1306 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #579 in BlitzKraft/saythanks.io: The audio record button does not work</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/BlitzKraft/saythanks.io/issues/579">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30521 [Good First Issue] 🎌 Add new Example Sentence 70 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30521</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30521</guid>
-      <pubDate>Thu, 17 Sep 2026 18:01:07 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3409 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30521 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Example Sentence 70 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-example-sentences.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30521">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[DobermanCore/Doberman-Core] #703 tune: the friction report counts ambient-monitor rows as decisions (Solvability: 6/10)</title>
-      <link>https://github.com/DobermanCore/Doberman-Core/issues/703</link>
-      <guid isPermaLink="true">https://github.com/DobermanCore/Doberman-Core/issues/703</guid>
-      <pubDate>Thu, 17 Sep 2026 18:04:05 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DobermanCore/Doberman-Core">DobermanCore/Doberman-Core</a> (296 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #703 in DobermanCore/Doberman-Core: tune: the friction report counts ambient-monitor rows as decisions</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest src/doberman/policy/friction.py</code></p>
-<p><a href="https://github.com/DobermanCore/Doberman-Core/issues/703">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>level-3</category>
     </item>
   </channel>
 </rss>

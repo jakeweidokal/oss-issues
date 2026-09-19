@@ -1,5 +1,446 @@
 [
   {
+    "id": "I_kwDOPP1zAs8AAAABSFO1Aw",
+    "number": 616,
+    "title": "[BUG] Changing POSTGRES_PORT in .env breaks Docker Compose startup",
+    "url": "https://github.com/aegra/aegra/issues/616",
+    "repo": "aegra/aegra",
+    "repoUrl": "https://github.com/aegra/aegra",
+    "stars": 1206,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T06:56:48Z",
+    "updatedAt": "2026-09-19T09:31:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Docker required",
+    "quickReproCommand": "pytest docker-compose.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docker-compose.yml"
+    ],
+    "summary": "Fix issue #616 in aegra/aegra: [BUG] Changing POSTGRES_PORT in .env breaks Docker Compose startup",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:19.878Z"
+  },
+  {
+    "id": "I_kwDOCVKAsc8AAAABSFX8lQ",
+    "number": 11201,
+    "title": "[BUG] fix `SameLocSplitter` contract failures and/or adapt tests",
+    "url": "https://github.com/sktime/sktime/issues/11201",
+    "repo": "sktime/sktime",
+    "repoUrl": "https://github.com/sktime/sktime",
+    "stars": 10022,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "module:splitters&resamplers"
+    ],
+    "createdAt": "2026-09-19T07:33:32Z",
+    "updatedAt": "2026-09-19T07:39:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest sktime/transformations/tests/test_check_estimator.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "sktime/transformations/tests/test_check_estimator.py",
+      "sktime/utils/tests/test_check_estimator.py"
+    ],
+    "summary": "Fix issue #11201 in sktime/sktime: [BUG] fix `SameLocSplitter` contract failures and/or adapt tests",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:19.158Z"
+  },
+  {
+    "id": "I_kwDOCVKAsc8AAAABSFYMhg",
+    "number": 11202,
+    "title": "[BUG] fix `CutoffFhSplitter` failures and/or adapt splitter tests",
+    "url": "https://github.com/sktime/sktime/issues/11202",
+    "repo": "sktime/sktime",
+    "repoUrl": "https://github.com/sktime/sktime",
+    "stars": 10022,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "module:splitters&resamplers"
+    ],
+    "createdAt": "2026-09-19T07:34:34Z",
+    "updatedAt": "2026-09-19T07:39:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest sktime/transformations/tests/test_check_estimator.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "sktime/transformations/tests/test_check_estimator.py",
+      "sktime/utils/tests/test_check_estimator.py"
+    ],
+    "summary": "Fix issue #11202 in sktime/sktime: [BUG] fix `CutoffFhSplitter` failures and/or adapt splitter tests",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:16.338Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSFZOGA",
+    "number": 3752,
+    "title": "deja sources should say when a store holds transcripts the index never read",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3752",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 855,
+    "language": "Go",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T07:38:45Z",
+    "updatedAt": "2026-09-19T07:38:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3752 in vshulcz/deja-vu: deja sources should say when a store holds transcripts the index never read",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:13.502Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSFZR4A",
+    "number": 3753,
+    "title": "deja forget --list should mark a tombstone whose session no longer exists",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3753",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 855,
+    "language": "Go",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T07:38:58Z",
+    "updatedAt": "2026-09-19T07:38:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3753 in vshulcz/deja-vu: deja forget --list should mark a tombstone whose session no longer exists",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:12.181Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSFZXFQ",
+    "number": 3754,
+    "title": "a guide page for deleting Kiro session history",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3754",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 855,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T07:39:13Z",
+    "updatedAt": "2026-09-19T07:39:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./docs/guide",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/guide/delete-opencode-session-history.html",
+      "docs/registry/kiro.html"
+    ],
+    "summary": "Fix issue #3754 in vshulcz/deja-vu: a guide page for deleting Kiro session history",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:10.914Z"
+  },
+  {
+    "id": "I_kwDORxJAr88AAAABSFvXhg",
+    "number": 58,
+    "title": "Good first issue: add your model's tool-call output as a parser test case",
+    "url": "https://github.com/nicedreamzapp/claude-code-local/issues/58",
+    "repo": "nicedreamzapp/claude-code-local",
+    "repoUrl": "https://github.com/nicedreamzapp/claude-code-local",
+    "stars": 3320,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T08:54:52Z",
+    "updatedAt": "2026-09-19T08:54:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest scripts/test_parse_tool_calls.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "scripts/test_parse_tool_calls.py"
+    ],
+    "summary": "Fix issue #58 in nicedreamzapp/claude-code-local: Good first issue: add your model's tool-call output as a parser test case",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:09.606Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSFxKbQ",
+    "number": 30573,
+    "title": "[good first issue] 🎍 Add new Trivia Question 695 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30573",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3416,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-19T09:01:00Z",
+    "updatedAt": "2026-09-19T09:01:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-trivia-medium.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-trivia-medium.json"
+    ],
+    "summary": "Fix issue #30573 in lingdojo/kana-dojo: [good first issue] 🎍 Add new Trivia Question 695 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:09.076Z"
+  },
+  {
+    "id": "I_kwDONN8FYs8AAAABSFyn3A",
+    "number": 233,
+    "title": "feat: bonjour! 平台支持",
+    "url": "https://github.com/leaperone/MultiPost-Extension/issues/233",
+    "repo": "leaperone/MultiPost-Extension",
+    "repoUrl": "https://github.com/leaperone/MultiPost-Extension",
+    "stars": 3500,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted",
+      "customer",
+      "needs-info"
+    ],
+    "createdAt": "2026-09-19T09:05:55Z",
+    "updatedAt": "2026-09-19T09:06:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #233 in leaperone/MultiPost-Extension: feat: bonjour! 平台支持",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:07.735Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSF4HzA",
+    "number": 3762,
+    "title": "a page for adding memory to Senpi",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3762",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 855,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T09:28:24Z",
+    "updatedAt": "2026-09-19T09:28:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./docs/guide",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/guide/memory-for-openclaw.html",
+      "docs/registry/senpi.html",
+      "docs/guide/harnesses.html"
+    ],
+    "summary": "Fix issue #3762 in vshulcz/deja-vu: a page for adding memory to Senpi",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:07.114Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSF4KjA",
+    "number": 3763,
+    "title": "a page for adding memory to ZCode, whose two stores do not know about each other",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3763",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 855,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T09:28:35Z",
+    "updatedAt": "2026-09-19T09:28:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "go test -v ./docs/registry",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/registry/zcode.html",
+      "docs/guide/memory-for-kilocode.html",
+      "docs/guide/harnesses.html"
+    ],
+    "summary": "Fix issue #3763 in vshulcz/deja-vu: a page for adding memory to ZCode, whose two stores do not know about each other",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:05.811Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSF4NQA",
+    "number": 3764,
+    "title": "pages for Kimchi Coding and Command Code, which landed without one",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3764",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 855,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T09:28:45Z",
+    "updatedAt": "2026-09-19T09:28:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./docs/registry",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/registry/kimchi.html",
+      "docs/registry/commandcode.html",
+      "docs/guide/memory-for-crush.html"
+    ],
+    "summary": "Fix issue #3764 in vshulcz/deja-vu: pages for Kimchi Coding and Command Code, which landed without one",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:04.470Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSF4QsQ",
+    "number": 3765,
+    "title": "find-a-session in Chinese",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3765",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 855,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T09:28:59Z",
+    "updatedAt": "2026-09-19T09:28:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./docs/zh/guide",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/zh/guide/session-files-on-disk.html"
+    ],
+    "summary": "Fix issue #3765 in vshulcz/deja-vu: find-a-session in Chinese",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:03.248Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSF4Tpg",
+    "number": 3766,
+    "title": "a guide page for deleting Cline task history",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3766",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 855,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T09:29:11Z",
+    "updatedAt": "2026-09-19T09:29:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./docs/registry",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/registry/cline.html",
+      "docs/guide/delete-opencode-session-history.html"
+    ],
+    "summary": "Fix issue #3766 in vshulcz/deja-vu: a guide page for deleting Cline task history",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:01.949Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSF6ESA",
+    "number": 3767,
+    "title": "pages for aider and Antigravity, the two extremes",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3767",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 855,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T09:36:19Z",
+    "updatedAt": "2026-09-19T09:36:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./docs/registry",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/registry/aider.html",
+      "docs/registry/antigravity.html",
+      "docs/guide/memory-for-pi.html"
+    ],
+    "summary": "Fix issue #3767 in vshulcz/deja-vu: pages for aider and Antigravity, the two extremes",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T09:52:00.676Z"
+  },
+  {
     "id": "I_kwDOQuAx5c8AAAABSCcE0A",
     "number": 970,
     "title": "Package LibreDB Studio for nixpkgs",
@@ -187,65 +628,6 @@
     "discoveredAt": "2026-09-19T02:00:01.976Z"
   },
   {
-    "id": "I_kwDOQuAx5c8AAAABSDUCtw",
-    "number": 979,
-    "title": "A committed .only makes a test file report PASS with the rest of its tests never run",
-    "url": "https://github.com/libredb/libredb-studio/issues/979",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 802,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-19T00:23:39Z",
-    "updatedAt": "2026-09-19T00:23:39Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #979 in libredb/libredb-studio: A committed .only makes a test file report PASS with the rest of its tests never run",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T01:59:59.778Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABSDUDjg",
-    "number": 980,
-    "title": "Backlog citation scan reads untracked files, so a local draft fails a gate CI cannot",
-    "url": "https://github.com/libredb/libredb-studio/issues/980",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 802,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-19T00:23:41Z",
-    "updatedAt": "2026-09-19T00:23:41Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test tests/unit/backlog-structure.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/unit/backlog-structure.test.ts",
-      "tests/unit/agent-documentation.test.ts"
-    ],
-    "summary": "Fix issue #980 in libredb/libredb-studio: Backlog citation scan reads untracked files, so a local draft fails a gate CI cannot",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T01:59:57.613Z"
-  },
-  {
     "id": "I_kwDOFpb_as8AAAABSDVklg",
     "number": 186,
     "title": "Noise-removal regex over-matches, silently deleting real article content",
@@ -365,39 +747,6 @@
     "discoveredAt": "2026-09-19T01:59:53.606Z"
   },
   {
-    "id": "I_kwDOS3TU6c8AAAABSDwpXQ",
-    "number": 999,
-    "title": "Three small ones from the field: `impact.json` dirties the repo, `login --help` burns a device code, and `mkdir '/.reticle'`",
-    "url": "https://github.com/reticlehq/reticle/issues/999",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 728,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported",
-      "area/server"
-    ],
-    "createdAt": "2026-09-19T01:35:20Z",
-    "updatedAt": "2026-09-19T01:35:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test apps/bench-app/src/components/Login.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "apps/bench-app/src/components/Login.tsx",
-      "server/src/command/cli/cloud-login.ts",
-      "server/src/command/cli/doctor/doctor-sessions-line.test.ts"
-    ],
-    "summary": "Fix issue #999 in reticlehq/reticle: Three small ones from the field: `impact.json` dirties the repo, `login --help` burns a device code, and `mkdir '/.reticle'`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T01:59:51.994Z"
-  },
-  {
     "id": "I_kwDOS3TU6c8AAAABSDw8Qg",
     "number": 1001,
     "title": "[agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name",
@@ -457,63 +806,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T20:07:42.545Z"
-  },
-  {
-    "id": "I_kwDOS3TU6c8AAAABSAdPvw",
-    "number": 981,
-    "title": "Every `area/*` label still describes a directory 3.1.0 deleted",
-    "url": "https://github.com/reticlehq/reticle/issues/981",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 725,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T18:44:11Z",
-    "updatedAt": "2026-09-18T18:44:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #981 in reticlehq/reticle: Every `area/*` label still describes a directory 3.1.0 deleted",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T20:07:41.254Z"
-  },
-  {
-    "id": "I_kwDOT8qp7s8AAAABSAlgmQ",
-    "number": 566,
-    "title": "Migrate the Build AI evaluation CLI to Typer",
-    "url": "https://github.com/Hebbian-Robotics/hflow/issues/566",
-    "repo": "Hebbian-Robotics/hflow",
-    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
-    "stars": 272,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T18:57:05Z",
-    "updatedAt": "2026-09-18T18:57:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest examples/build_ai_evaluation/evaluate.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "examples/build_ai_evaluation/evaluate.py"
-    ],
-    "summary": "Fix issue #566 in Hebbian-Robotics/hflow: Migrate the Build AI evaluation CLI to Typer",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T20:07:37.778Z"
   },
   {
     "id": "I_kwDOT8qp7s8AAAABSAlhWw",
@@ -694,34 +986,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T20:06:34.485Z"
-  },
-  {
-    "id": "I_kwDORUqZb88AAAABR-JUbg",
-    "number": 1069,
-    "title": "loss_watchdog, loss_spike_recovery and grad_accum_auto_tune are read by nothing on backend: mlx",
-    "url": "https://github.com/MakazhanAlpamys/Soup/issues/1069",
-    "repo": "MakazhanAlpamys/Soup",
-    "repoUrl": "https://github.com/MakazhanAlpamys/Soup",
-    "stars": 6794,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T14:50:23Z",
-    "updatedAt": "2026-09-18T14:50:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest src/soup_cli/trainer/mlx_sft.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/soup_cli/trainer/mlx_sft.py"
-    ],
-    "summary": "Fix issue #1069 in MakazhanAlpamys/Soup: loss_watchdog, loss_spike_recovery and grad_accum_auto_tune are read by nothing on backend: mlx",
-    "maintainerTurnaroundDays": 0.9,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:56.061Z"
   },
   {
     "id": "I_kwDODmAYMc8AAAABR-YdAQ",
@@ -1167,102 +1431,6 @@
     "discoveredAt": "2026-09-18T10:11:05.930Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABR3SYFw",
-    "number": 10719,
-    "title": "[Doc📝] Document ClusterConfig and ClusterExecutionDiagnostics fields",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10719",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1517,
-    "language": "Rust",
-    "labels": [
-      "documentation📝",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-17T23:39:48Z",
-    "updatedAt": "2026-09-17T23:39:48Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test config",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-proxy-cluster/src/config.rs"
-    ],
-    "summary": "Fix issue #10719 in mxsm/rocketmq-rust: [Doc📝] Document ClusterConfig and ClusterExecutionDiagnostics fields",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:56:25.472Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABR3ShbA",
-    "number": 10725,
-    "title": "[Bug🐛] normalize_nameserver_address accepts hosts with embedded whitespace",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10725",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1517,
-    "language": "Rust",
-    "labels": [
-      "bug🐛",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-17T23:40:14Z",
-    "updatedAt": "2026-09-17T23:40:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test nameserver",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-dashboard/rocketmq-dashboard-common/src/nameserver.rs",
-      "rocketmq-dashboard/rocketmq-dashboard-common/src/proxy.rs",
-      "rocketmq-dashboard/rocketmq-dashboard-gpui/src/features/proxy.rs"
-    ],
-    "summary": "Fix issue #10725 in mxsm/rocketmq-rust: [Bug🐛] normalize_nameserver_address accepts hosts with embedded whitespace",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:55:52.680Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABR3SisQ",
-    "number": 10726,
-    "title": "[Test🧪] Add unit tests for OutputFormat string parsing",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10726",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1517,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "testing🧪",
-      "rocketmq-tools crate"
-    ],
-    "createdAt": "2026-09-17T23:40:16Z",
-    "updatedAt": "2026-09-17T23:40:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test formatters",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-cli/src/formatters.rs"
-    ],
-    "summary": "Fix issue #10726 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for OutputFormat string parsing",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:55:47.174Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABR3YewQ",
     "number": 30536,
     "title": "[Good First Issue] 🍡 Add new Japanese Idiom 77 - Beginner-Friendly Open-source Contribution (good-first-issue)",
@@ -1488,34 +1656,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-17T20:41:18.414Z"
-  },
-  {
-    "id": "I_kwDOSzbDbM8AAAABR0njeg",
-    "number": 703,
-    "title": "tune: the friction report counts ambient-monitor rows as decisions",
-    "url": "https://github.com/DobermanCore/Doberman-Core/issues/703",
-    "repo": "DobermanCore/Doberman-Core",
-    "repoUrl": "https://github.com/DobermanCore/Doberman-Core",
-    "stars": 296,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "level-3"
-    ],
-    "createdAt": "2026-09-17T18:04:05Z",
-    "updatedAt": "2026-09-17T18:04:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest src/doberman/policy/friction.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/doberman/policy/friction.py"
-    ],
-    "summary": "Fix issue #703 in DobermanCore/Doberman-Core: tune: the friction report counts ambient-monitor rows as decisions",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T20:41:16.335Z"
   },
   {
     "id": "I_kwDOQy5Vl88AAAABR0_b9g",
@@ -3032,40 +3172,6 @@
     "discoveredAt": "2026-09-14T02:04:54.207Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABRHyKpQ",
-    "number": 30357,
-    "title": "[Good First Issue] 🎏 Add new Video Game Quote 16 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30357",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3378,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-14T01:01:05Z",
-    "updatedAt": "2026-09-14T01:01:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30357 in lingdojo/kana-dojo: [Good First Issue] 🎏 Add new Video Game Quote 16 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:04:52.883Z"
-  },
-  {
     "id": "I_kwDORponss8AAAABRFhg0w",
     "number": 125,
     "title": "Post-blackout recovery state is invisible, so a locked-out filter looks identical to a recovering one",
@@ -3477,34 +3583,6 @@
     "maintainerTurnaroundDays": 3.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T01:54:29.205Z"
-  },
-  {
-    "id": "I_kwDOCRwx6M8AAAABQ47qsA",
-    "number": 9712,
-    "title": "VersionedSqliteDb.verifyVersions masks the incompatible-version error with a native \"db not open\" error",
-    "url": "https://github.com/iTwin/itwinjs-core/issues/9712",
-    "repo": "iTwin/itwinjs-core",
-    "repoUrl": "https://github.com/iTwin/itwinjs-core",
-    "stars": 728,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "cloud containers"
-    ],
-    "createdAt": "2026-09-11T19:53:43Z",
-    "updatedAt": "2026-09-11T19:56:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #9712 in iTwin/itwinjs-core: VersionedSqliteDb.verifyVersions masks the incompatible-version error with a native \"db not open\" error",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T20:09:46.964Z"
   },
   {
     "id": "I_kwDOQ_KVhM8AAAABQ0ring",
@@ -4401,94 +4479,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-08T20:25:36.069Z"
-  },
-  {
-    "id": "I_kwDOA9JyWM8AAAABQRAJsA",
-    "number": 19974,
-    "title": "Enhance UnaryAccessingMethodWithoutReturnRule",
-    "url": "https://github.com/pharo-project/pharo/issues/19974",
-    "repo": "pharo-project/pharo",
-    "repoUrl": "https://github.com/pharo-project/pharo",
-    "stars": 1484,
-    "language": "Smalltalk",
-    "labels": [
-      "Type: Enhancement",
-      "Good first issue"
-    ],
-    "createdAt": "2026-09-08T12:12:42Z",
-    "updatedAt": "2026-09-08T12:12:53Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #19974 in pharo-project/pharo: Enhance UnaryAccessingMethodWithoutReturnRule",
-    "maintainerTurnaroundDays": 0.6,
-    "defaultBranch": "Pharo15",
-    "discoveredAt": "2026-09-08T15:32:53.406Z"
-  },
-  {
-    "id": "I_kwDOFdcGL88AAAABQRdXDw",
-    "number": 576,
-    "title": "Баги , баги баги",
-    "url": "https://github.com/0niel/university-app/issues/576",
-    "repo": "0niel/university-app",
-    "repoUrl": "https://github.com/0niel/university-app",
-    "stars": 254,
-    "language": "Dart",
-    "labels": [
-      "bug",
-      "good first issue",
-      "approved 👍"
-    ],
-    "createdAt": "2026-09-08T12:59:42Z",
-    "updatedAt": "2026-09-08T15:25:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #576 in 0niel/university-app: Баги , баги баги",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-08T15:32:47.319Z"
-  },
-  {
-    "id": "I_kwDOAD-fO88AAAABQS_oHg",
-    "number": 2982,
-    "title": "Needed Automation Commands",
-    "url": "https://github.com/OpenChemistry/avogadrolibs/issues/2982",
-    "repo": "OpenChemistry/avogadrolibs",
-    "repoUrl": "https://github.com/OpenChemistry/avogadrolibs",
-    "stars": 674,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-08T15:23:43Z",
-    "updatedAt": "2026-09-08T15:24:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "avogadro/qtplugins/bonding/bonding.cpp",
-      "avogadro/qtplugins/hydrogens/hydrogens.cpp",
-      "avogadro/qtplugins/select/select.cpp"
-    ],
-    "summary": "Fix issue #2982 in OpenChemistry/avogadrolibs: Needed Automation Commands",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-08T15:32:28.944Z"
   }
 ]
