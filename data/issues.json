@@ -1,5 +1,341 @@
 [
   {
+    "id": "I_kwDORWY2D88AAAABSIBDGw",
+    "number": 592,
+    "title": "Replace `#defines` with constexpr",
+    "url": "https://github.com/p3d-project/persona-3-dual/issues/592",
+    "repo": "p3d-project/persona-3-dual",
+    "repoUrl": "https://github.com/p3d-project/persona-3-dual",
+    "stars": 233,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T15:35:05Z",
+    "updatedAt": "2026-09-19T17:00:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #592 in p3d-project/persona-3-dual: Replace `#defines` with constexpr",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T19:43:26.306Z"
+  },
+  {
+    "id": "I_kwDODgj3cc8AAAABSIKVrw",
+    "number": 22017,
+    "title": "[FEATURE] Add tawk.to actions to Pipedream MCP",
+    "url": "https://github.com/PipedreamHQ/pipedream/issues/22017",
+    "repo": "PipedreamHQ/pipedream",
+    "repoUrl": "https://github.com/PipedreamHQ/pipedream",
+    "stars": 11698,
+    "language": "JavaScript",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "action"
+    ],
+    "createdAt": "2026-09-19T15:54:03Z",
+    "updatedAt": "2026-09-19T15:54:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #22017 in PipedreamHQ/pipedream: [FEATURE] Add tawk.to actions to Pipedream MCP",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-19T19:43:24.815Z"
+  },
+  {
+    "id": "I_kwDORWY2D88AAAABSIN_DA",
+    "number": 595,
+    "title": "Investigate & fix `-Warray-bounds` warning on battleActions code",
+    "url": "https://github.com/p3d-project/persona-3-dual/issues/595",
+    "repo": "p3d-project/persona-3-dual",
+    "repoUrl": "https://github.com/p3d-project/persona-3-dual",
+    "stars": 233,
+    "language": "C++",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T16:02:22Z",
+    "updatedAt": "2026-09-19T17:00:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #595 in p3d-project/persona-3-dual: Investigate & fix `-Warray-bounds` warning on battleActions code",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T19:43:16.451Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSIlPog",
+    "number": 3797,
+    "title": "guide pages for deleting Amp and Continue history",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3797",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 863,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T16:50:45Z",
+    "updatedAt": "2026-09-19T16:50:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "go test -v ./docs/registry",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/registry/amp.html",
+      "docs/registry/continue.html",
+      "docs/guide/delete-cline-task-history.html"
+    ],
+    "summary": "Fix issue #3797 in vshulcz/deja-vu: guide pages for deleting Amp and Continue history",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T19:43:14.778Z"
+  },
+  {
+    "id": "I_kwDOTX8R288AAAABSIlbfA",
+    "number": 3798,
+    "title": "lost-context in Chinese",
+    "url": "https://github.com/vshulcz/deja-vu/issues/3798",
+    "repo": "vshulcz/deja-vu",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "stars": 863,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T16:51:06Z",
+    "updatedAt": "2026-09-19T16:51:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./cmd/deja",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "cmd/deja/docs_hreflang_test.go"
+    ],
+    "summary": "Fix issue #3798 in vshulcz/deja-vu: lost-context in Chinese",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T19:43:13.633Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABSJMYeQ",
+    "number": 631,
+    "title": "allow v2 to always compile in MSRV with no features enabled",
+    "url": "https://github.com/servo/rust-smallvec/issues/631",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1735,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "r-refactor"
+    ],
+    "createdAt": "2026-09-19T18:16:52Z",
+    "updatedAt": "2026-09-19T19:08:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test mallocsizeof",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/mallocsizeof.rs"
+    ],
+    "summary": "Fix issue #631 in servo/rust-smallvec: allow v2 to always compile in MSRV with no features enabled",
+    "maintainerTurnaroundDays": 1.7,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-19T19:43:12.442Z"
+  },
+  {
+    "id": "I_kwDOQy5Vl88AAAABSJVCiA",
+    "number": 276,
+    "title": "init-session.ps1 reports the plan as attested even when the attester failed",
+    "url": "https://github.com/OthmanAdi/planning-with-files/issues/276",
+    "repo": "OthmanAdi/planning-with-files",
+    "repoUrl": "https://github.com/OthmanAdi/planning-with-files",
+    "stars": 26993,
+    "language": "Shell",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T18:39:11Z",
+    "updatedAt": "2026-09-19T18:39:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "scripts/session-catchup.py",
+      "skills/i18n/planning-with-files-ar/scripts/session-catchup.py",
+      "skills/i18n/planning-with-files-de/scripts/session-catchup.py"
+    ],
+    "summary": "Fix issue #276 in OthmanAdi/planning-with-files: init-session.ps1 reports the plan as attested even when the attester failed",
+    "maintainerTurnaroundDays": 0.6,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-19T19:43:12.075Z"
+  },
+  {
+    "id": "I_kwDONic2f88AAAABSJbQ5w",
+    "number": 1281,
+    "title": "docs: Home Assistant / generic MCP client setup needs the anonymous-access path",
+    "url": "https://github.com/doobidoo/mcp-memory-service/issues/1281",
+    "repo": "doobidoo/mcp-memory-service",
+    "repoUrl": "https://github.com/doobidoo/mcp-memory-service",
+    "stars": 1951,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "maintenance"
+    ],
+    "createdAt": "2026-09-19T18:56:11Z",
+    "updatedAt": "2026-09-19T19:02:28Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/mcp_memory_service/web/oauth/middleware.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/mcp_memory_service/web/oauth/middleware.py",
+      "src/mcp_memory_service/config/oauth.py"
+    ],
+    "summary": "Fix issue #1281 in doobidoo/mcp-memory-service: docs: Home Assistant / generic MCP client setup needs the anonymous-access path",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T19:43:11.396Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSJdJKg",
+    "number": 30586,
+    "title": "[good first issue] 🍜 Add new Japanese Idiom 591 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30586",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3419,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-19T19:00:56Z",
+    "updatedAt": "2026-09-19T19:00:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #30586 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Japanese Idiom 591 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T19:43:08.553Z"
+  },
+  {
+    "id": "I_kwDOSP_2Ts8AAAABSJd3UA",
+    "number": 1892,
+    "title": "站点把自己的安装页藏起来了：首页与导航都不链接 /install",
+    "url": "https://github.com/Ikalus1988/MisakaNet/issues/1892",
+    "repo": "Ikalus1988/MisakaNet",
+    "repoUrl": "https://github.com/Ikalus1988/MisakaNet",
+    "stars": 493,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "ready",
+      "frontend",
+      "area:site",
+      "priority:medium"
+    ],
+    "createdAt": "2026-09-19T19:02:33Z",
+    "updatedAt": "2026-09-19T19:02:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest docs/install/index.html",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/install/index.html",
+      "docs/index.html",
+      "tests/test_setup_docs_consistency.py"
+    ],
+    "summary": "Fix issue #1892 in Ikalus1988/MisakaNet: 站点把自己的安装页藏起来了：首页与导航都不链接 /install",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T19:43:07.259Z"
+  },
+  {
+    "id": "I_kwDOSP_2Ts8AAAABSJd3sQ",
+    "number": 1893,
+    "title": "Quickstart 每步加「复制」按钮，并给每步一条可自检的完成信号",
+    "url": "https://github.com/Ikalus1988/MisakaNet/issues/1893",
+    "repo": "Ikalus1988/MisakaNet",
+    "repoUrl": "https://github.com/Ikalus1988/MisakaNet",
+    "stars": 493,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "ready",
+      "frontend",
+      "area:site",
+      "priority:medium"
+    ],
+    "createdAt": "2026-09-19T19:02:35Z",
+    "updatedAt": "2026-09-19T19:02:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest integrations/agent-autostart/install_misakanet_agent.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "integrations/agent-autostart/install_misakanet_agent.py",
+      "integrations/langchain/misakanet_tool.py",
+      "integrations/llamaindex/misakanet_tool.py"
+    ],
+    "summary": "Fix issue #1893 in Ikalus1988/MisakaNet: Quickstart 每步加「复制」按钮，并给每步一条可自检的完成信号",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T19:43:05.979Z"
+  },
+  {
     "id": "I_kwDOK5M3Is8AAAABSHu4dw",
     "number": 10769,
     "title": "[Refactor♻️] Remove the four redundant unwraps from the getAcl table renderer",
@@ -428,34 +764,6 @@
     "discoveredAt": "2026-09-19T14:57:57.430Z"
   },
   {
-    "id": "I_kwDOPP1zAs8AAAABSFO1Aw",
-    "number": 616,
-    "title": "[BUG] Changing POSTGRES_PORT in .env breaks Docker Compose startup",
-    "url": "https://github.com/aegra/aegra/issues/616",
-    "repo": "aegra/aegra",
-    "repoUrl": "https://github.com/aegra/aegra",
-    "stars": 1206,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T06:56:48Z",
-    "updatedAt": "2026-09-19T09:31:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Docker required",
-    "quickReproCommand": "pytest docker-compose.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docker-compose.yml"
-    ],
-    "summary": "Fix issue #616 in aegra/aegra: [BUG] Changing POSTGRES_PORT in .env breaks Docker Compose startup",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:19.878Z"
-  },
-  {
     "id": "I_kwDOCVKAsc8AAAABSFX8lQ",
     "number": 11201,
     "title": "[BUG] fix `SameLocSplitter` contract failures and/or adapt tests",
@@ -484,36 +792,6 @@
     "maintainerTurnaroundDays": 0.3,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T09:52:19.158Z"
-  },
-  {
-    "id": "I_kwDOCVKAsc8AAAABSFYMhg",
-    "number": 11202,
-    "title": "[BUG] fix `CutoffFhSplitter` failures and/or adapt splitter tests",
-    "url": "https://github.com/sktime/sktime/issues/11202",
-    "repo": "sktime/sktime",
-    "repoUrl": "https://github.com/sktime/sktime",
-    "stars": 10022,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue",
-      "module:splitters&resamplers"
-    ],
-    "createdAt": "2026-09-19T07:34:34Z",
-    "updatedAt": "2026-09-19T07:39:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest sktime/transformations/tests/test_check_estimator.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "sktime/transformations/tests/test_check_estimator.py",
-      "sktime/utils/tests/test_check_estimator.py"
-    ],
-    "summary": "Fix issue #11202 in sktime/sktime: [BUG] fix `CutoffFhSplitter` failures and/or adapt splitter tests",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:16.338Z"
   },
   {
     "id": "I_kwDOTX8R288AAAABSFZOGA",
@@ -986,34 +1264,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T01:59:54.784Z"
-  },
-  {
-    "id": "I_kwDOFpb_as8AAAABSDWHOw",
-    "number": 188,
-    "title": "--render-js is silently ignored for .html output in pyscrappy extract",
-    "url": "https://github.com/mldsveda/PyScrappy/issues/188",
-    "repo": "mldsveda/PyScrappy",
-    "repoUrl": "https://github.com/mldsveda/PyScrappy",
-    "stars": 256,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T00:28:13Z",
-    "updatedAt": "2026-09-19T00:28:13Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/test_cli/test_extract.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/test_cli/test_extract.py"
-    ],
-    "summary": "Fix issue #188 in mldsveda/PyScrappy: --render-js is silently ignored for .html output in pyscrappy extract",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T01:59:54.202Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSDju6w",
@@ -1616,74 +1866,6 @@
     "discoveredAt": "2026-09-18T10:11:05.930Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABR3xHrQ",
-    "number": 30538,
-    "title": "[Good First Issue] 🍶 Add new False Friend Pair 97 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30538",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3411,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-18T00:57:28Z",
-    "updatedAt": "2026-09-18T00:57:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #30538 in lingdojo/kana-dojo: [Good First Issue] 🍶 Add new False Friend Pair 97 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:55:35.281Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABR3ydhg",
-    "number": 30539,
-    "title": "[Good First Issue] 🌊 Add new Etiquette Tip 23 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30539",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3411,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-18T01:01:03Z",
-    "updatedAt": "2026-09-18T01:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #30539 in lingdojo/kana-dojo: [Good First Issue] 🌊 Add new Etiquette Tip 23 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:55:33.200Z"
-  },
-  {
     "id": "I_kwDOCgmItM8AAAABRznbQA",
     "number": 166,
     "title": "Update langserver feature list in README",
@@ -1741,40 +1923,6 @@
     "discoveredAt": "2026-09-17T20:41:21.842Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABR0l5NQ",
-    "number": 30521,
-    "title": "[Good First Issue] 🎌 Add new Example Sentence 70 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30521",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3409,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-17T18:01:07Z",
-    "updatedAt": "2026-09-17T18:01:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-example-sentences.json"
-    ],
-    "summary": "Fix issue #30521 in lingdojo/kana-dojo: [Good First Issue] 🎌 Add new Example Sentence 70 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T20:41:18.414Z"
-  },
-  {
     "id": "I_kwDOQy5Vl88AAAABR0_b9g",
     "number": 255,
     "title": "init-session.ps1 reports success after a denied file write because Out-File errors are non-terminating",
@@ -1804,40 +1952,6 @@
     "maintainerTurnaroundDays": 0.3,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-17T20:41:15.259Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABR1HF8A",
-    "number": 30523,
-    "title": "[Good First Issue] 🥟 Add new Learner Mistake 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30523",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3409,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-17T18:57:28Z",
-    "updatedAt": "2026-09-17T18:57:31Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30523 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new Learner Mistake 13 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T20:41:14.108Z"
   },
   {
     "id": "I_kwDORponss8AAAABR1VK3g",
@@ -1954,34 +2068,6 @@
     "discoveredAt": "2026-09-17T15:49:13.138Z"
   },
   {
-    "id": "I_kwDOC3-hZ88AAAABRzAAtg",
-    "number": 306,
-    "title": "[Enhancement] : Edit Event Modal Overflows Viewport and Lacks Internal Scrolling",
-    "url": "https://github.com/fossasia/WPFAevent/issues/306",
-    "repo": "fossasia/WPFAevent",
-    "repoUrl": "https://github.com/fossasia/WPFAevent",
-    "stars": 816,
-    "language": "PHP",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T15:15:11Z",
-    "updatedAt": "2026-09-17T15:15:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #306 in fossasia/WPFAevent: [Enhancement] : Edit Event Modal Overflows Viewport and Lacks Internal Scrolling",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T15:49:01.665Z"
-  },
-  {
     "id": "I_kwDOTZFfiM8AAAABRuon8A",
     "number": 27,
     "title": "Verify the player name is escaped before it reaches the SVG card",
@@ -2069,62 +2155,6 @@
     "discoveredAt": "2026-09-17T02:08:26.245Z"
   },
   {
-    "id": "I_kwDOADXqJM8AAAABRnd_9g",
-    "number": 2646,
-    "title": "website: investigate replacement for \"press\" theme",
-    "url": "https://github.com/AcademySoftwareFoundation/openexr/issues/2646",
-    "repo": "AcademySoftwareFoundation/openexr",
-    "repoUrl": "https://github.com/AcademySoftwareFoundation/openexr",
-    "stars": 1847,
-    "language": "C",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-16T16:31:11Z",
-    "updatedAt": "2026-09-16T16:31:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2646 in AcademySoftwareFoundation/openexr: website: investigate replacement for \"press\" theme",
-    "maintainerTurnaroundDays": 0.6,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T20:34:57.679Z"
-  },
-  {
-    "id": "I_kwDOAJbtsc8AAAABRn78hA",
-    "number": 3632,
-    "title": "Add analyzer to detect illegal and/or duplicate cultures",
-    "url": "https://github.com/xunit/xunit/issues/3632",
-    "repo": "xunit/xunit",
-    "repoUrl": "https://github.com/xunit/xunit",
-    "stars": 4604,
-    "language": "C#",
-    "labels": [
-      "Feature",
-      "help wanted",
-      "Analyzers"
-    ],
-    "createdAt": "2026-09-16T17:18:29Z",
-    "updatedAt": "2026-09-16T17:18:29Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3632 in xunit/xunit: Add analyzer to detect illegal and/or duplicate cultures",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T20:34:41.410Z"
-  },
-  {
     "id": "I_kwDOQuAx5c8AAAABRedfIw",
     "number": 869,
     "title": "fly.toml's default image tag is several releases behind the latest tag",
@@ -2151,35 +2181,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-16T02:04:22.249Z"
-  },
-  {
-    "id": "I_kwDOEUy9GM8AAAABRfEjsQ",
-    "number": 8411,
-    "title": "Update jsignpdf-php in LibreSign 3rdparty",
-    "url": "https://github.com/LibreSign/libresign/issues/8411",
-    "repo": "LibreSign/libresign",
-    "repoUrl": "https://github.com/LibreSign/libresign",
-    "stars": 811,
-    "language": "PHP",
-    "labels": [
-      "good first issue",
-      "backend",
-      "php"
-    ],
-    "createdAt": "2026-09-15T23:24:33Z",
-    "updatedAt": "2026-09-15T23:35:31Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8411 in LibreSign/libresign: Update jsignpdf-php in LibreSign 3rdparty",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:11.166Z"
   },
   {
     "id": "I_kwDOSOgY8s8AAAABRc_X-A",
@@ -2744,36 +2745,6 @@
     "discoveredAt": "2026-09-14T21:08:12.211Z"
   },
   {
-    "id": "I_kwDOEAnMCs8AAAABRPVP8g",
-    "number": 2600,
-    "title": "bug(events): `m.history_not_shared` should be `history_not_shared` on `m.room_key`",
-    "url": "https://github.com/ruma/ruma/issues/2600",
-    "repo": "ruma/ruma",
-    "repoUrl": "https://github.com/ruma/ruma",
-    "stars": 734,
-    "language": "Rust",
-    "labels": [
-      "effort/easy",
-      "type/bug",
-      "area/events",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-14T16:23:51Z",
-    "updatedAt": "2026-09-14T16:30:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2600 in ruma/ruma: bug(events): `m.history_not_shared` should be `history_not_shared` on `m.room_key`",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T17:10:33.066Z"
-  },
-  {
     "id": "I_kwDOAWfots8AAAABPq10dA",
     "number": 1182,
     "title": "v2.53.7 release is incorrectly marked as latest",
@@ -2859,35 +2830,6 @@
     "discoveredAt": "2026-09-14T11:08:21.656Z"
   },
   {
-    "id": "I_kwDORXc1m88AAAABRLZnYg",
-    "number": 822,
-    "title": "docs: labelled starter path and pattern-of-the-week #1",
-    "url": "https://github.com/devswha/patina/issues/822",
-    "repo": "devswha/patina",
-    "repoUrl": "https://github.com/devswha/patina",
-    "stars": 355,
-    "language": "JavaScript",
-    "labels": [
-      "good first issue",
-      "patterns",
-      "docs"
-    ],
-    "createdAt": "2026-09-14T09:45:42Z",
-    "updatedAt": "2026-09-14T09:48:48Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test tests/unit/community-patterns.test.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/unit/community-patterns.test.js"
-    ],
-    "summary": "Fix issue #822 in devswha/patina: docs: labelled starter path and pattern-of-the-week #1",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T11:08:18.600Z"
-  },
-  {
     "id": "I_kwDORz_b288AAAABRL9rXQ",
     "number": 1144,
     "title": "auth.mfaEnrollmentHeading is the one string left in English in all 20 non-en locales",
@@ -2947,62 +2889,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-14T11:08:03.310Z"
-  },
-  {
-    "id": "I_kwDOJ6CYw88AAAABRMDn4w",
-    "number": 219,
-    "title": "build: soname",
-    "url": "https://github.com/wlrfx/scenefx/issues/219",
-    "repo": "wlrfx/scenefx",
-    "repoUrl": "https://github.com/wlrfx/scenefx",
-    "stars": 242,
-    "language": "C",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-14T11:01:15Z",
-    "updatedAt": "2026-09-14T11:01:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #219 in wlrfx/scenefx: build: soname",
-    "maintainerTurnaroundDays": 1.7,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T11:07:55.745Z"
-  },
-  {
-    "id": "I_kwDOT1Nsbc8AAAABRG8jnQ",
-    "number": 24,
-    "title": "block: Shipping Label",
-    "url": "https://github.com/shadcn-labs/pdfcn/issues/24",
-    "repo": "shadcn-labs/pdfcn",
-    "repoUrl": "https://github.com/shadcn-labs/pdfcn",
-    "stars": 1733,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-13T22:04:40Z",
-    "updatedAt": "2026-09-13T22:04:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #24 in shadcn-labs/pdfcn: block: Shipping Label",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:05:21.964Z"
   },
   {
     "id": "I_kwDOT1Nsbc8AAAABRG8jqg",

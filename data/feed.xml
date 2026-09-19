@@ -5,8 +5,214 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Sep 2026 14:59:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 19:43:26 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[p3d-project/persona-3-dual] #592 Replace `#defines` with constexpr (Solvability: 6/10)</title>
+      <link>https://github.com/p3d-project/persona-3-dual/issues/592</link>
+      <guid isPermaLink="true">https://github.com/p3d-project/persona-3-dual/issues/592</guid>
+      <pubDate>Sat, 19 Sep 2026 15:35:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/p3d-project/persona-3-dual">p3d-project/persona-3-dual</a> (233 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #592 in p3d-project/persona-3-dual: Replace `#defines` with constexpr</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/p3d-project/persona-3-dual/issues/592">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[PipedreamHQ/pipedream] #22017 [FEATURE] Add tawk.to actions to Pipedream MCP (Solvability: 6/10)</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/22017</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/22017</guid>
+      <pubDate>Sat, 19 Sep 2026 15:54:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/PipedreamHQ/pipedream">PipedreamHQ/pipedream</a> (11698 ⭐, JavaScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #22017 in PipedreamHQ/pipedream: [FEATURE] Add tawk.to actions to Pipedream MCP</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/PipedreamHQ/pipedream/issues/22017">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>JavaScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>action</category>
+    </item>
+    <item>
+      <title>[p3d-project/persona-3-dual] #595 Investigate &amp; fix `-Warray-bounds` warning on battleActions code (Solvability: 6/10)</title>
+      <link>https://github.com/p3d-project/persona-3-dual/issues/595</link>
+      <guid isPermaLink="true">https://github.com/p3d-project/persona-3-dual/issues/595</guid>
+      <pubDate>Sat, 19 Sep 2026 16:02:22 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/p3d-project/persona-3-dual">p3d-project/persona-3-dual</a> (233 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #595 in p3d-project/persona-3-dual: Investigate &amp; fix `-Warray-bounds` warning on battleActions code</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/p3d-project/persona-3-dual/issues/595">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3797 guide pages for deleting Amp and Continue history (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3797</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3797</guid>
+      <pubDate>Sat, 19 Sep 2026 16:50:45 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (863 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #3797 in vshulcz/deja-vu: guide pages for deleting Amp and Continue history</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./docs/registry</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3797">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[vshulcz/deja-vu] #3798 lost-context in Chinese (Solvability: 6/10)</title>
+      <link>https://github.com/vshulcz/deja-vu/issues/3798</link>
+      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3798</guid>
+      <pubDate>Sat, 19 Sep 2026 16:51:06 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (863 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3798 in vshulcz/deja-vu: lost-context in Chinese</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./cmd/deja</code></p>
+<p><a href="https://github.com/vshulcz/deja-vu/issues/3798">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[servo/rust-smallvec] #631 allow v2 to always compile in MSRV with no features enabled (Solvability: 6/10)</title>
+      <link>https://github.com/servo/rust-smallvec/issues/631</link>
+      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/631</guid>
+      <pubDate>Sat, 19 Sep 2026 18:16:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1735 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #631 in servo/rust-smallvec: allow v2 to always compile in MSRV with no features enabled</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test mallocsizeof</code></p>
+<p><a href="https://github.com/servo/rust-smallvec/issues/631">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>r-refactor</category>
+    </item>
+    <item>
+      <title>[OthmanAdi/planning-with-files] #276 init-session.ps1 reports the plan as attested even when the attester failed (Solvability: 6/10)</title>
+      <link>https://github.com/OthmanAdi/planning-with-files/issues/276</link>
+      <guid isPermaLink="true">https://github.com/OthmanAdi/planning-with-files/issues/276</guid>
+      <pubDate>Sat, 19 Sep 2026 18:39:11 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OthmanAdi/planning-with-files">OthmanAdi/planning-with-files</a> (26993 ⭐, Shell)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #276 in OthmanAdi/planning-with-files: init-session.ps1 reports the plan as attested even when the attester failed</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/OthmanAdi/planning-with-files/issues/276">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Shell</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[doobidoo/mcp-memory-service] #1281 docs: Home Assistant / generic MCP client setup needs the anonymous-access path (Solvability: 6/10)</title>
+      <link>https://github.com/doobidoo/mcp-memory-service/issues/1281</link>
+      <guid isPermaLink="true">https://github.com/doobidoo/mcp-memory-service/issues/1281</guid>
+      <pubDate>Sat, 19 Sep 2026 18:56:11 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/doobidoo/mcp-memory-service">doobidoo/mcp-memory-service</a> (1951 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1281 in doobidoo/mcp-memory-service: docs: Home Assistant / generic MCP client setup needs the anonymous-access path</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/mcp_memory_service/web/oauth/middleware.py</code></p>
+<p><a href="https://github.com/doobidoo/mcp-memory-service/issues/1281">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>maintenance</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30586 [good first issue] 🍜 Add new Japanese Idiom 591 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30586</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30586</guid>
+      <pubDate>Sat, 19 Sep 2026 19:00:56 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3419 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30586 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Japanese Idiom 591 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30586">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[Ikalus1988/MisakaNet] #1892 站点把自己的安装页藏起来了：首页与导航都不链接 /install (Solvability: 6/10)</title>
+      <link>https://github.com/Ikalus1988/MisakaNet/issues/1892</link>
+      <guid isPermaLink="true">https://github.com/Ikalus1988/MisakaNet/issues/1892</guid>
+      <pubDate>Sat, 19 Sep 2026 19:02:33 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Ikalus1988/MisakaNet">Ikalus1988/MisakaNet</a> (493 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1892 in Ikalus1988/MisakaNet: 站点把自己的安装页藏起来了：首页与导航都不链接 /install</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest docs/install/index.html</code></p>
+<p><a href="https://github.com/Ikalus1988/MisakaNet/issues/1892">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>ready</category>
+      <category>frontend</category>
+      <category>area:site</category>
+      <category>priority:medium</category>
+    </item>
+    <item>
+      <title>[Ikalus1988/MisakaNet] #1893 Quickstart 每步加「复制」按钮，并给每步一条可自检的完成信号 (Solvability: 6/10)</title>
+      <link>https://github.com/Ikalus1988/MisakaNet/issues/1893</link>
+      <guid isPermaLink="true">https://github.com/Ikalus1988/MisakaNet/issues/1893</guid>
+      <pubDate>Sat, 19 Sep 2026 19:02:35 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Ikalus1988/MisakaNet">Ikalus1988/MisakaNet</a> (493 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1893 in Ikalus1988/MisakaNet: Quickstart 每步加「复制」按钮，并给每步一条可自检的完成信号</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest integrations/agent-autostart/install_misakanet_agent.py</code></p>
+<p><a href="https://github.com/Ikalus1988/MisakaNet/issues/1893">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>ready</category>
+      <category>frontend</category>
+      <category>area:site</category>
+      <category>priority:medium</category>
+    </item>
     <item>
       <title>[mxsm/rocketmq-rust] #10769 [Refactor♻️] Remove the four redundant unwraps from the getAcl table renderer (Solvability: 6/10)</title>
       <link>https://github.com/mxsm/rocketmq-rust/issues/10769</link>
@@ -281,23 +487,6 @@
       <category>rocketmq-tools crate</category>
     </item>
     <item>
-      <title>[aegra/aegra] #616 [BUG] Changing POSTGRES_PORT in .env breaks Docker Compose startup (Solvability: 6/10)</title>
-      <link>https://github.com/aegra/aegra/issues/616</link>
-      <guid isPermaLink="true">https://github.com/aegra/aegra/issues/616</guid>
-      <pubDate>Sat, 19 Sep 2026 06:56:48 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/aegra/aegra">aegra/aegra</a> (1206 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Docker required</p>
-<p><strong>Summary:</strong> Fix issue #616 in aegra/aegra: [BUG] Changing POSTGRES_PORT in .env breaks Docker Compose startup</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest docker-compose.yml</code></p>
-<p><a href="https://github.com/aegra/aegra/issues/616">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-docker-required</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[sktime/sktime] #11201 [BUG] fix `SameLocSplitter` contract failures and/or adapt tests (Solvability: 6/10)</title>
       <link>https://github.com/sktime/sktime/issues/11201</link>
       <guid isPermaLink="true">https://github.com/sktime/sktime/issues/11201</guid>
@@ -308,24 +497,6 @@
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>pytest sktime/transformations/tests/test_check_estimator.py</code></p>
 <p><a href="https://github.com/sktime/sktime/issues/11201">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>module:splitters&amp;resamplers</category>
-    </item>
-    <item>
-      <title>[sktime/sktime] #11202 [BUG] fix `CutoffFhSplitter` failures and/or adapt splitter tests (Solvability: 6/10)</title>
-      <link>https://github.com/sktime/sktime/issues/11202</link>
-      <guid isPermaLink="true">https://github.com/sktime/sktime/issues/11202</guid>
-      <pubDate>Sat, 19 Sep 2026 07:34:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sktime/sktime">sktime/sktime</a> (10022 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #11202 in sktime/sktime: [BUG] fix `CutoffFhSplitter` failures and/or adapt splitter tests</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest sktime/transformations/tests/test_check_estimator.py</code></p>
-<p><a href="https://github.com/sktime/sktime/issues/11202">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>Python</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -614,23 +785,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[mldsveda/PyScrappy] #188 --render-js is silently ignored for .html output in pyscrappy extract (Solvability: 6/10)</title>
-      <link>https://github.com/mldsveda/PyScrappy/issues/188</link>
-      <guid isPermaLink="true">https://github.com/mldsveda/PyScrappy/issues/188</guid>
-      <pubDate>Sat, 19 Sep 2026 00:28:13 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mldsveda/PyScrappy">mldsveda/PyScrappy</a> (256 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #188 in mldsveda/PyScrappy: --render-js is silently ignored for .html output in pyscrappy extract</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/test_cli/test_extract.py</code></p>
-<p><a href="https://github.com/mldsveda/PyScrappy/issues/188">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[lingdojo/kana-dojo] #30564 [good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue) (Solvability: 6/10)</title>
       <link>https://github.com/lingdojo/kana-dojo/issues/30564</link>
       <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30564</guid>
@@ -797,155 +951,6 @@
       <category>rust</category>
       <category>Difficulty level/Easy</category>
       <category>rocketmq-example crate</category>
-    </item>
-    <item>
-      <title>[dbt-labs/dbt-mcp] #889 Rename "fusion" to "v2" in toolset and tool names (Solvability: 6/10)</title>
-      <link>https://github.com/dbt-labs/dbt-mcp/issues/889</link>
-      <guid isPermaLink="true">https://github.com/dbt-labs/dbt-mcp/issues/889</guid>
-      <pubDate>Fri, 18 Sep 2026 14:11:21 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/dbt-labs/dbt-mcp">dbt-labs/dbt-mcp</a> (606 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #889 in dbt-labs/dbt-mcp: Rename "fusion" to "v2" in toolset and tool names</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest src/dbt_mcp/tools/toolsets.py</code></p>
-<p><a href="https://github.com/dbt-labs/dbt-mcp/issues/889">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[ag2ai/faststream] #3143 📣 Using FastStream in production? Add your organization to ADOPTERS.md (Solvability: 6/10)</title>
-      <link>https://github.com/ag2ai/faststream/issues/3143</link>
-      <guid isPermaLink="true">https://github.com/ag2ai/faststream/issues/3143</guid>
-      <pubDate>Fri, 18 Sep 2026 14:37:30 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ag2ai/faststream">ag2ai/faststream</a> (5343 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3143 in ag2ai/faststream: 📣 Using FastStream in production? Add your organization to ADOPTERS.md</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/ag2ai/faststream/issues/3143">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[1lck/Lithe-IDEA] #730 [Bug] 顶部图标显示没有对齐左侧栏的图标逻辑 (Solvability: 6/10)</title>
-      <link>https://github.com/1lck/Lithe-IDEA/issues/730</link>
-      <guid isPermaLink="true">https://github.com/1lck/Lithe-IDEA/issues/730</guid>
-      <pubDate>Fri, 18 Sep 2026 14:39:05 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/1lck/Lithe-IDEA">1lck/Lithe-IDEA</a> (1383 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #730 in 1lck/Lithe-IDEA: [Bug] 顶部图标显示没有对齐左侧栏的图标逻辑</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/1lck/Lithe-IDEA/issues/730">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>P2</category>
-      <category>platform:macos</category>
-      <category>area:editor</category>
-    </item>
-    <item>
-      <title>[hackforla/website] #8791 Update Project Profile: Hackforla.org Website Add Sushma Ramachandra Hegde (Solvability: 6/10)</title>
-      <link>https://github.com/hackforla/website/issues/8791</link>
-      <guid isPermaLink="true">https://github.com/hackforla/website/issues/8791</guid>
-      <pubDate>Fri, 18 Sep 2026 14:43:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/hackforla/website">hackforla/website</a> (364 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8791 in hackforla/website: Update Project Profile: Hackforla.org Website Add Sushma Ramachandra Hegde</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/hackforla/website/issues/8791">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>role: front end</category>
-      <category>role: back end/devOps</category>
-      <category>P-Feature: Project Info and Page</category>
-      <category>time sensitive</category>
-      <category>size: 0.25pt</category>
-    </item>
-    <item>
-      <title>[1lck/Lithe-IDEA] #732 [Bug] 编辑器可编辑区域色差问题 (Solvability: 6/10)</title>
-      <link>https://github.com/1lck/Lithe-IDEA/issues/732</link>
-      <guid isPermaLink="true">https://github.com/1lck/Lithe-IDEA/issues/732</guid>
-      <pubDate>Fri, 18 Sep 2026 15:15:35 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/1lck/Lithe-IDEA">1lck/Lithe-IDEA</a> (1383 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #732 in 1lck/Lithe-IDEA: [Bug] 编辑器可编辑区域色差问题</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/1lck/Lithe-IDEA/issues/732">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>P0</category>
-      <category>platform:macos</category>
-      <category>area:editor</category>
-    </item>
-    <item>
-      <title>[NovaCode37/Prism-platform] #387 Keep CodeQL out of tests/ so the check means something again (Solvability: 6/10)</title>
-      <link>https://github.com/NovaCode37/Prism-platform/issues/387</link>
-      <guid isPermaLink="true">https://github.com/NovaCode37/Prism-platform/issues/387</guid>
-      <pubDate>Fri, 18 Sep 2026 05:33:19 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/NovaCode37/Prism-platform">NovaCode37/Prism-platform</a> (232 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #387 in NovaCode37/Prism-platform: Keep CodeQL out of tests/ so the check means something again</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest .github/workflows/codeql.yml</code></p>
-<p><a href="https://github.com/NovaCode37/Prism-platform/issues/387">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>github_actions</category>
-    </item>
-    <item>
-      <title>[lightly-ai/lightly-studio] #2414 [BUG] Distribution view: `Values` input uses a larger font than other inputs (Solvability: 6/10)</title>
-      <link>https://github.com/lightly-ai/lightly-studio/issues/2414</link>
-      <guid isPermaLink="true">https://github.com/lightly-ai/lightly-studio/issues/2414</guid>
-      <pubDate>Fri, 18 Sep 2026 07:34:44 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lightly-ai/lightly-studio">lightly-ai/lightly-studio</a> (889 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2414 in lightly-ai/lightly-studio: [BUG] Distribution view: `Values` input uses a larger font than other inputs</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest lightly_studio/src/lightly_studio/resolvers/metadata_resolver/sample/get_metadata_values_for_key.py</code></p>
-<p><a href="https://github.com/lightly-ai/lightly-studio/issues/2414">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[lightly-ai/lightly-studio] #2415 [BUG] Undoing an annotation deletion does not restore the original annotation source (Solvability: 6/10)</title>
-      <link>https://github.com/lightly-ai/lightly-studio/issues/2415</link>
-      <guid isPermaLink="true">https://github.com/lightly-ai/lightly-studio/issues/2415</guid>
-      <pubDate>Fri, 18 Sep 2026 07:55:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lightly-ai/lightly-studio">lightly-ai/lightly-studio</a> (889 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2415 in lightly-ai/lightly-studio: [BUG] Undoing an annotation deletion does not restore the original annotation source</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/lightly-ai/lightly-studio/issues/2415">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
     </item>
   </channel>
 </rss>
