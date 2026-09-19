@@ -5,8 +5,273 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2026 20:07:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 02:00:12 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[libredb/libredb-studio] #970 Package LibreDB Studio for nixpkgs (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/970</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/970</guid>
+      <pubDate>Fri, 18 Sep 2026 22:23:11 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #970 in libredb/libredb-studio: Package LibreDB Studio for nixpkgs</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test package.json</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/970">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>deployment</category>
+      <category>hacktoberfest</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #971 Publish libredb-studio-bin to the AUR (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/971</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/971</guid>
+      <pubDate>Fri, 18 Sep 2026 22:23:46 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #971 in libredb/libredb-studio: Publish libredb-studio-bin to the AUR</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packaging/linux/nfpm.yaml</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/971">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>deployment</category>
+      <category>hacktoberfest</category>
+    </item>
+    <item>
+      <title>[guaardvark/guaardvark] #199 [good first issue] Browser recipes, round two: tab switching, zoom, address bar, fullscreen (Solvability: 6/10)</title>
+      <link>https://github.com/guaardvark/guaardvark/issues/199</link>
+      <guid isPermaLink="true">https://github.com/guaardvark/guaardvark/issues/199</guid>
+      <pubDate>Fri, 18 Sep 2026 22:52:45 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/guaardvark/guaardvark">guaardvark/guaardvark</a> (224 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #199 in guaardvark/guaardvark: [good first issue] Browser recipes, round two: tab switching, zoom, address bar, fullscreen</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest data/agent/recipes.json</code></p>
+<p><a href="https://github.com/guaardvark/guaardvark/issues/199">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #973 Proofread README_ja.md: no Japanese speaker has ever reviewed it (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/973</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/973</guid>
+      <pubDate>Fri, 18 Sep 2026 22:57:43 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #973 in libredb/libredb-studio: Proofread README_ja.md: no Japanese speaker has ever reviewed it</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/helm-chart-agent.test.ts</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/973">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>hacktoberfest</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30562 [good first issue] 🪭 Add new Example Sentence 909 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30562</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30562</guid>
+      <pubDate>Fri, 18 Sep 2026 23:00:57 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30562 in lingdojo/kana-dojo: [good first issue] 🪭 Add new Example Sentence 909 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-example-sentences.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30562">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #976 Get LibreDB Studio listed in the CockroachDB docs (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/976</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/976</guid>
+      <pubDate>Sat, 19 Sep 2026 00:03:04 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #976 in libredb/libredb-studio: Get LibreDB Studio listed in the CockroachDB docs</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test database-compose.yml</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/976">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>documentation</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #979 A committed .only makes a test file report PASS with the rest of its tests never run (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/979</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/979</guid>
+      <pubDate>Sat, 19 Sep 2026 00:23:39 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #979 in libredb/libredb-studio: A committed .only makes a test file report PASS with the rest of its tests never run</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/979">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>hacktoberfest</category>
+    </item>
+    <item>
+      <title>[libredb/libredb-studio] #980 Backlog citation scan reads untracked files, so a local draft fails a gate CI cannot (Solvability: 6/10)</title>
+      <link>https://github.com/libredb/libredb-studio/issues/980</link>
+      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/980</guid>
+      <pubDate>Sat, 19 Sep 2026 00:23:41 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #980 in libredb/libredb-studio: Backlog citation scan reads untracked files, so a local draft fails a gate CI cannot</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/backlog-structure.test.ts</code></p>
+<p><a href="https://github.com/libredb/libredb-studio/issues/980">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>hacktoberfest</category>
+    </item>
+    <item>
+      <title>[mldsveda/PyScrappy] #186 Noise-removal regex over-matches, silently deleting real article content (Solvability: 6/10)</title>
+      <link>https://github.com/mldsveda/PyScrappy/issues/186</link>
+      <guid isPermaLink="true">https://github.com/mldsveda/PyScrappy/issues/186</guid>
+      <pubDate>Sat, 19 Sep 2026 00:27:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mldsveda/PyScrappy">mldsveda/PyScrappy</a> (256 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #186 in mldsveda/PyScrappy: Noise-removal regex over-matches, silently deleting real article content</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/pyscrappy/mcp/__main__.py</code></p>
+<p><a href="https://github.com/mldsveda/PyScrappy/issues/186">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[mldsveda/PyScrappy] #187 Numbered pagination never advances from a page-1 URL that has no page parameter (Solvability: 6/10)</title>
+      <link>https://github.com/mldsveda/PyScrappy/issues/187</link>
+      <guid isPermaLink="true">https://github.com/mldsveda/PyScrappy/issues/187</guid>
+      <pubDate>Sat, 19 Sep 2026 00:27:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mldsveda/PyScrappy">mldsveda/PyScrappy</a> (256 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #187 in mldsveda/PyScrappy: Numbered pagination never advances from a page-1 URL that has no page parameter</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/pyscrappy/mcp/__main__.py</code></p>
+<p><a href="https://github.com/mldsveda/PyScrappy/issues/187">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[mldsveda/PyScrappy] #188 --render-js is silently ignored for .html output in pyscrappy extract (Solvability: 6/10)</title>
+      <link>https://github.com/mldsveda/PyScrappy/issues/188</link>
+      <guid isPermaLink="true">https://github.com/mldsveda/PyScrappy/issues/188</guid>
+      <pubDate>Sat, 19 Sep 2026 00:28:13 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mldsveda/PyScrappy">mldsveda/PyScrappy</a> (256 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #188 in mldsveda/PyScrappy: --render-js is silently ignored for .html output in pyscrappy extract</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/test_cli/test_extract.py</code></p>
+<p><a href="https://github.com/mldsveda/PyScrappy/issues/188">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30564 [good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30564</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30564</guid>
+      <pubDate>Sat, 19 Sep 2026 01:01:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3415 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30564 in lingdojo/kana-dojo: [good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-common-mistakes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30564">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #999 Three small ones from the field: `impact.json` dirties the repo, `login --help` burns a device code, and `mkdir '/.reticle'` (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/999</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/999</guid>
+      <pubDate>Sat, 19 Sep 2026 01:35:20 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (728 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #999 in reticlehq/reticle: Three small ones from the field: `impact.json` dirties the repo, `login --help` burns a device code, and `mkdir '/.reticle'`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test apps/bench-app/src/components/Login.tsx</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/999">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>area/server</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #1001 [agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/1001</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1001</guid>
+      <pubDate>Sat, 19 Sep 2026 01:36:20 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (728 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1001 in reticlehq/reticle: [agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test adapters/realm/browser/src/actions/actions.danger-context.test.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/1001">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>area/server</category>
+    </item>
     <item>
       <title>[terrakube-io/terrakube] #3579 Module/Provider Version Deprecation &amp; Removal (Solvability: 6/10)</title>
       <link>https://github.com/terrakube-io/terrakube/issues/3579</link>
@@ -43,24 +308,6 @@
       <category>help wanted</category>
     </item>
     <item>
-      <title>[Hebbian-Robotics/hflow] #565 Migrate the hflow CLI from argparse to typed Typer commands (Solvability: 6/10)</title>
-      <link>https://github.com/Hebbian-Robotics/hflow/issues/565</link>
-      <guid isPermaLink="true">https://github.com/Hebbian-Robotics/hflow/issues/565</guid>
-      <pubDate>Fri, 18 Sep 2026 18:57:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Hebbian-Robotics/hflow">Hebbian-Robotics/hflow</a> (272 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #565 in Hebbian-Robotics/hflow: Migrate the hflow CLI from argparse to typed Typer commands</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/test_cli.py</code></p>
-<p><a href="https://github.com/Hebbian-Robotics/hflow/issues/565">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>advanced</category>
-    </item>
-    <item>
       <title>[Hebbian-Robotics/hflow] #566 Migrate the Build AI evaluation CLI to Typer (Solvability: 6/10)</title>
       <link>https://github.com/Hebbian-Robotics/hflow/issues/566</link>
       <guid isPermaLink="true">https://github.com/Hebbian-Robotics/hflow/issues/566</guid>
@@ -95,42 +342,6 @@
       <category>help wanted</category>
     </item>
     <item>
-      <title>[Hebbian-Robotics/hflow] #568 Migrate the Airflow HTTP transport from urllib to httpx2 (Solvability: 6/10)</title>
-      <link>https://github.com/Hebbian-Robotics/hflow/issues/568</link>
-      <guid isPermaLink="true">https://github.com/Hebbian-Robotics/hflow/issues/568</guid>
-      <pubDate>Fri, 18 Sep 2026 18:59:51 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Hebbian-Robotics/hflow">Hebbian-Robotics/hflow</a> (272 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #568 in Hebbian-Robotics/hflow: Migrate the Airflow HTTP transport from urllib to httpx2</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/test_runtime_integration.py</code></p>
-<p><a href="https://github.com/Hebbian-Robotics/hflow/issues/568">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[meshery/meshery] #22027 [Docs] Fix non-existent Makefile targets in UI testing contributor guide (Solvability: 6/10)</title>
-      <link>https://github.com/meshery/meshery/issues/22027</link>
-      <guid isPermaLink="true">https://github.com/meshery/meshery/issues/22027</guid>
-      <pubDate>Fri, 18 Sep 2026 19:55:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/meshery/meshery">meshery/meshery</a> (11820 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #22027 in meshery/meshery: [Docs] Fix non-existent Makefile targets in UI testing contributor guide</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/meshery/meshery/issues/22027">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>area/docs</category>
-      <category>language/markdown</category>
-      <category>framework/hugo</category>
-    </item>
-    <item>
       <title>[super-productivity/super-productivity] #10152 Hybrid devices: UI shifts when switching between touch and mouse input (repro needed) (Solvability: 6/10)</title>
       <link>https://github.com/super-productivity/super-productivity/issues/10152</link>
       <guid isPermaLink="true">https://github.com/super-productivity/super-productivity/issues/10152</guid>
@@ -141,22 +352,6 @@
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>pnpm test e2e/tests/planner/planner-subtask-scheduled-visibility.spec.ts</code></p>
 <p><a href="https://github.com/super-productivity/super-productivity/issues/10152">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[super-productivity/super-productivity] #10153 The two markdown renderers have diverged (=WxH spacing, Jira hN. headings) (Solvability: 6/10)</title>
-      <link>https://github.com/super-productivity/super-productivity/issues/10153</link>
-      <guid isPermaLink="true">https://github.com/super-productivity/super-productivity/issues/10153</guid>
-      <pubDate>Fri, 18 Sep 2026 19:55:57 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/super-productivity/super-productivity">super-productivity/super-productivity</a> (22117 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10153 in super-productivity/super-productivity: The two markdown renderers have diverged (=WxH spacing, Jira hN. headings)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/app/ui/marked-options-factory.spec.ts</code></p>
-<p><a href="https://github.com/super-productivity/super-productivity/issues/10153">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -186,23 +381,6 @@
       <category>good-first-issue</category>
     </item>
     <item>
-      <title>[kubernetes/minikube] #23723 functional test: Add more podman driver variants (Solvability: 6/10)</title>
-      <link>https://github.com/kubernetes/minikube/issues/23723</link>
-      <guid isPermaLink="true">https://github.com/kubernetes/minikube/issues/23723</guid>
-      <pubDate>Fri, 18 Sep 2026 19:26:45 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/kubernetes/minikube">kubernetes/minikube</a> (32138 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #23723 in kubernetes/minikube: functional test: Add more podman driver variants</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/kubernetes/minikube/issues/23723">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>area/testing</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[0dotxyz/marginfi-v2] #682 Allow empty-but-active integration balances to close (Solvability: 6/10)</title>
       <link>https://github.com/0dotxyz/marginfi-v2/issues/682</link>
       <guid isPermaLink="true">https://github.com/0dotxyz/marginfi-v2/issues/682</guid>
@@ -217,23 +395,6 @@
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[kubernetes/minikube] #23724 Document how to configure host for podman --rootless driver (Solvability: 6/10)</title>
-      <link>https://github.com/kubernetes/minikube/issues/23724</link>
-      <guid isPermaLink="true">https://github.com/kubernetes/minikube/issues/23724</guid>
-      <pubDate>Fri, 18 Sep 2026 19:36:09 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/kubernetes/minikube">kubernetes/minikube</a> (32138 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #23724 in kubernetes/minikube: Document how to configure host for podman --rootless driver</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/kubernetes/minikube/issues/23724">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/documentation</category>
       <category>good first issue</category>
     </item>
     <item>
@@ -272,23 +433,6 @@
       <category>enhancement</category>
       <category>help wanted</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[microsoft/PyRIT] #2701 BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors (Solvability: 6/10)</title>
-      <link>https://github.com/microsoft/PyRIT/issues/2701</link>
-      <guid isPermaLink="true">https://github.com/microsoft/PyRIT/issues/2701</guid>
-      <pubDate>Fri, 18 Sep 2026 14:22:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/microsoft/PyRIT">microsoft/PyRIT</a> (4505 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2701 in microsoft/PyRIT: BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/microsoft/PyRIT/issues/2701">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>Bug: triage</category>
     </item>
     <item>
       <title>[MakazhanAlpamys/Soup] #1069 loss_watchdog, loss_spike_recovery and grad_accum_auto_tune are read by nothing on backend: mlx (Solvability: 6/10)</title>
@@ -807,133 +951,6 @@
       <category>friction-standard</category>
       <category>good first issue</category>
       <category>level-3</category>
-    </item>
-    <item>
-      <title>[OthmanAdi/planning-with-files] #255 init-session.ps1 reports success after a denied file write because Out-File errors are non-terminating (Solvability: 6/10)</title>
-      <link>https://github.com/OthmanAdi/planning-with-files/issues/255</link>
-      <guid isPermaLink="true">https://github.com/OthmanAdi/planning-with-files/issues/255</guid>
-      <pubDate>Thu, 17 Sep 2026 18:44:53 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OthmanAdi/planning-with-files">OthmanAdi/planning-with-files</a> (26966 ⭐, Shell)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #255 in OthmanAdi/planning-with-files: init-session.ps1 reports success after a denied file write because Out-File errors are non-terminating</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/OthmanAdi/planning-with-files/issues/255">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Shell</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30523 [Good First Issue] 🥟 Add new Learner Mistake 13 - Beginner-Friendly Open-source Contribution (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30523</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30523</guid>
-      <pubDate>Thu, 17 Sep 2026 18:57:28 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3409 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30523 in lingdojo/kana-dojo: [Good First Issue] 🥟 Add new Learner Mistake 13 - Beginner-Friendly Open-source Contribution (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-common-mistakes.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30523">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[manankharwar/fusioncore] #135 check_config_params.py ignores paths given on the command line, so a config outside its globs cannot be checked (Solvability: 6/10)</title>
-      <link>https://github.com/manankharwar/fusioncore/issues/135</link>
-      <guid isPermaLink="true">https://github.com/manankharwar/fusioncore/issues/135</guid>
-      <pubDate>Thu, 17 Sep 2026 19:20:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/manankharwar/fusioncore">manankharwar/fusioncore</a> (363 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #135 in manankharwar/fusioncore: check_config_params.py ignores paths given on the command line, so a config outside its globs cannot be checked</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/manankharwar/fusioncore/issues/135">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[manankharwar/fusioncore] #136 Docs claim 114 and 64 tests, the suite now reports 265, so the quickstart's expected output is wrong (Solvability: 6/10)</title>
-      <link>https://github.com/manankharwar/fusioncore/issues/136</link>
-      <guid isPermaLink="true">https://github.com/manankharwar/fusioncore/issues/136</guid>
-      <pubDate>Thu, 17 Sep 2026 19:20:52 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/manankharwar/fusioncore">manankharwar/fusioncore</a> (363 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #136 in manankharwar/fusioncore: Docs claim 114 and 64 tests, the suite now reports 265, so the quickstart's expected output is wrong</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/manankharwar/fusioncore/issues/136">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[manankharwar/fusioncore] #138 Gates that stand down on purpose are indistinguishable from gates that never ran: add NOT_EVALUATED (Solvability: 6/10)</title>
-      <link>https://github.com/manankharwar/fusioncore/issues/138</link>
-      <guid isPermaLink="true">https://github.com/manankharwar/fusioncore/issues/138</guid>
-      <pubDate>Thu, 17 Sep 2026 19:34:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/manankharwar/fusioncore">manankharwar/fusioncore</a> (363 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #138 in manankharwar/fusioncore: Gates that stand down on purpose are indistinguishable from gates that never ran: add NOT_EVALUATED</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/manankharwar/fusioncore/issues/138">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[containers/kubernetes-mcp-server] #1445 Build on macos-15-intel is flaky (Solvability: 6/10)</title>
-      <link>https://github.com/containers/kubernetes-mcp-server/issues/1445</link>
-      <guid isPermaLink="true">https://github.com/containers/kubernetes-mcp-server/issues/1445</guid>
-      <pubDate>Thu, 17 Sep 2026 14:29:43 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/containers/kubernetes-mcp-server">containers/kubernetes-mcp-server</a> (2103 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1445 in containers/kubernetes-mcp-server: Build on macos-15-intel is flaky</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/containers/kubernetes-mcp-server/issues/1445">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[mozilla/pontoon] #4538 Do-no-translate terms should not have a `TRANSLATE` link (Solvability: 6/10)</title>
-      <link>https://github.com/mozilla/pontoon/issues/4538</link>
-      <guid isPermaLink="true">https://github.com/mozilla/pontoon/issues/4538</guid>
-      <pubDate>Thu, 17 Sep 2026 15:00:39 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mozilla/pontoon">mozilla/pontoon</a> (1667 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4538 in mozilla/pontoon: Do-no-translate terms should not have a `TRANSLATE` link</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest pontoon/base/migrations/0024_fuzzy_to_pretranslated_strings.py</code></p>
-<p><a href="https://github.com/mozilla/pontoon/issues/4538">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>P3</category>
-      <category>good first issue</category>
-      <category>hours</category>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,436 @@
 [
   {
+    "id": "I_kwDOQuAx5c8AAAABSCcE0A",
+    "number": 970,
+    "title": "Package LibreDB Studio for nixpkgs",
+    "url": "https://github.com/libredb/libredb-studio/issues/970",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 802,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "deployment",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-18T22:23:11Z",
+    "updatedAt": "2026-09-18T23:01:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test package.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "package.json",
+      "distribution/channels.yaml"
+    ],
+    "summary": "Fix issue #970 in libredb/libredb-studio: Package LibreDB Studio for nixpkgs",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T02:00:12.904Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABSCcZoQ",
+    "number": 971,
+    "title": "Publish libredb-studio-bin to the AUR",
+    "url": "https://github.com/libredb/libredb-studio/issues/971",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 802,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "good first issue",
+      "deployment",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-18T22:23:46Z",
+    "updatedAt": "2026-09-18T23:01:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packaging/linux/nfpm.yaml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packaging/linux/nfpm.yaml",
+      "distribution/channels.yaml"
+    ],
+    "summary": "Fix issue #971 in libredb/libredb-studio: Publish libredb-studio-bin to the AUR",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T02:00:10.311Z"
+  },
+  {
+    "id": "I_kwDORj6KWc8AAAABSCrZXQ",
+    "number": 199,
+    "title": "[good first issue] Browser recipes, round two: tab switching, zoom, address bar, fullscreen",
+    "url": "https://github.com/guaardvark/guaardvark/issues/199",
+    "repo": "guaardvark/guaardvark",
+    "repoUrl": "https://github.com/guaardvark/guaardvark",
+    "stars": 224,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-18T22:52:45Z",
+    "updatedAt": "2026-09-18T22:52:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest data/agent/recipes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "data/agent/recipes.json",
+      "cli/llx/commands/recipes.py"
+    ],
+    "summary": "Fix issue #199 in guaardvark/guaardvark: [good first issue] Browser recipes, round two: tab switching, zoom, address bar, fullscreen",
+    "maintainerTurnaroundDays": 1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T02:00:08.150Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABSCt-Vg",
+    "number": 973,
+    "title": "Proofread README_ja.md: no Japanese speaker has ever reviewed it",
+    "url": "https://github.com/libredb/libredb-studio/issues/973",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 802,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-18T22:57:43Z",
+    "updatedAt": "2026-09-18T22:57:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test tests/unit/helm-chart-agent.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/helm-chart-agent.test.ts",
+      "tests/unit/helm-chart-auth-cookie-secure.test.ts",
+      "tests/unit/helm-chart-auth-provider.test.ts"
+    ],
+    "summary": "Fix issue #973 in libredb/libredb-studio: Proofread README_ja.md: no Japanese speaker has ever reviewed it",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T02:00:05.819Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSCvmPg",
+    "number": 30562,
+    "title": "[good first issue] 🪭 Add new Example Sentence 909 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30562",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3415,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-18T23:00:57Z",
+    "updatedAt": "2026-09-18T23:00:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #30562 in lingdojo/kana-dojo: [good first issue] 🪭 Add new Example Sentence 909 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T02:00:03.609Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABSDJ1zw",
+    "number": 976,
+    "title": "Get LibreDB Studio listed in the CockroachDB docs",
+    "url": "https://github.com/libredb/libredb-studio/issues/976",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 802,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T00:03:04Z",
+    "updatedAt": "2026-09-19T00:07:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test database-compose.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "database-compose.yml",
+      "distribution/channels.yaml"
+    ],
+    "summary": "Fix issue #976 in libredb/libredb-studio: Get LibreDB Studio listed in the CockroachDB docs",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T02:00:01.976Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABSDUCtw",
+    "number": 979,
+    "title": "A committed .only makes a test file report PASS with the rest of its tests never run",
+    "url": "https://github.com/libredb/libredb-studio/issues/979",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 802,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-19T00:23:39Z",
+    "updatedAt": "2026-09-19T00:23:39Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #979 in libredb/libredb-studio: A committed .only makes a test file report PASS with the rest of its tests never run",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T01:59:59.778Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABSDUDjg",
+    "number": 980,
+    "title": "Backlog citation scan reads untracked files, so a local draft fails a gate CI cannot",
+    "url": "https://github.com/libredb/libredb-studio/issues/980",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 802,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-19T00:23:41Z",
+    "updatedAt": "2026-09-19T00:23:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test tests/unit/backlog-structure.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/backlog-structure.test.ts",
+      "tests/unit/agent-documentation.test.ts"
+    ],
+    "summary": "Fix issue #980 in libredb/libredb-studio: Backlog citation scan reads untracked files, so a local draft fails a gate CI cannot",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T01:59:57.613Z"
+  },
+  {
+    "id": "I_kwDOFpb_as8AAAABSDVklg",
+    "number": 186,
+    "title": "Noise-removal regex over-matches, silently deleting real article content",
+    "url": "https://github.com/mldsveda/PyScrappy/issues/186",
+    "repo": "mldsveda/PyScrappy",
+    "repoUrl": "https://github.com/mldsveda/PyScrappy",
+    "stars": 256,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T00:27:03Z",
+    "updatedAt": "2026-09-19T00:27:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/pyscrappy/mcp/__main__.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/pyscrappy/mcp/__main__.py"
+    ],
+    "summary": "Fix issue #186 in mldsveda/PyScrappy: Noise-removal regex over-matches, silently deleting real article content",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T01:59:55.417Z"
+  },
+  {
+    "id": "I_kwDOFpb_as8AAAABSDV84Q",
+    "number": 187,
+    "title": "Numbered pagination never advances from a page-1 URL that has no page parameter",
+    "url": "https://github.com/mldsveda/PyScrappy/issues/187",
+    "repo": "mldsveda/PyScrappy",
+    "repoUrl": "https://github.com/mldsveda/PyScrappy",
+    "stars": 256,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T00:27:52Z",
+    "updatedAt": "2026-09-19T00:27:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/pyscrappy/mcp/__main__.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/pyscrappy/mcp/__main__.py",
+      "tests/test_generic/test_pagination_offsets.py"
+    ],
+    "summary": "Fix issue #187 in mldsveda/PyScrappy: Numbered pagination never advances from a page-1 URL that has no page parameter",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T01:59:54.784Z"
+  },
+  {
+    "id": "I_kwDOFpb_as8AAAABSDWHOw",
+    "number": 188,
+    "title": "--render-js is silently ignored for .html output in pyscrappy extract",
+    "url": "https://github.com/mldsveda/PyScrappy/issues/188",
+    "repo": "mldsveda/PyScrappy",
+    "repoUrl": "https://github.com/mldsveda/PyScrappy",
+    "stars": 256,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-19T00:28:13Z",
+    "updatedAt": "2026-09-19T00:28:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_cli/test_extract.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/test_cli/test_extract.py"
+    ],
+    "summary": "Fix issue #188 in mldsveda/PyScrappy: --render-js is silently ignored for .html output in pyscrappy extract",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T01:59:54.202Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSDju6w",
+    "number": 30564,
+    "title": "[good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30564",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3415,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-19T01:01:03Z",
+    "updatedAt": "2026-09-19T01:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #30564 in lingdojo/kana-dojo: [good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T01:59:53.606Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABSDwpXQ",
+    "number": 999,
+    "title": "Three small ones from the field: `impact.json` dirties the repo, `login --help` burns a device code, and `mkdir '/.reticle'`",
+    "url": "https://github.com/reticlehq/reticle/issues/999",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 728,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "area/server"
+    ],
+    "createdAt": "2026-09-19T01:35:20Z",
+    "updatedAt": "2026-09-19T01:35:20Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/bench-app/src/components/Login.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/bench-app/src/components/Login.tsx",
+      "server/src/command/cli/cloud-login.ts",
+      "server/src/command/cli/doctor/doctor-sessions-line.test.ts"
+    ],
+    "summary": "Fix issue #999 in reticlehq/reticle: Three small ones from the field: `impact.json` dirties the repo, `login --help` burns a device code, and `mkdir '/.reticle'`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T01:59:51.994Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABSDw8Qg",
+    "number": 1001,
+    "title": "[agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name",
+    "url": "https://github.com/reticlehq/reticle/issues/1001",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 728,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "area/server"
+    ],
+    "createdAt": "2026-09-19T01:36:20Z",
+    "updatedAt": "2026-09-19T01:36:20Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test adapters/realm/browser/src/actions/actions.danger-context.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "adapters/realm/browser/src/actions/actions.danger-context.test.ts",
+      "adapters/realm/browser/src/actions/appeared-text.test.ts",
+      "adapters/realm/browser/src/actions/appeared-text.ts"
+    ],
+    "summary": "Fix issue #1001 in reticlehq/reticle: [agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T01:59:50.050Z"
+  },
+  {
     "id": "I_kwDOFNYjbs8AAAABSAPdVQ",
     "number": 3579,
     "title": "Module/Provider Version Deprecation & Removal",
@@ -55,36 +486,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T20:07:41.254Z"
-  },
-  {
-    "id": "I_kwDOT8qp7s8AAAABSAlehQ",
-    "number": 565,
-    "title": "Migrate the hflow CLI from argparse to typed Typer commands",
-    "url": "https://github.com/Hebbian-Robotics/hflow/issues/565",
-    "repo": "Hebbian-Robotics/hflow",
-    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
-    "stars": 272,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "advanced"
-    ],
-    "createdAt": "2026-09-18T18:57:03Z",
-    "updatedAt": "2026-09-18T18:57:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/test_cli.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/test_cli.py",
-      "tests/test_runtime_cli.py"
-    ],
-    "summary": "Fix issue #565 in Hebbian-Robotics/hflow: Migrate the hflow CLI from argparse to typed Typer commands",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T20:07:38.846Z"
   },
   {
     "id": "I_kwDOT8qp7s8AAAABSAlgmQ",
@@ -143,64 +544,6 @@
     "discoveredAt": "2026-09-18T20:07:35.962Z"
   },
   {
-    "id": "I_kwDOT8qp7s8AAAABSAnRsQ",
-    "number": 568,
-    "title": "Migrate the Airflow HTTP transport from urllib to httpx2",
-    "url": "https://github.com/Hebbian-Robotics/hflow/issues/568",
-    "repo": "Hebbian-Robotics/hflow",
-    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
-    "stars": 272,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T18:59:51Z",
-    "updatedAt": "2026-09-18T18:59:51Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/test_runtime_integration.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/test_runtime_integration.py"
-    ],
-    "summary": "Fix issue #568 in Hebbian-Robotics/hflow: Migrate the Airflow HTTP transport from urllib to httpx2",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T20:07:34.438Z"
-  },
-  {
-    "id": "I_kwDOCWQXL88AAAABSBJICQ",
-    "number": 22027,
-    "title": "[Docs] Fix non-existent Makefile targets in UI testing contributor guide",
-    "url": "https://github.com/meshery/meshery/issues/22027",
-    "repo": "meshery/meshery",
-    "repoUrl": "https://github.com/meshery/meshery",
-    "stars": 11820,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "area/docs",
-      "language/markdown",
-      "framework/hugo"
-    ],
-    "createdAt": "2026-09-18T19:55:34Z",
-    "updatedAt": "2026-09-18T19:58:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #22027 in meshery/meshery: [Docs] Fix non-existent Makefile targets in UI testing contributor guide",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-18T20:07:32.479Z"
-  },
-  {
     "id": "I_kwDOBKnnxc8AAAABSBJTWQ",
     "number": 10152,
     "title": "Hybrid devices: UI shifts when switching between touch and mouse input (repro needed)",
@@ -228,34 +571,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-18T20:07:00.716Z"
-  },
-  {
-    "id": "I_kwDOBKnnxc8AAAABSBJUtg",
-    "number": 10153,
-    "title": "The two markdown renderers have diverged (=WxH spacing, Jira hN. headings)",
-    "url": "https://github.com/super-productivity/super-productivity/issues/10153",
-    "repo": "super-productivity/super-productivity",
-    "repoUrl": "https://github.com/super-productivity/super-productivity",
-    "stars": 22117,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T19:55:57Z",
-    "updatedAt": "2026-09-18T19:55:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/app/ui/marked-options-factory.spec.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/app/ui/marked-options-factory.spec.ts",
-      "src/app/ui/marked-options-factory.ts"
-    ],
-    "summary": "Fix issue #10153 in super-productivity/super-productivity: The two markdown renderers have diverged (=WxH spacing, Jira hN. headings)",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-18T20:06:56.970Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSAoI9w",
@@ -292,34 +607,6 @@
     "discoveredAt": "2026-09-18T20:06:53.333Z"
   },
   {
-    "id": "I_kwDOA1vjzM8AAAABSA4o2A",
-    "number": 23723,
-    "title": "functional test: Add more podman driver variants",
-    "url": "https://github.com/kubernetes/minikube/issues/23723",
-    "repo": "kubernetes/minikube",
-    "repoUrl": "https://github.com/kubernetes/minikube",
-    "stars": 32138,
-    "language": "Go",
-    "labels": [
-      "area/testing",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-18T19:26:45Z",
-    "updatedAt": "2026-09-18T19:40:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #23723 in kubernetes/minikube: functional test: Add more podman driver variants",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-18T20:06:50.914Z"
-  },
-  {
     "id": "I_kwDOIkWXq88AAAABSA7IAQ",
     "number": 682,
     "title": "Allow empty-but-active integration balances to close",
@@ -346,34 +633,6 @@
     "maintainerTurnaroundDays": 1.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T20:06:47.100Z"
-  },
-  {
-    "id": "I_kwDOA1vjzM8AAAABSA-kXw",
-    "number": 23724,
-    "title": "Document how to configure host for podman --rootless driver",
-    "url": "https://github.com/kubernetes/minikube/issues/23724",
-    "repo": "kubernetes/minikube",
-    "repoUrl": "https://github.com/kubernetes/minikube",
-    "stars": 32138,
-    "language": "Go",
-    "labels": [
-      "kind/documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-18T19:36:09Z",
-    "updatedAt": "2026-09-18T19:36:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #23724 in kubernetes/minikube: Document how to configure host for podman --rootless driver",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-18T20:06:44.946Z"
   },
   {
     "id": "I_kwDORlbFis8AAAABSBA7bw",
@@ -435,34 +694,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T20:06:34.485Z"
-  },
-  {
-    "id": "I_kwDOK45rdc8AAAABR93W7w",
-    "number": 2701,
-    "title": "BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors",
-    "url": "https://github.com/microsoft/PyRIT/issues/2701",
-    "repo": "microsoft/PyRIT",
-    "repoUrl": "https://github.com/microsoft/PyRIT",
-    "stars": 4505,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "Bug: triage"
-    ],
-    "createdAt": "2026-09-18T14:22:03Z",
-    "updatedAt": "2026-09-18T14:44:17Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2701 in microsoft/PyRIT: BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:22:06.442Z"
   },
   {
     "id": "I_kwDORUqZb88AAAABR-JUbg",
@@ -1464,37 +1695,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-17T15:49:13.138Z"
-  },
-  {
-    "id": "I_kwDOABUlos8AAAABRy14aQ",
-    "number": 4538,
-    "title": "Do-no-translate terms should not have a `TRANSLATE` link",
-    "url": "https://github.com/mozilla/pontoon/issues/4538",
-    "repo": "mozilla/pontoon",
-    "repoUrl": "https://github.com/mozilla/pontoon",
-    "stars": 1667,
-    "language": "Python",
-    "labels": [
-      "P3",
-      "good first issue",
-      "hours"
-    ],
-    "createdAt": "2026-09-17T15:00:39Z",
-    "updatedAt": "2026-09-17T15:17:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest pontoon/base/migrations/0024_fuzzy_to_pretranslated_strings.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "pontoon/base/migrations/0024_fuzzy_to_pretranslated_strings.py",
-      "pontoon/base/migrations/0134_alter_locale_google_translate_code.py",
-      "pontoon/base/models/translated_resource.py"
-    ],
-    "summary": "Fix issue #4538 in mozilla/pontoon: Do-no-translate terms should not have a `TRANSLATE` link",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T15:49:05.141Z"
   },
   {
     "id": "I_kwDOC3-hZ88AAAABRzAAtg",
@@ -3072,37 +3272,6 @@
     "discoveredAt": "2026-09-13T01:46:38.389Z"
   },
   {
-    "id": "I_kwDOMpyoqs8AAAABQM0F4A",
-    "number": 1298,
-    "title": "[Compute] NewDatumWithoutOwning returns an ordinary Datum, so Release() on it frees the caller's array with no error; its doc comment is also truncated",
-    "url": "https://github.com/apache/arrow-go/issues/1298",
-    "repo": "apache/arrow-go",
-    "repoUrl": "https://github.com/apache/arrow-go",
-    "stars": 402,
-    "language": "Assembly",
-    "labels": [
-      "Type: enhancement",
-      "good-first-issue",
-      "Type: usage"
-    ],
-    "createdAt": "2026-09-08T04:41:47Z",
-    "updatedAt": "2026-09-08T16:40:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "arrow/array/json_reader_release_error_test.go",
-      "arrow/compute/datum.go",
-      "arrow/compute/datumkind_string.go"
-    ],
-    "summary": "Fix issue #1298 in apache/arrow-go: [Compute] NewDatumWithoutOwning returns an ordinary Datum, so Release() on it frees the caller's array with no error; its doc comment is also truncated",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T19:48:47.820Z"
-  },
-  {
     "id": "I_kwDOSOAAX88AAAABQQihlw",
     "number": 1399,
     "title": "chore(ci): pin third-party actions to commit SHAs in the 11 workflows that still float @v7",
@@ -4321,149 +4490,5 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-08T15:32:28.944Z"
-  },
-  {
-    "id": "I_kwDOMpyoqs8AAAABO0ORkg",
-    "number": 1267,
-    "title": "[Flight SQL] Add client-side tests for Substrait prepared statements",
-    "url": "https://github.com/apache/arrow-go/issues/1267",
-    "repo": "apache/arrow-go",
-    "repoUrl": "https://github.com/apache/arrow-go",
-    "stars": 401,
-    "language": "Assembly",
-    "labels": [
-      "good-first-issue"
-    ],
-    "createdAt": "2026-08-29T22:54:37Z",
-    "updatedAt": "2026-09-01T22:47:47Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "arrow/flight/flightsql/client_test.go"
-    ],
-    "summary": "Fix issue #1267 in apache/arrow-go: [Flight SQL] Add client-side tests for Substrait prepared statements",
-    "maintainerTurnaroundDays": 0.8,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-08T10:13:43.872Z"
-  },
-  {
-    "id": "I_kwDOB11tyM8AAAABQPBQXg",
-    "number": 4326,
-    "title": "💡Favorites",
-    "url": "https://github.com/code-charity/youtube/issues/4326",
-    "repo": "code-charity/youtube",
-    "repoUrl": "https://github.com/code-charity/youtube",
-    "stars": 4568,
-    "language": "JavaScript",
-    "labels": [
-      "Feature request",
-      "help wanted",
-      "good first issue",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-08T08:48:30Z",
-    "updatedAt": "2026-09-08T09:32:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #4326 in code-charity/youtube: 💡Favorites",
-    "maintainerTurnaroundDays": 0.6,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-08T10:13:42.687Z"
-  },
-  {
-    "id": "I_kwDORponss8AAAABQI0ZZg",
-    "number": 98,
-    "title": "Separate the magnetometer's mounting rotation from magnetic declination",
-    "url": "https://github.com/manankharwar/fusioncore/issues/98",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 348,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-07T18:26:18Z",
-    "updatedAt": "2026-09-07T18:26:18Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "fusioncore_ros/config/fusioncore.yaml",
-      "tools/check_config_params.py",
-      "fusioncore_core/tests/test_magnetometer.cpp"
-    ],
-    "summary": "Fix issue #98 in manankharwar/fusioncore: Separate the magnetometer's mounting rotation from magnetic declination",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T20:53:18.598Z"
-  },
-  {
-    "id": "I_kwDOB11tyM8AAAABQJBPFg",
-    "number": 4322,
-    "title": "🐞 Disable Auto play not working when using incognito",
-    "url": "https://github.com/code-charity/youtube/issues/4322",
-    "repo": "code-charity/youtube",
-    "repoUrl": "https://github.com/code-charity/youtube",
-    "stars": 4567,
-    "language": "JavaScript",
-    "labels": [
-      "Bug",
-      "help wanted",
-      "good first issue",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-07T18:58:41Z",
-    "updatedAt": "2026-09-07T18:59:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #4322 in code-charity/youtube: 🐞 Disable Auto play not working when using incognito",
-    "maintainerTurnaroundDays": 1.9,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-07T20:53:10.108Z"
-  },
-  {
-    "id": "I_kwDORtUdpc8AAAABQJWUVQ",
-    "number": 446,
-    "title": "Proposal: AI-BOM support (CycloneDX ML-BOM / SPDX 3.0) for model artifacts",
-    "url": "https://github.com/llmmanorg/llmman/issues/446",
-    "repo": "llmmanorg/llmman",
-    "repoUrl": "https://github.com/llmmanorg/llmman",
-    "stars": 483,
-    "language": "Rust",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-07T19:50:40Z",
-    "updatedAt": "2026-09-07T19:51:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #446 in llmmanorg/llmman: Proposal: AI-BOM support (CycloneDX ML-BOM / SPDX 3.0) for model artifacts",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-07T20:53:02.890Z"
   }
 ]

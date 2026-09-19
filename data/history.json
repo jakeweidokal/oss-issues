@@ -7534,7 +7534,8 @@
     "repo": "apache/arrow-go",
     "title": "[Compute] NewDatumWithoutOwning returns an ordinary Datum, so Release() on it frees the caller's array with no error; its doc comment is also truncated",
     "discoveredAt": "2026-09-12T19:48:47.820Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOAWdOu88AAAABRBa0bw": {
     "id": "I_kwDOAWdOu88AAAABRBa0bw",
@@ -9512,7 +9513,8 @@
     "repo": "mozilla/pontoon",
     "title": "Do-no-translate terms should not have a `TRANSLATE` link",
     "discoveredAt": "2026-09-17T15:49:05.141Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOAPe-Vs8AAAABRyr1mQ": {
     "id": "I_kwDOAPe-Vs8AAAABRyr1mQ",
@@ -10032,7 +10034,8 @@
     "repo": "microsoft/PyRIT",
     "title": "BUG Converter Registry dialogs lose keyboard focus after dismissal and duplicate errors",
     "discoveredAt": "2026-09-18T15:22:06.442Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQHh8ns8AAAABSBBNFw": {
     "id": "I_kwDOQHh8ns8AAAABSBBNFw",
@@ -10056,7 +10059,8 @@
     "repo": "kubernetes/minikube",
     "title": "Document how to configure host for podman --rootless driver",
     "discoveredAt": "2026-09-18T20:06:44.946Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOIkWXq88AAAABSA7IAQ": {
     "id": "I_kwDOIkWXq88AAAABSA7IAQ",
@@ -10072,7 +10076,8 @@
     "repo": "kubernetes/minikube",
     "title": "functional test: Add more podman driver variants",
     "discoveredAt": "2026-09-18T20:06:50.914Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOOwsln88AAAABSAoI9w": {
     "id": "I_kwDOOwsln88AAAABSAoI9w",
@@ -10088,7 +10093,8 @@
     "repo": "super-productivity/super-productivity",
     "title": "The two markdown renderers have diverged (=WxH spacing, Jira hN. headings)",
     "discoveredAt": "2026-09-18T20:06:56.970Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOBKnnxc8AAAABSBJTWQ": {
     "id": "I_kwDOBKnnxc8AAAABSBJTWQ",
@@ -10104,7 +10110,8 @@
     "repo": "meshery/meshery",
     "title": "[Docs] Fix non-existent Makefile targets in UI testing contributor guide",
     "discoveredAt": "2026-09-18T20:07:32.479Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOT8qp7s8AAAABSAnRsQ": {
     "id": "I_kwDOT8qp7s8AAAABSAnRsQ",
@@ -10112,7 +10119,8 @@
     "repo": "Hebbian-Robotics/hflow",
     "title": "Migrate the Airflow HTTP transport from urllib to httpx2",
     "discoveredAt": "2026-09-18T20:07:34.438Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOT8qp7s8AAAABSAlhWw": {
     "id": "I_kwDOT8qp7s8AAAABSAlhWw",
@@ -10136,7 +10144,8 @@
     "repo": "Hebbian-Robotics/hflow",
     "title": "Migrate the hflow CLI from argparse to typed Typer commands",
     "discoveredAt": "2026-09-18T20:07:38.846Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOS3TU6c8AAAABSAdPvw": {
     "id": "I_kwDOS3TU6c8AAAABSAdPvw",
@@ -10152,6 +10161,118 @@
     "repo": "terrakube-io/terrakube",
     "title": "Module/Provider Version Deprecation & Removal",
     "discoveredAt": "2026-09-18T20:07:42.545Z",
+    "status": "published"
+  },
+  "I_kwDOS3TU6c8AAAABSDw8Qg": {
+    "id": "I_kwDOS3TU6c8AAAABSDw8Qg",
+    "url": "https://github.com/reticlehq/reticle/issues/1001",
+    "repo": "reticlehq/reticle",
+    "title": "[agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name",
+    "discoveredAt": "2026-09-19T01:59:50.050Z",
+    "status": "published"
+  },
+  "I_kwDOS3TU6c8AAAABSDwpXQ": {
+    "id": "I_kwDOS3TU6c8AAAABSDwpXQ",
+    "url": "https://github.com/reticlehq/reticle/issues/999",
+    "repo": "reticlehq/reticle",
+    "title": "Three small ones from the field: `impact.json` dirties the repo, `login --help` burns a device code, and `mkdir '/.reticle'`",
+    "discoveredAt": "2026-09-19T01:59:51.994Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSDju6w": {
+    "id": "I_kwDOOwsln88AAAABSDju6w",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30564",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue)",
+    "discoveredAt": "2026-09-19T01:59:53.606Z",
+    "status": "published"
+  },
+  "I_kwDOFpb_as8AAAABSDWHOw": {
+    "id": "I_kwDOFpb_as8AAAABSDWHOw",
+    "url": "https://github.com/mldsveda/PyScrappy/issues/188",
+    "repo": "mldsveda/PyScrappy",
+    "title": "--render-js is silently ignored for .html output in pyscrappy extract",
+    "discoveredAt": "2026-09-19T01:59:54.202Z",
+    "status": "published"
+  },
+  "I_kwDOFpb_as8AAAABSDV84Q": {
+    "id": "I_kwDOFpb_as8AAAABSDV84Q",
+    "url": "https://github.com/mldsveda/PyScrappy/issues/187",
+    "repo": "mldsveda/PyScrappy",
+    "title": "Numbered pagination never advances from a page-1 URL that has no page parameter",
+    "discoveredAt": "2026-09-19T01:59:54.784Z",
+    "status": "published"
+  },
+  "I_kwDOFpb_as8AAAABSDVklg": {
+    "id": "I_kwDOFpb_as8AAAABSDVklg",
+    "url": "https://github.com/mldsveda/PyScrappy/issues/186",
+    "repo": "mldsveda/PyScrappy",
+    "title": "Noise-removal regex over-matches, silently deleting real article content",
+    "discoveredAt": "2026-09-19T01:59:55.417Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABSDUDjg": {
+    "id": "I_kwDOQuAx5c8AAAABSDUDjg",
+    "url": "https://github.com/libredb/libredb-studio/issues/980",
+    "repo": "libredb/libredb-studio",
+    "title": "Backlog citation scan reads untracked files, so a local draft fails a gate CI cannot",
+    "discoveredAt": "2026-09-19T01:59:57.613Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABSDUCtw": {
+    "id": "I_kwDOQuAx5c8AAAABSDUCtw",
+    "url": "https://github.com/libredb/libredb-studio/issues/979",
+    "repo": "libredb/libredb-studio",
+    "title": "A committed .only makes a test file report PASS with the rest of its tests never run",
+    "discoveredAt": "2026-09-19T01:59:59.778Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABSDJ1zw": {
+    "id": "I_kwDOQuAx5c8AAAABSDJ1zw",
+    "url": "https://github.com/libredb/libredb-studio/issues/976",
+    "repo": "libredb/libredb-studio",
+    "title": "Get LibreDB Studio listed in the CockroachDB docs",
+    "discoveredAt": "2026-09-19T02:00:01.976Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSCvmPg": {
+    "id": "I_kwDOOwsln88AAAABSCvmPg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30562",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🪭 Add new Example Sentence 909 (good-first-issue)",
+    "discoveredAt": "2026-09-19T02:00:03.609Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABSCt-Vg": {
+    "id": "I_kwDOQuAx5c8AAAABSCt-Vg",
+    "url": "https://github.com/libredb/libredb-studio/issues/973",
+    "repo": "libredb/libredb-studio",
+    "title": "Proofread README_ja.md: no Japanese speaker has ever reviewed it",
+    "discoveredAt": "2026-09-19T02:00:05.819Z",
+    "status": "published"
+  },
+  "I_kwDORj6KWc8AAAABSCrZXQ": {
+    "id": "I_kwDORj6KWc8AAAABSCrZXQ",
+    "url": "https://github.com/guaardvark/guaardvark/issues/199",
+    "repo": "guaardvark/guaardvark",
+    "title": "[good first issue] Browser recipes, round two: tab switching, zoom, address bar, fullscreen",
+    "discoveredAt": "2026-09-19T02:00:08.150Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABSCcZoQ": {
+    "id": "I_kwDOQuAx5c8AAAABSCcZoQ",
+    "url": "https://github.com/libredb/libredb-studio/issues/971",
+    "repo": "libredb/libredb-studio",
+    "title": "Publish libredb-studio-bin to the AUR",
+    "discoveredAt": "2026-09-19T02:00:10.311Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABSCcE0A": {
+    "id": "I_kwDOQuAx5c8AAAABSCcE0A",
+    "url": "https://github.com/libredb/libredb-studio/issues/970",
+    "repo": "libredb/libredb-studio",
+    "title": "Package LibreDB Studio for nixpkgs",
+    "discoveredAt": "2026-09-19T02:00:12.904Z",
     "status": "published"
   }
 }
