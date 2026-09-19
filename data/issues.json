@@ -1,5 +1,433 @@
 [
   {
+    "id": "I_kwDOK5M3Is8AAAABSHu4dw",
+    "number": 10769,
+    "title": "[Refactor♻️] Remove the four redundant unwraps from the getAcl table renderer",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10769",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "refactor♻️",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:12Z",
+    "updatedAt": "2026-09-19T14:52:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test get_acl_sub_command",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-cli/src/commands/auth/get_acl_sub_command.rs"
+    ],
+    "summary": "Fix issue #10769 in mxsm/rocketmq-rust: [Refactor♻️] Remove the four redundant unwraps from the getAcl table renderer",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:59:01.501Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHu5yQ",
+    "number": 10770,
+    "title": "[Test🧪] Add unit tests for the Topic deletion request and result classification",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10770",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:14Z",
+    "updatedAt": "2026-09-19T14:52:14Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test deletion",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/core/topic/deletion.rs"
+    ],
+    "summary": "Fix issue #10770 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for the Topic deletion request and result classification",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:56.902Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHu6kg",
+    "number": 10771,
+    "title": "[Test🧪] Add unit tests for the dashboard ACL delete-request validation",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10771",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:17Z",
+    "updatedAt": "2026-09-19T14:52:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test dashboard",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/core/dashboard.rs"
+    ],
+    "summary": "Fix issue #10771 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for the dashboard ACL delete-request validation",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:52.356Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHu74w",
+    "number": 10772,
+    "title": "[Bug🐛] StaticTopicPlanRequest::plan_at divides by zero on a deserialized empty broker list",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10772",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "bug🐛",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:20Z",
+    "updatedAt": "2026-09-19T14:52:20Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test planner",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/core/static_topic/planner.rs"
+    ],
+    "summary": "Fix issue #10772 in mxsm/rocketmq-rust: [Bug🐛] StaticTopicPlanRequest::plan_at divides by zero on a deserialized empty broker list",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:47.820Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHu9Ng",
+    "number": 10773,
+    "title": "[Test🧪] Cover the AdminBuilder defaults and its Debug redaction",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10773",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:23Z",
+    "updatedAt": "2026-09-19T14:52:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test admin",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/core/admin.rs"
+    ],
+    "summary": "Fix issue #10773 in mxsm/rocketmq-rust: [Test🧪] Cover the AdminBuilder defaults and its Debug redaction",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:43.286Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHu_JQ",
+    "number": 10774,
+    "title": "[Doc📝] Correct the module examples in the NameServer and Topic service adapters",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10774",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:27Z",
+    "updatedAt": "2026-09-19T14:52:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test namesrv",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/client_adapter/services/namesrv.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/client_adapter/services/topic.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-cli/src/commands/topic/allocate_mq_sub_command.rs"
+    ],
+    "summary": "Fix issue #10774 in mxsm/rocketmq-rust: [Doc📝] Correct the module examples in the NameServer and Topic service adapters",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:38.734Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHu__g",
+    "number": 10775,
+    "title": "[Test🧪] Add unit tests for the key_char and is_ctrl helpers",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10775",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tui crate",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-19T14:52:30Z",
+    "updatedAt": "2026-09-19T14:52:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test event",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/event.rs"
+    ],
+    "summary": "Fix issue #10775 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for the key_char and is_ctrl helpers",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:34.169Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHvCMA",
+    "number": 10777,
+    "title": "[Doc📝] Document the public fallible API of rocketmq-admin-tui",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10777",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tui crate"
+    ],
+    "createdAt": "2026-09-19T14:52:35Z",
+    "updatedAt": "2026-09-19T14:52:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test state",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/state.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/commands/executor.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/commands/catalog.rs"
+    ],
+    "summary": "Fix issue #10777 in mxsm/rocketmq-rust: [Doc📝] Document the public fallible API of rocketmq-admin-tui",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:25.049Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHvEqw",
+    "number": 10779,
+    "title": "[Enhancement✨] Sanitize multiline text in the monitoring and message-event table rows",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10779",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tui crate",
+      "enhancement✨"
+    ],
+    "createdAt": "2026-09-19T14:52:41Z",
+    "updatedAt": "2026-09-19T14:52:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test error",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-ai/rocketmq-mcp/src/error.rs",
+      "rocketmq-ai/rocketmq-mcp/tests/error_boundary_compat.rs",
+      "rocketmq-ai/rocketmq-mcp-control/src/error.rs"
+    ],
+    "summary": "Fix issue #10779 in mxsm/rocketmq-rust: [Enhancement✨] Sanitize multiline text in the monitoring and message-event table rows",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:15.908Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHvFpA",
+    "number": 10780,
+    "title": "[Bug🐛] read-message-log --version reports a hardcoded 0.2.0 while --version reports 1.0.0",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10780",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "bug🐛",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:44Z",
+    "updatedAt": "2026-09-19T14:52:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test command_line",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-store-inspect/src/command_line.rs",
+      "rocketmq-tools/rocketmq-store-inspect/src/bin/rocketmq_cli.rs"
+    ],
+    "summary": "Fix issue #10780 in mxsm/rocketmq-rust: [Bug🐛] read-message-log --version reports a hardcoded 0.2.0 while --version reports 1.0.0",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:11.303Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHvHig",
+    "number": 10781,
+    "title": "[Bug🐛] The downgrade preflight lock test asserts a message the code no longer produces",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10781",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "bug🐛",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:48Z",
+    "updatedAt": "2026-09-19T14:52:48Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test downgrade_preflight",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-store-inspect/tests/downgrade_preflight.rs",
+      "rocketmq-tools/rocketmq-store-inspect/src/downgrade_preflight.rs",
+      "rocketmq-error/src/error.rs"
+    ],
+    "summary": "Fix issue #10781 in mxsm/rocketmq-rust: [Bug🐛] The downgrade preflight lock test asserts a message the code no longer produces",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:06.691Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHvIoA",
+    "number": 10782,
+    "title": "[Doc📝] Add crate-level documentation and # Errors sections to rocketmq-store-inspect",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10782",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "documentation📝",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:51Z",
+    "updatedAt": "2026-09-19T14:52:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test lib",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-store-inspect/src/lib.rs",
+      "rocketmq-tools/rocketmq-store-inspect/src/content_show.rs",
+      "rocketmq-tools/rocketmq-store-inspect/src/multipath_consolidate.rs"
+    ],
+    "summary": "Fix issue #10782 in mxsm/rocketmq-rust: [Doc📝] Add crate-level documentation and # Errors sections to rocketmq-store-inspect",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:02.031Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHvJ0g",
+    "number": 10783,
+    "title": "[Test🧪] Add unit tests for parse_offset, parse_target_major, and split_paths",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10783",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪",
+      "rocketmq-tools crate"
+    ],
+    "createdAt": "2026-09-19T14:52:54Z",
+    "updatedAt": "2026-09-19T14:52:54Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test multipath_consolidate",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-store-inspect/src/multipath_consolidate.rs",
+      "rocketmq-tools/rocketmq-store-inspect/src/downgrade_preflight.rs"
+    ],
+    "summary": "Fix issue #10783 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for parse_offset, parse_target_major, and split_paths",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:57:57.430Z"
+  },
+  {
     "id": "I_kwDOPP1zAs8AAAABSFO1Aw",
     "number": 616,
     "title": "[BUG] Changing POSTGRES_PORT in .env breaks Docker Compose startup",
@@ -199,40 +627,6 @@
     "discoveredAt": "2026-09-19T09:52:09.606Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABSFxKbQ",
-    "number": 30573,
-    "title": "[good first issue] 🎍 Add new Trivia Question 695 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30573",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3416,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-19T09:01:00Z",
-    "updatedAt": "2026-09-19T09:01:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-trivia-medium.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-trivia-medium.json"
-    ],
-    "summary": "Fix issue #30573 in lingdojo/kana-dojo: [good first issue] 🎍 Add new Trivia Question 695 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:09.076Z"
-  },
-  {
     "id": "I_kwDONN8FYs8AAAABSFyn3A",
     "number": 233,
     "title": "feat: bonjour! 平台支持",
@@ -352,63 +746,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T09:52:04.470Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSF4QsQ",
-    "number": 3765,
-    "title": "find-a-session in Chinese",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3765",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 855,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T09:28:59Z",
-    "updatedAt": "2026-09-19T09:28:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./docs/zh/guide",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/zh/guide/session-files-on-disk.html"
-    ],
-    "summary": "Fix issue #3765 in vshulcz/deja-vu: find-a-session in Chinese",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:03.248Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSF4Tpg",
-    "number": 3766,
-    "title": "a guide page for deleting Cline task history",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3766",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 855,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T09:29:11Z",
-    "updatedAt": "2026-09-19T09:29:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./docs/registry",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/registry/cline.html",
-      "docs/guide/delete-opencode-session-history.html"
-    ],
-    "summary": "Fix issue #3766 in vshulcz/deja-vu: a guide page for deleting Cline task history",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:01.949Z"
   },
   {
     "id": "I_kwDOTX8R288AAAABSF6ESA",
@@ -562,40 +899,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T02:00:05.819Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSCvmPg",
-    "number": 30562,
-    "title": "[good first issue] 🪭 Add new Example Sentence 909 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30562",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3415,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-18T23:00:57Z",
-    "updatedAt": "2026-09-18T23:00:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-example-sentences.json"
-    ],
-    "summary": "Fix issue #30562 in lingdojo/kana-dojo: [good first issue] 🪭 Add new Example Sentence 909 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T02:00:03.609Z"
   },
   {
     "id": "I_kwDOQuAx5c8AAAABSDJ1zw",
@@ -808,34 +1111,6 @@
     "discoveredAt": "2026-09-18T20:07:42.545Z"
   },
   {
-    "id": "I_kwDOT8qp7s8AAAABSAlhWw",
-    "number": 567,
-    "title": "Migrate the EgoSuite evaluation CLI to Typer",
-    "url": "https://github.com/Hebbian-Robotics/hflow/issues/567",
-    "repo": "Hebbian-Robotics/hflow",
-    "repoUrl": "https://github.com/Hebbian-Robotics/hflow",
-    "stars": 272,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T18:57:06Z",
-    "updatedAt": "2026-09-18T18:57:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest examples/egosuite_evaluation/evaluate.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "examples/egosuite_evaluation/evaluate.py"
-    ],
-    "summary": "Fix issue #567 in Hebbian-Robotics/hflow: Migrate the EgoSuite evaluation CLI to Typer",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T20:07:35.962Z"
-  },
-  {
     "id": "I_kwDOBKnnxc8AAAABSBJTWQ",
     "number": 10152,
     "title": "Hybrid devices: UI shifts when switching between touch and mouse input (repro needed)",
@@ -863,40 +1138,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-18T20:07:00.716Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSAoI9w",
-    "number": 30559,
-    "title": "[good first issue] 🗾 Add new False Friend Pair 913 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30559",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3412,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-18T19:01:10Z",
-    "updatedAt": "2026-09-18T19:01:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #30559 in lingdojo/kana-dojo: [good first issue] 🗾 Add new False Friend Pair 913 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T20:06:53.333Z"
   },
   {
     "id": "I_kwDOIkWXq88AAAABSA7IAQ",
@@ -1047,34 +1288,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T15:21:41.185Z"
-  },
-  {
-    "id": "I_kwDOCMD8J88AAAABR9DiyA",
-    "number": 6829,
-    "title": "Drop support for  `kamel run --dev/--sync`",
-    "url": "https://github.com/apache/camel-k/issues/6829",
-    "repo": "apache/camel-k",
-    "repoUrl": "https://github.com/apache/camel-k",
-    "stars": 929,
-    "language": "Go",
-    "labels": [
-      "good first issue",
-      "kind/task"
-    ],
-    "createdAt": "2026-09-18T12:59:11Z",
-    "updatedAt": "2026-09-18T12:59:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #6829 in apache/camel-k: Drop support for  `kamel run --dev/--sync`",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:36.408Z"
   },
   {
     "id": "I_kwDOOHn12s8AAAABR9wDrA",
@@ -1259,34 +1472,6 @@
     "discoveredAt": "2026-09-18T10:11:32.561Z"
   },
   {
-    "id": "I_kwDOCMD8J88AAAABR6OdBw",
-    "number": 6828,
-    "title": "Drop support for deprecated Synthetic Integrations",
-    "url": "https://github.com/apache/camel-k/issues/6828",
-    "repo": "apache/camel-k",
-    "repoUrl": "https://github.com/apache/camel-k",
-    "stars": 929,
-    "language": "Go",
-    "labels": [
-      "good first issue",
-      "kind/task"
-    ],
-    "createdAt": "2026-09-18T07:23:10Z",
-    "updatedAt": "2026-09-18T07:23:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #6828 in apache/camel-k: Drop support for deprecated Synthetic Integrations",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:27.899Z"
-  },
-  {
     "id": "I_kwDOQGQhSc8AAAABR6Uksw",
     "number": 2414,
     "title": "[BUG] Distribution view: `Values` input uses a larger font than other inputs",
@@ -1429,74 +1614,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T10:11:05.930Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABR3YewQ",
-    "number": 30536,
-    "title": "[Good First Issue] 🍡 Add new Japanese Idiom 77 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30536",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3411,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-17T23:57:28Z",
-    "updatedAt": "2026-09-17T23:57:31Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #30536 in lingdojo/kana-dojo: [Good First Issue] 🍡 Add new Japanese Idiom 77 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:55:41.625Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABR3Z4_w",
-    "number": 30537,
-    "title": "[Good First Issue] 🍣 Add new Dialect Entry 68 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30537",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3411,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-18T00:01:06Z",
-    "updatedAt": "2026-09-18T00:01:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #30537 in lingdojo/kana-dojo: [Good First Issue] 🍣 Add new Dialect Entry 68 - Beginner-Friendly Open-source Contribution (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T01:55:39.376Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABR3xHrQ",
@@ -2979,172 +3096,6 @@
     "discoveredAt": "2026-09-14T02:05:15.753Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABRHMeoQ",
-    "number": 30353,
-    "title": "[Good First Issue] 🌋 Add new Japanese Proverb 124 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30353",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3378,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-13T23:01:06Z",
-    "updatedAt": "2026-09-13T23:01:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #30353 in lingdojo/kana-dojo: [Good First Issue] 🌋 Add new Japanese Proverb 124 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:05:12.465Z"
-  },
-  {
-    "id": "I_kwDOQ_KVhM8AAAABRHTrFw",
-    "number": 4037,
-    "title": "Flaky test: dotnet_trx test_parse_trx_files_in_dir_since_ignores_older_files depends on file mtimes",
-    "url": "https://github.com/rtk-ai/rtk/issues/4037",
-    "repo": "rtk-ai/rtk",
-    "repoUrl": "https://github.com/rtk-ai/rtk",
-    "stars": 80201,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue",
-      "priority:medium",
-      "area:testing"
-    ],
-    "createdAt": "2026-09-13T23:23:30Z",
-    "updatedAt": "2026-09-13T23:24:41Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #4037 in rtk-ai/rtk: Flaky test: dotnet_trx test_parse_trx_files_in_dir_since_ignores_older_files depends on file mtimes",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-14T02:05:09.048Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRHW4Zw",
-    "number": 30354,
-    "title": "[Good First Issue] 🎴 Add new Trivia Question 31 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30354",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3378,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-13T23:34:36Z",
-    "updatedAt": "2026-09-13T23:34:39Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-trivia-easy.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-trivia-easy.json"
-    ],
-    "summary": "Fix issue #30354 in lingdojo/kana-dojo: [Good First Issue] 🎴 Add new Trivia Question 31 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:05:07.273Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRHdz2w",
-    "number": 30355,
-    "title": "[Good First Issue] 🎑 Add new Grammar Point 25 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30355",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3378,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-14T00:01:05Z",
-    "updatedAt": "2026-09-14T00:01:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-grammar.json"
-    ],
-    "summary": "Fix issue #30355 in lingdojo/kana-dojo: [Good First Issue] 🎑 Add new Grammar Point 25 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:05:03.215Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABRHpFzg",
-    "number": 30356,
-    "title": "[Good First Issue] 🍡 Add new Anime Quote 59 - Beginner-Friendly Open-source Contribution",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30356",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3378,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only"
-    ],
-    "createdAt": "2026-09-14T00:34:34Z",
-    "updatedAt": "2026-09-14T00:34:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #30356 in lingdojo/kana-dojo: [Good First Issue] 🍡 Add new Anime Quote 59 - Beginner-Friendly Open-source Contribution",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T02:04:57.865Z"
-  },
-  {
     "id": "I_kwDOLL5yp88AAAABRHvhWg",
     "number": 231,
     "title": "Privacy controls for chat-history avatar training",
@@ -3490,38 +3441,6 @@
     "maintainerTurnaroundDays": 0.4,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-12T14:32:46.185Z"
-  },
-  {
-    "id": "I_kwDORz_b288AAAABQ7OAuQ",
-    "number": 1059,
-    "title": "[Bug] Polygonal lasso only closes on double-click, with no hint saying so",
-    "url": "https://github.com/snapotter-hq/SnapOtter/issues/1059",
-    "repo": "snapotter-hq/SnapOtter",
-    "repoUrl": "https://github.com/snapotter-hq/SnapOtter",
-    "stars": 2636,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "area: frontend",
-      "community-request"
-    ],
-    "createdAt": "2026-09-12T03:06:14Z",
-    "updatedAt": "2026-09-12T03:06:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test apps/web/src/hooks/use-editor-shortcuts.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "apps/web/src/hooks/use-editor-shortcuts.ts",
-      "apps/web/src/components/editor/options/selection-options.tsx",
-      "packages/shared/src/i18n/en.ts"
-    ],
-    "summary": "Fix issue #1059 in snapotter-hq/SnapOtter: [Bug] Polygonal lasso only closes on double-click, with no hint saying so",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:39.479Z"
   },
   {
     "id": "I_kwDORz_b288AAAABQ7meLw",
@@ -3943,39 +3862,6 @@
     "maintainerTurnaroundDays": 0.5,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-10T20:11:38.870Z"
-  },
-  {
-    "id": "I_kwDOCPmwqs8AAAABQsB7tQ",
-    "number": 4885,
-    "title": "[UI Migration] Alert",
-    "url": "https://github.com/ONEARMY/community-platform/issues/4885",
-    "repo": "ONEARMY/community-platform",
-    "repoUrl": "https://github.com/ONEARMY/community-platform",
-    "stars": 1401,
-    "language": "TypeScript",
-    "labels": [
-      "Good first issue",
-      "Help wanted",
-      "UI/UX",
-      "Difficulty: Easy",
-      "UI Migration"
-    ],
-    "createdAt": "2026-09-10T16:39:23Z",
-    "updatedAt": "2026-09-10T16:45:42Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/components/src/Alert/Alert.stories.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/components/src/Alert/Alert.stories.tsx",
-      "packages/components/src/InformationTooltip/InformationTooltip.stories.tsx",
-      "packages/components/src/InformationTooltip/InformationTooltip.tsx"
-    ],
-    "summary": "Fix issue #4885 in ONEARMY/community-platform: [UI Migration] Alert",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-10T20:11:25.696Z"
   },
   {
     "id": "I_kwDOJYgLB88AAAABQi1Vdw",
@@ -4479,5 +4365,70 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-08T20:25:36.069Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHvBEQ",
+    "number": 10776,
+    "title": "[Bug🐛] Bare-letter shortcuts are not focus-guarded, so q quits the TUI while editing",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10776",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "bug🐛",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tui crate"
+    ],
+    "createdAt": "2026-09-19T14:52:33Z",
+    "updatedAt": "2026-09-19T14:52:33Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test rocketmq_tui_app",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/rocketmq_tui_app.rs"
+    ],
+    "summary": "Fix issue #10776 in mxsm/rocketmq-rust: [Bug🐛] Bare-letter shortcuts are not focus-guarded, so q quits the TUI while editing",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:29.608Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSHvDvA",
+    "number": 10778,
+    "title": "[Test🧪] Cover the dangerous-command confirmation flow",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10778",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1518,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "rocketmq-tui crate",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-19T14:52:39Z",
+    "updatedAt": "2026-09-19T14:52:39Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test rocketmq_tui_app",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/rocketmq_tui_app.rs",
+      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/state.rs"
+    ],
+    "summary": "Fix issue #10778 in mxsm/rocketmq-rust: [Test🧪] Cover the dangerous-command confirmation flow",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-19T14:58:20.479Z"
   }
 ]
