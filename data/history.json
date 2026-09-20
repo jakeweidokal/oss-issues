@@ -8911,7 +8911,8 @@
     "repo": "nexu-io/open-design",
     "title": "[Bug]: Global button height reset clips multi-line button content in several components",
     "discoveredAt": "2026-09-15T20:35:35.439Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOA8iScc8AAAABRa6s1A": {
     "id": "I_kwDOA8iScc8AAAABRa6s1A",
@@ -10475,7 +10476,8 @@
     "repo": "mxsm/rocketmq-rust",
     "title": "[Bug🐛] The downgrade preflight lock test asserts a message the code no longer produces",
     "discoveredAt": "2026-09-19T14:58:06.691Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOK5M3Is8AAAABSHvFpA": {
     "id": "I_kwDOK5M3Is8AAAABSHvFpA",
@@ -10623,7 +10625,8 @@
     "repo": "servo/rust-smallvec",
     "title": "allow v2 to always compile in MSRV with no features enabled",
     "discoveredAt": "2026-09-19T19:43:12.442Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOTX8R288AAAABSIlbfA": {
     "id": "I_kwDOTX8R288AAAABSIlbfA",
@@ -10883,7 +10886,8 @@
     "repo": "Ikalus1988/MisakaNet",
     "title": "[Docs] 修掉 23 条相对链接破损，并把链接门禁从 docs/integrations 扩到全仓",
     "discoveredAt": "2026-09-20T15:00:46.822Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOAf6AbM8AAAABSOml7g": {
     "id": "I_kwDOAf6AbM8AAAABSOml7g",
@@ -10987,6 +10991,110 @@
     "repo": "ONEARMY/community-platform",
     "title": "[UI Migration] DownloadCounter",
     "discoveredAt": "2026-09-20T15:01:04.820Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABSQVlQw": {
+    "id": "I_kwDOQuAx5c8AAAABSQVlQw",
+    "url": "https://github.com/libredb/libredb-studio/issues/1030",
+    "repo": "libredb/libredb-studio",
+    "title": "[BUG] A column whose default is the empty string is drawn in the ER diagram as having no default",
+    "discoveredAt": "2026-09-20T19:54:48.433Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABSQViiQ": {
+    "id": "I_kwDOQuAx5c8AAAABSQViiQ",
+    "url": "https://github.com/libredb/libredb-studio/issues/1029",
+    "repo": "libredb/libredb-studio",
+    "title": "[BUG] SQLite, libSQL and DuckDB report a column default as the expression as written, so DEFAULT 'abc' shows as 'abc'",
+    "discoveredAt": "2026-09-20T19:54:50.402Z",
+    "status": "published"
+  },
+  "I_kwDOCVKAsc8AAAABSQVeOg": {
+    "id": "I_kwDOCVKAsc8AAAABSQVeOg",
+    "url": "https://github.com/sktime/sktime/issues/11227",
+    "repo": "sktime/sktime",
+    "title": "[BUG] investigate why `PytorchForecastingTFT` gets tested despite `tests:skip_all` tag",
+    "discoveredAt": "2026-09-20T19:54:53.261Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSQTm3g": {
+    "id": "I_kwDOOwsln88AAAABSQTm3g",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30626",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🌋 Add new Learner Mistake 860 (good-first-issue)",
+    "discoveredAt": "2026-09-20T19:54:54.548Z",
+    "status": "published"
+  },
+  "I_kwDOAHXAE88AAAABSQHImg": {
+    "id": "I_kwDOAHXAE88AAAABSQHImg",
+    "url": "https://github.com/ankidroid/Anki-Android/issues/21942",
+    "repo": "ankidroid/Anki-Android",
+    "title": "Incorrect test: `copyNoteCopiesDeckId`",
+    "discoveredAt": "2026-09-20T19:54:57.206Z",
+    "status": "published"
+  },
+  "I_kwDOT_YoGM8AAAABSQDoKQ": {
+    "id": "I_kwDOT_YoGM8AAAABSQDoKQ",
+    "url": "https://github.com/TrenTorch/TrenTorch/issues/322",
+    "repo": "TrenTorch/TrenTorch",
+    "title": "CLI output pluralizes counts of 1 incorrectly (\"1 days ago\", \"1 modules\", \"1 changes\")",
+    "discoveredAt": "2026-09-20T19:54:58.293Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSQAbgw": {
+    "id": "I_kwDOOwsln88AAAABSQAbgw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30624",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🦑 Add new Etiquette Tip 794 (good-first-issue)",
+    "discoveredAt": "2026-09-20T19:54:59.522Z",
+    "status": "published"
+  },
+  "I_kwDOCVKAsc8AAAABSP4TtA": {
+    "id": "I_kwDOCVKAsc8AAAABSP4TtA",
+    "url": "https://github.com/sktime/sktime/issues/11225",
+    "repo": "sktime/sktime",
+    "title": "[BUG] fix compatibility of TimerS1 and vendor library `libs.timer_s1` with newer `transformers`",
+    "discoveredAt": "2026-09-20T19:55:02.349Z",
+    "status": "published"
+  },
+  "I_kwDOBrsij88AAAABSP1brw": {
+    "id": "I_kwDOBrsij88AAAABSP1brw",
+    "url": "https://github.com/kiwix/kiwix-desktop/issues/1513",
+    "repo": "kiwix/kiwix-desktop",
+    "title": "\"Settings\" tab header is somehow visually broken when selected",
+    "discoveredAt": "2026-09-20T19:55:02.832Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSP1Jzg": {
+    "id": "I_kwDOOwsln88AAAABSP1Jzg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30622",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🎌 Add new False Friend Pair 581 (good-first-issue)",
+    "discoveredAt": "2026-09-20T19:55:04.095Z",
+    "status": "published"
+  },
+  "I_kwDOLN9q588AAAABSPwcYA": {
+    "id": "I_kwDOLN9q588AAAABSPwcYA",
+    "url": "https://github.com/wild-linker/wild/issues/2564",
+    "repo": "wild-linker/wild",
+    "title": "Mach-O: support `ARM64_RELOC_SUBTRACTOR` relocation",
+    "discoveredAt": "2026-09-20T19:55:04.778Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSPt6kQ": {
+    "id": "I_kwDOOwsln88AAAABSPt6kQ",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30621",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍵 Add new Dialect Entry 1168 (good-first-issue)",
+    "discoveredAt": "2026-09-20T19:55:06.053Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSPhz5Q": {
+    "id": "I_kwDOOwsln88AAAABSPhz5Q",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30620",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🦊 Add new Japanese Idiom 1026 (good-first-issue)",
+    "discoveredAt": "2026-09-20T19:55:07.296Z",
     "status": "published"
   }
 }
