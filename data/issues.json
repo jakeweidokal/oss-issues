@@ -1,5 +1,332 @@
 [
   {
+    "id": "I_kwDOJ4EDks8AAAABSNGq5w",
+    "number": 3544,
+    "title": "similar-issue (pinecone): the batched upsert response is discarded",
+    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3544",
+    "repo": "The-PR-Agent/pr-agent",
+    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
+    "stars": 13075,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "Medium Effort Issue",
+      "bug"
+    ],
+    "createdAt": "2026-09-20T08:14:31Z",
+    "updatedAt": "2026-09-20T08:14:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest pr_agent/tools/pr_similar_issue.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "pr_agent/tools/pr_similar_issue.py"
+    ],
+    "summary": "Fix issue #3544 in The-PR-Agent/pr-agent: similar-issue (pinecone): the batched upsert response is discarded",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T10:14:27.292Z"
+  },
+  {
+    "id": "I_kwDOBYmPEM8AAAABSNSxnA",
+    "number": 1486,
+    "title": "[Bug]: MacOS Windowed mode not respecting VSync option",
+    "url": "https://github.com/etternagame/etterna/issues/1486",
+    "repo": "etternagame/etterna",
+    "repoUrl": "https://github.com/etternagame/etterna",
+    "stars": 639,
+    "language": "C++",
+    "labels": [
+      "Type: Bug",
+      "Help Wanted",
+      "Priority: Low",
+      "Platform: Mac"
+    ],
+    "createdAt": "2026-09-20T09:02:19Z",
+    "updatedAt": "2026-09-20T09:04:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1486 in etternagame/etterna: [Bug]: MacOS Windowed mode not respecting VSync option",
+    "maintainerTurnaroundDays": 0.6,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T10:14:26.532Z"
+  },
+  {
+    "id": "I_kwDOCCF3gM8AAAABSNgfmQ",
+    "number": 8099,
+    "title": "[Bug] Kanvas features section misaligned and broken on iPad Mini (768px tablet breakpoint)",
+    "url": "https://github.com/layer5io/layer5/issues/8099",
+    "repo": "layer5io/layer5",
+    "repoUrl": "https://github.com/layer5io/layer5",
+    "stars": 1127,
+    "language": "JavaScript",
+    "labels": [
+      "kind/bug",
+      "help wanted",
+      "framework/gatsby"
+    ],
+    "createdAt": "2026-09-20T09:48:58Z",
+    "updatedAt": "2026-09-20T09:49:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/sections/Company/Brand/Brand-components/meshmaster.js",
+      "src/sections/Kanvas/FeaturesSection/useGsapTimeline.js"
+    ],
+    "summary": "Fix issue #8099 in layer5io/layer5: [Bug] Kanvas features section misaligned and broken on iPad Mini (768px tablet breakpoint)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T10:14:18.674Z"
+  },
+  {
+    "id": "I_kwDOQ_KVhM8AAAABSNhlGg",
+    "number": 4144,
+    "title": "Recall retention only applies on write: a quiet machine keeps rows past retention_days",
+    "url": "https://github.com/rtk-ai/rtk/issues/4144",
+    "repo": "rtk-ai/rtk",
+    "repoUrl": "https://github.com/rtk-ai/rtk",
+    "stars": 81081,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "help wanted",
+      "priority:medium",
+      "area:security"
+    ],
+    "createdAt": "2026-09-20T09:53:19Z",
+    "updatedAt": "2026-09-20T09:54:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test __init__",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "hooks/hermes/rtk-rewrite/__init__.py",
+      "hooks/hermes/tests/__init__.py",
+      "src/analytics/gain.rs"
+    ],
+    "summary": "Fix issue #4144 in rtk-ai/rtk: Recall retention only applies on write: a quiet machine keeps rows past retention_days",
+    "maintainerTurnaroundDays": 3.6,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-20T10:14:05.981Z"
+  },
+  {
+    "id": "I_kwDOAac9Mc8AAAABSNiwWQ",
+    "number": 26464,
+    "title": "[Bug] last_input_activity_elapsed() gives unexpected results for combo-buffered keys",
+    "url": "https://github.com/qmk/qmk_firmware/issues/26464",
+    "repo": "qmk/qmk_firmware",
+    "repoUrl": "https://github.com/qmk/qmk_firmware",
+    "stars": 20710,
+    "language": "C",
+    "labels": [
+      "bug",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-20T09:57:26Z",
+    "updatedAt": "2026-09-20T10:01:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #26464 in qmk/qmk_firmware: [Bug] last_input_activity_elapsed() gives unexpected results for combo-buffered keys",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T10:14:05.178Z"
+  },
+  {
+    "id": "I_kwDOSP_2Ts8AAAABSM-wcQ",
+    "number": 1915,
+    "title": "chore(lessons): lessons/draft/ 疑似残留目录（复数 drafts/ 才是生成草稿的输出目录）",
+    "url": "https://github.com/Ikalus1988/MisakaNet/issues/1915",
+    "repo": "Ikalus1988/MisakaNet",
+    "repoUrl": "https://github.com/Ikalus1988/MisakaNet",
+    "stars": 493,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "ready",
+      "area:lessons",
+      "cleanup",
+      "priority:low"
+    ],
+    "createdAt": "2026-09-20T07:43:31Z",
+    "updatedAt": "2026-09-20T07:43:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest scripts/tombstone_to_draft.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "scripts/tombstone_to_draft.py",
+      "scripts/failure_harvest.py",
+      "scripts/add_provenance.py"
+    ],
+    "summary": "Fix issue #1915 in Ikalus1988/MisakaNet: chore(lessons): lessons/draft/ 疑似残留目录（复数 drafts/ 才是生成草稿的输出目录）",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T10:13:59.355Z"
+  },
+  {
+    "id": "I_kwDOCMD8J88AAAABSNDSjg",
+    "number": 6837,
+    "title": "Provide Artemis Queue Pipe binding support",
+    "url": "https://github.com/apache/camel-k/issues/6837",
+    "repo": "apache/camel-k",
+    "repoUrl": "https://github.com/apache/camel-k",
+    "stars": 929,
+    "language": "Go",
+    "labels": [
+      "kind/feature",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-20T08:00:58Z",
+    "updatedAt": "2026-09-20T08:00:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #6837 in apache/camel-k: Provide Artemis Queue Pipe binding support",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T10:13:58.117Z"
+  },
+  {
+    "id": "I_kwDOJ4EDks8AAAABSNGfaw",
+    "number": 3538,
+    "title": "similar-issue: max_issues_to_scan indexes one issue fewer than set",
+    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3538",
+    "repo": "The-PR-Agent/pr-agent",
+    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
+    "stars": 13075,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "Low Effort Issue",
+      "bug"
+    ],
+    "createdAt": "2026-09-20T08:13:49Z",
+    "updatedAt": "2026-09-20T10:02:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest pr_agent/tools/pr_similar_issue.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "pr_agent/tools/pr_similar_issue.py"
+    ],
+    "summary": "Fix issue #3538 in The-PR-Agent/pr-agent: similar-issue: max_issues_to_scan indexes one issue fewer than set",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T10:13:56.881Z"
+  },
+  {
+    "id": "I_kwDOSgbPIs8AAAABSNIPyQ",
+    "number": 1494,
+    "title": "fix(config): cover dependency and build-output directories in default_exclude_patterns.json",
+    "url": "https://github.com/alibaba/open-code-review/issues/1494",
+    "repo": "alibaba/open-code-review",
+    "repoUrl": "https://github.com/alibaba/open-code-review",
+    "stars": 38039,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "config"
+    ],
+    "createdAt": "2026-09-20T08:20:54Z",
+    "updatedAt": "2026-09-20T09:34:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./internal/agent",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "internal/agent/selection.go",
+      "internal/config/allowlist/default_exclude_patterns.json",
+      "internal/config/allowlist/allowed_ext_test.go"
+    ],
+    "summary": "Fix issue #1494 in alibaba/open-code-review: fix(config): cover dependency and build-output directories in default_exclude_patterns.json",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T10:13:56.121Z"
+  },
+  {
+    "id": "I_kwDOALyme88AAAABSNXFig",
+    "number": 3549,
+    "title": "Good First Issue: Check behavior of the original game with respect to large toilets.",
+    "url": "https://github.com/CorsixTH/CorsixTH/issues/3549",
+    "repo": "CorsixTH/CorsixTH",
+    "repoUrl": "https://github.com/CorsixTH/CorsixTH",
+    "stars": 4563,
+    "language": "Lua",
+    "labels": [
+      "Good First Issue"
+    ],
+    "createdAt": "2026-09-20T09:16:53Z",
+    "updatedAt": "2026-09-20T09:18:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3549 in CorsixTH/CorsixTH: Good First Issue: Check behavior of the original game with respect to large toilets.",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T10:13:50.230Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABSNgGfA",
+    "number": 633,
+    "title": "add missing `From` conversions to `SmallVec`",
+    "url": "https://github.com/servo/rust-smallvec/issues/633",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1735,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "r-feature"
+    ],
+    "createdAt": "2026-09-20T09:47:21Z",
+    "updatedAt": "2026-09-20T09:47:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test smallvec_ops",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "fuzz/fuzz_targets/smallvec_ops.rs",
+      "src/rawsmallvec.rs"
+    ],
+    "summary": "Fix issue #633 in servo/rust-smallvec: add missing `From` conversions to `SmallVec`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-20T10:13:49.119Z"
+  },
+  {
     "id": "I_kwDOA9zvgc8AAAABSJmtrg",
     "number": 2212,
     "title": "Update downstream backported patches for TPM GPIO locking",
@@ -60,35 +387,6 @@
     "discoveredAt": "2026-09-20T02:04:46.701Z"
   },
   {
-    "id": "I_kwDOCCF3gM8AAAABSJ_tbA",
-    "number": 8093,
-    "title": "Fix card animation not triggering automatically on mobile",
-    "url": "https://github.com/layer5io/layer5/issues/8093",
-    "repo": "layer5io/layer5",
-    "repoUrl": "https://github.com/layer5io/layer5",
-    "stars": 1127,
-    "language": "JavaScript",
-    "labels": [
-      "kind/bug",
-      "help wanted",
-      "framework/gatsby"
-    ],
-    "createdAt": "2026-09-19T20:36:26Z",
-    "updatedAt": "2026-09-19T20:47:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/sections/Company/Brand/Brand-components/meshmaster.js"
-    ],
-    "summary": "Fix issue #8093 in layer5io/layer5: Fix card animation not triggering automatically on mobile",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-20T02:04:45.527Z"
-  },
-  {
     "id": "I_kwDOEd-da88AAAABSJ_w0g",
     "number": 6771,
     "title": "Two maps created with `om`, seem to share the same underlying buffer",
@@ -116,35 +414,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "dev",
     "discoveredAt": "2026-09-20T02:04:32.998Z"
-  },
-  {
-    "id": "I_kwDOCCF3gM8AAAABSKA5Wg",
-    "number": 8094,
-    "title": "Fix missing documentation links for Timeline (DVR) and Service Performance cards",
-    "url": "https://github.com/layer5io/layer5/issues/8094",
-    "repo": "layer5io/layer5",
-    "repoUrl": "https://github.com/layer5io/layer5",
-    "stars": 1127,
-    "language": "JavaScript",
-    "labels": [
-      "kind/bug",
-      "help wanted",
-      "framework/gatsby"
-    ],
-    "createdAt": "2026-09-19T20:40:08Z",
-    "updatedAt": "2026-09-19T21:14:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/sections/Company/Brand/Brand-components/meshmaster.js"
-    ],
-    "summary": "Fix issue #8094 in layer5io/layer5: Fix missing documentation links for Timeline (DVR) and Service Performance cards",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-20T02:04:30.198Z"
   },
   {
     "id": "I_kwDOAeOl_88AAAABSLMj1g",
@@ -228,133 +497,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-20T02:04:14.951Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSKx1Pg",
-    "number": 30588,
-    "title": "[good first issue] 🍜 Add new False Friend Pair 412 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30588",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3420,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-19T23:01:01Z",
-    "updatedAt": "2026-09-19T23:01:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #30588 in lingdojo/kana-dojo: [good first issue] 🍜 Add new False Friend Pair 412 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T02:04:13.742Z"
-  },
-  {
-    "id": "I_kwDOAXwIqs8AAAABSLJTzw",
-    "number": 10770,
-    "title": "[Bug]: Orange Pi 4 Pro eMMC corruption: trunk.52 write errors and 16 MiB installer overlap",
-    "url": "https://github.com/armbian/build/issues/10770",
-    "repo": "armbian/build",
-    "repoUrl": "https://github.com/armbian/build",
-    "stars": 5421,
-    "language": "Shell",
-    "labels": [
-      "Not framework bug",
-      "Good first issue"
-    ],
-    "createdAt": "2026-09-20T00:22:26Z",
-    "updatedAt": "2026-09-20T01:08:41Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #10770 in armbian/build: [Bug]: Orange Pi 4 Pro eMMC corruption: trunk.52 write errors and 16 MiB installer overlap",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T02:04:12.130Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSLVCug",
-    "number": 30591,
-    "title": "[good first issue] 🍡 Add new Etiquette Tip 520 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30591",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3420,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-20T01:01:19Z",
-    "updatedAt": "2026-09-20T01:01:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #30591 in lingdojo/kana-dojo: [good first issue] 🍡 Add new Etiquette Tip 520 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T02:04:08.247Z"
-  },
-  {
-    "id": "I_kwDORj6KWc8AAAABSLeyFw",
-    "number": 215,
-    "title": "[good first issue] The last five datetime.utcnow references: SQLAlchemy column defaults in models.py",
-    "url": "https://github.com/guaardvark/guaardvark/issues/215",
-    "repo": "guaardvark/guaardvark",
-    "repoUrl": "https://github.com/guaardvark/guaardvark",
-    "stars": 224,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "backend",
-      "python"
-    ],
-    "createdAt": "2026-09-20T01:32:49Z",
-    "updatedAt": "2026-09-20T01:32:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest backend/models.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "backend/models.py",
-      "backend/tests/test_autoresearch_v2.py",
-      "backend/tests/test_clock.py"
-    ],
-    "summary": "Fix issue #215 in guaardvark/guaardvark: [good first issue] The last five datetime.utcnow references: SQLAlchemy column defaults in models.py",
-    "maintainerTurnaroundDays": 1.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T02:04:06.592Z"
   },
   {
     "id": "I_kwDORWY2D88AAAABSIBDGw",
@@ -992,36 +1134,6 @@
     "discoveredAt": "2026-09-19T14:57:57.430Z"
   },
   {
-    "id": "I_kwDOCVKAsc8AAAABSFX8lQ",
-    "number": 11201,
-    "title": "[BUG] fix `SameLocSplitter` contract failures and/or adapt tests",
-    "url": "https://github.com/sktime/sktime/issues/11201",
-    "repo": "sktime/sktime",
-    "repoUrl": "https://github.com/sktime/sktime",
-    "stars": 10022,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue",
-      "module:splitters&resamplers"
-    ],
-    "createdAt": "2026-09-19T07:33:32Z",
-    "updatedAt": "2026-09-19T07:39:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest sktime/transformations/tests/test_check_estimator.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "sktime/transformations/tests/test_check_estimator.py",
-      "sktime/utils/tests/test_check_estimator.py"
-    ],
-    "summary": "Fix issue #11201 in sktime/sktime: [BUG] fix `SameLocSplitter` contract failures and/or adapt tests",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:19.158Z"
-  },
-  {
     "id": "I_kwDOTX8R288AAAABSFZOGA",
     "number": 3752,
     "title": "deja sources should say when a store holds transcripts the index never read",
@@ -1494,40 +1606,6 @@
     "discoveredAt": "2026-09-19T01:59:54.784Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABSDju6w",
-    "number": 30564,
-    "title": "[good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30564",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3415,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-19T01:01:03Z",
-    "updatedAt": "2026-09-19T01:01:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30564 in lingdojo/kana-dojo: [good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T01:59:53.606Z"
-  },
-  {
     "id": "I_kwDOS3TU6c8AAAABSDw8Qg",
     "number": 1001,
     "title": "[agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name",
@@ -1733,39 +1811,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-18T15:21:54.928Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABR88-TQ",
-    "number": 10735,
-    "title": "[Refactor♻️] Remove the unused mut binding in the request-reply responder example",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10735",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "refactor♻️",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-example crate"
-    ],
-    "createdAt": "2026-09-18T12:47:24Z",
-    "updatedAt": "2026-09-18T12:47:24Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test request_reply_responder",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-example/examples/consumer/request_reply_responder.rs",
-      "rocketmq-client/src/producer/default_mq_producer.rs"
-    ],
-    "summary": "Fix issue #10735 in mxsm/rocketmq-rust: [Refactor♻️] Remove the unused mut binding in the request-reply responder example",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:41.185Z"
   },
   {
     "id": "I_kwDOOHn12s8AAAABR9wDrA",
@@ -2038,34 +2083,6 @@
     "discoveredAt": "2026-09-18T10:11:21.095Z"
   },
   {
-    "id": "I_kwDOAL_Y588AAAABR7d4cA",
-    "number": 3752,
-    "title": "Contest problemset PDF not viewable in jury interface",
-    "url": "https://github.com/DOMjudge/domjudge/issues/3752",
-    "repo": "DOMjudge/domjudge",
-    "repoUrl": "https://github.com/DOMjudge/domjudge",
-    "stars": 913,
-    "language": "PHP",
-    "labels": [
-      "web interface",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-18T09:49:27Z",
-    "updatedAt": "2026-09-18T09:49:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3752 in DOMjudge/domjudge: Contest problemset PDF not viewable in jury interface",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:07.992Z"
-  },
-  {
     "id": "I_kwDOK46AYc8AAAABR7lZ8g",
     "number": 2001,
     "title": "Missing PortName APIs",
@@ -2092,63 +2109,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T10:11:05.930Z"
-  },
-  {
-    "id": "I_kwDOCgmItM8AAAABRznbQA",
-    "number": 166,
-    "title": "Update langserver feature list in README",
-    "url": "https://github.com/Eugleo/magic-racket/issues/166",
-    "repo": "Eugleo/magic-racket",
-    "repoUrl": "https://github.com/Eugleo/magic-racket",
-    "stars": 220,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "langserver"
-    ],
-    "createdAt": "2026-09-17T16:15:02Z",
-    "updatedAt": "2026-09-17T16:15:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #166 in Eugleo/magic-racket: Update langserver feature list in README",
-    "maintainerTurnaroundDays": 1.3,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-17T20:41:24.266Z"
-  },
-  {
-    "id": "I_kwDOBGHmcs8AAAABR0c93g",
-    "number": 579,
-    "title": "The audio record button does not work",
-    "url": "https://github.com/BlitzKraft/saythanks.io/issues/579",
-    "repo": "BlitzKraft/saythanks.io",
-    "repoUrl": "https://github.com/BlitzKraft/saythanks.io",
-    "stars": 1306,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T17:45:52Z",
-    "updatedAt": "2026-09-17T17:47:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #579 in BlitzKraft/saythanks.io: The audio record button does not work",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-17T20:41:21.842Z"
   },
   {
     "id": "I_kwDOQy5Vl88AAAABR0_b9g",
@@ -2210,34 +2170,6 @@
     "maintainerTurnaroundDays": 1.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-17T20:41:12.394Z"
-  },
-  {
-    "id": "I_kwDORponss8AAAABR1VXIg",
-    "number": 136,
-    "title": "Docs claim 114 and 64 tests, the suite now reports 265, so the quickstart's expected output is wrong",
-    "url": "https://github.com/manankharwar/fusioncore/issues/136",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 363,
-    "language": "C++",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T19:20:52Z",
-    "updatedAt": "2026-09-17T19:20:52Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #136 in manankharwar/fusioncore: Docs claim 114 and 64 tests, the suite now reports 265, so the quickstart's expected output is wrong",
-    "maintainerTurnaroundDays": 1.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T20:41:11.496Z"
   },
   {
     "id": "I_kwDORponss8AAAABR1dMhg",
@@ -2590,34 +2522,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T10:36:40.782Z"
-  },
-  {
-    "id": "I_kwDOD-GjqM8AAAABRSOdjg",
-    "number": 5172,
-    "title": "Feature Request: Social Handle Platforms for RSS and Tumblr",
-    "url": "https://github.com/owncast/owncast/issues/5172",
-    "repo": "owncast/owncast",
-    "repoUrl": "https://github.com/owncast/owncast",
-    "stars": 11527,
-    "language": "Go",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-14T21:44:18Z",
-    "updatedAt": "2026-09-14T23:17:48Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #5172 in owncast/owncast: Feature Request: Social Handle Platforms for RSS and Tumblr",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-15T02:12:29.281Z"
   },
   {
     "id": "I_kwDORponss8AAAABRSWHMA",
@@ -4392,6 +4296,39 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-08T20:25:36.069Z"
+  },
+  {
+    "id": "I_kwDORtsRpM8AAAABSNL6Ww",
+    "number": 6039,
+    "title": "run_tests.py hides the reason when a test file crashes instead of failing",
+    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/6039",
+    "repo": "sipyourdrink-ltd/bernstein",
+    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
+    "stars": 1216,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "ci",
+      "size/s",
+      "tests",
+      "observability",
+      "up-for-grabs"
+    ],
+    "createdAt": "2026-09-20T08:35:35Z",
+    "updatedAt": "2026-09-20T09:09:11Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/unit/test_orchestrator.py",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "tests/unit/test_orchestrator.py",
+      "scripts/run_tests.py"
+    ],
+    "summary": "Fix issue #6039 in sipyourdrink-ltd/bernstein: run_tests.py hides the reason when a test file crashes instead of failing",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T10:13:55.251Z"
   },
   {
     "id": "I_kwDOK5M3Is8AAAABSHvBEQ",

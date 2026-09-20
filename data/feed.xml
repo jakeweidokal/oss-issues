@@ -5,8 +5,206 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2026 02:04:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 10:14:27 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[The-PR-Agent/pr-agent] #3544 similar-issue (pinecone): the batched upsert response is discarded (Solvability: 6/10)</title>
+      <link>https://github.com/The-PR-Agent/pr-agent/issues/3544</link>
+      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/3544</guid>
+      <pubDate>Sun, 20 Sep 2026 08:14:31 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (13075 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3544 in The-PR-Agent/pr-agent: similar-issue (pinecone): the batched upsert response is discarded</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest pr_agent/tools/pr_similar_issue.py</code></p>
+<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/3544">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>Medium Effort Issue</category>
+      <category>bug</category>
+    </item>
+    <item>
+      <title>[etternagame/etterna] #1486 [Bug]: MacOS Windowed mode not respecting VSync option (Solvability: 6/10)</title>
+      <link>https://github.com/etternagame/etterna/issues/1486</link>
+      <guid isPermaLink="true">https://github.com/etternagame/etterna/issues/1486</guid>
+      <pubDate>Sun, 20 Sep 2026 09:02:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/etternagame/etterna">etternagame/etterna</a> (639 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1486 in etternagame/etterna: [Bug]: MacOS Windowed mode not respecting VSync option</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/etternagame/etterna/issues/1486">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Type: Bug</category>
+      <category>Help Wanted</category>
+      <category>Priority: Low</category>
+      <category>Platform: Mac</category>
+    </item>
+    <item>
+      <title>[layer5io/layer5] #8099 [Bug] Kanvas features section misaligned and broken on iPad Mini (768px tablet breakpoint) (Solvability: 6/10)</title>
+      <link>https://github.com/layer5io/layer5/issues/8099</link>
+      <guid isPermaLink="true">https://github.com/layer5io/layer5/issues/8099</guid>
+      <pubDate>Sun, 20 Sep 2026 09:48:58 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/layer5io/layer5">layer5io/layer5</a> (1127 ⭐, JavaScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #8099 in layer5io/layer5: [Bug] Kanvas features section misaligned and broken on iPad Mini (768px tablet breakpoint)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js</code></p>
+<p><a href="https://github.com/layer5io/layer5/issues/8099">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>JavaScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>kind/bug</category>
+      <category>help wanted</category>
+      <category>framework/gatsby</category>
+    </item>
+    <item>
+      <title>[rtk-ai/rtk] #4144 Recall retention only applies on write: a quiet machine keeps rows past retention_days (Solvability: 6/10)</title>
+      <link>https://github.com/rtk-ai/rtk/issues/4144</link>
+      <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/4144</guid>
+      <pubDate>Sun, 20 Sep 2026 09:53:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rtk-ai/rtk">rtk-ai/rtk</a> (81081 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4144 in rtk-ai/rtk: Recall retention only applies on write: a quiet machine keeps rows past retention_days</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test __init__</code></p>
+<p><a href="https://github.com/rtk-ai/rtk/issues/4144">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+      <category>priority:medium</category>
+      <category>area:security</category>
+    </item>
+    <item>
+      <title>[qmk/qmk_firmware] #26464 [Bug] last_input_activity_elapsed() gives unexpected results for combo-buffered keys (Solvability: 6/10)</title>
+      <link>https://github.com/qmk/qmk_firmware/issues/26464</link>
+      <guid isPermaLink="true">https://github.com/qmk/qmk_firmware/issues/26464</guid>
+      <pubDate>Sun, 20 Sep 2026 09:57:26 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/qmk/qmk_firmware">qmk/qmk_firmware</a> (20710 ⭐, C)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #26464 in qmk/qmk_firmware: [Bug] last_input_activity_elapsed() gives unexpected results for combo-buffered keys</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/qmk/qmk_firmware/issues/26464">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[Ikalus1988/MisakaNet] #1915 chore(lessons): lessons/draft/ 疑似残留目录（复数 drafts/ 才是生成草稿的输出目录） (Solvability: 6/10)</title>
+      <link>https://github.com/Ikalus1988/MisakaNet/issues/1915</link>
+      <guid isPermaLink="true">https://github.com/Ikalus1988/MisakaNet/issues/1915</guid>
+      <pubDate>Sun, 20 Sep 2026 07:43:31 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Ikalus1988/MisakaNet">Ikalus1988/MisakaNet</a> (493 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1915 in Ikalus1988/MisakaNet: chore(lessons): lessons/draft/ 疑似残留目录（复数 drafts/ 才是生成草稿的输出目录）</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest scripts/tombstone_to_draft.py</code></p>
+<p><a href="https://github.com/Ikalus1988/MisakaNet/issues/1915">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>ready</category>
+      <category>area:lessons</category>
+      <category>cleanup</category>
+      <category>priority:low</category>
+    </item>
+    <item>
+      <title>[apache/camel-k] #6837 Provide Artemis Queue Pipe binding support (Solvability: 6/10)</title>
+      <link>https://github.com/apache/camel-k/issues/6837</link>
+      <guid isPermaLink="true">https://github.com/apache/camel-k/issues/6837</guid>
+      <pubDate>Sun, 20 Sep 2026 08:00:58 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/apache/camel-k">apache/camel-k</a> (929 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #6837 in apache/camel-k: Provide Artemis Queue Pipe binding support</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/apache/camel-k/issues/6837">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>kind/feature</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[The-PR-Agent/pr-agent] #3538 similar-issue: max_issues_to_scan indexes one issue fewer than set (Solvability: 6/10)</title>
+      <link>https://github.com/The-PR-Agent/pr-agent/issues/3538</link>
+      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/3538</guid>
+      <pubDate>Sun, 20 Sep 2026 08:13:49 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (13075 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3538 in The-PR-Agent/pr-agent: similar-issue: max_issues_to_scan indexes one issue fewer than set</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest pr_agent/tools/pr_similar_issue.py</code></p>
+<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/3538">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>Low Effort Issue</category>
+      <category>bug</category>
+    </item>
+    <item>
+      <title>[alibaba/open-code-review] #1494 fix(config): cover dependency and build-output directories in default_exclude_patterns.json (Solvability: 6/10)</title>
+      <link>https://github.com/alibaba/open-code-review/issues/1494</link>
+      <guid isPermaLink="true">https://github.com/alibaba/open-code-review/issues/1494</guid>
+      <pubDate>Sun, 20 Sep 2026 08:20:54 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review</a> (38039 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1494 in alibaba/open-code-review: fix(config): cover dependency and build-output directories in default_exclude_patterns.json</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./internal/agent</code></p>
+<p><a href="https://github.com/alibaba/open-code-review/issues/1494">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>config</category>
+    </item>
+    <item>
+      <title>[CorsixTH/CorsixTH] #3549 Good First Issue: Check behavior of the original game with respect to large toilets. (Solvability: 6/10)</title>
+      <link>https://github.com/CorsixTH/CorsixTH/issues/3549</link>
+      <guid isPermaLink="true">https://github.com/CorsixTH/CorsixTH/issues/3549</guid>
+      <pubDate>Sun, 20 Sep 2026 09:16:53 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/CorsixTH/CorsixTH">CorsixTH/CorsixTH</a> (4563 ⭐, Lua)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #3549 in CorsixTH/CorsixTH: Good First Issue: Check behavior of the original game with respect to large toilets.</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/CorsixTH/CorsixTH/issues/3549">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Lua</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good First Issue</category>
+    </item>
+    <item>
+      <title>[servo/rust-smallvec] #633 add missing `From` conversions to `SmallVec` (Solvability: 6/10)</title>
+      <link>https://github.com/servo/rust-smallvec/issues/633</link>
+      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/633</guid>
+      <pubDate>Sun, 20 Sep 2026 09:47:21 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1735 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #633 in servo/rust-smallvec: add missing `From` conversions to `SmallVec`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test smallvec_ops</code></p>
+<p><a href="https://github.com/servo/rust-smallvec/issues/633">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>r-feature</category>
+    </item>
     <item>
       <title>[linuxboot/heads] #2212 Update downstream backported patches for TPM GPIO locking (Solvability: 6/10)</title>
       <link>https://github.com/linuxboot/heads/issues/2212</link>
@@ -46,24 +244,6 @@
       <category>SMM</category>
     </item>
     <item>
-      <title>[layer5io/layer5] #8093 Fix card animation not triggering automatically on mobile (Solvability: 6/10)</title>
-      <link>https://github.com/layer5io/layer5/issues/8093</link>
-      <guid isPermaLink="true">https://github.com/layer5io/layer5/issues/8093</guid>
-      <pubDate>Sat, 19 Sep 2026 20:36:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/layer5io/layer5">layer5io/layer5</a> (1127 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8093 in layer5io/layer5: Fix card animation not triggering automatically on mobile</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js</code></p>
-<p><a href="https://github.com/layer5io/layer5/issues/8093">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/bug</category>
-      <category>help wanted</category>
-      <category>framework/gatsby</category>
-    </item>
-    <item>
       <title>[rizinorg/rizin] #6771 Two maps created with `om`, seem to share the same underlying buffer (Solvability: 6/10)</title>
       <link>https://github.com/rizinorg/rizin/issues/6771</link>
       <guid isPermaLink="true">https://github.com/rizinorg/rizin/issues/6771</guid>
@@ -80,24 +260,6 @@
       <category>bug</category>
       <category>help wanted</category>
       <category>RzIO</category>
-    </item>
-    <item>
-      <title>[layer5io/layer5] #8094 Fix missing documentation links for Timeline (DVR) and Service Performance cards (Solvability: 6/10)</title>
-      <link>https://github.com/layer5io/layer5/issues/8094</link>
-      <guid isPermaLink="true">https://github.com/layer5io/layer5/issues/8094</guid>
-      <pubDate>Sat, 19 Sep 2026 20:40:08 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/layer5io/layer5">layer5io/layer5</a> (1127 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8094 in layer5io/layer5: Fix missing documentation links for Timeline (DVR) and Service Performance cards</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js</code></p>
-<p><a href="https://github.com/layer5io/layer5/issues/8094">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/bug</category>
-      <category>help wanted</category>
-      <category>framework/gatsby</category>
     </item>
     <item>
       <title>[python/typeshed] #16418 Daily tests failed on Sun Sep 20 2026 (Solvability: 6/10)</title>
@@ -148,87 +310,6 @@
       <category>friction-standard</category>
       <category>bug</category>
       <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30588 [good first issue] 🍜 Add new False Friend Pair 412 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30588</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30588</guid>
-      <pubDate>Sat, 19 Sep 2026 23:01:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3420 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30588 in lingdojo/kana-dojo: [good first issue] 🍜 Add new False Friend Pair 412 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30588">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[armbian/build] #10770 [Bug]: Orange Pi 4 Pro eMMC corruption: trunk.52 write errors and 16 MiB installer overlap (Solvability: 6/10)</title>
-      <link>https://github.com/armbian/build/issues/10770</link>
-      <guid isPermaLink="true">https://github.com/armbian/build/issues/10770</guid>
-      <pubDate>Sun, 20 Sep 2026 00:22:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/armbian/build">armbian/build</a> (5421 ⭐, Shell)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10770 in armbian/build: [Bug]: Orange Pi 4 Pro eMMC corruption: trunk.52 write errors and 16 MiB installer overlap</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/armbian/build/issues/10770">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Shell</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Not framework bug</category>
-      <category>Good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30591 [good first issue] 🍡 Add new Etiquette Tip 520 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30591</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30591</guid>
-      <pubDate>Sun, 20 Sep 2026 01:01:19 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3420 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30591 in lingdojo/kana-dojo: [good first issue] 🍡 Add new Etiquette Tip 520 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30591">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[guaardvark/guaardvark] #215 [good first issue] The last five datetime.utcnow references: SQLAlchemy column defaults in models.py (Solvability: 6/10)</title>
-      <link>https://github.com/guaardvark/guaardvark/issues/215</link>
-      <guid isPermaLink="true">https://github.com/guaardvark/guaardvark/issues/215</guid>
-      <pubDate>Sun, 20 Sep 2026 01:32:49 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/guaardvark/guaardvark">guaardvark/guaardvark</a> (224 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #215 in guaardvark/guaardvark: [good first issue] The last five datetime.utcnow references: SQLAlchemy column defaults in models.py</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest backend/models.py</code></p>
-<p><a href="https://github.com/guaardvark/guaardvark/issues/215">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>backend</category>
-      <category>python</category>
     </item>
     <item>
       <title>[p3d-project/persona-3-dual] #592 Replace `#defines` with constexpr (Solvability: 6/10)</title>
@@ -627,24 +708,6 @@
       <category>rocketmq-tools crate</category>
     </item>
     <item>
-      <title>[sktime/sktime] #11201 [BUG] fix `SameLocSplitter` contract failures and/or adapt tests (Solvability: 6/10)</title>
-      <link>https://github.com/sktime/sktime/issues/11201</link>
-      <guid isPermaLink="true">https://github.com/sktime/sktime/issues/11201</guid>
-      <pubDate>Sat, 19 Sep 2026 07:33:32 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/sktime/sktime">sktime/sktime</a> (10022 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #11201 in sktime/sktime: [BUG] fix `SameLocSplitter` contract failures and/or adapt tests</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest sktime/transformations/tests/test_check_estimator.py</code></p>
-<p><a href="https://github.com/sktime/sktime/issues/11201">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>module:splitters&amp;resamplers</category>
-    </item>
-    <item>
       <title>[vshulcz/deja-vu] #3752 deja sources should say when a store holds transcripts the index never read (Solvability: 6/10)</title>
       <link>https://github.com/vshulcz/deja-vu/issues/3752</link>
       <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3752</guid>
@@ -871,81 +934,6 @@
       <category>good first issue</category>
       <category>help wanted</category>
       <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[libredb/libredb-studio] #976 Get LibreDB Studio listed in the CockroachDB docs (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/976</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/976</guid>
-      <pubDate>Sat, 19 Sep 2026 00:03:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #976 in libredb/libredb-studio: Get LibreDB Studio listed in the CockroachDB docs</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test database-compose.yml</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/976">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>documentation</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[mldsveda/PyScrappy] #186 Noise-removal regex over-matches, silently deleting real article content (Solvability: 6/10)</title>
-      <link>https://github.com/mldsveda/PyScrappy/issues/186</link>
-      <guid isPermaLink="true">https://github.com/mldsveda/PyScrappy/issues/186</guid>
-      <pubDate>Sat, 19 Sep 2026 00:27:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mldsveda/PyScrappy">mldsveda/PyScrappy</a> (256 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #186 in mldsveda/PyScrappy: Noise-removal regex over-matches, silently deleting real article content</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest src/pyscrappy/mcp/__main__.py</code></p>
-<p><a href="https://github.com/mldsveda/PyScrappy/issues/186">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[mldsveda/PyScrappy] #187 Numbered pagination never advances from a page-1 URL that has no page parameter (Solvability: 6/10)</title>
-      <link>https://github.com/mldsveda/PyScrappy/issues/187</link>
-      <guid isPermaLink="true">https://github.com/mldsveda/PyScrappy/issues/187</guid>
-      <pubDate>Sat, 19 Sep 2026 00:27:52 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mldsveda/PyScrappy">mldsveda/PyScrappy</a> (256 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #187 in mldsveda/PyScrappy: Numbered pagination never advances from a page-1 URL that has no page parameter</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest src/pyscrappy/mcp/__main__.py</code></p>
-<p><a href="https://github.com/mldsveda/PyScrappy/issues/187">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30564 [good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30564</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30564</guid>
-      <pubDate>Sat, 19 Sep 2026 01:01:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3415 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30564 in lingdojo/kana-dojo: [good first issue] 🌊 Add new Learner Mistake 689 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-common-mistakes.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30564">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
     </item>
   </channel>
 </rss>
