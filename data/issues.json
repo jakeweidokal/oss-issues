@@ -1,5 +1,362 @@
 [
   {
+    "id": "I_kwDOA9zvgc8AAAABSJmtrg",
+    "number": 2212,
+    "title": "Update downstream backported patches for TPM GPIO locking",
+    "url": "https://github.com/linuxboot/heads/issues/2212",
+    "repo": "linuxboot/heads",
+    "repoUrl": "https://github.com/linuxboot/heads",
+    "stars": 1591,
+    "language": "Makefile",
+    "labels": [
+      "help wanted",
+      "security",
+      "upstream",
+      "SMM"
+    ],
+    "createdAt": "2026-09-19T19:27:26Z",
+    "updatedAt": "2026-09-19T19:52:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2212 in linuxboot/heads: Update downstream backported patches for TPM GPIO locking",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T02:04:47.755Z"
+  },
+  {
+    "id": "I_kwDOA9zvgc8AAAABSJqaeA",
+    "number": 2213,
+    "title": "Update downstream patchsets for FLOCKDN (Chipset locking aka PR0)",
+    "url": "https://github.com/linuxboot/heads/issues/2213",
+    "repo": "linuxboot/heads",
+    "repoUrl": "https://github.com/linuxboot/heads",
+    "stars": 1591,
+    "language": "Makefile",
+    "labels": [
+      "help wanted",
+      "security",
+      "upstream",
+      "SMM"
+    ],
+    "createdAt": "2026-09-19T19:37:29Z",
+    "updatedAt": "2026-09-19T19:54:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2213 in linuxboot/heads: Update downstream patchsets for FLOCKDN (Chipset locking aka PR0)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T02:04:46.701Z"
+  },
+  {
+    "id": "I_kwDOCCF3gM8AAAABSJ_tbA",
+    "number": 8093,
+    "title": "Fix card animation not triggering automatically on mobile",
+    "url": "https://github.com/layer5io/layer5/issues/8093",
+    "repo": "layer5io/layer5",
+    "repoUrl": "https://github.com/layer5io/layer5",
+    "stars": 1127,
+    "language": "JavaScript",
+    "labels": [
+      "kind/bug",
+      "help wanted",
+      "framework/gatsby"
+    ],
+    "createdAt": "2026-09-19T20:36:26Z",
+    "updatedAt": "2026-09-19T20:47:54Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/sections/Company/Brand/Brand-components/meshmaster.js"
+    ],
+    "summary": "Fix issue #8093 in layer5io/layer5: Fix card animation not triggering automatically on mobile",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T02:04:45.527Z"
+  },
+  {
+    "id": "I_kwDOEd-da88AAAABSJ_w0g",
+    "number": 6771,
+    "title": "Two maps created with `om`, seem to share the same underlying buffer",
+    "url": "https://github.com/rizinorg/rizin/issues/6771",
+    "repo": "rizinorg/rizin",
+    "repoUrl": "https://github.com/rizinorg/rizin",
+    "stars": 3904,
+    "language": "C",
+    "labels": [
+      "bug",
+      "help wanted",
+      "RzIO"
+    ],
+    "createdAt": "2026-09-19T20:36:36Z",
+    "updatedAt": "2026-09-19T20:36:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #6771 in rizinorg/rizin: Two maps created with `om`, seem to share the same underlying buffer",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-20T02:04:32.998Z"
+  },
+  {
+    "id": "I_kwDOCCF3gM8AAAABSKA5Wg",
+    "number": 8094,
+    "title": "Fix missing documentation links for Timeline (DVR) and Service Performance cards",
+    "url": "https://github.com/layer5io/layer5/issues/8094",
+    "repo": "layer5io/layer5",
+    "repoUrl": "https://github.com/layer5io/layer5",
+    "stars": 1127,
+    "language": "JavaScript",
+    "labels": [
+      "kind/bug",
+      "help wanted",
+      "framework/gatsby"
+    ],
+    "createdAt": "2026-09-19T20:40:08Z",
+    "updatedAt": "2026-09-19T21:14:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/sections/Company/Brand/Brand-components/meshmaster.js"
+    ],
+    "summary": "Fix issue #8094 in layer5io/layer5: Fix missing documentation links for Timeline (DVR) and Service Performance cards",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T02:04:30.198Z"
+  },
+  {
+    "id": "I_kwDOAeOl_88AAAABSLMj1g",
+    "number": 16418,
+    "title": "Daily tests failed on Sun Sep 20 2026",
+    "url": "https://github.com/python/typeshed/issues/16418",
+    "repo": "python/typeshed",
+    "repoUrl": "https://github.com/python/typeshed",
+    "stars": 5122,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-20T00:32:56Z",
+    "updatedAt": "2026-09-20T00:32:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #16418 in python/typeshed: Daily tests failed on Sun Sep 20 2026",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T02:04:17.420Z"
+  },
+  {
+    "id": "I_kwDOEMWEjc8AAAABSFk2nQ",
+    "number": 2208,
+    "title": "Downloads don't open in the default player",
+    "url": "https://github.com/jellyfin/jellyfin-android/issues/2208",
+    "repo": "jellyfin/jellyfin-android",
+    "repoUrl": "https://github.com/jellyfin/jellyfin-android",
+    "stars": 2770,
+    "language": "Kotlin",
+    "labels": [
+      "enhancement",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-19T08:17:12Z",
+    "updatedAt": "2026-09-19T08:58:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2208 in jellyfin/jellyfin-android: Downloads don't open in the default player",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T02:04:15.791Z"
+  },
+  {
+    "id": "I_kwDOAF19x88AAAABSIuQkQ",
+    "number": 3125,
+    "title": "Bug: https://www.python.org/events/ takes forever to load",
+    "url": "https://github.com/python/pythondotorg/issues/3125",
+    "repo": "python/pythondotorg",
+    "repoUrl": "https://github.com/python/pythondotorg",
+    "stars": 1664,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-19T17:09:27Z",
+    "updatedAt": "2026-09-19T17:10:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3125 in python/pythondotorg: Bug: https://www.python.org/events/ takes forever to load",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T02:04:14.951Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSKx1Pg",
+    "number": 30588,
+    "title": "[good first issue] 🍜 Add new False Friend Pair 412 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30588",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3420,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-19T23:01:01Z",
+    "updatedAt": "2026-09-19T23:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #30588 in lingdojo/kana-dojo: [good first issue] 🍜 Add new False Friend Pair 412 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T02:04:13.742Z"
+  },
+  {
+    "id": "I_kwDOAXwIqs8AAAABSLJTzw",
+    "number": 10770,
+    "title": "[Bug]: Orange Pi 4 Pro eMMC corruption: trunk.52 write errors and 16 MiB installer overlap",
+    "url": "https://github.com/armbian/build/issues/10770",
+    "repo": "armbian/build",
+    "repoUrl": "https://github.com/armbian/build",
+    "stars": 5421,
+    "language": "Shell",
+    "labels": [
+      "Not framework bug",
+      "Good first issue"
+    ],
+    "createdAt": "2026-09-20T00:22:26Z",
+    "updatedAt": "2026-09-20T01:08:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #10770 in armbian/build: [Bug]: Orange Pi 4 Pro eMMC corruption: trunk.52 write errors and 16 MiB installer overlap",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T02:04:12.130Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSLVCug",
+    "number": 30591,
+    "title": "[good first issue] 🍡 Add new Etiquette Tip 520 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30591",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3420,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-20T01:01:19Z",
+    "updatedAt": "2026-09-20T01:01:22Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-cultural-etiquette.json"
+    ],
+    "summary": "Fix issue #30591 in lingdojo/kana-dojo: [good first issue] 🍡 Add new Etiquette Tip 520 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T02:04:08.247Z"
+  },
+  {
+    "id": "I_kwDORj6KWc8AAAABSLeyFw",
+    "number": 215,
+    "title": "[good first issue] The last five datetime.utcnow references: SQLAlchemy column defaults in models.py",
+    "url": "https://github.com/guaardvark/guaardvark/issues/215",
+    "repo": "guaardvark/guaardvark",
+    "repoUrl": "https://github.com/guaardvark/guaardvark",
+    "stars": 224,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "backend",
+      "python"
+    ],
+    "createdAt": "2026-09-20T01:32:49Z",
+    "updatedAt": "2026-09-20T01:32:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest backend/models.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "backend/models.py",
+      "backend/tests/test_autoresearch_v2.py",
+      "backend/tests/test_clock.py"
+    ],
+    "summary": "Fix issue #215 in guaardvark/guaardvark: [good first issue] The last five datetime.utcnow references: SQLAlchemy column defaults in models.py",
+    "maintainerTurnaroundDays": 1.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T02:04:06.592Z"
+  },
+  {
     "id": "I_kwDORWY2D88AAAABSIBDGw",
     "number": 592,
     "title": "Replace `#defines` with constexpr",
@@ -202,70 +559,6 @@
     "maintainerTurnaroundDays": 0.6,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-19T19:43:12.075Z"
-  },
-  {
-    "id": "I_kwDONic2f88AAAABSJbQ5w",
-    "number": 1281,
-    "title": "docs: Home Assistant / generic MCP client setup needs the anonymous-access path",
-    "url": "https://github.com/doobidoo/mcp-memory-service/issues/1281",
-    "repo": "doobidoo/mcp-memory-service",
-    "repoUrl": "https://github.com/doobidoo/mcp-memory-service",
-    "stars": 1951,
-    "language": "Python",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "maintenance"
-    ],
-    "createdAt": "2026-09-19T18:56:11Z",
-    "updatedAt": "2026-09-19T19:02:28Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest src/mcp_memory_service/web/oauth/middleware.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/mcp_memory_service/web/oauth/middleware.py",
-      "src/mcp_memory_service/config/oauth.py"
-    ],
-    "summary": "Fix issue #1281 in doobidoo/mcp-memory-service: docs: Home Assistant / generic MCP client setup needs the anonymous-access path",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T19:43:11.396Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSJdJKg",
-    "number": 30586,
-    "title": "[good first issue] 🍜 Add new Japanese Idiom 591 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30586",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3419,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-19T19:00:56Z",
-    "updatedAt": "2026-09-19T19:00:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-idioms.json"
-    ],
-    "summary": "Fix issue #30586 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Japanese Idiom 591 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T19:43:08.553Z"
   },
   {
     "id": "I_kwDOSP_2Ts8AAAABSJd3UA",
@@ -530,38 +823,6 @@
     "discoveredAt": "2026-09-19T14:58:38.734Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABSHu__g",
-    "number": 10775,
-    "title": "[Test🧪] Add unit tests for the key_char and is_ctrl helpers",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10775",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-tui crate",
-      "testing🧪"
-    ],
-    "createdAt": "2026-09-19T14:52:30Z",
-    "updatedAt": "2026-09-19T14:52:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test event",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/event.rs"
-    ],
-    "summary": "Fix issue #10775 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for the key_char and is_ctrl helpers",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:58:34.169Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABSHvCMA",
     "number": 10777,
     "title": "[Doc📝] Document the public fallible API of rocketmq-admin-tui",
@@ -628,39 +889,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T14:58:15.908Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABSHvFpA",
-    "number": 10780,
-    "title": "[Bug🐛] read-message-log --version reports a hardcoded 0.2.0 while --version reports 1.0.0",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10780",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "bug🐛",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-tools crate"
-    ],
-    "createdAt": "2026-09-19T14:52:44Z",
-    "updatedAt": "2026-09-19T14:52:44Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test command_line",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-store-inspect/src/command_line.rs",
-      "rocketmq-tools/rocketmq-store-inspect/src/bin/rocketmq_cli.rs"
-    ],
-    "summary": "Fix issue #10780 in mxsm/rocketmq-rust: [Bug🐛] read-message-log --version reports a hardcoded 0.2.0 while --version reports 1.0.0",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:58:11.303Z"
   },
   {
     "id": "I_kwDOK5M3Is8AAAABSHvHig",
@@ -3215,64 +3443,6 @@
     "discoveredAt": "2026-09-13T01:46:38.389Z"
   },
   {
-    "id": "I_kwDOSOAAX88AAAABQQihlw",
-    "number": 1399,
-    "title": "chore(ci): pin third-party actions to commit SHAs in the 11 workflows that still float @v7",
-    "url": "https://github.com/caura-ai/caura/issues/1399",
-    "repo": "caura-ai/caura",
-    "repoUrl": "https://github.com/caura-ai/caura",
-    "stars": 501,
-    "language": "Python",
-    "labels": [
-      "good-first-issue",
-      "kind/breaking"
-    ],
-    "createdAt": "2026-09-08T11:21:56Z",
-    "updatedAt": "2026-09-09T11:06:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest .github/dependabot.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".github/dependabot.yml"
-    ],
-    "summary": "Fix issue #1399 in caura-ai/caura: chore(ci): pin third-party actions to commit SHAs in the 11 workflows that still float @v7",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T19:48:46.241Z"
-  },
-  {
-    "id": "I_kwDOSOAAX88AAAABQQitIw",
-    "number": 1403,
-    "title": "chore(ci): TypeScript client has no lint gate, while the Python client CI runs ruff",
-    "url": "https://github.com/caura-ai/caura/issues/1403",
-    "repo": "caura-ai/caura",
-    "repoUrl": "https://github.com/caura-ai/caura",
-    "stars": 501,
-    "language": "Python",
-    "labels": [
-      "good-first-issue",
-      "kind/breaking"
-    ],
-    "createdAt": "2026-09-08T11:22:13Z",
-    "updatedAt": "2026-09-09T11:06:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest .github/workflows/client-python-ci.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".github/workflows/client-python-ci.yml",
-      ".github/workflows/client-typescript-ci.yml",
-      "clients/typescript/package.json"
-    ],
-    "summary": "Fix issue #1403 in caura-ai/caura: chore(ci): TypeScript client has no lint gate, while the Python client CI runs ruff",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T19:48:39.740Z"
-  },
-  {
     "id": "I_kwDODFlWBc8AAAABQ_hTGg",
     "number": 1255,
     "title": "Align `DropGuard` API with upstream Rust",
@@ -3359,35 +3529,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-12T09:43:28.230Z"
-  },
-  {
-    "id": "I_kwDOA_U_2M8AAAABQ5-rgA",
-    "number": 2045,
-    "title": "Crash in available_image_bounds error code path",
-    "url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/issues/2045",
-    "repo": "AcademySoftwareFoundation/OpenTimelineIO",
-    "repoUrl": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO",
-    "stars": 1979,
-    "language": "C++",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "devdays26"
-    ],
-    "createdAt": "2026-09-11T22:30:51Z",
-    "updatedAt": "2026-09-11T22:31:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2045 in AcademySoftwareFoundation/OpenTimelineIO: Crash in available_image_bounds error code path",
-    "maintainerTurnaroundDays": 3.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T01:54:29.205Z"
   },
   {
     "id": "I_kwDOQ_KVhM8AAAABQ0ring",
