@@ -1,32 +1,457 @@
 [
   {
-    "id": "I_kwDOJ4EDks8AAAABSNGq5w",
-    "number": 3544,
-    "title": "similar-issue (pinecone): the batched upsert response is discarded",
-    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3544",
-    "repo": "The-PR-Agent/pr-agent",
-    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
-    "stars": 13075,
-    "language": "Python",
+    "id": "I_kwDOCPmwqs8AAAABSOMuDg",
+    "number": 4905,
+    "title": "[UI Migration] DownloadCounter",
+    "url": "https://github.com/ONEARMY/community-platform/issues/4905",
+    "repo": "ONEARMY/community-platform",
+    "repoUrl": "https://github.com/ONEARMY/community-platform",
+    "stars": 1403,
+    "language": "TypeScript",
     "labels": [
-      "help wanted",
-      "Medium Effort Issue",
-      "bug"
+      "Good first issue",
+      "Help wanted",
+      "Difficulty: Easy",
+      "UI Migration"
     ],
-    "createdAt": "2026-09-20T08:14:31Z",
-    "updatedAt": "2026-09-20T08:14:31Z",
+    "createdAt": "2026-09-20T12:30:22Z",
+    "updatedAt": "2026-09-20T12:30:22Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/components/src/DownloadCounter/DownloadCounter.test.tsx",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "packages/components/src/DownloadCounter/DownloadCounter.tsx"
+    ],
+    "summary": "Fix issue #4905 in ONEARMY/community-platform: [UI Migration] DownloadCounter",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T15:01:04.820Z"
+  },
+  {
+    "id": "I_kwDOCPmwqs8AAAABSOZAkQ",
+    "number": 4912,
+    "title": "[UI Migration] VideoPlayer",
+    "url": "https://github.com/ONEARMY/community-platform/issues/4912",
+    "repo": "ONEARMY/community-platform",
+    "repoUrl": "https://github.com/ONEARMY/community-platform",
+    "stars": 1403,
+    "language": "TypeScript",
+    "labels": [
+      "Good first issue",
+      "Help wanted",
+      "Difficulty: Easy",
+      "UI Migration"
+    ],
+    "createdAt": "2026-09-20T13:09:40Z",
+    "updatedAt": "2026-09-20T13:13:19Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/components/src/VideoPlayer/VideoPlayer.test.tsx",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "packages/components/src/VideoPlayer/VideoPlayer.tsx"
+    ],
+    "summary": "Fix issue #4912 in ONEARMY/community-platform: [UI Migration] VideoPlayer",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T15:00:51.123Z"
+  },
+  {
+    "id": "I_kwDOCPmwqs8AAAABSOO2Ag",
+    "number": 4906,
+    "title": "[UI Migration] IconCountWithTooltip and InformationTooltip",
+    "url": "https://github.com/ONEARMY/community-platform/issues/4906",
+    "repo": "ONEARMY/community-platform",
+    "repoUrl": "https://github.com/ONEARMY/community-platform",
+    "stars": 1403,
+    "language": "TypeScript",
+    "labels": [
+      "Good first issue",
+      "Help wanted",
+      "Difficulty: Easy",
+      "UI Migration"
+    ],
+    "createdAt": "2026-09-20T12:37:59Z",
+    "updatedAt": "2026-09-20T13:13:18Z",
     "blastRadius": "Medium",
     "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "pytest pr_agent/tools/pr_similar_issue.py",
+    "quickReproCommand": "pnpm test src/components/ui/tooltip.tsx",
     "solvabilityScore": 6,
     "keyFiles": [
-      "pr_agent/tools/pr_similar_issue.py"
+      "src/components/ui/tooltip.tsx"
     ],
-    "summary": "Fix issue #3544 in The-PR-Agent/pr-agent: similar-issue (pinecone): the batched upsert response is discarded",
+    "summary": "Fix issue #4906 in ONEARMY/community-platform: [UI Migration] IconCountWithTooltip and InformationTooltip",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T15:01:03.271Z"
+  },
+  {
+    "id": "I_kwDOCPmwqs8AAAABSOP-mA",
+    "number": 4907,
+    "title": "[UI Migration] ExternalLink",
+    "url": "https://github.com/ONEARMY/community-platform/issues/4907",
+    "repo": "ONEARMY/community-platform",
+    "repoUrl": "https://github.com/ONEARMY/community-platform",
+    "stars": 1403,
+    "language": "TypeScript",
+    "labels": [
+      "Good first issue",
+      "Help wanted",
+      "Difficulty: Easy",
+      "UI Migration"
+    ],
+    "createdAt": "2026-09-20T12:42:09Z",
+    "updatedAt": "2026-09-20T12:42:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/components/src/ExternalLink/ExternalLink.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/components/src/ExternalLink/ExternalLink.tsx"
+    ],
+    "summary": "Fix issue #4907 in ONEARMY/community-platform: [UI Migration] ExternalLink",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T15:01:01.843Z"
+  },
+  {
+    "id": "I_kwDOCPmwqs8AAAABSORBNw",
+    "number": 4908,
+    "title": "[UI Migration] InternalLink",
+    "url": "https://github.com/ONEARMY/community-platform/issues/4908",
+    "repo": "ONEARMY/community-platform",
+    "repoUrl": "https://github.com/ONEARMY/community-platform",
+    "stars": 1403,
+    "language": "TypeScript",
+    "labels": [
+      "Good first issue",
+      "Help wanted",
+      "Difficulty: Easy",
+      "Stage: 🚧 Blocked",
+      "UI Migration"
+    ],
+    "createdAt": "2026-09-20T12:45:43Z",
+    "updatedAt": "2026-09-20T13:13:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/components/src/InternalLink/InternalLink.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/components/src/InternalLink/InternalLink.tsx"
+    ],
+    "summary": "Fix issue #4908 in ONEARMY/community-platform: [UI Migration] InternalLink",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T15:01:00.299Z"
+  },
+  {
+    "id": "I_kwDOCPmwqs8AAAABSOSWtA",
+    "number": 4909,
+    "title": "[UI Migration] LinkifyText",
+    "url": "https://github.com/ONEARMY/community-platform/issues/4909",
+    "repo": "ONEARMY/community-platform",
+    "repoUrl": "https://github.com/ONEARMY/community-platform",
+    "stars": 1403,
+    "language": "TypeScript",
+    "labels": [
+      "Good first issue",
+      "Help wanted",
+      "Difficulty: Easy",
+      "UI Migration"
+    ],
+    "createdAt": "2026-09-20T12:50:01Z",
+    "updatedAt": "2026-09-20T13:13:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/components/src/LinkifyText/LinkifyText.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/components/src/LinkifyText/LinkifyText.tsx"
+    ],
+    "summary": "Fix issue #4909 in ONEARMY/community-platform: [UI Migration] LinkifyText",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T15:00:58.681Z"
+  },
+  {
+    "id": "I_kwDOCPmwqs8AAAABSOUB4g",
+    "number": 4910,
+    "title": "[UI Migration] ArticleCallToAction",
+    "url": "https://github.com/ONEARMY/community-platform/issues/4910",
+    "repo": "ONEARMY/community-platform",
+    "repoUrl": "https://github.com/ONEARMY/community-platform",
+    "stars": 1403,
+    "language": "TypeScript",
+    "labels": [
+      "Good first issue",
+      "Help wanted",
+      "Difficulty: Easy",
+      "UI Migration"
+    ],
+    "createdAt": "2026-09-20T12:54:52Z",
+    "updatedAt": "2026-09-20T13:13:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/components/src/ArticleCallToActionSupabase/ArticleCallToActionSupabase.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/components/src/ArticleCallToActionSupabase/ArticleCallToActionSupabase.tsx"
+    ],
+    "summary": "Fix issue #4910 in ONEARMY/community-platform: [UI Migration] ArticleCallToAction",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T15:00:57.137Z"
+  },
+  {
+    "id": "I_kwDOCPmwqs8AAAABSOVtnQ",
+    "number": 4911,
+    "title": "[UI Migration] Select",
+    "url": "https://github.com/ONEARMY/community-platform/issues/4911",
+    "repo": "ONEARMY/community-platform",
+    "repoUrl": "https://github.com/ONEARMY/community-platform",
+    "stars": 1403,
+    "language": "TypeScript",
+    "labels": [
+      "Good first issue",
+      "Help wanted",
+      "Difficulty: Medium",
+      "UI Migration"
+    ],
+    "createdAt": "2026-09-20T12:59:38Z",
+    "updatedAt": "2026-09-20T13:13:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/components/src/Select/Select.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/components/src/Select/Select.tsx",
+      "package.json"
+    ],
+    "summary": "Fix issue #4911 in ONEARMY/community-platform: [UI Migration] Select",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T15:00:55.618Z"
+  },
+  {
+    "id": "I_kwDORb-rps8AAAABSOYz-Q",
+    "number": 32,
+    "title": "CI: add a windows-latest leg for cargo test",
+    "url": "https://github.com/mkbhardwas12/prismos-ai/issues/32",
+    "repo": "mkbhardwas12/prismos-ai",
+    "repoUrl": "https://github.com/mkbhardwas12/prismos-ai",
+    "stars": 432,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-20T13:09:07Z",
+    "updatedAt": "2026-09-20T13:09:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test ci",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/ci.yml"
+    ],
+    "summary": "Fix issue #32 in mkbhardwas12/prismos-ai: CI: add a windows-latest leg for cargo test",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T10:14:27.292Z"
+    "discoveredAt": "2026-09-20T15:00:54.091Z"
+  },
+  {
+    "id": "I_kwDORb-rps8AAAABSOY0Rg",
+    "number": 33,
+    "title": "chore: imap-proto 0.10.2 triggers a rustc future-incompatibility warning",
+    "url": "https://github.com/mkbhardwas12/prismos-ai/issues/33",
+    "repo": "mkbhardwas12/prismos-ai",
+    "repoUrl": "https://github.com/mkbhardwas12/prismos-ai",
+    "stars": 432,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-20T13:09:08Z",
+    "updatedAt": "2026-09-20T13:09:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test email_keeper",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src-tauri/src/email_keeper.rs"
+    ],
+    "summary": "Fix issue #33 in mkbhardwas12/prismos-ai: chore: imap-proto 0.10.2 triggers a rustc future-incompatibility warning",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T15:00:52.636Z"
+  },
+  {
+    "id": "I_kwDOCPmwqs8AAAABSOZ1uA",
+    "number": 4913,
+    "title": "[UI Migration] FlagIcon",
+    "url": "https://github.com/ONEARMY/community-platform/issues/4913",
+    "repo": "ONEARMY/community-platform",
+    "repoUrl": "https://github.com/ONEARMY/community-platform",
+    "stars": 1403,
+    "language": "TypeScript",
+    "labels": [
+      "Good first issue",
+      "Help wanted",
+      "Difficulty: Easy",
+      "UI Migration"
+    ],
+    "createdAt": "2026-09-20T13:12:25Z",
+    "updatedAt": "2026-09-20T13:13:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/components/src/FlagIcon/FlagIcon.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/components/src/FlagIcon/FlagIcon.tsx"
+    ],
+    "summary": "Fix issue #4913 in ONEARMY/community-platform: [UI Migration] FlagIcon",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-20T15:00:49.589Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABSOaJrA",
+    "number": 639,
+    "title": "tracking issue renaming for clarity",
+    "url": "https://github.com/servo/rust-smallvec/issues/639",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1735,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "r-style"
+    ],
+    "createdAt": "2026-09-20T13:13:29Z",
+    "updatedAt": "2026-09-20T13:14:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #639 in servo/rust-smallvec: tracking issue renaming for clarity",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-20T15:00:48.044Z"
+  },
+  {
+    "id": "I_kwDOAf6AbM8AAAABSOml7g",
+    "number": 643,
+    "title": "make no-AI wording in readme clearer",
+    "url": "https://github.com/servo/rust-smallvec/issues/643",
+    "repo": "servo/rust-smallvec",
+    "repoUrl": "https://github.com/servo/rust-smallvec",
+    "stars": 1735,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "r-docs"
+    ],
+    "createdAt": "2026-09-20T13:53:14Z",
+    "updatedAt": "2026-09-20T13:53:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #643 in servo/rust-smallvec: make no-AI wording in readme clearer",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "v2",
+    "discoveredAt": "2026-09-20T15:00:47.442Z"
+  },
+  {
+    "id": "I_kwDOSP_2Ts8AAAABSOztzg",
+    "number": 1946,
+    "title": "[Docs] 修掉 23 条相对链接破损，并把链接门禁从 docs/integrations 扩到全仓",
+    "url": "https://github.com/Ikalus1988/MisakaNet/issues/1946",
+    "repo": "Ikalus1988/MisakaNet",
+    "repoUrl": "https://github.com/Ikalus1988/MisakaNet",
+    "stars": 494,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "area:tests",
+      "area:docs",
+      "ready",
+      "cleanup",
+      "has-test",
+      "priority:low"
+    ],
+    "createdAt": "2026-09-20T14:35:52Z",
+    "updatedAt": "2026-09-20T14:37:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/test_integration_docs_truth.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/test_integration_docs_truth.py",
+      "tests/test_agent_autostart.py"
+    ],
+    "summary": "Fix issue #1946 in Ikalus1988/MisakaNet: [Docs] 修掉 23 条相对链接破损，并把链接门禁从 docs/integrations 扩到全仓",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T15:00:46.822Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSO6QOw",
+    "number": 30609,
+    "title": "[good first issue] 🎍 Add new Japanese Proverb 625 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30609",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3428,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-20T14:57:26Z",
+    "updatedAt": "2026-09-20T14:57:29Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30609 in lingdojo/kana-dojo: [good first issue] 🎍 Add new Japanese Proverb 625 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-20T15:00:44.669Z"
   },
   {
     "id": "I_kwDOBYmPEM8AAAABSNSxnA",
@@ -57,68 +482,6 @@
     "maintainerTurnaroundDays": 0.6,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-20T10:14:26.532Z"
-  },
-  {
-    "id": "I_kwDOCCF3gM8AAAABSNgfmQ",
-    "number": 8099,
-    "title": "[Bug] Kanvas features section misaligned and broken on iPad Mini (768px tablet breakpoint)",
-    "url": "https://github.com/layer5io/layer5/issues/8099",
-    "repo": "layer5io/layer5",
-    "repoUrl": "https://github.com/layer5io/layer5",
-    "stars": 1127,
-    "language": "JavaScript",
-    "labels": [
-      "kind/bug",
-      "help wanted",
-      "framework/gatsby"
-    ],
-    "createdAt": "2026-09-20T09:48:58Z",
-    "updatedAt": "2026-09-20T09:49:41Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/sections/Company/Brand/Brand-components/meshmaster.js",
-      "src/sections/Kanvas/FeaturesSection/useGsapTimeline.js"
-    ],
-    "summary": "Fix issue #8099 in layer5io/layer5: [Bug] Kanvas features section misaligned and broken on iPad Mini (768px tablet breakpoint)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-20T10:14:18.674Z"
-  },
-  {
-    "id": "I_kwDOQ_KVhM8AAAABSNhlGg",
-    "number": 4144,
-    "title": "Recall retention only applies on write: a quiet machine keeps rows past retention_days",
-    "url": "https://github.com/rtk-ai/rtk/issues/4144",
-    "repo": "rtk-ai/rtk",
-    "repoUrl": "https://github.com/rtk-ai/rtk",
-    "stars": 81081,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "help wanted",
-      "priority:medium",
-      "area:security"
-    ],
-    "createdAt": "2026-09-20T09:53:19Z",
-    "updatedAt": "2026-09-20T09:54:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test __init__",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "hooks/hermes/rtk-rewrite/__init__.py",
-      "hooks/hermes/tests/__init__.py",
-      "src/analytics/gain.rs"
-    ],
-    "summary": "Fix issue #4144 in rtk-ai/rtk: Recall retention only applies on write: a quiet machine keeps rows past retention_days",
-    "maintainerTurnaroundDays": 3.6,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-20T10:14:05.981Z"
   },
   {
     "id": "I_kwDOAac9Mc8AAAABSNiwWQ",
@@ -210,66 +573,6 @@
     "discoveredAt": "2026-09-20T10:13:58.117Z"
   },
   {
-    "id": "I_kwDOJ4EDks8AAAABSNGfaw",
-    "number": 3538,
-    "title": "similar-issue: max_issues_to_scan indexes one issue fewer than set",
-    "url": "https://github.com/The-PR-Agent/pr-agent/issues/3538",
-    "repo": "The-PR-Agent/pr-agent",
-    "repoUrl": "https://github.com/The-PR-Agent/pr-agent",
-    "stars": 13075,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "Low Effort Issue",
-      "bug"
-    ],
-    "createdAt": "2026-09-20T08:13:49Z",
-    "updatedAt": "2026-09-20T10:02:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest pr_agent/tools/pr_similar_issue.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "pr_agent/tools/pr_similar_issue.py"
-    ],
-    "summary": "Fix issue #3538 in The-PR-Agent/pr-agent: similar-issue: max_issues_to_scan indexes one issue fewer than set",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T10:13:56.881Z"
-  },
-  {
-    "id": "I_kwDOSgbPIs8AAAABSNIPyQ",
-    "number": 1494,
-    "title": "fix(config): cover dependency and build-output directories in default_exclude_patterns.json",
-    "url": "https://github.com/alibaba/open-code-review/issues/1494",
-    "repo": "alibaba/open-code-review",
-    "repoUrl": "https://github.com/alibaba/open-code-review",
-    "stars": 38039,
-    "language": "Go",
-    "labels": [
-      "good first issue",
-      "config"
-    ],
-    "createdAt": "2026-09-20T08:20:54Z",
-    "updatedAt": "2026-09-20T09:34:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./internal/agent",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "internal/agent/selection.go",
-      "internal/config/allowlist/default_exclude_patterns.json",
-      "internal/config/allowlist/allowed_ext_test.go"
-    ],
-    "summary": "Fix issue #1494 in alibaba/open-code-review: fix(config): cover dependency and build-output directories in default_exclude_patterns.json",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T10:13:56.121Z"
-  },
-  {
     "id": "I_kwDOALyme88AAAABSNXFig",
     "number": 3549,
     "title": "Good First Issue: Check behavior of the original game with respect to large toilets.",
@@ -295,36 +598,6 @@
     "maintainerTurnaroundDays": 0.3,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-20T10:13:50.230Z"
-  },
-  {
-    "id": "I_kwDOAf6AbM8AAAABSNgGfA",
-    "number": 633,
-    "title": "add missing `From` conversions to `SmallVec`",
-    "url": "https://github.com/servo/rust-smallvec/issues/633",
-    "repo": "servo/rust-smallvec",
-    "repoUrl": "https://github.com/servo/rust-smallvec",
-    "stars": 1735,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "r-feature"
-    ],
-    "createdAt": "2026-09-20T09:47:21Z",
-    "updatedAt": "2026-09-20T09:47:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test smallvec_ops",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "fuzz/fuzz_targets/smallvec_ops.rs",
-      "src/rawsmallvec.rs"
-    ],
-    "summary": "Fix issue #633 in servo/rust-smallvec: add missing `From` conversions to `SmallVec`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "v2",
-    "discoveredAt": "2026-09-20T10:13:49.119Z"
   },
   {
     "id": "I_kwDOA9zvgc8AAAABSJmtrg",
@@ -1935,37 +2208,6 @@
     "discoveredAt": "2026-09-18T15:21:25.565Z"
   },
   {
-    "id": "I_kwDOTq8AqM8AAAABR-Z3Iw",
-    "number": 732,
-    "title": "[Bug] 编辑器可编辑区域色差问题",
-    "url": "https://github.com/1lck/Lithe-IDEA/issues/732",
-    "repo": "1lck/Lithe-IDEA",
-    "repoUrl": "https://github.com/1lck/Lithe-IDEA",
-    "stars": 1383,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "P0",
-      "platform:macos",
-      "area:editor"
-    ],
-    "createdAt": "2026-09-18T15:15:35Z",
-    "updatedAt": "2026-09-18T15:15:43Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #732 in 1lck/Lithe-IDEA: [Bug] 编辑器可编辑区域色差问题",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:22.776Z"
-  },
-  {
     "id": "I_kwDOR0lbo88AAAABR5b4Ig",
     "number": 387,
     "title": "Keep CodeQL out of tests/ so the check means something again",
@@ -2370,36 +2612,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T20:35:35.439Z"
-  },
-  {
-    "id": "I_kwDOP0125M8AAAABRdkRcw",
-    "number": 1035,
-    "title": "Indexer categories outside 40xx/10xx are silently dropped from searches",
-    "url": "https://github.com/Doezer/Questarr/issues/1035",
-    "repo": "Doezer/Questarr",
-    "repoUrl": "https://github.com/Doezer/Questarr",
-    "stars": 642,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "help wanted",
-      "priority:medium",
-      "area:api"
-    ],
-    "createdAt": "2026-09-15T20:04:24Z",
-    "updatedAt": "2026-09-15T20:05:41Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test server/indexer-caps.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "server/indexer-caps.ts"
-    ],
-    "summary": "Fix issue #1035 in Doezer/Questarr: Indexer categories outside 40xx/10xx are silently dropped from searches",
-    "maintainerTurnaroundDays": 1.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T20:35:28.479Z"
   },
   {
     "id": "I_kwDOK63vj88AAAABRcSSdg",
@@ -2960,37 +3172,6 @@
     "maintainerTurnaroundDays": 0.5,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-14T11:08:21.656Z"
-  },
-  {
-    "id": "I_kwDORz_b288AAAABRL9rXQ",
-    "number": 1144,
-    "title": "auth.mfaEnrollmentHeading is the one string left in English in all 20 non-en locales",
-    "url": "https://github.com/snapotter-hq/SnapOtter/issues/1144",
-    "repo": "snapotter-hq/SnapOtter",
-    "repoUrl": "https://github.com/snapotter-hq/SnapOtter",
-    "stars": 2656,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "area: i18n",
-      "priority: low"
-    ],
-    "createdAt": "2026-09-14T10:51:07Z",
-    "updatedAt": "2026-09-14T10:51:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test tests/unit/web/i18n-parity.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/unit/web/i18n-parity.test.ts",
-      "apps/web/src/pages/login-page.tsx"
-    ],
-    "summary": "Fix issue #1144 in snapotter-hq/SnapOtter: auth.mfaEnrollmentHeading is the one string left in English in all 20 non-en locales",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T11:08:09.274Z"
   },
   {
     "id": "I_kwDORz_b288AAAABRL9wrw",
@@ -4296,103 +4477,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-08T20:25:36.069Z"
-  },
-  {
-    "id": "I_kwDORtsRpM8AAAABSNL6Ww",
-    "number": 6039,
-    "title": "run_tests.py hides the reason when a test file crashes instead of failing",
-    "url": "https://github.com/sipyourdrink-ltd/bernstein/issues/6039",
-    "repo": "sipyourdrink-ltd/bernstein",
-    "repoUrl": "https://github.com/sipyourdrink-ltd/bernstein",
-    "stars": 1216,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "ci",
-      "size/s",
-      "tests",
-      "observability",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-20T08:35:35Z",
-    "updatedAt": "2026-09-20T09:09:11Z",
-    "blastRadius": "High",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/unit/test_orchestrator.py",
-    "solvabilityScore": 4,
-    "keyFiles": [
-      "tests/unit/test_orchestrator.py",
-      "scripts/run_tests.py"
-    ],
-    "summary": "Fix issue #6039 in sipyourdrink-ltd/bernstein: run_tests.py hides the reason when a test file crashes instead of failing",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T10:13:55.251Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABSHvBEQ",
-    "number": 10776,
-    "title": "[Bug🐛] Bare-letter shortcuts are not focus-guarded, so q quits the TUI while editing",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10776",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "bug🐛",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-tui crate"
-    ],
-    "createdAt": "2026-09-19T14:52:33Z",
-    "updatedAt": "2026-09-19T14:52:33Z",
-    "blastRadius": "High",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test rocketmq_tui_app",
-    "solvabilityScore": 4,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/rocketmq_tui_app.rs"
-    ],
-    "summary": "Fix issue #10776 in mxsm/rocketmq-rust: [Bug🐛] Bare-letter shortcuts are not focus-guarded, so q quits the TUI while editing",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:58:29.608Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABSHvDvA",
-    "number": 10778,
-    "title": "[Test🧪] Cover the dangerous-command confirmation flow",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10778",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-tui crate",
-      "testing🧪"
-    ],
-    "createdAt": "2026-09-19T14:52:39Z",
-    "updatedAt": "2026-09-19T14:52:39Z",
-    "blastRadius": "High",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test rocketmq_tui_app",
-    "solvabilityScore": 4,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/rocketmq_tui_app.rs",
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-tui/src/state.rs"
-    ],
-    "summary": "Fix issue #10778 in mxsm/rocketmq-rust: [Test🧪] Cover the dangerous-command confirmation flow",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:58:20.479Z"
   }
 ]

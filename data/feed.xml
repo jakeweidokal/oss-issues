@@ -5,25 +5,294 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2026 10:14:27 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 15:01:04 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>[The-PR-Agent/pr-agent] #3544 similar-issue (pinecone): the batched upsert response is discarded (Solvability: 6/10)</title>
-      <link>https://github.com/The-PR-Agent/pr-agent/issues/3544</link>
-      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/3544</guid>
-      <pubDate>Sun, 20 Sep 2026 08:14:31 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (13075 ⭐, Python)</p>
+      <title>[ONEARMY/community-platform] #4905 [UI Migration] DownloadCounter (Solvability: 8/10)</title>
+      <link>https://github.com/ONEARMY/community-platform/issues/4905</link>
+      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4905</guid>
+      <pubDate>Sun, 20 Sep 2026 12:30:22 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 8/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4905 in ONEARMY/community-platform: [UI Migration] DownloadCounter</p>
+<p><strong>Blast Radius Analysis:</strong> Changes appear localized to a single module with existing unit tests.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/components/src/DownloadCounter/DownloadCounter.test.tsx</code></p>
+<p><a href="https://github.com/ONEARMY/community-platform/issues/4905">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-low</category>
+      <category>friction-standard</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+      <category>Difficulty: Easy</category>
+      <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[ONEARMY/community-platform] #4912 [UI Migration] VideoPlayer (Solvability: 8/10)</title>
+      <link>https://github.com/ONEARMY/community-platform/issues/4912</link>
+      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4912</guid>
+      <pubDate>Sun, 20 Sep 2026 13:09:40 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 8/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4912 in ONEARMY/community-platform: [UI Migration] VideoPlayer</p>
+<p><strong>Blast Radius Analysis:</strong> Changes appear localized to a single module with existing unit tests.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/components/src/VideoPlayer/VideoPlayer.test.tsx</code></p>
+<p><a href="https://github.com/ONEARMY/community-platform/issues/4912">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-low</category>
+      <category>friction-standard</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+      <category>Difficulty: Easy</category>
+      <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[ONEARMY/community-platform] #4906 [UI Migration] IconCountWithTooltip and InformationTooltip (Solvability: 6/10)</title>
+      <link>https://github.com/ONEARMY/community-platform/issues/4906</link>
+      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4906</guid>
+      <pubDate>Sun, 20 Sep 2026 12:37:59 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
 <p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3544 in The-PR-Agent/pr-agent: similar-issue (pinecone): the batched upsert response is discarded</p>
+<p><strong>Summary:</strong> Fix issue #4906 in ONEARMY/community-platform: [UI Migration] IconCountWithTooltip and InformationTooltip</p>
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest pr_agent/tools/pr_similar_issue.py</code></p>
-<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/3544">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
+<p><strong>Repro Command:</strong> <code>pnpm test src/components/ui/tooltip.tsx</code></p>
+<p><a href="https://github.com/ONEARMY/community-platform/issues/4906">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+      <category>Difficulty: Easy</category>
+      <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[ONEARMY/community-platform] #4907 [UI Migration] ExternalLink (Solvability: 6/10)</title>
+      <link>https://github.com/ONEARMY/community-platform/issues/4907</link>
+      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4907</guid>
+      <pubDate>Sun, 20 Sep 2026 12:42:09 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4907 in ONEARMY/community-platform: [UI Migration] ExternalLink</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/components/src/ExternalLink/ExternalLink.tsx</code></p>
+<p><a href="https://github.com/ONEARMY/community-platform/issues/4907">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+      <category>Difficulty: Easy</category>
+      <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[ONEARMY/community-platform] #4908 [UI Migration] InternalLink (Solvability: 6/10)</title>
+      <link>https://github.com/ONEARMY/community-platform/issues/4908</link>
+      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4908</guid>
+      <pubDate>Sun, 20 Sep 2026 12:45:43 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4908 in ONEARMY/community-platform: [UI Migration] InternalLink</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/components/src/InternalLink/InternalLink.tsx</code></p>
+<p><a href="https://github.com/ONEARMY/community-platform/issues/4908">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+      <category>Difficulty: Easy</category>
+      <category>Stage: 🚧 Blocked</category>
+      <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[ONEARMY/community-platform] #4909 [UI Migration] LinkifyText (Solvability: 6/10)</title>
+      <link>https://github.com/ONEARMY/community-platform/issues/4909</link>
+      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4909</guid>
+      <pubDate>Sun, 20 Sep 2026 12:50:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4909 in ONEARMY/community-platform: [UI Migration] LinkifyText</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/components/src/LinkifyText/LinkifyText.tsx</code></p>
+<p><a href="https://github.com/ONEARMY/community-platform/issues/4909">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+      <category>Difficulty: Easy</category>
+      <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[ONEARMY/community-platform] #4910 [UI Migration] ArticleCallToAction (Solvability: 6/10)</title>
+      <link>https://github.com/ONEARMY/community-platform/issues/4910</link>
+      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4910</guid>
+      <pubDate>Sun, 20 Sep 2026 12:54:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4910 in ONEARMY/community-platform: [UI Migration] ArticleCallToAction</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/components/src/ArticleCallToActionSupabase/ArticleCallToActionSupabase.tsx</code></p>
+<p><a href="https://github.com/ONEARMY/community-platform/issues/4910">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+      <category>Difficulty: Easy</category>
+      <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[ONEARMY/community-platform] #4911 [UI Migration] Select (Solvability: 6/10)</title>
+      <link>https://github.com/ONEARMY/community-platform/issues/4911</link>
+      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4911</guid>
+      <pubDate>Sun, 20 Sep 2026 12:59:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4911 in ONEARMY/community-platform: [UI Migration] Select</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/components/src/Select/Select.tsx</code></p>
+<p><a href="https://github.com/ONEARMY/community-platform/issues/4911">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+      <category>Difficulty: Medium</category>
+      <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[mkbhardwas12/prismos-ai] #32 CI: add a windows-latest leg for cargo test (Solvability: 6/10)</title>
+      <link>https://github.com/mkbhardwas12/prismos-ai/issues/32</link>
+      <guid isPermaLink="true">https://github.com/mkbhardwas12/prismos-ai/issues/32</guid>
+      <pubDate>Sun, 20 Sep 2026 13:09:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mkbhardwas12/prismos-ai">mkbhardwas12/prismos-ai</a> (432 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #32 in mkbhardwas12/prismos-ai: CI: add a windows-latest leg for cargo test</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test ci</code></p>
+<p><a href="https://github.com/mkbhardwas12/prismos-ai/issues/32">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>help wanted</category>
-      <category>Medium Effort Issue</category>
-      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[mkbhardwas12/prismos-ai] #33 chore: imap-proto 0.10.2 triggers a rustc future-incompatibility warning (Solvability: 6/10)</title>
+      <link>https://github.com/mkbhardwas12/prismos-ai/issues/33</link>
+      <guid isPermaLink="true">https://github.com/mkbhardwas12/prismos-ai/issues/33</guid>
+      <pubDate>Sun, 20 Sep 2026 13:09:08 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mkbhardwas12/prismos-ai">mkbhardwas12/prismos-ai</a> (432 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #33 in mkbhardwas12/prismos-ai: chore: imap-proto 0.10.2 triggers a rustc future-incompatibility warning</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test email_keeper</code></p>
+<p><a href="https://github.com/mkbhardwas12/prismos-ai/issues/33">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[ONEARMY/community-platform] #4913 [UI Migration] FlagIcon (Solvability: 6/10)</title>
+      <link>https://github.com/ONEARMY/community-platform/issues/4913</link>
+      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4913</guid>
+      <pubDate>Sun, 20 Sep 2026 13:12:25 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4913 in ONEARMY/community-platform: [UI Migration] FlagIcon</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/components/src/FlagIcon/FlagIcon.tsx</code></p>
+<p><a href="https://github.com/ONEARMY/community-platform/issues/4913">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good first issue</category>
+      <category>Help wanted</category>
+      <category>Difficulty: Easy</category>
+      <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[servo/rust-smallvec] #639 tracking issue renaming for clarity (Solvability: 6/10)</title>
+      <link>https://github.com/servo/rust-smallvec/issues/639</link>
+      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/639</guid>
+      <pubDate>Sun, 20 Sep 2026 13:13:29 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1735 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #639 in servo/rust-smallvec: tracking issue renaming for clarity</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/servo/rust-smallvec/issues/639">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>r-style</category>
+    </item>
+    <item>
+      <title>[servo/rust-smallvec] #643 make no-AI wording in readme clearer (Solvability: 6/10)</title>
+      <link>https://github.com/servo/rust-smallvec/issues/643</link>
+      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/643</guid>
+      <pubDate>Sun, 20 Sep 2026 13:53:14 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1735 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #643 in servo/rust-smallvec: make no-AI wording in readme clearer</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/servo/rust-smallvec/issues/643">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>r-docs</category>
+    </item>
+    <item>
+      <title>[Ikalus1988/MisakaNet] #1946 [Docs] 修掉 23 条相对链接破损，并把链接门禁从 docs/integrations 扩到全仓 (Solvability: 6/10)</title>
+      <link>https://github.com/Ikalus1988/MisakaNet/issues/1946</link>
+      <guid isPermaLink="true">https://github.com/Ikalus1988/MisakaNet/issues/1946</guid>
+      <pubDate>Sun, 20 Sep 2026 14:35:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Ikalus1988/MisakaNet">Ikalus1988/MisakaNet</a> (494 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1946 in Ikalus1988/MisakaNet: [Docs] 修掉 23 条相对链接破损，并把链接门禁从 docs/integrations 扩到全仓</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/test_integration_docs_truth.py</code></p>
+<p><a href="https://github.com/Ikalus1988/MisakaNet/issues/1946">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>area:tests</category>
+      <category>area:docs</category>
+      <category>ready</category>
+      <category>cleanup</category>
+      <category>has-test</category>
+      <category>priority:low</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30609 [good first issue] 🎍 Add new Japanese Proverb 625 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30609</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30609</guid>
+      <pubDate>Sun, 20 Sep 2026 14:57:26 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3428 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30609 in lingdojo/kana-dojo: [good first issue] 🎍 Add new Japanese Proverb 625 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-proverbs.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30609">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
     </item>
     <item>
       <title>[etternagame/etterna] #1486 [Bug]: MacOS Windowed mode not respecting VSync option (Solvability: 6/10)</title>
@@ -43,43 +312,6 @@
       <category>Help Wanted</category>
       <category>Priority: Low</category>
       <category>Platform: Mac</category>
-    </item>
-    <item>
-      <title>[layer5io/layer5] #8099 [Bug] Kanvas features section misaligned and broken on iPad Mini (768px tablet breakpoint) (Solvability: 6/10)</title>
-      <link>https://github.com/layer5io/layer5/issues/8099</link>
-      <guid isPermaLink="true">https://github.com/layer5io/layer5/issues/8099</guid>
-      <pubDate>Sun, 20 Sep 2026 09:48:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/layer5io/layer5">layer5io/layer5</a> (1127 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8099 in layer5io/layer5: [Bug] Kanvas features section misaligned and broken on iPad Mini (768px tablet breakpoint)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/sections/Company/Brand/Brand-components/meshmaster.js</code></p>
-<p><a href="https://github.com/layer5io/layer5/issues/8099">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/bug</category>
-      <category>help wanted</category>
-      <category>framework/gatsby</category>
-    </item>
-    <item>
-      <title>[rtk-ai/rtk] #4144 Recall retention only applies on write: a quiet machine keeps rows past retention_days (Solvability: 6/10)</title>
-      <link>https://github.com/rtk-ai/rtk/issues/4144</link>
-      <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/4144</guid>
-      <pubDate>Sun, 20 Sep 2026 09:53:19 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rtk-ai/rtk">rtk-ai/rtk</a> (81081 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4144 in rtk-ai/rtk: Recall retention only applies on write: a quiet machine keeps rows past retention_days</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test __init__</code></p>
-<p><a href="https://github.com/rtk-ai/rtk/issues/4144">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>priority:medium</category>
-      <category>area:security</category>
     </item>
     <item>
       <title>[qmk/qmk_firmware] #26464 [Bug] last_input_activity_elapsed() gives unexpected results for combo-buffered keys (Solvability: 6/10)</title>
@@ -136,42 +368,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[The-PR-Agent/pr-agent] #3538 similar-issue: max_issues_to_scan indexes one issue fewer than set (Solvability: 6/10)</title>
-      <link>https://github.com/The-PR-Agent/pr-agent/issues/3538</link>
-      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent/issues/3538</guid>
-      <pubDate>Sun, 20 Sep 2026 08:13:49 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent</a> (13075 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3538 in The-PR-Agent/pr-agent: similar-issue: max_issues_to_scan indexes one issue fewer than set</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest pr_agent/tools/pr_similar_issue.py</code></p>
-<p><a href="https://github.com/The-PR-Agent/pr-agent/issues/3538">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>Low Effort Issue</category>
-      <category>bug</category>
-    </item>
-    <item>
-      <title>[alibaba/open-code-review] #1494 fix(config): cover dependency and build-output directories in default_exclude_patterns.json (Solvability: 6/10)</title>
-      <link>https://github.com/alibaba/open-code-review/issues/1494</link>
-      <guid isPermaLink="true">https://github.com/alibaba/open-code-review/issues/1494</guid>
-      <pubDate>Sun, 20 Sep 2026 08:20:54 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review</a> (38039 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1494 in alibaba/open-code-review: fix(config): cover dependency and build-output directories in default_exclude_patterns.json</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./internal/agent</code></p>
-<p><a href="https://github.com/alibaba/open-code-review/issues/1494">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>config</category>
-    </item>
-    <item>
       <title>[CorsixTH/CorsixTH] #3549 Good First Issue: Check behavior of the original game with respect to large toilets. (Solvability: 6/10)</title>
       <link>https://github.com/CorsixTH/CorsixTH/issues/3549</link>
       <guid isPermaLink="true">https://github.com/CorsixTH/CorsixTH/issues/3549</guid>
@@ -186,24 +382,6 @@
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>Good First Issue</category>
-    </item>
-    <item>
-      <title>[servo/rust-smallvec] #633 add missing `From` conversions to `SmallVec` (Solvability: 6/10)</title>
-      <link>https://github.com/servo/rust-smallvec/issues/633</link>
-      <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/633</guid>
-      <pubDate>Sun, 20 Sep 2026 09:47:21 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/servo/rust-smallvec">servo/rust-smallvec</a> (1735 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #633 in servo/rust-smallvec: add missing `From` conversions to `SmallVec`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test smallvec_ops</code></p>
-<p><a href="https://github.com/servo/rust-smallvec/issues/633">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>r-feature</category>
     </item>
     <item>
       <title>[linuxboot/heads] #2212 Update downstream backported patches for TPM GPIO locking (Solvability: 6/10)</title>
@@ -772,168 +950,6 @@
       <category>friction-standard</category>
       <category>help wanted</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[leaperone/MultiPost-Extension] #233 feat: bonjour! 平台支持 (Solvability: 6/10)</title>
-      <link>https://github.com/leaperone/MultiPost-Extension/issues/233</link>
-      <guid isPermaLink="true">https://github.com/leaperone/MultiPost-Extension/issues/233</guid>
-      <pubDate>Sat, 19 Sep 2026 09:05:55 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/leaperone/MultiPost-Extension">leaperone/MultiPost-Extension</a> (3500 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #233 in leaperone/MultiPost-Extension: feat: bonjour! 平台支持</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/leaperone/MultiPost-Extension/issues/233">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>customer</category>
-      <category>needs-info</category>
-    </item>
-    <item>
-      <title>[vshulcz/deja-vu] #3762 a page for adding memory to Senpi (Solvability: 6/10)</title>
-      <link>https://github.com/vshulcz/deja-vu/issues/3762</link>
-      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3762</guid>
-      <pubDate>Sat, 19 Sep 2026 09:28:24 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3762 in vshulcz/deja-vu: a page for adding memory to Senpi</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./docs/guide</code></p>
-<p><a href="https://github.com/vshulcz/deja-vu/issues/3762">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[vshulcz/deja-vu] #3763 a page for adding memory to ZCode, whose two stores do not know about each other (Solvability: 6/10)</title>
-      <link>https://github.com/vshulcz/deja-vu/issues/3763</link>
-      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3763</guid>
-      <pubDate>Sat, 19 Sep 2026 09:28:35 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #3763 in vshulcz/deja-vu: a page for adding memory to ZCode, whose two stores do not know about each other</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./docs/registry</code></p>
-<p><a href="https://github.com/vshulcz/deja-vu/issues/3763">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[vshulcz/deja-vu] #3764 pages for Kimchi Coding and Command Code, which landed without one (Solvability: 6/10)</title>
-      <link>https://github.com/vshulcz/deja-vu/issues/3764</link>
-      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3764</guid>
-      <pubDate>Sat, 19 Sep 2026 09:28:45 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3764 in vshulcz/deja-vu: pages for Kimchi Coding and Command Code, which landed without one</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./docs/registry</code></p>
-<p><a href="https://github.com/vshulcz/deja-vu/issues/3764">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[vshulcz/deja-vu] #3767 pages for aider and Antigravity, the two extremes (Solvability: 6/10)</title>
-      <link>https://github.com/vshulcz/deja-vu/issues/3767</link>
-      <guid isPermaLink="true">https://github.com/vshulcz/deja-vu/issues/3767</guid>
-      <pubDate>Sat, 19 Sep 2026 09:36:19 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/vshulcz/deja-vu">vshulcz/deja-vu</a> (855 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3767 in vshulcz/deja-vu: pages for aider and Antigravity, the two extremes</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./docs/registry</code></p>
-<p><a href="https://github.com/vshulcz/deja-vu/issues/3767">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[libredb/libredb-studio] #970 Package LibreDB Studio for nixpkgs (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/970</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/970</guid>
-      <pubDate>Fri, 18 Sep 2026 22:23:11 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #970 in libredb/libredb-studio: Package LibreDB Studio for nixpkgs</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test package.json</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/970">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>deployment</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[libredb/libredb-studio] #971 Publish libredb-studio-bin to the AUR (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/971</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/971</guid>
-      <pubDate>Fri, 18 Sep 2026 22:23:46 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #971 in libredb/libredb-studio: Publish libredb-studio-bin to the AUR</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packaging/linux/nfpm.yaml</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/971">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>deployment</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[guaardvark/guaardvark] #199 [good first issue] Browser recipes, round two: tab switching, zoom, address bar, fullscreen (Solvability: 6/10)</title>
-      <link>https://github.com/guaardvark/guaardvark/issues/199</link>
-      <guid isPermaLink="true">https://github.com/guaardvark/guaardvark/issues/199</guid>
-      <pubDate>Fri, 18 Sep 2026 22:52:45 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/guaardvark/guaardvark">guaardvark/guaardvark</a> (224 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #199 in guaardvark/guaardvark: [good first issue] Browser recipes, round two: tab switching, zoom, address bar, fullscreen</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest data/agent/recipes.json</code></p>
-<p><a href="https://github.com/guaardvark/guaardvark/issues/199">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[libredb/libredb-studio] #973 Proofread README_ja.md: no Japanese speaker has ever reviewed it (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/973</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/973</guid>
-      <pubDate>Fri, 18 Sep 2026 22:57:43 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (802 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #973 in libredb/libredb-studio: Proofread README_ja.md: no Japanese speaker has ever reviewed it</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test tests/unit/helm-chart-agent.test.ts</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/973">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>hacktoberfest</category>
     </item>
   </channel>
 </rss>
