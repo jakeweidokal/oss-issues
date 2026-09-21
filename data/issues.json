@@ -60,6 +60,473 @@
     "discoveredAt": "2026-09-20T15:00:51.123Z"
   },
   {
+    "id": "I_kwDOOwsln88AAAABSabdkg",
+    "number": 30685,
+    "title": "[good first issue] 🍜 Add new Dialect Entry 529 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30685",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3438,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T18:01:04Z",
+    "updatedAt": "2026-09-21T18:01:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #30685 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Dialect Entry 529 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T21:20:36.701Z"
+  },
+  {
+    "id": "I_kwDOABQtLM8AAAABSahp8A",
+    "number": 5489,
+    "title": "feat: Automatic stub generation using nanobind stubgen",
+    "url": "https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/5489",
+    "repo": "AcademySoftwareFoundation/OpenImageIO",
+    "repoUrl": "https://github.com/AcademySoftwareFoundation/OpenImageIO",
+    "stars": 2370,
+    "language": "C++",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "python"
+    ],
+    "createdAt": "2026-09-21T18:11:43Z",
+    "updatedAt": "2026-09-21T18:11:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #5489 in AcademySoftwareFoundation/OpenImageIO: feat: Automatic stub generation using nanobind stubgen",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T21:20:34.120Z"
+  },
+  {
+    "id": "I_kwDOD7Kge88AAAABSavrpg",
+    "number": 1422,
+    "title": "Update the bibtex citation",
+    "url": "https://github.com/mlco2/codecarbon/issues/1422",
+    "repo": "mlco2/codecarbon",
+    "repoUrl": "https://github.com/mlco2/codecarbon",
+    "stars": 1920,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-21T18:35:13Z",
+    "updatedAt": "2026-09-21T18:35:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1422 in mlco2/codecarbon: Update the bibtex citation",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-21T21:20:30.859Z"
+  },
+  {
+    "id": "I_kwDOD7Kge88AAAABSawazw",
+    "number": 1423,
+    "title": "Update the screen shot of the dashboard",
+    "url": "https://github.com/mlco2/codecarbon/issues/1423",
+    "repo": "mlco2/codecarbon",
+    "repoUrl": "https://github.com/mlco2/codecarbon",
+    "stars": 1920,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-21T18:36:28Z",
+    "updatedAt": "2026-09-21T18:36:28Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1423 in mlco2/codecarbon: Update the screen shot of the dashboard",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-21T21:20:29.461Z"
+  },
+  {
+    "id": "I_kwDOCp03tM8AAAABSa1WuA",
+    "number": 6260,
+    "title": "Support InferenceService environment variables for storage-initializer authentication",
+    "url": "https://github.com/kserve/kserve/issues/6260",
+    "repo": "kserve/kserve",
+    "repoUrl": "https://github.com/kserve/kserve",
+    "stars": 5983,
+    "language": "Go",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-21T18:44:59Z",
+    "updatedAt": "2026-09-21T18:46:50Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./pkg/client/informers/externalversions/serving/v1alpha1",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "pkg/client/informers/externalversions/serving/v1alpha1/clusterstoragecontainer.go",
+      "pkg/client/informers/externalversions/serving/v1alpha1/llminferenceservice.go",
+      "pkg/client/informers/externalversions/serving/v1alpha2/llminferenceservice.go"
+    ],
+    "summary": "Fix issue #6260 in kserve/kserve: Support InferenceService environment variables for storage-initializer authentication",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-21T21:20:27.858Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSa_OVw",
+    "number": 30688,
+    "title": "[good first issue] 🎎 Add new Example Sentence 767 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30688",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3438,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T19:01:08Z",
+    "updatedAt": "2026-09-21T19:01:12Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #30688 in lingdojo/kana-dojo: [good first issue] 🎎 Add new Example Sentence 767 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T21:20:22.311Z"
+  },
+  {
+    "id": "I_kwDOJhfVJ88AAAABSbTPnQ",
+    "number": 1207,
+    "title": "[UI] Non friendly UI error upon destruction of keys",
+    "url": "https://github.com/Cosmian/kms/issues/1207",
+    "repo": "Cosmian/kms",
+    "repoUrl": "https://github.com/Cosmian/kms",
+    "stars": 358,
+    "language": "Rust",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "ui"
+    ],
+    "createdAt": "2026-09-21T19:33:29Z",
+    "updatedAt": "2026-09-21T19:33:29Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1207 in Cosmian/kms: [UI] Non friendly UI error upon destruction of keys",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-21T21:20:20.064Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSbVuNQ",
+    "number": 30690,
+    "title": "[good first issue] 🍁 Add new Learner Mistake 135 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30690",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3438,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T19:37:30Z",
+    "updatedAt": "2026-09-21T19:37:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #30690 in lingdojo/kana-dojo: [good first issue] 🍁 Add new Learner Mistake 135 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T21:20:16.388Z"
+  },
+  {
+    "id": "I_kwDOLYoI6c8AAAABSbfNcA",
+    "number": 9971,
+    "title": "Migrate every encoding from `OperationsVTable::scalar_at` to `probe_scalar`",
+    "url": "https://github.com/vortex-data/vortex/issues/9971",
+    "repo": "vortex-data/vortex",
+    "repoUrl": "https://github.com/vortex-data/vortex",
+    "stars": 3213,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-21T19:52:25Z",
+    "updatedAt": "2026-09-21T19:53:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test filter",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "encodings/alp/src/alp/compute/filter.rs",
+      "encodings/alp/src/alp/compute/slice.rs",
+      "encodings/alp/src/alp_rd/compute/filter.rs"
+    ],
+    "summary": "Fix issue #9971 in vortex-data/vortex: Migrate every encoding from `OperationsVTable::scalar_at` to `probe_scalar`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-21T21:20:14.255Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSbk1uQ",
+    "number": 30691,
+    "title": "[good first issue] 🍁 Add new Theme: Harbor Lanterns (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30691",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3438,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T20:01:11Z",
+    "updatedAt": "2026-09-21T20:01:14Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #30691 in lingdojo/kana-dojo: [good first issue] 🍁 Add new Theme: Harbor Lanterns (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T21:20:11.609Z"
+  },
+  {
+    "id": "I_kwDOEPrMSc8AAAABSbpdKg",
+    "number": 10954,
+    "title": "A380X/FMS: FUEL PLANNING button visibility",
+    "url": "https://github.com/flybywiresim/aircraft/issues/10954",
+    "repo": "flybywiresim/aircraft",
+    "repoUrl": "https://github.com/flybywiresim/aircraft",
+    "stars": 5409,
+    "language": "TypeScript",
+    "labels": [
+      "Bug",
+      "Good First Issue",
+      "A380X",
+      "MSFS2024",
+      "MSFS2020"
+    ],
+    "createdAt": "2026-09-21T20:08:30Z",
+    "updatedAt": "2026-09-21T20:08:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #10954 in flybywiresim/aircraft: A380X/FMS: FUEL PLANNING button visibility",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-21T21:20:09.155Z"
+  },
+  {
+    "id": "I_kwDOH2s9Qc8AAAABSbw6Pg",
+    "number": 781,
+    "title": "Backend should not abort when S3 object storage does not support PutBucketPolicy",
+    "url": "https://github.com/Smaug6739/Alexandrie/issues/781",
+    "repo": "Smaug6739/Alexandrie",
+    "repoUrl": "https://github.com/Smaug6739/Alexandrie",
+    "stars": 2763,
+    "language": "Vue",
+    "labels": [
+      "bug",
+      "good first issue",
+      "backend"
+    ],
+    "createdAt": "2026-09-21T20:20:53Z",
+    "updatedAt": "2026-09-21T20:36:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #781 in Smaug6739/Alexandrie: Backend should not abort when S3 object storage does not support PutBucketPolicy",
+    "maintainerTurnaroundDays": 6,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T21:19:47.438Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSb6qFw",
+    "number": 30692,
+    "title": "[good first issue] 🍙 Add new Japan Fact 2432 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30692",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3438,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T20:37:30Z",
+    "updatedAt": "2026-09-21T20:37:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #30692 in lingdojo/kana-dojo: [good first issue] 🍙 Add new Japan Fact 2432 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T21:19:43.558Z"
+  },
+  {
+    "id": "I_kwDOOXJxvc8AAAABScE-pQ",
+    "number": 982,
+    "title": "[BUG] Object detection class head is not re-initialized when the number of classes changes",
+    "url": "https://github.com/lightly-ai/lightly-train/issues/982",
+    "repo": "lightly-ai/lightly-train",
+    "repoUrl": "https://github.com/lightly-ai/lightly-train",
+    "stars": 1681,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "object-detection"
+    ],
+    "createdAt": "2026-09-21T20:56:10Z",
+    "updatedAt": "2026-09-21T20:57:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/lightly_train/_task_models/object_detection_components/hooks.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/lightly_train/_task_models/object_detection_components/hooks.py",
+      "src/lightly_train/_task_models/eomt/hooks.py"
+    ],
+    "summary": "Fix issue #982 in lightly-ai/lightly-train: [BUG] Object detection class head is not re-initialized when the number of classes changes",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T21:19:41.571Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABScH2qw",
+    "number": 30693,
+    "title": "[good first issue] 🎐 Add new Japanese Proverb 583 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30693",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3438,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T21:01:04Z",
+    "updatedAt": "2026-09-21T21:01:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30693 in lingdojo/kana-dojo: [good first issue] 🎐 Add new Japanese Proverb 583 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T21:19:39.503Z"
+  },
+  {
     "id": "I_kwDOOwsln88AAAABSWaefg",
     "number": 30667,
     "title": "[good first issue] 🍵 Add new Japanese Idiom 911 (good-first-issue)",
@@ -230,39 +697,6 @@
     "discoveredAt": "2026-09-21T17:19:47.368Z"
   },
   {
-    "id": "I_kwDOC6l-Ts8AAAABSY3J0w",
-    "number": 1500,
-    "title": "Prevent album share tokens from disclosing sibling share tokens",
-    "url": "https://github.com/photoview/photoview/issues/1500",
-    "repo": "photoview/photoview",
-    "repoUrl": "https://github.com/photoview/photoview",
-    "stars": 6533,
-    "language": "Go",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue",
-      "API",
-      "high priority",
-      "go",
-      "security"
-    ],
-    "createdAt": "2026-09-21T15:25:26Z",
-    "updatedAt": "2026-09-21T15:32:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./api/graphql/resolvers",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "api/graphql/resolvers/album.go"
-    ],
-    "summary": "Fix issue #1500 in photoview/photoview: Prevent album share tokens from disclosing sibling share tokens",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-21T17:19:45.544Z"
-  },
-  {
     "id": "I_kwDOAf6AbM8AAAABSY6U3Q",
     "number": 654,
     "title": "delete `.github/dependabot.yml`",
@@ -354,39 +788,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-21T17:19:40.421Z"
-  },
-  {
-    "id": "I_kwDOOXJxvc8AAAABSZlzUQ",
-    "number": 980,
-    "title": "[BUG] Weights-modifier aliases resolve to the wrong backbone: all six `-eupe-ltdetr` and both `-notpretrained-linear` (same bug class as #933)",
-    "url": "https://github.com/lightly-ai/lightly-train/issues/980",
-    "repo": "lightly-ai/lightly-train",
-    "repoUrl": "https://github.com/lightly-ai/lightly-train",
-    "stars": 1681,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "documentation",
-      "good first issue",
-      "help wanted",
-      "dinov3",
-      "object-detection"
-    ],
-    "createdAt": "2026-09-21T16:32:38Z",
-    "updatedAt": "2026-09-21T16:33:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest src/lightly_train/_task_models/ltdetr_object_detection/config.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/lightly_train/_task_models/ltdetr_object_detection/config.py",
-      "src/lightly_train/_task_models/linear_semantic_segmentation/config.py"
-    ],
-    "summary": "Fix issue #980 in lightly-ai/lightly-train: [BUG] Weights-modifier aliases resolve to the wrong backbone: all six `-eupe-ltdetr` and both `-notpretrained-linear` (same bug class as #933)",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-21T17:19:30.545Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSZo2Cw",
@@ -4203,400 +4604,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-13T10:45:19.376Z"
-  },
-  {
-    "id": "I_kwDOAf6AbM8AAAABRDSe6A",
-    "number": 603,
-    "title": "run `may_dangle` benchmarks on v2",
-    "url": "https://github.com/servo/rust-smallvec/issues/603",
-    "repo": "servo/rust-smallvec",
-    "repoUrl": "https://github.com/servo/rust-smallvec",
-    "stars": 1728,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "p-high",
-      "r-performance"
-    ],
-    "createdAt": "2026-09-13T09:27:20Z",
-    "updatedAt": "2026-09-13T09:42:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #603 in servo/rust-smallvec: run `may_dangle` benchmarks on v2",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "v2",
-    "discoveredAt": "2026-09-13T10:45:07.122Z"
-  },
-  {
-    "id": "I_kwDOB11tyM8AAAABRBPq3w",
-    "number": 4340,
-    "title": "\"Show time remaining with reference to playback speed\" -option stopped working🐞",
-    "url": "https://github.com/code-charity/youtube/issues/4340",
-    "repo": "code-charity/youtube",
-    "repoUrl": "https://github.com/code-charity/youtube",
-    "stars": 4577,
-    "language": "JavaScript",
-    "labels": [
-      "Bug",
-      "help wanted",
-      "good first issue",
-      "up-for-grabs"
-    ],
-    "createdAt": "2026-09-13T00:52:52Z",
-    "updatedAt": "2026-09-13T01:43:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #4340 in code-charity/youtube: \"Show time remaining with reference to playback speed\" -option stopped working🐞",
-    "maintainerTurnaroundDays": 0.6,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-13T01:46:38.389Z"
-  },
-  {
-    "id": "I_kwDODFlWBc8AAAABQ_hTGg",
-    "number": 1255,
-    "title": "Align `DropGuard` API with upstream Rust",
-    "url": "https://github.com/Rust-for-Linux/linux/issues/1255",
-    "repo": "Rust-for-Linux/linux",
-    "repoUrl": "https://github.com/Rust-for-Linux/linux",
-    "stars": 4406,
-    "language": "C",
-    "labels": [
-      "• lib",
-      "good first issue",
-      "medium"
-    ],
-    "createdAt": "2026-09-12T18:47:04Z",
-    "updatedAt": "2026-09-12T18:47:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1255 in Rust-for-Linux/linux: Align `DropGuard` API with upstream Rust",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "rust-next",
-    "discoveredAt": "2026-09-12T19:48:29.529Z"
-  },
-  {
-    "id": "I_kwDOBavIOM8AAAABQ9tm3Q",
-    "number": 2557,
-    "title": "[DISCUSSION] small increase in memory usage after AWS SDK v2",
-    "url": "https://github.com/wal-g/wal-g/issues/2557",
-    "repo": "wal-g/wal-g",
-    "repoUrl": "https://github.com/wal-g/wal-g",
-    "stars": 4247,
-    "language": "Go",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-12T12:57:58Z",
-    "updatedAt": "2026-09-12T13:46:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2557 in wal-g/wal-g: [DISCUSSION] small increase in memory usage after AWS SDK v2",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-12T14:32:46.185Z"
-  },
-  {
-    "id": "I_kwDORz_b288AAAABQ7meLw",
-    "number": 1099,
-    "title": "feat(audio): fill the conversion preset matrix; opus-to-* is missing entirely and mp3 only converts to wav",
-    "url": "https://github.com/snapotter-hq/SnapOtter/issues/1099",
-    "repo": "snapotter-hq/SnapOtter",
-    "repoUrl": "https://github.com/snapotter-hq/SnapOtter",
-    "stars": 2636,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "area: backend",
-      "community-request"
-    ],
-    "createdAt": "2026-09-12T04:46:12Z",
-    "updatedAt": "2026-09-12T04:46:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/shared/src/modality.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/shared/src/modality.ts",
-      "packages/shared/src/conversion-presets.ts",
-      "apps/landing/src/data/tool-seo.ts"
-    ],
-    "summary": "Fix issue #1099 in snapotter-hq/SnapOtter: feat(audio): fill the conversion preset matrix; opus-to-* is missing entirely and mp3 only converts to wav",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-12T09:43:28.230Z"
-  },
-  {
-    "id": "I_kwDOQ_KVhM8AAAABQ0ring",
-    "number": 3980,
-    "title": "contains_unattestable_construct classifies heredocs as file-target redirects, so the /dev/null exemption misfires on << /dev/null",
-    "url": "https://github.com/rtk-ai/rtk/issues/3980",
-    "repo": "rtk-ai/rtk",
-    "repoUrl": "https://github.com/rtk-ai/rtk",
-    "stars": 79949,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue",
-      "priority:medium",
-      "area:security"
-    ],
-    "createdAt": "2026-09-11T11:49:49Z",
-    "updatedAt": "2026-09-11T12:44:40Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3980 in rtk-ai/rtk: contains_unattestable_construct classifies heredocs as file-target redirects, so the /dev/null exemption misfires on << /dev/null",
-    "maintainerTurnaroundDays": 2,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-11T15:25:07.179Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQzNQBw",
-    "number": 3094,
-    "title": "Add malformed PDF and DICOM headers to multimodal preflight fixtures",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3094",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5298,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "improvement",
-      "P2",
-      "roadmap-v3"
-    ],
-    "createdAt": "2026-09-11T08:58:12Z",
-    "updatedAt": "2026-09-11T08:58:13Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3094 in maziyarpanahi/openmed: Add malformed PDF and DICOM headers to multimodal preflight fixtures",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:34.286Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQzNQeQ",
-    "number": 3095,
-    "title": "Render a multimodal provider capability compatibility matrix",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3095",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5298,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "feature",
-      "P2",
-      "roadmap-v3"
-    ],
-    "createdAt": "2026-09-11T08:58:13Z",
-    "updatedAt": "2026-09-11T08:58:13Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3095 in maziyarpanahi/openmed: Render a multimodal provider capability compatibility matrix",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:28.428Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQzNRZg",
-    "number": 3097,
-    "title": "Summarize privacy-budget consumption without site identifiers",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3097",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5298,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "feature",
-      "P2",
-      "roadmap-v3"
-    ],
-    "createdAt": "2026-09-11T08:58:15Z",
-    "updatedAt": "2026-09-11T08:58:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3097 in maziyarpanahi/openmed: Summarize privacy-budget consumption without site identifiers",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:24.945Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQzNTMw",
-    "number": 3100,
-    "title": "Render a clinical language-pack readiness matrix",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3100",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5298,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "feature",
-      "P2",
-      "roadmap-v3"
-    ],
-    "createdAt": "2026-09-11T08:58:17Z",
-    "updatedAt": "2026-09-11T08:58:18Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3100 in maziyarpanahi/openmed: Render a clinical language-pack readiness matrix",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:21.819Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQzNT0w",
-    "number": 3101,
-    "title": "Diff clinical language-pack coverage manifests across releases",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3101",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5298,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "feature",
-      "P2",
-      "roadmap-v3"
-    ],
-    "createdAt": "2026-09-11T08:58:18Z",
-    "updatedAt": "2026-09-11T08:58:18Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3101 in maziyarpanahi/openmed: Diff clinical language-pack coverage manifests across releases",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:18.598Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQzNUWA",
-    "number": 3102,
-    "title": "Generate deterministic synthetic federation metadata fixtures",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3102",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5298,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "improvement",
-      "P2",
-      "roadmap-v3"
-    ],
-    "createdAt": "2026-09-11T08:58:19Z",
-    "updatedAt": "2026-09-11T08:58:19Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3102 in maziyarpanahi/openmed: Generate deterministic synthetic federation metadata fixtures",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:15.157Z"
-  },
-  {
-    "id": "I_kwDOP8M_rs8AAAABQzNU4g",
-    "number": 3103,
-    "title": "Add an offline locale-pack conformance CLI",
-    "url": "https://github.com/maziyarpanahi/openmed/issues/3103",
-    "repo": "maziyarpanahi/openmed",
-    "repoUrl": "https://github.com/maziyarpanahi/openmed",
-    "stars": 5298,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "feature",
-      "P2",
-      "roadmap-v3"
-    ],
-    "createdAt": "2026-09-11T08:58:20Z",
-    "updatedAt": "2026-09-11T08:58:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3103 in maziyarpanahi/openmed: Add an offline locale-pack conformance CLI",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-11T10:08:11.994Z"
   }
 ]
