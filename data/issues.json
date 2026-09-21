@@ -60,6 +60,493 @@
     "discoveredAt": "2026-09-20T15:00:51.123Z"
   },
   {
+    "id": "I_kwDOPc1QR88AAAABSTYjcA",
+    "number": 62320,
+    "title": "[Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
+    "url": "https://github.com/github/gh-aw/issues/62320",
+    "repo": "github/gh-aw",
+    "repoUrl": "https://github.com/github/gh-aw",
+    "stars": 5162,
+    "language": "Go",
+    "labels": [
+      "safe-outputs",
+      "good-first-issue",
+      "automated",
+      "conformance"
+    ],
+    "createdAt": "2026-09-21T05:49:00Z",
+    "updatedAt": "2026-09-21T05:49:00Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #62320 in github/gh-aw: [Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:19:58.681Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSTdcyA",
+    "number": 30648,
+    "title": "[good first issue] 🍵 Add new Japanese Idiom 1133 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30648",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3435,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T06:01:06Z",
+    "updatedAt": "2026-09-21T06:01:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #30648 in lingdojo/kana-dojo: [good first issue] 🍵 Add new Japanese Idiom 1133 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:19:46.797Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSTvSIg",
+    "number": 30649,
+    "title": "[good first issue] 🐙 Add new Dialect Entry 442 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30649",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3435,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T06:37:30Z",
+    "updatedAt": "2026-09-21T06:37:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #30649 in lingdojo/kana-dojo: [good first issue] 🐙 Add new Dialect Entry 442 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:19:45.456Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABST6H8A",
+    "number": 30652,
+    "title": "[good first issue] 🗻 Add new False Friend Pair 1125 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30652",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3435,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T07:01:03Z",
+    "updatedAt": "2026-09-21T07:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #30652 in lingdojo/kana-dojo: [good first issue] 🗻 Add new False Friend Pair 1125 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:19:44.117Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSUtwQA",
+    "number": 30658,
+    "title": "[good first issue] 🦑 Add new Learner Mistake 587 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30658",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3435,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T08:37:30Z",
+    "updatedAt": "2026-09-21T08:37:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #30658 in lingdojo/kana-dojo: [good first issue] 🦑 Add new Learner Mistake 587 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:19:42.710Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSU7lIA",
+    "number": 30659,
+    "title": "[good first issue] 🎎 Add new Theme: Tea Ceremony (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30659",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3435,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T09:01:03Z",
+    "updatedAt": "2026-09-21T09:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #30659 in lingdojo/kana-dojo: [good first issue] 🎎 Add new Theme: Tea Ceremony (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:19:41.374Z"
+  },
+  {
+    "id": "I_kwDOP_PbPc8AAAABSVOczQ",
+    "number": 4837,
+    "title": "Harness auto-commit messages are not path-aware: generic chore subjects misattribute interleaved charter/doctrine work",
+    "url": "https://github.com/spec-kitty/spec-kitty/issues/4837",
+    "repo": "spec-kitty/spec-kitty",
+    "repoUrl": "https://github.com/spec-kitty/spec-kitty",
+    "stars": 1637,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "domain:git",
+      "priority:P3",
+      "usability",
+      "catfooding"
+    ],
+    "createdAt": "2026-09-21T09:30:20Z",
+    "updatedAt": "2026-09-21T10:11:26Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/specify_cli/coordination/transaction.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/specify_cli/coordination/transaction.py",
+      "src/specify_cli/invocation/executor.py"
+    ],
+    "summary": "Fix issue #4837 in spec-kitty/spec-kitty: Harness auto-commit messages are not path-aware: generic chore subjects misattribute interleaved charter/doctrine work",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:19:39.937Z"
+  },
+  {
+    "id": "I_kwDOQr3Tmc8AAAABSVOlAA",
+    "number": 1559,
+    "title": "No automated check that a new ProviderNameSchema member gets every mandatory touch point",
+    "url": "https://github.com/desplega-ai/agent-swarm/issues/1559",
+    "repo": "desplega-ai/agent-swarm",
+    "repoUrl": "https://github.com/desplega-ai/agent-swarm",
+    "stars": 817,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-21T09:30:32Z",
+    "updatedAt": "2026-09-21T09:30:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test src/types.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/types.ts",
+      "src/providers/index.ts",
+      "src/commands/provider-credentials.ts"
+    ],
+    "summary": "Fix issue #1559 in desplega-ai/agent-swarm: No automated check that a new ProviderNameSchema member gets every mandatory touch point",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:19:30.131Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSVhBYg",
+    "number": 30664,
+    "title": "[good first issue] 🎋 Add new Japanese Proverb 1637 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30664",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3435,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T10:01:02Z",
+    "updatedAt": "2026-09-21T10:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30664 in lingdojo/kana-dojo: [good first issue] 🎋 Add new Japanese Proverb 1637 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:19:27.428Z"
+  },
+  {
+    "id": "I_kwDODSospM8AAAABSVrfXg",
+    "number": 19026,
+    "title": "test.describe.serial stops 35 unit specs at their first failure",
+    "url": "https://github.com/neomjs/neo/issues/19026",
+    "repo": "neomjs/neo",
+    "repoUrl": "https://github.com/neomjs/neo",
+    "stars": 3281,
+    "language": "JavaScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "ai",
+      "testing"
+    ],
+    "createdAt": "2026-09-21T10:18:09Z",
+    "updatedAt": "2026-09-21T10:18:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #19026 in neomjs/neo: test.describe.serial stops 35 unit specs at their first failure",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-21T11:19:26.086Z"
+  },
+  {
+    "id": "I_kwDOEPrMSc8AAAABSV1mGw",
+    "number": 10950,
+    "title": "A32NX/FMS: Wrong maximum allowed cruise flight level",
+    "url": "https://github.com/flybywiresim/aircraft/issues/10950",
+    "repo": "flybywiresim/aircraft",
+    "repoUrl": "https://github.com/flybywiresim/aircraft",
+    "stars": 5408,
+    "language": "TypeScript",
+    "labels": [
+      "Bug",
+      "Good First Issue",
+      "A32NX",
+      "MSFS2024",
+      "MSFS2020"
+    ],
+    "createdAt": "2026-09-21T10:35:26Z",
+    "updatedAt": "2026-09-21T10:43:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #10950 in flybywiresim/aircraft: A32NX/FMS: Wrong maximum allowed cruise flight level",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-21T11:19:15.426Z"
+  },
+  {
+    "id": "I_kwDOEPrMSc8AAAABSV2uzA",
+    "number": 10951,
+    "title": "A32NX/FMS: Wrong maximum allowed altitude constraint",
+    "url": "https://github.com/flybywiresim/aircraft/issues/10951",
+    "repo": "flybywiresim/aircraft",
+    "repoUrl": "https://github.com/flybywiresim/aircraft",
+    "stars": 5408,
+    "language": "TypeScript",
+    "labels": [
+      "Bug",
+      "Good First Issue",
+      "A32NX",
+      "MSFS2024",
+      "MSFS2020"
+    ],
+    "createdAt": "2026-09-21T10:37:07Z",
+    "updatedAt": "2026-09-21T10:43:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #10951 in flybywiresim/aircraft: A32NX/FMS: Wrong maximum allowed altitude constraint",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-21T11:18:53.970Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSV3Dgg",
+    "number": 30665,
+    "title": "[good first issue] 🥢 Add new Anime Quote 927 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30665",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3435,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T10:37:36Z",
+    "updatedAt": "2026-09-21T10:37:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #30665 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Anime Quote 927 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:18:32.920Z"
+  },
+  {
+    "id": "I_kwDOEPrMSc8AAAABSV6XYw",
+    "number": 10952,
+    "title": "A32NX/FMS: Wrong maximum allowed thrust reduction, acceleration and engine out acceleration",
+    "url": "https://github.com/flybywiresim/aircraft/issues/10952",
+    "repo": "flybywiresim/aircraft",
+    "repoUrl": "https://github.com/flybywiresim/aircraft",
+    "stars": 5408,
+    "language": "TypeScript",
+    "labels": [
+      "Bug",
+      "Good First Issue",
+      "A32NX",
+      "MSFS2024",
+      "MSFS2020"
+    ],
+    "createdAt": "2026-09-21T10:42:51Z",
+    "updatedAt": "2026-09-21T10:42:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #10952 in flybywiresim/aircraft: A32NX/FMS: Wrong maximum allowed thrust reduction, acceleration and engine out acceleration",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-21T11:18:31.532Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSWFF5w",
+    "number": 30666,
+    "title": "[good first issue] 🎐 Add new Video Game Quote 522 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30666",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3435,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-21T11:01:04Z",
+    "updatedAt": "2026-09-21T11:01:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #30666 in lingdojo/kana-dojo: [good first issue] 🎐 Add new Video Game Quote 522 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-21T11:18:10.531Z"
+  },
+  {
     "id": "I_kwDOOwsln88AAAABSQbL_A",
     "number": 30628,
     "title": "[good first issue] 🍘 Add new Theme: Citrus Shrine (good-first-issue)",
@@ -754,33 +1241,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-20T19:54:59.522Z"
-  },
-  {
-    "id": "I_kwDOAHXAE88AAAABSQHImg",
-    "number": 21942,
-    "title": "Incorrect test: `copyNoteCopiesDeckId`",
-    "url": "https://github.com/ankidroid/Anki-Android/issues/21942",
-    "repo": "ankidroid/Anki-Android",
-    "repoUrl": "https://github.com/ankidroid/Anki-Android",
-    "stars": 11824,
-    "language": "Kotlin",
-    "labels": [
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-20T18:58:58Z",
-    "updatedAt": "2026-09-20T19:04:16Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #21942 in ankidroid/Anki-Android: Incorrect test: `copyNoteCopiesDeckId`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T19:54:57.206Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSQTm3g",
@@ -1610,37 +2070,6 @@
     "discoveredAt": "2026-09-19T19:43:13.633Z"
   },
   {
-    "id": "I_kwDOQy5Vl88AAAABSJVCiA",
-    "number": 276,
-    "title": "init-session.ps1 reports the plan as attested even when the attester failed",
-    "url": "https://github.com/OthmanAdi/planning-with-files/issues/276",
-    "repo": "OthmanAdi/planning-with-files",
-    "repoUrl": "https://github.com/OthmanAdi/planning-with-files",
-    "stars": 26993,
-    "language": "Shell",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T18:39:11Z",
-    "updatedAt": "2026-09-19T18:39:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "scripts/session-catchup.py",
-      "skills/i18n/planning-with-files-ar/scripts/session-catchup.py",
-      "skills/i18n/planning-with-files-de/scripts/session-catchup.py"
-    ],
-    "summary": "Fix issue #276 in OthmanAdi/planning-with-files: init-session.ps1 reports the plan as attested even when the attester failed",
-    "maintainerTurnaroundDays": 0.6,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-19T19:43:12.075Z"
-  },
-  {
     "id": "I_kwDOSP_2Ts8AAAABSJd3UA",
     "number": 1892,
     "title": "站点把自己的安装页藏起来了：首页与导航都不链接 /install",
@@ -1707,38 +2136,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T19:43:05.979Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABSHu4dw",
-    "number": 10769,
-    "title": "[Refactor♻️] Remove the four redundant unwraps from the getAcl table renderer",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10769",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "refactor♻️",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-tools crate"
-    ],
-    "createdAt": "2026-09-19T14:52:12Z",
-    "updatedAt": "2026-09-19T14:52:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test get_acl_sub_command",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-cli/src/commands/auth/get_acl_sub_command.rs"
-    ],
-    "summary": "Fix issue #10769 in mxsm/rocketmq-rust: [Refactor♻️] Remove the four redundant unwraps from the getAcl table renderer",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:59:01.501Z"
   },
   {
     "id": "I_kwDOK5M3Is8AAAABSHu5yQ",
@@ -1837,72 +2234,6 @@
     "discoveredAt": "2026-09-19T14:58:47.820Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABSHu9Ng",
-    "number": 10773,
-    "title": "[Test🧪] Cover the AdminBuilder defaults and its Debug redaction",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10773",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "testing🧪",
-      "rocketmq-tools crate"
-    ],
-    "createdAt": "2026-09-19T14:52:23Z",
-    "updatedAt": "2026-09-19T14:52:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test admin",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/core/admin.rs"
-    ],
-    "summary": "Fix issue #10773 in mxsm/rocketmq-rust: [Test🧪] Cover the AdminBuilder defaults and its Debug redaction",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:58:43.286Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABSHu_JQ",
-    "number": 10774,
-    "title": "[Doc📝] Correct the module examples in the NameServer and Topic service adapters",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10774",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "documentation📝",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-tools crate"
-    ],
-    "createdAt": "2026-09-19T14:52:27Z",
-    "updatedAt": "2026-09-19T14:52:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test namesrv",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/client_adapter/services/namesrv.rs",
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/client_adapter/services/topic.rs",
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-cli/src/commands/topic/allocate_mq_sub_command.rs"
-    ],
-    "summary": "Fix issue #10774 in mxsm/rocketmq-rust: [Doc📝] Correct the module examples in the NameServer and Topic service adapters",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:58:38.734Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABSHvCMA",
     "number": 10777,
     "title": "[Doc📝] Document the public fallible API of rocketmq-admin-tui",
@@ -1969,73 +2300,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T14:58:15.908Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABSHvIoA",
-    "number": 10782,
-    "title": "[Doc📝] Add crate-level documentation and # Errors sections to rocketmq-store-inspect",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10782",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "documentation📝",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "rocketmq-tools crate"
-    ],
-    "createdAt": "2026-09-19T14:52:51Z",
-    "updatedAt": "2026-09-19T14:52:51Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test lib",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-store-inspect/src/lib.rs",
-      "rocketmq-tools/rocketmq-store-inspect/src/content_show.rs",
-      "rocketmq-tools/rocketmq-store-inspect/src/multipath_consolidate.rs"
-    ],
-    "summary": "Fix issue #10782 in mxsm/rocketmq-rust: [Doc📝] Add crate-level documentation and # Errors sections to rocketmq-store-inspect",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:58:02.031Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABSHvJ0g",
-    "number": 10783,
-    "title": "[Test🧪] Add unit tests for parse_offset, parse_target_major, and split_paths",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10783",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "testing🧪",
-      "rocketmq-tools crate"
-    ],
-    "createdAt": "2026-09-19T14:52:54Z",
-    "updatedAt": "2026-09-19T14:52:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test multipath_consolidate",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-store-inspect/src/multipath_consolidate.rs",
-      "rocketmq-tools/rocketmq-store-inspect/src/downgrade_preflight.rs"
-    ],
-    "summary": "Fix issue #10783 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for parse_offset, parse_target_major, and split_paths",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:57:57.430Z"
   },
   {
     "id": "I_kwDOTX8R288AAAABSFZOGA",
@@ -2178,126 +2442,6 @@
     "maintainerTurnaroundDays": 0.7,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T09:52:07.735Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSF4HzA",
-    "number": 3762,
-    "title": "a page for adding memory to Senpi",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3762",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 855,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T09:28:24Z",
-    "updatedAt": "2026-09-19T09:28:24Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./docs/guide",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/guide/memory-for-openclaw.html",
-      "docs/registry/senpi.html",
-      "docs/guide/harnesses.html"
-    ],
-    "summary": "Fix issue #3762 in vshulcz/deja-vu: a page for adding memory to Senpi",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:07.114Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSF4KjA",
-    "number": 3763,
-    "title": "a page for adding memory to ZCode, whose two stores do not know about each other",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3763",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 855,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T09:28:35Z",
-    "updatedAt": "2026-09-19T09:28:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "go test -v ./docs/registry",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/registry/zcode.html",
-      "docs/guide/memory-for-kilocode.html",
-      "docs/guide/harnesses.html"
-    ],
-    "summary": "Fix issue #3763 in vshulcz/deja-vu: a page for adding memory to ZCode, whose two stores do not know about each other",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:05.811Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSF4NQA",
-    "number": 3764,
-    "title": "pages for Kimchi Coding and Command Code, which landed without one",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3764",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 855,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T09:28:45Z",
-    "updatedAt": "2026-09-19T09:28:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./docs/registry",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/registry/kimchi.html",
-      "docs/registry/commandcode.html",
-      "docs/guide/memory-for-crush.html"
-    ],
-    "summary": "Fix issue #3764 in vshulcz/deja-vu: pages for Kimchi Coding and Command Code, which landed without one",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:04.470Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSF6ESA",
-    "number": 3767,
-    "title": "pages for aider and Antigravity, the two extremes",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3767",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 855,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T09:36:19Z",
-    "updatedAt": "2026-09-19T09:36:19Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./docs/registry",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/registry/aider.html",
-      "docs/registry/antigravity.html",
-      "docs/guide/memory-for-pi.html"
-    ],
-    "summary": "Fix issue #3767 in vshulcz/deja-vu: pages for aider and Antigravity, the two extremes",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:00.676Z"
   },
   {
     "id": "I_kwDOQuAx5c8AAAABSCcE0A",
@@ -2508,39 +2652,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T01:59:54.784Z"
-  },
-  {
-    "id": "I_kwDOS3TU6c8AAAABSDw8Qg",
-    "number": 1001,
-    "title": "[agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name",
-    "url": "https://github.com/reticlehq/reticle/issues/1001",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 728,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported",
-      "area/server"
-    ],
-    "createdAt": "2026-09-19T01:36:20Z",
-    "updatedAt": "2026-09-19T01:36:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test adapters/realm/browser/src/actions/actions.danger-context.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "adapters/realm/browser/src/actions/actions.danger-context.test.ts",
-      "adapters/realm/browser/src/actions/appeared-text.test.ts",
-      "adapters/realm/browser/src/actions/appeared-text.ts"
-    ],
-    "summary": "Fix issue #1001 in reticlehq/reticle: [agent] The predicate grammar is still learned by provoking parse errors, in four places the error text does not name",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T01:59:50.050Z"
   },
   {
     "id": "I_kwDOFNYjbs8AAAABSAPdVQ",
@@ -4460,91 +4571,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-11T01:49:15.048Z"
-  },
-  {
-    "id": "I_kwDOJPu3QM8AAAABQwJQ6w",
-    "number": 7672,
-    "title": "[Balance] Update No Retreat to match Champions change",
-    "url": "https://github.com/pagefaultgames/pokerogue/issues/7672",
-    "repo": "pagefaultgames/pokerogue",
-    "repoUrl": "https://github.com/pagefaultgames/pokerogue",
-    "stars": 5835,
-    "language": "TypeScript",
-    "labels": [
-      "Game Balance",
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-11T01:26:00Z",
-    "updatedAt": "2026-09-11T01:26:00Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #7672 in pagefaultgames/pokerogue: [Balance] Update No Retreat to match Champions change",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "beta",
-    "discoveredAt": "2026-09-11T01:48:44.783Z"
-  },
-  {
-    "id": "I_kwDOQn2lnM8AAAABQq5SeQ",
-    "number": 229,
-    "title": "Tamcpp 的下一步",
-    "url": "https://github.com/Awesome-Embedded-Learning-Studio/Tutorial_AwesomeModernCPP/issues/229",
-    "repo": "Awesome-Embedded-Learning-Studio/Tutorial_AwesomeModernCPP",
-    "repoUrl": "https://github.com/Awesome-Embedded-Learning-Studio/Tutorial_AwesomeModernCPP",
-    "stars": 273,
-    "language": "C++",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "feature"
-    ],
-    "createdAt": "2026-09-10T14:48:27Z",
-    "updatedAt": "2026-09-10T15:47:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #229 in Awesome-Embedded-Learning-Studio/Tutorial_AwesomeModernCPP: Tamcpp 的下一步",
-    "maintainerTurnaroundDays": 0.5,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-10T20:11:38.870Z"
-  },
-  {
-    "id": "I_kwDOJYgLB88AAAABQi1Vdw",
-    "number": 2,
-    "title": "Add a small let/var example to the data types page",
-    "url": "https://github.com/asimcanyagiz/Swift-Roadmap/issues/2",
-    "repo": "asimcanyagiz/Swift-Roadmap",
-    "repoUrl": "https://github.com/asimcanyagiz/Swift-Roadmap",
-    "stars": 228,
-    "language": null,
-    "labels": [
-      "documentation",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-09T22:05:46Z",
-    "updatedAt": "2026-09-09T22:05:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2 in asimcanyagiz/Swift-Roadmap: Add a small let/var example to the data types page",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-10T01:50:07.625Z"
   }
 ]

@@ -5,7 +5,7 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2026 02:04:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 11:19:58 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[ONEARMY/community-platform] #4905 [UI Migration] DownloadCounter (Solvability: 8/10)</title>
@@ -44,6 +44,325 @@
       <category>Help wanted</category>
       <category>Difficulty: Easy</category>
       <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[github/gh-aw] #62320 [Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes (Solvability: 6/10)</title>
+      <link>https://github.com/github/gh-aw/issues/62320</link>
+      <guid isPermaLink="true">https://github.com/github/gh-aw/issues/62320</guid>
+      <pubDate>Mon, 21 Sep 2026 05:49:00 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/github/gh-aw">github/gh-aw</a> (5162 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #62320 in github/gh-aw: [Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/github/gh-aw/issues/62320">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>safe-outputs</category>
+      <category>good-first-issue</category>
+      <category>automated</category>
+      <category>conformance</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30648 [good first issue] 🍵 Add new Japanese Idiom 1133 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30648</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30648</guid>
+      <pubDate>Mon, 21 Sep 2026 06:01:06 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3435 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30648 in lingdojo/kana-dojo: [good first issue] 🍵 Add new Japanese Idiom 1133 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30648">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30649 [good first issue] 🐙 Add new Dialect Entry 442 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30649</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30649</guid>
+      <pubDate>Mon, 21 Sep 2026 06:37:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3435 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30649 in lingdojo/kana-dojo: [good first issue] 🐙 Add new Dialect Entry 442 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-regional-dialects.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30649">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30652 [good first issue] 🗻 Add new False Friend Pair 1125 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30652</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30652</guid>
+      <pubDate>Mon, 21 Sep 2026 07:01:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3435 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30652 in lingdojo/kana-dojo: [good first issue] 🗻 Add new False Friend Pair 1125 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30652">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30658 [good first issue] 🦑 Add new Learner Mistake 587 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30658</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30658</guid>
+      <pubDate>Mon, 21 Sep 2026 08:37:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3435 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30658 in lingdojo/kana-dojo: [good first issue] 🦑 Add new Learner Mistake 587 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-common-mistakes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30658">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30659 [good first issue] 🎎 Add new Theme: Tea Ceremony (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30659</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30659</guid>
+      <pubDate>Mon, 21 Sep 2026 09:01:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3435 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30659 in lingdojo/kana-dojo: [good first issue] 🎎 Add new Theme: Tea Ceremony (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/community-themes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30659">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[spec-kitty/spec-kitty] #4837 Harness auto-commit messages are not path-aware: generic chore subjects misattribute interleaved charter/doctrine work (Solvability: 6/10)</title>
+      <link>https://github.com/spec-kitty/spec-kitty/issues/4837</link>
+      <guid isPermaLink="true">https://github.com/spec-kitty/spec-kitty/issues/4837</guid>
+      <pubDate>Mon, 21 Sep 2026 09:30:20 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/spec-kitty/spec-kitty">spec-kitty/spec-kitty</a> (1637 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4837 in spec-kitty/spec-kitty: Harness auto-commit messages are not path-aware: generic chore subjects misattribute interleaved charter/doctrine work</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/specify_cli/coordination/transaction.py</code></p>
+<p><a href="https://github.com/spec-kitty/spec-kitty/issues/4837">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>domain:git</category>
+      <category>priority:P3</category>
+      <category>usability</category>
+      <category>catfooding</category>
+    </item>
+    <item>
+      <title>[desplega-ai/agent-swarm] #1559 No automated check that a new ProviderNameSchema member gets every mandatory touch point (Solvability: 6/10)</title>
+      <link>https://github.com/desplega-ai/agent-swarm/issues/1559</link>
+      <guid isPermaLink="true">https://github.com/desplega-ai/agent-swarm/issues/1559</guid>
+      <pubDate>Mon, 21 Sep 2026 09:30:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/desplega-ai/agent-swarm">desplega-ai/agent-swarm</a> (817 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1559 in desplega-ai/agent-swarm: No automated check that a new ProviderNameSchema member gets every mandatory touch point</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test src/types.ts</code></p>
+<p><a href="https://github.com/desplega-ai/agent-swarm/issues/1559">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30664 [good first issue] 🎋 Add new Japanese Proverb 1637 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30664</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30664</guid>
+      <pubDate>Mon, 21 Sep 2026 10:01:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3435 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30664 in lingdojo/kana-dojo: [good first issue] 🎋 Add new Japanese Proverb 1637 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-proverbs.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30664">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[neomjs/neo] #19026 test.describe.serial stops 35 unit specs at their first failure (Solvability: 6/10)</title>
+      <link>https://github.com/neomjs/neo/issues/19026</link>
+      <guid isPermaLink="true">https://github.com/neomjs/neo/issues/19026</guid>
+      <pubDate>Mon, 21 Sep 2026 10:18:09 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/neomjs/neo">neomjs/neo</a> (3281 ⭐, JavaScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #19026 in neomjs/neo: test.describe.serial stops 35 unit specs at their first failure</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/neomjs/neo/issues/19026">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>JavaScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>ai</category>
+      <category>testing</category>
+    </item>
+    <item>
+      <title>[flybywiresim/aircraft] #10950 A32NX/FMS: Wrong maximum allowed cruise flight level (Solvability: 6/10)</title>
+      <link>https://github.com/flybywiresim/aircraft/issues/10950</link>
+      <guid isPermaLink="true">https://github.com/flybywiresim/aircraft/issues/10950</guid>
+      <pubDate>Mon, 21 Sep 2026 10:35:26 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/flybywiresim/aircraft">flybywiresim/aircraft</a> (5408 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10950 in flybywiresim/aircraft: A32NX/FMS: Wrong maximum allowed cruise flight level</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/flybywiresim/aircraft/issues/10950">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Bug</category>
+      <category>Good First Issue</category>
+      <category>A32NX</category>
+      <category>MSFS2024</category>
+      <category>MSFS2020</category>
+    </item>
+    <item>
+      <title>[flybywiresim/aircraft] #10951 A32NX/FMS: Wrong maximum allowed altitude constraint (Solvability: 6/10)</title>
+      <link>https://github.com/flybywiresim/aircraft/issues/10951</link>
+      <guid isPermaLink="true">https://github.com/flybywiresim/aircraft/issues/10951</guid>
+      <pubDate>Mon, 21 Sep 2026 10:37:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/flybywiresim/aircraft">flybywiresim/aircraft</a> (5408 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10951 in flybywiresim/aircraft: A32NX/FMS: Wrong maximum allowed altitude constraint</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/flybywiresim/aircraft/issues/10951">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Bug</category>
+      <category>Good First Issue</category>
+      <category>A32NX</category>
+      <category>MSFS2024</category>
+      <category>MSFS2020</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30665 [good first issue] 🥢 Add new Anime Quote 927 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30665</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30665</guid>
+      <pubDate>Mon, 21 Sep 2026 10:37:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3435 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30665 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Anime Quote 927 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/anime-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30665">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[flybywiresim/aircraft] #10952 A32NX/FMS: Wrong maximum allowed thrust reduction, acceleration and engine out acceleration (Solvability: 6/10)</title>
+      <link>https://github.com/flybywiresim/aircraft/issues/10952</link>
+      <guid isPermaLink="true">https://github.com/flybywiresim/aircraft/issues/10952</guid>
+      <pubDate>Mon, 21 Sep 2026 10:42:51 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/flybywiresim/aircraft">flybywiresim/aircraft</a> (5408 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #10952 in flybywiresim/aircraft: A32NX/FMS: Wrong maximum allowed thrust reduction, acceleration and engine out acceleration</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/flybywiresim/aircraft/issues/10952">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Bug</category>
+      <category>Good First Issue</category>
+      <category>A32NX</category>
+      <category>MSFS2024</category>
+      <category>MSFS2020</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30666 [good first issue] 🎐 Add new Video Game Quote 522 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30666</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30666</guid>
+      <pubDate>Mon, 21 Sep 2026 11:01:04 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3435 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30666 in lingdojo/kana-dojo: [good first issue] 🎐 Add new Video Game Quote 522 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-videogame-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30666">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #30628 [good first issue] 🍘 Add new Theme: Citrus Shrine (good-first-issue) (Solvability: 6/10)</title>
@@ -507,22 +826,6 @@
       <category>good-first-issue</category>
     </item>
     <item>
-      <title>[ankidroid/Anki-Android] #21942 Incorrect test: `copyNoteCopiesDeckId` (Solvability: 6/10)</title>
-      <link>https://github.com/ankidroid/Anki-Android/issues/21942</link>
-      <guid isPermaLink="true">https://github.com/ankidroid/Anki-Android/issues/21942</guid>
-      <pubDate>Sun, 20 Sep 2026 18:58:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ankidroid/Anki-Android">ankidroid/Anki-Android</a> (11824 ⭐, Kotlin)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #21942 in ankidroid/Anki-Android: Incorrect test: `copyNoteCopiesDeckId`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/ankidroid/Anki-Android/issues/21942">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Kotlin</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Good First Issue</category>
-    </item>
-    <item>
       <title>[lingdojo/kana-dojo] #30626 [good first issue] 🌋 Add new Learner Mistake 860 (good-first-issue) (Solvability: 6/10)</title>
       <link>https://github.com/lingdojo/kana-dojo/issues/30626</link>
       <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30626</guid>
@@ -747,260 +1050,6 @@
       <category>help wanted</category>
       <category>good first issue</category>
       <category>r-docs</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30609 [good first issue] 🎍 Add new Japanese Proverb 625 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30609</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30609</guid>
-      <pubDate>Sun, 20 Sep 2026 14:57:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3428 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30609 in lingdojo/kana-dojo: [good first issue] 🎍 Add new Japanese Proverb 625 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-proverbs.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30609">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[etternagame/etterna] #1486 [Bug]: MacOS Windowed mode not respecting VSync option (Solvability: 6/10)</title>
-      <link>https://github.com/etternagame/etterna/issues/1486</link>
-      <guid isPermaLink="true">https://github.com/etternagame/etterna/issues/1486</guid>
-      <pubDate>Sun, 20 Sep 2026 09:02:19 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/etternagame/etterna">etternagame/etterna</a> (639 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1486 in etternagame/etterna: [Bug]: MacOS Windowed mode not respecting VSync option</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/etternagame/etterna/issues/1486">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Type: Bug</category>
-      <category>Help Wanted</category>
-      <category>Priority: Low</category>
-      <category>Platform: Mac</category>
-    </item>
-    <item>
-      <title>[qmk/qmk_firmware] #26464 [Bug] last_input_activity_elapsed() gives unexpected results for combo-buffered keys (Solvability: 6/10)</title>
-      <link>https://github.com/qmk/qmk_firmware/issues/26464</link>
-      <guid isPermaLink="true">https://github.com/qmk/qmk_firmware/issues/26464</guid>
-      <pubDate>Sun, 20 Sep 2026 09:57:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/qmk/qmk_firmware">qmk/qmk_firmware</a> (20710 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #26464 in qmk/qmk_firmware: [Bug] last_input_activity_elapsed() gives unexpected results for combo-buffered keys</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/qmk/qmk_firmware/issues/26464">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[Ikalus1988/MisakaNet] #1915 chore(lessons): lessons/draft/ 疑似残留目录（复数 drafts/ 才是生成草稿的输出目录） (Solvability: 6/10)</title>
-      <link>https://github.com/Ikalus1988/MisakaNet/issues/1915</link>
-      <guid isPermaLink="true">https://github.com/Ikalus1988/MisakaNet/issues/1915</guid>
-      <pubDate>Sun, 20 Sep 2026 07:43:31 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Ikalus1988/MisakaNet">Ikalus1988/MisakaNet</a> (493 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1915 in Ikalus1988/MisakaNet: chore(lessons): lessons/draft/ 疑似残留目录（复数 drafts/ 才是生成草稿的输出目录）</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest scripts/tombstone_to_draft.py</code></p>
-<p><a href="https://github.com/Ikalus1988/MisakaNet/issues/1915">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>ready</category>
-      <category>area:lessons</category>
-      <category>cleanup</category>
-      <category>priority:low</category>
-    </item>
-    <item>
-      <title>[apache/camel-k] #6837 Provide Artemis Queue Pipe binding support (Solvability: 6/10)</title>
-      <link>https://github.com/apache/camel-k/issues/6837</link>
-      <guid isPermaLink="true">https://github.com/apache/camel-k/issues/6837</guid>
-      <pubDate>Sun, 20 Sep 2026 08:00:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/apache/camel-k">apache/camel-k</a> (929 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #6837 in apache/camel-k: Provide Artemis Queue Pipe binding support</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/apache/camel-k/issues/6837">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/feature</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[CorsixTH/CorsixTH] #3549 Good First Issue: Check behavior of the original game with respect to large toilets. (Solvability: 6/10)</title>
-      <link>https://github.com/CorsixTH/CorsixTH/issues/3549</link>
-      <guid isPermaLink="true">https://github.com/CorsixTH/CorsixTH/issues/3549</guid>
-      <pubDate>Sun, 20 Sep 2026 09:16:53 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/CorsixTH/CorsixTH">CorsixTH/CorsixTH</a> (4563 ⭐, Lua)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #3549 in CorsixTH/CorsixTH: Good First Issue: Check behavior of the original game with respect to large toilets.</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/CorsixTH/CorsixTH/issues/3549">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Lua</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Good First Issue</category>
-    </item>
-    <item>
-      <title>[linuxboot/heads] #2212 Update downstream backported patches for TPM GPIO locking (Solvability: 6/10)</title>
-      <link>https://github.com/linuxboot/heads/issues/2212</link>
-      <guid isPermaLink="true">https://github.com/linuxboot/heads/issues/2212</guid>
-      <pubDate>Sat, 19 Sep 2026 19:27:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/linuxboot/heads">linuxboot/heads</a> (1591 ⭐, Makefile)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2212 in linuxboot/heads: Update downstream backported patches for TPM GPIO locking</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/linuxboot/heads/issues/2212">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Makefile</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>security</category>
-      <category>upstream</category>
-      <category>SMM</category>
-    </item>
-    <item>
-      <title>[linuxboot/heads] #2213 Update downstream patchsets for FLOCKDN (Chipset locking aka PR0) (Solvability: 6/10)</title>
-      <link>https://github.com/linuxboot/heads/issues/2213</link>
-      <guid isPermaLink="true">https://github.com/linuxboot/heads/issues/2213</guid>
-      <pubDate>Sat, 19 Sep 2026 19:37:29 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/linuxboot/heads">linuxboot/heads</a> (1591 ⭐, Makefile)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2213 in linuxboot/heads: Update downstream patchsets for FLOCKDN (Chipset locking aka PR0)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/linuxboot/heads/issues/2213">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Makefile</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>security</category>
-      <category>upstream</category>
-      <category>SMM</category>
-    </item>
-    <item>
-      <title>[rizinorg/rizin] #6771 Two maps created with `om`, seem to share the same underlying buffer (Solvability: 6/10)</title>
-      <link>https://github.com/rizinorg/rizin/issues/6771</link>
-      <guid isPermaLink="true">https://github.com/rizinorg/rizin/issues/6771</guid>
-      <pubDate>Sat, 19 Sep 2026 20:36:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rizinorg/rizin">rizinorg/rizin</a> (3904 ⭐, C)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #6771 in rizinorg/rizin: Two maps created with `om`, seem to share the same underlying buffer</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/rizinorg/rizin/issues/6771">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>help wanted</category>
-      <category>RzIO</category>
-    </item>
-    <item>
-      <title>[python/typeshed] #16418 Daily tests failed on Sun Sep 20 2026 (Solvability: 6/10)</title>
-      <link>https://github.com/python/typeshed/issues/16418</link>
-      <guid isPermaLink="true">https://github.com/python/typeshed/issues/16418</guid>
-      <pubDate>Sun, 20 Sep 2026 00:32:56 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/python/typeshed">python/typeshed</a> (5122 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #16418 in python/typeshed: Daily tests failed on Sun Sep 20 2026</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/python/typeshed/issues/16418">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-    </item>
-    <item>
-      <title>[jellyfin/jellyfin-android] #2208 Downloads don't open in the default player (Solvability: 6/10)</title>
-      <link>https://github.com/jellyfin/jellyfin-android/issues/2208</link>
-      <guid isPermaLink="true">https://github.com/jellyfin/jellyfin-android/issues/2208</guid>
-      <pubDate>Sat, 19 Sep 2026 08:17:12 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/jellyfin/jellyfin-android">jellyfin/jellyfin-android</a> (2770 ⭐, Kotlin)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #2208 in jellyfin/jellyfin-android: Downloads don't open in the default player</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/jellyfin/jellyfin-android/issues/2208">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Kotlin</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>enhancement</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[p3d-project/persona-3-dual] #592 Replace `#defines` with constexpr (Solvability: 6/10)</title>
-      <link>https://github.com/p3d-project/persona-3-dual/issues/592</link>
-      <guid isPermaLink="true">https://github.com/p3d-project/persona-3-dual/issues/592</guid>
-      <pubDate>Sat, 19 Sep 2026 15:35:05 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/p3d-project/persona-3-dual">p3d-project/persona-3-dual</a> (233 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #592 in p3d-project/persona-3-dual: Replace `#defines` with constexpr</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/p3d-project/persona-3-dual/issues/592">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[PipedreamHQ/pipedream] #22017 [FEATURE] Add tawk.to actions to Pipedream MCP (Solvability: 6/10)</title>
-      <link>https://github.com/PipedreamHQ/pipedream/issues/22017</link>
-      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/22017</guid>
-      <pubDate>Sat, 19 Sep 2026 15:54:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/PipedreamHQ/pipedream">PipedreamHQ/pipedream</a> (11698 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #22017 in PipedreamHQ/pipedream: [FEATURE] Add tawk.to actions to Pipedream MCP</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/PipedreamHQ/pipedream/issues/22017">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>action</category>
-    </item>
-    <item>
-      <title>[p3d-project/persona-3-dual] #595 Investigate &amp; fix `-Warray-bounds` warning on battleActions code (Solvability: 6/10)</title>
-      <link>https://github.com/p3d-project/persona-3-dual/issues/595</link>
-      <guid isPermaLink="true">https://github.com/p3d-project/persona-3-dual/issues/595</guid>
-      <pubDate>Sat, 19 Sep 2026 16:02:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/p3d-project/persona-3-dual">p3d-project/persona-3-dual</a> (233 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #595 in p3d-project/persona-3-dual: Investigate &amp; fix `-Warray-bounds` warning on battleActions code</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/p3d-project/persona-3-dual/issues/595">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
     </item>
   </channel>
 </rss>
