@@ -9633,7 +9633,8 @@
     "repo": "OthmanAdi/planning-with-files",
     "title": "init-session.ps1 reports success after a denied file write because Out-File errors are non-terminating",
     "discoveredAt": "2026-09-17T20:41:15.259Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOSzbDbM8AAAABR0njeg": {
     "id": "I_kwDOSzbDbM8AAAABR0njeg",
@@ -10503,7 +10504,8 @@
     "repo": "mxsm/rocketmq-rust",
     "title": "[Enhancement✨] Sanitize multiline text in the monitoring and message-event table rows",
     "discoveredAt": "2026-09-19T14:58:15.908Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOK5M3Is8AAAABSHvDvA": {
     "id": "I_kwDOK5M3Is8AAAABSHvDvA",
@@ -10570,7 +10572,8 @@
     "repo": "mxsm/rocketmq-rust",
     "title": "[Test🧪] Add unit tests for the dashboard ACL delete-request validation",
     "discoveredAt": "2026-09-19T14:58:52.356Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOK5M3Is8AAAABSHu5yQ": {
     "id": "I_kwDOK5M3Is8AAAABSHu5yQ",
@@ -10909,7 +10912,8 @@
     "repo": "servo/rust-smallvec",
     "title": "make no-AI wording in readme clearer",
     "discoveredAt": "2026-09-20T15:00:47.442Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOAf6AbM8AAAABSOaJrA": {
     "id": "I_kwDOAf6AbM8AAAABSOaJrA",
@@ -10957,7 +10961,8 @@
     "repo": "ONEARMY/community-platform",
     "title": "[UI Migration] Select",
     "discoveredAt": "2026-09-20T15:00:55.618Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOCPmwqs8AAAABSOUB4g": {
     "id": "I_kwDOCPmwqs8AAAABSOUB4g",
@@ -10973,7 +10978,8 @@
     "repo": "ONEARMY/community-platform",
     "title": "[UI Migration] LinkifyText",
     "discoveredAt": "2026-09-20T15:00:58.681Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOCPmwqs8AAAABSORBNw": {
     "id": "I_kwDOCPmwqs8AAAABSORBNw",
@@ -11073,7 +11079,8 @@
     "repo": "sktime/sktime",
     "title": "[BUG] fix compatibility of TimerS1 and vendor library `libs.timer_s1` with newer `transformers`",
     "discoveredAt": "2026-09-20T19:55:02.349Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOBrsij88AAAABSP1brw": {
     "id": "I_kwDOBrsij88AAAABSP1brw",
@@ -11169,7 +11176,8 @@
     "repo": "sktime/sktime",
     "title": "[BUG] investigate and fix failures in forecasters",
     "discoveredAt": "2026-09-21T02:04:37.219Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOOwsln88AAAABSRQDLQ": {
     "id": "I_kwDOOwsln88AAAABSRQDLQ",
@@ -11265,7 +11273,8 @@
     "repo": "flybywiresim/aircraft",
     "title": "A32NX/FMS: Wrong maximum allowed cruise flight level",
     "discoveredAt": "2026-09-21T11:19:15.426Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDODSospM8AAAABSVrfXg": {
     "id": "I_kwDODSospM8AAAABSVrfXg",
@@ -11273,7 +11282,8 @@
     "repo": "neomjs/neo",
     "title": "test.describe.serial stops 35 unit specs at their first failure",
     "discoveredAt": "2026-09-21T11:19:26.086Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOOwsln88AAAABSVhBYg": {
     "id": "I_kwDOOwsln88AAAABSVhBYg",
@@ -11305,7 +11315,8 @@
     "repo": "lingdojo/kana-dojo",
     "title": "[good first issue] 🎎 Add new Theme: Tea Ceremony (good-first-issue)",
     "discoveredAt": "2026-09-21T11:19:41.374Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOOwsln88AAAABSUtwQA": {
     "id": "I_kwDOOwsln88AAAABSUtwQA",
@@ -11345,6 +11356,110 @@
     "repo": "github/gh-aw",
     "title": "[Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
     "discoveredAt": "2026-09-21T11:19:58.681Z",
+    "status": "published"
+  },
+  "I_kwDORs3cys8AAAABSZ89Mg": {
+    "id": "I_kwDORs3cys8AAAABSZ89Mg",
+    "url": "https://github.com/mex-memory/mex/issues/223",
+    "repo": "mex-memory/mex",
+    "title": "CLI name collision: `mex` conflicts with TeX Live's mex binary on macOS",
+    "discoveredAt": "2026-09-21T17:19:24.335Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSZ23kg": {
+    "id": "I_kwDOOwsln88AAAABSZ23kg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30683",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🗾 Add new Video Game Quote 644 (good-first-issue)",
+    "discoveredAt": "2026-09-21T17:19:26.095Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSZo2Cw": {
+    "id": "I_kwDOOwsln88AAAABSZo2Cw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30682",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🏮 Add new Anime Quote 990 (good-first-issue)",
+    "discoveredAt": "2026-09-21T17:19:28.528Z",
+    "status": "published"
+  },
+  "I_kwDOOXJxvc8AAAABSZlzUQ": {
+    "id": "I_kwDOOXJxvc8AAAABSZlzUQ",
+    "url": "https://github.com/lightly-ai/lightly-train/issues/980",
+    "repo": "lightly-ai/lightly-train",
+    "title": "[BUG] Weights-modifier aliases resolve to the wrong backbone: all six `-eupe-ltdetr` and both `-notpretrained-linear` (same bug class as #933)",
+    "discoveredAt": "2026-09-21T17:19:30.545Z",
+    "status": "published"
+  },
+  "I_kwDODgj3cc8AAAABSZV7RA": {
+    "id": "I_kwDODgj3cc8AAAABSZV7RA",
+    "url": "https://github.com/PipedreamHQ/pipedream/issues/22036",
+    "repo": "PipedreamHQ/pipedream",
+    "title": "[TRIGGER]",
+    "discoveredAt": "2026-09-21T17:19:40.421Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSY_elw": {
+    "id": "I_kwDOOwsln88AAAABSY_elw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30680",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🎏 Add new Japanese Proverb 845 (good-first-issue)",
+    "discoveredAt": "2026-09-21T17:19:42.413Z",
+    "status": "published"
+  },
+  "I_kwDOAf6AbM8AAAABSY6U3Q": {
+    "id": "I_kwDOAf6AbM8AAAABSY6U3Q",
+    "url": "https://github.com/servo/rust-smallvec/issues/654",
+    "repo": "servo/rust-smallvec",
+    "title": "delete `.github/dependabot.yml`",
+    "discoveredAt": "2026-09-21T17:19:43.125Z",
+    "status": "published"
+  },
+  "I_kwDOC6l-Ts8AAAABSY3J0w": {
+    "id": "I_kwDOC6l-Ts8AAAABSY3J0w",
+    "url": "https://github.com/photoview/photoview/issues/1500",
+    "repo": "photoview/photoview",
+    "title": "Prevent album share tokens from disclosing sibling share tokens",
+    "discoveredAt": "2026-09-21T17:19:45.544Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSYl5-A": {
+    "id": "I_kwDOOwsln88AAAABSYl5-A",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30678",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🦊 Add new Japan Fact 941 (good-first-issue)",
+    "discoveredAt": "2026-09-21T17:19:47.368Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSX6mTg": {
+    "id": "I_kwDOOwsln88AAAABSX6mTg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30676",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🐉 Add new Community Note Line #28 (good-first-issue)",
+    "discoveredAt": "2026-09-21T17:19:49.295Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSXqrYg": {
+    "id": "I_kwDOOwsln88AAAABSXqrYg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30675",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🐉 Add new Example Sentence 399 (good-first-issue)",
+    "discoveredAt": "2026-09-21T17:19:51.004Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSXBowA": {
+    "id": "I_kwDOOwsln88AAAABSXBowA",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30672",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🎎 Add new False Friend Pair 840 (good-first-issue)",
+    "discoveredAt": "2026-09-21T17:19:52.817Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSWaefg": {
+    "id": "I_kwDOOwsln88AAAABSWaefg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30667",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍵 Add new Japanese Idiom 911 (good-first-issue)",
+    "discoveredAt": "2026-09-21T17:19:54.722Z",
     "status": "published"
   }
 }
