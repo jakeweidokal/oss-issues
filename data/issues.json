@@ -1,5 +1,34 @@
 [
   {
+    "id": "I_kwDOILzUoc8AAAABSgwxxQ",
+    "number": 253,
+    "title": "Bug: Postgres DSN built without URL-encoding breaks on special characters in credentials",
+    "url": "https://github.com/LAA-Software-Engineering/golang-rest-api-template/issues/253",
+    "repo": "LAA-Software-Engineering/golang-rest-api-template",
+    "repoUrl": "https://github.com/LAA-Software-Engineering/golang-rest-api-template",
+    "stars": 229,
+    "language": "Go",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-22T08:45:06Z",
+    "updatedAt": "2026-09-22T08:45:06Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "go test -v ./pkg/database",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "pkg/database/db.go"
+    ],
+    "summary": "Fix issue #253 in LAA-Software-Engineering/golang-rest-api-template: Bug: Postgres DSN built without URL-encoding breaks on special characters in credentials",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:17.117Z"
+  },
+  {
     "id": "I_kwDOCPmwqs8AAAABSOMuDg",
     "number": 4905,
     "title": "[UI Migration] DownloadCounter",
@@ -60,6 +89,443 @@
     "discoveredAt": "2026-09-20T15:00:51.123Z"
   },
   {
+    "id": "I_kwDOO_fYBc8AAAABSgZM_g",
+    "number": 1010,
+    "title": "Delete the orphaned AlertDetailsDrawer component",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1010",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 220,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue",
+      "UI",
+      "DevOps",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-22T08:05:26Z",
+    "updatedAt": "2026-09-22T08:05:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/components/Alerts/AlertDetails/index.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/components/Alerts/AlertDetails/index.ts"
+    ],
+    "summary": "Fix issue #1010 in OpsiMate/OpsiMate: Delete the orphaned AlertDetailsDrawer component",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:26.506Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABSgZcnQ",
+    "number": 1011,
+    "title": "Docs: audit-logs.md describes provider events that no longer exist",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1011",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 220,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-22T08:05:50Z",
+    "updatedAt": "2026-09-22T08:05:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/shared/src/types.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/shared/src/types.ts"
+    ],
+    "summary": "Fix issue #1011 in OpsiMate/OpsiMate: Docs: audit-logs.md describes provider events that no longer exist",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:25.386Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABSgZeJw",
+    "number": 1012,
+    "title": "Docs: API-token guidance on the five webhook pages is wrong for config-file installs",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1012",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 220,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "question",
+      "Server",
+      "DevOps",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-22T08:05:52Z",
+    "updatedAt": "2026-09-22T08:06:00Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Docker required",
+    "quickReproCommand": "pnpm test apps/server/src/middleware/auth.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/server/src/middleware/auth.ts"
+    ],
+    "summary": "Fix issue #1012 in OpsiMate/OpsiMate: Docs: API-token guidance on the five webhook pages is wrong for config-file installs",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:24.304Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABSgZfKQ",
+    "number": 1013,
+    "title": "Add unit tests for POST /playground/book-demo",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1013",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 220,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "Server",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-22T08:05:53Z",
+    "updatedAt": "2026-09-22T08:06:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/components/ResetPasswordByEmailForm.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/components/ResetPasswordByEmailForm.tsx",
+      "apps/client/src/components/ResetPasswordByEmailInvalid.tsx",
+      "apps/client/src/components/ResetPasswordByEmailSuccess.tsx"
+    ],
+    "summary": "Fix issue #1013 in OpsiMate/OpsiMate: Add unit tests for POST /playground/book-demo",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:23.201Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABSgZhcw",
+    "number": 1015,
+    "title": "Add unit tests for StatusBadge, SeverityBadge and FixBadge",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1015",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 220,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "UI",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-22T08:05:56Z",
+    "updatedAt": "2026-09-22T08:06:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/components/Alerts/FixBadge/FixBadge.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/components/Alerts/FixBadge/FixBadge.tsx",
+      "apps/client/src/components/Alerts/SeverityBadge/SeverityBadge.tsx",
+      "apps/client/src/components/Alerts/StatusBadge/StatusBadge.tsx"
+    ],
+    "summary": "Fix issue #1015 in OpsiMate/OpsiMate: Add unit tests for StatusBadge, SeverityBadge and FixBadge",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:22.118Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABSgZiVw",
+    "number": 1016,
+    "title": "Add unit tests for lib/sslKeys.ts",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1016",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 220,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "UI",
+      "Server",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-22T08:05:57Z",
+    "updatedAt": "2026-09-22T08:06:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/lib/sslKeys.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/lib/sslKeys.ts"
+    ],
+    "summary": "Fix issue #1016 in OpsiMate/OpsiMate: Add unit tests for lib/sslKeys.ts",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:21.047Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABSgZjIQ",
+    "number": 1017,
+    "title": "Drop the six remaining unused catch bindings",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1017",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 220,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "UI",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-22T08:05:59Z",
+    "updatedAt": "2026-09-22T08:06:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/components/CustomFieldsTable.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/components/CustomFieldsTable.tsx",
+      "apps/client/src/components/Alerts/Alerts.tsx",
+      "apps/client/src/components/Dashboards/DashboardRow/DashboardRow.tsx"
+    ],
+    "summary": "Fix issue #1017 in OpsiMate/OpsiMate: Drop the six remaining unused catch bindings",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:19.959Z"
+  },
+  {
+    "id": "I_kwDODF0q0c8AAAABSghRzg",
+    "number": 74,
+    "title": "Figure out which LCD controller is used on iPod Color/Photo",
+    "url": "https://github.com/daniel5151/clicky/issues/74",
+    "repo": "daniel5151/clicky",
+    "repoUrl": "https://github.com/daniel5151/clicky",
+    "stars": 260,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "non-code"
+    ],
+    "createdAt": "2026-09-22T08:18:39Z",
+    "updatedAt": "2026-09-22T08:23:26Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #74 in daniel5151/clicky: Figure out which LCD controller is used on iPod Color/Photo",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-22T10:29:18.794Z"
+  },
+  {
+    "id": "I_kwDOILzUoc8AAAABSgwqng",
+    "number": 252,
+    "title": "Reliability: GET /books returns 500 when Redis is down (cache not fail-open)",
+    "url": "https://github.com/LAA-Software-Engineering/golang-rest-api-template/issues/252",
+    "repo": "LAA-Software-Engineering/golang-rest-api-template",
+    "repoUrl": "https://github.com/LAA-Software-Engineering/golang-rest-api-template",
+    "stars": 229,
+    "language": "Go",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-22T08:44:55Z",
+    "updatedAt": "2026-09-22T08:44:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "go test -v ./pkg/service",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "pkg/service/book_service.go",
+      "cmd/server/main.go",
+      "pkg/api/books.go"
+    ],
+    "summary": "Fix issue #252 in LAA-Software-Engineering/golang-rest-api-template: Reliability: GET /books returns 500 when Redis is down (cache not fail-open)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:17.826Z"
+  },
+  {
+    "id": "I_kwDOILzUoc8AAAABSgwyuA",
+    "number": 254,
+    "title": "Bug: CORS AllowCredentials=true with wildcard AllowMethods/AllowHeaders breaks credentialed browser requests",
+    "url": "https://github.com/LAA-Software-Engineering/golang-rest-api-template/issues/254",
+    "repo": "LAA-Software-Engineering/golang-rest-api-template",
+    "repoUrl": "https://github.com/LAA-Software-Engineering/golang-rest-api-template",
+    "stars": 229,
+    "language": "Go",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-22T08:45:08Z",
+    "updatedAt": "2026-09-22T08:45:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./pkg/middleware",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "pkg/middleware/cors.go"
+    ],
+    "summary": "Fix issue #254 in LAA-Software-Engineering/golang-rest-api-template: Bug: CORS AllowCredentials=true with wildcard AllowMethods/AllowHeaders breaks credentialed browser requests",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:16.433Z"
+  },
+  {
+    "id": "I_kwDOUX0vEc8AAAABSg1Rgw",
+    "number": 277,
+    "title": "Add Standardized Markdown Formatting",
+    "url": "https://github.com/danieldeer/seriousdb/issues/277",
+    "repo": "danieldeer/seriousdb",
+    "repoUrl": "https://github.com/danieldeer/seriousdb",
+    "stars": 238,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-22T08:52:54Z",
+    "updatedAt": "2026-09-22T08:53:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #277 in danieldeer/seriousdb: Add Standardized Markdown Formatting",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:29:15.681Z"
+  },
+  {
+    "id": "I_kwDODmAYMc8AAAABSg4IfQ",
+    "number": 3505,
+    "title": "Refactor F3DOCCTShapeConverter to avoid using InsertNext",
+    "url": "https://github.com/f3d-app/f3d/issues/3505",
+    "repo": "f3d-app/f3d",
+    "repoUrl": "https://github.com/f3d-app/f3d",
+    "stars": 4713,
+    "language": "C++",
+    "labels": [
+      "good first issue",
+      "source:VTK",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-22T08:57:52Z",
+    "updatedAt": "2026-09-22T09:13:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #3505 in f3d-app/f3d: Refactor F3DOCCTShapeConverter to avoid using InsertNext",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-22T10:29:15.009Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABShPSsA",
+    "number": 30733,
+    "title": "[good first issue] 🥢 Add new Japan Fact 2197 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30733",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3442,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-22T09:37:33Z",
+    "updatedAt": "2026-09-22T09:37:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #30733 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Japan Fact 2197 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:28:50.824Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABShdqCQ",
+    "number": 30734,
+    "title": "[good first issue] 🌊 Add new Japanese Proverb 920 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30734",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3442,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-22T10:01:10Z",
+    "updatedAt": "2026-09-22T10:01:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30734 in lingdojo/kana-dojo: [good first issue] 🌊 Add new Japanese Proverb 920 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-22T10:28:49.039Z"
+  },
+  {
     "id": "I_kwDOOwsln88AAAABSdaYmg",
     "number": 30701,
     "title": "[good first issue] 🗻 Add new False Friend Pair 195 (good-first-issue)",
@@ -92,34 +558,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-22T02:10:10.901Z"
-  },
-  {
-    "id": "I_kwDOFES7rc8AAAABSdmucg",
-    "number": 1774,
-    "title": "Horn generic not found?",
-    "url": "https://github.com/flux-rs/flux/issues/1774",
-    "repo": "flux-rs/flux",
-    "repoUrl": "https://github.com/flux-rs/flux",
-    "stars": 916,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-22T00:34:54Z",
-    "updatedAt": "2026-09-22T00:35:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1774 in flux-rs/flux: Horn generic not found?",
-    "maintainerTurnaroundDays": 0.9,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T02:10:09.612Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSdnm_g",
@@ -247,35 +685,6 @@
     "discoveredAt": "2026-09-22T02:10:05.114Z"
   },
   {
-    "id": "I_kwDOBm6L588AAAABSd48eA",
-    "number": 862,
-    "title": "[i18n]: Add missing localization keys for GitLab, Codeberg, and filter options",
-    "url": "https://github.com/fossasia/scrum_helper/issues/862",
-    "repo": "fossasia/scrum_helper",
-    "repoUrl": "https://github.com/fossasia/scrum_helper",
-    "stars": 1323,
-    "language": "JavaScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-22T01:32:32Z",
-    "updatedAt": "2026-09-22T01:32:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #862 in fossasia/scrum_helper: [i18n]: Add missing localization keys for GitLab, Codeberg, and filter options",
-    "maintainerTurnaroundDays": 1.6,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T02:10:04.551Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABSd6szg",
     "number": 30705,
     "title": "[good first issue] 🍁 Add new Learner Mistake 1090 (good-first-issue)",
@@ -338,62 +747,6 @@
     "maintainerTurnaroundDays": 1.9,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-22T02:10:02.731Z"
-  },
-  {
-    "id": "I_kwDOBm6L588AAAABSd735A",
-    "number": 863,
-    "title": "[Docs]: Add testing, linting, and desktop build instructions to CONTRIBUTING.md",
-    "url": "https://github.com/fossasia/scrum_helper/issues/863",
-    "repo": "fossasia/scrum_helper",
-    "repoUrl": "https://github.com/fossasia/scrum_helper",
-    "stars": 1323,
-    "language": "JavaScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-22T01:40:45Z",
-    "updatedAt": "2026-09-22T01:40:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #863 in fossasia/scrum_helper: [Docs]: Add testing, linting, and desktop build instructions to CONTRIBUTING.md",
-    "maintainerTurnaroundDays": 1.6,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T02:10:02.106Z"
-  },
-  {
-    "id": "I_kwDOBm6L588AAAABSd8l6g",
-    "number": 864,
-    "title": "Add unit tests for `emailClientAdapter.js` client matchers",
-    "url": "https://github.com/fossasia/scrum_helper/issues/864",
-    "repo": "fossasia/scrum_helper",
-    "repoUrl": "https://github.com/fossasia/scrum_helper",
-    "stars": 1323,
-    "language": "JavaScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-22T01:42:42Z",
-    "updatedAt": "2026-09-22T01:42:42Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/scripts/emailClientAdapter.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/scripts/emailClientAdapter.js"
-    ],
-    "summary": "Fix issue #864 in fossasia/scrum_helper: Add unit tests for `emailClientAdapter.js` client matchers",
-    "maintainerTurnaroundDays": 1.6,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T02:10:01.536Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSeCt9A",
@@ -1122,36 +1475,6 @@
     "discoveredAt": "2026-09-21T17:19:42.413Z"
   },
   {
-    "id": "I_kwDODgj3cc8AAAABSZV7RA",
-    "number": 22036,
-    "title": "[TRIGGER]",
-    "url": "https://github.com/PipedreamHQ/pipedream/issues/22036",
-    "repo": "PipedreamHQ/pipedream",
-    "repoUrl": "https://github.com/PipedreamHQ/pipedream",
-    "stars": 11702,
-    "language": "JavaScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "trigger / source"
-    ],
-    "createdAt": "2026-09-21T16:09:02Z",
-    "updatedAt": "2026-09-21T16:09:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #22036 in PipedreamHQ/pipedream: [TRIGGER]",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-21T17:19:40.421Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABSZo2Cw",
     "number": 30682,
     "title": "[good first issue] 🏮 Add new Anime Quote 990 (good-first-issue)",
@@ -1248,36 +1571,6 @@
     "maintainerTurnaroundDays": 0.5,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-21T17:19:24.335Z"
-  },
-  {
-    "id": "I_kwDOPc1QR88AAAABSTYjcA",
-    "number": 62320,
-    "title": "[Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
-    "url": "https://github.com/github/gh-aw/issues/62320",
-    "repo": "github/gh-aw",
-    "repoUrl": "https://github.com/github/gh-aw",
-    "stars": 5162,
-    "language": "Go",
-    "labels": [
-      "safe-outputs",
-      "good-first-issue",
-      "automated",
-      "conformance"
-    ],
-    "createdAt": "2026-09-21T05:49:00Z",
-    "updatedAt": "2026-09-21T05:49:00Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #62320 in github/gh-aw: [Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-21T11:19:58.681Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSTdcyA",
@@ -2340,36 +2633,6 @@
     "discoveredAt": "2026-09-20T15:01:03.271Z"
   },
   {
-    "id": "I_kwDOCPmwqs8AAAABSOP-mA",
-    "number": 4907,
-    "title": "[UI Migration] ExternalLink",
-    "url": "https://github.com/ONEARMY/community-platform/issues/4907",
-    "repo": "ONEARMY/community-platform",
-    "repoUrl": "https://github.com/ONEARMY/community-platform",
-    "stars": 1403,
-    "language": "TypeScript",
-    "labels": [
-      "Good first issue",
-      "Help wanted",
-      "Difficulty: Easy",
-      "UI Migration"
-    ],
-    "createdAt": "2026-09-20T12:42:09Z",
-    "updatedAt": "2026-09-20T12:42:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/components/src/ExternalLink/ExternalLink.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/components/src/ExternalLink/ExternalLink.tsx"
-    ],
-    "summary": "Fix issue #4907 in ONEARMY/community-platform: [UI Migration] ExternalLink",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-20T15:01:01.843Z"
-  },
-  {
     "id": "I_kwDOCPmwqs8AAAABSORBNw",
     "number": 4908,
     "title": "[UI Migration] InternalLink",
@@ -2668,34 +2931,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-20T10:13:59.355Z"
-  },
-  {
-    "id": "I_kwDOCMD8J88AAAABSNDSjg",
-    "number": 6837,
-    "title": "Provide Artemis Queue Pipe binding support",
-    "url": "https://github.com/apache/camel-k/issues/6837",
-    "repo": "apache/camel-k",
-    "repoUrl": "https://github.com/apache/camel-k",
-    "stars": 929,
-    "language": "Go",
-    "labels": [
-      "kind/feature",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-20T08:00:58Z",
-    "updatedAt": "2026-09-20T08:00:58Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #6837 in apache/camel-k: Provide Artemis Queue Pipe binding support",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T10:13:58.117Z"
   },
   {
     "id": "I_kwDOALyme88AAAABSNXFig",
@@ -4086,34 +4321,6 @@
     "discoveredAt": "2026-09-17T02:08:26.245Z"
   },
   {
-    "id": "I_kwDOQuAx5c8AAAABRedfIw",
-    "number": 869,
-    "title": "fly.toml's default image tag is several releases behind the latest tag",
-    "url": "https://github.com/libredb/libredb-studio/issues/869",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 755,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-15T21:53:21Z",
-    "updatedAt": "2026-09-15T21:53:21Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #869 in libredb/libredb-studio: fly.toml's default image tag is several releases behind the latest tag",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-16T02:04:22.249Z"
-  },
-  {
     "id": "I_kwDOK63vj88AAAABRcSSdg",
     "number": 1209,
     "title": "wdl-lint: always check struct doc comments in `MetaSections`",
@@ -4175,35 +4382,6 @@
     "discoveredAt": "2026-09-15T10:37:12.559Z"
   },
   {
-    "id": "I_kwDOABnLcM8AAAABRW7CKw",
-    "number": 67443,
-    "title": "We need to remove voting from the plugin manager",
-    "url": "https://github.com/qgis/QGIS/issues/67443",
-    "repo": "qgis/QGIS",
-    "repoUrl": "https://github.com/qgis/QGIS",
-    "stars": 14380,
-    "language": "C++",
-    "labels": [
-      "Feature Request",
-      "Plugin manager",
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-15T09:00:27Z",
-    "updatedAt": "2026-09-15T09:07:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #67443 in qgis/QGIS: We need to remove voting from the plugin manager",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-15T10:37:09.305Z"
-  },
-  {
     "id": "I_kwDOAAq-cs8AAAABRXWV3g",
     "number": 1026,
     "title": "Implement comprehensive bulk permission assignment API with documentation and benchmarks",
@@ -4234,35 +4412,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-15T10:36:40.782Z"
-  },
-  {
-    "id": "I_kwDORponss8AAAABRSWHMA",
-    "number": 131,
-    "title": "Parameters that land in a node member are unchecked, and vslam.frame_id is already dead",
-    "url": "https://github.com/manankharwar/fusioncore/issues/131",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 358,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-14T22:00:47Z",
-    "updatedAt": "2026-09-14T22:00:47Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "fusioncore_ros/config/fusioncore.yaml",
-      ".github/workflows/ci.yml"
-    ],
-    "summary": "Fix issue #131 in manankharwar/fusioncore: Parameters that land in a node member are unchecked, and vslam.frame_id is already dead",
-    "maintainerTurnaroundDays": 1.4,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T02:12:25.697Z"
   },
   {
     "id": "I_kwDORj5l3c8AAAABRTKHag",
@@ -4500,121 +4649,5 @@
     "maintainerTurnaroundDays": 1.8,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-14T21:08:20.333Z"
-  },
-  {
-    "id": "I_kwDONIS0-88AAAABRQktHA",
-    "number": 427,
-    "title": "Feat(linter): add a `sort-imports` rule",
-    "url": "https://github.com/DonIsaac/zlint/issues/427",
-    "repo": "DonIsaac/zlint",
-    "repoUrl": "https://github.com/DonIsaac/zlint",
-    "stars": 311,
-    "language": "Zig",
-    "labels": [
-      "C-enhancement",
-      "good first issue",
-      "A-linter",
-      "C-rule"
-    ],
-    "createdAt": "2026-09-14T18:41:19Z",
-    "updatedAt": "2026-09-14T18:41:19Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #427 in DonIsaac/zlint: Feat(linter): add a `sort-imports` rule",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T21:08:19.801Z"
-  },
-  {
-    "id": "I_kwDOEQbdgc8AAAABRQwuHQ",
-    "number": 323,
-    "title": "fix hook bugs",
-    "url": "https://github.com/mandiant/speakeasy/issues/323",
-    "repo": "mandiant/speakeasy",
-    "repoUrl": "https://github.com/mandiant/speakeasy",
-    "stars": 2046,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-14T19:02:28Z",
-    "updatedAt": "2026-09-14T19:02:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #323 in mandiant/speakeasy: fix hook bugs",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-14T21:08:17.425Z"
-  },
-  {
-    "id": "I_kwDOSR1Zd88AAAABRRmrow",
-    "number": 68,
-    "title": "feat(ui): Add \"Copy Frame as ASCII Text\" button",
-    "url": "https://github.com/YusufB5/ASCILINE/issues/68",
-    "repo": "YusufB5/ASCILINE",
-    "repoUrl": "https://github.com/YusufB5/ASCILINE",
-    "stars": 2730,
-    "language": "JavaScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-14T20:29:10Z",
-    "updatedAt": "2026-09-14T20:29:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test app.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "app.js",
-      "index.html",
-      "style.css"
-    ],
-    "summary": "Fix issue #68 in YusufB5/ASCILINE: feat(ui): Add \"Copy Frame as ASCII Text\" button",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-14T21:08:12.211Z"
-  },
-  {
-    "id": "I_kwDOAWfots8AAAABPq10dA",
-    "number": 1182,
-    "title": "v2.53.7 release is incorrectly marked as latest",
-    "url": "https://github.com/vektra/mockery/issues/1182",
-    "repo": "vektra/mockery",
-    "repoUrl": "https://github.com/vektra/mockery",
-    "stars": 7158,
-    "language": "Go",
-    "labels": [
-      "bug",
-      "good-first-issue",
-      "Needs Investigation"
-    ],
-    "createdAt": "2026-09-04T09:35:11Z",
-    "updatedAt": "2026-09-09T03:24:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1182 in vektra/mockery: v2.53.7 release is incorrectly marked as latest",
-    "maintainerTurnaroundDays": 0.9,
-    "defaultBranch": "v3",
-    "discoveredAt": "2026-09-14T17:10:30.936Z"
   }
 ]
