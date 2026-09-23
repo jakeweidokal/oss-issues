@@ -5,7 +5,7 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 20:36:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 02:12:38 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[LAA-Software-Engineering/golang-rest-api-template] #253 Bug: Postgres DSN built without URL-encoding breaks on special characters in credentials (Solvability: 8/10)</title>
@@ -62,6 +62,286 @@
       <category>Help wanted</category>
       <category>Difficulty: Easy</category>
       <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[LMCache/LMCache] #5315 [good-first-issue] tests: synchronize health-monitor fallback and recovery (Solvability: 6/10)</title>
+      <link>https://github.com/LMCache/LMCache/issues/5315</link>
+      <guid isPermaLink="true">https://github.com/LMCache/LMCache/issues/5315</guid>
+      <pubDate>Wed, 23 Sep 2026 00:45:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LMCache/LMCache">LMCache/LMCache</a> (11893 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5315 in LMCache/LMCache: [good-first-issue] tests: synchronize health-monitor fallback and recovery</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/v1/test_health_monitor_fallback_recovery.py</code></p>
+<p><a href="https://github.com/LMCache/LMCache/issues/5315">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>Testing</category>
+      <category>onboarding-2026</category>
+    </item>
+    <item>
+      <title>[LMCache/LMCache] #5316 [good-first-issue] tests: bound and diagnose RESP connector waits (Solvability: 6/10)</title>
+      <link>https://github.com/LMCache/LMCache/issues/5316</link>
+      <guid isPermaLink="true">https://github.com/LMCache/LMCache/issues/5316</guid>
+      <pubDate>Wed, 23 Sep 2026 00:45:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LMCache/LMCache">LMCache/LMCache</a> (11893 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #5316 in LMCache/LMCache: [good-first-issue] tests: bound and diagnose RESP connector waits</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/v1/storage_backend/test_resp_connector.py</code></p>
+<p><a href="https://github.com/LMCache/LMCache/issues/5316">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>Testing</category>
+      <category>onboarding-2026</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30784 [good first issue] 🗻 Add new Dialect Entry 1087 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30784</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30784</guid>
+      <pubDate>Wed, 23 Sep 2026 01:01:00 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3447 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30784 in lingdojo/kana-dojo: [good first issue] 🗻 Add new Dialect Entry 1087 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-regional-dialects.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30784">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[MODSetter/SurfSense] #1826 Declare the Vulkan loader as a `.deb` dependency (Solvability: 6/10)</title>
+      <link>https://github.com/MODSetter/SurfSense/issues/1826</link>
+      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1826</guid>
+      <pubDate>Wed, 23 Sep 2026 01:14:18 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16234 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1826 in MODSetter/SurfSense: Declare the Vulkan loader as a `.deb` dependency</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest surfsense_local/electron/electron-builder.yml</code></p>
+<p><a href="https://github.com/MODSetter/SurfSense/issues/1826">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>desktop</category>
+    </item>
+    <item>
+      <title>[MODSetter/SurfSense] #1830 Reject prerelease tags in the release workflow (Solvability: 6/10)</title>
+      <link>https://github.com/MODSetter/SurfSense/issues/1830</link>
+      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1830</guid>
+      <pubDate>Wed, 23 Sep 2026 01:14:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16234 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1830 in MODSetter/SurfSense: Reject prerelease tags in the release workflow</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest .github/workflows/release-local.yml</code></p>
+<p><a href="https://github.com/MODSetter/SurfSense/issues/1830">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>desktop</category>
+    </item>
+    <item>
+      <title>[MODSetter/SurfSense] #1832 Finish the rename: window title, API title, README heading (Solvability: 6/10)</title>
+      <link>https://github.com/MODSetter/SurfSense/issues/1832</link>
+      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1832</guid>
+      <pubDate>Wed, 23 Sep 2026 01:14:44 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16234 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1832 in MODSetter/SurfSense: Finish the rename: window title, API title, README heading</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest surfsense_local/frontend/index.html</code></p>
+<p><a href="https://github.com/MODSetter/SurfSense/issues/1832">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>desktop</category>
+    </item>
+    <item>
+      <title>[MODSetter/SurfSense] #1838 Carry old Hugging Face grants over to `host:huggingface.co` in a migration (Solvability: 6/10)</title>
+      <link>https://github.com/MODSetter/SurfSense/issues/1838</link>
+      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1838</guid>
+      <pubDate>Wed, 23 Sep 2026 01:15:09 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16234 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1838 in MODSetter/SurfSense: Carry old Hugging Face grants over to `host:huggingface.co` in a migration</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest surfsense_local/backend/alembic/versions/0008_egress_destinations.py</code></p>
+<p><a href="https://github.com/MODSetter/SurfSense/issues/1838">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>desktop</category>
+    </item>
+    <item>
+      <title>[MODSetter/SurfSense] #1877 Key the prompt-tier fallback on loopback, not the provider name (Solvability: 6/10)</title>
+      <link>https://github.com/MODSetter/SurfSense/issues/1877</link>
+      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1877</guid>
+      <pubDate>Wed, 23 Sep 2026 01:17:49 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16234 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1877 in MODSetter/SurfSense: Key the prompt-tier fallback on loopback, not the provider name</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest surfsense_local/backend/modules/egress/service.py</code></p>
+<p><a href="https://github.com/MODSetter/SurfSense/issues/1877">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>desktop</category>
+    </item>
+    <item>
+      <title>[MODSetter/SurfSense] #1878 Fingerprint local models from `/props`, and remote rows without a `hugging_face_id` by name (Solvability: 6/10)</title>
+      <link>https://github.com/MODSetter/SurfSense/issues/1878</link>
+      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1878</guid>
+      <pubDate>Wed, 23 Sep 2026 01:17:54 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16234 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1878 in MODSetter/SurfSense: Fingerprint local models from `/props`, and remote rows without a `hugging_face_id` by name</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/MODSetter/SurfSense/issues/1878">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>desktop</category>
+    </item>
+    <item>
+      <title>[MODSetter/SurfSense] #1883 Install screen: show when the runtime is down, and check free disk space first (Solvability: 6/10)</title>
+      <link>https://github.com/MODSetter/SurfSense/issues/1883</link>
+      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1883</guid>
+      <pubDate>Wed, 23 Sep 2026 01:18:15 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16234 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1883 in MODSetter/SurfSense: Install screen: show when the runtime is down, and check free disk space first</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/MODSetter/SurfSense/issues/1883">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>desktop</category>
+    </item>
+    <item>
+      <title>[MODSetter/SurfSense] #1889 `GET /workspaces/{id}/documents/{doc}` with the body (Solvability: 6/10)</title>
+      <link>https://github.com/MODSetter/SurfSense/issues/1889</link>
+      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1889</guid>
+      <pubDate>Wed, 23 Sep 2026 01:18:40 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16234 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1889 in MODSetter/SurfSense: `GET /workspaces/{id}/documents/{doc}` with the body</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest surfsense_backend/alembic/versions/127_add_report_content_type.py</code></p>
+<p><a href="https://github.com/MODSetter/SurfSense/issues/1889">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>desktop</category>
+    </item>
+    <item>
+      <title>[MODSetter/SurfSense] #1891 Trial and buy links in License settings, and fix the "renew from your account" copy (Solvability: 6/10)</title>
+      <link>https://github.com/MODSetter/SurfSense/issues/1891</link>
+      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1891</guid>
+      <pubDate>Wed, 23 Sep 2026 01:18:49 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16234 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1891 in MODSetter/SurfSense: Trial and buy links in License settings, and fix the "renew from your account" copy</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/MODSetter/SurfSense/issues/1891">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>desktop</category>
+    </item>
+    <item>
+      <title>[hackforla/website] #8798 Review Needed - New Wins Form Submission (Solvability: 6/10)</title>
+      <link>https://github.com/hackforla/website/issues/8798</link>
+      <guid isPermaLink="true">https://github.com/hackforla/website/issues/8798</guid>
+      <pubDate>Wed, 23 Sep 2026 01:36:48 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/hackforla/website">hackforla/website</a> (364 ⭐, JavaScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #8798 in hackforla/website: Review Needed - New Wins Form Submission</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
+<p><a href="https://github.com/hackforla/website/issues/8798">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>JavaScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>role: product</category>
+      <category>P-Feature: Wins Page</category>
+      <category>new-win-submission</category>
+      <category>size: missing</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30785 [good first issue] 🎍 Add new False Friend Pair 252 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30785</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30785</guid>
+      <pubDate>Wed, 23 Sep 2026 01:37:35 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3447 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30785 in lingdojo/kana-dojo: [good first issue] 🎍 Add new False Friend Pair 252 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30785">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30786 [good first issue] 🍜 Add new Etiquette Tip 320 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30786</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30786</guid>
+      <pubDate>Wed, 23 Sep 2026 02:01:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3447 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30786 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Etiquette Tip 320 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30786">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #30762 [good first issue] 🍛 Add new Anime Quote 512 (good-first-issue) (Solvability: 6/10)</title>
@@ -123,23 +403,6 @@
       <category>Rust</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[traceroot-ai/traceroot] #2271 feat(byok): support Claude Opus 5.5, new Anthropic frontier model, in TraceRoot BYOK modules (Solvability: 6/10)</title>
-      <link>https://github.com/traceroot-ai/traceroot/issues/2271</link>
-      <guid isPermaLink="true">https://github.com/traceroot-ai/traceroot/issues/2271</guid>
-      <pubDate>Tue, 22 Sep 2026 18:11:55 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/traceroot-ai/traceroot">traceroot-ai/traceroot</a> (775 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #2271 in traceroot-ai/traceroot: feat(byok): support Claude Opus 5.5, new Anthropic frontier model, in TraceRoot BYOK modules</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test frontend/packages/core/src/__tests__/llm-providers.test.ts</code></p>
-<p><a href="https://github.com/traceroot-ai/traceroot/issues/2271">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
       <category>good first issue</category>
     </item>
     <item>
@@ -756,283 +1019,6 @@
       <category>up-for-grabs</category>
       <category>first-timers-only</category>
       <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30702 [good first issue] 🎑 Add new Etiquette Tip 1059 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30702</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30702</guid>
-      <pubDate>Tue, 22 Sep 2026 00:37:29 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3440 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30702 in lingdojo/kana-dojo: [good first issue] 🎑 Add new Etiquette Tip 1059 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30702">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[Diegovsky/riff] #205 Icons for Missing Art (Solvability: 6/10)</title>
-      <link>https://github.com/Diegovsky/riff/issues/205</link>
-      <guid isPermaLink="true">https://github.com/Diegovsky/riff/issues/205</guid>
-      <pubDate>Tue, 22 Sep 2026 00:41:06 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Diegovsky/riff">Diegovsky/riff</a> (298 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #205 in Diegovsky/riff: Icons for Missing Art</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/Diegovsky/riff/issues/205">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>designer wanted</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30703 [good first issue] 🥢 Add new Example Sentence 486 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30703</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30703</guid>
-      <pubDate>Tue, 22 Sep 2026 01:00:57 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3440 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30703 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Example Sentence 486 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-example-sentences.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30703">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[fossasia/scrum_helper] #861 [Docs]: Update README.md to document GitLab and Codeberg platform support (Solvability: 6/10)</title>
-      <link>https://github.com/fossasia/scrum_helper/issues/861</link>
-      <guid isPermaLink="true">https://github.com/fossasia/scrum_helper/issues/861</guid>
-      <pubDate>Tue, 22 Sep 2026 01:29:49 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/fossasia/scrum_helper">fossasia/scrum_helper</a> (1323 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #861 in fossasia/scrum_helper: [Docs]: Update README.md to document GitLab and Codeberg platform support</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/fossasia/scrum_helper/issues/861">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hold</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30705 [good first issue] 🍁 Add new Learner Mistake 1090 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30705</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30705</guid>
-      <pubDate>Tue, 22 Sep 2026 01:37:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3440 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30705 in lingdojo/kana-dojo: [good first issue] 🍁 Add new Learner Mistake 1090 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-common-mistakes.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30705">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30709 [good first issue] 🌺 Add new Wallpaper URL #42 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30709</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30709</guid>
-      <pubDate>Tue, 22 Sep 2026 02:01:08 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3440 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30709 in lingdojo/kana-dojo: [good first issue] 🌺 Add new Wallpaper URL #42 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/community-wallpaper-urls.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30709">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-    </item>
-    <item>
-      <title>[roy-tong/AgentMeasure] #23 Good first issue: add native CSV export header aliases for one more vendor to registry/vendor-rules.json (Solvability: 6/10)</title>
-      <link>https://github.com/roy-tong/AgentMeasure/issues/23</link>
-      <guid isPermaLink="true">https://github.com/roy-tong/AgentMeasure/issues/23</guid>
-      <pubDate>Tue, 22 Sep 2026 02:04:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/roy-tong/AgentMeasure">roy-tong/AgentMeasure</a> (216 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #23 in roy-tong/AgentMeasure: Good first issue: add native CSV export header aliases for one more vendor to registry/vendor-rules.json</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest registry/vendor-rules.json</code></p>
-<p><a href="https://github.com/roy-tong/AgentMeasure/issues/23">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[roy-tong/AgentMeasure] #24 Good first issue: conformance vector for Anthropic stream usage that appears only in message_start (Solvability: 6/10)</title>
-      <link>https://github.com/roy-tong/AgentMeasure/issues/24</link>
-      <guid isPermaLink="true">https://github.com/roy-tong/AgentMeasure/issues/24</guid>
-      <pubDate>Tue, 22 Sep 2026 02:04:59 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/roy-tong/AgentMeasure">roy-tong/AgentMeasure</a> (216 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #24 in roy-tong/AgentMeasure: Good first issue: conformance vector for Anthropic stream usage that appears only in message_start</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/roy-tong/AgentMeasure/issues/24">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[roy-tong/AgentMeasure] #25 Good first issue: docs — 10-minute walkthrough: verify an outcome-billed support bill locally (Solvability: 6/10)</title>
-      <link>https://github.com/roy-tong/AgentMeasure/issues/25</link>
-      <guid isPermaLink="true">https://github.com/roy-tong/AgentMeasure/issues/25</guid>
-      <pubDate>Tue, 22 Sep 2026 02:05:00 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/roy-tong/AgentMeasure">roy-tong/AgentMeasure</a> (216 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #25 in roy-tong/AgentMeasure: Good first issue: docs — 10-minute walkthrough: verify an outcome-billed support bill locally</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest website/recount.html</code></p>
-<p><a href="https://github.com/roy-tong/AgentMeasure/issues/25">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30685 [good first issue] 🍜 Add new Dialect Entry 529 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30685</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30685</guid>
-      <pubDate>Mon, 21 Sep 2026 18:01:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3438 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30685 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Dialect Entry 529 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-regional-dialects.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30685">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[AcademySoftwareFoundation/OpenImageIO] #5489 feat: Automatic stub generation using nanobind stubgen (Solvability: 6/10)</title>
-      <link>https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/5489</link>
-      <guid isPermaLink="true">https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/5489</guid>
-      <pubDate>Mon, 21 Sep 2026 18:11:43 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/AcademySoftwareFoundation/OpenImageIO">AcademySoftwareFoundation/OpenImageIO</a> (2370 ⭐, C++)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #5489 in AcademySoftwareFoundation/OpenImageIO: feat: Automatic stub generation using nanobind stubgen</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/5489">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C++</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>python</category>
-    </item>
-    <item>
-      <title>[mlco2/codecarbon] #1422 Update the bibtex citation (Solvability: 6/10)</title>
-      <link>https://github.com/mlco2/codecarbon/issues/1422</link>
-      <guid isPermaLink="true">https://github.com/mlco2/codecarbon/issues/1422</guid>
-      <pubDate>Mon, 21 Sep 2026 18:35:13 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mlco2/codecarbon">mlco2/codecarbon</a> (1920 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1422 in mlco2/codecarbon: Update the bibtex citation</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest</code></p>
-<p><a href="https://github.com/mlco2/codecarbon/issues/1422">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30688 [good first issue] 🎎 Add new Example Sentence 767 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30688</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30688</guid>
-      <pubDate>Mon, 21 Sep 2026 19:01:08 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3438 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30688 in lingdojo/kana-dojo: [good first issue] 🎎 Add new Example Sentence 767 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-example-sentences.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30688">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[Cosmian/kms] #1207 [UI] Non friendly UI error upon destruction of keys (Solvability: 6/10)</title>
-      <link>https://github.com/Cosmian/kms/issues/1207</link>
-      <guid isPermaLink="true">https://github.com/Cosmian/kms/issues/1207</guid>
-      <pubDate>Mon, 21 Sep 2026 19:33:29 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Cosmian/kms">Cosmian/kms</a> (358 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1207 in Cosmian/kms: [UI] Non friendly UI error upon destruction of keys</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/Cosmian/kms/issues/1207">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>ui</category>
     </item>
   </channel>
 </rss>

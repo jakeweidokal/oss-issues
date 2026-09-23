@@ -89,6 +89,454 @@
     "discoveredAt": "2026-09-20T15:00:51.123Z"
   },
   {
+    "id": "I_kwDOMB5_ZM8AAAABSqLGOw",
+    "number": 5315,
+    "title": "[good-first-issue] tests: synchronize health-monitor fallback and recovery",
+    "url": "https://github.com/LMCache/LMCache/issues/5315",
+    "repo": "LMCache/LMCache",
+    "repoUrl": "https://github.com/LMCache/LMCache",
+    "stars": 11893,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "Testing",
+      "onboarding-2026"
+    ],
+    "createdAt": "2026-09-23T00:45:02Z",
+    "updatedAt": "2026-09-23T00:45:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/v1/test_health_monitor_fallback_recovery.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/v1/test_health_monitor_fallback_recovery.py"
+    ],
+    "summary": "Fix issue #5315 in LMCache/LMCache: [good-first-issue] tests: synchronize health-monitor fallback and recovery",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-23T02:12:38.020Z"
+  },
+  {
+    "id": "I_kwDOMB5_ZM8AAAABSqLHaQ",
+    "number": 5316,
+    "title": "[good-first-issue] tests: bound and diagnose RESP connector waits",
+    "url": "https://github.com/LMCache/LMCache/issues/5316",
+    "repo": "LMCache/LMCache",
+    "repoUrl": "https://github.com/LMCache/LMCache",
+    "stars": 11893,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "Testing",
+      "onboarding-2026"
+    ],
+    "createdAt": "2026-09-23T00:45:05Z",
+    "updatedAt": "2026-09-23T00:45:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/v1/storage_backend/test_resp_connector.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/v1/storage_backend/test_resp_connector.py"
+    ],
+    "summary": "Fix issue #5316 in LMCache/LMCache: [good-first-issue] tests: bound and diagnose RESP connector waits",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-23T02:12:34.904Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSqRUEw",
+    "number": 30784,
+    "title": "[good first issue] 🗻 Add new Dialect Entry 1087 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30784",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3447,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T01:01:00Z",
+    "updatedAt": "2026-09-23T01:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #30784 in lingdojo/kana-dojo: [good first issue] 🗻 Add new Dialect Entry 1087 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:12:31.892Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABSqWiKw",
+    "number": 1826,
+    "title": "Declare the Vulkan loader as a `.deb` dependency",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1826",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16234,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-23T01:14:18Z",
+    "updatedAt": "2026-09-23T01:14:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest surfsense_local/electron/electron-builder.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "surfsense_local/electron/electron-builder.yml"
+    ],
+    "summary": "Fix issue #1826 in MODSetter/SurfSense: Declare the Vulkan loader as a `.deb` dependency",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:12:28.513Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABSqWsHQ",
+    "number": 1830,
+    "title": "Reject prerelease tags in the release workflow",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1830",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16234,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-23T01:14:36Z",
+    "updatedAt": "2026-09-23T01:14:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest .github/workflows/release-local.yml",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/release-local.yml"
+    ],
+    "summary": "Fix issue #1830 in MODSetter/SurfSense: Reject prerelease tags in the release workflow",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:12:13.992Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABSqWwwA",
+    "number": 1832,
+    "title": "Finish the rename: window title, API title, README heading",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1832",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16234,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-23T01:14:44Z",
+    "updatedAt": "2026-09-23T01:14:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest surfsense_local/frontend/index.html",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "surfsense_local/frontend/index.html",
+      "surfsense_local/backend/api/main.py"
+    ],
+    "summary": "Fix issue #1832 in MODSetter/SurfSense: Finish the rename: window title, API title, README heading",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:12:00.181Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABSqW-Vw",
+    "number": 1838,
+    "title": "Carry old Hugging Face grants over to `host:huggingface.co` in a migration",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1838",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16234,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-23T01:15:09Z",
+    "updatedAt": "2026-09-23T01:15:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest surfsense_local/backend/alembic/versions/0008_egress_destinations.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "surfsense_local/backend/alembic/versions/0008_egress_destinations.py"
+    ],
+    "summary": "Fix issue #1838 in MODSetter/SurfSense: Carry old Hugging Face grants over to `host:huggingface.co` in a migration",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:11:46.561Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABSqYZjw",
+    "number": 1877,
+    "title": "Key the prompt-tier fallback on loopback, not the provider name",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1877",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16234,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-23T01:17:49Z",
+    "updatedAt": "2026-09-23T01:17:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest surfsense_local/backend/modules/egress/service.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "surfsense_local/backend/modules/egress/service.py"
+    ],
+    "summary": "Fix issue #1877 in MODSetter/SurfSense: Key the prompt-tier fallback on loopback, not the provider name",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:11:23.842Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABSqYdmA",
+    "number": 1878,
+    "title": "Fingerprint local models from `/props`, and remote rows without a `hugging_face_id` by name",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1878",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16234,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-23T01:17:54Z",
+    "updatedAt": "2026-09-23T01:17:54Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1878 in MODSetter/SurfSense: Fingerprint local models from `/props`, and remote rows without a `hugging_face_id` by name",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:11:08.462Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABSqYodg",
+    "number": 1883,
+    "title": "Install screen: show when the runtime is down, and check free disk space first",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1883",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16234,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-23T01:18:15Z",
+    "updatedAt": "2026-09-23T01:18:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1883 in MODSetter/SurfSense: Install screen: show when the runtime is down, and check free disk space first",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:10:42.491Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABSqY0lw",
+    "number": 1889,
+    "title": "`GET /workspaces/{id}/documents/{doc}` with the body",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1889",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16234,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-23T01:18:40Z",
+    "updatedAt": "2026-09-23T02:07:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest surfsense_backend/alembic/versions/127_add_report_content_type.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "surfsense_backend/alembic/versions/127_add_report_content_type.py",
+      "surfsense_backend/alembic/versions/133_drop_documents_content_hash_unique.py",
+      "surfsense_backend/alembic/versions/6_change_podcast_content_to_transcript.py"
+    ],
+    "summary": "Fix issue #1889 in MODSetter/SurfSense: `GET /workspaces/{id}/documents/{doc}` with the body",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:10:28.045Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABSqY4eg",
+    "number": 1891,
+    "title": "Trial and buy links in License settings, and fix the \"renew from your account\" copy",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1891",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16234,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-23T01:18:49Z",
+    "updatedAt": "2026-09-23T01:18:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1891 in MODSetter/SurfSense: Trial and buy links in License settings, and fix the \"renew from your account\" copy",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:10:13.968Z"
+  },
+  {
+    "id": "I_kwDOB7-mp88AAAABSqf2Pw",
+    "number": 8798,
+    "title": "Review Needed - New Wins Form Submission",
+    "url": "https://github.com/hackforla/website/issues/8798",
+    "repo": "hackforla/website",
+    "repoUrl": "https://github.com/hackforla/website",
+    "stars": 364,
+    "language": "JavaScript",
+    "labels": [
+      "good first issue",
+      "role: product",
+      "P-Feature: Wins Page",
+      "new-win-submission",
+      "size: missing"
+    ],
+    "createdAt": "2026-09-23T01:36:48Z",
+    "updatedAt": "2026-09-23T01:37:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8798 in hackforla/website: Review Needed - New Wins Form Submission",
+    "maintainerTurnaroundDays": 0.7,
+    "defaultBranch": "gh-pages",
+    "discoveredAt": "2026-09-23T02:09:59.162Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSqgH2g",
+    "number": 30785,
+    "title": "[good first issue] 🎍 Add new False Friend Pair 252 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30785",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3447,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T01:37:35Z",
+    "updatedAt": "2026-09-23T01:37:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #30785 in lingdojo/kana-dojo: [good first issue] 🎍 Add new False Friend Pair 252 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:09:55.582Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSqqy3Q",
+    "number": 30786,
+    "title": "[good first issue] 🍜 Add new Etiquette Tip 320 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30786",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3447,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T02:01:01Z",
+    "updatedAt": "2026-09-23T02:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-cultural-etiquette.json"
+    ],
+    "summary": "Fix issue #30786 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Etiquette Tip 320 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T02:09:52.290Z"
+  },
+  {
     "id": "I_kwDOOwsln88AAAABSmQvnQ",
     "number": 30762,
     "title": "[good first issue] 🍛 Add new Anime Quote 512 (good-first-issue)",
@@ -182,35 +630,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-22T20:36:34.796Z"
-  },
-  {
-    "id": "I_kwDOPRCe6c8AAAABSml5lA",
-    "number": 2271,
-    "title": "feat(byok): support Claude Opus 5.5, new Anthropic frontier model, in TraceRoot BYOK modules",
-    "url": "https://github.com/traceroot-ai/traceroot/issues/2271",
-    "repo": "traceroot-ai/traceroot",
-    "repoUrl": "https://github.com/traceroot-ai/traceroot",
-    "stars": 775,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-22T18:11:55Z",
-    "updatedAt": "2026-09-22T18:12:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test frontend/packages/core/src/__tests__/llm-providers.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "frontend/packages/core/src/llm-providers.ts",
-      "frontend/packages/core/src/__tests__/llm-providers.test.ts"
-    ],
-    "summary": "Fix issue #2271 in traceroot-ai/traceroot: feat(byok): support Claude Opus 5.5, new Anthropic frontier model, in TraceRoot BYOK modules",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T20:36:34.099Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSm1g2Q",
@@ -3529,33 +3948,6 @@
     "discoveredAt": "2026-09-20T02:04:32.998Z"
   },
   {
-    "id": "I_kwDOAeOl_88AAAABSLMj1g",
-    "number": 16418,
-    "title": "Daily tests failed on Sun Sep 20 2026",
-    "url": "https://github.com/python/typeshed/issues/16418",
-    "repo": "python/typeshed",
-    "repoUrl": "https://github.com/python/typeshed",
-    "stars": 5122,
-    "language": "Python",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-20T00:32:56Z",
-    "updatedAt": "2026-09-20T00:32:56Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #16418 in python/typeshed: Daily tests failed on Sun Sep 20 2026",
-    "maintainerTurnaroundDays": 0.3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-20T02:04:17.420Z"
-  },
-  {
     "id": "I_kwDOEMWEjc8AAAABSFk2nQ",
     "number": 2208,
     "title": "Downloads don't open in the default player",
@@ -4180,34 +4572,6 @@
     "discoveredAt": "2026-09-19T01:59:54.784Z"
   },
   {
-    "id": "I_kwDOFNYjbs8AAAABSAPdVQ",
-    "number": 3579,
-    "title": "Module/Provider Version Deprecation & Removal",
-    "url": "https://github.com/terrakube-io/terrakube/issues/3579",
-    "repo": "terrakube-io/terrakube",
-    "repoUrl": "https://github.com/terrakube-io/terrakube",
-    "stars": 961,
-    "language": "Java",
-    "labels": [
-      "enhancement",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T18:23:00Z",
-    "updatedAt": "2026-09-18T19:19:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3579 in terrakube-io/terrakube: Module/Provider Version Deprecation & Removal",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T20:07:42.545Z"
-  },
-  {
     "id": "I_kwDOBKnnxc8AAAABSBJTWQ",
     "number": 10152,
     "title": "Hybrid devices: UI shifts when switching between touch and mouse input (repro needed)",
@@ -4353,363 +4717,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-18T15:21:29.765Z"
-  },
-  {
-    "id": "I_kwDOTq8AqM8AAAABR-CKSQ",
-    "number": 730,
-    "title": "[Bug] 顶部图标显示没有对齐左侧栏的图标逻辑",
-    "url": "https://github.com/1lck/Lithe-IDEA/issues/730",
-    "repo": "1lck/Lithe-IDEA",
-    "repoUrl": "https://github.com/1lck/Lithe-IDEA",
-    "stars": 1383,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "P2",
-      "platform:macos",
-      "area:editor"
-    ],
-    "createdAt": "2026-09-18T14:39:05Z",
-    "updatedAt": "2026-09-18T14:39:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #730 in 1lck/Lithe-IDEA: [Bug] 顶部图标显示没有对齐左侧栏的图标逻辑",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:28.927Z"
-  },
-  {
-    "id": "I_kwDOB7-mp88AAAABR-EjBQ",
-    "number": 8791,
-    "title": "Update Project Profile: Hackforla.org Website Add Sushma Ramachandra Hegde",
-    "url": "https://github.com/hackforla/website/issues/8791",
-    "repo": "hackforla/website",
-    "repoUrl": "https://github.com/hackforla/website",
-    "stars": 364,
-    "language": "JavaScript",
-    "labels": [
-      "good first issue",
-      "role: front end",
-      "role: back end/devOps",
-      "P-Feature: Project Info and Page",
-      "time sensitive",
-      "size: 0.25pt"
-    ],
-    "createdAt": "2026-09-18T14:43:03Z",
-    "updatedAt": "2026-09-18T14:43:18Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8791 in hackforla/website: Update Project Profile: Hackforla.org Website Add Sushma Ramachandra Hegde",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "gh-pages",
-    "discoveredAt": "2026-09-18T15:21:25.565Z"
-  },
-  {
-    "id": "I_kwDOR0lbo88AAAABR5b4Ig",
-    "number": 387,
-    "title": "Keep CodeQL out of tests/ so the check means something again",
-    "url": "https://github.com/NovaCode37/Prism-platform/issues/387",
-    "repo": "NovaCode37/Prism-platform",
-    "repoUrl": "https://github.com/NovaCode37/Prism-platform",
-    "stars": 232,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "github_actions"
-    ],
-    "createdAt": "2026-09-18T05:33:19Z",
-    "updatedAt": "2026-09-18T05:33:19Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest .github/workflows/codeql.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".github/workflows/codeql.yml",
-      "modules/extra_tools.py"
-    ],
-    "summary": "Fix issue #387 in NovaCode37/Prism-platform: Keep CodeQL out of tests/ so the check means something again",
-    "maintainerTurnaroundDays": 0.9,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:32.561Z"
-  },
-  {
-    "id": "I_kwDOQGQhSc8AAAABR6e8Ag",
-    "number": 2415,
-    "title": "[BUG] Undoing an annotation deletion does not restore the original annotation source",
-    "url": "https://github.com/lightly-ai/lightly-studio/issues/2415",
-    "repo": "lightly-ai/lightly-studio",
-    "repoUrl": "https://github.com/lightly-ai/lightly-studio",
-    "stars": 889,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T07:55:26Z",
-    "updatedAt": "2026-09-18T09:40:47Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2415 in lightly-ai/lightly-studio: [BUG] Undoing an annotation deletion does not restore the original annotation source",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T10:11:23.550Z"
-  },
-  {
-    "id": "I_kwDORponss8AAAABR1VK3g",
-    "number": 135,
-    "title": "check_config_params.py ignores paths given on the command line, so a config outside its globs cannot be checked",
-    "url": "https://github.com/manankharwar/fusioncore/issues/135",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 363,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T19:20:34Z",
-    "updatedAt": "2026-09-17T19:20:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tools/check_config_params.py",
-      "fusioncore_gazebo/config/fusioncore_gazebo.yaml",
-      "fusioncore_datasets/config/nclt_fusioncore.yaml"
-    ],
-    "summary": "Fix issue #135 in manankharwar/fusioncore: check_config_params.py ignores paths given on the command line, so a config outside its globs cannot be checked",
-    "maintainerTurnaroundDays": 1.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T20:41:12.394Z"
-  },
-  {
-    "id": "I_kwDORponss8AAAABR1dMhg",
-    "number": 138,
-    "title": "Gates that stand down on purpose are indistinguishable from gates that never ran: add NOT_EVALUATED",
-    "url": "https://github.com/manankharwar/fusioncore/issues/138",
-    "repo": "manankharwar/fusioncore",
-    "repoUrl": "https://github.com/manankharwar/fusioncore",
-    "stars": 363,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T19:34:01Z",
-    "updatedAt": "2026-09-17T19:34:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #138 in manankharwar/fusioncore: Gates that stand down on purpose are indistinguishable from gates that never ran: add NOT_EVALUATED",
-    "maintainerTurnaroundDays": 1.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T20:41:09.509Z"
-  },
-  {
-    "id": "I_kwDON3kF8s8AAAABRyfVJQ",
-    "number": 1445,
-    "title": "Build on macos-15-intel is flaky",
-    "url": "https://github.com/containers/kubernetes-mcp-server/issues/1445",
-    "repo": "containers/kubernetes-mcp-server",
-    "repoUrl": "https://github.com/containers/kubernetes-mcp-server",
-    "stars": 2103,
-    "language": "Go",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-17T14:29:43Z",
-    "updatedAt": "2026-09-17T14:32:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1445 in containers/kubernetes-mcp-server: Build on macos-15-intel is flaky",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T15:49:13.138Z"
-  },
-  {
-    "id": "I_kwDOTZFfiM8AAAABRuon8A",
-    "number": 27,
-    "title": "Verify the player name is escaped before it reaches the SVG card",
-    "url": "https://github.com/CyberSunil/LLMVault/issues/27",
-    "repo": "CyberSunil/LLMVault",
-    "repoUrl": "https://github.com/CyberSunil/LLMVault",
-    "stars": 316,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "priority"
-    ],
-    "createdAt": "2026-09-17T08:08:28Z",
-    "updatedAt": "2026-09-17T08:12:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest card_svg.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "card_svg.py"
-    ],
-    "summary": "Fix issue #27 in CyberSunil/LLMVault: Verify the player name is escaped before it reaches the SVG card",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T10:34:57.728Z"
-  },
-  {
-    "id": "I_kwDOJJp4OM8AAAABRq8WrA",
-    "number": 285,
-    "title": "Add snapshot to clipboard feature for moonray_gui_v2",
-    "url": "https://github.com/OpenMoonRay/openmoonray/issues/285",
-    "repo": "OpenMoonRay/openmoonray",
-    "repoUrl": "https://github.com/OpenMoonRay/openmoonray",
-    "stars": 4725,
-    "language": "CMake",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-16T23:07:49Z",
-    "updatedAt": "2026-09-16T23:07:58Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #285 in OpenMoonRay/openmoonray: Add snapshot to clipboard feature for moonray_gui_v2",
-    "maintainerTurnaroundDays": 1.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-17T02:08:26.245Z"
-  },
-  {
-    "id": "I_kwDOK63vj88AAAABRcSSdg",
-    "number": 1209,
-    "title": "wdl-lint: always check struct doc comments in `MetaSections`",
-    "url": "https://github.com/stjude-rust-labs/sprocket/issues/1209",
-    "repo": "stjude-rust-labs/sprocket",
-    "repoUrl": "https://github.com/stjude-rust-labs/sprocket",
-    "stars": 207,
-    "language": "Rust",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "s-blocked"
-    ],
-    "createdAt": "2026-09-15T17:47:57Z",
-    "updatedAt": "2026-09-15T17:47:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test meta",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "crates/wdl-doc/src/meta.rs",
-      "crates/wdl-format/src/v1/meta.rs",
-      "crates/wdl-lint/src/rules/doc_meta_strings.rs"
-    ],
-    "summary": "Fix issue #1209 in stjude-rust-labs/sprocket: wdl-lint: always check struct doc comments in `MetaSections`",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T20:35:18.355Z"
-  },
-  {
-    "id": "I_kwDOD-GjqM8AAAABRW7BnQ",
-    "number": 5180,
-    "title": "Reminder: Update Hacktoberfest branding for this year",
-    "url": "https://github.com/owncast/owncast/issues/5180",
-    "repo": "owncast/owncast",
-    "repoUrl": "https://github.com/owncast/owncast",
-    "stars": 11527,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "help wanted",
-      "good first issue",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-15T09:00:26Z",
-    "updatedAt": "2026-09-15T09:00:26Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #5180 in owncast/owncast: Reminder: Update Hacktoberfest branding for this year",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-15T10:37:12.559Z"
-  },
-  {
-    "id": "I_kwDOAAq-cs8AAAABRXWV3g",
-    "number": 1026,
-    "title": "Implement comprehensive bulk permission assignment API with documentation and benchmarks",
-    "url": "https://github.com/django-guardian/django-guardian/issues/1026",
-    "repo": "django-guardian/django-guardian",
-    "repoUrl": "https://github.com/django-guardian/django-guardian",
-    "stars": 3913,
-    "language": "Python",
-    "labels": [
-      "proposal",
-      "documentation",
-      "more info required",
-      "performance",
-      "good first issue",
-      "needs documentation"
-    ],
-    "createdAt": "2026-09-15T09:46:40Z",
-    "updatedAt": "2026-09-15T09:46:41Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1026 in django-guardian/django-guardian: Implement comprehensive bulk permission assignment API with documentation and benchmarks",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-15T10:36:40.782Z"
   }
 ]
