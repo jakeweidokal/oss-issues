@@ -89,6 +89,459 @@
     "discoveredAt": "2026-09-20T15:00:51.123Z"
   },
   {
+    "id": "I_kwDOPc1QR88AAAABSsSZfQ",
+    "number": 62886,
+    "title": "[Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
+    "url": "https://github.com/github/gh-aw/issues/62886",
+    "repo": "github/gh-aw",
+    "repoUrl": "https://github.com/github/gh-aw",
+    "stars": 5171,
+    "language": "Go",
+    "labels": [
+      "safe-outputs",
+      "good-first-issue",
+      "automated",
+      "conformance"
+    ],
+    "createdAt": "2026-09-23T05:50:06Z",
+    "updatedAt": "2026-09-23T05:50:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./eslint-factory/src/rules",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "eslint-factory/src/rules/no-caught-error-interpolation.test.ts",
+      "eslint-factory/src/rules/no-caught-error-interpolation.ts",
+      "eslint-factory/src/rules/no-core-error-then-process-exit.test.ts"
+    ],
+    "summary": "Fix issue #62886 in github/gh-aw: [Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:25:02.287Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSsYDmg",
+    "number": 30796,
+    "title": "[good first issue] 🍜 Add new Anime Quote 465 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30796",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3446,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T06:01:02Z",
+    "updatedAt": "2026-09-23T06:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #30796 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Anime Quote 465 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:49.105Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSsqSLg",
+    "number": 30797,
+    "title": "[good first issue] 🍣 Add new Video Game Quote 875 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30797",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3446,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T06:37:32Z",
+    "updatedAt": "2026-09-23T06:37:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #30797 in lingdojo/kana-dojo: [good first issue] 🍣 Add new Video Game Quote 875 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:47.373Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSs2u7w",
+    "number": 30799,
+    "title": "[good first issue] 🌸 Add new Japanese Idiom 249 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30799",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3446,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T07:01:01Z",
+    "updatedAt": "2026-09-23T07:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #30799 in lingdojo/kana-dojo: [good first issue] 🌸 Add new Japanese Idiom 249 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:45.429Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABStMGDA",
+    "number": 30800,
+    "title": "[good first issue] 🍡 Add new Dialect Entry 341 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30800",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3446,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T07:37:29Z",
+    "updatedAt": "2026-09-23T07:37:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #30800 in lingdojo/kana-dojo: [good first issue] 🍡 Add new Dialect Entry 341 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:43.392Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABStwtmQ",
+    "number": 30803,
+    "title": "[good first issue] 🏮 Add new Etiquette Tip 395 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30803",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3446,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T08:37:32Z",
+    "updatedAt": "2026-09-23T08:37:35Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-cultural-etiquette.json"
+    ],
+    "summary": "Fix issue #30803 in lingdojo/kana-dojo: [good first issue] 🏮 Add new Etiquette Tip 395 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:41.564Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSt-rdg",
+    "number": 10844,
+    "title": "[Refactor♻️] Fix field reassignment in observability Prometheus test",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10844",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "refactor♻️",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-23T09:00:06Z",
+    "updatedAt": "2026-09-23T09:00:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test runtime_diagnostics",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-observability/src/runtime_diagnostics.rs"
+    ],
+    "summary": "Fix issue #10844 in mxsm/rocketmq-rust: [Refactor♻️] Fix field reassignment in observability Prometheus test",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:39.759Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSt_P7A",
+    "number": 30804,
+    "title": "[good first issue] 🎐 Add new Example Sentence 378 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30804",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3446,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T09:01:01Z",
+    "updatedAt": "2026-09-23T09:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #30804 in lingdojo/kana-dojo: [good first issue] 🎐 Add new Example Sentence 378 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:33.652Z"
+  },
+  {
+    "id": "I_kwDOACHoOs8AAAABSuMvSQ",
+    "number": 1819,
+    "title": "Add xCal conversion for icalendar.prop classes",
+    "url": "https://github.com/collective/icalendar/issues/1819",
+    "repo": "collective/icalendar",
+    "repoUrl": "https://github.com/collective/icalendar",
+    "stars": 1174,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "NLnet"
+    ],
+    "createdAt": "2026-09-23T09:22:40Z",
+    "updatedAt": "2026-09-23T09:25:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1819 in collective/icalendar: Add xCal conversion for icalendar.prop classes",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:31.630Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSuWnMw",
+    "number": 30805,
+    "title": "[good first issue] 🌸 Add new Learner Mistake 460 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30805",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3446,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T09:37:32Z",
+    "updatedAt": "2026-09-23T09:37:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #30805 in lingdojo/kana-dojo: [good first issue] 🌸 Add new Learner Mistake 460 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:30.847Z"
+  },
+  {
+    "id": "I_kwDORuSRRM8AAAABSuZm9A",
+    "number": 2509,
+    "title": "Test impact reports a failed head-commit read as a repository with no indexed head",
+    "url": "https://github.com/repowise-dev/repowise/issues/2509",
+    "repo": "repowise-dev/repowise",
+    "repoUrl": "https://github.com/repowise-dev/repowise",
+    "stars": 6962,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-23T09:42:12Z",
+    "updatedAt": "2026-09-23T09:56:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest packages/core/src/repowise/core/analysis/test_impact.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/core/src/repowise/core/analysis/test_impact.py",
+      "tests/unit/persistence/test_pr_test_impact_semantics.py",
+      "packages/server/src/repowise/server/mcp_server/tool_risk/directives.py"
+    ],
+    "summary": "Fix issue #2509 in repowise-dev/repowise: Test impact reports a failed head-commit read as a repository with no indexed head",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:28.248Z"
+  },
+  {
+    "id": "I_kwDODCtNAc8AAAABSulf3w",
+    "number": 19755,
+    "title": "OSS Basic-Auth has no in-app way to change the password once set",
+    "url": "https://github.com/kestra-io/kestra/issues/19755",
+    "repo": "kestra-io/kestra",
+    "repoUrl": "https://github.com/kestra-io/kestra",
+    "stars": 28291,
+    "language": "Java",
+    "labels": [
+      "area/backend",
+      "area/frontend",
+      "kind/security",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-23T10:00:20Z",
+    "updatedAt": "2026-09-23T10:05:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "ui/src/components/basicauth/BasicAuthSetup.vue",
+      "ui/src/override/stores/misc.ts"
+    ],
+    "summary": "Fix issue #19755 in kestra-io/kestra: OSS Basic-Auth has no in-app way to change the password once set",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-23T10:24:17.241Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABSumB9w",
+    "number": 30806,
+    "title": "[good first issue] 🏯 Add new Theme: Yukata Blue (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30806",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3446,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T10:01:07Z",
+    "updatedAt": "2026-09-23T10:01:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #30806 in lingdojo/kana-dojo: [good first issue] 🏯 Add new Theme: Yukata Blue (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:14.499Z"
+  },
+  {
+    "id": "I_kwDODTYuls8AAAABSusUVw",
+    "number": 12869,
+    "title": "TiktokenCounter raises ValueError on literal special-token strings like `<|endoftext|>`",
+    "url": "https://github.com/deepset-ai/haystack/issues/12869",
+    "repo": "deepset-ai/haystack",
+    "repoUrl": "https://github.com/deepset-ai/haystack",
+    "stars": 26582,
+    "language": "Python",
+    "labels": [
+      "good first issue",
+      "Contributions wanted!"
+    ],
+    "createdAt": "2026-09-23T10:11:23Z",
+    "updatedAt": "2026-09-23T10:13:29Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest haystack/token_counters/tiktoken_counter.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "haystack/token_counters/tiktoken_counter.py"
+    ],
+    "summary": "Fix issue #12869 in deepset-ai/haystack: TiktokenCounter raises ValueError on literal special-token strings like `<|endoftext|>`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T10:24:12.562Z"
+  },
+  {
     "id": "I_kwDOMB5_ZM8AAAABSqLGOw",
     "number": 5315,
     "title": "[good-first-issue] tests: synchronize health-monitor fallback and recovery",
@@ -1668,35 +2121,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-22T02:10:06.406Z"
-  },
-  {
-    "id": "I_kwDOBm6L588AAAABSd4ELg",
-    "number": 861,
-    "title": "[Docs]: Update README.md to document GitLab and Codeberg platform support",
-    "url": "https://github.com/fossasia/scrum_helper/issues/861",
-    "repo": "fossasia/scrum_helper",
-    "repoUrl": "https://github.com/fossasia/scrum_helper",
-    "stars": 1323,
-    "language": "JavaScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hold"
-    ],
-    "createdAt": "2026-09-22T01:29:49Z",
-    "updatedAt": "2026-09-22T01:29:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #861 in fossasia/scrum_helper: [Docs]: Update README.md to document GitLab and Codeberg platform support",
-    "maintainerTurnaroundDays": 1.6,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T02:10:05.114Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSd6szg",
@@ -4188,38 +4612,6 @@
     "discoveredAt": "2026-09-19T19:43:05.979Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABSHu5yQ",
-    "number": 10770,
-    "title": "[Test🧪] Add unit tests for the Topic deletion request and result classification",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10770",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1518,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "testing🧪",
-      "rocketmq-tools crate"
-    ],
-    "createdAt": "2026-09-19T14:52:14Z",
-    "updatedAt": "2026-09-19T14:52:14Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test deletion",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-tools/rocketmq-admin/rocketmq-admin-core/src/core/topic/deletion.rs"
-    ],
-    "summary": "Fix issue #10770 in mxsm/rocketmq-rust: [Test🧪] Add unit tests for the Topic deletion request and result classification",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T14:58:56.902Z"
-  },
-  {
     "id": "I_kwDOTX8R288AAAABSFZOGA",
     "number": 3752,
     "title": "deja sources should say when a store holds transcripts the index never read",
@@ -4360,362 +4752,5 @@
     "maintainerTurnaroundDays": 0.7,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-19T09:52:07.735Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABSCcE0A",
-    "number": 970,
-    "title": "Package LibreDB Studio for nixpkgs",
-    "url": "https://github.com/libredb/libredb-studio/issues/970",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 802,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "deployment",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-18T22:23:11Z",
-    "updatedAt": "2026-09-18T23:01:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test package.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "package.json",
-      "distribution/channels.yaml"
-    ],
-    "summary": "Fix issue #970 in libredb/libredb-studio: Package LibreDB Studio for nixpkgs",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T02:00:12.904Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABSCcZoQ",
-    "number": 971,
-    "title": "Publish libredb-studio-bin to the AUR",
-    "url": "https://github.com/libredb/libredb-studio/issues/971",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 802,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "good first issue",
-      "deployment",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-18T22:23:46Z",
-    "updatedAt": "2026-09-18T23:01:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packaging/linux/nfpm.yaml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packaging/linux/nfpm.yaml",
-      "distribution/channels.yaml"
-    ],
-    "summary": "Fix issue #971 in libredb/libredb-studio: Publish libredb-studio-bin to the AUR",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T02:00:10.311Z"
-  },
-  {
-    "id": "I_kwDORj6KWc8AAAABSCrZXQ",
-    "number": 199,
-    "title": "[good first issue] Browser recipes, round two: tab switching, zoom, address bar, fullscreen",
-    "url": "https://github.com/guaardvark/guaardvark/issues/199",
-    "repo": "guaardvark/guaardvark",
-    "repoUrl": "https://github.com/guaardvark/guaardvark",
-    "stars": 224,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-18T22:52:45Z",
-    "updatedAt": "2026-09-18T22:52:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest data/agent/recipes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "data/agent/recipes.json",
-      "cli/llx/commands/recipes.py"
-    ],
-    "summary": "Fix issue #199 in guaardvark/guaardvark: [good first issue] Browser recipes, round two: tab switching, zoom, address bar, fullscreen",
-    "maintainerTurnaroundDays": 1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T02:00:08.150Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABSCt-Vg",
-    "number": 973,
-    "title": "Proofread README_ja.md: no Japanese speaker has ever reviewed it",
-    "url": "https://github.com/libredb/libredb-studio/issues/973",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 802,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "help wanted",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-18T22:57:43Z",
-    "updatedAt": "2026-09-18T22:57:43Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test tests/unit/helm-chart-agent.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/unit/helm-chart-agent.test.ts",
-      "tests/unit/helm-chart-auth-cookie-secure.test.ts",
-      "tests/unit/helm-chart-auth-provider.test.ts"
-    ],
-    "summary": "Fix issue #973 in libredb/libredb-studio: Proofread README_ja.md: no Japanese speaker has ever reviewed it",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T02:00:05.819Z"
-  },
-  {
-    "id": "I_kwDOQuAx5c8AAAABSDJ1zw",
-    "number": 976,
-    "title": "Get LibreDB Studio listed in the CockroachDB docs",
-    "url": "https://github.com/libredb/libredb-studio/issues/976",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 802,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T00:03:04Z",
-    "updatedAt": "2026-09-19T00:07:22Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test database-compose.yml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "database-compose.yml",
-      "distribution/channels.yaml"
-    ],
-    "summary": "Fix issue #976 in libredb/libredb-studio: Get LibreDB Studio listed in the CockroachDB docs",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T02:00:01.976Z"
-  },
-  {
-    "id": "I_kwDOFpb_as8AAAABSDVklg",
-    "number": 186,
-    "title": "Noise-removal regex over-matches, silently deleting real article content",
-    "url": "https://github.com/mldsveda/PyScrappy/issues/186",
-    "repo": "mldsveda/PyScrappy",
-    "repoUrl": "https://github.com/mldsveda/PyScrappy",
-    "stars": 256,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T00:27:03Z",
-    "updatedAt": "2026-09-19T00:27:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest src/pyscrappy/mcp/__main__.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/pyscrappy/mcp/__main__.py"
-    ],
-    "summary": "Fix issue #186 in mldsveda/PyScrappy: Noise-removal regex over-matches, silently deleting real article content",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T01:59:55.417Z"
-  },
-  {
-    "id": "I_kwDOFpb_as8AAAABSDV84Q",
-    "number": 187,
-    "title": "Numbered pagination never advances from a page-1 URL that has no page parameter",
-    "url": "https://github.com/mldsveda/PyScrappy/issues/187",
-    "repo": "mldsveda/PyScrappy",
-    "repoUrl": "https://github.com/mldsveda/PyScrappy",
-    "stars": 256,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T00:27:52Z",
-    "updatedAt": "2026-09-19T00:27:52Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest src/pyscrappy/mcp/__main__.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/pyscrappy/mcp/__main__.py",
-      "tests/test_generic/test_pagination_offsets.py"
-    ],
-    "summary": "Fix issue #187 in mldsveda/PyScrappy: Numbered pagination never advances from a page-1 URL that has no page parameter",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T01:59:54.784Z"
-  },
-  {
-    "id": "I_kwDOBKnnxc8AAAABSBJTWQ",
-    "number": 10152,
-    "title": "Hybrid devices: UI shifts when switching between touch and mouse input (repro needed)",
-    "url": "https://github.com/super-productivity/super-productivity/issues/10152",
-    "repo": "super-productivity/super-productivity",
-    "repoUrl": "https://github.com/super-productivity/super-productivity",
-    "stars": 22117,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T19:55:55Z",
-    "updatedAt": "2026-09-18T19:55:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test e2e/tests/planner/planner-subtask-scheduled-visibility.spec.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "e2e/tests/planner/planner-subtask-scheduled-visibility.spec.ts",
-      "e2e/tests/planner/planner-task-visibility.spec.ts",
-      "e2e/tests/plugins/test-plugin-visibility.spec.ts"
-    ],
-    "summary": "Fix issue #10152 in super-productivity/super-productivity: Hybrid devices: UI shifts when switching between touch and mouse input (repro needed)",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-18T20:07:00.716Z"
-  },
-  {
-    "id": "I_kwDOQHh8ns8AAAABSBBNFw",
-    "number": 3109,
-    "title": "feat(workflows): bind nested workflows to explicit repositories and worktrees",
-    "url": "https://github.com/bastani-inc/atomic/issues/3109",
-    "repo": "bastani-inc/atomic",
-    "repoUrl": "https://github.com/bastani-inc/atomic",
-    "stars": 805,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-18T19:41:12Z",
-    "updatedAt": "2026-09-18T19:41:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/ai/test/openai-completions-thinking-token-budget.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/ai/test/openai-completions-thinking-token-budget.test.ts",
-      "packages/workflows/src/engine/run-budget.ts",
-      "packages/workflows/src/extension/workflow-budget-schema.ts"
-    ],
-    "summary": "Fix issue #3109 in bastani-inc/atomic: feat(workflows): bind nested workflows to explicit repositories and worktrees",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T20:06:34.485Z"
-  },
-  {
-    "id": "I_kwDODmAYMc8AAAABR-YdAQ",
-    "number": 3492,
-    "title": "Support for cursors change",
-    "url": "https://github.com/f3d-app/f3d/issues/3492",
-    "repo": "f3d-app/f3d",
-    "repoUrl": "https://github.com/f3d-app/f3d",
-    "stars": 4699,
-    "language": "C++",
-    "labels": [
-      "source:VTK",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T15:13:28Z",
-    "updatedAt": "2026-09-18T15:13:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3492 in f3d-app/f3d: Support for cursors change",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-18T15:21:54.928Z"
-  },
-  {
-    "id": "I_kwDOOHn12s8AAAABR9wDrA",
-    "number": 889,
-    "title": "Rename \"fusion\" to \"v2\" in toolset and tool names",
-    "url": "https://github.com/dbt-labs/dbt-mcp/issues/889",
-    "repo": "dbt-labs/dbt-mcp",
-    "repoUrl": "https://github.com/dbt-labs/dbt-mcp",
-    "stars": 606,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-18T14:11:21Z",
-    "updatedAt": "2026-09-18T14:46:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest src/dbt_mcp/tools/toolsets.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/dbt_mcp/tools/toolsets.py",
-      "src/dbt_mcp/tools/tool_names.py",
-      "src/dbt_mcp/tools/readme_mappings.py"
-    ],
-    "summary": "Fix issue #889 in dbt-labs/dbt-mcp: Rename \"fusion\" to \"v2\" in toolset and tool names",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:30.310Z"
-  },
-  {
-    "id": "I_kwDOIiXuds8AAAABR-BNUw",
-    "number": 3143,
-    "title": "📣 Using FastStream in production? Add your organization to ADOPTERS.md",
-    "url": "https://github.com/ag2ai/faststream/issues/3143",
-    "repo": "ag2ai/faststream",
-    "repoUrl": "https://github.com/ag2ai/faststream",
-    "stars": 5343,
-    "language": "Python",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-18T14:37:30Z",
-    "updatedAt": "2026-09-18T14:37:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3143 in ag2ai/faststream: 📣 Using FastStream in production? Add your organization to ADOPTERS.md",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-18T15:21:29.765Z"
   }
 ]
