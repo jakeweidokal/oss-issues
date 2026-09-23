@@ -89,6 +89,437 @@
     "discoveredAt": "2026-09-20T15:00:51.123Z"
   },
   {
+    "id": "I_kwDOOwsln88AAAABSx9GTw",
+    "number": 30826,
+    "title": "[good first issue] 🥢 Add new Learner Mistake 1192 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30826",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3448,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-23T15:01:01Z",
+    "updatedAt": "2026-09-23T15:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #30826 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Learner Mistake 1192 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:49.480Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABSyHL1g",
+    "number": 553,
+    "title": "Shift + a non-ASCII letter does not trigger its uppercase binding (Ö, É)",
+    "url": "https://github.com/LargeModGames/spotatui/issues/553",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1378,
+    "language": "Rust",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-23T15:14:47Z",
+    "updatedAt": "2026-09-23T15:14:47Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test key",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/tui/event/key.rs",
+      "src/gates.rs"
+    ],
+    "summary": "Fix issue #553 in LargeModGames/spotatui: Shift + a non-ASCII letter does not trigger its uppercase binding (Ö, É)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:48.147Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyOTFg",
+    "number": 10857,
+    "title": "[Bug🐛] Return an error when delay-level milliseconds overflow",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10857",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "bug🐛",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-23T15:24:14Z",
+    "updatedAt": "2026-09-23T15:24:14Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test string_utils",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-model/src/utils/string_utils.rs"
+    ],
+    "summary": "Fix issue #10857 in mxsm/rocketmq-rust: [Bug🐛] Return an error when delay-level milliseconds overflow",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:46.176Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyOVeQ",
+    "number": 10858,
+    "title": "[Bug🐛] Reject bit lengths beyond BitsArray byte storage",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10858",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "bug🐛",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-23T15:24:17Z",
+    "updatedAt": "2026-09-23T15:24:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test bits_array",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-filter/src/utils/bits_array.rs"
+    ],
+    "summary": "Fix issue #10858 in mxsm/rocketmq-rust: [Bug🐛] Reject bit lengths beyond BitsArray byte storage",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:38.926Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyOYpA",
+    "number": 10859,
+    "title": "[Bug🐛] Avoid duplicate default FAQ links on repeated attachment",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10859",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "bug🐛",
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy"
+    ],
+    "createdAt": "2026-09-23T15:24:20Z",
+    "updatedAt": "2026-09-23T15:24:20Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test faq",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-model/src/common/faq.rs"
+    ],
+    "summary": "Fix issue #10859 in mxsm/rocketmq-rust: [Bug🐛] Avoid duplicate default FAQ links on repeated attachment",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:32.216Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyObGQ",
+    "number": 10860,
+    "title": "[Test🧪] Cover raw and compressed MessageBody behavior",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10860",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-23T15:24:23Z",
+    "updatedAt": "2026-09-23T15:24:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test message_body",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-model/src/common/message/message_body.rs"
+    ],
+    "summary": "Fix issue #10860 in mxsm/rocketmq-rust: [Test🧪] Cover raw and compressed MessageBody behavior",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:26.487Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyOdxg",
+    "number": 10861,
+    "title": "[Test🧪] Cover MessageFlag composition and unknown-bit preservation",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10861",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-23T15:24:26Z",
+    "updatedAt": "2026-09-23T15:24:26Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test message_flag",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-model/src/common/message/message_flag.rs"
+    ],
+    "summary": "Fix issue #10861 in mxsm/rocketmq-rust: [Test🧪] Cover MessageFlag composition and unknown-bit preservation",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:21.132Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyO0Cg",
+    "number": 10862,
+    "title": "[Test🧪] Cover MessageClientExt message ID precedence",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10862",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-23T15:24:55Z",
+    "updatedAt": "2026-09-23T15:24:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test message_client_ext",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-model/src/common/message/message_client_ext.rs"
+    ],
+    "summary": "Fix issue #10862 in mxsm/rocketmq-rust: [Test🧪] Cover MessageClientExt message ID precedence",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:16.507Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyO2Jg",
+    "number": 10863,
+    "title": "[Test🧪] Cover MessageAccessor clone_message field independence",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10863",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-23T15:24:58Z",
+    "updatedAt": "2026-09-23T15:24:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test message_accessor",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-model/src/common/message/message_accessor.rs"
+    ],
+    "summary": "Fix issue #10863 in mxsm/rocketmq-rust: [Test🧪] Cover MessageAccessor clone_message field independence",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:11.750Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyO4vQ",
+    "number": 10864,
+    "title": "[Test🧪] Cover TopicMessageType property precedence",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10864",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-23T15:25:01Z",
+    "updatedAt": "2026-09-23T15:25:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test topic",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-model/src/topic.rs"
+    ],
+    "summary": "Fix issue #10864 in mxsm/rocketmq-rust: [Test🧪] Cover TopicMessageType property precedence",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:07.095Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyO7Yw",
+    "number": 10865,
+    "title": "[Test🧪] Cover HandlerChain cursor behavior after terminal handlers",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10865",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-23T15:25:04Z",
+    "updatedAt": "2026-09-23T15:25:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test chain",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-model/src/common/chain.rs"
+    ],
+    "summary": "Fix issue #10865 in mxsm/rocketmq-rust: [Test🧪] Cover HandlerChain cursor behavior after terminal handlers",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:42:02.271Z"
+  },
+  {
+    "id": "I_kwDOK5M3Is8AAAABSyPKjg",
+    "number": 10866,
+    "title": "[Test🧪] Cover filter Value truthiness at SQL NOT boundary",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10866",
+    "repo": "mxsm/rocketmq-rust",
+    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
+    "stars": 1521,
+    "language": "Rust",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "rust",
+      "Difficulty level/Easy",
+      "testing🧪"
+    ],
+    "createdAt": "2026-09-23T15:25:23Z",
+    "updatedAt": "2026-09-23T15:25:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test expression",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "rocketmq-filter/src/expression.rs"
+    ],
+    "summary": "Fix issue #10866 in mxsm/rocketmq-rust: [Test🧪] Cover filter Value truthiness at SQL NOT boundary",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:41:57.635Z"
+  },
+  {
+    "id": "I_kwDOFZwc388AAAABSyQ5dw",
+    "number": 1442,
+    "title": "ci: pass release tag values through env vars on v2",
+    "url": "https://github.com/oras-project/oras-go/issues/1442",
+    "repo": "oras-project/oras-go",
+    "repoUrl": "https://github.com/oras-project/oras-go",
+    "stars": 290,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "v2"
+    ],
+    "createdAt": "2026-09-23T15:27:43Z",
+    "updatedAt": "2026-09-23T15:27:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./.github/workflows",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/release.yml"
+    ],
+    "summary": "Fix issue #1442 in oras-project/oras-go: ci: pass release tag values through env vars on v2",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:41:52.929Z"
+  },
+  {
+    "id": "I_kwDOFZwc388AAAABSyZLeg",
+    "number": 1443,
+    "title": "auth: the legacy config fallback in GetAuthConfig matches path-bearing keys, so a host lookup can return a namespaced credential",
+    "url": "https://github.com/oras-project/oras-go/issues/1443",
+    "repo": "oras-project/oras-go",
+    "repoUrl": "https://github.com/oras-project/oras-go",
+    "stars": 290,
+    "language": "Go",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "v3"
+    ],
+    "createdAt": "2026-09-23T15:39:05Z",
+    "updatedAt": "2026-09-23T15:39:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1443 in oras-project/oras-go: auth: the legacy config fallback in GetAuthConfig matches path-bearing keys, so a host lookup can return a namespaced credential",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-23T15:41:52.217Z"
+  },
+  {
     "id": "I_kwDOPc1QR88AAAABSsSZfQ",
     "number": 62886,
     "title": "[Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
@@ -1583,40 +2014,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-22T15:52:53.843Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSj_KuA",
-    "number": 30751,
-    "title": "[good first issue] 🍱 Add new Example Sentence 1208 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30751",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3445,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T14:01:06Z",
-    "updatedAt": "2026-09-22T14:01:11Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-example-sentences.json"
-    ],
-    "summary": "Fix issue #30751 in lingdojo/kana-dojo: [good first issue] 🍱 Add new Example Sentence 1208 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T15:52:51.538Z"
   },
   {
     "id": "I_kwDOO_fYBc8AAAABSgZM_g",
@@ -4343,35 +4740,6 @@
     "discoveredAt": "2026-09-20T02:04:46.701Z"
   },
   {
-    "id": "I_kwDOEd-da88AAAABSJ_w0g",
-    "number": 6771,
-    "title": "Two maps created with `om`, seem to share the same underlying buffer",
-    "url": "https://github.com/rizinorg/rizin/issues/6771",
-    "repo": "rizinorg/rizin",
-    "repoUrl": "https://github.com/rizinorg/rizin",
-    "stars": 3904,
-    "language": "C",
-    "labels": [
-      "bug",
-      "help wanted",
-      "RzIO"
-    ],
-    "createdAt": "2026-09-19T20:36:36Z",
-    "updatedAt": "2026-09-19T20:36:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #6771 in rizinorg/rizin: Two maps created with `om`, seem to share the same underlying buffer",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "dev",
-    "discoveredAt": "2026-09-20T02:04:32.998Z"
-  },
-  {
     "id": "I_kwDOEMWEjc8AAAABSFk2nQ",
     "number": 2208,
     "title": "Downloads don't open in the default player",
@@ -4398,359 +4766,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-20T02:04:15.791Z"
-  },
-  {
-    "id": "I_kwDORWY2D88AAAABSIBDGw",
-    "number": 592,
-    "title": "Replace `#defines` with constexpr",
-    "url": "https://github.com/p3d-project/persona-3-dual/issues/592",
-    "repo": "p3d-project/persona-3-dual",
-    "repoUrl": "https://github.com/p3d-project/persona-3-dual",
-    "stars": 233,
-    "language": "C++",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T15:35:05Z",
-    "updatedAt": "2026-09-19T17:00:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #592 in p3d-project/persona-3-dual: Replace `#defines` with constexpr",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T19:43:26.306Z"
-  },
-  {
-    "id": "I_kwDODgj3cc8AAAABSIKVrw",
-    "number": 22017,
-    "title": "[FEATURE] Add tawk.to actions to Pipedream MCP",
-    "url": "https://github.com/PipedreamHQ/pipedream/issues/22017",
-    "repo": "PipedreamHQ/pipedream",
-    "repoUrl": "https://github.com/PipedreamHQ/pipedream",
-    "stars": 11698,
-    "language": "JavaScript",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "action"
-    ],
-    "createdAt": "2026-09-19T15:54:03Z",
-    "updatedAt": "2026-09-19T15:54:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #22017 in PipedreamHQ/pipedream: [FEATURE] Add tawk.to actions to Pipedream MCP",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-19T19:43:24.815Z"
-  },
-  {
-    "id": "I_kwDORWY2D88AAAABSIN_DA",
-    "number": 595,
-    "title": "Investigate & fix `-Warray-bounds` warning on battleActions code",
-    "url": "https://github.com/p3d-project/persona-3-dual/issues/595",
-    "repo": "p3d-project/persona-3-dual",
-    "repoUrl": "https://github.com/p3d-project/persona-3-dual",
-    "stars": 233,
-    "language": "C++",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T16:02:22Z",
-    "updatedAt": "2026-09-19T17:00:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #595 in p3d-project/persona-3-dual: Investigate & fix `-Warray-bounds` warning on battleActions code",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T19:43:16.451Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSIlPog",
-    "number": 3797,
-    "title": "guide pages for deleting Amp and Continue history",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3797",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 863,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T16:50:45Z",
-    "updatedAt": "2026-09-19T16:50:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "go test -v ./docs/registry",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/registry/amp.html",
-      "docs/registry/continue.html",
-      "docs/guide/delete-cline-task-history.html"
-    ],
-    "summary": "Fix issue #3797 in vshulcz/deja-vu: guide pages for deleting Amp and Continue history",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T19:43:14.778Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSIlbfA",
-    "number": 3798,
-    "title": "lost-context in Chinese",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3798",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 863,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T16:51:06Z",
-    "updatedAt": "2026-09-19T16:51:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./cmd/deja",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "cmd/deja/docs_hreflang_test.go"
-    ],
-    "summary": "Fix issue #3798 in vshulcz/deja-vu: lost-context in Chinese",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T19:43:13.633Z"
-  },
-  {
-    "id": "I_kwDOSP_2Ts8AAAABSJd3UA",
-    "number": 1892,
-    "title": "站点把自己的安装页藏起来了：首页与导航都不链接 /install",
-    "url": "https://github.com/Ikalus1988/MisakaNet/issues/1892",
-    "repo": "Ikalus1988/MisakaNet",
-    "repoUrl": "https://github.com/Ikalus1988/MisakaNet",
-    "stars": 493,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue",
-      "ready",
-      "frontend",
-      "area:site",
-      "priority:medium"
-    ],
-    "createdAt": "2026-09-19T19:02:33Z",
-    "updatedAt": "2026-09-19T19:02:44Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest docs/install/index.html",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/install/index.html",
-      "docs/index.html",
-      "tests/test_setup_docs_consistency.py"
-    ],
-    "summary": "Fix issue #1892 in Ikalus1988/MisakaNet: 站点把自己的安装页藏起来了：首页与导航都不链接 /install",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T19:43:07.259Z"
-  },
-  {
-    "id": "I_kwDOSP_2Ts8AAAABSJd3sQ",
-    "number": 1893,
-    "title": "Quickstart 每步加「复制」按钮，并给每步一条可自检的完成信号",
-    "url": "https://github.com/Ikalus1988/MisakaNet/issues/1893",
-    "repo": "Ikalus1988/MisakaNet",
-    "repoUrl": "https://github.com/Ikalus1988/MisakaNet",
-    "stars": 493,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "ready",
-      "frontend",
-      "area:site",
-      "priority:medium"
-    ],
-    "createdAt": "2026-09-19T19:02:35Z",
-    "updatedAt": "2026-09-19T19:02:56Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest integrations/agent-autostart/install_misakanet_agent.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "integrations/agent-autostart/install_misakanet_agent.py",
-      "integrations/langchain/misakanet_tool.py",
-      "integrations/llamaindex/misakanet_tool.py"
-    ],
-    "summary": "Fix issue #1893 in Ikalus1988/MisakaNet: Quickstart 每步加「复制」按钮，并给每步一条可自检的完成信号",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T19:43:05.979Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSFZOGA",
-    "number": 3752,
-    "title": "deja sources should say when a store holds transcripts the index never read",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3752",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 855,
-    "language": "Go",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T07:38:45Z",
-    "updatedAt": "2026-09-19T07:38:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3752 in vshulcz/deja-vu: deja sources should say when a store holds transcripts the index never read",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:13.502Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSFZR4A",
-    "number": 3753,
-    "title": "deja forget --list should mark a tombstone whose session no longer exists",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3753",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 855,
-    "language": "Go",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T07:38:58Z",
-    "updatedAt": "2026-09-19T07:38:58Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3753 in vshulcz/deja-vu: deja forget --list should mark a tombstone whose session no longer exists",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:12.181Z"
-  },
-  {
-    "id": "I_kwDOTX8R288AAAABSFZXFQ",
-    "number": 3754,
-    "title": "a guide page for deleting Kiro session history",
-    "url": "https://github.com/vshulcz/deja-vu/issues/3754",
-    "repo": "vshulcz/deja-vu",
-    "repoUrl": "https://github.com/vshulcz/deja-vu",
-    "stars": 855,
-    "language": "Go",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T07:39:13Z",
-    "updatedAt": "2026-09-19T07:39:13Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./docs/guide",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/guide/delete-opencode-session-history.html",
-      "docs/registry/kiro.html"
-    ],
-    "summary": "Fix issue #3754 in vshulcz/deja-vu: a guide page for deleting Kiro session history",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:10.914Z"
-  },
-  {
-    "id": "I_kwDORxJAr88AAAABSFvXhg",
-    "number": 58,
-    "title": "Good first issue: add your model's tool-call output as a parser test case",
-    "url": "https://github.com/nicedreamzapp/claude-code-local/issues/58",
-    "repo": "nicedreamzapp/claude-code-local",
-    "repoUrl": "https://github.com/nicedreamzapp/claude-code-local",
-    "stars": 3320,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-19T08:54:52Z",
-    "updatedAt": "2026-09-19T08:54:52Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest scripts/test_parse_tool_calls.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "scripts/test_parse_tool_calls.py"
-    ],
-    "summary": "Fix issue #58 in nicedreamzapp/claude-code-local: Good first issue: add your model's tool-call output as a parser test case",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:09.606Z"
-  },
-  {
-    "id": "I_kwDONN8FYs8AAAABSFyn3A",
-    "number": 233,
-    "title": "feat: bonjour! 平台支持",
-    "url": "https://github.com/leaperone/MultiPost-Extension/issues/233",
-    "repo": "leaperone/MultiPost-Extension",
-    "repoUrl": "https://github.com/leaperone/MultiPost-Extension",
-    "stars": 3500,
-    "language": "TypeScript",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "help wanted",
-      "customer",
-      "needs-info"
-    ],
-    "createdAt": "2026-09-19T09:05:55Z",
-    "updatedAt": "2026-09-19T09:06:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #233 in leaperone/MultiPost-Extension: feat: bonjour! 平台支持",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-19T09:52:07.735Z"
   }
 ]

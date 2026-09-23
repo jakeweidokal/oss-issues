@@ -10442,7 +10442,8 @@
     "repo": "vshulcz/deja-vu",
     "title": "deja sources should say when a store holds transcripts the index never read",
     "discoveredAt": "2026-09-19T09:52:13.502Z",
-    "status": "published"
+    "status": "claimed",
+    "reason": "Removed during reconciliation (claimed)"
   },
   "I_kwDOCVKAsc8AAAABSFYMhg": {
     "id": "I_kwDOCVKAsc8AAAABSFYMhg",
@@ -10773,7 +10774,8 @@
     "repo": "rizinorg/rizin",
     "title": "Two maps created with `om`, seem to share the same underlying buffer",
     "discoveredAt": "2026-09-20T02:04:32.998Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOCCF3gM8AAAABSJ_tbA": {
     "id": "I_kwDOCCF3gM8AAAABSJ_tbA",
@@ -11879,7 +11881,8 @@
     "repo": "lingdojo/kana-dojo",
     "title": "[good first issue] 🍱 Add new Example Sentence 1208 (good-first-issue)",
     "discoveredAt": "2026-09-22T15:52:51.538Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOOwsln88AAAABSjS0wg": {
     "id": "I_kwDOOwsln88AAAABSjS0wg",
@@ -12272,6 +12275,126 @@
     "repo": "github/gh-aw",
     "title": "[Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
     "discoveredAt": "2026-09-23T10:25:02.287Z",
+    "status": "published"
+  },
+  "I_kwDOFZwc388AAAABSyZLeg": {
+    "id": "I_kwDOFZwc388AAAABSyZLeg",
+    "url": "https://github.com/oras-project/oras-go/issues/1443",
+    "repo": "oras-project/oras-go",
+    "title": "auth: the legacy config fallback in GetAuthConfig matches path-bearing keys, so a host lookup can return a namespaced credential",
+    "discoveredAt": "2026-09-23T15:41:52.217Z",
+    "status": "published"
+  },
+  "I_kwDOFZwc388AAAABSyQ5dw": {
+    "id": "I_kwDOFZwc388AAAABSyQ5dw",
+    "url": "https://github.com/oras-project/oras-go/issues/1442",
+    "repo": "oras-project/oras-go",
+    "title": "ci: pass release tag values through env vars on v2",
+    "discoveredAt": "2026-09-23T15:41:52.929Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyPKjg": {
+    "id": "I_kwDOK5M3Is8AAAABSyPKjg",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10866",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Test🧪] Cover filter Value truthiness at SQL NOT boundary",
+    "discoveredAt": "2026-09-23T15:41:57.635Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyO7Yw": {
+    "id": "I_kwDOK5M3Is8AAAABSyO7Yw",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10865",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Test🧪] Cover HandlerChain cursor behavior after terminal handlers",
+    "discoveredAt": "2026-09-23T15:42:02.271Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyO4vQ": {
+    "id": "I_kwDOK5M3Is8AAAABSyO4vQ",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10864",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Test🧪] Cover TopicMessageType property precedence",
+    "discoveredAt": "2026-09-23T15:42:07.095Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyO2Jg": {
+    "id": "I_kwDOK5M3Is8AAAABSyO2Jg",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10863",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Test🧪] Cover MessageAccessor clone_message field independence",
+    "discoveredAt": "2026-09-23T15:42:11.750Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyO0Cg": {
+    "id": "I_kwDOK5M3Is8AAAABSyO0Cg",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10862",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Test🧪] Cover MessageClientExt message ID precedence",
+    "discoveredAt": "2026-09-23T15:42:16.507Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyOdxg": {
+    "id": "I_kwDOK5M3Is8AAAABSyOdxg",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10861",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Test🧪] Cover MessageFlag composition and unknown-bit preservation",
+    "discoveredAt": "2026-09-23T15:42:21.132Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyObGQ": {
+    "id": "I_kwDOK5M3Is8AAAABSyObGQ",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10860",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Test🧪] Cover raw and compressed MessageBody behavior",
+    "discoveredAt": "2026-09-23T15:42:26.487Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyOYpA": {
+    "id": "I_kwDOK5M3Is8AAAABSyOYpA",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10859",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Bug🐛] Avoid duplicate default FAQ links on repeated attachment",
+    "discoveredAt": "2026-09-23T15:42:32.216Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyOVeQ": {
+    "id": "I_kwDOK5M3Is8AAAABSyOVeQ",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10858",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Bug🐛] Reject bit lengths beyond BitsArray byte storage",
+    "discoveredAt": "2026-09-23T15:42:38.926Z",
+    "status": "published"
+  },
+  "I_kwDOK5M3Is8AAAABSyOTFg": {
+    "id": "I_kwDOK5M3Is8AAAABSyOTFg",
+    "url": "https://github.com/mxsm/rocketmq-rust/issues/10857",
+    "repo": "mxsm/rocketmq-rust",
+    "title": "[Bug🐛] Return an error when delay-level milliseconds overflow",
+    "discoveredAt": "2026-09-23T15:42:46.176Z",
+    "status": "published"
+  },
+  "I_kwDOQS9jlc8AAAABSyHM5g": {
+    "id": "I_kwDOQS9jlc8AAAABSyHM5g",
+    "url": "https://github.com/LargeModGames/spotatui/issues/554",
+    "repo": "LargeModGames/spotatui",
+    "title": "ctrl-- and alt-- keybindings fail to parse, and Settings drops them silently",
+    "discoveredAt": "2026-09-23T15:42:47.149Z",
+    "status": "published"
+  },
+  "I_kwDOQS9jlc8AAAABSyHL1g": {
+    "id": "I_kwDOQS9jlc8AAAABSyHL1g",
+    "url": "https://github.com/LargeModGames/spotatui/issues/553",
+    "repo": "LargeModGames/spotatui",
+    "title": "Shift + a non-ASCII letter does not trigger its uppercase binding (Ö, É)",
+    "discoveredAt": "2026-09-23T15:42:48.147Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABSx9GTw": {
+    "id": "I_kwDOOwsln88AAAABSx9GTw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30826",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🥢 Add new Learner Mistake 1192 (good-first-issue)",
+    "discoveredAt": "2026-09-23T15:42:49.480Z",
     "status": "published"
   }
 }
