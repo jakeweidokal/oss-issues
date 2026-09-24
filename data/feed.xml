@@ -5,7 +5,7 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 01:57:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 10:41:01 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[LAA-Software-Engineering/golang-rest-api-template] #253 Bug: Postgres DSN built without URL-encoding breaks on special characters in credentials (Solvability: 8/10)</title>
@@ -26,25 +26,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[ONEARMY/community-platform] #4905 [UI Migration] DownloadCounter (Solvability: 8/10)</title>
-      <link>https://github.com/ONEARMY/community-platform/issues/4905</link>
-      <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4905</guid>
-      <pubDate>Sun, 20 Sep 2026 12:30:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ONEARMY/community-platform">ONEARMY/community-platform</a> (1403 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 8/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4905 in ONEARMY/community-platform: [UI Migration] DownloadCounter</p>
-<p><strong>Blast Radius Analysis:</strong> Changes appear localized to a single module with existing unit tests.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/components/src/DownloadCounter/DownloadCounter.test.tsx</code></p>
-<p><a href="https://github.com/ONEARMY/community-platform/issues/4905">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-low</category>
-      <category>friction-standard</category>
-      <category>Good first issue</category>
-      <category>Help wanted</category>
-      <category>Difficulty: Easy</category>
-      <category>UI Migration</category>
-    </item>
-    <item>
       <title>[ONEARMY/community-platform] #4912 [UI Migration] VideoPlayer (Solvability: 8/10)</title>
       <link>https://github.com/ONEARMY/community-platform/issues/4912</link>
       <guid isPermaLink="true">https://github.com/ONEARMY/community-platform/issues/4912</guid>
@@ -62,6 +43,307 @@
       <category>Help wanted</category>
       <category>Difficulty: Easy</category>
       <category>UI Migration</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30857 [good first issue] 🍵 Add new Theme: Midnight Ramen (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30857</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30857</guid>
+      <pubDate>Thu, 24 Sep 2026 03:01:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30857 in lingdojo/kana-dojo: [good first issue] 🍵 Add new Theme: Midnight Ramen (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/community-themes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30857">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30858 [good first issue] 🥟 Add new Japan Fact 2265 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30858</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30858</guid>
+      <pubDate>Thu, 24 Sep 2026 03:57:27 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30858 in lingdojo/kana-dojo: [good first issue] 🥟 Add new Japan Fact 2265 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-facts.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30858">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30859 [good first issue] 🦊 Add new Japanese Proverb 1656 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30859</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30859</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:56 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30859 in lingdojo/kana-dojo: [good first issue] 🦊 Add new Japanese Proverb 1656 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-proverbs.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30859">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30860 [good first issue] 🦊 Add new Anime Quote 1183 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30860</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30860</guid>
+      <pubDate>Thu, 24 Sep 2026 04:57:25 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30860 in lingdojo/kana-dojo: [good first issue] 🦊 Add new Anime Quote 1183 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/anime-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30860">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30864 [good first issue] 🍤 Add new Japanese Idiom 525 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30864</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30864</guid>
+      <pubDate>Thu, 24 Sep 2026 05:57:29 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30864 in lingdojo/kana-dojo: [good first issue] 🍤 Add new Japanese Idiom 525 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30864">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30866 [good first issue] 🥢 Add new Etiquette Tip 148 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30866</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30866</guid>
+      <pubDate>Thu, 24 Sep 2026 06:57:28 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30866 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Etiquette Tip 148 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30866">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30867 [good first issue] 🦑 Add new Learner Mistake 811 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30867</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30867</guid>
+      <pubDate>Thu, 24 Sep 2026 07:00:59 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30867 in lingdojo/kana-dojo: [good first issue] 🦑 Add new Learner Mistake 811 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-common-mistakes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30867">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30868 [good first issue] 🥢 Add new Theme: Kumo Sky (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30868</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30868</guid>
+      <pubDate>Thu, 24 Sep 2026 07:57:28 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30868 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Theme: Kumo Sky (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/community-themes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30868">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[ovn-kubernetes/ovn-kubernetes] #6999 Do we really need two lanes for `verify codegen` and `verify mocksgen` (Solvability: 6/10)</title>
+      <link>https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6999</link>
+      <guid isPermaLink="true">https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6999</guid>
+      <pubDate>Thu, 24 Sep 2026 08:59:23 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ovn-kubernetes/ovn-kubernetes">ovn-kubernetes/ovn-kubernetes</a> (1067 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #6999 in ovn-kubernetes/ovn-kubernetes: Do we really need two lanes for `verify codegen` and `verify mocksgen`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6999">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[shadcn-labs/ogimagecn] #55 Add shadcn and prompt tabs to the install command block (Solvability: 6/10)</title>
+      <link>https://github.com/shadcn-labs/ogimagecn/issues/55</link>
+      <guid isPermaLink="true">https://github.com/shadcn-labs/ogimagecn/issues/55</guid>
+      <pubDate>Thu, 24 Sep 2026 09:02:18 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/shadcn-labs/ogimagecn">shadcn-labs/ogimagecn</a> (233 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #55 in shadcn-labs/ogimagecn: Add shadcn and prompt tabs to the install command block</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test components/code-block-command.tsx</code></p>
+<p><a href="https://github.com/shadcn-labs/ogimagecn/issues/55">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+    </item>
+    <item>
+      <title>[OpenIdentityPlatform/OpenDJ] #1084 Docker image: replicate.sh prints its environment, ROOT_PASSWORD included, to the container log (Solvability: 6/10)</title>
+      <link>https://github.com/OpenIdentityPlatform/OpenDJ/issues/1084</link>
+      <guid isPermaLink="true">https://github.com/OpenIdentityPlatform/OpenDJ/issues/1084</guid>
+      <pubDate>Thu, 24 Sep 2026 09:07:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpenIdentityPlatform/OpenDJ">OpenIdentityPlatform/OpenDJ</a> (440 ⭐, Java)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Docker required</p>
+<p><strong>Summary:</strong> Fix issue #1084 in OpenIdentityPlatform/OpenDJ: Docker image: replicate.sh prints its environment, ROOT_PASSWORD included, to the container log</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/OpenIdentityPlatform/OpenDJ/issues/1084">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Java</category>
+      <category>blast-radius-medium</category>
+      <category>friction-docker-required</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>docker</category>
+      <category>security</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30877 [good first issue] 🐉 Add new Video Game Quote 735 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30877</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30877</guid>
+      <pubDate>Thu, 24 Sep 2026 09:57:28 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30877 in lingdojo/kana-dojo: [good first issue] 🐉 Add new Video Game Quote 735 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-videogame-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30877">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[0x676e67/wreq] #1296 WS upgrade handshake should preserve header case and insertion order (byte-accurate emulation) (Solvability: 6/10)</title>
+      <link>https://github.com/0x676e67/wreq/issues/1296</link>
+      <guid isPermaLink="true">https://github.com/0x676e67/wreq/issues/1296</guid>
+      <pubDate>Thu, 24 Sep 2026 10:00:08 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/0x676e67/wreq">0x676e67/wreq</a> (1038 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1296 in 0x676e67/wreq: WS upgrade handshake should preserve header case and insertion order (byte-accurate emulation)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/0x676e67/wreq/issues/1296">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>C-feature</category>
+      <category>E-pr-welcome</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #30878 [good first issue] 🎑 Add new Japanese Idiom 484 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/30878</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30878</guid>
+      <pubDate>Thu, 24 Sep 2026 10:01:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #30878 in lingdojo/kana-dojo: [good first issue] 🎑 Add new Japanese Idiom 484 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/30878">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #30842 [good first issue] 🎍 Add new Learner Mistake 205 (good-first-issue) (Solvability: 6/10)</title>
@@ -97,29 +379,6 @@
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>pnpm test community/content/community-themes.json</code></p>
 <p><a href="https://github.com/lingdojo/kana-dojo/issues/30843">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30844 [good first issue] 🐉 Add new Japan Fact 2473 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30844</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30844</guid>
-      <pubDate>Wed, 23 Sep 2026 21:57:30 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3454 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30844 in lingdojo/kana-dojo: [good first issue] 🐉 Add new Japan Fact 2473 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-facts.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30844">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -597,22 +856,6 @@
       <category>good-first-issue</category>
     </item>
     <item>
-      <title>[google/sam] #484 debug network-info: observed_addresses reports announced addresses, not observed ones (Solvability: 6/10)</title>
-      <link>https://github.com/google/sam/issues/484</link>
-      <guid isPermaLink="true">https://github.com/google/sam/issues/484</guid>
-      <pubDate>Wed, 23 Sep 2026 20:16:37 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/google/sam">google/sam</a> (932 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #484 in google/sam: debug network-info: observed_addresses reports announced addresses, not observed ones</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./internal/node</code></p>
-<p><a href="https://github.com/google/sam/issues/484">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[servo/rust-smallvec] #663 port the new fuzzer to v1 (Solvability: 6/10)</title>
       <link>https://github.com/servo/rust-smallvec/issues/663</link>
       <guid isPermaLink="true">https://github.com/servo/rust-smallvec/issues/663</guid>
@@ -745,26 +988,6 @@
       <category>Difficulty level/Easy</category>
     </item>
     <item>
-      <title>[mxsm/rocketmq-rust] #10859 [Bug🐛] Avoid duplicate default FAQ links on repeated attachment (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10859</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10859</guid>
-      <pubDate>Wed, 23 Sep 2026 15:24:20 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1521 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10859 in mxsm/rocketmq-rust: [Bug🐛] Avoid duplicate default FAQ links on repeated attachment</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test faq</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10859">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug🐛</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-    </item>
-    <item>
       <title>[mxsm/rocketmq-rust] #10860 [Test🧪] Cover raw and compressed MessageBody behavior (Solvability: 6/10)</title>
       <link>https://github.com/mxsm/rocketmq-rust/issues/10860</link>
       <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10860</guid>
@@ -823,211 +1046,6 @@
       <category>rust</category>
       <category>Difficulty level/Easy</category>
       <category>testing🧪</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10863 [Test🧪] Cover MessageAccessor clone_message field independence (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10863</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10863</guid>
-      <pubDate>Wed, 23 Sep 2026 15:24:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1521 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10863 in mxsm/rocketmq-rust: [Test🧪] Cover MessageAccessor clone_message field independence</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test message_accessor</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10863">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-      <category>testing🧪</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10864 [Test🧪] Cover TopicMessageType property precedence (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10864</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10864</guid>
-      <pubDate>Wed, 23 Sep 2026 15:25:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1521 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10864 in mxsm/rocketmq-rust: [Test🧪] Cover TopicMessageType property precedence</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test topic</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10864">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-      <category>testing🧪</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10865 [Test🧪] Cover HandlerChain cursor behavior after terminal handlers (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10865</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10865</guid>
-      <pubDate>Wed, 23 Sep 2026 15:25:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1521 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10865 in mxsm/rocketmq-rust: [Test🧪] Cover HandlerChain cursor behavior after terminal handlers</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test chain</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10865">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-      <category>testing🧪</category>
-    </item>
-    <item>
-      <title>[mxsm/rocketmq-rust] #10866 [Test🧪] Cover filter Value truthiness at SQL NOT boundary (Solvability: 6/10)</title>
-      <link>https://github.com/mxsm/rocketmq-rust/issues/10866</link>
-      <guid isPermaLink="true">https://github.com/mxsm/rocketmq-rust/issues/10866</guid>
-      <pubDate>Wed, 23 Sep 2026 15:25:23 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mxsm/rocketmq-rust">mxsm/rocketmq-rust</a> (1521 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #10866 in mxsm/rocketmq-rust: [Test🧪] Cover filter Value truthiness at SQL NOT boundary</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test expression</code></p>
-<p><a href="https://github.com/mxsm/rocketmq-rust/issues/10866">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>rust</category>
-      <category>Difficulty level/Easy</category>
-      <category>testing🧪</category>
-    </item>
-    <item>
-      <title>[oras-project/oras-go] #1442 ci: pass release tag values through env vars on v2 (Solvability: 6/10)</title>
-      <link>https://github.com/oras-project/oras-go/issues/1442</link>
-      <guid isPermaLink="true">https://github.com/oras-project/oras-go/issues/1442</guid>
-      <pubDate>Wed, 23 Sep 2026 15:27:43 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/oras-project/oras-go">oras-project/oras-go</a> (290 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1442 in oras-project/oras-go: ci: pass release tag values through env vars on v2</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./.github/workflows</code></p>
-<p><a href="https://github.com/oras-project/oras-go/issues/1442">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>v2</category>
-    </item>
-    <item>
-      <title>[oras-project/oras-go] #1443 auth: the legacy config fallback in GetAuthConfig matches path-bearing keys, so a host lookup can return a namespaced credential (Solvability: 6/10)</title>
-      <link>https://github.com/oras-project/oras-go/issues/1443</link>
-      <guid isPermaLink="true">https://github.com/oras-project/oras-go/issues/1443</guid>
-      <pubDate>Wed, 23 Sep 2026 15:39:05 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/oras-project/oras-go">oras-project/oras-go</a> (290 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1443 in oras-project/oras-go: auth: the legacy config fallback in GetAuthConfig matches path-bearing keys, so a host lookup can return a namespaced credential</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
-<p><a href="https://github.com/oras-project/oras-go/issues/1443">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>v3</category>
-    </item>
-    <item>
-      <title>[github/gh-aw] #62886 [Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes (Solvability: 6/10)</title>
-      <link>https://github.com/github/gh-aw/issues/62886</link>
-      <guid isPermaLink="true">https://github.com/github/gh-aw/issues/62886</guid>
-      <pubDate>Wed, 23 Sep 2026 05:50:06 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/github/gh-aw">github/gh-aw</a> (5171 ⭐, Go)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #62886 in github/gh-aw: [Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>go test -v ./eslint-factory/src/rules</code></p>
-<p><a href="https://github.com/github/gh-aw/issues/62886">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Go</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>safe-outputs</category>
-      <category>good-first-issue</category>
-      <category>automated</category>
-      <category>conformance</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30796 [good first issue] 🍜 Add new Anime Quote 465 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30796</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30796</guid>
-      <pubDate>Wed, 23 Sep 2026 06:01:02 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3446 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30796 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Anime Quote 465 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/anime-quotes.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30796">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30797 [good first issue] 🍣 Add new Video Game Quote 875 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30797</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30797</guid>
-      <pubDate>Wed, 23 Sep 2026 06:37:32 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3446 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30797 in lingdojo/kana-dojo: [good first issue] 🍣 Add new Video Game Quote 875 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-videogame-quotes.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30797">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30799 [good first issue] 🌸 Add new Japanese Idiom 249 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30799</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30799</guid>
-      <pubDate>Wed, 23 Sep 2026 07:01:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3446 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30799 in lingdojo/kana-dojo: [good first issue] 🌸 Add new Japanese Idiom 249 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30799">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
     </item>
   </channel>
 </rss>

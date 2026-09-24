@@ -29,36 +29,6 @@
     "discoveredAt": "2026-09-22T10:29:17.117Z"
   },
   {
-    "id": "I_kwDOCPmwqs8AAAABSOMuDg",
-    "number": 4905,
-    "title": "[UI Migration] DownloadCounter",
-    "url": "https://github.com/ONEARMY/community-platform/issues/4905",
-    "repo": "ONEARMY/community-platform",
-    "repoUrl": "https://github.com/ONEARMY/community-platform",
-    "stars": 1403,
-    "language": "TypeScript",
-    "labels": [
-      "Good first issue",
-      "Help wanted",
-      "Difficulty: Easy",
-      "UI Migration"
-    ],
-    "createdAt": "2026-09-20T12:30:22Z",
-    "updatedAt": "2026-09-20T12:30:22Z",
-    "blastRadius": "Low",
-    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/components/src/DownloadCounter/DownloadCounter.test.tsx",
-    "solvabilityScore": 8,
-    "keyFiles": [
-      "packages/components/src/DownloadCounter/DownloadCounter.tsx"
-    ],
-    "summary": "Fix issue #4905 in ONEARMY/community-platform: [UI Migration] DownloadCounter",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-20T15:01:04.820Z"
-  },
-  {
     "id": "I_kwDOCPmwqs8AAAABSOZAkQ",
     "number": 4912,
     "title": "[UI Migration] VideoPlayer",
@@ -87,6 +57,463 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-20T15:00:51.123Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS4r0LA",
+    "number": 30857,
+    "title": "[good first issue] 🍵 Add new Theme: Midnight Ramen (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30857",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T03:01:03Z",
+    "updatedAt": "2026-09-24T03:01:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #30857 in lingdojo/kana-dojo: [good first issue] 🍵 Add new Theme: Midnight Ramen (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:41:01.040Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS5KEnw",
+    "number": 30858,
+    "title": "[good first issue] 🥟 Add new Japan Fact 2265 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30858",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T03:57:27Z",
+    "updatedAt": "2026-09-24T03:57:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #30858 in lingdojo/kana-dojo: [good first issue] 🥟 Add new Japan Fact 2265 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:59.457Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS5MQ7A",
+    "number": 30859,
+    "title": "[good first issue] 🦊 Add new Japanese Proverb 1656 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30859",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T04:00:56Z",
+    "updatedAt": "2026-09-24T04:00:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-proverbs.json"
+    ],
+    "summary": "Fix issue #30859 in lingdojo/kana-dojo: [good first issue] 🦊 Add new Japanese Proverb 1656 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:57.885Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS5oZ1A",
+    "number": 30860,
+    "title": "[good first issue] 🦊 Add new Anime Quote 1183 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30860",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T04:57:25Z",
+    "updatedAt": "2026-09-24T04:57:28Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #30860 in lingdojo/kana-dojo: [good first issue] 🦊 Add new Anime Quote 1183 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:56.362Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS6Ey-g",
+    "number": 30864,
+    "title": "[good first issue] 🍤 Add new Japanese Idiom 525 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30864",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T05:57:29Z",
+    "updatedAt": "2026-09-24T05:57:33Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #30864 in lingdojo/kana-dojo: [good first issue] 🍤 Add new Japanese Idiom 525 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:54.689Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS6qLlg",
+    "number": 30866,
+    "title": "[good first issue] 🥢 Add new Etiquette Tip 148 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30866",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T06:57:28Z",
+    "updatedAt": "2026-09-24T06:57:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-cultural-etiquette.json"
+    ],
+    "summary": "Fix issue #30866 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Etiquette Tip 148 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:53.077Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS6sNOQ",
+    "number": 30867,
+    "title": "[good first issue] 🦑 Add new Learner Mistake 811 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30867",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T07:00:59Z",
+    "updatedAt": "2026-09-24T07:01:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #30867 in lingdojo/kana-dojo: [good first issue] 🦑 Add new Learner Mistake 811 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:51.426Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS7VhVg",
+    "number": 30868,
+    "title": "[good first issue] 🥢 Add new Theme: Kumo Sky (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30868",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T07:57:28Z",
+    "updatedAt": "2026-09-24T07:57:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #30868 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Theme: Kumo Sky (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:49.887Z"
+  },
+  {
+    "id": "I_kwDOA-dMB88AAAABS8B2nA",
+    "number": 6999,
+    "title": "Do we really need two lanes for `verify codegen` and `verify mocksgen`",
+    "url": "https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6999",
+    "repo": "ovn-kubernetes/ovn-kubernetes",
+    "repoUrl": "https://github.com/ovn-kubernetes/ovn-kubernetes",
+    "stars": 1067,
+    "language": "Go",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-24T08:59:23Z",
+    "updatedAt": "2026-09-24T08:59:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #6999 in ovn-kubernetes/ovn-kubernetes: Do we really need two lanes for `verify codegen` and `verify mocksgen`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-24T10:40:45.266Z"
+  },
+  {
+    "id": "I_kwDOSxWxDM8AAAABS8EDLg",
+    "number": 55,
+    "title": "Add shadcn and prompt tabs to the install command block",
+    "url": "https://github.com/shadcn-labs/ogimagecn/issues/55",
+    "repo": "shadcn-labs/ogimagecn",
+    "repoUrl": "https://github.com/shadcn-labs/ogimagecn",
+    "stars": 233,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-24T09:02:18Z",
+    "updatedAt": "2026-09-24T09:02:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test components/code-block-command.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "components/code-block-command.tsx",
+      "mdx-components.tsx",
+      "lib/highlight-code.ts"
+    ],
+    "summary": "Fix issue #55 in shadcn-labs/ogimagecn: Add shadcn and prompt tabs to the install command block",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:39.804Z"
+  },
+  {
+    "id": "I_kwDOBlrBls8AAAABS8H5Fg",
+    "number": 1084,
+    "title": "Docker image: replicate.sh prints its environment, ROOT_PASSWORD included, to the container log",
+    "url": "https://github.com/OpenIdentityPlatform/OpenDJ/issues/1084",
+    "repo": "OpenIdentityPlatform/OpenDJ",
+    "repoUrl": "https://github.com/OpenIdentityPlatform/OpenDJ",
+    "stars": 440,
+    "language": "Java",
+    "labels": [
+      "bug",
+      "good first issue",
+      "docker",
+      "security"
+    ],
+    "createdAt": "2026-09-24T09:07:34Z",
+    "updatedAt": "2026-09-24T09:24:39Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Docker required",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1084 in OpenIdentityPlatform/OpenDJ: Docker image: replicate.sh prints its environment, ROOT_PASSWORD included, to the container log",
+    "maintainerTurnaroundDays": 5.2,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-24T10:40:39.147Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS8sZ5g",
+    "number": 30877,
+    "title": "[good first issue] 🐉 Add new Video Game Quote 735 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30877",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T09:57:28Z",
+    "updatedAt": "2026-09-24T09:57:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #30877 in lingdojo/kana-dojo: [good first issue] 🐉 Add new Video Game Quote 735 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:34.573Z"
+  },
+  {
+    "id": "I_kwDOM0DT_M8AAAABS8uSVA",
+    "number": 1296,
+    "title": "WS upgrade handshake should preserve header case and insertion order (byte-accurate emulation)",
+    "url": "https://github.com/0x676e67/wreq/issues/1296",
+    "repo": "0x676e67/wreq",
+    "repoUrl": "https://github.com/0x676e67/wreq",
+    "stars": 1038,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "C-feature",
+      "E-pr-welcome"
+    ],
+    "createdAt": "2026-09-24T10:00:08Z",
+    "updatedAt": "2026-09-24T10:03:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1296 in 0x676e67/wreq: WS upgrade handshake should preserve header case and insertion order (byte-accurate emulation)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:32.985Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABS8u5Jg",
+    "number": 30878,
+    "title": "[good first issue] 🎑 Add new Japanese Idiom 484 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30878",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3454,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-24T10:01:01Z",
+    "updatedAt": "2026-09-24T10:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #30878 in lingdojo/kana-dojo: [good first issue] 🎑 Add new Japanese Idiom 484 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-24T10:40:32.423Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABS14reg",
@@ -155,40 +582,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-24T01:57:13.379Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABS2d-8g",
-    "number": 30844,
-    "title": "[good first issue] 🐉 Add new Japan Fact 2473 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30844",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3454,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-23T21:57:30Z",
-    "updatedAt": "2026-09-23T21:57:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-facts.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #30844 in lingdojo/kana-dojo: [good first issue] 🐉 Add new Japan Fact 2473 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-24T01:57:12.166Z"
   },
   {
     "id": "I_kwDOBO3nOs8AAAABS2pW7A",
@@ -907,34 +1300,6 @@
     "discoveredAt": "2026-09-23T20:47:04.603Z"
   },
   {
-    "id": "I_kwDOSIvpys8AAAABS1dqPA",
-    "number": 484,
-    "title": "debug network-info: observed_addresses reports announced addresses, not observed ones",
-    "url": "https://github.com/google/sam/issues/484",
-    "repo": "google/sam",
-    "repoUrl": "https://github.com/google/sam",
-    "stars": 932,
-    "language": "Go",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-23T20:16:37Z",
-    "updatedAt": "2026-09-23T20:16:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./internal/node",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "internal/node/node.go",
-      "tests/integration/debug_endpoints_test.go"
-    ],
-    "summary": "Fix issue #484 in google/sam: debug network-info: observed_addresses reports announced addresses, not observed ones",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T20:47:03.175Z"
-  },
-  {
     "id": "I_kwDOAf6AbM8AAAABS1gYng",
     "number": 663,
     "title": "port the new fuzzer to v1",
@@ -1143,37 +1508,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-23T15:42:38.926Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABSyOYpA",
-    "number": 10859,
-    "title": "[Bug🐛] Avoid duplicate default FAQ links on repeated attachment",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10859",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1521,
-    "language": "Rust",
-    "labels": [
-      "bug🐛",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-23T15:24:20Z",
-    "updatedAt": "2026-09-23T15:24:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test faq",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-model/src/common/faq.rs"
-    ],
-    "summary": "Fix issue #10859 in mxsm/rocketmq-rust: [Bug🐛] Avoid duplicate default FAQ links on repeated attachment",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T15:42:32.216Z"
   },
   {
     "id": "I_kwDOK5M3Is8AAAABSyObGQ",
@@ -1391,97 +1725,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-23T15:41:57.635Z"
-  },
-  {
-    "id": "I_kwDOFZwc388AAAABSyQ5dw",
-    "number": 1442,
-    "title": "ci: pass release tag values through env vars on v2",
-    "url": "https://github.com/oras-project/oras-go/issues/1442",
-    "repo": "oras-project/oras-go",
-    "repoUrl": "https://github.com/oras-project/oras-go",
-    "stars": 290,
-    "language": "Go",
-    "labels": [
-      "good first issue",
-      "help wanted",
-      "v2"
-    ],
-    "createdAt": "2026-09-23T15:27:43Z",
-    "updatedAt": "2026-09-23T15:27:43Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./.github/workflows",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      ".github/workflows/release.yml"
-    ],
-    "summary": "Fix issue #1442 in oras-project/oras-go: ci: pass release tag values through env vars on v2",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T15:41:52.929Z"
-  },
-  {
-    "id": "I_kwDOFZwc388AAAABSyZLeg",
-    "number": 1443,
-    "title": "auth: the legacy config fallback in GetAuthConfig matches path-bearing keys, so a host lookup can return a namespaced credential",
-    "url": "https://github.com/oras-project/oras-go/issues/1443",
-    "repo": "oras-project/oras-go",
-    "repoUrl": "https://github.com/oras-project/oras-go",
-    "stars": 290,
-    "language": "Go",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "v3"
-    ],
-    "createdAt": "2026-09-23T15:39:05Z",
-    "updatedAt": "2026-09-23T15:39:13Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test ./...",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1443 in oras-project/oras-go: auth: the legacy config fallback in GetAuthConfig matches path-bearing keys, so a host lookup can return a namespaced credential",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T15:41:52.217Z"
-  },
-  {
-    "id": "I_kwDOPc1QR88AAAABSsSZfQ",
-    "number": 62886,
-    "title": "[Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
-    "url": "https://github.com/github/gh-aw/issues/62886",
-    "repo": "github/gh-aw",
-    "repoUrl": "https://github.com/github/gh-aw",
-    "stars": 5171,
-    "language": "Go",
-    "labels": [
-      "safe-outputs",
-      "good-first-issue",
-      "automated",
-      "conformance"
-    ],
-    "createdAt": "2026-09-23T05:50:06Z",
-    "updatedAt": "2026-09-23T05:50:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "go test -v ./eslint-factory/src/rules",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "eslint-factory/src/rules/no-caught-error-interpolation.test.ts",
-      "eslint-factory/src/rules/no-caught-error-interpolation.ts",
-      "eslint-factory/src/rules/no-core-error-then-process-exit.test.ts"
-    ],
-    "summary": "Fix issue #62886 in github/gh-aw: [Safe Outputs Conformance] USE-001: azure_devops_work_items.cjs missing standardized error codes",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T10:25:02.287Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSsYDmg",
@@ -3361,34 +3604,6 @@
     "discoveredAt": "2026-09-22T02:10:08.293Z"
   },
   {
-    "id": "I_kwDOGF6Cos8AAAABSdo2lA",
-    "number": 205,
-    "title": "Icons for Missing Art",
-    "url": "https://github.com/Diegovsky/riff/issues/205",
-    "repo": "Diegovsky/riff",
-    "repoUrl": "https://github.com/Diegovsky/riff",
-    "stars": 298,
-    "language": "Rust",
-    "labels": [
-      "good first issue",
-      "designer wanted"
-    ],
-    "createdAt": "2026-09-22T00:41:06Z",
-    "updatedAt": "2026-09-22T00:41:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #205 in Diegovsky/riff: Icons for Missing Art",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "development",
-    "discoveredAt": "2026-09-22T02:10:06.944Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABSdu0bg",
     "number": 30703,
     "title": "[good first issue] 🥢 Add new Example Sentence 486 (good-first-issue)",
@@ -4584,209 +4799,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-21T02:04:52.474Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSQmaRw",
-    "number": 30629,
-    "title": "[good first issue] 🍢 Add new Japan Fact 342 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30629",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3433,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-20T20:37:30Z",
-    "updatedAt": "2026-09-20T20:37:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-facts.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #30629 in lingdojo/kana-dojo: [good first issue] 🍢 Add new Japan Fact 342 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-21T02:04:50.409Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSQtbjA",
-    "number": 30630,
-    "title": "[good first issue] 🐡 Add new Japanese Proverb 816 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30630",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3433,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-20T21:00:58Z",
-    "updatedAt": "2026-09-20T21:01:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #30630 in lingdojo/kana-dojo: [good first issue] 🐡 Add new Japanese Proverb 816 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-21T02:04:48.293Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSQ4W5A",
-    "number": 30631,
-    "title": "[good first issue] 🌸 Add new Japanese Haiku 102 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30631",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3433,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-20T21:37:30Z",
-    "updatedAt": "2026-09-20T21:37:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-haiku.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-haiku.json"
-    ],
-    "summary": "Fix issue #30631 in lingdojo/kana-dojo: [good first issue] 🌸 Add new Japanese Haiku 102 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-21T02:04:46.122Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSQ_cCg",
-    "number": 30632,
-    "title": "[good first issue] 🀄 Add new Grammar Point 265 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30632",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3433,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-20T22:01:04Z",
-    "updatedAt": "2026-09-20T22:01:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-grammar.json"
-    ],
-    "summary": "Fix issue #30632 in lingdojo/kana-dojo: [good first issue] 🀄 Add new Grammar Point 265 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-21T02:04:43.781Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSRJhaA",
-    "number": 30633,
-    "title": "[good first issue] 🎴 Add new Anime Quote 1283 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30633",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3433,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-20T22:37:28Z",
-    "updatedAt": "2026-09-20T22:37:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #30633 in lingdojo/kana-dojo: [good first issue] 🎴 Add new Anime Quote 1283 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-21T02:04:41.645Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSRQDLQ",
-    "number": 30634,
-    "title": "[good first issue] 🦊 Add new Video Game Quote 236 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30634",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3433,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-20T23:01:01Z",
-    "updatedAt": "2026-09-20T23:01:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30634 in lingdojo/kana-dojo: [good first issue] 🦊 Add new Video Game Quote 236 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-21T02:04:39.481Z"
   }
 ]
