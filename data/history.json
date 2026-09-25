@@ -10954,7 +10954,8 @@
     "repo": "ONEARMY/community-platform",
     "title": "[UI Migration] VideoPlayer",
     "discoveredAt": "2026-09-20T15:00:51.123Z",
-    "status": "published"
+    "status": "claimed",
+    "reason": "Removed during reconciliation (claimed)"
   },
   "I_kwDORb-rps8AAAABSOY0Rg": {
     "id": "I_kwDORb-rps8AAAABSOY0Rg",
@@ -12916,7 +12917,8 @@
     "repo": "ros2/ros2cli",
     "title": "Add --all alias to commands that include hidden nodes, topics, or services",
     "discoveredAt": "2026-09-24T16:03:22.556Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOT1Nsbc8AAAABTD_FRw": {
     "id": "I_kwDOT1Nsbc8AAAABTD_FRw",
@@ -13216,7 +13218,8 @@
     "repo": "mxsm/rocketmq-rust",
     "title": "[Doc📝] Put doc comments before derive attributes in task_group.rs",
     "discoveredAt": "2026-09-25T10:44:11.634Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOOwsln88AAAABTKrQLQ": {
     "id": "I_kwDOOwsln88AAAABTKrQLQ",
@@ -13250,7 +13253,8 @@
     "repo": "libredb/libredb-studio",
     "title": "Add the new Scoop Extras listing to the channel inventory, README and DISTRIBUTION.md",
     "discoveredAt": "2026-09-25T10:44:26.564Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOOwsln88AAAABTKHBZg": {
     "id": "I_kwDOOwsln88AAAABTKHBZg",
@@ -13298,7 +13302,8 @@
     "repo": "lingdojo/kana-dojo",
     "title": "[good first issue] 🪭 Add new Learner Mistake 248 (good-first-issue)",
     "discoveredAt": "2026-09-25T16:04:02.080Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOOwsln88AAAABTOerDw": {
     "id": "I_kwDOOwsln88AAAABTOerDw",
@@ -13354,7 +13359,8 @@
     "repo": "TransformerLensOrg/TransformerLens",
     "title": "[Proposal] Sparse probing reports only threshold metrics, so a zero-information probe scores F1 0.700",
     "discoveredAt": "2026-09-25T16:04:34.738Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOAwodu88AAAABTNJJbg": {
     "id": "I_kwDOAwodu88AAAABTNJJbg",
@@ -13386,6 +13392,62 @@
     "repo": "lingdojo/kana-dojo",
     "title": "[good first issue] 🎎 Add new Learner Mistake 786 (good-first-issue)",
     "discoveredAt": "2026-09-25T16:04:42.742Z",
+    "status": "published"
+  },
+  "I_kwDOB-UUPs8AAAABTRau5w": {
+    "id": "I_kwDOB-UUPs8AAAABTRau5w",
+    "url": "https://github.com/unoplatform/uno/issues/24752",
+    "repo": "unoplatform/uno",
+    "title": "DependencyObject constructor always allocates two empty Dictionary fields, even when unused",
+    "discoveredAt": "2026-09-25T20:50:04.611Z",
+    "status": "published"
+  },
+  "I_kwDOB-UUPs8AAAABTRLuCA": {
+    "id": "I_kwDOB-UUPs8AAAABTRLuCA",
+    "url": "https://github.com/unoplatform/uno/issues/24746",
+    "repo": "unoplatform/uno",
+    "title": "`TextBlock` with `LineStackingStrategy.BlockLineHeight` puts the baseline at `LineHeight - descent` instead of scaling it like WinUI (Skia)",
+    "discoveredAt": "2026-09-25T20:50:11.578Z",
+    "status": "published"
+  },
+  "I_kwDOB-UUPs8AAAABTRIopg": {
+    "id": "I_kwDOB-UUPs8AAAABTRIopg",
+    "url": "https://github.com/unoplatform/uno/issues/24744",
+    "repo": "unoplatform/uno",
+    "title": "Selectable TextBlock drops the drag selection when the mouse is released over a Hyperlink or capture is lost",
+    "discoveredAt": "2026-09-25T20:50:18.286Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTQ9pqw": {
+    "id": "I_kwDOOwsln88AAAABTQ9pqw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30982",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍣 Add new Dialect Entry 434 (good-first-issue)",
+    "discoveredAt": "2026-09-25T20:50:20.093Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTPwQmw": {
+    "id": "I_kwDOOwsln88AAAABTPwQmw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30974",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍢 Add new Grammar Point 360 (good-first-issue)",
+    "discoveredAt": "2026-09-25T20:50:21.852Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTPtVNw": {
+    "id": "I_kwDOOwsln88AAAABTPtVNw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30973",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🎏 Add new Japanese Proverb 1067 (good-first-issue)",
+    "discoveredAt": "2026-09-25T20:50:23.800Z",
+    "status": "published"
+  },
+  "I_kwDOARf6a88AAAABTPEuvw": {
+    "id": "I_kwDOARf6a88AAAABTPEuvw",
+    "url": "https://github.com/OpenRCT2/OpenRCT2/issues/27199",
+    "repo": "OpenRCT2/OpenRCT2",
+    "title": "Create ObjectAsset.cpp",
+    "discoveredAt": "2026-09-25T20:50:27.881Z",
     "status": "published"
   }
 }

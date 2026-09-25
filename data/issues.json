@@ -29,34 +29,235 @@
     "discoveredAt": "2026-09-22T10:29:17.117Z"
   },
   {
-    "id": "I_kwDOCPmwqs8AAAABSOZAkQ",
-    "number": 4912,
-    "title": "[UI Migration] VideoPlayer",
-    "url": "https://github.com/ONEARMY/community-platform/issues/4912",
-    "repo": "ONEARMY/community-platform",
-    "repoUrl": "https://github.com/ONEARMY/community-platform",
-    "stars": 1403,
+    "id": "I_kwDOARf6a88AAAABTPEuvw",
+    "number": 27199,
+    "title": "Create ObjectAsset.cpp",
+    "url": "https://github.com/OpenRCT2/OpenRCT2/issues/27199",
+    "repo": "OpenRCT2/OpenRCT2",
+    "repoUrl": "https://github.com/OpenRCT2/OpenRCT2",
+    "stars": 16259,
+    "language": "C++",
+    "labels": [
+      "refactor",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-25T16:55:18Z",
+    "updatedAt": "2026-09-25T16:55:38Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #27199 in OpenRCT2/OpenRCT2: Create ObjectAsset.cpp",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-25T20:50:27.881Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTPtVNw",
+    "number": 30973,
+    "title": "[good first issue] 🎏 Add new Japanese Proverb 1067 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30973",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3473,
     "language": "TypeScript",
     "labels": [
-      "Good first issue",
-      "Help wanted",
-      "Difficulty: Easy",
-      "UI Migration"
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
     ],
-    "createdAt": "2026-09-20T13:09:40Z",
-    "updatedAt": "2026-09-20T13:13:19Z",
-    "blastRadius": "Low",
-    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "createdAt": "2026-09-25T17:57:33Z",
+    "updatedAt": "2026-09-25T17:57:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
     "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/components/src/VideoPlayer/VideoPlayer.test.tsx",
-    "solvabilityScore": 8,
+    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
+    "solvabilityScore": 6,
     "keyFiles": [
-      "packages/components/src/VideoPlayer/VideoPlayer.tsx"
+      "community/content/japanese-proverbs.json"
     ],
-    "summary": "Fix issue #4912 in ONEARMY/community-platform: [UI Migration] VideoPlayer",
+    "summary": "Fix issue #30973 in lingdojo/kana-dojo: [good first issue] 🎏 Add new Japanese Proverb 1067 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-25T20:50:23.800Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTPwQmw",
+    "number": 30974,
+    "title": "[good first issue] 🍢 Add new Grammar Point 360 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30974",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3473,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-25T18:01:02Z",
+    "updatedAt": "2026-09-25T18:01:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-grammar.json"
+    ],
+    "summary": "Fix issue #30974 in lingdojo/kana-dojo: [good first issue] 🍢 Add new Grammar Point 360 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-25T20:50:21.852Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTQ9pqw",
+    "number": 30982,
+    "title": "[good first issue] 🍣 Add new Dialect Entry 434 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/30982",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3473,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-25T20:01:01Z",
+    "updatedAt": "2026-09-25T20:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #30982 in lingdojo/kana-dojo: [good first issue] 🍣 Add new Dialect Entry 434 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-25T20:50:20.093Z"
+  },
+  {
+    "id": "I_kwDOB-UUPs8AAAABTRIopg",
+    "number": 24744,
+    "title": "Selectable TextBlock drops the drag selection when the mouse is released over a Hyperlink or capture is lost",
+    "url": "https://github.com/unoplatform/uno/issues/24744",
+    "repo": "unoplatform/uno",
+    "repoUrl": "https://github.com/unoplatform/uno",
+    "stars": 10058,
+    "language": "C#",
+    "labels": [
+      "kind/bug",
+      "good first issue",
+      "triage/untriaged",
+      "area/skia ✏️",
+      "project/pointers 🖱️",
+      "area/textblock",
+      "project/text 🔤",
+      "platform/all"
+    ],
+    "createdAt": "2026-09-25T20:17:24Z",
+    "updatedAt": "2026-09-25T20:17:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #24744 in unoplatform/uno: Selectable TextBlock drops the drag selection when the mouse is released over a Hyperlink or capture is lost",
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
-    "discoveredAt": "2026-09-20T15:00:51.123Z"
+    "discoveredAt": "2026-09-25T20:50:18.286Z"
+  },
+  {
+    "id": "I_kwDOB-UUPs8AAAABTRLuCA",
+    "number": 24746,
+    "title": "`TextBlock` with `LineStackingStrategy.BlockLineHeight` puts the baseline at `LineHeight - descent` instead of scaling it like WinUI (Skia)",
+    "url": "https://github.com/unoplatform/uno/issues/24746",
+    "repo": "unoplatform/uno",
+    "repoUrl": "https://github.com/unoplatform/uno",
+    "stars": 10058,
+    "language": "C#",
+    "labels": [
+      "kind/bug",
+      "good first issue",
+      "triage/untriaged",
+      "area/skia ✏️",
+      "area/textblock",
+      "project/text 🔤",
+      "platform/all",
+      "difficulty/starter 🚀"
+    ],
+    "createdAt": "2026-09-25T20:21:45Z",
+    "updatedAt": "2026-09-25T20:21:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #24746 in unoplatform/uno: `TextBlock` with `LineStackingStrategy.BlockLineHeight` puts the baseline at `LineHeight - descent` instead of scaling it like WinUI (Skia)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-25T20:50:11.578Z"
+  },
+  {
+    "id": "I_kwDOB-UUPs8AAAABTRau5w",
+    "number": 24752,
+    "title": "DependencyObject constructor always allocates two empty Dictionary fields, even when unused",
+    "url": "https://github.com/unoplatform/uno/issues/24752",
+    "repo": "unoplatform/uno",
+    "repoUrl": "https://github.com/unoplatform/uno",
+    "stars": 10058,
+    "language": "C#",
+    "labels": [
+      "kind/bug",
+      "good first issue",
+      "triage/untriaged",
+      "kind/regression",
+      "platform/all",
+      "difficulty/starter 🚀",
+      "area/performance 📈"
+    ],
+    "createdAt": "2026-09-25T20:45:11Z",
+    "updatedAt": "2026-09-25T20:45:11Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/AddIns/Uno.UI.Lottie/ts/Uno.UI.Lottie.ts"
+    ],
+    "summary": "Fix issue #24752 in unoplatform/uno: DependencyObject constructor always allocates two empty Dictionary fields, even when unused",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-25T20:50:04.611Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTLTJ3g",
@@ -187,35 +388,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-25T16:04:38.602Z"
-  },
-  {
-    "id": "I_kwDOH43qs88AAAABTNPQNw",
-    "number": 1814,
-    "title": "[Proposal] Sparse probing reports only threshold metrics, so a zero-information probe scores F1 0.700",
-    "url": "https://github.com/TransformerLensOrg/TransformerLens/issues/1814",
-    "repo": "TransformerLensOrg/TransformerLens",
-    "repoUrl": "https://github.com/TransformerLensOrg/TransformerLens",
-    "stars": 3908,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "complexity-simple",
-      "TransformerBridge"
-    ],
-    "createdAt": "2026-09-25T14:05:30Z",
-    "updatedAt": "2026-09-25T14:05:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1814 in TransformerLensOrg/TransformerLens: [Proposal] Sparse probing reports only threshold metrics, so a zero-information probe scores F1 0.700",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T16:04:34.738Z"
   },
   {
     "id": "I_kwDOB-UUPs8AAAABTOCPXQ",
@@ -418,40 +590,6 @@
     "discoveredAt": "2026-09-25T16:04:03.425Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABTOhBBw",
-    "number": 30968,
-    "title": "[good first issue] 🪭 Add new Learner Mistake 248 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30968",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3470,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T16:01:00Z",
-    "updatedAt": "2026-09-25T16:01:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30968 in lingdojo/kana-dojo: [good first issue] 🪭 Add new Learner Mistake 248 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T16:04:02.080Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABTJh7sw",
     "number": 30939,
     "title": "[good first issue] 🀄 Add new Anime Quote 345 (good-first-issue)",
@@ -610,38 +748,6 @@
     "discoveredAt": "2026-09-25T10:44:28.229Z"
   },
   {
-    "id": "I_kwDOQuAx5c8AAAABTKNwig",
-    "number": 1120,
-    "title": "Add the new Scoop Extras listing to the channel inventory, README and DISTRIBUTION.md",
-    "url": "https://github.com/libredb/libredb-studio/issues/1120",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 880,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "help wanted",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-25T09:11:56Z",
-    "updatedAt": "2026-09-25T09:22:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test distribution/channels.yaml",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "distribution/channels.yaml",
-      "src/lib/distribution/channels.generated.ts",
-      ".github/workflows/release-artifacts.yml"
-    ],
-    "summary": "Fix issue #1120 in libredb/libredb-studio: Add the new Scoop Extras listing to the channel inventory, README and DISTRIBUTION.md",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T10:44:26.564Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABTKrQLQ",
     "number": 30945,
     "title": "[good first issue] 🎍 Add new False Friend Pair 676 (good-first-issue)",
@@ -674,37 +780,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-25T10:44:13.481Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABTKsgqg",
-    "number": 10909,
-    "title": "[Doc📝] Put doc comments before derive attributes in task_group.rs",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10909",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1521,
-    "language": "Rust",
-    "labels": [
-      "documentation📝",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-25T09:59:23Z",
-    "updatedAt": "2026-09-25T09:59:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test task_group",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-runtime/src/task_group.rs"
-    ],
-    "summary": "Fix issue #10909 in mxsm/rocketmq-rust: [Doc📝] Put doc comments before derive attributes in task_group.rs",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T10:44:11.634Z"
   },
   {
     "id": "I_kwDOQ_KVhM8AAAABTKvPjA",
@@ -1417,35 +1492,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-24T20:52:44.654Z"
-  },
-  {
-    "id": "I_kwDOBZO9q88AAAABS_kZ5g",
-    "number": 1302,
-    "title": "Add --all alias to commands that include hidden nodes, topics, or services",
-    "url": "https://github.com/ros2/ros2cli/issues/1302",
-    "repo": "ros2/ros2cli",
-    "repoUrl": "https://github.com/ros2/ros2cli",
-    "stars": 263,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-24T14:07:21Z",
-    "updatedAt": "2026-09-24T14:07:21Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest ros2node/ros2node/verb/info.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "ros2node/ros2node/verb/info.py",
-      "ros2lifecycle/ros2lifecycle/verb/get.py",
-      "ros2lifecycle/ros2lifecycle/verb/set.py"
-    ],
-    "summary": "Fix issue #1302 in ros2/ros2cli: Add --all alias to commands that include hidden nodes, topics, or services",
-    "maintainerTurnaroundDays": 0.5,
-    "defaultBranch": "rolling",
-    "discoveredAt": "2026-09-24T16:03:22.556Z"
   },
   {
     "id": "I_kwDOBZO9q88AAAABS_kgoQ",
