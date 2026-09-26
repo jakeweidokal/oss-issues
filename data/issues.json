@@ -29,6 +29,407 @@
     "discoveredAt": "2026-09-22T10:29:17.117Z"
   },
   {
+    "id": "I_kwDOBXGswM8AAAABTUxM6A",
+    "number": 565,
+    "title": "Refactor: Reduce cyclomatic complexity of require_admin",
+    "url": "https://github.com/fossasia/voxbento/issues/565",
+    "repo": "fossasia/voxbento",
+    "repoUrl": "https://github.com/fossasia/voxbento",
+    "stars": 1509,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T06:00:47Z",
+    "updatedAt": "2026-09-26T06:00:47Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pytest portal/auth.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "portal/auth.py"
+    ],
+    "summary": "Fix issue #565 in fossasia/voxbento: Refactor: Reduce cyclomatic complexity of require_admin",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-26T10:27:35.165Z"
+  },
+  {
+    "id": "I_kwDOBXGswM8AAAABTUxN0A",
+    "number": 566,
+    "title": "Refactor: Reduce cyclomatic complexity of _embed_listener_impl",
+    "url": "https://github.com/fossasia/voxbento/issues/566",
+    "repo": "fossasia/voxbento",
+    "repoUrl": "https://github.com/fossasia/voxbento",
+    "stars": 1509,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T06:00:49Z",
+    "updatedAt": "2026-09-26T06:00:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest portal/routers/listener.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "portal/routers/listener.py"
+    ],
+    "summary": "Fix issue #566 in fossasia/voxbento: Refactor: Reduce cyclomatic complexity of _embed_listener_impl",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-26T10:27:33.962Z"
+  },
+  {
+    "id": "I_kwDOBXGswM8AAAABTUxOkA",
+    "number": 567,
+    "title": "Refactor: Reduce cyclomatic complexity of TranslationWorker.handle_translation",
+    "url": "https://github.com/fossasia/voxbento/issues/567",
+    "repo": "fossasia/voxbento",
+    "repoUrl": "https://github.com/fossasia/voxbento",
+    "stars": 1509,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T06:00:52Z",
+    "updatedAt": "2026-09-26T06:00:52Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest portal/translations/worker.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "portal/translations/worker.py"
+    ],
+    "summary": "Fix issue #567 in fossasia/voxbento: Refactor: Reduce cyclomatic complexity of TranslationWorker.handle_translation",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-26T10:27:32.713Z"
+  },
+  {
+    "id": "I_kwDOBXGswM8AAAABTUxPQg",
+    "number": 568,
+    "title": "Refactor: Break down upsert_room API handler",
+    "url": "https://github.com/fossasia/voxbento/issues/568",
+    "repo": "fossasia/voxbento",
+    "repoUrl": "https://github.com/fossasia/voxbento",
+    "stars": 1509,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T06:00:54Z",
+    "updatedAt": "2026-09-26T06:00:54Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest portal/routers/api_v1.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "portal/routers/api_v1.py"
+    ],
+    "summary": "Fix issue #568 in fossasia/voxbento: Refactor: Break down upsert_room API handler",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-26T10:27:31.460Z"
+  },
+  {
+    "id": "I_kwDOBXGswM8AAAABTUxQww",
+    "number": 570,
+    "title": "Refactor: Simplify home route handler",
+    "url": "https://github.com/fossasia/voxbento/issues/570",
+    "repo": "fossasia/voxbento",
+    "repoUrl": "https://github.com/fossasia/voxbento",
+    "stars": 1509,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T06:00:59Z",
+    "updatedAt": "2026-09-26T06:00:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest portal/routers/public.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "portal/routers/public.py"
+    ],
+    "summary": "Fix issue #570 in fossasia/voxbento: Refactor: Simplify home route handler",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-26T10:27:30.215Z"
+  },
+  {
+    "id": "I_kwDOBXGswM8AAAABTUxRig",
+    "number": 571,
+    "title": "Refactor: Extract grant flows in OAuth token_exchange",
+    "url": "https://github.com/fossasia/voxbento/issues/571",
+    "repo": "fossasia/voxbento",
+    "repoUrl": "https://github.com/fossasia/voxbento",
+    "stars": 1509,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T06:01:01Z",
+    "updatedAt": "2026-09-26T09:25:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pytest portal/routers/oauth.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "portal/routers/oauth.py"
+    ],
+    "summary": "Fix issue #571 in fossasia/voxbento: Refactor: Extract grant flows in OAuth token_exchange",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-26T10:27:28.987Z"
+  },
+  {
+    "id": "I_kwDODS2ass8AAAABTVBM-g",
+    "number": 1279,
+    "title": "[RFC] Studio Founding and Closure Dates + Defunct Status",
+    "url": "https://github.com/stashapp/stash-box/issues/1279",
+    "repo": "stashapp/stash-box",
+    "repoUrl": "https://github.com/stashapp/stash-box",
+    "stars": 371,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T06:47:46Z",
+    "updatedAt": "2026-09-26T07:48:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test frontend/src/components/editCard/EditStatus.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "frontend/src/components/editCard/EditStatus.tsx",
+      "frontend/src/pages/scenes/fingerprintClusters/__tests__/useActiveCluster.test.ts",
+      "frontend/src/pages/scenes/fingerprintClusters/components/ActiveClusterCard.tsx"
+    ],
+    "summary": "Fix issue #1279 in stashapp/stash-box: [RFC] Studio Founding and Closure Dates + Defunct Status",
+    "maintainerTurnaroundDays": 0.5,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-26T10:27:27.648Z"
+  },
+  {
+    "id": "I_kwDOTwQZTc8AAAABTVE-9Q",
+    "number": 81,
+    "title": "[Feature]: 设置页重构：更易用的设置页面 / Setting Page Refactoring: More User-Friendly Settings Interface",
+    "url": "https://github.com/Fervent-Tempo/AF-Media-Bar/issues/81",
+    "repo": "Fervent-Tempo/AF-Media-Bar",
+    "repoUrl": "https://github.com/Fervent-Tempo/AF-Media-Bar",
+    "stars": 626,
+    "language": "C#",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T07:00:21Z",
+    "updatedAt": "2026-09-26T07:57:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #81 in Fervent-Tempo/AF-Media-Bar: [Feature]: 设置页重构：更易用的设置页面 / Setting Page Refactoring: More User-Friendly Settings Interface",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T10:27:26.970Z"
+  },
+  {
+    "id": "I_kwDOQxN1ls8AAAABTVuv8A",
+    "number": 133,
+    "title": "[Build/Install]: The APK is missing the developer certificate.",
+    "url": "https://github.com/jean-voila/FeurStagram/issues/133",
+    "repo": "jean-voila/FeurStagram",
+    "repoUrl": "https://github.com/jean-voila/FeurStagram",
+    "stars": 939,
+    "language": "Java",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T09:11:28Z",
+    "updatedAt": "2026-09-26T09:11:28Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #133 in jean-voila/FeurStagram: [Build/Install]: The APK is missing the developer certificate.",
+    "maintainerTurnaroundDays": 3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T10:27:26.092Z"
+  },
+  {
+    "id": "I_kwDOPtqWvc8AAAABTV2eFA",
+    "number": 8173,
+    "title": "[RFC]: Helios performance optimization — ultra-low-latency and high-throughput serving tracks",
+    "url": "https://github.com/vllm-project/vllm-omni/issues/8173",
+    "repo": "vllm-project/vllm-omni",
+    "repoUrl": "https://github.com/vllm-project/vllm-omni",
+    "stars": 7067,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "high priority",
+      "diffusion",
+      "RFC"
+    ],
+    "createdAt": "2026-09-26T09:33:29Z",
+    "updatedAt": "2026-09-26T09:34:27Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest vllm_omni/diffusion/registry.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "vllm_omni/diffusion/registry.py",
+      "vllm_omni/diffusion/attention/selector.py",
+      "vllm_omni/diffusion/postprocess/rife_interpolator.py"
+    ],
+    "summary": "Fix issue #8173 in vllm-project/vllm-omni: [RFC]: Helios performance optimization — ultra-low-latency and high-throughput serving tracks",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T10:27:25.280Z"
+  },
+  {
+    "id": "I_kwDOAG3n0c8AAAABTWBcLw",
+    "number": 19258,
+    "title": "Will message with Will Delay Interval > 0 is lost on abnormal WebSocket disconnect when Session Expiry Interval is 0 (or absent)",
+    "url": "https://github.com/emqx/emqx/issues/19258",
+    "repo": "emqx/emqx",
+    "repoUrl": "https://github.com/emqx/emqx",
+    "stars": 16757,
+    "language": "Erlang",
+    "labels": [
+      "BUG",
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T10:02:30Z",
+    "updatedAt": "2026-09-26T10:16:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Docker required",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #19258 in emqx/emqx: Will message with Will Delay Interval > 0 is lost on abnormal WebSocket disconnect when Session Expiry Interval is 0 (or absent)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-26T10:27:21.961Z"
+  },
+  {
+    "id": "I_kwDODSospM8AAAABTVi3ZQ",
+    "number": 19245,
+    "title": "The conversion sensor's exit tri-state has no production supplier",
+    "url": "https://github.com/neomjs/neo/issues/19245",
+    "repo": "neomjs/neo",
+    "repoUrl": "https://github.com/neomjs/neo",
+    "stars": 3281,
+    "language": "JavaScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "ai",
+      "dashboard"
+    ],
+    "createdAt": "2026-09-26T08:38:09Z",
+    "updatedAt": "2026-09-26T08:38:09Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #19245 in neomjs/neo: The conversion sensor's exit tri-state has no production supplier",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-26T10:27:19.182Z"
+  },
+  {
+    "id": "I_kwDODf3ZCM8AAAABTV1zQg",
+    "number": 17020,
+    "title": "Admin order page: Unfulfilled Items pairs remaining quantity with the full line total after a partial fulfillment",
+    "url": "https://github.com/medusajs/medusa/issues/17020",
+    "repo": "medusajs/medusa",
+    "repoUrl": "https://github.com/medusajs/medusa",
+    "stars": 36468,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue",
+      "type: bug"
+    ],
+    "createdAt": "2026-09-26T09:31:33Z",
+    "updatedAt": "2026-09-26T09:33:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/cli/create-medusa-app/src/utils/node-version.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/cli/create-medusa-app/src/utils/node-version.ts",
+      "packages/cli/create-medusa-app/src/utils/update-package-versions.ts",
+      "packages/core/utils/src/common/get-node-version.ts"
+    ],
+    "summary": "Fix issue #17020 in medusajs/medusa: Admin order page: Unfulfilled Items pairs remaining quantity with the full line total after a partial fulfillment",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-26T10:27:08.759Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTV_mVA",
+    "number": 31021,
+    "title": "[good first issue] 🎴 Add new Learner Mistake 974 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31021",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3480,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-26T09:57:27Z",
+    "updatedAt": "2026-09-26T09:57:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #31021 in lingdojo/kana-dojo: [good first issue] 🎴 Add new Learner Mistake 974 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T10:27:00.328Z"
+  },
+  {
     "id": "I_kwDOPRCe6c8AAAABTSDPvA",
     "number": 2372,
     "title": "[Integrations/py] Mistral — check against latest release, update if stale",
@@ -89,74 +490,6 @@
     "discoveredAt": "2026-09-26T02:19:20.773Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABTSFwHQ",
-    "number": 30986,
-    "title": "[good first issue] 🍣 Add new Example Sentence 1158 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30986",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3474,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T21:57:30Z",
-    "updatedAt": "2026-09-25T21:57:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-example-sentences.json"
-    ],
-    "summary": "Fix issue #30986 in lingdojo/kana-dojo: [good first issue] 🍣 Add new Example Sentence 1158 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:19.649Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTSHVOA",
-    "number": 30987,
-    "title": "[good first issue] 🍤 Add new Learner Mistake 849 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30987",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3474,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T22:00:57Z",
-    "updatedAt": "2026-09-25T22:01:00Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30987 in lingdojo/kana-dojo: [good first issue] 🍤 Add new Learner Mistake 849 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:18.356Z"
-  },
-  {
     "id": "I_kwDONqYve88AAAABTSJYDQ",
     "number": 836,
     "title": "Support the embeddings API",
@@ -211,40 +544,6 @@
     "discoveredAt": "2026-09-26T02:19:15.614Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABTSgccQ",
-    "number": 30988,
-    "title": "[good first issue] 🎑 Add new Theme: Plum Ink (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30988",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3474,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T22:58:07Z",
-    "updatedAt": "2026-09-25T22:58:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-themes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-themes.json"
-    ],
-    "summary": "Fix issue #30988 in lingdojo/kana-dojo: [good first issue] 🎑 Add new Theme: Plum Ink (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:14.275Z"
-  },
-  {
     "id": "I_kwDOAvqWa88AAAABTSkUCg",
     "number": 15389,
     "title": "Retain text-decoration styles in SafeHTML",
@@ -273,268 +572,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "develop",
     "discoveredAt": "2026-09-26T02:19:12.919Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTS2giA",
-    "number": 30991,
-    "title": "[good first issue] 🗻 Add new Japanese Proverb 1801 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30991",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3474,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T23:57:26Z",
-    "updatedAt": "2026-09-25T23:57:29Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #30991 in lingdojo/kana-dojo: [good first issue] 🗻 Add new Japanese Proverb 1801 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:07.968Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTS36VA",
-    "number": 30992,
-    "title": "[good first issue] 🍣 Add new Trivia Question 1182 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30992",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3474,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-26T00:01:04Z",
-    "updatedAt": "2026-09-26T00:01:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-trivia-medium.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-trivia-medium.json"
-    ],
-    "summary": "Fix issue #30992 in lingdojo/kana-dojo: [good first issue] 🍣 Add new Trivia Question 1182 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:06.732Z"
-  },
-  {
-    "id": "I_kwDOQ_KVhM8AAAABTS8J1w",
-    "number": 4251,
-    "title": "rtk read: stdin and .pyi files skip the Python path, so `-l minimal` strips them with C-style rules",
-    "url": "https://github.com/rtk-ai/rtk/issues/4251",
-    "repo": "rtk-ai/rtk",
-    "repoUrl": "https://github.com/rtk-ai/rtk",
-    "stars": 81726,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue",
-      "area:cli",
-      "priority:medium"
-    ],
-    "createdAt": "2026-09-26T00:12:06Z",
-    "updatedAt": "2026-09-26T00:13:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test read",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/cmds/system/read.rs"
-    ],
-    "summary": "Fix issue #4251 in rtk-ai/rtk: rtk read: stdin and .pyi files skip the Python path, so `-l minimal` strips them with C-style rules",
-    "maintainerTurnaroundDays": 0.8,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-26T02:19:05.456Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTTNr3g",
-    "number": 30993,
-    "title": "[good first issue] 🍙 Add new Anime Quote 589 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30993",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3474,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-26T00:57:27Z",
-    "updatedAt": "2026-09-26T00:57:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #30993 in lingdojo/kana-dojo: [good first issue] 🍙 Add new Anime Quote 589 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:04.677Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTTOxpA",
-    "number": 30994,
-    "title": "[good first issue] 🍜 Add new Video Game Quote 470 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30994",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3474,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-26T01:00:54Z",
-    "updatedAt": "2026-09-26T01:00:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30994 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Video Game Quote 470 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:03.435Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTTifUA",
-    "number": 30995,
-    "title": "[good first issue] 🥟 Add new Dialect Entry 696 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30995",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3474,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-26T01:57:31Z",
-    "updatedAt": "2026-09-26T01:57:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #30995 in lingdojo/kana-dojo: [good first issue] 🥟 Add new Dialect Entry 696 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:02.122Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTTjs5Q",
-    "number": 30996,
-    "title": "[good first issue] 🍚 Add new False Friend Pair 652 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30996",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3474,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-26T02:00:57Z",
-    "updatedAt": "2026-09-26T02:00:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #30996 in lingdojo/kana-dojo: [good first issue] 🍚 Add new False Friend Pair 652 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:00.792Z"
-  },
-  {
-    "id": "I_kwDOARf6a88AAAABTPEuvw",
-    "number": 27199,
-    "title": "Create ObjectAsset.cpp",
-    "url": "https://github.com/OpenRCT2/OpenRCT2/issues/27199",
-    "repo": "OpenRCT2/OpenRCT2",
-    "repoUrl": "https://github.com/OpenRCT2/OpenRCT2",
-    "stars": 16259,
-    "language": "C++",
-    "labels": [
-      "refactor",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T16:55:18Z",
-    "updatedAt": "2026-09-25T16:55:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #27199 in OpenRCT2/OpenRCT2: Create ObjectAsset.cpp",
-    "maintainerTurnaroundDays": 0.2,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-25T20:50:27.881Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTPtVNw",
@@ -569,74 +606,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-25T20:50:23.800Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTPwQmw",
-    "number": 30974,
-    "title": "[good first issue] 🍢 Add new Grammar Point 360 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30974",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3473,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T18:01:02Z",
-    "updatedAt": "2026-09-25T18:01:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-grammar.json"
-    ],
-    "summary": "Fix issue #30974 in lingdojo/kana-dojo: [good first issue] 🍢 Add new Grammar Point 360 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T20:50:21.852Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTQ9pqw",
-    "number": 30982,
-    "title": "[good first issue] 🍣 Add new Dialect Entry 434 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30982",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3473,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T20:01:01Z",
-    "updatedAt": "2026-09-25T20:01:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #30982 in lingdojo/kana-dojo: [good first issue] 🍣 Add new Dialect Entry 434 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T20:50:20.093Z"
   },
   {
     "id": "I_kwDOB-UUPs8AAAABTRIopg",
@@ -842,34 +811,6 @@
     "discoveredAt": "2026-09-25T16:04:39.948Z"
   },
   {
-    "id": "I_kwDOAwodu88AAAABTNJJbg",
-    "number": 3350,
-    "title": "Alarm create button is enabled without specifying a required title",
-    "url": "https://github.com/openremote/openremote/issues/3350",
-    "repo": "openremote/openremote",
-    "repoUrl": "https://github.com/openremote/openremote",
-    "stars": 1911,
-    "language": "Java",
-    "labels": [
-      "Bug",
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-25T13:57:25Z",
-    "updatedAt": "2026-09-25T14:02:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #3350 in openremote/openremote: Alarm create button is enabled without specifying a required title",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-25T16:04:38.602Z"
-  },
-  {
     "id": "I_kwDOB-UUPs8AAAABTOCPXQ",
     "number": 24718,
     "title": "`ListViewItem.ContentTemplateRoot` stays null when the ListView uses an `ItemTemplate`",
@@ -1070,40 +1011,6 @@
     "discoveredAt": "2026-09-25T16:04:03.425Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABTJh7sw",
-    "number": 30939,
-    "title": "[good first issue] 🀄 Add new Anime Quote 345 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30939",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3467,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T08:00:57Z",
-    "updatedAt": "2026-09-25T08:01:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #30939 in lingdojo/kana-dojo: [good first issue] 🀄 Add new Anime Quote 345 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T10:44:36.839Z"
-  },
-  {
     "id": "I_kwDOIXXIE88AAAABTJvziw",
     "number": 1939,
     "title": "Option to set \"Original image quality\" as default setting",
@@ -1158,40 +1065,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-25T10:44:33.488Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTKE_mg",
-    "number": 30942,
-    "title": "[good first issue] 🥟 Add new Video Game Quote 898 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30942",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3467,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T08:57:29Z",
-    "updatedAt": "2026-09-25T08:57:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30942 in lingdojo/kana-dojo: [good first issue] 🥟 Add new Video Game Quote 898 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T10:44:29.812Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTKHBZg",
@@ -1362,40 +1235,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-25T10:43:45.410Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTERVOw",
-    "number": 30914,
-    "title": "[good first issue] 🍜 Add new Video Game Quote 1022 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30914",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3464,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-24T21:01:04Z",
-    "updatedAt": "2026-09-24T21:01:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30914 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Video Game Quote 1022 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T02:14:24.914Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTE09QA",
@@ -1914,33 +1753,6 @@
     "discoveredAt": "2026-09-24T20:52:44.654Z"
   },
   {
-    "id": "I_kwDOBZO9q88AAAABS_kgoQ",
-    "number": 1306,
-    "title": "Fix flag name in --max-wait-time-secs help text in ros2 topic pub",
-    "url": "https://github.com/ros2/ros2cli/issues/1306",
-    "repo": "ros2/ros2cli",
-    "repoUrl": "https://github.com/ros2/ros2cli",
-    "stars": 263,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-24T14:07:28Z",
-    "updatedAt": "2026-09-24T14:33:33Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest ros2topic/ros2topic/verb/pub.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "ros2topic/ros2topic/verb/pub.py"
-    ],
-    "summary": "Fix issue #1306 in ros2/ros2cli: Fix flag name in --max-wait-time-secs help text in ros2 topic pub",
-    "maintainerTurnaroundDays": 0.5,
-    "defaultBranch": "rolling",
-    "discoveredAt": "2026-09-24T16:03:19.071Z"
-  },
-  {
     "id": "I_kwDOAf6AbM8AAAABS_mPpA",
     "number": 673,
     "title": "rename `TaggedLen` to `LocatedLength`",
@@ -2218,98 +2030,6 @@
     "discoveredAt": "2026-09-24T01:57:08.095Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABS2_rXw",
-    "number": 30848,
-    "title": "[good first issue] 🍱 Add new Anime Quote 710 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30848",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3454,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-23T23:00:59Z",
-    "updatedAt": "2026-09-23T23:01:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #30848 in lingdojo/kana-dojo: [good first issue] 🍱 Add new Anime Quote 710 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-24T01:57:06.769Z"
-  },
-  {
-    "id": "I_kwDOAlcn888AAAABS3J8LQ",
-    "number": 811,
-    "title": "Delete unused args argument from main() in Python files",
-    "url": "https://github.com/ros2/demos/issues/811",
-    "repo": "ros2/demos",
-    "repoUrl": "https://github.com/ros2/demos",
-    "stars": 653,
-    "language": "C++",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-23T23:23:52Z",
-    "updatedAt": "2026-09-23T23:23:52Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "action_tutorials/action_tutorials_py/action_tutorials_py/fibonacci_action_client.py",
-      "action_tutorials/action_tutorials_py/action_tutorials_py/fibonacci_action_server.py",
-      "demo_nodes_py/demo_nodes_py/events/matched_event_detect.py"
-    ],
-    "summary": "Fix issue #811 in ros2/demos: Delete unused args argument from main() in Python files",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "rolling",
-    "discoveredAt": "2026-09-24T01:57:05.518Z"
-  },
-  {
-    "id": "I_kwDOAU5Q9c8AAAABS3J85A",
-    "number": 467,
-    "title": "Delete unused args argument from main() in Python files",
-    "url": "https://github.com/ros2/examples/issues/467",
-    "repo": "ros2/examples",
-    "repoUrl": "https://github.com/ros2/examples",
-    "stars": 973,
-    "language": "C++",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-23T23:23:53Z",
-    "updatedAt": "2026-09-23T23:23:53Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rclpy/actions/minimal_action_client/examples_rclpy_minimal_action_client/client.py",
-      "rclpy/actions/minimal_action_client/examples_rclpy_minimal_action_client/client_asyncio.py",
-      "rclpy/actions/minimal_action_client/examples_rclpy_minimal_action_client/client_cancel.py"
-    ],
-    "summary": "Fix issue #467 in ros2/examples: Delete unused args argument from main() in Python files",
-    "maintainerTurnaroundDays": 0.4,
-    "defaultBranch": "rolling",
-    "discoveredAt": "2026-09-24T01:57:05.040Z"
-  },
-  {
     "id": "I_kwDOB5aMAM8AAAABS3KBpA",
     "number": 2510,
     "title": "Delete unused args argument from main() in Python files",
@@ -2364,40 +2084,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-24T01:57:04.032Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABS3ZLQw",
-    "number": 30849,
-    "title": "[good first issue] 🎑 Add new Video Game Quote 508 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30849",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3454,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-23T23:57:25Z",
-    "updatedAt": "2026-09-23T23:57:28Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30849 in lingdojo/kana-dojo: [good first issue] 🎑 Add new Video Game Quote 508 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-24T01:57:02.445Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABS3ax-g",
@@ -2638,40 +2324,6 @@
     "discoveredAt": "2026-09-23T20:47:16.039Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABS0kqyw",
-    "number": 30837,
-    "title": "[good first issue] 🌺 Add new Video Game Quote 752 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30837",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3453,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-23T18:57:29Z",
-    "updatedAt": "2026-09-23T18:57:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-videogame-quotes.json"
-    ],
-    "summary": "Fix issue #30837 in lingdojo/kana-dojo: [good first issue] 🌺 Add new Video Game Quote 752 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T20:47:14.679Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABS0nQrg",
     "number": 30838,
     "title": "[good first issue] 🍙 Add new Japanese Idiom 1165 (good-first-issue)",
@@ -2774,64 +2426,6 @@
     "discoveredAt": "2026-09-23T20:47:04.603Z"
   },
   {
-    "id": "I_kwDOAf6AbM8AAAABS1gYng",
-    "number": 663,
-    "title": "port the new fuzzer to v1",
-    "url": "https://github.com/servo/rust-smallvec/issues/663",
-    "repo": "servo/rust-smallvec",
-    "repoUrl": "https://github.com/servo/rust-smallvec",
-    "stars": 1738,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "r-refactor"
-    ],
-    "createdAt": "2026-09-23T20:20:32Z",
-    "updatedAt": "2026-09-23T20:20:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #663 in servo/rust-smallvec: port the new fuzzer to v1",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "v2",
-    "discoveredAt": "2026-09-23T20:47:02.210Z"
-  },
-  {
-    "id": "I_kwDOAf6AbM8AAAABS1lcsw",
-    "number": 665,
-    "title": "port the new CI workflows in v2 to v1",
-    "url": "https://github.com/servo/rust-smallvec/issues/665",
-    "repo": "servo/rust-smallvec",
-    "repoUrl": "https://github.com/servo/rust-smallvec",
-    "stars": 1738,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "r-ci"
-    ],
-    "createdAt": "2026-09-23T20:28:20Z",
-    "updatedAt": "2026-09-23T20:28:20Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #665 in servo/rust-smallvec: port the new CI workflows in v2 to v1",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "v2",
-    "discoveredAt": "2026-09-23T20:47:01.808Z"
-  },
-  {
     "id": "I_kwDOAXwIqs8AAAABS1qrbw",
     "number": 10802,
     "title": "[Bug]: bcm2711 Debian images ship raspberrypi-sys-mods' passwordless sudo rule for a pi user that Armbian never creates",
@@ -2922,37 +2516,6 @@
     "discoveredAt": "2026-09-23T15:42:48.147Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABSyOVeQ",
-    "number": 10858,
-    "title": "[Bug🐛] Reject bit lengths beyond BitsArray byte storage",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10858",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1521,
-    "language": "Rust",
-    "labels": [
-      "bug🐛",
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy"
-    ],
-    "createdAt": "2026-09-23T15:24:17Z",
-    "updatedAt": "2026-09-23T15:24:17Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test bits_array",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-filter/src/utils/bits_array.rs"
-    ],
-    "summary": "Fix issue #10858 in mxsm/rocketmq-rust: [Bug🐛] Reject bit lengths beyond BitsArray byte storage",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T15:42:38.926Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABSyObGQ",
     "number": 10860,
     "title": "[Test🧪] Cover raw and compressed MessageBody behavior",
@@ -3015,37 +2578,6 @@
     "discoveredAt": "2026-09-23T15:42:21.132Z"
   },
   {
-    "id": "I_kwDOK5M3Is8AAAABSyO0Cg",
-    "number": 10862,
-    "title": "[Test🧪] Cover MessageClientExt message ID precedence",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10862",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1521,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "testing🧪"
-    ],
-    "createdAt": "2026-09-23T15:24:55Z",
-    "updatedAt": "2026-09-23T15:24:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test message_client_ext",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-model/src/common/message/message_client_ext.rs"
-    ],
-    "summary": "Fix issue #10862 in mxsm/rocketmq-rust: [Test🧪] Cover MessageClientExt message ID precedence",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T15:42:16.507Z"
-  },
-  {
     "id": "I_kwDOK5M3Is8AAAABSyO2Jg",
     "number": 10863,
     "title": "[Test🧪] Cover MessageAccessor clone_message field independence",
@@ -3106,71 +2638,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-23T15:42:07.095Z"
-  },
-  {
-    "id": "I_kwDOK5M3Is8AAAABSyPKjg",
-    "number": 10866,
-    "title": "[Test🧪] Cover filter Value truthiness at SQL NOT boundary",
-    "url": "https://github.com/mxsm/rocketmq-rust/issues/10866",
-    "repo": "mxsm/rocketmq-rust",
-    "repoUrl": "https://github.com/mxsm/rocketmq-rust",
-    "stars": 1521,
-    "language": "Rust",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "rust",
-      "Difficulty level/Easy",
-      "testing🧪"
-    ],
-    "createdAt": "2026-09-23T15:25:23Z",
-    "updatedAt": "2026-09-23T15:25:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test expression",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "rocketmq-filter/src/expression.rs"
-    ],
-    "summary": "Fix issue #10866 in mxsm/rocketmq-rust: [Test🧪] Cover filter Value truthiness at SQL NOT boundary",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T15:41:57.635Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSsYDmg",
-    "number": 30796,
-    "title": "[good first issue] 🍜 Add new Anime Quote 465 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30796",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3446,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-23T06:01:02Z",
-    "updatedAt": "2026-09-23T06:01:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #30796 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Anime Quote 465 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T10:24:49.105Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABSsqSLg",
@@ -4771,5 +4238,32 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-22T02:10:03.999Z"
+  },
+  {
+    "id": "I_kwDOBXGswM8AAAABTUwXyg",
+    "number": 564,
+    "title": "Refactor: Break down the monolithic admin_edit_room handler",
+    "url": "https://github.com/fossasia/voxbento/issues/564",
+    "repo": "fossasia/voxbento",
+    "repoUrl": "https://github.com/fossasia/voxbento",
+    "stars": 1509,
+    "language": "Python",
+    "labels": [
+      "help wanted"
+    ],
+    "createdAt": "2026-09-26T05:58:09Z",
+    "updatedAt": "2026-09-26T05:58:09Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest portal/routers/admin.py",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "portal/routers/admin.py"
+    ],
+    "summary": "Fix issue #564 in fossasia/voxbento: Refactor: Break down the monolithic admin_edit_room handler",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "dev",
+    "discoveredAt": "2026-09-26T10:27:36.348Z"
   }
 ]
