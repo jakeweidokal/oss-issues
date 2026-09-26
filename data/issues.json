@@ -29,6 +29,495 @@
     "discoveredAt": "2026-09-22T10:29:17.117Z"
   },
   {
+    "id": "I_kwDOO_fYBc8AAAABTXQ5Xg",
+    "number": 1039,
+    "title": "Docs: add an On-call teams page",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1039",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "Server",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:40Z",
+    "updatedAt": "2026-09-26T14:12:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test packages/shared/src/schemas.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/shared/src/schemas.ts"
+    ],
+    "summary": "Fix issue #1039 in OpsiMate/OpsiMate: Docs: add an On-call teams page",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:09.127Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ55Q",
+    "number": 1040,
+    "title": "Add unit tests for alert comment ownership and ordering",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1040",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "Server",
+      "DevOps",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:41Z",
+    "updatedAt": "2026-09-26T14:12:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/server/src/dal/alertCommentsRepository.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/server/src/dal/alertCommentsRepository.ts"
+    ],
+    "summary": "Fix issue #1040 in OpsiMate/OpsiMate: Add unit tests for alert comment ownership and ordering",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:08.539Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ6cw",
+    "number": 1041,
+    "title": "Add unit tests for mute-policy and enrichment GET/PUT/DELETE by id",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1041",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "Server",
+      "DevOps",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:42Z",
+    "updatedAt": "2026-09-26T14:12:07Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1041 in OpsiMate/OpsiMate: Add unit tests for mute-policy and enrichment GET/PUT/DELETE by id",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:07.940Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ69w",
+    "number": 1042,
+    "title": "Add unit tests for useStickyHeaders",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1042",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "UI",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:44Z",
+    "updatedAt": "2026-09-26T14:12:06Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/components/Alerts/AlertsTable/hooks/useStickyHeaders.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/components/Alerts/AlertsTable/hooks/useStickyHeaders.ts"
+    ],
+    "summary": "Fix issue #1042 in OpsiMate/OpsiMate: Add unit tests for useStickyHeaders",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:07.339Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ7gg",
+    "number": 1043,
+    "title": "Add unit tests for the KpiCard delta chip",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1043",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "UI",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:45Z",
+    "updatedAt": "2026-09-26T14:12:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/components/Analytics/KpiCard.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/components/Analytics/KpiCard.tsx"
+    ],
+    "summary": "Fix issue #1043 in OpsiMate/OpsiMate: Add unit tests for the KpiCard delta chip",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:06.732Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ8tg",
+    "number": 1045,
+    "title": "Five icon-only toolbar buttons have no accessible name",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1045",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "UI",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:49Z",
+    "updatedAt": "2026-09-26T14:12:00Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/components/DashboardLayout.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/components/DashboardLayout.tsx",
+      "apps/client/src/components/Alerts/AlertsTable/GroupByControls.tsx",
+      "apps/client/src/components/Alerts/AlertsTable/ColumnSettingsDropdown/ColumnSettingsDropdown.tsx"
+    ],
+    "summary": "Fix issue #1045 in OpsiMate/OpsiMate: Five icon-only toolbar buttons have no accessible name",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:06.140Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ9Qg",
+    "number": 1046,
+    "title": "Docs: add a Playground mode and version badge page",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1046",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "question",
+      "Server",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:50Z",
+    "updatedAt": "2026-09-26T14:11:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/main.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/main.tsx",
+      "apps/client/src/lib/version.ts"
+    ],
+    "summary": "Fix issue #1046 in OpsiMate/OpsiMate: Docs: add a Playground mode and version badge page",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:05.534Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ94Q",
+    "number": 1047,
+    "title": "Docs: fix alert states and the pull/push model in adding-alerts.md",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1047",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:52Z",
+    "updatedAt": "2026-09-26T14:11:57Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1047 in OpsiMate/OpsiMate: Docs: fix alert states and the pull/push model in adding-alerts.md",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:04.952Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ-WA",
+    "number": 1048,
+    "title": "Add unit tests for RetentionRepository",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1048",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "Server",
+      "DevOps",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:53Z",
+    "updatedAt": "2026-09-26T14:11:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/server/src/dal/retentionRepository.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/server/src/dal/retentionRepository.ts"
+    ],
+    "summary": "Fix issue #1048 in OpsiMate/OpsiMate: Add unit tests for RetentionRepository",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:04.355Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ-xg",
+    "number": 1049,
+    "title": "Add unit tests for the admin user management endpoints",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1049",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "Server",
+      "DevOps",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:55Z",
+    "updatedAt": "2026-09-26T14:11:54Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/server/src/api/v1/users/controller.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/server/src/api/v1/users/controller.ts"
+    ],
+    "summary": "Fix issue #1049 in OpsiMate/OpsiMate: Add unit tests for the admin user management endpoints",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:03.763Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXQ_hA",
+    "number": 1050,
+    "title": "Add unit tests for lib/auth.ts",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1050",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "UI",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:56Z",
+    "updatedAt": "2026-09-26T14:11:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/lib/auth.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/lib/auth.ts"
+    ],
+    "summary": "Fix issue #1050 in OpsiMate/OpsiMate: Add unit tests for lib/auth.ts",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:03.168Z"
+  },
+  {
+    "id": "I_kwDOO_fYBc8AAAABTXRABg",
+    "number": 1051,
+    "title": "Add unit tests for Analytics/analytics.utils.ts",
+    "url": "https://github.com/OpsiMate/OpsiMate/issues/1051",
+    "repo": "OpsiMate/OpsiMate",
+    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
+    "stars": 225,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "UI",
+      "Test",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-26T13:44:58Z",
+    "updatedAt": "2026-09-26T14:11:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test apps/client/src/components/Analytics/analytics.utils.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "apps/client/src/components/Analytics/analytics.utils.ts"
+    ],
+    "summary": "Fix issue #1051 in OpsiMate/OpsiMate: Add unit tests for Analytics/analytics.utils.ts",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:02.561Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTXXMew",
+    "number": 31037,
+    "title": "[good first issue] 🍡 Add new Japanese Idiom 312 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31037",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3479,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-26T14:01:00Z",
+    "updatedAt": "2026-09-26T14:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #31037 in lingdojo/kana-dojo: [good first issue] 🍡 Add new Japanese Idiom 312 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:01.923Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTXtjFA",
+    "number": 31040,
+    "title": "[good first issue] ⛩️ Add new Dialect Entry 724 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31040",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3479,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-26T14:57:28Z",
+    "updatedAt": "2026-09-26T14:57:31Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #31040 in lingdojo/kana-dojo: [good first issue] ⛩️ Add new Dialect Entry 724 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:16:00.655Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTXvI5w",
+    "number": 31041,
+    "title": "[good first issue] 🏯 Add new False Friend Pair 447 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31041",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3479,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-26T15:00:58Z",
+    "updatedAt": "2026-09-26T15:01:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #31041 in lingdojo/kana-dojo: [good first issue] 🏯 Add new False Friend Pair 447 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T15:15:59.341Z"
+  },
+  {
     "id": "I_kwDOBXGswM8AAAABTUxM6A",
     "number": 565,
     "title": "Refactor: Reduce cyclomatic complexity of require_admin",
@@ -137,60 +626,6 @@
     "discoveredAt": "2026-09-26T10:27:31.460Z"
   },
   {
-    "id": "I_kwDOBXGswM8AAAABTUxQww",
-    "number": 570,
-    "title": "Refactor: Simplify home route handler",
-    "url": "https://github.com/fossasia/voxbento/issues/570",
-    "repo": "fossasia/voxbento",
-    "repoUrl": "https://github.com/fossasia/voxbento",
-    "stars": 1509,
-    "language": "Python",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-26T06:00:59Z",
-    "updatedAt": "2026-09-26T06:00:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest portal/routers/public.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "portal/routers/public.py"
-    ],
-    "summary": "Fix issue #570 in fossasia/voxbento: Refactor: Simplify home route handler",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "dev",
-    "discoveredAt": "2026-09-26T10:27:30.215Z"
-  },
-  {
-    "id": "I_kwDOBXGswM8AAAABTUxRig",
-    "number": 571,
-    "title": "Refactor: Extract grant flows in OAuth token_exchange",
-    "url": "https://github.com/fossasia/voxbento/issues/571",
-    "repo": "fossasia/voxbento",
-    "repoUrl": "https://github.com/fossasia/voxbento",
-    "stars": 1509,
-    "language": "Python",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-26T06:01:01Z",
-    "updatedAt": "2026-09-26T09:25:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pytest portal/routers/oauth.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "portal/routers/oauth.py"
-    ],
-    "summary": "Fix issue #571 in fossasia/voxbento: Refactor: Extract grant flows in OAuth token_exchange",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "dev",
-    "discoveredAt": "2026-09-26T10:27:28.987Z"
-  },
-  {
     "id": "I_kwDODS2ass8AAAABTVBM-g",
     "number": 1279,
     "title": "[RFC] Studio Founding and Closure Dates + Defunct Status",
@@ -248,94 +683,6 @@
     "discoveredAt": "2026-09-26T10:27:26.970Z"
   },
   {
-    "id": "I_kwDOQxN1ls8AAAABTVuv8A",
-    "number": 133,
-    "title": "[Build/Install]: The APK is missing the developer certificate.",
-    "url": "https://github.com/jean-voila/FeurStagram/issues/133",
-    "repo": "jean-voila/FeurStagram",
-    "repoUrl": "https://github.com/jean-voila/FeurStagram",
-    "stars": 939,
-    "language": "Java",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-26T09:11:28Z",
-    "updatedAt": "2026-09-26T09:11:28Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #133 in jean-voila/FeurStagram: [Build/Install]: The APK is missing the developer certificate.",
-    "maintainerTurnaroundDays": 3,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T10:27:26.092Z"
-  },
-  {
-    "id": "I_kwDOPtqWvc8AAAABTV2eFA",
-    "number": 8173,
-    "title": "[RFC]: Helios performance optimization — ultra-low-latency and high-throughput serving tracks",
-    "url": "https://github.com/vllm-project/vllm-omni/issues/8173",
-    "repo": "vllm-project/vllm-omni",
-    "repoUrl": "https://github.com/vllm-project/vllm-omni",
-    "stars": 7067,
-    "language": "Python",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "high priority",
-      "diffusion",
-      "RFC"
-    ],
-    "createdAt": "2026-09-26T09:33:29Z",
-    "updatedAt": "2026-09-26T09:34:27Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest vllm_omni/diffusion/registry.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "vllm_omni/diffusion/registry.py",
-      "vllm_omni/diffusion/attention/selector.py",
-      "vllm_omni/diffusion/postprocess/rife_interpolator.py"
-    ],
-    "summary": "Fix issue #8173 in vllm-project/vllm-omni: [RFC]: Helios performance optimization — ultra-low-latency and high-throughput serving tracks",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T10:27:25.280Z"
-  },
-  {
-    "id": "I_kwDOAG3n0c8AAAABTWBcLw",
-    "number": 19258,
-    "title": "Will message with Will Delay Interval > 0 is lost on abnormal WebSocket disconnect when Session Expiry Interval is 0 (or absent)",
-    "url": "https://github.com/emqx/emqx/issues/19258",
-    "repo": "emqx/emqx",
-    "repoUrl": "https://github.com/emqx/emqx",
-    "stars": 16757,
-    "language": "Erlang",
-    "labels": [
-      "BUG",
-      "help wanted"
-    ],
-    "createdAt": "2026-09-26T10:02:30Z",
-    "updatedAt": "2026-09-26T10:16:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Docker required",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #19258 in emqx/emqx: Will message with Will Delay Interval > 0 is lost on abnormal WebSocket disconnect when Session Expiry Interval is 0 (or absent)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-26T10:27:21.961Z"
-  },
-  {
     "id": "I_kwDODSospM8AAAABTVi3ZQ",
     "number": 19245,
     "title": "The conversion sensor's exit tri-state has no production supplier",
@@ -364,70 +711,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "dev",
     "discoveredAt": "2026-09-26T10:27:19.182Z"
-  },
-  {
-    "id": "I_kwDODf3ZCM8AAAABTV1zQg",
-    "number": 17020,
-    "title": "Admin order page: Unfulfilled Items pairs remaining quantity with the full line total after a partial fulfillment",
-    "url": "https://github.com/medusajs/medusa/issues/17020",
-    "repo": "medusajs/medusa",
-    "repoUrl": "https://github.com/medusajs/medusa",
-    "stars": 36468,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "type: bug"
-    ],
-    "createdAt": "2026-09-26T09:31:33Z",
-    "updatedAt": "2026-09-26T09:33:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test packages/cli/create-medusa-app/src/utils/node-version.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/cli/create-medusa-app/src/utils/node-version.ts",
-      "packages/cli/create-medusa-app/src/utils/update-package-versions.ts",
-      "packages/core/utils/src/common/get-node-version.ts"
-    ],
-    "summary": "Fix issue #17020 in medusajs/medusa: Admin order page: Unfulfilled Items pairs remaining quantity with the full line total after a partial fulfillment",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-26T10:27:08.759Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTV_mVA",
-    "number": 31021,
-    "title": "[good first issue] 🎴 Add new Learner Mistake 974 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/31021",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3480,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-26T09:57:27Z",
-    "updatedAt": "2026-09-26T09:57:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #31021 in lingdojo/kana-dojo: [good first issue] 🎴 Add new Learner Mistake 974 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T10:27:00.328Z"
   },
   {
     "id": "I_kwDOPRCe6c8AAAABTSDPvA",
@@ -542,36 +825,6 @@
     "maintainerTurnaroundDays": 0.7,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-26T02:19:15.614Z"
-  },
-  {
-    "id": "I_kwDOAvqWa88AAAABTSkUCg",
-    "number": 15389,
-    "title": "Retain text-decoration styles in SafeHTML",
-    "url": "https://github.com/learningequality/kolibri/issues/15389",
-    "repo": "learningequality/kolibri",
-    "repoUrl": "https://github.com/learningequality/kolibri",
-    "stars": 1122,
-    "language": "Python",
-    "labels": [
-      "DEV: renderers",
-      "DEV: frontend",
-      "help wanted",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-25T23:08:53Z",
-    "updatedAt": "2026-09-25T23:16:39Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest kolibri/plugins/qti_viewer/frontend/components/__fixtures__/items.js",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "kolibri/plugins/qti_viewer/frontend/components/__fixtures__/items.js"
-    ],
-    "summary": "Fix issue #15389 in learningequality/kolibri: Retain text-decoration styles in SafeHTML",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-26T02:19:12.919Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTPtVNw",
@@ -1065,40 +1318,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-25T10:44:33.488Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTKHBZg",
-    "number": 30944,
-    "title": "[good first issue] 🎐 Add new Dialect Entry 619 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30944",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3467,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-25T09:00:59Z",
-    "updatedAt": "2026-09-25T09:01:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #30944 in lingdojo/kana-dojo: [good first issue] 🎐 Add new Dialect Entry 619 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-25T10:44:28.229Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTKrQLQ",
