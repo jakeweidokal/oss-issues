@@ -29,6 +29,454 @@
     "discoveredAt": "2026-09-22T10:29:17.117Z"
   },
   {
+    "id": "I_kwDOQS9jlc8AAAABTZta8A",
+    "number": 597,
+    "title": "Settings saves a two-cell Playing Icon that the next launch drops",
+    "url": "https://github.com/LargeModGames/spotatui/issues/597",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:01Z",
+    "updatedAt": "2026-09-26T20:15:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test settings_apply",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/core/app/settings_apply.rs",
+      "src/core/app/settings_schema.rs",
+      "src/core/user_config.rs"
+    ],
+    "summary": "Fix issue #597 in LargeModGames/spotatui: Settings saves a two-cell Playing Icon that the next launch drops",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:18:01.579Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtbmA",
+    "number": 598,
+    "title": "Help menu and episode list ignore rebound paging keys",
+    "url": "https://github.com/LargeModGames/spotatui/issues/598",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:03Z",
+    "updatedAt": "2026-09-26T20:15:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test help_menu",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/tui/handlers/help_menu.rs",
+      "src/tui/handlers/episode_table.rs",
+      "src/tui/handlers/track_table.rs"
+    ],
+    "summary": "Fix issue #598 in LargeModGames/spotatui: Help menu and episode list ignore rebound paging keys",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:18:00.760Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtcOA",
+    "number": 599,
+    "title": "Help lists Ctrl+p as \"move up\", but Ctrl+p opens the party",
+    "url": "https://github.com/LargeModGames/spotatui/issues/599",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:04Z",
+    "updatedAt": "2026-09-26T20:15:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test keymap",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/tui/keymap.rs",
+      "src/core/user_config.rs",
+      "src/tui/handlers/mod.rs"
+    ],
+    "summary": "Fix issue #599 in LargeModGames/spotatui: Help lists Ctrl+p as \"move up\", but Ctrl+p opens the party",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:59.966Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtcyQ",
+    "number": 600,
+    "title": "Sorting a playlist by name puts lowercase titles after Z",
+    "url": "https://github.com/LargeModGames/spotatui/issues/600",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:06Z",
+    "updatedAt": "2026-09-26T20:15:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test sort",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/core/sort.rs",
+      "src/core/app/library.rs",
+      "src/infra/network/library.rs"
+    ],
+    "summary": "Fix issue #600 in LargeModGames/spotatui: Sorting a playlist by name puts lowercase titles after Z",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:59.155Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtd4w",
+    "number": 601,
+    "title": "Stats Top Artists splits \"Mumford & Sons\" into two artists",
+    "url": "https://github.com/LargeModGames/spotatui/issues/601",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:08Z",
+    "updatedAt": "2026-09-26T20:15:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test history",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/infra/history.rs",
+      "src/infra/dj/brief.rs",
+      "src/infra/media_metadata.rs"
+    ],
+    "summary": "Fix issue #601 in LargeModGames/spotatui: Stats Top Artists splits \"Mumford & Sons\" into two artists",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:58.385Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtemQ",
+    "number": 602,
+    "title": "Stats \"Last 10 Days\" groups plays by UTC date, not local date",
+    "url": "https://github.com/LargeModGames/spotatui/issues/602",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:10Z",
+    "updatedAt": "2026-09-26T20:16:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test history",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/infra/history.rs",
+      "src/gates.rs"
+    ],
+    "summary": "Fix issue #602 in LargeModGames/spotatui: Stats \"Last 10 Days\" groups plays by UTC date, not local date",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:57.621Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtfMg",
+    "number": 603,
+    "title": "CLI `play` panics on an empty search result or empty playlist",
+    "url": "https://github.com/LargeModGames/spotatui/issues/603",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:11Z",
+    "updatedAt": "2026-09-26T20:16:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test cli_app",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/cli/cli_app.rs",
+      "src/infra/network/search.rs",
+      "src/core/app/models.rs"
+    ],
+    "summary": "Fix issue #603 in LargeModGames/spotatui: CLI `play` panics on an empty search result or empty playlist",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:56.846Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtf2A",
+    "number": 604,
+    "title": "CLI `--format` prints None for show publishers, leaves `%r` raw",
+    "url": "https://github.com/LargeModGames/spotatui/issues/604",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:13Z",
+    "updatedAt": "2026-09-26T20:16:14Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test cli_app",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/cli/cli_app.rs",
+      "src/cli/util.rs",
+      "src/cli/clap.rs"
+    ],
+    "summary": "Fix issue #604 in LargeModGames/spotatui: CLI `--format` prints None for show publishers, leaves `%r` raw",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:56.034Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtgeA",
+    "number": 605,
+    "title": "`--tick-rate` with a non-number is silently ignored",
+    "url": "https://github.com/LargeModGames/spotatui/issues/605",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:15Z",
+    "updatedAt": "2026-09-26T20:16:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test cli",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/runtime/cli.rs",
+      "src/runtime/bootstrap.rs",
+      "src/core/user_config.rs"
+    ],
+    "summary": "Fix issue #605 in LargeModGames/spotatui: `--tick-rate` with a non-number is silently ignored",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:55.174Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZthgA",
+    "number": 606,
+    "title": "`--completions powershell` is rejected, only `power-shell` parses",
+    "url": "https://github.com/LargeModGames/spotatui/issues/606",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:16Z",
+    "updatedAt": "2026-09-26T20:16:15Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test cli",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/runtime/cli.rs",
+      "src/runtime/mod.rs",
+      "src/gates.rs"
+    ],
+    "summary": "Fix issue #606 in LargeModGames/spotatui: `--completions powershell` is rejected, only `power-shell` parses",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:54.398Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtiAA",
+    "number": 607,
+    "title": "AI DJ docs omit the copilot and opencode agent presets",
+    "url": "https://github.com/LargeModGames/spotatui/issues/607",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:17Z",
+    "updatedAt": "2026-09-26T20:15:17Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test agent_cli",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/infra/dj/brain/agent_cli.rs",
+      "src/infra/dj/session.rs",
+      "src/infra/dj/setup.rs"
+    ],
+    "summary": "Fix issue #607 in LargeModGames/spotatui: AI DJ docs omit the copilot and opencode agent presets",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:53.578Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtiqQ",
+    "number": 608,
+    "title": "`docs/keybindings.md` never lists the `keybindings:` config names",
+    "url": "https://github.com/LargeModGames/spotatui/issues/608",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:19Z",
+    "updatedAt": "2026-09-26T20:15:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test config.example",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "examples/config.example.yml",
+      "src/core/user_config.rs",
+      "src/tui/keymap.rs"
+    ],
+    "summary": "Fix issue #608 in LargeModGames/spotatui: `docs/keybindings.md` never lists the `keybindings:` config names",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:52.787Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtjRQ",
+    "number": 609,
+    "title": "Screen hints still say d, z and q after you rebind those keys",
+    "url": "https://github.com/LargeModGames/spotatui/issues/609",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:20Z",
+    "updatedAt": "2026-09-26T20:16:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test library",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/tui/ui/library.rs",
+      "src/tui/ui/player.rs",
+      "src/tui/ui/popups.rs"
+    ],
+    "summary": "Fix issue #609 in LargeModGames/spotatui: Screen hints still say d, z and q after you rebind those keys",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:52.005Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtjwQ",
+    "number": 610,
+    "title": "Albums, Podcasts and Recently Played draw a blank pane until loaded",
+    "url": "https://github.com/LargeModGames/spotatui/issues/610",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:21Z",
+    "updatedAt": "2026-09-26T20:16:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test tables",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/tui/ui/tables.rs",
+      "src/core/app/scrollable_pages.rs",
+      "src/core/app/library.rs"
+    ],
+    "summary": "Fix issue #610 in LargeModGames/spotatui: Albums, Podcasts and Recently Played draw a blank pane until loaded",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:51.182Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABTZtkOg",
+    "number": 611,
+    "title": "Linux build docs list PipeWire, but the default build needs ALSA",
+    "url": "https://github.com/LargeModGames/spotatui/issues/611",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1389,
+    "language": "Rust",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-26T20:15:23Z",
+    "updatedAt": "2026-09-26T20:16:24Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test ci",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/gui.yml"
+    ],
+    "summary": "Fix issue #611 in LargeModGames/spotatui: Linux build docs list PipeWire, but the default build needs ALSA",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-26T20:17:50.396Z"
+  },
+  {
     "id": "I_kwDOO_fYBc8AAAABTXQ5Xg",
     "number": 1039,
     "title": "Docs: add an On-call teams page",
@@ -597,33 +1045,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "dev",
     "discoveredAt": "2026-09-26T10:27:32.713Z"
-  },
-  {
-    "id": "I_kwDOBXGswM8AAAABTUxPQg",
-    "number": 568,
-    "title": "Refactor: Break down upsert_room API handler",
-    "url": "https://github.com/fossasia/voxbento/issues/568",
-    "repo": "fossasia/voxbento",
-    "repoUrl": "https://github.com/fossasia/voxbento",
-    "stars": 1509,
-    "language": "Python",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-26T06:00:54Z",
-    "updatedAt": "2026-09-26T06:00:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest portal/routers/api_v1.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "portal/routers/api_v1.py"
-    ],
-    "summary": "Fix issue #568 in fossasia/voxbento: Refactor: Break down upsert_room API handler",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "dev",
-    "discoveredAt": "2026-09-26T10:27:31.460Z"
   },
   {
     "id": "I_kwDODS2ass8AAAABTVBM-g",
@@ -4287,202 +4708,5 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-22T10:29:15.009Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABShPSsA",
-    "number": 30733,
-    "title": "[good first issue] 🥢 Add new Japan Fact 2197 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30733",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3442,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T09:37:33Z",
-    "updatedAt": "2026-09-22T09:37:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-facts.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #30733 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Japan Fact 2197 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T10:28:50.824Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSdaYmg",
-    "number": 30701,
-    "title": "[good first issue] 🗻 Add new False Friend Pair 195 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30701",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3440,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T00:01:45Z",
-    "updatedAt": "2026-09-22T00:01:48Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #30701 in lingdojo/kana-dojo: [good first issue] 🗻 Add new False Friend Pair 195 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T02:10:10.901Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSdnm_g",
-    "number": 30702,
-    "title": "[good first issue] 🎑 Add new Etiquette Tip 1059 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30702",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3440,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T00:37:29Z",
-    "updatedAt": "2026-09-22T00:37:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #30702 in lingdojo/kana-dojo: [good first issue] 🎑 Add new Etiquette Tip 1059 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T02:10:08.293Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSdu0bg",
-    "number": 30703,
-    "title": "[good first issue] 🥢 Add new Example Sentence 486 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30703",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3440,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T01:00:57Z",
-    "updatedAt": "2026-09-22T01:01:00Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-example-sentences.json"
-    ],
-    "summary": "Fix issue #30703 in lingdojo/kana-dojo: [good first issue] 🥢 Add new Example Sentence 486 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T02:10:06.406Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSd6szg",
-    "number": 30705,
-    "title": "[good first issue] 🍁 Add new Learner Mistake 1090 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30705",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3440,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T01:37:33Z",
-    "updatedAt": "2026-09-22T01:37:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-common-mistakes.json"
-    ],
-    "summary": "Fix issue #30705 in lingdojo/kana-dojo: [good first issue] 🍁 Add new Learner Mistake 1090 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T02:10:03.999Z"
-  },
-  {
-    "id": "I_kwDOBXGswM8AAAABTUwXyg",
-    "number": 564,
-    "title": "Refactor: Break down the monolithic admin_edit_room handler",
-    "url": "https://github.com/fossasia/voxbento/issues/564",
-    "repo": "fossasia/voxbento",
-    "repoUrl": "https://github.com/fossasia/voxbento",
-    "stars": 1509,
-    "language": "Python",
-    "labels": [
-      "help wanted"
-    ],
-    "createdAt": "2026-09-26T05:58:09Z",
-    "updatedAt": "2026-09-26T05:58:09Z",
-    "blastRadius": "High",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest portal/routers/admin.py",
-    "solvabilityScore": 4,
-    "keyFiles": [
-      "portal/routers/admin.py"
-    ],
-    "summary": "Fix issue #564 in fossasia/voxbento: Refactor: Break down the monolithic admin_edit_room handler",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "dev",
-    "discoveredAt": "2026-09-26T10:27:36.348Z"
   }
 ]

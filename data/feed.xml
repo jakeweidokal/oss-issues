@@ -5,7 +5,7 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 15:16:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 20:18:01 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[LAA-Software-Engineering/golang-rest-api-template] #253 Bug: Postgres DSN built without URL-encoding breaks on special characters in credentials (Solvability: 8/10)</title>
@@ -23,6 +23,261 @@
       <category>friction-local-db-required</category>
       <category>bug</category>
       <category>help wanted</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #597 Settings saves a two-cell Playing Icon that the next launch drops (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/597</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/597</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #597 in LargeModGames/spotatui: Settings saves a two-cell Playing Icon that the next launch drops</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test settings_apply</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/597">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #598 Help menu and episode list ignore rebound paging keys (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/598</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/598</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #598 in LargeModGames/spotatui: Help menu and episode list ignore rebound paging keys</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test help_menu</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/598">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #599 Help lists Ctrl+p as "move up", but Ctrl+p opens the party (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/599</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/599</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:04 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #599 in LargeModGames/spotatui: Help lists Ctrl+p as "move up", but Ctrl+p opens the party</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test keymap</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/599">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #600 Sorting a playlist by name puts lowercase titles after Z (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/600</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/600</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:06 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #600 in LargeModGames/spotatui: Sorting a playlist by name puts lowercase titles after Z</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test sort</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/600">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #601 Stats Top Artists splits "Mumford &amp; Sons" into two artists (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/601</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/601</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:08 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #601 in LargeModGames/spotatui: Stats Top Artists splits "Mumford &amp; Sons" into two artists</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test history</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/601">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #602 Stats "Last 10 Days" groups plays by UTC date, not local date (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/602</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/602</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:10 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #602 in LargeModGames/spotatui: Stats "Last 10 Days" groups plays by UTC date, not local date</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test history</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/602">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #603 CLI `play` panics on an empty search result or empty playlist (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/603</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/603</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:11 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #603 in LargeModGames/spotatui: CLI `play` panics on an empty search result or empty playlist</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test cli_app</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/603">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #604 CLI `--format` prints None for show publishers, leaves `%r` raw (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/604</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/604</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:13 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #604 in LargeModGames/spotatui: CLI `--format` prints None for show publishers, leaves `%r` raw</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test cli_app</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/604">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #605 `--tick-rate` with a non-number is silently ignored (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/605</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/605</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:15 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #605 in LargeModGames/spotatui: `--tick-rate` with a non-number is silently ignored</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test cli</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/605">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #606 `--completions powershell` is rejected, only `power-shell` parses (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/606</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/606</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:16 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #606 in LargeModGames/spotatui: `--completions powershell` is rejected, only `power-shell` parses</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test cli</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/606">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #607 AI DJ docs omit the copilot and opencode agent presets (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/607</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/607</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:17 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #607 in LargeModGames/spotatui: AI DJ docs omit the copilot and opencode agent presets</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test agent_cli</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/607">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #608 `docs/keybindings.md` never lists the `keybindings:` config names (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/608</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/608</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #608 in LargeModGames/spotatui: `docs/keybindings.md` never lists the `keybindings:` config names</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test config.example</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/608">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #609 Screen hints still say d, z and q after you rebind those keys (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/609</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/609</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:20 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #609 in LargeModGames/spotatui: Screen hints still say d, z and q after you rebind those keys</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test library</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/609">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #610 Albums, Podcasts and Recently Played draw a blank pane until loaded (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/610</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/610</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:21 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #610 in LargeModGames/spotatui: Albums, Podcasts and Recently Played draw a blank pane until loaded</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test tables</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/610">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #611 Linux build docs list PipeWire, but the default build needs ALSA (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/611</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/611</guid>
+      <pubDate>Sat, 26 Sep 2026 20:15:23 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #611 in LargeModGames/spotatui: Linux build docs list PipeWire, but the default build needs ALSA</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test ci</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/611">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
       <category>good first issue</category>
     </item>
     <item>
@@ -395,22 +650,6 @@
       <category>help wanted</category>
     </item>
     <item>
-      <title>[fossasia/voxbento] #568 Refactor: Break down upsert_room API handler (Solvability: 6/10)</title>
-      <link>https://github.com/fossasia/voxbento/issues/568</link>
-      <guid isPermaLink="true">https://github.com/fossasia/voxbento/issues/568</guid>
-      <pubDate>Sat, 26 Sep 2026 06:00:54 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/fossasia/voxbento">fossasia/voxbento</a> (1509 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #568 in fossasia/voxbento: Refactor: Break down upsert_room API handler</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest portal/routers/api_v1.py</code></p>
-<p><a href="https://github.com/fossasia/voxbento/issues/568">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-    </item>
-    <item>
       <title>[stashapp/stash-box] #1279 [RFC] Studio Founding and Closure Dates + Defunct Status (Solvability: 6/10)</title>
       <link>https://github.com/stashapp/stash-box/issues/1279</link>
       <guid isPermaLink="true">https://github.com/stashapp/stash-box/issues/1279</guid>
@@ -731,304 +970,6 @@
       <category>friction-standard</category>
       <category>good first issue</category>
       <category>kind: maintenance</category>
-    </item>
-    <item>
-      <title>[unoplatform/uno] #24720 FocusProperties.HasFocusedElement ignores a focused Hyperlink, so hiding or disabling its container keeps focus on it (Solvability: 6/10)</title>
-      <link>https://github.com/unoplatform/uno/issues/24720</link>
-      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24720</guid>
-      <pubDate>Fri, 25 Sep 2026 15:31:53 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/unoplatform/uno">unoplatform/uno</a> (10060 ⭐, C#)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #24720 in unoplatform/uno: FocusProperties.HasFocusedElement ignores a focused Hyperlink, so hiding or disabling its container keeps focus on it</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/unoplatform/uno/issues/24720">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C#</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/bug</category>
-      <category>good first issue</category>
-      <category>triage/untriaged</category>
-      <category>project/text 🔤</category>
-      <category>platform/all</category>
-      <category>difficulty/starter 🚀</category>
-      <category>area/focus</category>
-      <category>project/keyboard ⌨️</category>
-    </item>
-    <item>
-      <title>[unoplatform/uno] #24723 Pressing a `Hyperlink` in a `TextBlock` does not focus the Hyperlink (Solvability: 6/10)</title>
-      <link>https://github.com/unoplatform/uno/issues/24723</link>
-      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24723</guid>
-      <pubDate>Fri, 25 Sep 2026 15:40:21 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/unoplatform/uno">unoplatform/uno</a> (10060 ⭐, C#)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #24723 in unoplatform/uno: Pressing a `Hyperlink` in a `TextBlock` does not focus the Hyperlink</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/unoplatform/uno/issues/24723">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C#</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/bug</category>
-      <category>good first issue</category>
-      <category>triage/untriaged</category>
-      <category>project/pointers 🖱️</category>
-      <category>area/textblock</category>
-      <category>project/text 🔤</category>
-      <category>platform/all</category>
-      <category>difficulty/starter 🚀</category>
-    </item>
-    <item>
-      <title>[unoplatform/uno] #24728 A focused TextBlock removed from the tree loses focus instead of moving it to the next focusable element (Solvability: 6/10)</title>
-      <link>https://github.com/unoplatform/uno/issues/24728</link>
-      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24728</guid>
-      <pubDate>Fri, 25 Sep 2026 15:55:45 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/unoplatform/uno">unoplatform/uno</a> (10060 ⭐, C#)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #24728 in unoplatform/uno: A focused TextBlock removed from the tree loses focus instead of moving it to the next focusable element</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/unoplatform/uno/issues/24728">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C#</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/bug</category>
-      <category>good first issue</category>
-      <category>triage/untriaged</category>
-      <category>area/textblock</category>
-      <category>project/text 🔤</category>
-      <category>platform/all</category>
-      <category>difficulty/starter 🚀</category>
-      <category>area/focus</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30967 [good first issue] 🍵 Add new False Friend Pair 514 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30967</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30967</guid>
-      <pubDate>Fri, 25 Sep 2026 15:57:32 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3470 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30967 in lingdojo/kana-dojo: [good first issue] 🍵 Add new False Friend Pair 514 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30967">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[nextcloud/talk-desktop] #1939 Option to set "Original image quality" as default setting (Solvability: 6/10)</title>
-      <link>https://github.com/nextcloud/talk-desktop/issues/1939</link>
-      <guid isPermaLink="true">https://github.com/nextcloud/talk-desktop/issues/1939</guid>
-      <pubDate>Fri, 25 Sep 2026 08:21:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/nextcloud/talk-desktop">nextcloud/talk-desktop</a> (526 ⭐, JavaScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1939 in nextcloud/talk-desktop: Option to set "Original image quality" as default setting</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/nextcloud/talk-desktop/issues/1939">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>JavaScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[tldr-pages/tldr] #24261 Hacktoberfest issues to get started with (Solvability: 6/10)</title>
-      <link>https://github.com/tldr-pages/tldr/issues/24261</link>
-      <guid isPermaLink="true">https://github.com/tldr-pages/tldr/issues/24261</guid>
-      <pubDate>Fri, 25 Sep 2026 08:37:09 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/tldr-pages/tldr">tldr-pages/tldr</a> (63742 ⭐, Markdown)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #24261 in tldr-pages/tldr: Hacktoberfest issues to get started with</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/tldr-pages/tldr/issues/24261">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Markdown</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30945 [good first issue] 🎍 Add new False Friend Pair 676 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30945</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30945</guid>
-      <pubDate>Fri, 25 Sep 2026 09:57:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3467 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30945 in lingdojo/kana-dojo: [good first issue] 🎍 Add new False Friend Pair 676 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30945">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[unoplatform/uno] #24672 Several ported controls skip `base.OnPropertyChanged2`, so `Slider`, `ProgressBar`, `DatePicker` and others ignore `IsFocusEngaged` and `Visibility` changes (Solvability: 6/10)</title>
-      <link>https://github.com/unoplatform/uno/issues/24672</link>
-      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24672</guid>
-      <pubDate>Fri, 25 Sep 2026 10:24:20 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/unoplatform/uno">unoplatform/uno</a> (10060 ⭐, C#)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #24672 in unoplatform/uno: Several ported controls skip `base.OnPropertyChanged2`, so `Slider`, `ProgressBar`, `DatePicker` and others ignore `IsFocusEngaged` and `Visibility` changes</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/unoplatform/uno/issues/24672">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C#</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/bug</category>
-      <category>good first issue</category>
-      <category>triage/untriaged</category>
-      <category>area/skia ✏️</category>
-      <category>project/input ⌨️</category>
-      <category>platform/all</category>
-      <category>difficulty/starter 🚀</category>
-      <category>area/date-time-pickers</category>
-    </item>
-    <item>
-      <title>[unoplatform/uno] #24677 Hyperlink keeps its underline on hover and press (HyperlinkUnderlineVisible is ignored) (Solvability: 6/10)</title>
-      <link>https://github.com/unoplatform/uno/issues/24677</link>
-      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24677</guid>
-      <pubDate>Fri, 25 Sep 2026 10:40:48 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/unoplatform/uno">unoplatform/uno</a> (10060 ⭐, C#)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #24677 in unoplatform/uno: Hyperlink keeps its underline on hover and press (HyperlinkUnderlineVisible is ignored)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/unoplatform/uno/issues/24677">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C#</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/bug</category>
-      <category>good first issue</category>
-      <category>triage/untriaged</category>
-      <category>project/styling 👔</category>
-      <category>area/textblock</category>
-      <category>project/text 🔤</category>
-      <category>platform/all</category>
-      <category>difficulty/starter 🚀</category>
-    </item>
-    <item>
-      <title>[unoplatform/uno] #24678 `Hyperlink` activation raises no `InvokePatternOnInvoked` automation event (Solvability: 6/10)</title>
-      <link>https://github.com/unoplatform/uno/issues/24678</link>
-      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24678</guid>
-      <pubDate>Fri, 25 Sep 2026 10:41:45 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/unoplatform/uno">unoplatform/uno</a> (10060 ⭐, C#)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #24678 in unoplatform/uno: `Hyperlink` activation raises no `InvokePatternOnInvoked` automation event</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/unoplatform/uno/issues/24678">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>C#</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>kind/bug</category>
-      <category>good first issue</category>
-      <category>triage/untriaged</category>
-      <category>area/skia ✏️</category>
-      <category>area/a11y</category>
-      <category>project/text 🔤</category>
-      <category>platform/all</category>
-      <category>difficulty/starter 🚀</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30916 [good first issue] 🎋 Add new False Friend Pair 1070 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30916</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30916</guid>
-      <pubDate>Thu, 24 Sep 2026 22:00:55 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3464 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30916 in lingdojo/kana-dojo: [good first issue] 🎋 Add new False Friend Pair 1070 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30916">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #30917 [good first issue] 🎍 Add new Etiquette Tip 579 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/30917</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/30917</guid>
-      <pubDate>Thu, 24 Sep 2026 22:57:28 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3464 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #30917 in lingdojo/kana-dojo: [good first issue] 🎍 Add new Etiquette Tip 579 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-cultural-etiquette.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/30917">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[risa-labs-inc/BossConsole] #1686 test(auth): pin that a current passkey attempt still completes; follow-ups from #1382 (Solvability: 6/10)</title>
-      <link>https://github.com/risa-labs-inc/BossConsole/issues/1686</link>
-      <guid isPermaLink="true">https://github.com/risa-labs-inc/BossConsole/issues/1686</guid>
-      <pubDate>Fri, 25 Sep 2026 01:20:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/risa-labs-inc/BossConsole">risa-labs-inc/BossConsole</a> (802 ⭐, Kotlin)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1686 in risa-labs-inc/BossConsole: test(auth): pin that a current passkey attempt still completes; follow-ups from #1382</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/risa-labs-inc/BossConsole/issues/1686">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Kotlin</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[shadcn-labs/pdfcn] #64 block: Certificate (Solvability: 6/10)</title>
-      <link>https://github.com/shadcn-labs/pdfcn/issues/64</link>
-      <guid isPermaLink="true">https://github.com/shadcn-labs/pdfcn/issues/64</guid>
-      <pubDate>Thu, 24 Sep 2026 19:52:46 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/shadcn-labs/pdfcn">shadcn-labs/pdfcn</a> (2140 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #64 in shadcn-labs/pdfcn: block: Certificate</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/shadcn-labs/pdfcn/issues/64">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>enhancement</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
     </item>
   </channel>
 </rss>
