@@ -63,6 +63,457 @@
     "discoveredAt": "2026-09-22T10:29:17.117Z"
   },
   {
+    "id": "I_kwDOSzbDbM8AAAABThPIAw",
+    "number": 719,
+    "title": "doctor: warn when an enabled plugin isn't installed",
+    "url": "https://github.com/DobermanCore/Doberman-Core/issues/719",
+    "repo": "DobermanCore/Doberman-Core",
+    "repoUrl": "https://github.com/DobermanCore/Doberman-Core",
+    "stars": 277,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "level-3"
+    ],
+    "createdAt": "2026-09-27T17:46:37Z",
+    "updatedAt": "2026-09-27T17:46:37Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest src/doberman/engine/plugin_config.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/doberman/engine/plugin_config.py",
+      "tests/unit/test_cli_doctor.py"
+    ],
+    "summary": "Fix issue #719 in DobermanCore/Doberman-Core: doctor: warn when an enabled plugin isn't installed",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:29.308Z"
+  },
+  {
+    "id": "I_kwDOSzbDbM8AAAABThPJHA",
+    "number": 720,
+    "title": "cli: add --dry-run to decision-log-prune",
+    "url": "https://github.com/DobermanCore/Doberman-Core/issues/720",
+    "repo": "DobermanCore/Doberman-Core",
+    "repoUrl": "https://github.com/DobermanCore/Doberman-Core",
+    "stars": 277,
+    "language": "Python",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "level-3"
+    ],
+    "createdAt": "2026-09-27T17:46:39Z",
+    "updatedAt": "2026-09-27T17:46:39Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/integration/test_decision_log.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/integration/test_decision_log.py"
+    ],
+    "summary": "Fix issue #720 in DobermanCore/Doberman-Core: cli: add --dry-run to decision-log-prune",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:28.284Z"
+  },
+  {
+    "id": "I_kwDOSzbDbM8AAAABThPJ5w",
+    "number": 721,
+    "title": "docs: CLI.md is missing plugins and policy-file, and nothing keeps it complete",
+    "url": "https://github.com/DobermanCore/Doberman-Core/issues/721",
+    "repo": "DobermanCore/Doberman-Core",
+    "repoUrl": "https://github.com/DobermanCore/Doberman-Core",
+    "stars": 277,
+    "language": "Python",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "level-2"
+    ],
+    "createdAt": "2026-09-27T17:46:41Z",
+    "updatedAt": "2026-09-27T17:46:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/unit/test_cli_help.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/test_cli_help.py"
+    ],
+    "summary": "Fix issue #721 in DobermanCore/Doberman-Core: docs: CLI.md is missing plugins and policy-file, and nothing keeps it complete",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:27.300Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABThTYiQ",
+    "number": 31129,
+    "title": "[good first issue] 🎍 Add new Grammar Point 304 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31129",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3490,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-27T17:57:27Z",
+    "updatedAt": "2026-09-27T17:57:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-grammar.json"
+    ],
+    "summary": "Fix issue #31129 in lingdojo/kana-dojo: [good first issue] 🎍 Add new Grammar Point 304 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:26.073Z"
+  },
+  {
+    "id": "I_kwDOQydsfM8AAAABThV9Yg",
+    "number": 354,
+    "title": "In-app help and docs don't mention h / l for moving between panels",
+    "url": "https://github.com/Harry-kp/vortix/issues/354",
+    "repo": "Harry-kp/vortix",
+    "repoUrl": "https://github.com/Harry-kp/vortix",
+    "stars": 662,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T18:03:46Z",
+    "updatedAt": "2026-09-27T18:03:46Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #354 in Harry-kp/vortix: In-app help and docs don't mention h / l for moving between panels",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:24.368Z"
+  },
+  {
+    "id": "I_kwDOQydsfM8AAAABThV-Mw",
+    "number": 355,
+    "title": "Also install-test the arm64 .deb and .rpm in CI",
+    "url": "https://github.com/Harry-kp/vortix/issues/355",
+    "repo": "Harry-kp/vortix",
+    "repoUrl": "https://github.com/Harry-kp/vortix",
+    "stars": 662,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "internal"
+    ],
+    "createdAt": "2026-09-27T18:03:48Z",
+    "updatedAt": "2026-09-27T18:03:48Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #355 in Harry-kp/vortix: Also install-test the arm64 .deb and .rpm in CI",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:23.023Z"
+  },
+  {
+    "id": "I_kwDOQydsfM8AAAABThV-6A",
+    "number": 356,
+    "title": "Document where to install shell completions for each shell",
+    "url": "https://github.com/Harry-kp/vortix/issues/356",
+    "repo": "Harry-kp/vortix",
+    "repoUrl": "https://github.com/Harry-kp/vortix",
+    "stars": 662,
+    "language": "Rust",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T18:03:49Z",
+    "updatedAt": "2026-09-27T18:03:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #356 in Harry-kp/vortix: Document where to install shell completions for each shell",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:21.762Z"
+  },
+  {
+    "id": "I_kwDOABALVM8AAAABTheuwA",
+    "number": 2907,
+    "title": "[js-plantuml] Improve `js-plantuml` editor (to be similar to `editor.plantuml.com`)",
+    "url": "https://github.com/plantuml/plantuml/issues/2907",
+    "repo": "plantuml/plantuml",
+    "repoUrl": "https://github.com/plantuml/plantuml",
+    "stars": 13342,
+    "language": "Java",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "javascript",
+      "jsplantuml",
+      "for-claude"
+    ],
+    "createdAt": "2026-09-27T18:25:08Z",
+    "updatedAt": "2026-09-27T19:38:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2907 in plantuml/plantuml: [js-plantuml] Improve `js-plantuml` editor (to be similar to `editor.plantuml.com`)",
+    "maintainerTurnaroundDays": 0.9,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-27T20:33:20.118Z"
+  },
+  {
+    "id": "I_kwDOA1u37M8AAAABThjt7A",
+    "number": 9666,
+    "title": "Enable native-filter coverage in memory-backed integration suites",
+    "url": "https://github.com/jaegertracing/jaeger/issues/9666",
+    "repo": "jaegertracing/jaeger",
+    "repoUrl": "https://github.com/jaegertracing/jaeger",
+    "stars": 23247,
+    "language": "Go",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T18:37:36Z",
+    "updatedAt": "2026-09-27T18:41:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test ./...",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #9666 in jaegertracing/jaeger: Enable native-filter coverage in memory-backed integration suites",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:15.296Z"
+  },
+  {
+    "id": "I_kwDOAHXAE88AAAABThqNkw",
+    "number": 22127,
+    "title": "CI: Skip test sources for `DirectSnackbarMakeUsage` and similar lint rules",
+    "url": "https://github.com/ankidroid/Anki-Android/issues/22127",
+    "repo": "ankidroid/Anki-Android",
+    "repoUrl": "https://github.com/ankidroid/Anki-Android",
+    "stars": 11869,
+    "language": "Kotlin",
+    "labels": [
+      "Good First Issue",
+      "Lint"
+    ],
+    "createdAt": "2026-09-27T18:53:32Z",
+    "updatedAt": "2026-09-27T18:57:18Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #22127 in ankidroid/Anki-Android: CI: Skip test sources for `DirectSnackbarMakeUsage` and similar lint rules",
+    "maintainerTurnaroundDays": 0.1,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:13.902Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABThr6Kw",
+    "number": 31132,
+    "title": "[good first issue] 🍥 Add new Video Game Quote 341 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31132",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3490,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-27T18:57:29Z",
+    "updatedAt": "2026-09-27T18:57:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-videogame-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-videogame-quotes.json"
+    ],
+    "summary": "Fix issue #31132 in lingdojo/kana-dojo: [good first issue] 🍥 Add new Video Game Quote 341 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:11.036Z"
+  },
+  {
+    "id": "I_kwDOSSCSZs8AAAABTh9UwA",
+    "number": 156,
+    "title": "Ko-fi button text overflows its fixed-width canvas in several languages",
+    "url": "https://github.com/IlyaP358/fluxcast/issues/156",
+    "repo": "IlyaP358/fluxcast",
+    "repoUrl": "https://github.com/IlyaP358/fluxcast",
+    "stars": 416,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue",
+      "tray"
+    ],
+    "createdAt": "2026-09-27T19:36:43Z",
+    "updatedAt": "2026-09-27T19:38:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #156 in IlyaP358/fluxcast: Ko-fi button text overflows its fixed-width canvas in several languages",
+    "maintainerTurnaroundDays": 2.4,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:09.233Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTiGdqg",
+    "number": 31137,
+    "title": "[good first issue] 🍤 Add new Dialect Entry 573 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31137",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3490,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-27T19:57:27Z",
+    "updatedAt": "2026-09-27T19:57:30Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #31137 in lingdojo/kana-dojo: [good first issue] 🍤 Add new Dialect Entry 573 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:08.607Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTiIEng",
+    "number": 31138,
+    "title": "[good first issue] 🏯 Add new False Friend Pair 1023 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31138",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3490,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-27T20:01:00Z",
+    "updatedAt": "2026-09-27T20:01:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #31138 in lingdojo/kana-dojo: [good first issue] 🏯 Add new False Friend Pair 1023 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:06.952Z"
+  },
+  {
+    "id": "I_kwDOR2gKw88AAAABTiNaGg",
+    "number": 605,
+    "title": "Wanted: screenshot of the GPS page on Android for the handbook",
+    "url": "https://github.com/chrissnell/graywolf/issues/605",
+    "repo": "chrissnell/graywolf",
+    "repoUrl": "https://github.com/chrissnell/graywolf",
+    "stars": 209,
+    "language": "Go",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T20:13:08Z",
+    "updatedAt": "2026-09-27T20:13:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./docs/handbook",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/handbook/gps.html"
+    ],
+    "summary": "Fix issue #605 in chrissnell/graywolf: Wanted: screenshot of the GPS page on Android for the handbook",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T20:33:04.993Z"
+  },
+  {
     "id": "I_kwDOS3TU6c8AAAABTfsqhQ",
     "number": 1146,
     "title": "[agent] A store registered with a bare getter is reported as \"no store is registered\" in the same response that read it",
@@ -97,41 +548,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-27T15:56:35.902Z"
-  },
-  {
-    "id": "I_kwDOS3TU6c8AAAABTfsuOg",
-    "number": 1150,
-    "title": "[agent] Re-running `init` on a Next app wired before 3.3.0 says \"file exists\" and never adds the SDK version to `connect()`",
-    "url": "https://github.com/reticlehq/reticle/issues/1150",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 900,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "agent-reported",
-      "area/next",
-      "fw/next",
-      "P2",
-      "area/init"
-    ],
-    "createdAt": "2026-09-27T14:05:21Z",
-    "updatedAt": "2026-09-27T14:05:21Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test init/src/plan/plan-framework.test.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "init/src/plan/plan-framework.ts",
-      "init/src/plan/connect-steps.ts"
-    ],
-    "summary": "Fix issue #1150 in reticlehq/reticle: [agent] Re-running `init` on a Next app wired before 3.3.0 says \"file exists\" and never adds the SDK version to `connect()`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T15:56:33.719Z"
   },
   {
     "id": "I_kwDOS3TU6c8AAAABTfsvGQ",
@@ -235,36 +651,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-27T15:56:26.758Z"
-  },
-  {
-    "id": "I_kwDODf3ZCM8AAAABTf21tg",
-    "number": 17033,
-    "title": "[Bug]: db:migrate exits 0 when a migration script fails (db:migrate:scripts exit code is discarded)",
-    "url": "https://github.com/medusajs/medusa/issues/17033",
-    "repo": "medusajs/medusa",
-    "repoUrl": "https://github.com/medusajs/medusa",
-    "stars": 36486,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "type: bug"
-    ],
-    "createdAt": "2026-09-27T14:27:56Z",
-    "updatedAt": "2026-09-27T14:30:08Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test packages/admin/admin-bundler/src/commands/develop.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/admin/admin-bundler/src/commands/develop.ts",
-      "packages/medusa/src/commands/develop.ts",
-      "packages/medusa/src/commands/plugin/develop.ts"
-    ],
-    "summary": "Fix issue #17033 in medusajs/medusa: [Bug]: db:migrate exits 0 when a migration script fails (db:migrate:scripts exit code is discarded)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-27T15:56:22.219Z"
   },
   {
     "id": "I_kwDOFrXn6s8AAAABTgH34A",
@@ -439,35 +825,6 @@
     "maintainerTurnaroundDays": 0.8,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-27T15:56:02.002Z"
-  },
-  {
-    "id": "I_kwDODgIDSc8AAAABTgcU1A",
-    "number": 1467,
-    "title": "Correct the action-masking tutorial’s declared observation space",
-    "url": "https://github.com/Farama-Foundation/PettingZoo/issues/1467",
-    "repo": "Farama-Foundation/PettingZoo",
-    "repoUrl": "https://github.com/Farama-Foundation/PettingZoo",
-    "stars": 3523,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-27T15:51:23Z",
-    "updatedAt": "2026-09-27T15:51:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tutorials/CustomEnvironment/tutorial3_action_masking.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tutorials/CustomEnvironment/tutorial3_action_masking.py"
-    ],
-    "summary": "Fix issue #1467 in Farama-Foundation/PettingZoo: Correct the action-masking tutorial’s declared observation space",
-    "maintainerTurnaroundDays": 3.5,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T15:55:58.772Z"
   },
   {
     "id": "I_kwDOFGRWMM8AAAABTgd3Vw",
@@ -4399,369 +4756,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-23T02:12:00.181Z"
-  },
-  {
-    "id": "I_kwDOMdP6aM8AAAABSqW-Vw",
-    "number": 1838,
-    "title": "Carry old Hugging Face grants over to `host:huggingface.co` in a migration",
-    "url": "https://github.com/MODSetter/SurfSense/issues/1838",
-    "repo": "MODSetter/SurfSense",
-    "repoUrl": "https://github.com/MODSetter/SurfSense",
-    "stars": 16234,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "desktop"
-    ],
-    "createdAt": "2026-09-23T01:15:09Z",
-    "updatedAt": "2026-09-23T01:15:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest surfsense_local/backend/alembic/versions/0008_egress_destinations.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "surfsense_local/backend/alembic/versions/0008_egress_destinations.py"
-    ],
-    "summary": "Fix issue #1838 in MODSetter/SurfSense: Carry old Hugging Face grants over to `host:huggingface.co` in a migration",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T02:11:46.561Z"
-  },
-  {
-    "id": "I_kwDOMdP6aM8AAAABSqYZjw",
-    "number": 1877,
-    "title": "Key the prompt-tier fallback on loopback, not the provider name",
-    "url": "https://github.com/MODSetter/SurfSense/issues/1877",
-    "repo": "MODSetter/SurfSense",
-    "repoUrl": "https://github.com/MODSetter/SurfSense",
-    "stars": 16234,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "desktop"
-    ],
-    "createdAt": "2026-09-23T01:17:49Z",
-    "updatedAt": "2026-09-23T01:17:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest surfsense_local/backend/modules/egress/service.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "surfsense_local/backend/modules/egress/service.py"
-    ],
-    "summary": "Fix issue #1877 in MODSetter/SurfSense: Key the prompt-tier fallback on loopback, not the provider name",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T02:11:23.842Z"
-  },
-  {
-    "id": "I_kwDOMdP6aM8AAAABSqYdmA",
-    "number": 1878,
-    "title": "Fingerprint local models from `/props`, and remote rows without a `hugging_face_id` by name",
-    "url": "https://github.com/MODSetter/SurfSense/issues/1878",
-    "repo": "MODSetter/SurfSense",
-    "repoUrl": "https://github.com/MODSetter/SurfSense",
-    "stars": 16234,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "desktop"
-    ],
-    "createdAt": "2026-09-23T01:17:54Z",
-    "updatedAt": "2026-09-23T01:17:54Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1878 in MODSetter/SurfSense: Fingerprint local models from `/props`, and remote rows without a `hugging_face_id` by name",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T02:11:08.462Z"
-  },
-  {
-    "id": "I_kwDOMdP6aM8AAAABSqYodg",
-    "number": 1883,
-    "title": "Install screen: show when the runtime is down, and check free disk space first",
-    "url": "https://github.com/MODSetter/SurfSense/issues/1883",
-    "repo": "MODSetter/SurfSense",
-    "repoUrl": "https://github.com/MODSetter/SurfSense",
-    "stars": 16234,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "desktop"
-    ],
-    "createdAt": "2026-09-23T01:18:15Z",
-    "updatedAt": "2026-09-23T01:18:15Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1883 in MODSetter/SurfSense: Install screen: show when the runtime is down, and check free disk space first",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T02:10:42.491Z"
-  },
-  {
-    "id": "I_kwDOMdP6aM8AAAABSqY0lw",
-    "number": 1889,
-    "title": "`GET /workspaces/{id}/documents/{doc}` with the body",
-    "url": "https://github.com/MODSetter/SurfSense/issues/1889",
-    "repo": "MODSetter/SurfSense",
-    "repoUrl": "https://github.com/MODSetter/SurfSense",
-    "stars": 16234,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "desktop"
-    ],
-    "createdAt": "2026-09-23T01:18:40Z",
-    "updatedAt": "2026-09-23T02:07:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest surfsense_backend/alembic/versions/127_add_report_content_type.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "surfsense_backend/alembic/versions/127_add_report_content_type.py",
-      "surfsense_backend/alembic/versions/133_drop_documents_content_hash_unique.py",
-      "surfsense_backend/alembic/versions/6_change_podcast_content_to_transcript.py"
-    ],
-    "summary": "Fix issue #1889 in MODSetter/SurfSense: `GET /workspaces/{id}/documents/{doc}` with the body",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T02:10:28.045Z"
-  },
-  {
-    "id": "I_kwDOMdP6aM8AAAABSqY4eg",
-    "number": 1891,
-    "title": "Trial and buy links in License settings, and fix the \"renew from your account\" copy",
-    "url": "https://github.com/MODSetter/SurfSense/issues/1891",
-    "repo": "MODSetter/SurfSense",
-    "repoUrl": "https://github.com/MODSetter/SurfSense",
-    "stars": 16234,
-    "language": "Python",
-    "labels": [
-      "good first issue",
-      "desktop"
-    ],
-    "createdAt": "2026-09-23T01:18:49Z",
-    "updatedAt": "2026-09-23T01:18:49Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #1891 in MODSetter/SurfSense: Trial and buy links in License settings, and fix the \"renew from your account\" copy",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T02:10:13.968Z"
-  },
-  {
-    "id": "I_kwDOB7-mp88AAAABSqf2Pw",
-    "number": 8798,
-    "title": "Review Needed - New Wins Form Submission",
-    "url": "https://github.com/hackforla/website/issues/8798",
-    "repo": "hackforla/website",
-    "repoUrl": "https://github.com/hackforla/website",
-    "stars": 364,
-    "language": "JavaScript",
-    "labels": [
-      "good first issue",
-      "role: product",
-      "P-Feature: Wins Page",
-      "new-win-submission",
-      "size: missing"
-    ],
-    "createdAt": "2026-09-23T01:36:48Z",
-    "updatedAt": "2026-09-23T01:37:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8798 in hackforla/website: Review Needed - New Wins Form Submission",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "gh-pages",
-    "discoveredAt": "2026-09-23T02:09:59.162Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSqgH2g",
-    "number": 30785,
-    "title": "[good first issue] 🎍 Add new False Friend Pair 252 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30785",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3447,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-23T01:37:35Z",
-    "updatedAt": "2026-09-23T01:37:38Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #30785 in lingdojo/kana-dojo: [good first issue] 🎍 Add new False Friend Pair 252 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T02:09:55.582Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSqqy3Q",
-    "number": 30786,
-    "title": "[good first issue] 🍜 Add new Etiquette Tip 320 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30786",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3447,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-23T02:01:01Z",
-    "updatedAt": "2026-09-23T02:01:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #30786 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Etiquette Tip 320 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-23T02:09:52.290Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSmQvnQ",
-    "number": 30762,
-    "title": "[good first issue] 🍛 Add new Anime Quote 512 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30762",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3445,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T17:37:32Z",
-    "updatedAt": "2026-09-22T17:37:35Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #30762 in lingdojo/kana-dojo: [good first issue] 🍛 Add new Anime Quote 512 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T20:36:37.476Z"
-  },
-  {
-    "id": "I_kwDORtUdpc8AAAABSmlWlQ",
-    "number": 539,
-    "title": "Enable hf.co/unsloth/Qwen-Image-2.1-GGUF",
-    "url": "https://github.com/llmmanorg/llmman/issues/539",
-    "repo": "llmmanorg/llmman",
-    "repoUrl": "https://github.com/llmmanorg/llmman",
-    "stars": 509,
-    "language": "Rust",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-22T18:11:03Z",
-    "updatedAt": "2026-09-22T18:12:31Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #539 in llmmanorg/llmman: Enable hf.co/unsloth/Qwen-Image-2.1-GGUF",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T20:36:34.796Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSnFkrQ",
-    "number": 30768,
-    "title": "[good first issue] 🏮 Add new Dialect Entry 290 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30768",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3445,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T19:01:08Z",
-    "updatedAt": "2026-09-22T19:01:12Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #30768 in lingdojo/kana-dojo: [good first issue] 🏮 Add new Dialect Entry 290 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T20:36:31.537Z"
   }
 ]

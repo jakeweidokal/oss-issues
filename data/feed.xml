@@ -5,7 +5,7 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 15:56:35 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 20:33:29 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[reticlehq/reticle] #1156 [agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so (Solvability: 8/10)</title>
@@ -49,6 +49,291 @@
       <category>good first issue</category>
     </item>
     <item>
+      <title>[DobermanCore/Doberman-Core] #719 doctor: warn when an enabled plugin isn't installed (Solvability: 6/10)</title>
+      <link>https://github.com/DobermanCore/Doberman-Core/issues/719</link>
+      <guid isPermaLink="true">https://github.com/DobermanCore/Doberman-Core/issues/719</guid>
+      <pubDate>Sun, 27 Sep 2026 17:46:37 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DobermanCore/Doberman-Core">DobermanCore/Doberman-Core</a> (277 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #719 in DobermanCore/Doberman-Core: doctor: warn when an enabled plugin isn't installed</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest src/doberman/engine/plugin_config.py</code></p>
+<p><a href="https://github.com/DobermanCore/Doberman-Core/issues/719">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>level-3</category>
+    </item>
+    <item>
+      <title>[DobermanCore/Doberman-Core] #720 cli: add --dry-run to decision-log-prune (Solvability: 6/10)</title>
+      <link>https://github.com/DobermanCore/Doberman-Core/issues/720</link>
+      <guid isPermaLink="true">https://github.com/DobermanCore/Doberman-Core/issues/720</guid>
+      <pubDate>Sun, 27 Sep 2026 17:46:39 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DobermanCore/Doberman-Core">DobermanCore/Doberman-Core</a> (277 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #720 in DobermanCore/Doberman-Core: cli: add --dry-run to decision-log-prune</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/integration/test_decision_log.py</code></p>
+<p><a href="https://github.com/DobermanCore/Doberman-Core/issues/720">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>level-3</category>
+    </item>
+    <item>
+      <title>[DobermanCore/Doberman-Core] #721 docs: CLI.md is missing plugins and policy-file, and nothing keeps it complete (Solvability: 6/10)</title>
+      <link>https://github.com/DobermanCore/Doberman-Core/issues/721</link>
+      <guid isPermaLink="true">https://github.com/DobermanCore/Doberman-Core/issues/721</guid>
+      <pubDate>Sun, 27 Sep 2026 17:46:41 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DobermanCore/Doberman-Core">DobermanCore/Doberman-Core</a> (277 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #721 in DobermanCore/Doberman-Core: docs: CLI.md is missing plugins and policy-file, and nothing keeps it complete</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/unit/test_cli_help.py</code></p>
+<p><a href="https://github.com/DobermanCore/Doberman-Core/issues/721">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>level-2</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #31129 [good first issue] 🎍 Add new Grammar Point 304 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/31129</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31129</guid>
+      <pubDate>Sun, 27 Sep 2026 17:57:27 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3490 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #31129 in lingdojo/kana-dojo: [good first issue] 🎍 Add new Grammar Point 304 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-grammar.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/31129">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[Harry-kp/vortix] #354 In-app help and docs don't mention h / l for moving between panels (Solvability: 6/10)</title>
+      <link>https://github.com/Harry-kp/vortix/issues/354</link>
+      <guid isPermaLink="true">https://github.com/Harry-kp/vortix/issues/354</guid>
+      <pubDate>Sun, 27 Sep 2026 18:03:46 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Harry-kp/vortix">Harry-kp/vortix</a> (662 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #354 in Harry-kp/vortix: In-app help and docs don't mention h / l for moving between panels</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/Harry-kp/vortix/issues/354">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[Harry-kp/vortix] #355 Also install-test the arm64 .deb and .rpm in CI (Solvability: 6/10)</title>
+      <link>https://github.com/Harry-kp/vortix/issues/355</link>
+      <guid isPermaLink="true">https://github.com/Harry-kp/vortix/issues/355</guid>
+      <pubDate>Sun, 27 Sep 2026 18:03:48 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Harry-kp/vortix">Harry-kp/vortix</a> (662 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #355 in Harry-kp/vortix: Also install-test the arm64 .deb and .rpm in CI</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/Harry-kp/vortix/issues/355">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>internal</category>
+    </item>
+    <item>
+      <title>[Harry-kp/vortix] #356 Document where to install shell completions for each shell (Solvability: 6/10)</title>
+      <link>https://github.com/Harry-kp/vortix/issues/356</link>
+      <guid isPermaLink="true">https://github.com/Harry-kp/vortix/issues/356</guid>
+      <pubDate>Sun, 27 Sep 2026 18:03:49 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Harry-kp/vortix">Harry-kp/vortix</a> (662 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #356 in Harry-kp/vortix: Document where to install shell completions for each shell</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test</code></p>
+<p><a href="https://github.com/Harry-kp/vortix/issues/356">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[plantuml/plantuml] #2907 [js-plantuml] Improve `js-plantuml` editor (to be similar to `editor.plantuml.com`) (Solvability: 6/10)</title>
+      <link>https://github.com/plantuml/plantuml/issues/2907</link>
+      <guid isPermaLink="true">https://github.com/plantuml/plantuml/issues/2907</guid>
+      <pubDate>Sun, 27 Sep 2026 18:25:08 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/plantuml/plantuml">plantuml/plantuml</a> (13342 ⭐, Java)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2907 in plantuml/plantuml: [js-plantuml] Improve `js-plantuml` editor (to be similar to `editor.plantuml.com`)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/plantuml/plantuml/issues/2907">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Java</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>javascript</category>
+      <category>jsplantuml</category>
+      <category>for-claude</category>
+    </item>
+    <item>
+      <title>[jaegertracing/jaeger] #9666 Enable native-filter coverage in memory-backed integration suites (Solvability: 6/10)</title>
+      <link>https://github.com/jaegertracing/jaeger/issues/9666</link>
+      <guid isPermaLink="true">https://github.com/jaegertracing/jaeger/issues/9666</guid>
+      <pubDate>Sun, 27 Sep 2026 18:37:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/jaegertracing/jaeger">jaegertracing/jaeger</a> (23247 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #9666 in jaegertracing/jaeger: Enable native-filter coverage in memory-backed integration suites</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test ./...</code></p>
+<p><a href="https://github.com/jaegertracing/jaeger/issues/9666">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[ankidroid/Anki-Android] #22127 CI: Skip test sources for `DirectSnackbarMakeUsage` and similar lint rules (Solvability: 6/10)</title>
+      <link>https://github.com/ankidroid/Anki-Android/issues/22127</link>
+      <guid isPermaLink="true">https://github.com/ankidroid/Anki-Android/issues/22127</guid>
+      <pubDate>Sun, 27 Sep 2026 18:53:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ankidroid/Anki-Android">ankidroid/Anki-Android</a> (11869 ⭐, Kotlin)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #22127 in ankidroid/Anki-Android: CI: Skip test sources for `DirectSnackbarMakeUsage` and similar lint rules</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/ankidroid/Anki-Android/issues/22127">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Kotlin</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>Good First Issue</category>
+      <category>Lint</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #31132 [good first issue] 🍥 Add new Video Game Quote 341 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/31132</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31132</guid>
+      <pubDate>Sun, 27 Sep 2026 18:57:29 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3490 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #31132 in lingdojo/kana-dojo: [good first issue] 🍥 Add new Video Game Quote 341 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-videogame-quotes.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/31132">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[IlyaP358/fluxcast] #156 Ko-fi button text overflows its fixed-width canvas in several languages (Solvability: 6/10)</title>
+      <link>https://github.com/IlyaP358/fluxcast/issues/156</link>
+      <guid isPermaLink="true">https://github.com/IlyaP358/fluxcast/issues/156</guid>
+      <pubDate>Sun, 27 Sep 2026 19:36:43 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/IlyaP358/fluxcast">IlyaP358/fluxcast</a> (416 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #156 in IlyaP358/fluxcast: Ko-fi button text overflows its fixed-width canvas in several languages</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest</code></p>
+<p><a href="https://github.com/IlyaP358/fluxcast/issues/156">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>tray</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #31137 [good first issue] 🍤 Add new Dialect Entry 573 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/31137</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31137</guid>
+      <pubDate>Sun, 27 Sep 2026 19:57:27 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3490 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #31137 in lingdojo/kana-dojo: [good first issue] 🍤 Add new Dialect Entry 573 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-regional-dialects.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/31137">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[lingdojo/kana-dojo] #31138 [good first issue] 🏯 Add new False Friend Pair 1023 (good-first-issue) (Solvability: 6/10)</title>
+      <link>https://github.com/lingdojo/kana-dojo/issues/31138</link>
+      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31138</guid>
+      <pubDate>Sun, 27 Sep 2026 20:01:00 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3490 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #31138 in lingdojo/kana-dojo: [good first issue] 🏯 Add new False Friend Pair 1023 (good-first-issue)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-false-friends.json</code></p>
+<p><a href="https://github.com/lingdojo/kana-dojo/issues/31138">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>help wanted</category>
+      <category>good first issue</category>
+      <category>hacktoberfest</category>
+      <category>community</category>
+      <category>low hanging fruit</category>
+      <category>up-for-grabs</category>
+      <category>first-timers-only</category>
+      <category>good-first-issue</category>
+    </item>
+    <item>
+      <title>[chrissnell/graywolf] #605 Wanted: screenshot of the GPS page on Android for the handbook (Solvability: 6/10)</title>
+      <link>https://github.com/chrissnell/graywolf/issues/605</link>
+      <guid isPermaLink="true">https://github.com/chrissnell/graywolf/issues/605</guid>
+      <pubDate>Sun, 27 Sep 2026 20:13:08 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/chrissnell/graywolf">chrissnell/graywolf</a> (209 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #605 in chrissnell/graywolf: Wanted: screenshot of the GPS page on Android for the handbook</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./docs/handbook</code></p>
+<p><a href="https://github.com/chrissnell/graywolf/issues/605">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
       <title>[reticlehq/reticle] #1146 [agent] A store registered with a bare getter is reported as "no store is registered" in the same response that read it (Solvability: 6/10)</title>
       <link>https://github.com/reticlehq/reticle/issues/1146</link>
       <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1146</guid>
@@ -70,29 +355,6 @@
       <category>area/server</category>
       <category>P2</category>
       <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[reticlehq/reticle] #1150 [agent] Re-running `init` on a Next app wired before 3.3.0 says "file exists" and never adds the SDK version to `connect()` (Solvability: 6/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/1150</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1150</guid>
-      <pubDate>Sun, 27 Sep 2026 14:05:21 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (900 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1150 in reticlehq/reticle: [agent] Re-running `init` on a Next app wired before 3.3.0 says "file exists" and never adds the SDK version to `connect()`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test init/src/plan/plan-framework.test.ts</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/1150">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>agent-reported</category>
-      <category>area/next</category>
-      <category>fw/next</category>
-      <category>P2</category>
-      <category>area/init</category>
     </item>
     <item>
       <title>[reticlehq/reticle] #1151 [agent] `@reticlehq/vite-plugin` has no `present` option, so hiding the panel means hand-writing `connect()` (Solvability: 6/10)</title>
@@ -161,23 +423,6 @@
       <category>area/docs</category>
       <category>P2</category>
       <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[medusajs/medusa] #17033 [Bug]: db:migrate exits 0 when a migration script fails (db:migrate:scripts exit code is discarded) (Solvability: 6/10)</title>
-      <link>https://github.com/medusajs/medusa/issues/17033</link>
-      <guid isPermaLink="true">https://github.com/medusajs/medusa/issues/17033</guid>
-      <pubDate>Sun, 27 Sep 2026 14:27:56 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/medusajs/medusa">medusajs/medusa</a> (36486 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
-<p><strong>Summary:</strong> Fix issue #17033 in medusajs/medusa: [Bug]: db:migrate exits 0 when a migration script fails (db:migrate:scripts exit code is discarded)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/admin/admin-bundler/src/commands/develop.ts</code></p>
-<p><a href="https://github.com/medusajs/medusa/issues/17033">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-local-db-required</category>
-      <category>good first issue</category>
-      <category>type: bug</category>
     </item>
     <item>
       <title>[liquidmetal-dev/flintlock] #1259 Lint the e2e code in CI (Solvability: 6/10)</title>
@@ -282,24 +527,6 @@
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
       <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[Farama-Foundation/PettingZoo] #1467 Correct the action-masking tutorial’s declared observation space (Solvability: 6/10)</title>
-      <link>https://github.com/Farama-Foundation/PettingZoo/issues/1467</link>
-      <guid isPermaLink="true">https://github.com/Farama-Foundation/PettingZoo/issues/1467</guid>
-      <pubDate>Sun, 27 Sep 2026 15:51:23 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Farama-Foundation/PettingZoo">Farama-Foundation/PettingZoo</a> (3523 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1467 in Farama-Foundation/PettingZoo: Correct the action-masking tutorial’s declared observation space</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tutorials/CustomEnvironment/tutorial3_action_masking.py</code></p>
-<p><a href="https://github.com/Farama-Foundation/PettingZoo/issues/1467">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
       <category>good first issue</category>
     </item>
     <item>
@@ -801,237 +1028,6 @@
       <category>good first issue</category>
       <category>compat</category>
       <category>mac-os</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #31068 [good first issue] 🍛 Add new Video Game Quote 668 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/31068</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31068</guid>
-      <pubDate>Sun, 27 Sep 2026 02:00:59 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3485 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #31068 in lingdojo/kana-dojo: [good first issue] 🍛 Add new Video Game Quote 668 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-videogame-quotes.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/31068">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[LargeModGames/spotatui] #597 Settings saves a two-cell Playing Icon that the next launch drops (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/597</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/597</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #597 in LargeModGames/spotatui: Settings saves a two-cell Playing Icon that the next launch drops</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test settings_apply</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/597">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[LargeModGames/spotatui] #598 Help menu and episode list ignore rebound paging keys (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/598</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/598</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #598 in LargeModGames/spotatui: Help menu and episode list ignore rebound paging keys</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test help_menu</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/598">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[LargeModGames/spotatui] #601 Stats Top Artists splits "Mumford &amp; Sons" into two artists (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/601</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/601</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:08 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #601 in LargeModGames/spotatui: Stats Top Artists splits "Mumford &amp; Sons" into two artists</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test history</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/601">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[LargeModGames/spotatui] #606 `--completions powershell` is rejected, only `power-shell` parses (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/606</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/606</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:16 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #606 in LargeModGames/spotatui: `--completions powershell` is rejected, only `power-shell` parses</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test cli</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/606">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[LargeModGames/spotatui] #607 AI DJ docs omit the copilot and opencode agent presets (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/607</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/607</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:17 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #607 in LargeModGames/spotatui: AI DJ docs omit the copilot and opencode agent presets</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test agent_cli</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/607">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[LargeModGames/spotatui] #609 Screen hints still say d, z and q after you rebind those keys (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/609</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/609</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:20 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #609 in LargeModGames/spotatui: Screen hints still say d, z and q after you rebind those keys</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test library</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/609">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1039 Docs: add an On-call teams page (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1039</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1039</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1039 in OpsiMate/OpsiMate: Docs: add an On-call teams page</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test packages/shared/src/schemas.ts</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1039">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>Server</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1040 Add unit tests for alert comment ownership and ordering (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1040</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1040</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1040 in OpsiMate/OpsiMate: Add unit tests for alert comment ownership and ordering</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/server/src/dal/alertCommentsRepository.ts</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1040">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>Server</category>
-      <category>DevOps</category>
-      <category>Test</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1041 Add unit tests for mute-policy and enrichment GET/PUT/DELETE by id (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1041</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1041</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:42 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1041 in OpsiMate/OpsiMate: Add unit tests for mute-policy and enrichment GET/PUT/DELETE by id</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1041">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>Server</category>
-      <category>DevOps</category>
-      <category>Test</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1042 Add unit tests for useStickyHeaders (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1042</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1042</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:44 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1042 in OpsiMate/OpsiMate: Add unit tests for useStickyHeaders</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/client/src/components/Alerts/AlertsTable/hooks/useStickyHeaders.ts</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1042">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>UI</category>
-      <category>Test</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1043 Add unit tests for the KpiCard delta chip (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1043</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1043</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:45 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1043 in OpsiMate/OpsiMate: Add unit tests for the KpiCard delta chip</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/client/src/components/Analytics/KpiCard.tsx</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1043">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>UI</category>
-      <category>Test</category>
-      <category>hacktoberfest</category>
     </item>
   </channel>
 </rss>
