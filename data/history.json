@@ -12430,7 +12430,8 @@
     "repo": "armbian/build",
     "title": "[Bug]: bcm2711 Debian images ship raspberrypi-sys-mods' passwordless sudo rule for a pi user that Armbian never creates",
     "discoveredAt": "2026-09-23T20:47:01.395Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOAf6AbM8AAAABS1lcsw": {
     "id": "I_kwDOAf6AbM8AAAABS1lcsw",
@@ -12685,7 +12686,8 @@
     "repo": "0x676e67/wreq",
     "title": "WS upgrade handshake should preserve header case and insertion order (byte-accurate emulation)",
     "discoveredAt": "2026-09-24T10:40:32.985Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOOwsln88AAAABS8sZ5g": {
     "id": "I_kwDOOwsln88AAAABS8sZ5g",
@@ -12962,7 +12964,8 @@
     "repo": "shadcn-labs/pdfcn",
     "title": "component: Stats",
     "discoveredAt": "2026-09-24T20:52:48.522Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOT1Nsbc8AAAABTD_AUw": {
     "id": "I_kwDOT1Nsbc8AAAABTD_AUw",
@@ -13567,7 +13570,8 @@
     "repo": "kubernetes-sigs/inference-perf",
     "title": "Support the embeddings API",
     "discoveredAt": "2026-09-26T02:19:17.132Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOOwsln88AAAABTSHVOA": {
     "id": "I_kwDOOwsln88AAAABTSHVOA",
@@ -13865,7 +13869,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "Albums, Podcasts and Recently Played draw a blank pane until loaded",
     "discoveredAt": "2026-09-26T20:17:51.182Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABTZtjRQ": {
     "id": "I_kwDOQS9jlc8AAAABTZtjRQ",
@@ -13905,7 +13910,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "`--tick-rate` with a non-number is silently ignored",
     "discoveredAt": "2026-09-26T20:17:55.174Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABTZtf2A": {
     "id": "I_kwDOQS9jlc8AAAABTZtf2A",
@@ -13969,6 +13975,126 @@
     "repo": "LargeModGames/spotatui",
     "title": "Settings saves a two-cell Playing Icon that the next launch drops",
     "discoveredAt": "2026-09-26T20:18:01.579Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTbo6rQ": {
+    "id": "I_kwDOOwsln88AAAABTbo6rQ",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31068",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍛 Add new Video Game Quote 668 (good-first-issue)",
+    "discoveredAt": "2026-09-27T02:14:14.055Z",
+    "status": "published"
+  },
+  "I_kwDOQCY4NM8AAAABTbd9hA": {
+    "id": "I_kwDOQCY4NM8AAAABTbd9hA",
+    "url": "https://github.com/UZDoom/UZDoom/issues/1947",
+    "repo": "UZDoom/UZDoom",
+    "title": "Mouse Cursor does not display in fullscreen console",
+    "discoveredAt": "2026-09-27T02:14:19.908Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABTbbs4Q": {
+    "id": "I_kwDOQuAx5c8AAAABTbbs4Q",
+    "url": "https://github.com/libredb/libredb-studio/issues/1146",
+    "repo": "libredb/libredb-studio",
+    "title": "The Kafka provider doc never says how a read of a partition the topic does not have is refused",
+    "discoveredAt": "2026-09-27T02:14:22.473Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTbWfTw": {
+    "id": "I_kwDOOwsln88AAAABTbWfTw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31066",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍜 Add new Grammar Point 1405 (good-first-issue)",
+    "discoveredAt": "2026-09-27T02:14:24.535Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTbVaeA": {
+    "id": "I_kwDOOwsln88AAAABTbVaeA",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31065",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🐡 Add new Trivia Question 508 (good-first-issue)",
+    "discoveredAt": "2026-09-27T02:14:26.707Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABTbFTEw": {
+    "id": "I_kwDOQuAx5c8AAAABTbFTEw",
+    "url": "https://github.com/libredb/libredb-studio/issues/1139",
+    "repo": "libredb/libredb-studio",
+    "title": "Oracle reports a column's type without its length, precision or scale, so SchemaDiff's CREATE TABLE is refused",
+    "discoveredAt": "2026-09-27T02:14:29.267Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTbDpuQ": {
+    "id": "I_kwDOOwsln88AAAABTbDpuQ",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31064",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🀄 Add new Japanese Proverb 1273 (good-first-issue)",
+    "discoveredAt": "2026-09-27T02:14:31.235Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABTbDkOQ": {
+    "id": "I_kwDOQuAx5c8AAAABTbDkOQ",
+    "url": "https://github.com/libredb/libredb-studio/issues/1138",
+    "repo": "libredb/libredb-studio",
+    "title": "The code generator drops a trailing `s` from column names: `status` becomes `statu`",
+    "discoveredAt": "2026-09-27T02:14:33.893Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTbCkjg": {
+    "id": "I_kwDOOwsln88AAAABTbCkjg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31063",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍁 Add new Japan Fact 2576 (good-first-issue)",
+    "discoveredAt": "2026-09-27T02:14:35.823Z",
+    "status": "published"
+  },
+  "I_kwDOQuAx5c8AAAABTaupSg": {
+    "id": "I_kwDOQuAx5c8AAAABTaupSg",
+    "url": "https://github.com/libredb/libredb-studio/issues/1130",
+    "repo": "libredb/libredb-studio",
+    "title": "Chart x-axis labels run into the legend, and the first one is cut off",
+    "discoveredAt": "2026-09-27T02:14:38.387Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTauRxA": {
+    "id": "I_kwDOOwsln88AAAABTauRxA",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31062",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🦑 Add new Theme: Festival Red (good-first-issue)",
+    "discoveredAt": "2026-09-27T02:14:40.341Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTas7ZQ": {
+    "id": "I_kwDOOwsln88AAAABTas7ZQ",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31061",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🎍 Add new Learner Mistake 293 (good-first-issue)",
+    "discoveredAt": "2026-09-27T02:14:42.263Z",
+    "status": "published"
+  },
+  "I_kwDOB7-mp88AAAABTar4_A": {
+    "id": "I_kwDOB7-mp88AAAABTar4_A",
+    "url": "https://github.com/hackforla/website/issues/8807",
+    "repo": "hackforla/website",
+    "title": "Create issues to populate 'github-handle' variables in TDM Calculator",
+    "discoveredAt": "2026-09-27T02:14:44.258Z",
+    "status": "published"
+  },
+  "I_kwDOB7-mp88AAAABTakvrg": {
+    "id": "I_kwDOB7-mp88AAAABTakvrg",
+    "url": "https://github.com/hackforla/website/issues/8806",
+    "repo": "hackforla/website",
+    "title": "Update Project Profile: HackforLA Website",
+    "discoveredAt": "2026-09-27T02:14:46.230Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTaXMdQ": {
+    "id": "I_kwDOOwsln88AAAABTaXMdQ",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31060",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🀄 Add new Example Sentence 246 (good-first-issue)",
+    "discoveredAt": "2026-09-27T02:14:48.179Z",
     "status": "published"
   }
 }
