@@ -1,5 +1,39 @@
 [
   {
+    "id": "I_kwDOS3TU6c8AAAABTfs0gQ",
+    "number": 1156,
+    "title": "[agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so",
+    "url": "https://github.com/reticlehq/reticle/issues/1156",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 900,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "area/browser",
+      "area/docs",
+      "P2",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-27T14:05:34Z",
+    "updatedAt": "2026-09-27T14:05:34Z",
+    "blastRadius": "Low",
+    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test adapters/realm/browser/src/timers/clock.test.ts",
+    "solvabilityScore": 8,
+    "keyFiles": [
+      "adapters/realm/browser/src/timers/clock.ts"
+    ],
+    "summary": "Fix issue #1156 in reticlehq/reticle: [agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:24.480Z"
+  },
+  {
     "id": "I_kwDOILzUoc8AAAABSgwxxQ",
     "number": 253,
     "title": "Bug: Postgres DSN built without URL-encoding breaks on special characters in credentials",
@@ -27,6 +61,442 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-22T10:29:17.117Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABTfsqhQ",
+    "number": 1146,
+    "title": "[agent] A store registered with a bare getter is reported as \"no store is registered\" in the same response that read it",
+    "url": "https://github.com/reticlehq/reticle/issues/1146",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 900,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "area/browser",
+      "area/server",
+      "P2",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-27T14:05:13Z",
+    "updatedAt": "2026-09-27T14:05:13Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test engine/src/evidence/instrumentation-gaps.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "engine/src/evidence/instrumentation-gaps.ts",
+      "core/src/verdict/instrumentation-gap.ts",
+      "adapters/realm/browser/src/registry/stores.ts"
+    ],
+    "summary": "Fix issue #1146 in reticlehq/reticle: [agent] A store registered with a bare getter is reported as \"no store is registered\" in the same response that read it",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:35.902Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABTfsuOg",
+    "number": 1150,
+    "title": "[agent] Re-running `init` on a Next app wired before 3.3.0 says \"file exists\" and never adds the SDK version to `connect()`",
+    "url": "https://github.com/reticlehq/reticle/issues/1150",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 900,
+    "language": "TypeScript",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "area/next",
+      "fw/next",
+      "P2",
+      "area/init"
+    ],
+    "createdAt": "2026-09-27T14:05:21Z",
+    "updatedAt": "2026-09-27T14:05:21Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test init/src/plan/plan-framework.test.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "init/src/plan/plan-framework.ts",
+      "init/src/plan/connect-steps.ts"
+    ],
+    "summary": "Fix issue #1150 in reticlehq/reticle: [agent] Re-running `init` on a Next app wired before 3.3.0 says \"file exists\" and never adds the SDK version to `connect()`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:33.719Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABTfsvGQ",
+    "number": 1151,
+    "title": "[agent] `@reticlehq/vite-plugin` has no `present` option, so hiding the panel means hand-writing `connect()`",
+    "url": "https://github.com/reticlehq/reticle/issues/1151",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 900,
+    "language": "TypeScript",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "area/vite-plugin",
+      "area/docs",
+      "fw/vite",
+      "P2"
+    ],
+    "createdAt": "2026-09-27T14:05:23Z",
+    "updatedAt": "2026-09-27T14:05:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test adapters/build/vite/src/connect-args.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "adapters/build/vite/src/connect-args.ts",
+      "adapters/build/vite/src/index.ts"
+    ],
+    "summary": "Fix issue #1151 in reticlehq/reticle: [agent] `@reticlehq/vite-plugin` has no `present` option, so hiding the panel means hand-writing `connect()`",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:31.501Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABTfsyHA",
+    "number": 1154,
+    "title": "[agent] A skill lists docs pages as bare relative names, and agents compose `tools/predicates.md`, which 404s",
+    "url": "https://github.com/reticlehq/reticle/issues/1154",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 900,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "area/docs",
+      "P2",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-27T14:05:29Z",
+    "updatedAt": "2026-09-27T14:05:29Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test docs/docs.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docs/docs.json"
+    ],
+    "summary": "Fix issue #1154 in reticlehq/reticle: [agent] A skill lists docs pages as bare relative names, and agents compose `tools/predicates.md`, which 404s",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:29.104Z"
+  },
+  {
+    "id": "I_kwDOS3TU6c8AAAABTfszhg",
+    "number": 1155,
+    "title": "[agent] `verify --help` and the `--expect` refusal should point at the HTTP transport for anything that needs an action",
+    "url": "https://github.com/reticlehq/reticle/issues/1155",
+    "repo": "reticlehq/reticle",
+    "repoUrl": "https://github.com/reticlehq/reticle",
+    "stars": 900,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted",
+      "agent-reported",
+      "area/server",
+      "area/docs",
+      "P2",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-27T14:05:32Z",
+    "updatedAt": "2026-09-27T14:05:32Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test server/src/command/cli/cli-parse.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "server/src/command/cli/cli-parse.ts",
+      "server/src/command/cli/cli-verify.ts"
+    ],
+    "summary": "Fix issue #1155 in reticlehq/reticle: [agent] `verify --help` and the `--expect` refusal should point at the HTTP transport for anything that needs an action",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:26.758Z"
+  },
+  {
+    "id": "I_kwDODf3ZCM8AAAABTf21tg",
+    "number": 17033,
+    "title": "[Bug]: db:migrate exits 0 when a migration script fails (db:migrate:scripts exit code is discarded)",
+    "url": "https://github.com/medusajs/medusa/issues/17033",
+    "repo": "medusajs/medusa",
+    "repoUrl": "https://github.com/medusajs/medusa",
+    "stars": 36486,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue",
+      "type: bug"
+    ],
+    "createdAt": "2026-09-27T14:27:56Z",
+    "updatedAt": "2026-09-27T14:30:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test packages/admin/admin-bundler/src/commands/develop.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/admin/admin-bundler/src/commands/develop.ts",
+      "packages/medusa/src/commands/develop.ts",
+      "packages/medusa/src/commands/plugin/develop.ts"
+    ],
+    "summary": "Fix issue #17033 in medusajs/medusa: [Bug]: db:migrate exits 0 when a migration script fails (db:migrate:scripts exit code is discarded)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-27T15:56:22.219Z"
+  },
+  {
+    "id": "I_kwDOFrXn6s8AAAABTgH34A",
+    "number": 1259,
+    "title": "Lint the e2e code in CI",
+    "url": "https://github.com/liquidmetal-dev/flintlock/issues/1259",
+    "repo": "liquidmetal-dev/flintlock",
+    "repoUrl": "https://github.com/liquidmetal-dev/flintlock",
+    "stars": 1498,
+    "language": "Go",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "area/testing",
+      "area/build-and-release",
+      "kind/chore"
+    ],
+    "createdAt": "2026-09-27T15:05:50Z",
+    "updatedAt": "2026-09-27T15:06:26Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "go test -v ./.",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      ".golangci.yml"
+    ],
+    "summary": "Fix issue #1259 in liquidmetal-dev/flintlock: Lint the e2e code in CI",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:13.673Z"
+  },
+  {
+    "id": "I_kwDOA_N4LM8AAAABTgH5AA",
+    "number": 2089,
+    "title": "Add `ResourceGraphBuilder.SuppressWarningNotIdentifiable<TResource>()` for externally defined types",
+    "url": "https://github.com/json-api-dotnet/JsonApiDotNetCore/issues/2089",
+    "repo": "json-api-dotnet/JsonApiDotNetCore",
+    "repoUrl": "https://github.com/json-api-dotnet/JsonApiDotNetCore",
+    "stars": 716,
+    "language": "C#",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T15:05:53Z",
+    "updatedAt": "2026-09-27T15:21:39Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #2089 in json-api-dotnet/JsonApiDotNetCore: Add `ResourceGraphBuilder.SuppressWarningNotIdentifiable<TResource>()` for externally defined types",
+    "maintainerTurnaroundDays": 1.3,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-27T15:56:12.551Z"
+  },
+  {
+    "id": "I_kwDORuSRRM8AAAABTgKcnw",
+    "number": 2623,
+    "title": "A Codex rg search that finds a file at the repository root binds nothing, because the result must contain a slash",
+    "url": "https://github.com/repowise-dev/repowise/issues/2623",
+    "repo": "repowise-dev/repowise",
+    "repoUrl": "https://github.com/repowise-dev/repowise",
+    "stars": 7058,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T15:11:53Z",
+    "updatedAt": "2026-09-27T15:11:53Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/unit/sessions/test_codex_adapter.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/sessions/test_codex_adapter.py"
+    ],
+    "summary": "Fix issue #2623 in repowise-dev/repowise: A Codex rg search that finds a file at the repository root binds nothing, because the result must contain a slash",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:11.639Z"
+  },
+  {
+    "id": "I_kwDORuSRRM8AAAABTgKdlw",
+    "number": 2624,
+    "title": "The file page's Tests tab says no test reaches a file when the request for that answer failed",
+    "url": "https://github.com/repowise-dev/repowise/issues/2624",
+    "repo": "repowise-dev/repowise",
+    "repoUrl": "https://github.com/repowise-dev/repowise",
+    "stars": 7058,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T15:11:55Z",
+    "updatedAt": "2026-09-27T15:11:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest packages/web/src/components/files/file-tests-panel.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/web/src/components/files/file-tests-panel.tsx",
+      "packages/server/src/repowise/server/routers/code_health/coverage_routes.py",
+      "packages/ui/__tests__/health/inferred-tests.test.tsx"
+    ],
+    "summary": "Fix issue #2624 in repowise-dev/repowise: The file page's Tests tab says no test reaches a file when the request for that answer failed",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:08.455Z"
+  },
+  {
+    "id": "I_kwDORuSRRM8AAAABTgKeYQ",
+    "number": 2625,
+    "title": "An execution flow that ends at a symbol with only a references or type_use edge is reported as confidence_filtered instead of no_callees",
+    "url": "https://github.com/repowise-dev/repowise/issues/2625",
+    "repo": "repowise-dev/repowise",
+    "repoUrl": "https://github.com/repowise-dev/repowise",
+    "stars": 7058,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T15:11:57Z",
+    "updatedAt": "2026-09-27T15:11:57Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/unit/analysis/test_execution_flows.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/unit/analysis/test_execution_flows.py"
+    ],
+    "summary": "Fix issue #2625 in repowise-dev/repowise: An execution flow that ends at a symbol with only a references or type_use edge is reported as confidence_filtered instead of no_callees",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:05.328Z"
+  },
+  {
+    "id": "I_kwDORuSRRM8AAAABTgKfTg",
+    "number": 2626,
+    "title": "Inside a community outside the 20 largest, the graph's Showing control reads All files",
+    "url": "https://github.com/repowise-dev/repowise/issues/2626",
+    "repo": "repowise-dev/repowise",
+    "repoUrl": "https://github.com/repowise-dev/repowise",
+    "stars": 7058,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T15:11:59Z",
+    "updatedAt": "2026-09-27T15:38:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest packages/server/src/repowise/server/routers/graph/community.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/server/src/repowise/server/routers/graph/community.py",
+      "packages/web/src/components/architecture/graph-view.tsx"
+    ],
+    "summary": "Fix issue #2626 in repowise-dev/repowise: Inside a community outside the 20 largest, the graph's Showing control reads All files",
+    "maintainerTurnaroundDays": 0.8,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:56:02.002Z"
+  },
+  {
+    "id": "I_kwDODgIDSc8AAAABTgcU1A",
+    "number": 1467,
+    "title": "Correct the action-masking tutorial’s declared observation space",
+    "url": "https://github.com/Farama-Foundation/PettingZoo/issues/1467",
+    "repo": "Farama-Foundation/PettingZoo",
+    "repoUrl": "https://github.com/Farama-Foundation/PettingZoo",
+    "stars": 3523,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-27T15:51:23Z",
+    "updatedAt": "2026-09-27T15:51:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tutorials/CustomEnvironment/tutorial3_action_masking.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tutorials/CustomEnvironment/tutorial3_action_masking.py"
+    ],
+    "summary": "Fix issue #1467 in Farama-Foundation/PettingZoo: Correct the action-masking tutorial’s declared observation space",
+    "maintainerTurnaroundDays": 3.5,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-27T15:55:58.772Z"
+  },
+  {
+    "id": "I_kwDOFGRWMM8AAAABTgd3Vw",
+    "number": 1010,
+    "title": "Observer mode save results in corrupt save file",
+    "url": "https://github.com/C7-Game/OpenCiv3/issues/1010",
+    "repo": "C7-Game/OpenCiv3",
+    "repoUrl": "https://github.com/C7-Game/OpenCiv3",
+    "stars": 659,
+    "language": "C#",
+    "labels": [
+      "bug",
+      "good first issue",
+      "save-game"
+    ],
+    "createdAt": "2026-09-27T15:54:48Z",
+    "updatedAt": "2026-09-27T15:55:21Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1010 in C7-Game/OpenCiv3: Observer mode save results in corrupt save file",
+    "maintainerTurnaroundDays": 5.9,
+    "defaultBranch": "Development",
+    "discoveredAt": "2026-09-27T15:55:57.261Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTb5ggw",
@@ -131,34 +601,6 @@
     "discoveredAt": "2026-09-27T10:58:43.030Z"
   },
   {
-    "id": "I_kwDOEaEoos8AAAABTddilg",
-    "number": 45860,
-    "title": "Element.part should have label read-only",
-    "url": "https://github.com/mdn/content/issues/45860",
-    "repo": "mdn/content",
-    "repoUrl": "https://github.com/mdn/content",
-    "stars": 11010,
-    "language": "Markdown",
-    "labels": [
-      "good first issue",
-      "Content:WebAPI"
-    ],
-    "createdAt": "2026-09-27T07:54:15Z",
-    "updatedAt": "2026-09-27T07:57:37Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #45860 in mdn/content: Element.part should have label read-only",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T10:58:41.381Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABTdeogw",
     "number": 31088,
     "title": "[good first issue] 🎐 Add new Japanese Idiom 157 (good-first-issue)",
@@ -261,68 +703,6 @@
     "discoveredAt": "2026-09-27T10:58:29.983Z"
   },
   {
-    "id": "I_kwDOQ_KVhM8AAAABTd1fQA",
-    "number": 4298,
-    "title": "gradlew filter drops the \"Configuration cache entry discarded with N problems\" line",
-    "url": "https://github.com/rtk-ai/rtk/issues/4298",
-    "repo": "rtk-ai/rtk",
-    "repoUrl": "https://github.com/rtk-ai/rtk",
-    "stars": 81796,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue",
-      "filter-quality",
-      "priority:medium"
-    ],
-    "createdAt": "2026-09-27T08:57:38Z",
-    "updatedAt": "2026-09-27T08:58:44Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test gradlew_cmd",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/cmds/jvm/gradlew_cmd.rs"
-    ],
-    "summary": "Fix issue #4298 in rtk-ai/rtk: gradlew filter drops the \"Configuration cache entry discarded with N problems\" line",
-    "maintainerTurnaroundDays": 1,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-27T10:58:28.319Z"
-  },
-  {
-    "id": "I_kwDOQ_KVhM8AAAABTd1gVA",
-    "number": 4299,
-    "title": "docs still say native Windows falls back to CLAUDE.md injection",
-    "url": "https://github.com/rtk-ai/rtk/issues/4299",
-    "repo": "rtk-ai/rtk",
-    "repoUrl": "https://github.com/rtk-ai/rtk",
-    "stars": 81796,
-    "language": "Rust",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "priority:low",
-      "platform:windows",
-      "area:docs",
-      "windows"
-    ],
-    "createdAt": "2026-09-27T08:57:40Z",
-    "updatedAt": "2026-09-27T08:58:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #4299 in rtk-ai/rtk: docs still say native Windows falls back to CLAUDE.md injection",
-    "maintainerTurnaroundDays": 1,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-27T10:58:27.431Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABTd2_1A",
     "number": 31091,
     "title": "[good first issue] 🍁 Add new Etiquette Tip 1208 (good-first-issue)",
@@ -383,68 +763,6 @@
     "maintainerTurnaroundDays": 0.2,
     "defaultBranch": "master",
     "discoveredAt": "2026-09-27T10:58:24.927Z"
-  },
-  {
-    "id": "I_kwDOQ8nqJM8AAAABTeIX-Q",
-    "number": 11501,
-    "title": "perf(runtime): register class source text by borrowing (`js_register_class_source_static`), not by copying to the heap",
-    "url": "https://github.com/PerryTS/perry/issues/11501",
-    "repo": "PerryTS/perry",
-    "repoUrl": "https://github.com/PerryTS/perry",
-    "stars": 4901,
-    "language": "Rust",
-    "labels": [
-      "good first issue",
-      "performance",
-      "rust"
-    ],
-    "createdAt": "2026-09-27T09:43:59Z",
-    "updatedAt": "2026-09-27T09:43:59Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test class_meta",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "crates/perry-runtime/src/object/class_registry/class_meta.rs",
-      "crates/perry-codegen/src/codegen/string_pool.rs",
-      "crates/perry-runtime/src/builtins/fn_metadata.rs"
-    ],
-    "summary": "Fix issue #11501 in PerryTS/perry: perf(runtime): register class source text by borrowing (`js_register_class_source_static`), not by copying to the heap",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T10:58:16.062Z"
-  },
-  {
-    "id": "I_kwDOQ8nqJM8AAAABTeIY3g",
-    "number": 11502,
-    "title": "perf(runtime): allocate `parent_dense` zeroed and stop double-publishing parent edges into `CLASS_REGISTRY`",
-    "url": "https://github.com/PerryTS/perry/issues/11502",
-    "repo": "PerryTS/perry",
-    "repoUrl": "https://github.com/PerryTS/perry",
-    "stars": 4901,
-    "language": "Rust",
-    "labels": [
-      "good first issue",
-      "performance",
-      "rust"
-    ],
-    "createdAt": "2026-09-27T09:44:01Z",
-    "updatedAt": "2026-09-27T09:44:01Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test class_image",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "crates/perry-runtime/src/object/class_image.rs",
-      "scripts/raw_handle_debt.py",
-      "scripts/addr_class_inventory.py"
-    ],
-    "summary": "Fix issue #11502 in PerryTS/perry: perf(runtime): allocate `parent_dense` zeroed and stop double-publishing parent edges into `CLASS_REGISTRY`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T10:58:05.600Z"
   },
   {
     "id": "I_kwDOQ8nqJM8AAAABTeIbeg",
@@ -750,36 +1068,6 @@
     "discoveredAt": "2026-09-27T02:14:35.823Z"
   },
   {
-    "id": "I_kwDOQuAx5c8AAAABTbDkOQ",
-    "number": 1138,
-    "title": "The code generator drops a trailing `s` from column names: `status` becomes `statu`",
-    "url": "https://github.com/libredb/libredb-studio/issues/1138",
-    "repo": "libredb/libredb-studio",
-    "repoUrl": "https://github.com/libredb/libredb-studio",
-    "stars": 890,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-27T00:00:44Z",
-    "updatedAt": "2026-09-27T00:55:30Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/components/CodeGenerator.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/components/CodeGenerator.tsx",
-      "tests/unit/code-generator-functions.test.ts",
-      "tests/components/CodeGenerator.test.tsx"
-    ],
-    "summary": "Fix issue #1138 in libredb/libredb-studio: The code generator drops a trailing `s` from column names: `status` becomes `statu`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T02:14:33.893Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABTbDpuQ",
     "number": 31064,
     "title": "[good first issue] 🀄 Add new Japanese Proverb 1273 (good-first-issue)",
@@ -1037,66 +1325,6 @@
     "discoveredAt": "2026-09-26T20:18:00.760Z"
   },
   {
-    "id": "I_kwDOQS9jlc8AAAABTZtcOA",
-    "number": 599,
-    "title": "Help lists Ctrl+p as \"move up\", but Ctrl+p opens the party",
-    "url": "https://github.com/LargeModGames/spotatui/issues/599",
-    "repo": "LargeModGames/spotatui",
-    "repoUrl": "https://github.com/LargeModGames/spotatui",
-    "stars": 1389,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-26T20:15:04Z",
-    "updatedAt": "2026-09-26T20:15:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test keymap",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/tui/keymap.rs",
-      "src/core/user_config.rs",
-      "src/tui/handlers/mod.rs"
-    ],
-    "summary": "Fix issue #599 in LargeModGames/spotatui: Help lists Ctrl+p as \"move up\", but Ctrl+p opens the party",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T20:17:59.966Z"
-  },
-  {
-    "id": "I_kwDOQS9jlc8AAAABTZtcyQ",
-    "number": 600,
-    "title": "Sorting a playlist by name puts lowercase titles after Z",
-    "url": "https://github.com/LargeModGames/spotatui/issues/600",
-    "repo": "LargeModGames/spotatui",
-    "repoUrl": "https://github.com/LargeModGames/spotatui",
-    "stars": 1389,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-26T20:15:06Z",
-    "updatedAt": "2026-09-26T20:15:55Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test sort",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/core/sort.rs",
-      "src/core/app/library.rs",
-      "src/infra/network/library.rs"
-    ],
-    "summary": "Fix issue #600 in LargeModGames/spotatui: Sorting a playlist by name puts lowercase titles after Z",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T20:17:59.155Z"
-  },
-  {
     "id": "I_kwDOQS9jlc8AAAABTZtd4w",
     "number": 601,
     "title": "Stats Top Artists splits \"Mumford & Sons\" into two artists",
@@ -1125,65 +1353,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-26T20:17:58.385Z"
-  },
-  {
-    "id": "I_kwDOQS9jlc8AAAABTZtemQ",
-    "number": 602,
-    "title": "Stats \"Last 10 Days\" groups plays by UTC date, not local date",
-    "url": "https://github.com/LargeModGames/spotatui/issues/602",
-    "repo": "LargeModGames/spotatui",
-    "repoUrl": "https://github.com/LargeModGames/spotatui",
-    "stars": 1389,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-26T20:15:10Z",
-    "updatedAt": "2026-09-26T20:16:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test history",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/infra/history.rs",
-      "src/gates.rs"
-    ],
-    "summary": "Fix issue #602 in LargeModGames/spotatui: Stats \"Last 10 Days\" groups plays by UTC date, not local date",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T20:17:57.621Z"
-  },
-  {
-    "id": "I_kwDOQS9jlc8AAAABTZtfMg",
-    "number": 603,
-    "title": "CLI `play` panics on an empty search result or empty playlist",
-    "url": "https://github.com/LargeModGames/spotatui/issues/603",
-    "repo": "LargeModGames/spotatui",
-    "repoUrl": "https://github.com/LargeModGames/spotatui",
-    "stars": 1389,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-26T20:15:11Z",
-    "updatedAt": "2026-09-26T20:16:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test cli_app",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/cli/cli_app.rs",
-      "src/infra/network/search.rs",
-      "src/core/app/models.rs"
-    ],
-    "summary": "Fix issue #603 in LargeModGames/spotatui: CLI `play` panics on an empty search result or empty playlist",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T20:17:56.846Z"
   },
   {
     "id": "I_kwDOQS9jlc8AAAABTZthgA",
@@ -4594,170 +4763,5 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-22T20:36:31.537Z"
-  },
-  {
-    "id": "I_kwDOQ0-8k88AAAABSnaZjA",
-    "number": 159,
-    "title": "Check free disk space before downloading a model",
-    "url": "https://github.com/karansinghgit/speaktype/issues/159",
-    "repo": "karansinghgit/speaktype",
-    "repoUrl": "https://github.com/karansinghgit/speaktype",
-    "stars": 508,
-    "language": "Swift",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "priority:P3"
-    ],
-    "createdAt": "2026-09-22T19:31:25Z",
-    "updatedAt": "2026-09-22T19:31:25Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "desktop/src-tauri/src/models.rs"
-    ],
-    "summary": "Fix issue #159 in karansinghgit/speaktype: Check free disk space before downloading a model",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T20:36:30.207Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSneVsA",
-    "number": 30769,
-    "title": "[good first issue] 🌋 Add new False Friend Pair 884 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30769",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3445,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T19:37:28Z",
-    "updatedAt": "2026-09-22T19:37:32Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-false-friends.json"
-    ],
-    "summary": "Fix issue #30769 in lingdojo/kana-dojo: [good first issue] 🌋 Add new False Friend Pair 884 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T20:36:28.248Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSnuF9Q",
-    "number": 30770,
-    "title": "[good first issue] 🎐 Add new Etiquette Tip 731 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30770",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3445,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T20:01:02Z",
-    "updatedAt": "2026-09-22T20:01:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-cultural-etiquette.json"
-    ],
-    "summary": "Fix issue #30770 in lingdojo/kana-dojo: [good first issue] 🎐 Add new Etiquette Tip 731 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T20:36:26.957Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSeY4lA",
-    "number": 30711,
-    "title": "[good first issue] 🌋 Add new Japan Fact 1236 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30711",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3445,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T03:01:04Z",
-    "updatedAt": "2026-09-22T03:01:07Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-facts.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #30711 in lingdojo/kana-dojo: [good first issue] 🌋 Add new Japan Fact 1236 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T15:53:12.688Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABSelLtg",
-    "number": 30712,
-    "title": "[good first issue] 🍥 Add new Japanese Proverb 782 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/30712",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3445,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-22T03:37:36Z",
-    "updatedAt": "2026-09-22T03:37:39Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-proverbs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-proverbs.json"
-    ],
-    "summary": "Fix issue #30712 in lingdojo/kana-dojo: [good first issue] 🍥 Add new Japanese Proverb 782 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-22T15:53:10.418Z"
   }
 ]

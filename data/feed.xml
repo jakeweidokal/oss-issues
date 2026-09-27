@@ -5,8 +5,31 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 10:58:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 15:56:35 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[reticlehq/reticle] #1156 [agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so (Solvability: 8/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/1156</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1156</guid>
+      <pubDate>Sun, 27 Sep 2026 14:05:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (900 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 8/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1156 in reticlehq/reticle: [agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so</p>
+<p><strong>Blast Radius Analysis:</strong> Changes appear localized to a single module with existing unit tests.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test adapters/realm/browser/src/timers/clock.test.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/1156">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-low</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>area/browser</category>
+      <category>area/docs</category>
+      <category>P2</category>
+      <category>hacktoberfest</category>
+    </item>
     <item>
       <title>[LAA-Software-Engineering/golang-rest-api-template] #253 Bug: Postgres DSN built without URL-encoding breaks on special characters in credentials (Solvability: 8/10)</title>
       <link>https://github.com/LAA-Software-Engineering/golang-rest-api-template/issues/253</link>
@@ -24,6 +47,278 @@
       <category>bug</category>
       <category>help wanted</category>
       <category>good first issue</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #1146 [agent] A store registered with a bare getter is reported as "no store is registered" in the same response that read it (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/1146</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1146</guid>
+      <pubDate>Sun, 27 Sep 2026 14:05:13 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (900 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1146 in reticlehq/reticle: [agent] A store registered with a bare getter is reported as "no store is registered" in the same response that read it</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test engine/src/evidence/instrumentation-gaps.test.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/1146">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>area/browser</category>
+      <category>area/server</category>
+      <category>P2</category>
+      <category>hacktoberfest</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #1150 [agent] Re-running `init` on a Next app wired before 3.3.0 says "file exists" and never adds the SDK version to `connect()` (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/1150</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1150</guid>
+      <pubDate>Sun, 27 Sep 2026 14:05:21 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (900 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1150 in reticlehq/reticle: [agent] Re-running `init` on a Next app wired before 3.3.0 says "file exists" and never adds the SDK version to `connect()`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test init/src/plan/plan-framework.test.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/1150">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>area/next</category>
+      <category>fw/next</category>
+      <category>P2</category>
+      <category>area/init</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #1151 [agent] `@reticlehq/vite-plugin` has no `present` option, so hiding the panel means hand-writing `connect()` (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/1151</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1151</guid>
+      <pubDate>Sun, 27 Sep 2026 14:05:23 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (900 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1151 in reticlehq/reticle: [agent] `@reticlehq/vite-plugin` has no `present` option, so hiding the panel means hand-writing `connect()`</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test adapters/build/vite/src/connect-args.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/1151">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>area/vite-plugin</category>
+      <category>area/docs</category>
+      <category>fw/vite</category>
+      <category>P2</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #1154 [agent] A skill lists docs pages as bare relative names, and agents compose `tools/predicates.md`, which 404s (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/1154</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1154</guid>
+      <pubDate>Sun, 27 Sep 2026 14:05:29 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (900 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1154 in reticlehq/reticle: [agent] A skill lists docs pages as bare relative names, and agents compose `tools/predicates.md`, which 404s</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test docs/docs.json</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/1154">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>area/docs</category>
+      <category>P2</category>
+      <category>hacktoberfest</category>
+    </item>
+    <item>
+      <title>[reticlehq/reticle] #1155 [agent] `verify --help` and the `--expect` refusal should point at the HTTP transport for anything that needs an action (Solvability: 6/10)</title>
+      <link>https://github.com/reticlehq/reticle/issues/1155</link>
+      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1155</guid>
+      <pubDate>Sun, 27 Sep 2026 14:05:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (900 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1155 in reticlehq/reticle: [agent] `verify --help` and the `--expect` refusal should point at the HTTP transport for anything that needs an action</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test server/src/command/cli/cli-parse.ts</code></p>
+<p><a href="https://github.com/reticlehq/reticle/issues/1155">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>agent-reported</category>
+      <category>area/server</category>
+      <category>area/docs</category>
+      <category>P2</category>
+      <category>hacktoberfest</category>
+    </item>
+    <item>
+      <title>[medusajs/medusa] #17033 [Bug]: db:migrate exits 0 when a migration script fails (db:migrate:scripts exit code is discarded) (Solvability: 6/10)</title>
+      <link>https://github.com/medusajs/medusa/issues/17033</link>
+      <guid isPermaLink="true">https://github.com/medusajs/medusa/issues/17033</guid>
+      <pubDate>Sun, 27 Sep 2026 14:27:56 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/medusajs/medusa">medusajs/medusa</a> (36486 ⭐, TypeScript)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Local DB required</p>
+<p><strong>Summary:</strong> Fix issue #17033 in medusajs/medusa: [Bug]: db:migrate exits 0 when a migration script fails (db:migrate:scripts exit code is discarded)</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pnpm test packages/admin/admin-bundler/src/commands/develop.ts</code></p>
+<p><a href="https://github.com/medusajs/medusa/issues/17033">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>TypeScript</category>
+      <category>blast-radius-medium</category>
+      <category>friction-local-db-required</category>
+      <category>good first issue</category>
+      <category>type: bug</category>
+    </item>
+    <item>
+      <title>[liquidmetal-dev/flintlock] #1259 Lint the e2e code in CI (Solvability: 6/10)</title>
+      <link>https://github.com/liquidmetal-dev/flintlock/issues/1259</link>
+      <guid isPermaLink="true">https://github.com/liquidmetal-dev/flintlock/issues/1259</guid>
+      <pubDate>Sun, 27 Sep 2026 15:05:50 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/liquidmetal-dev/flintlock">liquidmetal-dev/flintlock</a> (1498 ⭐, Go)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1259 in liquidmetal-dev/flintlock: Lint the e2e code in CI</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>go test -v ./.</code></p>
+<p><a href="https://github.com/liquidmetal-dev/flintlock/issues/1259">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Go</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>good first issue</category>
+      <category>help wanted</category>
+      <category>area/testing</category>
+      <category>area/build-and-release</category>
+      <category>kind/chore</category>
+    </item>
+    <item>
+      <title>[json-api-dotnet/JsonApiDotNetCore] #2089 Add `ResourceGraphBuilder.SuppressWarningNotIdentifiable&lt;TResource&gt;()` for externally defined types (Solvability: 6/10)</title>
+      <link>https://github.com/json-api-dotnet/JsonApiDotNetCore/issues/2089</link>
+      <guid isPermaLink="true">https://github.com/json-api-dotnet/JsonApiDotNetCore/issues/2089</guid>
+      <pubDate>Sun, 27 Sep 2026 15:05:53 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/json-api-dotnet/JsonApiDotNetCore">json-api-dotnet/JsonApiDotNetCore</a> (716 ⭐, C#)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2089 in json-api-dotnet/JsonApiDotNetCore: Add `ResourceGraphBuilder.SuppressWarningNotIdentifiable&lt;TResource&gt;()` for externally defined types</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/json-api-dotnet/JsonApiDotNetCore/issues/2089">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C#</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>enhancement</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[repowise-dev/repowise] #2623 A Codex rg search that finds a file at the repository root binds nothing, because the result must contain a slash (Solvability: 6/10)</title>
+      <link>https://github.com/repowise-dev/repowise/issues/2623</link>
+      <guid isPermaLink="true">https://github.com/repowise-dev/repowise/issues/2623</guid>
+      <pubDate>Sun, 27 Sep 2026 15:11:53 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/repowise-dev/repowise">repowise-dev/repowise</a> (7058 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2623 in repowise-dev/repowise: A Codex rg search that finds a file at the repository root binds nothing, because the result must contain a slash</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/unit/sessions/test_codex_adapter.py</code></p>
+<p><a href="https://github.com/repowise-dev/repowise/issues/2623">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[repowise-dev/repowise] #2624 The file page's Tests tab says no test reaches a file when the request for that answer failed (Solvability: 6/10)</title>
+      <link>https://github.com/repowise-dev/repowise/issues/2624</link>
+      <guid isPermaLink="true">https://github.com/repowise-dev/repowise/issues/2624</guid>
+      <pubDate>Sun, 27 Sep 2026 15:11:55 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/repowise-dev/repowise">repowise-dev/repowise</a> (7058 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2624 in repowise-dev/repowise: The file page's Tests tab says no test reaches a file when the request for that answer failed</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest packages/web/src/components/files/file-tests-panel.tsx</code></p>
+<p><a href="https://github.com/repowise-dev/repowise/issues/2624">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[repowise-dev/repowise] #2625 An execution flow that ends at a symbol with only a references or type_use edge is reported as confidence_filtered instead of no_callees (Solvability: 6/10)</title>
+      <link>https://github.com/repowise-dev/repowise/issues/2625</link>
+      <guid isPermaLink="true">https://github.com/repowise-dev/repowise/issues/2625</guid>
+      <pubDate>Sun, 27 Sep 2026 15:11:57 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/repowise-dev/repowise">repowise-dev/repowise</a> (7058 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2625 in repowise-dev/repowise: An execution flow that ends at a symbol with only a references or type_use edge is reported as confidence_filtered instead of no_callees</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tests/unit/analysis/test_execution_flows.py</code></p>
+<p><a href="https://github.com/repowise-dev/repowise/issues/2625">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[repowise-dev/repowise] #2626 Inside a community outside the 20 largest, the graph's Showing control reads All files (Solvability: 6/10)</title>
+      <link>https://github.com/repowise-dev/repowise/issues/2626</link>
+      <guid isPermaLink="true">https://github.com/repowise-dev/repowise/issues/2626</guid>
+      <pubDate>Sun, 27 Sep 2026 15:11:59 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/repowise-dev/repowise">repowise-dev/repowise</a> (7058 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #2626 in repowise-dev/repowise: Inside a community outside the 20 largest, the graph's Showing control reads All files</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest packages/server/src/repowise/server/routers/graph/community.py</code></p>
+<p><a href="https://github.com/repowise-dev/repowise/issues/2626">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[Farama-Foundation/PettingZoo] #1467 Correct the action-masking tutorial’s declared observation space (Solvability: 6/10)</title>
+      <link>https://github.com/Farama-Foundation/PettingZoo/issues/1467</link>
+      <guid isPermaLink="true">https://github.com/Farama-Foundation/PettingZoo/issues/1467</guid>
+      <pubDate>Sun, 27 Sep 2026 15:51:23 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/Farama-Foundation/PettingZoo">Farama-Foundation/PettingZoo</a> (3523 ⭐, Python)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1467 in Farama-Foundation/PettingZoo: Correct the action-masking tutorial’s declared observation space</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>pytest tutorials/CustomEnvironment/tutorial3_action_masking.py</code></p>
+<p><a href="https://github.com/Farama-Foundation/PettingZoo/issues/1467">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Python</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[C7-Game/OpenCiv3] #1010 Observer mode save results in corrupt save file (Solvability: 6/10)</title>
+      <link>https://github.com/C7-Game/OpenCiv3/issues/1010</link>
+      <guid isPermaLink="true">https://github.com/C7-Game/OpenCiv3/issues/1010</guid>
+      <pubDate>Sun, 27 Sep 2026 15:54:48 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/C7-Game/OpenCiv3">C7-Game/OpenCiv3</a> (659 ⭐, C#)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #1010 in C7-Game/OpenCiv3: Observer mode save results in corrupt save file</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/C7-Game/OpenCiv3/issues/1010">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C#</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>save-game</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #31070 [good first issue] 🍤 Add new Dialect Entry 640 (good-first-issue) (Solvability: 6/10)</title>
@@ -95,23 +390,6 @@
       <category>good-first-issue</category>
     </item>
     <item>
-      <title>[mdn/content] #45860 Element.part should have label read-only (Solvability: 6/10)</title>
-      <link>https://github.com/mdn/content/issues/45860</link>
-      <guid isPermaLink="true">https://github.com/mdn/content/issues/45860</guid>
-      <pubDate>Sun, 27 Sep 2026 07:54:15 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/mdn/content">mdn/content</a> (11010 ⭐, Markdown)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #45860 in mdn/content: Element.part should have label read-only</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/mdn/content/issues/45860">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Markdown</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>Content:WebAPI</category>
-    </item>
-    <item>
       <title>[lingdojo/kana-dojo] #31088 [good first issue] 🎐 Add new Japanese Idiom 157 (good-first-issue) (Solvability: 6/10)</title>
       <link>https://github.com/lingdojo/kana-dojo/issues/31088</link>
       <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31088</guid>
@@ -181,46 +459,6 @@
       <category>good-first-issue</category>
     </item>
     <item>
-      <title>[rtk-ai/rtk] #4298 gradlew filter drops the "Configuration cache entry discarded with N problems" line (Solvability: 6/10)</title>
-      <link>https://github.com/rtk-ai/rtk/issues/4298</link>
-      <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/4298</guid>
-      <pubDate>Sun, 27 Sep 2026 08:57:38 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rtk-ai/rtk">rtk-ai/rtk</a> (81796 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4298 in rtk-ai/rtk: gradlew filter drops the "Configuration cache entry discarded with N problems" line</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test gradlew_cmd</code></p>
-<p><a href="https://github.com/rtk-ai/rtk/issues/4298">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-      <category>filter-quality</category>
-      <category>priority:medium</category>
-    </item>
-    <item>
-      <title>[rtk-ai/rtk] #4299 docs still say native Windows falls back to CLAUDE.md injection (Solvability: 6/10)</title>
-      <link>https://github.com/rtk-ai/rtk/issues/4299</link>
-      <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/4299</guid>
-      <pubDate>Sun, 27 Sep 2026 08:57:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/rtk-ai/rtk">rtk-ai/rtk</a> (81796 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4299 in rtk-ai/rtk: docs still say native Windows falls back to CLAUDE.md injection</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test</code></p>
-<p><a href="https://github.com/rtk-ai/rtk/issues/4299">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>priority:low</category>
-      <category>platform:windows</category>
-      <category>area:docs</category>
-      <category>windows</category>
-    </item>
-    <item>
       <title>[lingdojo/kana-dojo] #31091 [good first issue] 🍁 Add new Etiquette Tip 1208 (good-first-issue) (Solvability: 6/10)</title>
       <link>https://github.com/lingdojo/kana-dojo/issues/31091</link>
       <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31091</guid>
@@ -259,42 +497,6 @@
       <category>friction-standard</category>
       <category>Good first issue</category>
       <category>Editor</category>
-    </item>
-    <item>
-      <title>[PerryTS/perry] #11501 perf(runtime): register class source text by borrowing (`js_register_class_source_static`), not by copying to the heap (Solvability: 6/10)</title>
-      <link>https://github.com/PerryTS/perry/issues/11501</link>
-      <guid isPermaLink="true">https://github.com/PerryTS/perry/issues/11501</guid>
-      <pubDate>Sun, 27 Sep 2026 09:43:59 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/PerryTS/perry">PerryTS/perry</a> (4901 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #11501 in PerryTS/perry: perf(runtime): register class source text by borrowing (`js_register_class_source_static`), not by copying to the heap</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test class_meta</code></p>
-<p><a href="https://github.com/PerryTS/perry/issues/11501">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>performance</category>
-      <category>rust</category>
-    </item>
-    <item>
-      <title>[PerryTS/perry] #11502 perf(runtime): allocate `parent_dense` zeroed and stop double-publishing parent edges into `CLASS_REGISTRY` (Solvability: 6/10)</title>
-      <link>https://github.com/PerryTS/perry/issues/11502</link>
-      <guid isPermaLink="true">https://github.com/PerryTS/perry/issues/11502</guid>
-      <pubDate>Sun, 27 Sep 2026 09:44:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/PerryTS/perry">PerryTS/perry</a> (4901 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #11502 in PerryTS/perry: perf(runtime): allocate `parent_dense` zeroed and stop double-publishing parent edges into `CLASS_REGISTRY`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test class_image</code></p>
-<p><a href="https://github.com/PerryTS/perry/issues/11502">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>performance</category>
-      <category>rust</category>
     </item>
     <item>
       <title>[PerryTS/perry] #11504 perf(codegen): string-pool member lookups are linear scans (quadratic compile time on large bundles) (Solvability: 6/10)</title>
@@ -495,23 +697,6 @@
       <category>good-first-issue</category>
     </item>
     <item>
-      <title>[libredb/libredb-studio] #1138 The code generator drops a trailing `s` from column names: `status` becomes `statu` (Solvability: 6/10)</title>
-      <link>https://github.com/libredb/libredb-studio/issues/1138</link>
-      <guid isPermaLink="true">https://github.com/libredb/libredb-studio/issues/1138</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:44 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/libredb/libredb-studio">libredb/libredb-studio</a> (890 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1138 in libredb/libredb-studio: The code generator drops a trailing `s` from column names: `status` becomes `statu`</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test src/components/CodeGenerator.tsx</code></p>
-<p><a href="https://github.com/libredb/libredb-studio/issues/1138">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[lingdojo/kana-dojo] #31064 [good first issue] 🀄 Add new Japanese Proverb 1273 (good-first-issue) (Solvability: 6/10)</title>
       <link>https://github.com/lingdojo/kana-dojo/issues/31064</link>
       <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31064</guid>
@@ -675,40 +860,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[LargeModGames/spotatui] #599 Help lists Ctrl+p as "move up", but Ctrl+p opens the party (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/599</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/599</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #599 in LargeModGames/spotatui: Help lists Ctrl+p as "move up", but Ctrl+p opens the party</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test keymap</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/599">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[LargeModGames/spotatui] #600 Sorting a playlist by name puts lowercase titles after Z (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/600</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/600</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:06 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #600 in LargeModGames/spotatui: Sorting a playlist by name puts lowercase titles after Z</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test sort</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/600">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[LargeModGames/spotatui] #601 Stats Top Artists splits "Mumford &amp; Sons" into two artists (Solvability: 6/10)</title>
       <link>https://github.com/LargeModGames/spotatui/issues/601</link>
       <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/601</guid>
@@ -719,40 +870,6 @@
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>cargo test --test history</code></p>
 <p><a href="https://github.com/LargeModGames/spotatui/issues/601">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[LargeModGames/spotatui] #602 Stats "Last 10 Days" groups plays by UTC date, not local date (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/602</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/602</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:10 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #602 in LargeModGames/spotatui: Stats "Last 10 Days" groups plays by UTC date, not local date</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test history</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/602">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[LargeModGames/spotatui] #603 CLI `play` panics on an empty search result or empty playlist (Solvability: 6/10)</title>
-      <link>https://github.com/LargeModGames/spotatui/issues/603</link>
-      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/603</guid>
-      <pubDate>Sat, 26 Sep 2026 20:15:11 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1389 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #603 in LargeModGames/spotatui: CLI `play` panics on an empty search result or empty playlist</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test cli_app</code></p>
-<p><a href="https://github.com/LargeModGames/spotatui/issues/603">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>Rust</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -913,110 +1030,6 @@
       <category>documentation</category>
       <category>good first issue</category>
       <category>UI</category>
-      <category>Test</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1045 Five icon-only toolbar buttons have no accessible name (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1045</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1045</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:49 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1045 in OpsiMate/OpsiMate: Five icon-only toolbar buttons have no accessible name</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/client/src/components/DashboardLayout.tsx</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1045">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>UI</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1046 Docs: add a Playground mode and version badge page (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1046</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1046</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:50 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1046 in OpsiMate/OpsiMate: Docs: add a Playground mode and version badge page</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/client/src/main.tsx</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1046">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>question</category>
-      <category>Server</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1047 Docs: fix alert states and the pull/push model in adding-alerts.md (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1047</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1047</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:52 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1047 in OpsiMate/OpsiMate: Docs: fix alert states and the pull/push model in adding-alerts.md</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1047">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1048 Add unit tests for RetentionRepository (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1048</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1048</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:53 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1048 in OpsiMate/OpsiMate: Add unit tests for RetentionRepository</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/server/src/dal/retentionRepository.ts</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1048">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>Server</category>
-      <category>DevOps</category>
-      <category>Test</category>
-      <category>hacktoberfest</category>
-    </item>
-    <item>
-      <title>[OpsiMate/OpsiMate] #1049 Add unit tests for the admin user management endpoints (Solvability: 6/10)</title>
-      <link>https://github.com/OpsiMate/OpsiMate/issues/1049</link>
-      <guid isPermaLink="true">https://github.com/OpsiMate/OpsiMate/issues/1049</guid>
-      <pubDate>Sat, 26 Sep 2026 13:44:55 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/OpsiMate/OpsiMate">OpsiMate/OpsiMate</a> (225 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1049 in OpsiMate/OpsiMate: Add unit tests for the admin user management endpoints</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test apps/server/src/api/v1/users/controller.ts</code></p>
-<p><a href="https://github.com/OpsiMate/OpsiMate/issues/1049">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>Server</category>
-      <category>DevOps</category>
       <category>Test</category>
       <category>hacktoberfest</category>
     </item>

@@ -13932,7 +13932,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "CLI `play` panics on an empty search result or empty playlist",
     "discoveredAt": "2026-09-26T20:17:56.846Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABTZtemQ": {
     "id": "I_kwDOQS9jlc8AAAABTZtemQ",
@@ -13940,7 +13941,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "Stats \"Last 10 Days\" groups plays by UTC date, not local date",
     "discoveredAt": "2026-09-26T20:17:57.621Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABTZtd4w": {
     "id": "I_kwDOQS9jlc8AAAABTZtd4w",
@@ -13956,7 +13958,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "Sorting a playlist by name puts lowercase titles after Z",
     "discoveredAt": "2026-09-26T20:17:59.155Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABTZtcOA": {
     "id": "I_kwDOQS9jlc8AAAABTZtcOA",
@@ -13964,7 +13967,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "Help lists Ctrl+p as \"move up\", but Ctrl+p opens the party",
     "discoveredAt": "2026-09-26T20:17:59.966Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABTZtbmA": {
     "id": "I_kwDOQS9jlc8AAAABTZtbmA",
@@ -14045,7 +14049,8 @@
     "repo": "libredb/libredb-studio",
     "title": "The code generator drops a trailing `s` from column names: `status` becomes `statu`",
     "discoveredAt": "2026-09-27T02:14:33.893Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOOwsln88AAAABTbCkjg": {
     "id": "I_kwDOOwsln88AAAABTbCkjg",
@@ -14125,7 +14130,8 @@
     "repo": "PerryTS/perry",
     "title": "perf(runtime): allocate `parent_dense` zeroed and stop double-publishing parent edges into `CLASS_REGISTRY`",
     "discoveredAt": "2026-09-27T10:58:05.600Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQ8nqJM8AAAABTeIX-Q": {
     "id": "I_kwDOQ8nqJM8AAAABTeIX-Q",
@@ -14133,7 +14139,8 @@
     "repo": "PerryTS/perry",
     "title": "perf(runtime): register class source text by borrowing (`js_register_class_source_static`), not by copying to the heap",
     "discoveredAt": "2026-09-27T10:58:16.062Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOE1yAw88AAAABTd67Lg": {
     "id": "I_kwDOE1yAw88AAAABTd67Lg",
@@ -14157,7 +14164,8 @@
     "repo": "rtk-ai/rtk",
     "title": "docs still say native Windows falls back to CLAUDE.md injection",
     "discoveredAt": "2026-09-27T10:58:27.431Z",
-    "status": "published"
+    "status": "assigned",
+    "reason": "Removed during reconciliation (assigned)"
   },
   "I_kwDOQ_KVhM8AAAABTd1fQA": {
     "id": "I_kwDOQ_KVhM8AAAABTd1fQA",
@@ -14165,7 +14173,8 @@
     "repo": "rtk-ai/rtk",
     "title": "gradlew filter drops the \"Configuration cache entry discarded with N problems\" line",
     "discoveredAt": "2026-09-27T10:58:28.319Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOOwsln88AAAABTd1YYw": {
     "id": "I_kwDOOwsln88AAAABTd1YYw",
@@ -14197,7 +14206,8 @@
     "repo": "mdn/content",
     "title": "Element.part should have label read-only",
     "discoveredAt": "2026-09-27T10:58:41.381Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOOwsln88AAAABTdHcbw": {
     "id": "I_kwDOOwsln88AAAABTdHcbw",
@@ -14221,6 +14231,126 @@
     "repo": "lingdojo/kana-dojo",
     "title": "[good first issue] 🍤 Add new Dialect Entry 640 (good-first-issue)",
     "discoveredAt": "2026-09-27T10:58:46.196Z",
+    "status": "published"
+  },
+  "I_kwDOFGRWMM8AAAABTgd3Vw": {
+    "id": "I_kwDOFGRWMM8AAAABTgd3Vw",
+    "url": "https://github.com/C7-Game/OpenCiv3/issues/1010",
+    "repo": "C7-Game/OpenCiv3",
+    "title": "Observer mode save results in corrupt save file",
+    "discoveredAt": "2026-09-27T15:55:57.261Z",
+    "status": "published"
+  },
+  "I_kwDODgIDSc8AAAABTgcU1A": {
+    "id": "I_kwDODgIDSc8AAAABTgcU1A",
+    "url": "https://github.com/Farama-Foundation/PettingZoo/issues/1467",
+    "repo": "Farama-Foundation/PettingZoo",
+    "title": "Correct the action-masking tutorial’s declared observation space",
+    "discoveredAt": "2026-09-27T15:55:58.772Z",
+    "status": "published"
+  },
+  "I_kwDORuSRRM8AAAABTgKfTg": {
+    "id": "I_kwDORuSRRM8AAAABTgKfTg",
+    "url": "https://github.com/repowise-dev/repowise/issues/2626",
+    "repo": "repowise-dev/repowise",
+    "title": "Inside a community outside the 20 largest, the graph's Showing control reads All files",
+    "discoveredAt": "2026-09-27T15:56:02.002Z",
+    "status": "published"
+  },
+  "I_kwDORuSRRM8AAAABTgKeYQ": {
+    "id": "I_kwDORuSRRM8AAAABTgKeYQ",
+    "url": "https://github.com/repowise-dev/repowise/issues/2625",
+    "repo": "repowise-dev/repowise",
+    "title": "An execution flow that ends at a symbol with only a references or type_use edge is reported as confidence_filtered instead of no_callees",
+    "discoveredAt": "2026-09-27T15:56:05.328Z",
+    "status": "published"
+  },
+  "I_kwDORuSRRM8AAAABTgKdlw": {
+    "id": "I_kwDORuSRRM8AAAABTgKdlw",
+    "url": "https://github.com/repowise-dev/repowise/issues/2624",
+    "repo": "repowise-dev/repowise",
+    "title": "The file page's Tests tab says no test reaches a file when the request for that answer failed",
+    "discoveredAt": "2026-09-27T15:56:08.455Z",
+    "status": "published"
+  },
+  "I_kwDORuSRRM8AAAABTgKcnw": {
+    "id": "I_kwDORuSRRM8AAAABTgKcnw",
+    "url": "https://github.com/repowise-dev/repowise/issues/2623",
+    "repo": "repowise-dev/repowise",
+    "title": "A Codex rg search that finds a file at the repository root binds nothing, because the result must contain a slash",
+    "discoveredAt": "2026-09-27T15:56:11.639Z",
+    "status": "published"
+  },
+  "I_kwDOA_N4LM8AAAABTgH5AA": {
+    "id": "I_kwDOA_N4LM8AAAABTgH5AA",
+    "url": "https://github.com/json-api-dotnet/JsonApiDotNetCore/issues/2089",
+    "repo": "json-api-dotnet/JsonApiDotNetCore",
+    "title": "Add `ResourceGraphBuilder.SuppressWarningNotIdentifiable<TResource>()` for externally defined types",
+    "discoveredAt": "2026-09-27T15:56:12.551Z",
+    "status": "published"
+  },
+  "I_kwDOFrXn6s8AAAABTgH34A": {
+    "id": "I_kwDOFrXn6s8AAAABTgH34A",
+    "url": "https://github.com/liquidmetal-dev/flintlock/issues/1259",
+    "repo": "liquidmetal-dev/flintlock",
+    "title": "Lint the e2e code in CI",
+    "discoveredAt": "2026-09-27T15:56:13.673Z",
+    "status": "published"
+  },
+  "I_kwDODf3ZCM8AAAABTf21tg": {
+    "id": "I_kwDODf3ZCM8AAAABTf21tg",
+    "url": "https://github.com/medusajs/medusa/issues/17033",
+    "repo": "medusajs/medusa",
+    "title": "[Bug]: db:migrate exits 0 when a migration script fails (db:migrate:scripts exit code is discarded)",
+    "discoveredAt": "2026-09-27T15:56:22.219Z",
+    "status": "published"
+  },
+  "I_kwDOS3TU6c8AAAABTfs0gQ": {
+    "id": "I_kwDOS3TU6c8AAAABTfs0gQ",
+    "url": "https://github.com/reticlehq/reticle/issues/1156",
+    "repo": "reticlehq/reticle",
+    "title": "[agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so",
+    "discoveredAt": "2026-09-27T15:56:24.480Z",
+    "status": "published"
+  },
+  "I_kwDOS3TU6c8AAAABTfszhg": {
+    "id": "I_kwDOS3TU6c8AAAABTfszhg",
+    "url": "https://github.com/reticlehq/reticle/issues/1155",
+    "repo": "reticlehq/reticle",
+    "title": "[agent] `verify --help` and the `--expect` refusal should point at the HTTP transport for anything that needs an action",
+    "discoveredAt": "2026-09-27T15:56:26.758Z",
+    "status": "published"
+  },
+  "I_kwDOS3TU6c8AAAABTfsyHA": {
+    "id": "I_kwDOS3TU6c8AAAABTfsyHA",
+    "url": "https://github.com/reticlehq/reticle/issues/1154",
+    "repo": "reticlehq/reticle",
+    "title": "[agent] A skill lists docs pages as bare relative names, and agents compose `tools/predicates.md`, which 404s",
+    "discoveredAt": "2026-09-27T15:56:29.104Z",
+    "status": "published"
+  },
+  "I_kwDOS3TU6c8AAAABTfsvGQ": {
+    "id": "I_kwDOS3TU6c8AAAABTfsvGQ",
+    "url": "https://github.com/reticlehq/reticle/issues/1151",
+    "repo": "reticlehq/reticle",
+    "title": "[agent] `@reticlehq/vite-plugin` has no `present` option, so hiding the panel means hand-writing `connect()`",
+    "discoveredAt": "2026-09-27T15:56:31.501Z",
+    "status": "published"
+  },
+  "I_kwDOS3TU6c8AAAABTfsuOg": {
+    "id": "I_kwDOS3TU6c8AAAABTfsuOg",
+    "url": "https://github.com/reticlehq/reticle/issues/1150",
+    "repo": "reticlehq/reticle",
+    "title": "[agent] Re-running `init` on a Next app wired before 3.3.0 says \"file exists\" and never adds the SDK version to `connect()`",
+    "discoveredAt": "2026-09-27T15:56:33.719Z",
+    "status": "published"
+  },
+  "I_kwDOS3TU6c8AAAABTfsqhQ": {
+    "id": "I_kwDOS3TU6c8AAAABTfsqhQ",
+    "url": "https://github.com/reticlehq/reticle/issues/1146",
+    "repo": "reticlehq/reticle",
+    "title": "[agent] A store registered with a bare getter is reported as \"no store is registered\" in the same response that read it",
+    "discoveredAt": "2026-09-27T15:56:35.902Z",
     "status": "published"
   }
 }
