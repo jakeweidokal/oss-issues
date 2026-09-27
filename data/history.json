@@ -13605,7 +13605,8 @@
     "repo": "traceroot-ai/traceroot",
     "title": "[Integrations/py] Mistral — check against latest release, update if stale",
     "discoveredAt": "2026-09-26T02:19:21.883Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOOwsln88AAAABTV_mVA": {
     "id": "I_kwDOOwsln88AAAABTV_mVA",
@@ -13725,7 +13726,8 @@
     "repo": "fossasia/voxbento",
     "title": "Refactor: Reduce cyclomatic complexity of require_admin",
     "discoveredAt": "2026-09-26T10:27:35.165Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOBXGswM8AAAABTUwXyg": {
     "id": "I_kwDOBXGswM8AAAABTUwXyg",
@@ -13861,7 +13863,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "Linux build docs list PipeWire, but the default build needs ALSA",
     "discoveredAt": "2026-09-26T20:17:50.396Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABTZtjwQ": {
     "id": "I_kwDOQS9jlc8AAAABTZtjwQ",
@@ -13886,7 +13889,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "`docs/keybindings.md` never lists the `keybindings:` config names",
     "discoveredAt": "2026-09-26T20:17:52.787Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABTZtiAA": {
     "id": "I_kwDOQS9jlc8AAAABTZtiAA",
@@ -13919,7 +13923,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "CLI `--format` prints None for show publishers, leaves `%r` raw",
     "discoveredAt": "2026-09-26T20:17:56.034Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOQS9jlc8AAAABTZtfMg": {
     "id": "I_kwDOQS9jlc8AAAABTZtfMg",
@@ -14023,7 +14028,8 @@
     "repo": "libredb/libredb-studio",
     "title": "Oracle reports a column's type without its length, precision or scale, so SchemaDiff's CREATE TABLE is refused",
     "discoveredAt": "2026-09-27T02:14:29.267Z",
-    "status": "published"
+    "status": "claimed",
+    "reason": "Removed during reconciliation (claimed)"
   },
   "I_kwDOOwsln88AAAABTbDpuQ": {
     "id": "I_kwDOOwsln88AAAABTbDpuQ",
@@ -14095,6 +14101,126 @@
     "repo": "lingdojo/kana-dojo",
     "title": "[good first issue] 🀄 Add new Example Sentence 246 (good-first-issue)",
     "discoveredAt": "2026-09-27T02:14:48.179Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTeNrOg": {
+    "id": "I_kwDOOwsln88AAAABTeNrOg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31102",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍣 Add new Example Sentence 929 (good-first-issue)",
+    "discoveredAt": "2026-09-27T10:57:43.745Z",
+    "status": "published"
+  },
+  "I_kwDOQ8nqJM8AAAABTeIbeg": {
+    "id": "I_kwDOQ8nqJM8AAAABTeIbeg",
+    "url": "https://github.com/PerryTS/perry/issues/11504",
+    "repo": "PerryTS/perry",
+    "title": "perf(codegen): string-pool member lookups are linear scans (quadratic compile time on large bundles)",
+    "discoveredAt": "2026-09-27T10:57:54.866Z",
+    "status": "published"
+  },
+  "I_kwDOQ8nqJM8AAAABTeIY3g": {
+    "id": "I_kwDOQ8nqJM8AAAABTeIY3g",
+    "url": "https://github.com/PerryTS/perry/issues/11502",
+    "repo": "PerryTS/perry",
+    "title": "perf(runtime): allocate `parent_dense` zeroed and stop double-publishing parent edges into `CLASS_REGISTRY`",
+    "discoveredAt": "2026-09-27T10:58:05.600Z",
+    "status": "published"
+  },
+  "I_kwDOQ8nqJM8AAAABTeIX-Q": {
+    "id": "I_kwDOQ8nqJM8AAAABTeIX-Q",
+    "url": "https://github.com/PerryTS/perry/issues/11501",
+    "repo": "PerryTS/perry",
+    "title": "perf(runtime): register class source text by borrowing (`js_register_class_source_static`), not by copying to the heap",
+    "discoveredAt": "2026-09-27T10:58:16.062Z",
+    "status": "published"
+  },
+  "I_kwDOE1yAw88AAAABTd67Lg": {
+    "id": "I_kwDOE1yAw88AAAABTd67Lg",
+    "url": "https://github.com/organicmaps/organicmaps/issues/13636",
+    "repo": "organicmaps/organicmaps",
+    "title": "Ability to add Guidepost as POI",
+    "discoveredAt": "2026-09-27T10:58:24.927Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTd2_1A": {
+    "id": "I_kwDOOwsln88AAAABTd2_1A",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31091",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍁 Add new Etiquette Tip 1208 (good-first-issue)",
+    "discoveredAt": "2026-09-27T10:58:26.531Z",
+    "status": "published"
+  },
+  "I_kwDOQ_KVhM8AAAABTd1gVA": {
+    "id": "I_kwDOQ_KVhM8AAAABTd1gVA",
+    "url": "https://github.com/rtk-ai/rtk/issues/4299",
+    "repo": "rtk-ai/rtk",
+    "title": "docs still say native Windows falls back to CLAUDE.md injection",
+    "discoveredAt": "2026-09-27T10:58:27.431Z",
+    "status": "published"
+  },
+  "I_kwDOQ_KVhM8AAAABTd1fQA": {
+    "id": "I_kwDOQ_KVhM8AAAABTd1fQA",
+    "url": "https://github.com/rtk-ai/rtk/issues/4298",
+    "repo": "rtk-ai/rtk",
+    "title": "gradlew filter drops the \"Configuration cache entry discarded with N problems\" line",
+    "discoveredAt": "2026-09-27T10:58:28.319Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTd1YYw": {
+    "id": "I_kwDOOwsln88AAAABTd1YYw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31090",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍛 Add new False Friend Pair 926 (good-first-issue)",
+    "discoveredAt": "2026-09-27T10:58:29.983Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTdfttg": {
+    "id": "I_kwDOOwsln88AAAABTdfttg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31089",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍛 Add new Dialect Entry 190 (good-first-issue)",
+    "discoveredAt": "2026-09-27T10:58:31.720Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTdeogw": {
+    "id": "I_kwDOOwsln88AAAABTdeogw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31088",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🎐 Add new Japanese Idiom 157 (good-first-issue)",
+    "discoveredAt": "2026-09-27T10:58:33.383Z",
+    "status": "published"
+  },
+  "I_kwDOEaEoos8AAAABTddilg": {
+    "id": "I_kwDOEaEoos8AAAABTddilg",
+    "url": "https://github.com/mdn/content/issues/45860",
+    "repo": "mdn/content",
+    "title": "Element.part should have label read-only",
+    "discoveredAt": "2026-09-27T10:58:41.381Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTdHcbw": {
+    "id": "I_kwDOOwsln88AAAABTdHcbw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31085",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🧧 Add new Anime Quote 1318 (good-first-issue)",
+    "discoveredAt": "2026-09-27T10:58:43.030Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTcxgng": {
+    "id": "I_kwDOOwsln88AAAABTcxgng",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31080",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🧧 Add new Trivia Question 881 (good-first-issue)",
+    "discoveredAt": "2026-09-27T10:58:44.655Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABTb5ggw": {
+    "id": "I_kwDOOwsln88AAAABTb5ggw",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31070",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍤 Add new Dialect Entry 640 (good-first-issue)",
+    "discoveredAt": "2026-09-27T10:58:46.196Z",
     "status": "published"
   }
 }
