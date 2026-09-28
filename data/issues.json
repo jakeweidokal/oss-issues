@@ -63,6 +63,460 @@
     "discoveredAt": "2026-09-22T10:29:17.117Z"
   },
   {
+    "id": "I_kwDOAEs8nM8AAAABTwkdQA",
+    "number": 5924,
+    "title": "modbus: Requests get logged even if request body triggers violation",
+    "url": "https://github.com/zeek/zeek/issues/5924",
+    "repo": "zeek/zeek",
+    "repoUrl": "https://github.com/zeek/zeek",
+    "stars": 8029,
+    "language": "C++",
+    "labels": [
+      "Good First Issue",
+      "Area: Protocol Analysis"
+    ],
+    "createdAt": "2026-09-28T20:44:04Z",
+    "updatedAt": "2026-09-28T22:05:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #5924 in zeek/zeek: modbus: Requests get logged even if request body triggers violation",
+    "maintainerTurnaroundDays": 0.2,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-28T22:43:40.428Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTwulTw",
+    "number": 31224,
+    "title": "[good first issue] 🍢 Add new Learner Mistake 514 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31224",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3505,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-28T20:57:36Z",
+    "updatedAt": "2026-09-28T20:57:40Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-common-mistakes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-common-mistakes.json"
+    ],
+    "summary": "Fix issue #31224 in lingdojo/kana-dojo: [good first issue] 🍢 Add new Learner Mistake 514 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:35.649Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTwxLYg",
+    "number": 31225,
+    "title": "[good first issue] 🎴 Add new Wallpaper URL #28 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31225",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3505,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only"
+    ],
+    "createdAt": "2026-09-28T21:01:04Z",
+    "updatedAt": "2026-09-28T21:01:08Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-wallpaper-urls.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-wallpaper-urls.json"
+    ],
+    "summary": "Fix issue #31225 in lingdojo/kana-dojo: [good first issue] 🎴 Add new Wallpaper URL #28 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:33.382Z"
+  },
+  {
+    "id": "I_kwDOSH-TA88AAAABTwxrTA",
+    "number": 1543,
+    "title": "Task SDK migration tracking: families A–M",
+    "url": "https://github.com/NVIDIA/TensorRT-Model-Connect/issues/1543",
+    "repo": "NVIDIA/TensorRT-Model-Connect",
+    "repoUrl": "https://github.com/NVIDIA/TensorRT-Model-Connect",
+    "stars": 260,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-28T21:01:45Z",
+    "updatedAt": "2026-09-28T22:18:21Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1543 in NVIDIA/TensorRT-Model-Connect: Task SDK migration tracking: families A–M",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:31.094Z"
+  },
+  {
+    "id": "I_kwDOSH-TA88AAAABTwxv8Q",
+    "number": 1544,
+    "title": "Task SDK migration tracking: families N–Z",
+    "url": "https://github.com/NVIDIA/TensorRT-Model-Connect/issues/1544",
+    "repo": "NVIDIA/TensorRT-Model-Connect",
+    "repoUrl": "https://github.com/NVIDIA/TensorRT-Model-Connect",
+    "stars": 260,
+    "language": "Python",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-28T21:01:51Z",
+    "updatedAt": "2026-09-28T22:18:16Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1544 in NVIDIA/TensorRT-Model-Connect: Task SDK migration tracking: families N–Z",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:28.218Z"
+  },
+  {
+    "id": "I_kwDOABpTD88AAAABTxJfVQ",
+    "number": 8234,
+    "title": "Add language : Ternet",
+    "url": "https://github.com/github-linguist/linguist/issues/8234",
+    "repo": "github-linguist/linguist",
+    "repoUrl": "https://github.com/github-linguist/linguist",
+    "stars": 13709,
+    "language": "Ruby",
+    "labels": [
+      "Add Language",
+      "Good First Issue"
+    ],
+    "createdAt": "2026-09-28T21:36:24Z",
+    "updatedAt": "2026-09-28T21:41:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8234 in github-linguist/linguist: Add language : Ternet",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:25.282Z"
+  },
+  {
+    "id": "I_kwDOABpTD88AAAABTxJlMw",
+    "number": 8235,
+    "title": "Add language : Ternet",
+    "url": "https://github.com/github-linguist/linguist/issues/8235",
+    "repo": "github-linguist/linguist",
+    "repoUrl": "https://github.com/github-linguist/linguist",
+    "stars": 13709,
+    "language": "Ruby",
+    "labels": [
+      "Add Language",
+      "Good First Issue"
+    ],
+    "createdAt": "2026-09-28T21:36:31Z",
+    "updatedAt": "2026-09-28T21:41:42Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #8235 in github-linguist/linguist: Add language : Ternet",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:23.571Z"
+  },
+  {
+    "id": "I_kwDODf3ZCM8AAAABTxU2UQ",
+    "number": 17060,
+    "title": "Use one source for country names: Regions list and details currently disagree",
+    "url": "https://github.com/medusajs/medusa/issues/17060",
+    "repo": "medusajs/medusa",
+    "repoUrl": "https://github.com/medusajs/medusa",
+    "stars": 36507,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue",
+      "type: bug"
+    ],
+    "createdAt": "2026-09-28T21:54:13Z",
+    "updatedAt": "2026-09-28T21:57:23Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Local DB required",
+    "quickReproCommand": "pnpm test packages/admin/dashboard/src/components/table/table-cells/region/countries-cell/countries-cell.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "packages/admin/dashboard/src/components/table/table-cells/region/countries-cell/countries-cell.tsx",
+      "packages/modules/region/src/loaders/defaults.ts"
+    ],
+    "summary": "Fix issue #17060 in medusajs/medusa: Use one source for country names: Regions list and details currently disagree",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "develop",
+    "discoveredAt": "2026-09-28T22:43:21.693Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTxW91A",
+    "number": 31226,
+    "title": "[good first issue] 🎌 Add new Theme: Sushi Counter (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31226",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3505,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-28T21:57:33Z",
+    "updatedAt": "2026-09-28T21:57:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #31226 in lingdojo/kana-dojo: [good first issue] 🎌 Add new Theme: Sushi Counter (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:13.830Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTxY6bw",
+    "number": 31227,
+    "title": "[good first issue] 🌊 Add new Japan Fact 2989 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31227",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3505,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-28T22:00:59Z",
+    "updatedAt": "2026-09-28T22:01:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japan-facts.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japan-facts.json"
+    ],
+    "summary": "Fix issue #31227 in lingdojo/kana-dojo: [good first issue] 🌊 Add new Japan Fact 2989 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:11.581Z"
+  },
+  {
+    "id": "I_kwDOK6z7ic8AAAABTxovTw",
+    "number": 810,
+    "title": "Test link on API Services and Language Models broken",
+    "url": "https://github.com/AllYourBot/hostedgpt/issues/810",
+    "repo": "AllYourBot/hostedgpt",
+    "repoUrl": "https://github.com/AllYourBot/hostedgpt",
+    "stars": 511,
+    "language": "Ruby",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-28T22:26:47Z",
+    "updatedAt": "2026-09-28T22:26:47Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #810 in AllYourBot/hostedgpt: Test link on API Services and Language Models broken",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:09.417Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABTxp_ZA",
+    "number": 1938,
+    "title": "Include `sunset_url` in the 410 export-only response body",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1938",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16277,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "backend",
+      "hosted"
+    ],
+    "createdAt": "2026-09-28T22:28:57Z",
+    "updatedAt": "2026-09-28T22:28:57Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest surfsense_backend/app/sunset.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "surfsense_backend/app/sunset.py",
+      "surfsense_backend/tests/unit/test_sunset_write_block.py"
+    ],
+    "summary": "Fix issue #1938 in MODSetter/SurfSense: Include `sunset_url` in the 410 export-only response body",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:08.028Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABTxqDjw",
+    "number": 1939,
+    "title": "GET /license/status returns 500 instead of clock_untrusted when the clock is behind",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1939",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16277,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "desktop"
+    ],
+    "createdAt": "2026-09-28T22:29:05Z",
+    "updatedAt": "2026-09-28T22:29:05Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest surfsense_local/backend/modules/license/service.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "surfsense_local/backend/modules/license/service.py",
+      "surfsense_local/backend/modules/license/verify.py",
+      "surfsense_local/backend/tests/integration/license/test_license.py"
+    ],
+    "summary": "Fix issue #1939 in MODSetter/SurfSense: GET /license/status returns 500 instead of clock_untrusted when the clock is behind",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:43:00.274Z"
+  },
+  {
+    "id": "I_kwDOMdP6aM8AAAABTxqHNA",
+    "number": 1940,
+    "title": "About's Report an issue opens the bare GitHub form, without the session log",
+    "url": "https://github.com/MODSetter/SurfSense/issues/1940",
+    "repo": "MODSetter/SurfSense",
+    "repoUrl": "https://github.com/MODSetter/SurfSense",
+    "stars": 16277,
+    "language": "Python",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "frontend",
+      "desktop"
+    ],
+    "createdAt": "2026-09-28T22:29:10Z",
+    "updatedAt": "2026-09-28T22:29:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest surfsense_local/frontend/src/features/about/about-settings.test.tsx",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "surfsense_local/frontend/src/features/about/about-settings.tsx",
+      "surfsense_local/frontend/src/features/feedback/issue-report-state.ts",
+      "surfsense_local/frontend/src/features/dashboard/dashboard-page.tsx"
+    ],
+    "summary": "Fix issue #1940 in MODSetter/SurfSense: About's Report an issue opens the bare GitHub form, without the session log",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:42:52.733Z"
+  },
+  {
+    "id": "I_kwDOAHXAE88AAAABTxq1Gw",
+    "number": 22163,
+    "title": "IDE Lint: limit test names",
+    "url": "https://github.com/ankidroid/Anki-Android/issues/22163",
+    "repo": "ankidroid/Anki-Android",
+    "repoUrl": "https://github.com/ankidroid/Anki-Android",
+    "stars": 11874,
+    "language": "Kotlin",
+    "labels": [
+      "Good First Issue",
+      "Lint"
+    ],
+    "createdAt": "2026-09-28T22:30:23Z",
+    "updatedAt": "2026-09-28T22:31:19Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #22163 in ankidroid/Anki-Android: IDE Lint: limit test names",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-28T22:42:44.987Z"
+  },
+  {
     "id": "I_kwDOOwsln88AAAABTlQjyg",
     "number": 31156,
     "title": "[good first issue] 🎋 Add new Japanese Proverb 1474 (good-first-issue)",
@@ -335,40 +789,6 @@
     "discoveredAt": "2026-09-28T12:13:29.218Z"
   },
   {
-    "id": "I_kwDOOwsln88AAAABTotqLA",
-    "number": 31177,
-    "title": "[good first issue] 🍥 Add new Theme: Inkstone (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/31177",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3502,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-28T09:57:31Z",
-    "updatedAt": "2026-09-28T09:57:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-themes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-themes.json"
-    ],
-    "summary": "Fix issue #31177 in lingdojo/kana-dojo: [good first issue] 🍥 Add new Theme: Inkstone (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T12:13:27.822Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABTowC1Q",
     "number": 31178,
     "title": "[good first issue] 🌋 Add new Japan Fact 188 (good-first-issue)",
@@ -403,100 +823,6 @@
     "discoveredAt": "2026-09-28T12:13:26.413Z"
   },
   {
-    "id": "I_kwDODtfaXs8AAAABTpR_Fg",
-    "number": 16904,
-    "title": "Replace the 10 hand-rolled `isMobile ? <Drawer/Sheet> : <Popover/Dialog>` forks with the shared `ResponsiveDialog`",
-    "url": "https://github.com/ohcnetwork/care_fe/issues/16904",
-    "repo": "ohcnetwork/care_fe",
-    "repoUrl": "https://github.com/ohcnetwork/care_fe",
-    "stars": 653,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-28T10:49:38Z",
-    "updatedAt": "2026-09-28T10:49:45Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test src/components/Common/RequirementsSelector.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/components/Common/RequirementsSelector.tsx",
-      "src/components/Common/ResourceDefinitionCategoryPicker.tsx",
-      "src/components/Common/RoleOrgSelector.tsx"
-    ],
-    "summary": "Fix issue #16904 in ohcnetwork/care_fe: Replace the 10 hand-rolled `isMobile ? <Drawer/Sheet> : <Popover/Dialog>` forks with the shared `ResponsiveDialog`",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-28T12:13:25.046Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTpZagA",
-    "number": 31182,
-    "title": "[good first issue] 🍜 Add new Trivia Question 504 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/31182",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3502,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-28T11:01:02Z",
-    "updatedAt": "2026-09-28T11:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-trivia-hard.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-trivia-hard.json"
-    ],
-    "summary": "Fix issue #31182 in lingdojo/kana-dojo: [good first issue] 🍜 Add new Trivia Question 504 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T12:13:23.816Z"
-  },
-  {
-    "id": "I_kwDOLalVxc8AAAABTpqfRg",
-    "number": 1098,
-    "title": "Mock actor setters do not chain",
-    "url": "https://github.com/fedify-dev/fedify/issues/1098",
-    "repo": "fedify-dev/fedify",
-    "repoUrl": "https://github.com/fedify-dev/fedify",
-    "stars": 1027,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "difficulty/beginner",
-      "component/testing"
-    ],
-    "createdAt": "2026-09-28T11:23:33Z",
-    "updatedAt": "2026-09-28T11:23:34Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test examples/adonisjs/start/federation.ts",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "examples/adonisjs/start/federation.ts",
-      "examples/astro/src/lib/federation.ts",
-      "examples/custom-collections/federation.ts"
-    ],
-    "summary": "Fix issue #1098 in fedify-dev/fedify: Mock actor setters do not chain",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T12:13:22.401Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABTqDl4g",
     "number": 31183,
     "title": "[good first issue] 🌊 Add new Grammar Point 697 (good-first-issue)",
@@ -529,40 +855,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-28T12:13:20.754Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTqGH8w",
-    "number": 31184,
-    "title": "[good first issue] 🍣 Add new Anime Quote 297 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/31184",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3502,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-28T12:01:05Z",
-    "updatedAt": "2026-09-28T12:01:09Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #31184 in lingdojo/kana-dojo: [good first issue] 🍣 Add new Anime Quote 297 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T12:13:19.346Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTjpMhQ",
@@ -950,34 +1242,6 @@
     "discoveredAt": "2026-09-27T20:33:26.073Z"
   },
   {
-    "id": "I_kwDOQydsfM8AAAABThV9Yg",
-    "number": 354,
-    "title": "In-app help and docs don't mention h / l for moving between panels",
-    "url": "https://github.com/Harry-kp/vortix/issues/354",
-    "repo": "Harry-kp/vortix",
-    "repoUrl": "https://github.com/Harry-kp/vortix",
-    "stars": 662,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-27T18:03:46Z",
-    "updatedAt": "2026-09-27T18:03:46Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #354 in Harry-kp/vortix: In-app help and docs don't mention h / l for moving between panels",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T20:33:24.368Z"
-  },
-  {
     "id": "I_kwDOQydsfM8AAAABThV-Mw",
     "number": 355,
     "title": "Also install-test the arm64 .deb and .rpm in CI",
@@ -1032,65 +1296,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-27T20:33:21.762Z"
-  },
-  {
-    "id": "I_kwDOABALVM8AAAABTheuwA",
-    "number": 2907,
-    "title": "[js-plantuml] Improve `js-plantuml` editor (to be similar to `editor.plantuml.com`)",
-    "url": "https://github.com/plantuml/plantuml/issues/2907",
-    "repo": "plantuml/plantuml",
-    "repoUrl": "https://github.com/plantuml/plantuml",
-    "stars": 13342,
-    "language": "Java",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "javascript",
-      "jsplantuml",
-      "for-claude"
-    ],
-    "createdAt": "2026-09-27T18:25:08Z",
-    "updatedAt": "2026-09-27T19:38:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2907 in plantuml/plantuml: [js-plantuml] Improve `js-plantuml` editor (to be similar to `editor.plantuml.com`)",
-    "maintainerTurnaroundDays": 0.9,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-27T20:33:20.118Z"
-  },
-  {
-    "id": "I_kwDOAHXAE88AAAABThqNkw",
-    "number": 22127,
-    "title": "CI: Skip test sources for `DirectSnackbarMakeUsage` and similar lint rules",
-    "url": "https://github.com/ankidroid/Anki-Android/issues/22127",
-    "repo": "ankidroid/Anki-Android",
-    "repoUrl": "https://github.com/ankidroid/Anki-Android",
-    "stars": 11869,
-    "language": "Kotlin",
-    "labels": [
-      "Good First Issue",
-      "Lint"
-    ],
-    "createdAt": "2026-09-27T18:53:32Z",
-    "updatedAt": "2026-09-27T18:57:18Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #22127 in ankidroid/Anki-Android: CI: Skip test sources for `DirectSnackbarMakeUsage` and similar lint rules",
-    "maintainerTurnaroundDays": 0.1,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T20:33:13.902Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABThr6Kw",
@@ -1327,34 +1532,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-27T15:56:13.673Z"
-  },
-  {
-    "id": "I_kwDOA_N4LM8AAAABTgH5AA",
-    "number": 2089,
-    "title": "Add `ResourceGraphBuilder.SuppressWarningNotIdentifiable<TResource>()` for externally defined types",
-    "url": "https://github.com/json-api-dotnet/JsonApiDotNetCore/issues/2089",
-    "repo": "json-api-dotnet/JsonApiDotNetCore",
-    "repoUrl": "https://github.com/json-api-dotnet/JsonApiDotNetCore",
-    "stars": 716,
-    "language": "C#",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-27T15:05:53Z",
-    "updatedAt": "2026-09-27T15:21:39Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #2089 in json-api-dotnet/JsonApiDotNetCore: Add `ResourceGraphBuilder.SuppressWarningNotIdentifiable<TResource>()` for externally defined types",
-    "maintainerTurnaroundDays": 1.3,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-27T15:56:12.551Z"
   },
   {
     "id": "I_kwDORuSRRM8AAAABTgKcnw",
@@ -1635,37 +1812,6 @@
     "discoveredAt": "2026-09-27T10:58:24.927Z"
   },
   {
-    "id": "I_kwDOQ8nqJM8AAAABTeIbeg",
-    "number": 11504,
-    "title": "perf(codegen): string-pool member lookups are linear scans (quadratic compile time on large bundles)",
-    "url": "https://github.com/PerryTS/perry/issues/11504",
-    "repo": "PerryTS/perry",
-    "repoUrl": "https://github.com/PerryTS/perry",
-    "stars": 4901,
-    "language": "Rust",
-    "labels": [
-      "good first issue",
-      "performance",
-      "rust"
-    ],
-    "createdAt": "2026-09-27T09:44:04Z",
-    "updatedAt": "2026-09-27T09:44:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test string_pool",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "crates/perry-codegen/src/codegen/string_pool.rs",
-      "scripts/raw_handle_debt.py",
-      "scripts/addr_class_inventory.py"
-    ],
-    "summary": "Fix issue #11504 in PerryTS/perry: perf(codegen): string-pool member lookups are linear scans (quadratic compile time on large bundles)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T10:57:54.866Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABTeNrOg",
     "number": 31102,
     "title": "[good first issue] 🍣 Add new Example Sentence 929 (good-first-issue)",
@@ -1931,36 +2077,6 @@
     "discoveredAt": "2026-09-26T20:17:53.578Z"
   },
   {
-    "id": "I_kwDOQS9jlc8AAAABTZtjRQ",
-    "number": 609,
-    "title": "Screen hints still say d, z and q after you rebind those keys",
-    "url": "https://github.com/LargeModGames/spotatui/issues/609",
-    "repo": "LargeModGames/spotatui",
-    "repoUrl": "https://github.com/LargeModGames/spotatui",
-    "stars": 1389,
-    "language": "Rust",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-26T20:15:20Z",
-    "updatedAt": "2026-09-26T20:16:18Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test library",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/tui/ui/library.rs",
-      "src/tui/ui/player.rs",
-      "src/tui/ui/popups.rs"
-    ],
-    "summary": "Fix issue #609 in LargeModGames/spotatui: Screen hints still say d, z and q after you rebind those keys",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T20:17:52.005Z"
-  },
-  {
     "id": "I_kwDOO_fYBc8AAAABTXQ5Xg",
     "number": 1039,
     "title": "Docs: add an On-call teams page",
@@ -2120,39 +2236,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-26T15:16:06.732Z"
-  },
-  {
-    "id": "I_kwDOO_fYBc8AAAABTXQ8tg",
-    "number": 1045,
-    "title": "Five icon-only toolbar buttons have no accessible name",
-    "url": "https://github.com/OpsiMate/OpsiMate/issues/1045",
-    "repo": "OpsiMate/OpsiMate",
-    "repoUrl": "https://github.com/OpsiMate/OpsiMate",
-    "stars": 225,
-    "language": "TypeScript",
-    "labels": [
-      "bug",
-      "documentation",
-      "good first issue",
-      "UI",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-26T13:44:49Z",
-    "updatedAt": "2026-09-26T14:12:00Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test apps/client/src/components/DashboardLayout.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "apps/client/src/components/DashboardLayout.tsx",
-      "apps/client/src/components/Alerts/AlertsTable/GroupByControls.tsx",
-      "apps/client/src/components/Alerts/AlertsTable/ColumnSettingsDropdown/ColumnSettingsDropdown.tsx"
-    ],
-    "summary": "Fix issue #1045 in OpsiMate/OpsiMate: Five icon-only toolbar buttons have no accessible name",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T15:16:06.140Z"
   },
   {
     "id": "I_kwDOO_fYBc8AAAABTXQ9Qg",
@@ -2565,33 +2648,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-26T02:19:20.773Z"
-  },
-  {
-    "id": "I_kwDONqYve88AAAABTSJbYQ",
-    "number": 838,
-    "title": "Support a template endpoint for arbitrary HTTP inference APIs",
-    "url": "https://github.com/kubernetes-sigs/inference-perf/issues/838",
-    "repo": "kubernetes-sigs/inference-perf",
-    "repoUrl": "https://github.com/kubernetes-sigs/inference-perf",
-    "stars": 247,
-    "language": "Python",
-    "labels": [
-      "good first issue"
-    ],
-    "createdAt": "2026-09-25T22:05:25Z",
-    "updatedAt": "2026-09-25T22:06:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #838 in kubernetes-sigs/inference-perf: Support a template endpoint for arbitrary HTTP inference APIs",
-    "maintainerTurnaroundDays": 0.7,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:15.614Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTPtVNw",
