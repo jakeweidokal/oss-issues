@@ -1,39 +1,5 @@
 [
   {
-    "id": "I_kwDOS3TU6c8AAAABTfs0gQ",
-    "number": 1156,
-    "title": "[agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so",
-    "url": "https://github.com/reticlehq/reticle/issues/1156",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 900,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "help wanted",
-      "agent-reported",
-      "area/browser",
-      "area/docs",
-      "P2",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-27T14:05:34Z",
-    "updatedAt": "2026-09-27T14:05:34Z",
-    "blastRadius": "Low",
-    "blastRadiusReason": "Changes appear localized to a single module with existing unit tests.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test adapters/realm/browser/src/timers/clock.test.ts",
-    "solvabilityScore": 8,
-    "keyFiles": [
-      "adapters/realm/browser/src/timers/clock.ts"
-    ],
-    "summary": "Fix issue #1156 in reticlehq/reticle: [agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T15:56:24.480Z"
-  },
-  {
     "id": "I_kwDOILzUoc8AAAABSgwxxQ",
     "number": 253,
     "title": "Bug: Postgres DSN built without URL-encoding breaks on special characters in credentials",
@@ -61,6 +27,393 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-22T10:29:17.117Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41CGA",
+    "number": 662,
+    "title": "Search cursor lands outside the search box with playbar top or sidebar right",
+    "url": "https://github.com/LargeModGames/spotatui/issues/662",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:22Z",
+    "updatedAt": "2026-09-29T11:15:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test runner",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/tui/runner.rs",
+      "src/tui/layout.rs",
+      "src/tui/ui/search.rs"
+    ],
+    "summary": "Fix issue #662 in LargeModGames/spotatui: Search cursor lands outside the search box with playbar top or sidebar right",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:29.955Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41DFQ",
+    "number": 663,
+    "title": "Local Files, Stats, Playlist Sync: Right from sidebar and h/j after Esc do nothing",
+    "url": "https://github.com/LargeModGames/spotatui/issues/663",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:23Z",
+    "updatedAt": "2026-09-29T11:15:44Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test common_key_events",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/tui/handlers/common_key_events.rs",
+      "src/tui/handlers/empty.rs",
+      "src/tui/handlers/mod.rs"
+    ],
+    "summary": "Fix issue #663 in LargeModGames/spotatui: Local Files, Stats, Playlist Sync: Right from sidebar and h/j after Esc do nothing",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:29.148Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41EEQ",
+    "number": 664,
+    "title": "Settings: Esc on the unsaved prompt discards edits, Exit hint ignores Back",
+    "url": "https://github.com/LargeModGames/spotatui/issues/664",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:25Z",
+    "updatedAt": "2026-09-29T11:15:45Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test settings",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/tui/handlers/settings.rs",
+      "src/tui/ui/settings.rs",
+      "src/tui/handlers/mod.rs"
+    ],
+    "summary": "Fix issue #664 in LargeModGames/spotatui: Settings: Esc on the unsaved prompt discards edits, Exit hint ignores Back",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:28.370Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41HEw",
+    "number": 666,
+    "title": "Example config: uncommenting the theme block swallows the playbar labels",
+    "url": "https://github.com/LargeModGames/spotatui/issues/666",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:28Z",
+    "updatedAt": "2026-09-29T11:15:47Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test config.example",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "examples/config.example.yml",
+      "src/core/user_config.rs",
+      "src/core/app/route.rs"
+    ],
+    "summary": "Fix issue #666 in LargeModGames/spotatui: Example config: uncommenting the theme block swallows the playbar labels",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:26.741Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41IlQ",
+    "number": 667,
+    "title": "Installation docs describe an update popup spotatui no longer shows",
+    "url": "https://github.com/LargeModGames/spotatui/issues/667",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:30Z",
+    "updatedAt": "2026-09-29T11:15:49Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test cli",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/runtime/cli.rs",
+      "src/runtime/bootstrap.rs",
+      "src/runtime/gui.rs"
+    ],
+    "summary": "Fix issue #667 in LargeModGames/spotatui: Installation docs describe an update popup spotatui no longer shows",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:25.956Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41Kdw",
+    "number": 669,
+    "title": "CLI `--device` with an unknown device name is silently ignored",
+    "url": "https://github.com/LargeModGames/spotatui/issues/669",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:32Z",
+    "updatedAt": "2026-09-29T11:15:54Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test cli_app",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/cli/cli_app.rs",
+      "src/cli/handle.rs",
+      "src/runtime/cli.rs"
+    ],
+    "summary": "Fix issue #669 in LargeModGames/spotatui: CLI `--device` with an unknown device name is silently ignored",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:24.343Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41LVQ",
+    "number": 670,
+    "title": "Stats \"This Month\" and \"This Year\" follow the UTC calendar, not the local one",
+    "url": "https://github.com/LargeModGames/spotatui/issues/670",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:34Z",
+    "updatedAt": "2026-09-29T11:15:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test history",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/infra/history.rs",
+      "src/cli/history.rs",
+      "src/infra/network/mod.rs"
+    ],
+    "summary": "Fix issue #670 in LargeModGames/spotatui: Stats \"This Month\" and \"This Year\" follow the UTC calendar, not the local one",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:23.517Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41MXg",
+    "number": 671,
+    "title": "Listening recap shows \"Remastered 2011\" as the artist of the top track",
+    "url": "https://github.com/LargeModGames/spotatui/issues/671",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:35Z",
+    "updatedAt": "2026-09-29T11:15:55Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test history",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/infra/history.rs",
+      "src/tui/ui/stats.rs",
+      "src/infra/dj/brief.rs"
+    ],
+    "summary": "Fix issue #671 in LargeModGames/spotatui: Listening recap shows \"Remastered 2011\" as the artist of the top track",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:22.689Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41N9w",
+    "number": 672,
+    "title": "Ctrl+f results in a name-sorted playlist still put lowercase titles after Z",
+    "url": "https://github.com/LargeModGames/spotatui/issues/672",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:36Z",
+    "updatedAt": "2026-09-29T11:15:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test playlist_pages",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/core/app/playlist_pages.rs",
+      "src/core/sort.rs",
+      "src/core/app/library.rs"
+    ],
+    "summary": "Fix issue #672 in LargeModGames/spotatui: Ctrl+f results in a name-sorted playlist still put lowercase titles after Z",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:21.871Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41O7A",
+    "number": 673,
+    "title": "Synced lyrics: an [offset:] tag freezes the highlight, [ar:]/[ti:] add blank lines",
+    "url": "https://github.com/LargeModGames/spotatui/issues/673",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:38Z",
+    "updatedAt": "2026-09-29T11:15:56Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test utils",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/infra/network/utils.rs",
+      "src/core/app/lyrics.rs",
+      "src/tui/ui/lyrics.rs"
+    ],
+    "summary": "Fix issue #673 in LargeModGames/spotatui: Synced lyrics: an [offset:] tag freezes the highlight, [ar:]/[ti:] add blank lines",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:21.025Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41QEQ",
+    "number": 674,
+    "title": "Subsonic: the track number column always shows 0",
+    "url": "https://github.com/LargeModGames/spotatui/issues/674",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:39Z",
+    "updatedAt": "2026-09-29T11:15:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test types",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/infra/subsonic/types.rs",
+      "src/infra/subsonic/mod.rs",
+      "src/tui/ui/tables.rs"
+    ],
+    "summary": "Fix issue #674 in LargeModGames/spotatui: Subsonic: the track number column always shows 0",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:20.194Z"
+  },
+  {
+    "id": "I_kwDOMNwitc8AAAABT41onw",
+    "number": 4399,
+    "title": "[Bug]: HA snapshot recovery does not update applied sequence metric",
+    "url": "https://github.com/kvcache-ai/Mooncake/issues/4399",
+    "repo": "kvcache-ai/Mooncake",
+    "repoUrl": "https://github.com/kvcache-ai/Mooncake",
+    "stars": 6688,
+    "language": "C++",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:16:10Z",
+    "updatedAt": "2026-09-29T11:17:10Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #4399 in kvcache-ai/Mooncake: [Bug]: HA snapshot recovery does not update applied sequence metric",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:19.377Z"
+  },
+  {
+    "id": "I_kwDOAicVaM8AAAABT47T3Q",
+    "number": 224,
+    "title": "--output is a directory for flyway/laravel but --help calls it a file path, and a file path leaks a PHP warning",
+    "url": "https://github.com/DBDiff/DBDiff/issues/224",
+    "repo": "DBDiff/DBDiff",
+    "repoUrl": "https://github.com/DBDiff/DBDiff",
+    "stars": 746,
+    "language": "PHP",
+    "labels": [
+      "bug",
+      "good first issue",
+      "needs-info"
+    ],
+    "createdAt": "2026-09-29T11:23:48Z",
+    "updatedAt": "2026-09-29T11:24:01Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #224 in DBDiff/DBDiff: --output is a directory for flyway/laravel but --help calls it a file path, and a file path leaks a PHP warning",
+    "maintainerTurnaroundDays": 0.4,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-29T11:43:16.788Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTybe4A",
@@ -163,62 +516,6 @@
     "discoveredAt": "2026-09-29T03:03:12.410Z"
   },
   {
-    "id": "I_kwDOEBBBF88AAAABTyxcAQ",
-    "number": 207,
-    "title": "Bug in ZScorePostprocessor and RunningZScorePostprocessor: zero variance gives nan, which crashes the ensemblers",
-    "url": "https://github.com/selimfirat/pysad/issues/207",
-    "repo": "selimfirat/pysad",
-    "repoUrl": "https://github.com/selimfirat/pysad",
-    "stars": 294,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-29T00:42:25Z",
-    "updatedAt": "2026-09-29T00:42:25Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/transform/postprocessing/test_postprocessors.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/transform/postprocessing/test_postprocessors.py"
-    ],
-    "summary": "Fix issue #207 in selimfirat/pysad: Bug in ZScorePostprocessor and RunningZScorePostprocessor: zero variance gives nan, which crashes the ensemblers",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-29T03:03:09.398Z"
-  },
-  {
-    "id": "I_kwDOEBBBF88AAAABTyxciA",
-    "number": 208,
-    "title": "Bug in the score ensemblers: a list of scores raises AttributeError",
-    "url": "https://github.com/selimfirat/pysad/issues/208",
-    "repo": "selimfirat/pysad",
-    "repoUrl": "https://github.com/selimfirat/pysad",
-    "stars": 294,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-29T00:42:26Z",
-    "updatedAt": "2026-09-29T00:42:26Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/transform/ensemble/test_ensemblers.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/transform/ensemble/test_ensemblers.py"
-    ],
-    "summary": "Fix issue #208 in selimfirat/pysad: Bug in the score ensemblers: a list of scores raises AttributeError",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-29T03:03:08.769Z"
-  },
-  {
     "id": "I_kwDOPt_W1s8AAAABTy1jVw",
     "number": 1107,
     "title": "move specs to docs",
@@ -278,40 +575,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-29T03:03:06.895Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTy6VEw",
-    "number": 31234,
-    "title": "[good first issue] 🎌 Add new Dialect Entry 1018 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/31234",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3506,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-29T01:00:58Z",
-    "updatedAt": "2026-09-29T01:01:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japanese-regional-dialects.json"
-    ],
-    "summary": "Fix issue #31234 in lingdojo/kana-dojo: [good first issue] 🎌 Add new Dialect Entry 1018 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-29T03:03:05.182Z"
   },
   {
     "id": "I_kwDOCgXdUM8AAAABTzGltA",
@@ -407,35 +670,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-29T03:02:59.743Z"
-  },
-  {
-    "id": "I_kwDOJLUvb88AAAABTzdYzA",
-    "number": 4328,
-    "title": "Python SDK: expose delete_segments",
-    "url": "https://github.com/apache/iggy/issues/4328",
-    "repo": "apache/iggy",
-    "repoUrl": "https://github.com/apache/iggy",
-    "stars": 4963,
-    "language": "Rust",
-    "labels": [
-      "good first issue",
-      "python"
-    ],
-    "createdAt": "2026-09-29T02:11:04Z",
-    "updatedAt": "2026-09-29T02:11:04Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test segment_client",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "core/common/src/traits/segment_client.rs",
-      "foreign/python/src/client.rs"
-    ],
-    "summary": "Fix issue #4328 in apache/iggy: Python SDK: expose delete_segments",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "master",
-    "discoveredAt": "2026-09-29T03:02:58.115Z"
   },
   {
     "id": "I_kwDOJLUvb88AAAABTzfOFA",
@@ -684,130 +918,6 @@
     "discoveredAt": "2026-09-28T22:43:28.218Z"
   },
   {
-    "id": "I_kwDOABpTD88AAAABTxJfVQ",
-    "number": 8234,
-    "title": "Add language : Ternet",
-    "url": "https://github.com/github-linguist/linguist/issues/8234",
-    "repo": "github-linguist/linguist",
-    "repoUrl": "https://github.com/github-linguist/linguist",
-    "stars": 13709,
-    "language": "Ruby",
-    "labels": [
-      "Add Language",
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-28T21:36:24Z",
-    "updatedAt": "2026-09-28T21:41:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8234 in github-linguist/linguist: Add language : Ternet",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T22:43:25.282Z"
-  },
-  {
-    "id": "I_kwDOABpTD88AAAABTxJlMw",
-    "number": 8235,
-    "title": "Add language : Ternet",
-    "url": "https://github.com/github-linguist/linguist/issues/8235",
-    "repo": "github-linguist/linguist",
-    "repoUrl": "https://github.com/github-linguist/linguist",
-    "stars": 13709,
-    "language": "Ruby",
-    "labels": [
-      "Add Language",
-      "Good First Issue"
-    ],
-    "createdAt": "2026-09-28T21:36:31Z",
-    "updatedAt": "2026-09-28T21:41:42Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #8235 in github-linguist/linguist: Add language : Ternet",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T22:43:23.571Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTxW91A",
-    "number": 31226,
-    "title": "[good first issue] 🎌 Add new Theme: Sushi Counter (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/31226",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3505,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-28T21:57:33Z",
-    "updatedAt": "2026-09-28T21:57:36Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/community-themes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/community-themes.json"
-    ],
-    "summary": "Fix issue #31226 in lingdojo/kana-dojo: [good first issue] 🎌 Add new Theme: Sushi Counter (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T22:43:13.830Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTxY6bw",
-    "number": 31227,
-    "title": "[good first issue] 🌊 Add new Japan Fact 2989 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/31227",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3505,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-28T22:00:59Z",
-    "updatedAt": "2026-09-28T22:01:03Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/japan-facts.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/japan-facts.json"
-    ],
-    "summary": "Fix issue #31227 in lingdojo/kana-dojo: [good first issue] 🌊 Add new Japan Fact 2989 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T22:43:11.581Z"
-  },
-  {
     "id": "I_kwDOK6z7ic8AAAABTxovTw",
     "number": 810,
     "title": "Test link on API Services and Language Models broken",
@@ -834,97 +944,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-28T22:43:09.417Z"
-  },
-  {
-    "id": "I_kwDOMdP6aM8AAAABTxp_ZA",
-    "number": 1938,
-    "title": "Include `sunset_url` in the 410 export-only response body",
-    "url": "https://github.com/MODSetter/SurfSense/issues/1938",
-    "repo": "MODSetter/SurfSense",
-    "repoUrl": "https://github.com/MODSetter/SurfSense",
-    "stars": 16277,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "backend",
-      "hosted"
-    ],
-    "createdAt": "2026-09-28T22:28:57Z",
-    "updatedAt": "2026-09-28T22:28:57Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest surfsense_backend/app/sunset.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "surfsense_backend/app/sunset.py",
-      "surfsense_backend/tests/unit/test_sunset_write_block.py"
-    ],
-    "summary": "Fix issue #1938 in MODSetter/SurfSense: Include `sunset_url` in the 410 export-only response body",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T22:43:08.028Z"
-  },
-  {
-    "id": "I_kwDOMdP6aM8AAAABTxqHNA",
-    "number": 1940,
-    "title": "About's Report an issue opens the bare GitHub form, without the session log",
-    "url": "https://github.com/MODSetter/SurfSense/issues/1940",
-    "repo": "MODSetter/SurfSense",
-    "repoUrl": "https://github.com/MODSetter/SurfSense",
-    "stars": 16277,
-    "language": "Python",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "frontend",
-      "desktop"
-    ],
-    "createdAt": "2026-09-28T22:29:10Z",
-    "updatedAt": "2026-09-28T22:29:10Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest surfsense_local/frontend/src/features/about/about-settings.test.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "surfsense_local/frontend/src/features/about/about-settings.tsx",
-      "surfsense_local/frontend/src/features/feedback/issue-report-state.ts",
-      "surfsense_local/frontend/src/features/dashboard/dashboard-page.tsx"
-    ],
-    "summary": "Fix issue #1940 in MODSetter/SurfSense: About's Report an issue opens the bare GitHub form, without the session log",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T22:42:52.733Z"
-  },
-  {
-    "id": "I_kwDOAHXAE88AAAABTxq1Gw",
-    "number": 22163,
-    "title": "IDE Lint: limit test names",
-    "url": "https://github.com/ankidroid/Anki-Android/issues/22163",
-    "repo": "ankidroid/Anki-Android",
-    "repoUrl": "https://github.com/ankidroid/Anki-Android",
-    "stars": 11874,
-    "language": "Kotlin",
-    "labels": [
-      "Good First Issue",
-      "Lint"
-    ],
-    "createdAt": "2026-09-28T22:30:23Z",
-    "updatedAt": "2026-09-28T22:31:19Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": null,
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/index"
-    ],
-    "summary": "Fix issue #22163 in ankidroid/Anki-Android: IDE Lint: limit test names",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T22:42:44.987Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTlQjyg",
@@ -1811,39 +1830,6 @@
     "discoveredAt": "2026-09-27T15:56:31.501Z"
   },
   {
-    "id": "I_kwDOS3TU6c8AAAABTfsyHA",
-    "number": 1154,
-    "title": "[agent] A skill lists docs pages as bare relative names, and agents compose `tools/predicates.md`, which 404s",
-    "url": "https://github.com/reticlehq/reticle/issues/1154",
-    "repo": "reticlehq/reticle",
-    "repoUrl": "https://github.com/reticlehq/reticle",
-    "stars": 900,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "help wanted",
-      "agent-reported",
-      "area/docs",
-      "P2",
-      "hacktoberfest"
-    ],
-    "createdAt": "2026-09-27T14:05:29Z",
-    "updatedAt": "2026-09-27T14:05:29Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test docs/docs.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "docs/docs.json"
-    ],
-    "summary": "Fix issue #1154 in reticlehq/reticle: [agent] A skill lists docs pages as bare relative names, and agents compose `tools/predicates.md`, which 404s",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T15:56:29.104Z"
-  },
-  {
     "id": "I_kwDOS3TU6c8AAAABTfszhg",
     "number": 1155,
     "title": "[agent] `verify --help` and the `--expect` refusal should point at the HTTP transport for anything that needs an action",
@@ -1910,34 +1896,6 @@
     "discoveredAt": "2026-09-27T15:56:13.673Z"
   },
   {
-    "id": "I_kwDORuSRRM8AAAABTgKcnw",
-    "number": 2623,
-    "title": "A Codex rg search that finds a file at the repository root binds nothing, because the result must contain a slash",
-    "url": "https://github.com/repowise-dev/repowise/issues/2623",
-    "repo": "repowise-dev/repowise",
-    "repoUrl": "https://github.com/repowise-dev/repowise",
-    "stars": 7058,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-27T15:11:53Z",
-    "updatedAt": "2026-09-27T15:11:53Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest tests/unit/sessions/test_codex_adapter.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "tests/unit/sessions/test_codex_adapter.py"
-    ],
-    "summary": "Fix issue #2623 in repowise-dev/repowise: A Codex rg search that finds a file at the repository root binds nothing, because the result must contain a slash",
-    "maintainerTurnaroundDays": 0.8,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T15:56:11.639Z"
-  },
-  {
     "id": "I_kwDORuSRRM8AAAABTgKeYQ",
     "number": 2625,
     "title": "An execution flow that ends at a symbol with only a references or type_use edge is reported as confidence_filtered instead of no_callees",
@@ -1964,35 +1922,6 @@
     "maintainerTurnaroundDays": 0.8,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-27T15:56:05.328Z"
-  },
-  {
-    "id": "I_kwDORuSRRM8AAAABTgKfTg",
-    "number": 2626,
-    "title": "Inside a community outside the 20 largest, the graph's Showing control reads All files",
-    "url": "https://github.com/repowise-dev/repowise/issues/2626",
-    "repo": "repowise-dev/repowise",
-    "repoUrl": "https://github.com/repowise-dev/repowise",
-    "stars": 7058,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-27T15:11:59Z",
-    "updatedAt": "2026-09-27T15:38:02Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest packages/server/src/repowise/server/routers/graph/community.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/server/src/repowise/server/routers/graph/community.py",
-      "packages/web/src/components/architecture/graph-view.tsx"
-    ],
-    "summary": "Fix issue #2626 in repowise-dev/repowise: Inside a community outside the 20 largest, the graph's Showing control reads All files",
-    "maintainerTurnaroundDays": 0.8,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-27T15:56:02.002Z"
   },
   {
     "id": "I_kwDOFGRWMM8AAAABTgd3Vw",
@@ -2421,36 +2350,6 @@
     "maintainerTurnaroundDays": 0.1,
     "defaultBranch": "trunk",
     "discoveredAt": "2026-09-27T02:14:19.908Z"
-  },
-  {
-    "id": "I_kwDOQS9jlc8AAAABTZtiAA",
-    "number": 607,
-    "title": "AI DJ docs omit the copilot and opencode agent presets",
-    "url": "https://github.com/LargeModGames/spotatui/issues/607",
-    "repo": "LargeModGames/spotatui",
-    "repoUrl": "https://github.com/LargeModGames/spotatui",
-    "stars": 1389,
-    "language": "Rust",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ],
-    "createdAt": "2026-09-26T20:15:17Z",
-    "updatedAt": "2026-09-26T20:15:17Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "cargo test --test agent_cli",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "src/infra/dj/brain/agent_cli.rs",
-      "src/infra/dj/session.rs",
-      "src/infra/dj/setup.rs"
-    ],
-    "summary": "Fix issue #607 in LargeModGames/spotatui: AI DJ docs omit the copilot and opencode agent presets",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T20:17:53.578Z"
   },
   {
     "id": "I_kwDOO_fYBc8AAAABTXQ5Xg",
@@ -2994,36 +2893,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "dev",
     "discoveredAt": "2026-09-26T10:27:19.182Z"
-  },
-  {
-    "id": "I_kwDOPRCe6c8AAAABTSDRRQ",
-    "number": 2373,
-    "title": "[Integrations/py+ts] OpenAI — check against latest release, update if stale",
-    "url": "https://github.com/traceroot-ai/traceroot/issues/2373",
-    "repo": "traceroot-ai/traceroot",
-    "repoUrl": "https://github.com/traceroot-ai/traceroot",
-    "stars": 781,
-    "language": "TypeScript",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "help wanted",
-      "needs approval"
-    ],
-    "createdAt": "2026-09-25T21:52:12Z",
-    "updatedAt": "2026-09-25T22:08:44Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test frontend/packages/core/src/standard-model-prices.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "frontend/packages/core/src/standard-model-prices.json"
-    ],
-    "summary": "Fix issue #2373 in traceroot-ai/traceroot: [Integrations/py+ts] OpenAI — check against latest release, update if stale",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-26T02:19:20.773Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTPtVNw",
@@ -4762,5 +4631,64 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-23T15:42:49.480Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41F1A",
+    "number": 665,
+    "title": "Reserved-key error reads \"The key Char('H') is reserved\", and no doc lists them",
+    "url": "https://github.com/LargeModGames/spotatui/issues/665",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:26Z",
+    "updatedAt": "2026-09-29T11:15:42Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test user_config",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "src/core/user_config.rs",
+      "src/tui/handlers/settings.rs"
+    ],
+    "summary": "Fix issue #665 in LargeModGames/spotatui: Reserved-key error reads \"The key Char('H') is reserved\", and no doc lists them",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:27.578Z"
+  },
+  {
+    "id": "I_kwDOQS9jlc8AAAABT41Jfg",
+    "number": 668,
+    "title": "docs/configuration.md has no Local Files, Subsonic or YouTube sections",
+    "url": "https://github.com/LargeModGames/spotatui/issues/668",
+    "repo": "LargeModGames/spotatui",
+    "repoUrl": "https://github.com/LargeModGames/spotatui",
+    "stars": 1395,
+    "language": "Rust",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T11:15:31Z",
+    "updatedAt": "2026-09-29T11:15:51Z",
+    "blastRadius": "High",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test user_config",
+    "solvabilityScore": 4,
+    "keyFiles": [
+      "src/core/user_config.rs",
+      "src/infra/subsonic/dispatch.rs",
+      "src/core/first_run.rs"
+    ],
+    "summary": "Fix issue #668 in LargeModGames/spotatui: docs/configuration.md has no Local Files, Subsonic or YouTube sections",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T11:43:25.171Z"
   }
 ]

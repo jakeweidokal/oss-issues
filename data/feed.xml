@@ -5,31 +5,8 @@
     <link>https://jakeweidokal.github.io/oss-issues/</link>
     <description>Curated open-source issues scored for low blast radius, minimal setup friction, and active maintainer turnaround.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2026 03:03:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 11:43:29 GMT</lastBuildDate>
     <atom:link href="https://jakeweidokal.github.io/oss-issues/data/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>[reticlehq/reticle] #1156 [agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so (Solvability: 8/10)</title>
-      <link>https://github.com/reticlehq/reticle/issues/1156</link>
-      <guid isPermaLink="true">https://github.com/reticlehq/reticle/issues/1156</guid>
-      <pubDate>Sun, 27 Sep 2026 14:05:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/reticlehq/reticle">reticlehq/reticle</a> (900 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 8/10 | <strong>Blast Radius:</strong> Low | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1156 in reticlehq/reticle: [agent] `reticle_clock` cannot advance timers the page scheduled before `freeze`, and the docs do not say so</p>
-<p><strong>Blast Radius Analysis:</strong> Changes appear localized to a single module with existing unit tests.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test adapters/realm/browser/src/timers/clock.test.ts</code></p>
-<p><a href="https://github.com/reticlehq/reticle/issues/1156">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-low</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>help wanted</category>
-      <category>agent-reported</category>
-      <category>area/browser</category>
-      <category>area/docs</category>
-      <category>P2</category>
-      <category>hacktoberfest</category>
-    </item>
     <item>
       <title>[LAA-Software-Engineering/golang-rest-api-template] #253 Bug: Postgres DSN built without URL-encoding breaks on special characters in credentials (Solvability: 8/10)</title>
       <link>https://github.com/LAA-Software-Engineering/golang-rest-api-template/issues/253</link>
@@ -47,6 +24,228 @@
       <category>bug</category>
       <category>help wanted</category>
       <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #662 Search cursor lands outside the search box with playbar top or sidebar right (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/662</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/662</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:22 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #662 in LargeModGames/spotatui: Search cursor lands outside the search box with playbar top or sidebar right</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test runner</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/662">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #663 Local Files, Stats, Playlist Sync: Right from sidebar and h/j after Esc do nothing (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/663</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/663</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:23 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #663 in LargeModGames/spotatui: Local Files, Stats, Playlist Sync: Right from sidebar and h/j after Esc do nothing</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test common_key_events</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/663">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #664 Settings: Esc on the unsaved prompt discards edits, Exit hint ignores Back (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/664</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/664</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:25 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #664 in LargeModGames/spotatui: Settings: Esc on the unsaved prompt discards edits, Exit hint ignores Back</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test settings</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/664">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #666 Example config: uncommenting the theme block swallows the playbar labels (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/666</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/666</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:28 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #666 in LargeModGames/spotatui: Example config: uncommenting the theme block swallows the playbar labels</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test config.example</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/666">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #667 Installation docs describe an update popup spotatui no longer shows (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/667</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/667</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #667 in LargeModGames/spotatui: Installation docs describe an update popup spotatui no longer shows</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test cli</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/667">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>documentation</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #669 CLI `--device` with an unknown device name is silently ignored (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/669</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/669</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #669 in LargeModGames/spotatui: CLI `--device` with an unknown device name is silently ignored</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test cli_app</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/669">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #670 Stats "This Month" and "This Year" follow the UTC calendar, not the local one (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/670</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/670</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #670 in LargeModGames/spotatui: Stats "This Month" and "This Year" follow the UTC calendar, not the local one</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test history</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/670">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #671 Listening recap shows "Remastered 2011" as the artist of the top track (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/671</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/671</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:35 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #671 in LargeModGames/spotatui: Listening recap shows "Remastered 2011" as the artist of the top track</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test history</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/671">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #672 Ctrl+f results in a name-sorted playlist still put lowercase titles after Z (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/672</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/672</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #672 in LargeModGames/spotatui: Ctrl+f results in a name-sorted playlist still put lowercase titles after Z</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test playlist_pages</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/672">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #673 Synced lyrics: an [offset:] tag freezes the highlight, [ar:]/[ti:] add blank lines (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/673</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/673</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #673 in LargeModGames/spotatui: Synced lyrics: an [offset:] tag freezes the highlight, [ar:]/[ti:] add blank lines</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test utils</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/673">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[LargeModGames/spotatui] #674 Subsonic: the track number column always shows 0 (Solvability: 6/10)</title>
+      <link>https://github.com/LargeModGames/spotatui/issues/674</link>
+      <guid isPermaLink="true">https://github.com/LargeModGames/spotatui/issues/674</guid>
+      <pubDate>Tue, 29 Sep 2026 11:15:39 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/LargeModGames/spotatui">LargeModGames/spotatui</a> (1395 ⭐, Rust)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #674 in LargeModGames/spotatui: Subsonic: the track number column always shows 0</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+<p><strong>Repro Command:</strong> <code>cargo test --test types</code></p>
+<p><a href="https://github.com/LargeModGames/spotatui/issues/674">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>Rust</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[kvcache-ai/Mooncake] #4399 [Bug]: HA snapshot recovery does not update applied sequence metric (Solvability: 6/10)</title>
+      <link>https://github.com/kvcache-ai/Mooncake/issues/4399</link>
+      <guid isPermaLink="true">https://github.com/kvcache-ai/Mooncake/issues/4399</guid>
+      <pubDate>Tue, 29 Sep 2026 11:16:10 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/kvcache-ai/Mooncake">kvcache-ai/Mooncake</a> (6688 ⭐, C++)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #4399 in kvcache-ai/Mooncake: [Bug]: HA snapshot recovery does not update applied sequence metric</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/kvcache-ai/Mooncake/issues/4399">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>C++</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+    </item>
+    <item>
+      <title>[DBDiff/DBDiff] #224 --output is a directory for flyway/laravel but --help calls it a file path, and a file path leaks a PHP warning (Solvability: 6/10)</title>
+      <link>https://github.com/DBDiff/DBDiff/issues/224</link>
+      <guid isPermaLink="true">https://github.com/DBDiff/DBDiff/issues/224</guid>
+      <pubDate>Tue, 29 Sep 2026 11:23:48 GMT</pubDate>
+      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DBDiff/DBDiff">DBDiff/DBDiff</a> (746 ⭐, PHP)</p>
+<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
+<p><strong>Summary:</strong> Fix issue #224 in DBDiff/DBDiff: --output is a directory for flyway/laravel but --help calls it a file path, and a file path leaks a PHP warning</p>
+<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
+
+<p><a href="https://github.com/DBDiff/DBDiff/issues/224">View and Claim Issue on GitHub →</a></p>]]></description>
+      <category>PHP</category>
+      <category>blast-radius-medium</category>
+      <category>friction-standard</category>
+      <category>bug</category>
+      <category>good first issue</category>
+      <category>needs-info</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #31230 [good first issue] 🍚 Add new Grammar Point 173 (good-first-issue) (Solvability: 6/10)</title>
@@ -114,40 +313,6 @@
       <category>hacktoberfest</category>
     </item>
     <item>
-      <title>[selimfirat/pysad] #207 Bug in ZScorePostprocessor and RunningZScorePostprocessor: zero variance gives nan, which crashes the ensemblers (Solvability: 6/10)</title>
-      <link>https://github.com/selimfirat/pysad/issues/207</link>
-      <guid isPermaLink="true">https://github.com/selimfirat/pysad/issues/207</guid>
-      <pubDate>Tue, 29 Sep 2026 00:42:25 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/selimfirat/pysad">selimfirat/pysad</a> (294 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #207 in selimfirat/pysad: Bug in ZScorePostprocessor and RunningZScorePostprocessor: zero variance gives nan, which crashes the ensemblers</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/transform/postprocessing/test_postprocessors.py</code></p>
-<p><a href="https://github.com/selimfirat/pysad/issues/207">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
-      <title>[selimfirat/pysad] #208 Bug in the score ensemblers: a list of scores raises AttributeError (Solvability: 6/10)</title>
-      <link>https://github.com/selimfirat/pysad/issues/208</link>
-      <guid isPermaLink="true">https://github.com/selimfirat/pysad/issues/208</guid>
-      <pubDate>Tue, 29 Sep 2026 00:42:26 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/selimfirat/pysad">selimfirat/pysad</a> (294 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #208 in selimfirat/pysad: Bug in the score ensemblers: a list of scores raises AttributeError</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/transform/ensemble/test_ensemblers.py</code></p>
-<p><a href="https://github.com/selimfirat/pysad/issues/208">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>bug</category>
-      <category>good first issue</category>
-    </item>
-    <item>
       <title>[F3-Nation/f3-nation] #1107 move specs to docs (Solvability: 6/10)</title>
       <link>https://github.com/F3-Nation/f3-nation/issues/1107</link>
       <guid isPermaLink="true">https://github.com/F3-Nation/f3-nation/issues/1107</guid>
@@ -174,29 +339,6 @@
 <p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
 <p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-idioms.json</code></p>
 <p><a href="https://github.com/lingdojo/kana-dojo/issues/31233">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #31234 [good first issue] 🎌 Add new Dialect Entry 1018 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/31234</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31234</guid>
-      <pubDate>Tue, 29 Sep 2026 01:00:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3506 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #31234 in lingdojo/kana-dojo: [good first issue] 🎌 Add new Dialect Entry 1018 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japanese-regional-dialects.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/31234">View and Claim Issue on GitHub →</a></p>]]></description>
       <category>TypeScript</category>
       <category>blast-radius-medium</category>
       <category>friction-standard</category>
@@ -270,23 +412,6 @@
       <category>up-for-grabs</category>
       <category>first-timers-only</category>
       <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[apache/iggy] #4328 Python SDK: expose delete_segments (Solvability: 6/10)</title>
-      <link>https://github.com/apache/iggy/issues/4328</link>
-      <guid isPermaLink="true">https://github.com/apache/iggy/issues/4328</guid>
-      <pubDate>Tue, 29 Sep 2026 02:11:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/apache/iggy">apache/iggy</a> (4963 ⭐, Rust)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #4328 in apache/iggy: Python SDK: expose delete_segments</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>cargo test --test segment_client</code></p>
-<p><a href="https://github.com/apache/iggy/issues/4328">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Rust</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>good first issue</category>
-      <category>python</category>
     </item>
     <item>
       <title>[apache/iggy] #4329 Java SDK: add purgeStream and purgeTopic (Solvability: 6/10)</title>
@@ -447,86 +572,6 @@
       <category>good first issue</category>
     </item>
     <item>
-      <title>[github-linguist/linguist] #8234 Add language : Ternet (Solvability: 6/10)</title>
-      <link>https://github.com/github-linguist/linguist/issues/8234</link>
-      <guid isPermaLink="true">https://github.com/github-linguist/linguist/issues/8234</guid>
-      <pubDate>Mon, 28 Sep 2026 21:36:24 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/github-linguist/linguist">github-linguist/linguist</a> (13709 ⭐, Ruby)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8234 in github-linguist/linguist: Add language : Ternet</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/github-linguist/linguist/issues/8234">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Ruby</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Add Language</category>
-      <category>Good First Issue</category>
-    </item>
-    <item>
-      <title>[github-linguist/linguist] #8235 Add language : Ternet (Solvability: 6/10)</title>
-      <link>https://github.com/github-linguist/linguist/issues/8235</link>
-      <guid isPermaLink="true">https://github.com/github-linguist/linguist/issues/8235</guid>
-      <pubDate>Mon, 28 Sep 2026 21:36:31 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/github-linguist/linguist">github-linguist/linguist</a> (13709 ⭐, Ruby)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #8235 in github-linguist/linguist: Add language : Ternet</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/github-linguist/linguist/issues/8235">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Ruby</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Add Language</category>
-      <category>Good First Issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #31226 [good first issue] 🎌 Add new Theme: Sushi Counter (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/31226</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31226</guid>
-      <pubDate>Mon, 28 Sep 2026 21:57:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3505 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #31226 in lingdojo/kana-dojo: [good first issue] 🎌 Add new Theme: Sushi Counter (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/community-themes.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/31226">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
-      <title>[lingdojo/kana-dojo] #31227 [good first issue] 🌊 Add new Japan Fact 2989 (good-first-issue) (Solvability: 6/10)</title>
-      <link>https://github.com/lingdojo/kana-dojo/issues/31227</link>
-      <guid isPermaLink="true">https://github.com/lingdojo/kana-dojo/issues/31227</guid>
-      <pubDate>Mon, 28 Sep 2026 22:00:59 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a> (3505 ⭐, TypeScript)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #31227 in lingdojo/kana-dojo: [good first issue] 🌊 Add new Japan Fact 2989 (good-first-issue)</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pnpm test community/content/japan-facts.json</code></p>
-<p><a href="https://github.com/lingdojo/kana-dojo/issues/31227">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>TypeScript</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>hacktoberfest</category>
-      <category>community</category>
-      <category>low hanging fruit</category>
-      <category>up-for-grabs</category>
-      <category>first-timers-only</category>
-      <category>good-first-issue</category>
-    </item>
-    <item>
       <title>[AllYourBot/hostedgpt] #810 Test link on API Services and Language Models broken (Solvability: 6/10)</title>
       <link>https://github.com/AllYourBot/hostedgpt/issues/810</link>
       <guid isPermaLink="true">https://github.com/AllYourBot/hostedgpt/issues/810</guid>
@@ -542,61 +587,6 @@
       <category>friction-standard</category>
       <category>bug</category>
       <category>good first issue</category>
-    </item>
-    <item>
-      <title>[MODSetter/SurfSense] #1938 Include `sunset_url` in the 410 export-only response body (Solvability: 6/10)</title>
-      <link>https://github.com/MODSetter/SurfSense/issues/1938</link>
-      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1938</guid>
-      <pubDate>Mon, 28 Sep 2026 22:28:57 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16277 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1938 in MODSetter/SurfSense: Include `sunset_url` in the 410 export-only response body</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest surfsense_backend/app/sunset.py</code></p>
-<p><a href="https://github.com/MODSetter/SurfSense/issues/1938">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>backend</category>
-      <category>hosted</category>
-    </item>
-    <item>
-      <title>[MODSetter/SurfSense] #1940 About's Report an issue opens the bare GitHub form, without the session log (Solvability: 6/10)</title>
-      <link>https://github.com/MODSetter/SurfSense/issues/1940</link>
-      <guid isPermaLink="true">https://github.com/MODSetter/SurfSense/issues/1940</guid>
-      <pubDate>Mon, 28 Sep 2026 22:29:10 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/MODSetter/SurfSense">MODSetter/SurfSense</a> (16277 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #1940 in MODSetter/SurfSense: About's Report an issue opens the bare GitHub form, without the session log</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest surfsense_local/frontend/src/features/about/about-settings.test.tsx</code></p>
-<p><a href="https://github.com/MODSetter/SurfSense/issues/1940">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>help wanted</category>
-      <category>good first issue</category>
-      <category>frontend</category>
-      <category>desktop</category>
-    </item>
-    <item>
-      <title>[ankidroid/Anki-Android] #22163 IDE Lint: limit test names (Solvability: 6/10)</title>
-      <link>https://github.com/ankidroid/Anki-Android/issues/22163</link>
-      <guid isPermaLink="true">https://github.com/ankidroid/Anki-Android/issues/22163</guid>
-      <pubDate>Mon, 28 Sep 2026 22:30:23 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/ankidroid/Anki-Android">ankidroid/Anki-Android</a> (11874 ⭐, Kotlin)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #22163 in ankidroid/Anki-Android: IDE Lint: limit test names</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-
-<p><a href="https://github.com/ankidroid/Anki-Android/issues/22163">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Kotlin</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>Good First Issue</category>
-      <category>Lint</category>
     </item>
     <item>
       <title>[lingdojo/kana-dojo] #31156 [good first issue] 🎋 Add new Japanese Proverb 1474 (good-first-issue) (Solvability: 6/10)</title>
@@ -1014,24 +1004,6 @@
       <category>enhancement</category>
       <category>good first issue</category>
       <category>level-3</category>
-    </item>
-    <item>
-      <title>[DobermanCore/Doberman-Core] #721 docs: CLI.md is missing plugins and policy-file, and nothing keeps it complete (Solvability: 6/10)</title>
-      <link>https://github.com/DobermanCore/Doberman-Core/issues/721</link>
-      <guid isPermaLink="true">https://github.com/DobermanCore/Doberman-Core/issues/721</guid>
-      <pubDate>Sun, 27 Sep 2026 17:46:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>Repository:</strong> <a href="https://github.com/DobermanCore/Doberman-Core">DobermanCore/Doberman-Core</a> (277 ⭐, Python)</p>
-<p><strong>Solvability Score:</strong> 6/10 | <strong>Blast Radius:</strong> Medium | <strong>Setup Friction:</strong> Standard</p>
-<p><strong>Summary:</strong> Fix issue #721 in DobermanCore/Doberman-Core: docs: CLI.md is missing plugins and policy-file, and nothing keeps it complete</p>
-<p><strong>Blast Radius Analysis:</strong> Requires modifying standard application logic across several files.</p>
-<p><strong>Repro Command:</strong> <code>pytest tests/unit/test_cli_help.py</code></p>
-<p><a href="https://github.com/DobermanCore/Doberman-Core/issues/721">View and Claim Issue on GitHub →</a></p>]]></description>
-      <category>Python</category>
-      <category>blast-radius-medium</category>
-      <category>friction-standard</category>
-      <category>documentation</category>
-      <category>good first issue</category>
-      <category>level-2</category>
     </item>
   </channel>
 </rss>
