@@ -14329,7 +14329,8 @@
     "repo": "liquidmetal-dev/flintlock",
     "title": "Lint the e2e code in CI",
     "discoveredAt": "2026-09-27T15:56:13.673Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDODf3ZCM8AAAABTf21tg": {
     "id": "I_kwDODf3ZCM8AAAABTf21tg",
@@ -14355,7 +14356,8 @@
     "repo": "reticlehq/reticle",
     "title": "[agent] `verify --help` and the `--expect` refusal should point at the HTTP transport for anything that needs an action",
     "discoveredAt": "2026-09-27T15:56:26.758Z",
-    "status": "published"
+    "status": "claimed",
+    "reason": "Removed during reconciliation (claimed)"
   },
   "I_kwDOS3TU6c8AAAABTfsyHA": {
     "id": "I_kwDOS3TU6c8AAAABTfsyHA",
@@ -14898,7 +14900,8 @@
     "repo": "zeek/zeek",
     "title": "modbus: Requests get logged even if request body triggers violation",
     "discoveredAt": "2026-09-28T22:43:40.428Z",
-    "status": "published"
+    "status": "closed",
+    "reason": "Removed during reconciliation (closed)"
   },
   "I_kwDOOwsln88AAAABTz1_yg": {
     "id": "I_kwDOOwsln88AAAABTz1_yg",
@@ -15038,7 +15041,8 @@
     "repo": "kvcache-ai/Mooncake",
     "title": "[Bug]: HA snapshot recovery does not update applied sequence metric",
     "discoveredAt": "2026-09-29T11:43:19.377Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABT41QEQ": {
     "id": "I_kwDOQS9jlc8AAAABT41QEQ",
@@ -15110,7 +15114,8 @@
     "repo": "LargeModGames/spotatui",
     "title": "Example config: uncommenting the theme block swallows the playbar labels",
     "discoveredAt": "2026-09-29T11:43:26.741Z",
-    "status": "published"
+    "status": "pr_opened",
+    "reason": "Removed during reconciliation (pr_opened)"
   },
   "I_kwDOQS9jlc8AAAABT41F1A": {
     "id": "I_kwDOQS9jlc8AAAABT41F1A",
@@ -15142,6 +15147,126 @@
     "repo": "LargeModGames/spotatui",
     "title": "Search cursor lands outside the search box with playbar top or sidebar right",
     "discoveredAt": "2026-09-29T11:43:29.955Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABT9HkWg": {
+    "id": "I_kwDOOwsln88AAAABT9HkWg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31282",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍱 Add new Anime Quote 892 (good-first-issue)",
+    "discoveredAt": "2026-09-29T17:10:19.962Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABT9FGYg": {
+    "id": "I_kwDOOwsln88AAAABT9FGYg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31281",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍶 Add new Grammar Point 1355 (good-first-issue)",
+    "discoveredAt": "2026-09-29T17:10:21.411Z",
+    "status": "published"
+  },
+  "I_kwDORDHQWM8AAAABT8vkrg": {
+    "id": "I_kwDORDHQWM8AAAABT8vkrg",
+    "url": "https://github.com/manaflow-ai/cmux/issues/15653",
+    "repo": "manaflow-ai/cmux",
+    "title": "Agents: Codex auto-naming drops user messages that start with \"<\" and contain \">\"",
+    "discoveredAt": "2026-09-29T17:10:35.152Z",
+    "status": "published"
+  },
+  "I_kwDORDHQWM8AAAABT8s__g": {
+    "id": "I_kwDORDHQWM8AAAABT8s__g",
+    "url": "https://github.com/manaflow-ai/cmux/issues/15649",
+    "repo": "manaflow-ai/cmux",
+    "title": "Workspaces: truncated scrollback replay can start inside an OSC sequence and print raw escape payload",
+    "discoveredAt": "2026-09-29T17:10:49.107Z",
+    "status": "published"
+  },
+  "I_kwDORDHQWM8AAAABT8svag": {
+    "id": "I_kwDORDHQWM8AAAABT8svag",
+    "url": "https://github.com/manaflow-ai/cmux/issues/15648",
+    "repo": "manaflow-ai/cmux",
+    "title": "CLI: send-key and send-key-panel silently ignore extra arguments after the first key",
+    "discoveredAt": "2026-09-29T17:11:03.777Z",
+    "status": "published"
+  },
+  "I_kwDORDHQWM8AAAABT8srtQ": {
+    "id": "I_kwDORDHQWM8AAAABT8srtQ",
+    "url": "https://github.com/manaflow-ai/cmux/issues/15647",
+    "repo": "manaflow-ai/cmux",
+    "title": "Workspaces: session restore leaves scrollback replay files in the temp directory when the shell never reads them",
+    "discoveredAt": "2026-09-29T17:11:18.521Z",
+    "status": "published"
+  },
+  "I_kwDORDHQWM8AAAABT8sl1Q": {
+    "id": "I_kwDORDHQWM8AAAABT8sl1Q",
+    "url": "https://github.com/manaflow-ai/cmux/issues/15646",
+    "repo": "manaflow-ai/cmux",
+    "title": "CLI: `cmux capabilities` omits socket methods the app dispatches and the CLI calls (browser.profiles.*, workspace.todo.*, workspace.status.*, workspace.move, ...)",
+    "discoveredAt": "2026-09-29T17:11:32.079Z",
+    "status": "published"
+  },
+  "I_kwDORFxJdM8AAAABT8nbbg": {
+    "id": "I_kwDORFxJdM8AAAABT8nbbg",
+    "url": "https://github.com/Karib0u/rustinel/issues/665",
+    "repo": "Karib0u/rustinel",
+    "title": "chore(lint): document every unsafe block and enable undocumented_unsafe_blocks",
+    "discoveredAt": "2026-09-29T17:11:33.394Z",
+    "status": "published"
+  },
+  "I_kwDORFxJdM8AAAABT8nZVA": {
+    "id": "I_kwDORFxJdM8AAAABT8nZVA",
+    "url": "https://github.com/Karib0u/rustinel/issues/664",
+    "repo": "Karib0u/rustinel",
+    "title": "chore(sensor): finish the RawEvent rename and remove the compatibility aliases",
+    "discoveredAt": "2026-09-29T17:11:34.638Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABT8alOg": {
+    "id": "I_kwDOOwsln88AAAABT8alOg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31279",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🎑 Add new Japan Fact 1147 (good-first-issue)",
+    "discoveredAt": "2026-09-29T17:11:36.022Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABT8YVIg": {
+    "id": "I_kwDOOwsln88AAAABT8YVIg",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31278",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍵 Add new Theme: Gingko Gold (good-first-issue)",
+    "discoveredAt": "2026-09-29T17:11:37.416Z",
+    "status": "published"
+  },
+  "I_kwDOI97VHM8AAAABT8AMsQ": {
+    "id": "I_kwDOI97VHM8AAAABT8AMsQ",
+    "url": "https://github.com/Polprzewodnikowy/N64FlashcartMenu/issues/432",
+    "repo": "Polprzewodnikowy/N64FlashcartMenu",
+    "title": "The DFS filesystem is currently flat",
+    "discoveredAt": "2026-09-29T17:11:38.187Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABT7mQ7Q": {
+    "id": "I_kwDOOwsln88AAAABT7mQ7Q",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31275",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🎍 Add new Etiquette Tip 1079 (good-first-issue)",
+    "discoveredAt": "2026-09-29T17:11:39.600Z",
+    "status": "published"
+  },
+  "I_kwDOOwsln88AAAABT62JKA": {
+    "id": "I_kwDOOwsln88AAAABT62JKA",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31273",
+    "repo": "lingdojo/kana-dojo",
+    "title": "[good first issue] 🍚 Add new Japanese Idiom 256 (good-first-issue)",
+    "discoveredAt": "2026-09-29T17:11:41.031Z",
+    "status": "published"
+  },
+  "I_kwDOTq3nqM8AAAABT6zwmA": {
+    "id": "I_kwDOTq3nqM8AAAABT6zwmA",
+    "url": "https://github.com/juspay/xyne-spaces/issues/2452",
+    "repo": "juspay/xyne-spaces",
+    "title": "`Failed to upload file to GCS: File buffer is empty or invalid` logged about 5.4k times a day",
+    "discoveredAt": "2026-09-29T17:11:46.026Z",
     "status": "published"
   }
 }
