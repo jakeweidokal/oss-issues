@@ -63,6 +63,477 @@
     "discoveredAt": "2026-09-22T10:29:17.117Z"
   },
   {
+    "id": "I_kwDOOwsln88AAAABTybe4A",
+    "number": 31230,
+    "title": "[good first issue] 🍚 Add new Grammar Point 173 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31230",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3506,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-28T23:57:38Z",
+    "updatedAt": "2026-09-28T23:57:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-grammar.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-grammar.json"
+    ],
+    "summary": "Fix issue #31230 in lingdojo/kana-dojo: [good first issue] 🍚 Add new Grammar Point 173 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:03:16.032Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTydDxg",
+    "number": 31231,
+    "title": "[good first issue] 🎏 Add new Anime Quote 844 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31231",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3506,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-29T00:00:56Z",
+    "updatedAt": "2026-09-29T00:00:59Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/anime-quotes.json"
+    ],
+    "summary": "Fix issue #31231 in lingdojo/kana-dojo: [good first issue] 🎏 Add new Anime Quote 844 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:03:14.148Z"
+  },
+  {
+    "id": "I_kwDOQuAx5c8AAAABTyrV6w",
+    "number": 1201,
+    "title": "README_pt.md: bring the transport security paragraph up to date with README.md",
+    "url": "https://github.com/libredb/libredb-studio/issues/1201",
+    "repo": "libredb/libredb-studio",
+    "repoUrl": "https://github.com/libredb/libredb-studio",
+    "stars": 911,
+    "language": "TypeScript",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "help wanted",
+      "hacktoberfest"
+    ],
+    "createdAt": "2026-09-29T00:29:50Z",
+    "updatedAt": "2026-09-29T00:29:51Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test docker/sqlite-init/apply-to-libsql.ts",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "docker/sqlite-init/apply-to-libsql.ts",
+      "e2e/libsql-provider.spec.ts",
+      "src/lib/api/require-session.ts"
+    ],
+    "summary": "Fix issue #1201 in libredb/libredb-studio: README_pt.md: bring the transport security paragraph up to date with README.md",
+    "maintainerTurnaroundDays": 0.3,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:03:12.410Z"
+  },
+  {
+    "id": "I_kwDOEBBBF88AAAABTyxcAQ",
+    "number": 207,
+    "title": "Bug in ZScorePostprocessor and RunningZScorePostprocessor: zero variance gives nan, which crashes the ensemblers",
+    "url": "https://github.com/selimfirat/pysad/issues/207",
+    "repo": "selimfirat/pysad",
+    "repoUrl": "https://github.com/selimfirat/pysad",
+    "stars": 294,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T00:42:25Z",
+    "updatedAt": "2026-09-29T00:42:25Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/transform/postprocessing/test_postprocessors.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/transform/postprocessing/test_postprocessors.py"
+    ],
+    "summary": "Fix issue #207 in selimfirat/pysad: Bug in ZScorePostprocessor and RunningZScorePostprocessor: zero variance gives nan, which crashes the ensemblers",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-29T03:03:09.398Z"
+  },
+  {
+    "id": "I_kwDOEBBBF88AAAABTyxciA",
+    "number": 208,
+    "title": "Bug in the score ensemblers: a list of scores raises AttributeError",
+    "url": "https://github.com/selimfirat/pysad/issues/208",
+    "repo": "selimfirat/pysad",
+    "repoUrl": "https://github.com/selimfirat/pysad",
+    "stars": 294,
+    "language": "Python",
+    "labels": [
+      "bug",
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T00:42:26Z",
+    "updatedAt": "2026-09-29T00:42:26Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pytest tests/transform/ensemble/test_ensemblers.py",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "tests/transform/ensemble/test_ensemblers.py"
+    ],
+    "summary": "Fix issue #208 in selimfirat/pysad: Bug in the score ensemblers: a list of scores raises AttributeError",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-29T03:03:08.769Z"
+  },
+  {
+    "id": "I_kwDOPt_W1s8AAAABTy1jVw",
+    "number": 1107,
+    "title": "move specs to docs",
+    "url": "https://github.com/F3-Nation/f3-nation/issues/1107",
+    "repo": "F3-Nation/f3-nation",
+    "repoUrl": "https://github.com/F3-Nation/f3-nation",
+    "stars": 208,
+    "language": "TypeScript",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T00:50:58Z",
+    "updatedAt": "2026-09-29T00:50:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #1107 in F3-Nation/f3-nation: move specs to docs",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:03:08.126Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTy4wxA",
+    "number": 31233,
+    "title": "[good first issue] 🎋 Add new Japanese Idiom 275 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31233",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3506,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-29T00:57:33Z",
+    "updatedAt": "2026-09-29T00:57:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-idioms.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-idioms.json"
+    ],
+    "summary": "Fix issue #31233 in lingdojo/kana-dojo: [good first issue] 🎋 Add new Japanese Idiom 275 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:03:06.895Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTy6VEw",
+    "number": 31234,
+    "title": "[good first issue] 🎌 Add new Dialect Entry 1018 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31234",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3506,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-29T01:00:58Z",
+    "updatedAt": "2026-09-29T01:01:02Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-regional-dialects.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-regional-dialects.json"
+    ],
+    "summary": "Fix issue #31234 in lingdojo/kana-dojo: [good first issue] 🎌 Add new Dialect Entry 1018 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:03:05.182Z"
+  },
+  {
+    "id": "I_kwDOCgXdUM8AAAABTzGltA",
+    "number": 837,
+    "title": "Test class namespace collision",
+    "url": "https://github.com/thecodingmachine/graphqlite/issues/837",
+    "repo": "thecodingmachine/graphqlite",
+    "repoUrl": "https://github.com/thecodingmachine/graphqlite",
+    "stars": 577,
+    "language": "MDX",
+    "labels": [
+      "good first issue"
+    ],
+    "createdAt": "2026-09-29T01:24:51Z",
+    "updatedAt": "2026-09-29T01:25:03Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": null,
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "src/index"
+    ],
+    "summary": "Fix issue #837 in thecodingmachine/graphqlite: Test class namespace collision",
+    "maintainerTurnaroundDays": 7,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-29T03:03:03.414Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTzW7Iw",
+    "number": 31235,
+    "title": "[good first issue] 🍚 Add new False Friend Pair 754 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31235",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3506,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-29T01:57:39Z",
+    "updatedAt": "2026-09-29T01:57:43Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-false-friends.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-false-friends.json"
+    ],
+    "summary": "Fix issue #31235 in lingdojo/kana-dojo: [good first issue] 🍚 Add new False Friend Pair 754 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:03:01.741Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTzYcoA",
+    "number": 31236,
+    "title": "[good first issue] 🍡 Add new Etiquette Tip 453 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31236",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3506,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-29T02:01:00Z",
+    "updatedAt": "2026-09-29T02:01:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-cultural-etiquette.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-cultural-etiquette.json"
+    ],
+    "summary": "Fix issue #31236 in lingdojo/kana-dojo: [good first issue] 🍡 Add new Etiquette Tip 453 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:02:59.743Z"
+  },
+  {
+    "id": "I_kwDOJLUvb88AAAABTzdYzA",
+    "number": 4328,
+    "title": "Python SDK: expose delete_segments",
+    "url": "https://github.com/apache/iggy/issues/4328",
+    "repo": "apache/iggy",
+    "repoUrl": "https://github.com/apache/iggy",
+    "stars": 4963,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "python"
+    ],
+    "createdAt": "2026-09-29T02:11:04Z",
+    "updatedAt": "2026-09-29T02:11:04Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test segment_client",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "core/common/src/traits/segment_client.rs",
+      "foreign/python/src/client.rs"
+    ],
+    "summary": "Fix issue #4328 in apache/iggy: Python SDK: expose delete_segments",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-29T03:02:58.115Z"
+  },
+  {
+    "id": "I_kwDOJLUvb88AAAABTzfOFA",
+    "number": 4329,
+    "title": "Java SDK: add purgeStream and purgeTopic",
+    "url": "https://github.com/apache/iggy/issues/4329",
+    "repo": "apache/iggy",
+    "repoUrl": "https://github.com/apache/iggy",
+    "stars": 4963,
+    "language": "Rust",
+    "labels": [
+      "good first issue",
+      "java"
+    ],
+    "createdAt": "2026-09-29T02:14:41Z",
+    "updatedAt": "2026-09-29T02:14:41Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "cargo test --test stream_client",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "core/common/src/traits/stream_client.rs"
+    ],
+    "summary": "Fix issue #4329 in apache/iggy: Java SDK: add purgeStream and purgeTopic",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "master",
+    "discoveredAt": "2026-09-29T03:02:55.372Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTz0ccw",
+    "number": 31238,
+    "title": "[good first issue] 🎋 Add new Example Sentence 834 (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31238",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3506,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-29T02:57:32Z",
+    "updatedAt": "2026-09-29T02:57:36Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/japanese-example-sentences.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/japanese-example-sentences.json"
+    ],
+    "summary": "Fix issue #31238 in lingdojo/kana-dojo: [good first issue] 🎋 Add new Example Sentence 834 (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:02:52.529Z"
+  },
+  {
+    "id": "I_kwDOOwsln88AAAABTz1_yg",
+    "number": 31239,
+    "title": "[good first issue] 🌋 Add new Theme: Starry Tanabata (good-first-issue)",
+    "url": "https://github.com/lingdojo/kana-dojo/issues/31239",
+    "repo": "lingdojo/kana-dojo",
+    "repoUrl": "https://github.com/lingdojo/kana-dojo",
+    "stars": 3506,
+    "language": "TypeScript",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "community",
+      "low hanging fruit",
+      "up-for-grabs",
+      "first-timers-only",
+      "good-first-issue"
+    ],
+    "createdAt": "2026-09-29T03:00:55Z",
+    "updatedAt": "2026-09-29T03:00:58Z",
+    "blastRadius": "Medium",
+    "blastRadiusReason": "Requires modifying standard application logic across several files.",
+    "setupFriction": "Standard",
+    "quickReproCommand": "pnpm test community/content/community-themes.json",
+    "solvabilityScore": 6,
+    "keyFiles": [
+      "community/content/community-themes.json"
+    ],
+    "summary": "Fix issue #31239 in lingdojo/kana-dojo: [good first issue] 🌋 Add new Theme: Starry Tanabata (good-first-issue)",
+    "maintainerTurnaroundDays": 0,
+    "defaultBranch": "main",
+    "discoveredAt": "2026-09-29T03:02:50.823Z"
+  },
+  {
     "id": "I_kwDOAEs8nM8AAAABTwkdQA",
     "number": 5924,
     "title": "modbus: Requests get logged even if request body triggers violation",
@@ -269,35 +740,6 @@
     "discoveredAt": "2026-09-28T22:43:23.571Z"
   },
   {
-    "id": "I_kwDODf3ZCM8AAAABTxU2UQ",
-    "number": 17060,
-    "title": "Use one source for country names: Regions list and details currently disagree",
-    "url": "https://github.com/medusajs/medusa/issues/17060",
-    "repo": "medusajs/medusa",
-    "repoUrl": "https://github.com/medusajs/medusa",
-    "stars": 36507,
-    "language": "TypeScript",
-    "labels": [
-      "good first issue",
-      "type: bug"
-    ],
-    "createdAt": "2026-09-28T21:54:13Z",
-    "updatedAt": "2026-09-28T21:57:23Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Local DB required",
-    "quickReproCommand": "pnpm test packages/admin/dashboard/src/components/table/table-cells/region/countries-cell/countries-cell.tsx",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "packages/admin/dashboard/src/components/table/table-cells/region/countries-cell/countries-cell.tsx",
-      "packages/modules/region/src/loaders/defaults.ts"
-    ],
-    "summary": "Fix issue #17060 in medusajs/medusa: Use one source for country names: Regions list and details currently disagree",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "develop",
-    "discoveredAt": "2026-09-28T22:43:21.693Z"
-  },
-  {
     "id": "I_kwDOOwsln88AAAABTxW91A",
     "number": 31226,
     "title": "[good first issue] 🎌 Add new Theme: Sushi Counter (good-first-issue)",
@@ -423,38 +865,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-28T22:43:08.028Z"
-  },
-  {
-    "id": "I_kwDOMdP6aM8AAAABTxqDjw",
-    "number": 1939,
-    "title": "GET /license/status returns 500 instead of clock_untrusted when the clock is behind",
-    "url": "https://github.com/MODSetter/SurfSense/issues/1939",
-    "repo": "MODSetter/SurfSense",
-    "repoUrl": "https://github.com/MODSetter/SurfSense",
-    "stars": 16277,
-    "language": "Python",
-    "labels": [
-      "bug",
-      "help wanted",
-      "good first issue",
-      "desktop"
-    ],
-    "createdAt": "2026-09-28T22:29:05Z",
-    "updatedAt": "2026-09-28T22:29:05Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pytest surfsense_local/backend/modules/license/service.py",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "surfsense_local/backend/modules/license/service.py",
-      "surfsense_local/backend/modules/license/verify.py",
-      "surfsense_local/backend/tests/integration/license/test_license.py"
-    ],
-    "summary": "Fix issue #1939 in MODSetter/SurfSense: GET /license/status returns 500 instead of clock_untrusted when the clock is behind",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T22:43:00.274Z"
   },
   {
     "id": "I_kwDOMdP6aM8AAAABTxqHNA",
@@ -651,40 +1061,6 @@
     "maintainerTurnaroundDays": 0,
     "defaultBranch": "main",
     "discoveredAt": "2026-09-28T12:13:34.951Z"
-  },
-  {
-    "id": "I_kwDOOwsln88AAAABTmMXhQ",
-    "number": 31164,
-    "title": "[good first issue] 🦑 Add new Anime Quote 865 (good-first-issue)",
-    "url": "https://github.com/lingdojo/kana-dojo/issues/31164",
-    "repo": "lingdojo/kana-dojo",
-    "repoUrl": "https://github.com/lingdojo/kana-dojo",
-    "stars": 3502,
-    "language": "TypeScript",
-    "labels": [
-      "help wanted",
-      "good first issue",
-      "hacktoberfest",
-      "community",
-      "low hanging fruit",
-      "up-for-grabs",
-      "first-timers-only",
-      "good-first-issue"
-    ],
-    "createdAt": "2026-09-28T06:01:02Z",
-    "updatedAt": "2026-09-28T06:01:06Z",
-    "blastRadius": "Medium",
-    "blastRadiusReason": "Requires modifying standard application logic across several files.",
-    "setupFriction": "Standard",
-    "quickReproCommand": "pnpm test community/content/anime-quotes.json",
-    "solvabilityScore": 6,
-    "keyFiles": [
-      "community/content/anime-quotes.json"
-    ],
-    "summary": "Fix issue #31164 in lingdojo/kana-dojo: [good first issue] 🦑 Add new Anime Quote 865 (good-first-issue)",
-    "maintainerTurnaroundDays": 0,
-    "defaultBranch": "main",
-    "discoveredAt": "2026-09-28T12:13:33.525Z"
   },
   {
     "id": "I_kwDOOwsln88AAAABTmsq9g",
